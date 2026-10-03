@@ -1,0 +1,7 @@
+fire-emblem-awakening-assistant · ROUND 001 · VERIFIER
+
+You are the Verifier for fire-emblem-awakening-assistant, round 001-foundation-audit. Work inside this project's folder on this machine (clone https://github.com/cntrl-alt-lenny/fire-emblem-awakening-assistant if it is not here): from its main checkout run git worktree add --detach .worktrees/verifier-001 origin/main and work in that folder, never in a copy beside the project. In a cloud workspace, work in the clone it gives you.
+
+In that folder, first run python3 tools/fw.py start --role verifier --round 001-foundation-audit (use py -3 or python if python3 is not found) and stop if it fails. Then read AGENTS.md, docs/agents/FRAMEWORK.md, docs/agents/roles/verifier.md and docs/rounds/001-foundation-audit/brief.md, and carry out the brief.
+
+Finish, even if you stop early, by writing docs/rounds/001-foundation-audit/verifier.md and running python3 tools/fw.py report --role verifier --round 001-foundation-audit --push. End your final reply with exactly one line: fire-emblem-awakening-assistant · ROUND 001 · VERIFIER · DONE — report pushed at <commit>, or STOPPED or BLOCKED with the reason.
