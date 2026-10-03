@@ -1,0 +1,73 @@
+Against base canonical/author inputs, after adding the three new regressions.
+Command: python3 -m unittest discover -s tests -p test_chapter17_provenance.py -v
+test_fresh_authoring_preserves_inventory_notes_and_claims (test_chapter17_provenance.Chapter17ProvenanceTests) ... FAIL
+test_inventory_attribution_and_unresolved_central (test_chapter17_provenance.Chapter17ProvenanceTests) ... FAIL
+test_query_does_not_promote_central_inventory (test_chapter17_provenance.Chapter17ProvenanceTests) ... 
+======================================================================
+FAIL: test_fresh_authoring_preserves_inventory_notes_and_claims (test_chapter17_provenance.Chapter17ProvenanceTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_chapter17_provenance.py", line 76, in test_fresh_authoring_preserves_inventory_notes_and_claims
+    self.assertEqual(generated[key]['units']['source_ids'], ['hr_fandom17'])
+AssertionError: Lists differ: ['hr_fandom17', 'p2_guide_16_2', 'hr_jp_17'] != ['hr_fandom17']
+
+First list contains 2 additional elements.
+First extra element 1:
+'p2_guide_16_2'
+
+- ['hr_fandom17', 'p2_guide_16_2', 'hr_jp_17']
++ ['hr_fandom17']
+
+======================================================================
+FAIL: test_inventory_attribution_and_unresolved_central (test_chapter17_provenance.Chapter17ProvenanceTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_chapter17_provenance.py", line 27, in test_inventory_attribution_and_unresolved_central
+    self.assertEqual(units['source_ids'], ['hr_fandom17'])
+AssertionError: Lists differ: ['hr_fandom17', 'p2_guide_16_2', 'hr_jp_17'] != ['hr_fandom17']
+
+First list contains 2 additional elements.
+First extra element 1:
+'p2_guide_16_2'
+
+- ['hr_fandom17', 'p2_guide_16_2', 'hr_jp_17']
++ ['hr_fandom17']
+
+======================================================================
+FAIL: test_query_does_not_promote_central_inventory (test_chapter17_provenance.Chapter17ProvenanceTests) (turn=8, phase='player')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_chapter17_provenance.py", line 47, in test_query_does_not_promote_central_inventory
+    self.assertIsNone(central['units']['value'])
+AssertionError: [{'count': 3, 'class_id': 'hero', 'equipment': ['silver_sword'], 'level': None, 'location': None}, {'count': 2, 'class_id': 'war_monk', 'equipment': ['silver_axe'], 'level': None, 'location': None}, {'count': 1, 'class_id': 'sniper', 'equipment': ['silver_bow'], 'level': None, 'location': None}] is not None
+
+======================================================================
+FAIL: test_query_does_not_promote_central_inventory (test_chapter17_provenance.Chapter17ProvenanceTests) (turn=8, phase='enemy')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_chapter17_provenance.py", line 47, in test_query_does_not_promote_central_inventory
+    self.assertIsNone(central['units']['value'])
+AssertionError: [{'count': 3, 'class_id': 'hero', 'equipment': ['silver_sword'], 'level': None, 'location': None}, {'count': 2, 'class_id': 'war_monk', 'equipment': ['silver_axe'], 'level': None, 'location': None}, {'count': 1, 'class_id': 'sniper', 'equipment': ['silver_bow'], 'level': None, 'location': None}] is not None
+
+======================================================================
+FAIL: test_query_does_not_promote_central_inventory (test_chapter17_provenance.Chapter17ProvenanceTests) (turn=9, phase='player')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_chapter17_provenance.py", line 47, in test_query_does_not_promote_central_inventory
+    self.assertIsNone(central['units']['value'])
+AssertionError: [{'count': 3, 'class_id': 'hero', 'equipment': ['silver_sword'], 'level': None, 'location': None}, {'count': 2, 'class_id': 'war_monk', 'equipment': ['silver_axe'], 'level': None, 'location': None}, {'count': 1, 'class_id': 'sniper', 'equipment': ['silver_bow'], 'level': None, 'location': None}] is not None
+
+======================================================================
+FAIL: test_query_does_not_promote_central_inventory (test_chapter17_provenance.Chapter17ProvenanceTests) (turn=10, phase='player')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_chapter17_provenance.py", line 47, in test_query_does_not_promote_central_inventory
+    self.assertIsNone(central['units']['value'])
+AssertionError: [{'count': 3, 'class_id': 'hero', 'equipment': ['silver_sword'], 'level': None, 'location': None}, {'count': 2, 'class_id': 'war_monk', 'equipment': ['silver_axe'], 'level': None, 'location': None}, {'count': 1, 'class_id': 'sniper', 'equipment': ['silver_bow'], 'level': None, 'location': None}] is not None
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.105s
+
+FAILED (failures=6)
+
+Exit: 1

@@ -55,7 +55,7 @@ def main():
 def source_docs(sm,added):
  p=ROOT/'SOURCES.md';text=p.read_text();mark='\n## Hard / Classic forensic source additions'
  text=text.split(mark)[0]
- lines=[mark,'','Accessed 2026-10-02. '+str(len(added))+' registry IDs added; repeated publishers/URLs are not independent sources. `data/sources.json` is authoritative. Existing Serenes Forest recruitment/mechanics and chapter catalog are reused; no new Lunatic data imported.','','| ID | Source | Extracted scope | Limits |','|---|---|---|---|']
+ lines=[mark,'','Original additions accessed 2026-10-02; Chapter 17 inventory provenance revisited 2026-10-03 (individual dates in registry). '+str(len(added))+' registry IDs added; repeated publishers/URLs are not independent sources. `data/sources.json` is authoritative. Existing Serenes Forest recruitment/mechanics and chapter catalog are reused; no new Lunatic data imported.','','| ID | Source | Extracted scope | Limits |','|---|---|---|---|']
  for row in added:lines.append('| '+row['id']+' | ['+row['name']+']('+row['url']+') | '+', '.join(row['scope']).replace('|','/')+' | '+row['limitations'].replace('|','/')+' |')
  lines+=['','Evidence families: Gamer Guides/mirrors = one; indexed Fandom rows = one secondary editorial family; explicit Pegasus Knight Hard comments = original observational reports with Japanese-release limits; GBAtemp = independent player corroboration. No full copyrighted guide pages retained. Blocked GameFAQs/Neoseeker/StrategyWiki/Fandom pages were not bypassed. No gameplay footage accepted without visible Hard/state evidence. See `research/hard_verification/reviewed.json` for access limits and conflicts.']
  p.write_text(text+'\n'.join(lines)+'\n')

@@ -34,3 +34,7 @@ The machine source registry lists extract IDs, not independent publishers; see S
 - Independent numerical field audit checked15 fields in Iron Sword/Mend/Physic. Full character/class/gender/Robin/child/DLC/SpotPass audits remain partial. Existing availability tags are maintained, not exhaustively recertified.
 
 `research/phase2/reviewed_additions.json`, `normalization_audit.json`, `access_inventory.json`, `final_audit.json` and `docs/map-coverage.md` retain specific evidence, attempts, conflicts and coverage. Zero fully verified map reinforcement schedules remain.
+
+## Chapter 17 inventory provenance — 2026-10-03
+
+The first and second Hard inventories retain four units as single-source Fandom reports; their class/count/equipment claims no longer credit Gamer Guides or Pegasus Knight. The central inherited six-unit literal has no recoverable external origin, while the accessible indexed Hard row reports two units. Neither is selected as actual gameplay: the central inventory is CONFLICTED with a null value and both alternatives in notes. Null is unknown, not zero. Staircase/timing conflict, unknown phase and incomplete schedule remain unchanged. See the [field-level audit](../docs/rounds/005-chapter17-provenance/attachments/inventory-audit.md).

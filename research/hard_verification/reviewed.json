@@ -1911,11 +1911,9 @@
             ],
             "confidence": "SUPPORTED",
             "source_ids": [
-              "hr_fandom17",
-              "p2_guide_16_2",
-              "hr_jp_17"
+              "hr_fandom17"
             ],
-            "notes": "Support applies to the supplied attributes only. Null class/count/equipment/level/location remains UNKNOWN, never absent. Skill rolls and exact enemy forge stats are not established."
+            "notes": "Reported class/count/equipment only: single-source indexed Hard reinforcement turn-8 row (hr_fandom17, accessed 2026-10-03); not independently observed gameplay. Gamer Guides lists no inventory. The Hard-labelled Pegasus 2012-04-27 comment reports four arrivals including a Sniper, but supplies neither all class counts nor equipment and does not identify a table wave unambiguously. Classic/Casual, region/version and event phase are unspecified. Null level/location and unlisted skills/forges remain UNKNOWN. Timing/location conflict and incomplete schedule remain unchanged."
           },
           "spawn_phase": {
             "value": null,
@@ -2027,11 +2025,9 @@
             ],
             "confidence": "SUPPORTED",
             "source_ids": [
-              "hr_fandom17",
-              "p2_guide_16_2",
-              "hr_jp_17"
+              "hr_fandom17"
             ],
-            "notes": "Support applies to the supplied attributes only. Null class/count/equipment/level/location remains UNKNOWN, never absent. Skill rolls and exact enemy forge stats are not established."
+            "notes": "Reported class/count/equipment only: single-source indexed Hard reinforcement turn-9 row (hr_fandom17, accessed 2026-10-03); not independently observed gameplay. Gamer Guides lists no inventory. The Hard-labelled Pegasus 2012-04-27 comment reports four arrivals including a Sniper, but supplies neither all class counts nor equipment and does not identify a table wave unambiguously. Classic/Casual, region/version and event phase are unspecified. Null level/location and unlisted skills/forges remain UNKNOWN. Timing/location conflict and incomplete schedule remain unchanged."
           },
           "spawn_phase": {
             "value": null,
@@ -2112,42 +2108,12 @@
             "notes": null
           },
           "units": {
-            "value": [
-              {
-                "count": 3,
-                "class_id": "hero",
-                "equipment": [
-                  "silver_sword"
-                ],
-                "level": null,
-                "location": null
-              },
-              {
-                "count": 2,
-                "class_id": "war_monk",
-                "equipment": [
-                  "silver_axe"
-                ],
-                "level": null,
-                "location": null
-              },
-              {
-                "count": 1,
-                "class_id": "sniper",
-                "equipment": [
-                  "silver_bow"
-                ],
-                "level": null,
-                "location": null
-              }
-            ],
-            "confidence": "SUPPORTED",
+            "value": null,
+            "confidence": "CONFLICTED",
             "source_ids": [
-              "hr_fandom17",
-              "p2_guide_16_2",
-              "hr_jp_17"
+              "hr_fandom17"
             ],
-            "notes": "Support applies to the supplied attributes only. Null class/count/equipment/level/location remains UNKNOWN, never absent. Skill rolls and exact enemy forge stats are not established."
+            "notes": "Inherited six-unit alternative: 3 Heroes with Silver Sword, 2 War Monks with Silver Axe, 1 Sniper with Silver Bow; earliest recoverable literal is cf17834fd6a8867d06c25faa772a5d8700f32167 author_review.py, with no recoverable external basis. Accessible indexed two-unit alternative: 1 War Monk with Silver Axe and 1 Hero with Silver Sword (Hard reinforcement turn-10 row, accessed 2026-10-03). Neither alternative is selected as actual gameplay; null inventory is UNKNOWN, not zero. hr_fandom17 supports only the indexed alternative. Gamer Guides supplies no inventory; the Hard-labelled Pegasus comment does not enumerate central classes/counts/equipment. Classic/Casual, region/version and this event phase remain unestablished. No complete schedule or safety guarantee."
           },
           "spawn_phase": {
             "value": null,
@@ -4567,13 +4533,13 @@
       "id": "hr_jp_17",
       "name": "Pegasus Knight Awakening wiki — Chapter 17",
       "url": "https://www.pegasusknight.com/wiki/fe13/%E3%83%9E%E3%83%83%E3%83%97%E6%94%BB%E7%95%A5/%E7%AB%A0%E5%88%A5%E6%94%BB%E7%95%A5/17%E7%AB%A0%2B%E6%AD%BB%E3%81%AE%E9%81%8B%E5%91%BD",
-      "accessed": "2026-10-02",
+      "accessed": "2026-10-03",
       "scope": [
         "Explicitly Hard-labelled comments only for mode-specific claims; general objective cross-check where noted"
       ],
       "method": "public_web_reader",
       "evidence_family": "pegasus_original_player_comments",
-      "limitations": "Japanese release. Anonymous dated firsthand comments are observational reports, not independently reproduced tests. Unlabelled enemy tables and end-of-enemy-phase reinforcement tables NOT assigned to Hard."
+      "limitations": "Anonymous dated Hard-labelled comments are observational reports, not independently reproduced tests. Language/date do not establish region/version or Classic/Casual. The 2012-04-27 comment reports four arrivals including a Sniper, without full class counts or equipment; it cannot corroborate each stored inventory. Unlabelled initial enemy tables are not reinforcement inventories and are NOT assigned to Hard. Unlabelled reinforcement comments are NOT assigned to Hard."
     },
     {
       "id": "hr_jp_19",
@@ -4678,9 +4644,9 @@
       "scope": [
         "Reported Hard turn 8 eastern / turn 9 west-central / turn 10 central staircase waves"
       ],
-      "limitations": "Public indexed subsection; subsequent mode boundary lost in excerpt. Later listed turns NOT imported as Hard. First side conflicts with explicitly Hard Japanese observation.",
+      "limitations": "Public indexed Hard subsection revisited 2026-10-03: first/second inventories each four units; central entry reports one War Monk with Silver Axe and one Hero with Silver Sword. Inherited six-unit central inventory has no recoverable external basis; neither alternative is adopted as observed gameplay. Classic/Casual and region/version unspecified. Subsequent mode boundary lost in original excerpt; later listed turns NOT imported as Hard. First side conflicts with explicitly Hard Japanese observation.",
       "method": "public_search_excerpt",
-      "accessed": "2026-10-02",
+      "accessed": "2026-10-03",
       "evidence_family": "fandom_editors"
     },
     {
