@@ -1,0 +1,874 @@
+$ python3 tools/map_info.py --chapter 17 --difficulty hard --turn 5 --phase player
+{
+  "chapter_id": "chapter_17",
+  "difficulty": "Hard",
+  "mode": "Classic",
+  "current_turn": 5,
+  "current_phase": "player",
+  "target_enemy_phase_turn": 5,
+  "map_confidence": "CONFLICTED",
+  "schedule_complete": false,
+  "safe_to_claim_move_safe": false,
+  "known_verified_supported": [
+    {
+      "kind": "map",
+      "label": "objective",
+      "value": "Defeat Pheros",
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_16_2"
+      ],
+      "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+    },
+    {
+      "kind": "map",
+      "label": "deployment",
+      "value": 14,
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "p2_guide_16_2",
+        "p2_guide_scope"
+      ],
+      "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+    },
+    {
+      "kind": "map",
+      "label": "starting_area",
+      "value": "Three southern player groups",
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "p2_guide_16_2",
+        "p2_guide_scope"
+      ],
+      "notes": "Descriptive area only, not a certified coordinate map."
+    },
+    {
+      "kind": "map",
+      "label": "bosses",
+      "value": [
+        {
+          "name": "Pheros",
+          "class_name": "Valkyrie",
+          "level": 12,
+          "equipment_text": "Bolganone, Fortify",
+          "equipment_stats": "UNKNOWN"
+        }
+      ],
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "p2_guide_16_2"
+      ],
+      "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+    },
+    {
+      "kind": "hazards",
+      "label": "1",
+      "value": "Army begins in three southern groups. Multiple staircases spawn enemies; first wave side and exact warning/turn relationship are conflicted.",
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "p2_guide_16_2",
+        "p2_guide_scope"
+      ],
+      "notes": null
+    },
+    {
+      "kind": "activation",
+      "label": "1",
+      "value": "Explicit Hard JP 2014-09-06 report: entering attack range of enemies in upper six rows activates that group. Exact geometric boundary not certified.",
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "hr_jp_17"
+      ],
+      "notes": null
+    },
+    {
+      "kind": "interactables",
+      "label": "1",
+      "value": "Northwest chests include Boots and Seraph Robe; thief threatens loot.",
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "p2_guide_16_2",
+        "p2_guide_scope"
+      ],
+      "notes": null
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_17_first:immediate_action",
+      "value": {
+        "can_move": true,
+        "can_attack": true,
+        "can_kill_on_spawn": true
+      },
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "hr_gg_spawn",
+        "hr_hard_spawn_observation"
+      ],
+      "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_17_second:location",
+      "value": "West-central stairs",
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "hr_fandom17",
+        "p2_guide_16_2",
+        "hr_jp_17"
+      ],
+      "notes": null
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_17_second:units",
+      "value": [
+        {
+          "count": 2,
+          "class_id": "hero",
+          "equipment": [
+            "silver_sword"
+          ],
+          "level": null,
+          "location": null
+        },
+        {
+          "count": 1,
+          "class_id": "sniper",
+          "equipment": [
+            "silver_bow"
+          ],
+          "level": null,
+          "location": null
+        },
+        {
+          "count": 1,
+          "class_id": "war_monk",
+          "equipment": [
+            "silver_axe"
+          ],
+          "level": null,
+          "location": null
+        }
+      ],
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "hr_fandom17",
+        "p2_guide_16_2",
+        "hr_jp_17"
+      ],
+      "notes": "Support applies to the supplied attributes only. Null class/count/equipment/level/location remains UNKNOWN, never absent. Skill rolls and exact enemy forge stats are not established."
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_17_second:immediate_action",
+      "value": {
+        "can_move": true,
+        "can_attack": true,
+        "can_kill_on_spawn": true
+      },
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "hr_gg_spawn",
+        "hr_hard_spawn_observation"
+      ],
+      "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_17_central:location",
+      "value": "Central stairs",
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "hr_fandom17",
+        "p2_guide_16_2",
+        "hr_jp_17"
+      ],
+      "notes": null
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_17_central:units",
+      "value": [
+        {
+          "count": 3,
+          "class_id": "hero",
+          "equipment": [
+            "silver_sword"
+          ],
+          "level": null,
+          "location": null
+        },
+        {
+          "count": 2,
+          "class_id": "war_monk",
+          "equipment": [
+            "silver_axe"
+          ],
+          "level": null,
+          "location": null
+        },
+        {
+          "count": 1,
+          "class_id": "sniper",
+          "equipment": [
+            "silver_bow"
+          ],
+          "level": null,
+          "location": null
+        }
+      ],
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "hr_fandom17",
+        "p2_guide_16_2",
+        "hr_jp_17"
+      ],
+      "notes": "Support applies to the supplied attributes only. Null class/count/equipment/level/location remains UNKNOWN, never absent. Skill rolls and exact enemy forge stats are not established."
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_17_central:immediate_action",
+      "value": {
+        "can_move": true,
+        "can_attack": true,
+        "can_kill_on_spawn": true
+      },
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "hr_gg_spawn",
+        "hr_hard_spawn_observation"
+      ],
+      "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+    }
+  ],
+  "uncertain_partial_conflicted_unknown": [
+    {
+      "kind": "map",
+      "label": "initial_enemies",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [],
+      "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+    },
+    {
+      "kind": "map",
+      "label": "shops",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [],
+      "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+    },
+    {
+      "kind": "conflicts",
+      "label": "1",
+      "value": {
+        "guide_and_index": "Eastern stairs first",
+        "hard_jp_2012_04_27": "Left stairs first, approximately three turns after warning",
+        "resolution": null
+      },
+      "confidence": "CONFLICTED",
+      "source_ids": [
+        "p2_guide_16_2",
+        "hr_fandom17",
+        "hr_jp_17"
+      ],
+      "notes": "Do not convert warning to a certified fixed turn or choose only one side to guard."
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_17_first:timing",
+      "value": {
+        "kind": "conditional_report",
+        "turns": null,
+        "reported_turns": [
+          8
+        ],
+        "event": "After Say’ri warning; exact interval/trigger unresolved",
+        "repeat": null
+      },
+      "confidence": "CONFLICTED",
+      "source_ids": [
+        "hr_fandom17",
+        "p2_guide_16_2",
+        "hr_jp_17"
+      ],
+      "notes": " Wave contains an unresolved disagreement; values are alternatives, not a chosen schedule."
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_17_first:location",
+      "value": "Eastern stairs OR western stairs",
+      "confidence": "CONFLICTED",
+      "source_ids": [
+        "hr_fandom17",
+        "p2_guide_16_2",
+        "hr_jp_17"
+      ],
+      "notes": " Wave contains an unresolved disagreement; values are alternatives, not a chosen schedule."
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_17_first:units",
+      "value": [
+        {
+          "count": 2,
+          "class_id": "hero",
+          "equipment": [
+            "silver_sword"
+          ],
+          "level": null,
+          "location": null
+        },
+        {
+          "count": 1,
+          "class_id": "war_monk",
+          "equipment": [
+            "silver_axe"
+          ],
+          "level": null,
+          "location": null
+        },
+        {
+          "count": 1,
+          "class_id": "sniper",
+          "equipment": [
+            "silver_bow"
+          ],
+          "level": null,
+          "location": null
+        }
+      ],
+      "confidence": "CONFLICTED",
+      "source_ids": [
+        "hr_fandom17",
+        "p2_guide_16_2",
+        "hr_jp_17"
+      ],
+      "notes": "Support applies to the supplied attributes only. Null class/count/equipment/level/location remains UNKNOWN, never absent. Skill rolls and exact enemy forge stats are not established. Wave contains an unresolved disagreement; values are alternatives, not a chosen schedule."
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_17_first:spawn_phase",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [],
+      "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_17_first:coordinates",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [],
+      "notes": null
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_17_first:skills",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [],
+      "notes": null
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_17_first:suppression",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [],
+      "notes": null
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_17_second:timing",
+      "value": {
+        "kind": "conditional_report",
+        "turns": null,
+        "reported_turns": [
+          9
+        ],
+        "event": "After Say’ri warning; exact interval/trigger unresolved",
+        "repeat": null
+      },
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "hr_fandom17",
+        "p2_guide_16_2",
+        "hr_jp_17"
+      ],
+      "notes": null
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_17_second:spawn_phase",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [],
+      "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_17_second:coordinates",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [],
+      "notes": null
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_17_second:skills",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [],
+      "notes": null
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_17_second:suppression",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [],
+      "notes": null
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_17_central:timing",
+      "value": {
+        "kind": "conditional_report",
+        "turns": null,
+        "reported_turns": [
+          10
+        ],
+        "event": "After Say’ri warning; exact interval/trigger unresolved",
+        "repeat": null
+      },
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "hr_fandom17",
+        "p2_guide_16_2",
+        "hr_jp_17"
+      ],
+      "notes": null
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_17_central:spawn_phase",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [],
+      "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_17_central:coordinates",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [],
+      "notes": null
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_17_central:skills",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [],
+      "notes": null
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_17_central:suppression",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [],
+      "notes": null
+    },
+    {
+      "kind": "schedule",
+      "label": "Additional arrivals/events",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_16_2",
+        "p2_guide_scope",
+        "hr_fandom17",
+        "hr_jp_17"
+      ],
+      "notes": "Complete schedule not established. No matching fixed-turn wave does NOT mean no spawn. Conditional and unknown-time families are always retained as possible."
+    },
+    {
+      "kind": "safety",
+      "label": "Complete threat geometry",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_16_2",
+        "p2_guide_scope",
+        "hr_fandom17",
+        "hr_jp_17"
+      ],
+      "notes": "Exact positions, all enemy stats/equipment/skills and event boundaries are not complete. No empty list or zero modeled death chance certifies a move without observed inputs."
+    }
+  ],
+  "candidate_reinforcements": [
+    {
+      "id": "hard_chapter_17_first",
+      "chapter_id": "chapter_17",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "confidence": "CONFLICTED",
+      "source_ids": [
+        "hr_fandom17",
+        "p2_guide_16_2",
+        "hr_jp_17"
+      ],
+      "timing": {
+        "value": {
+          "kind": "conditional_report",
+          "turns": null,
+          "reported_turns": [
+            8
+          ],
+          "event": "After Say’ri warning; exact interval/trigger unresolved",
+          "repeat": null
+        },
+        "confidence": "PARTIAL",
+        "source_ids": [
+          "hr_fandom17",
+          "p2_guide_16_2",
+          "hr_jp_17"
+        ],
+        "notes": null
+      },
+      "location": {
+        "value": "Eastern stairs OR western stairs",
+        "confidence": "CONFLICTED",
+        "source_ids": [
+          "hr_fandom17",
+          "p2_guide_16_2",
+          "hr_jp_17"
+        ],
+        "notes": null
+      },
+      "units": {
+        "value": [
+          {
+            "count": 2,
+            "class_id": "hero",
+            "equipment": [
+              "silver_sword"
+            ],
+            "level": null,
+            "location": null
+          },
+          {
+            "count": 1,
+            "class_id": "war_monk",
+            "equipment": [
+              "silver_axe"
+            ],
+            "level": null,
+            "location": null
+          },
+          {
+            "count": 1,
+            "class_id": "sniper",
+            "equipment": [
+              "silver_bow"
+            ],
+            "level": null,
+            "location": null
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "hr_fandom17",
+          "p2_guide_16_2",
+          "hr_jp_17"
+        ],
+        "notes": "Support applies to the supplied attributes only. Null class/count/equipment/level/location remains UNKNOWN, never absent. Skill rolls and exact enemy forge stats are not established."
+      },
+      "spawn_phase": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+      },
+      "immediate_action": {
+        "value": {
+          "can_move": true,
+          "can_attack": true,
+          "can_kill_on_spawn": true
+        },
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "hr_gg_spawn",
+          "hr_hard_spawn_observation"
+        ],
+        "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+      },
+      "coordinates": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": null
+      },
+      "skills": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": null
+      },
+      "suppression": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": null
+      },
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "hard_chapter_17_second",
+      "chapter_id": "chapter_17",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "hr_fandom17",
+        "p2_guide_16_2",
+        "hr_jp_17"
+      ],
+      "timing": {
+        "value": {
+          "kind": "conditional_report",
+          "turns": null,
+          "reported_turns": [
+            9
+          ],
+          "event": "After Say’ri warning; exact interval/trigger unresolved",
+          "repeat": null
+        },
+        "confidence": "PARTIAL",
+        "source_ids": [
+          "hr_fandom17",
+          "p2_guide_16_2",
+          "hr_jp_17"
+        ],
+        "notes": null
+      },
+      "location": {
+        "value": "West-central stairs",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "hr_fandom17",
+          "p2_guide_16_2",
+          "hr_jp_17"
+        ],
+        "notes": null
+      },
+      "units": {
+        "value": [
+          {
+            "count": 2,
+            "class_id": "hero",
+            "equipment": [
+              "silver_sword"
+            ],
+            "level": null,
+            "location": null
+          },
+          {
+            "count": 1,
+            "class_id": "sniper",
+            "equipment": [
+              "silver_bow"
+            ],
+            "level": null,
+            "location": null
+          },
+          {
+            "count": 1,
+            "class_id": "war_monk",
+            "equipment": [
+              "silver_axe"
+            ],
+            "level": null,
+            "location": null
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "hr_fandom17",
+          "p2_guide_16_2",
+          "hr_jp_17"
+        ],
+        "notes": "Support applies to the supplied attributes only. Null class/count/equipment/level/location remains UNKNOWN, never absent. Skill rolls and exact enemy forge stats are not established."
+      },
+      "spawn_phase": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+      },
+      "immediate_action": {
+        "value": {
+          "can_move": true,
+          "can_attack": true,
+          "can_kill_on_spawn": true
+        },
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "hr_gg_spawn",
+          "hr_hard_spawn_observation"
+        ],
+        "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+      },
+      "coordinates": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": null
+      },
+      "skills": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": null
+      },
+      "suppression": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": null
+      },
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "hard_chapter_17_central",
+      "chapter_id": "chapter_17",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "hr_fandom17",
+        "p2_guide_16_2",
+        "hr_jp_17"
+      ],
+      "timing": {
+        "value": {
+          "kind": "conditional_report",
+          "turns": null,
+          "reported_turns": [
+            10
+          ],
+          "event": "After Say’ri warning; exact interval/trigger unresolved",
+          "repeat": null
+        },
+        "confidence": "PARTIAL",
+        "source_ids": [
+          "hr_fandom17",
+          "p2_guide_16_2",
+          "hr_jp_17"
+        ],
+        "notes": null
+      },
+      "location": {
+        "value": "Central stairs",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "hr_fandom17",
+          "p2_guide_16_2",
+          "hr_jp_17"
+        ],
+        "notes": null
+      },
+      "units": {
+        "value": [
+          {
+            "count": 3,
+            "class_id": "hero",
+            "equipment": [
+              "silver_sword"
+            ],
+            "level": null,
+            "location": null
+          },
+          {
+            "count": 2,
+            "class_id": "war_monk",
+            "equipment": [
+              "silver_axe"
+            ],
+            "level": null,
+            "location": null
+          },
+          {
+            "count": 1,
+            "class_id": "sniper",
+            "equipment": [
+              "silver_bow"
+            ],
+            "level": null,
+            "location": null
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "hr_fandom17",
+          "p2_guide_16_2",
+          "hr_jp_17"
+        ],
+        "notes": "Support applies to the supplied attributes only. Null class/count/equipment/level/location remains UNKNOWN, never absent. Skill rolls and exact enemy forge stats are not established."
+      },
+      "spawn_phase": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+      },
+      "immediate_action": {
+        "value": {
+          "can_move": true,
+          "can_attack": true,
+          "can_kill_on_spawn": true
+        },
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "hr_gg_spawn",
+          "hr_hard_spawn_observation"
+        ],
+        "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+      },
+      "coordinates": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": null
+      },
+      "skills": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": null
+      },
+      "suppression": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": null
+      },
+      "schedule_completeness": "UNKNOWN"
+    }
+  ],
+  "reinforcement_status": "present",
+  "reinforcement_absence_confidence": null,
+  "absence_reasonably_supported": false,
+  "safe_to_conclude_no_reinforcements": false,
+  "warning": "Known facts are source-supported, not a complete threat map. Hard beginning-enemy-phase spawns can move/attack immediately. Never rely on enemy-phasing an unknown wave.",
+  "absence_limitations": null
+}
+
+exit_status: 0

@@ -1,0 +1,2443 @@
+{
+  "chapter_7_5_player": {
+    "target_enemy_phase_turn": 5,
+    "reinforcement_status": "present",
+    "candidate_reinforcements": [
+      {
+        "id": "hard_chapter_7_t5",
+        "chapter_id": "chapter_7",
+        "difficulty": "Hard",
+        "mode": "Classic",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "reinforcements_early_1",
+          "p2_guide_08_0"
+        ],
+        "timing": {
+          "value": {
+            "kind": "fixed",
+            "turns": [
+              5
+            ],
+            "event": null,
+            "repeat": null
+          },
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "reinforcements_early_1",
+            "p2_guide_08_0"
+          ],
+          "notes": "Exact turn/count/equipment single indexed Hard subsection; western arrival corroborated by guide. Not a certified complete schedule."
+        },
+        "location": {
+          "value": "Western map edge",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "reinforcements_early_1",
+            "p2_guide_08_0"
+          ],
+          "notes": null
+        },
+        "units": {
+          "value": [
+            {
+              "count": 3,
+              "class_id": "wyvern_rider",
+              "equipment": [
+                "steel_axe"
+              ],
+              "level": 7,
+              "location": null
+            }
+          ],
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "reinforcements_early_1",
+            "p2_guide_08_0"
+          ],
+          "notes": "Support applies to the supplied attributes only. Null class/count/equipment/level/location remains UNKNOWN, never absent. Skill rolls and exact enemy forge stats are not established."
+        },
+        "spawn_phase": {
+          "value": "beginning_enemy_phase",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "reinforcements_early_1",
+            "p2_guide_08_0",
+            "hr_gg_spawn"
+          ],
+          "notes": "Ordinary Hard rule applied; map-specific scripted exceptions have not all been excluded."
+        },
+        "immediate_action": {
+          "value": {
+            "can_move": true,
+            "can_attack": true,
+            "can_kill_on_spawn": true
+          },
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "hr_gg_spawn",
+            "hr_hard_spawn_observation"
+          ],
+          "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+        },
+        "coordinates": {
+          "value": null,
+          "confidence": "UNKNOWN",
+          "source_ids": [],
+          "notes": null
+        },
+        "skills": {
+          "value": null,
+          "confidence": "UNKNOWN",
+          "source_ids": [],
+          "notes": null
+        },
+        "suppression": {
+          "value": null,
+          "confidence": "UNKNOWN",
+          "source_ids": [],
+          "notes": null
+        },
+        "schedule_completeness": "UNKNOWN"
+      }
+    ],
+    "safe_to_conclude_no_reinforcements": false,
+    "uncertain_partial_conflicted_unknown": [
+      {
+        "kind": "map",
+        "label": "starting_area",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      {
+        "kind": "map",
+        "label": "initial_enemies",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      {
+        "kind": "map",
+        "label": "shops",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      {
+        "kind": "reinforcement",
+        "label": "hard_chapter_7_t5:coordinates",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": null
+      },
+      {
+        "kind": "reinforcement",
+        "label": "hard_chapter_7_t5:skills",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": null
+      },
+      {
+        "kind": "reinforcement",
+        "label": "hard_chapter_7_t5:suppression",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": null
+      },
+      {
+        "kind": "schedule",
+        "label": "Additional arrivals/events",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_08_0",
+          "p2_guide_scope",
+          "reinforcements_early_1"
+        ],
+        "notes": "Complete schedule not established. No matching fixed-turn wave does NOT mean no spawn. Conditional and unknown-time families are always retained as possible."
+      },
+      {
+        "kind": "safety",
+        "label": "Complete threat geometry",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_08_0",
+          "p2_guide_scope",
+          "reinforcements_early_1"
+        ],
+        "notes": "Exact positions, all enemy stats/equipment/skills and event boundaries are not complete. No empty list or zero modeled death chance certifies a move without observed inputs."
+      }
+    ]
+  },
+  "chapter_7_5_enemy": {
+    "target_enemy_phase_turn": 6,
+    "reinforcement_status": "present",
+    "candidate_reinforcements": [],
+    "safe_to_conclude_no_reinforcements": false,
+    "uncertain_partial_conflicted_unknown": [
+      {
+        "kind": "map",
+        "label": "starting_area",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      {
+        "kind": "map",
+        "label": "initial_enemies",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      {
+        "kind": "map",
+        "label": "shops",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      {
+        "kind": "schedule",
+        "label": "Additional arrivals/events",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_08_0",
+          "p2_guide_scope",
+          "reinforcements_early_1"
+        ],
+        "notes": "Complete schedule not established. No matching fixed-turn wave does NOT mean no spawn. Conditional and unknown-time families are always retained as possible."
+      },
+      {
+        "kind": "safety",
+        "label": "Complete threat geometry",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_08_0",
+          "p2_guide_scope",
+          "reinforcements_early_1"
+        ],
+        "notes": "Exact positions, all enemy stats/equipment/skills and event boundaries are not complete. No empty list or zero modeled death chance certifies a move without observed inputs."
+      }
+    ]
+  },
+  "chapter_15_5_player": {
+    "target_enemy_phase_turn": 5,
+    "reinforcement_status": "none_supported",
+    "candidate_reinforcements": [],
+    "safe_to_conclude_no_reinforcements": false,
+    "uncertain_partial_conflicted_unknown": [
+      {
+        "kind": "map",
+        "label": "starting_area",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      {
+        "kind": "map",
+        "label": "initial_enemies",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      {
+        "kind": "map",
+        "label": "shops",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      {
+        "kind": "safety",
+        "label": "Complete threat geometry",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_16_0",
+          "p2_guide_scope",
+          "hr_jp_15"
+        ],
+        "notes": "Exact positions, all enemy stats/equipment/skills and event boundaries are not complete. No empty list or zero modeled death chance certifies a move without observed inputs."
+      }
+    ]
+  },
+  "chapter_5_5_player": {
+    "target_enemy_phase_turn": 5,
+    "reinforcement_status": "present",
+    "candidate_reinforcements": [
+      {
+        "id": "hard_chapter_5_disputed_schedule",
+        "chapter_id": "chapter_5",
+        "difficulty": "Hard",
+        "mode": "Classic",
+        "confidence": "CONFLICTED",
+        "source_ids": [
+          "reinforcements_early_0",
+          "hr_jp_5",
+          "p2_guide_04_2"
+        ],
+        "timing": {
+          "value": {
+            "kind": "unknown",
+            "turns": null,
+            "event": null,
+            "repeat": null
+          },
+          "confidence": "UNKNOWN",
+          "source_ids": [
+            "reinforcements_early_0",
+            "hr_jp_5",
+            "p2_guide_04_2"
+          ],
+          "notes": "Western indexed Hard table reports turns 3/4/5; explicitly Hard JP 2012-04-19 comment reports a different turn-3 mixture and tentative turn-5 group. Full schedule cannot be selected safely."
+        },
+        "location": {
+          "value": "Forts; northwestern flying approach",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "reinforcements_early_0",
+            "hr_jp_5",
+            "p2_guide_04_2"
+          ],
+          "notes": null
+        },
+        "units": {
+          "value": null,
+          "confidence": "UNKNOWN",
+          "source_ids": [
+            "reinforcements_early_0",
+            "hr_jp_5",
+            "p2_guide_04_2"
+          ],
+          "notes": null
+        },
+        "spawn_phase": {
+          "value": null,
+          "confidence": "UNKNOWN",
+          "source_ids": [],
+          "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+        },
+        "immediate_action": {
+          "value": {
+            "can_move": true,
+            "can_attack": true,
+            "can_kill_on_spawn": true
+          },
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "hr_gg_spawn",
+            "hr_hard_spawn_observation"
+          ],
+          "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+        },
+        "coordinates": {
+          "value": null,
+          "confidence": "UNKNOWN",
+          "source_ids": [],
+          "notes": null
+        },
+        "skills": {
+          "value": null,
+          "confidence": "UNKNOWN",
+          "source_ids": [],
+          "notes": null
+        },
+        "suppression": {
+          "value": null,
+          "confidence": "UNKNOWN",
+          "source_ids": [],
+          "notes": null
+        },
+        "schedule_completeness": "UNKNOWN"
+      }
+    ],
+    "safe_to_conclude_no_reinforcements": false,
+    "uncertain_partial_conflicted_unknown": [
+      {
+        "kind": "map",
+        "label": "initial_enemies",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      {
+        "kind": "map",
+        "label": "shops",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      {
+        "kind": "conflicts",
+        "label": "1",
+        "value": {
+          "western_report": "T3 foot units; T4 two Wyverns northwest; T5 mixed group",
+          "japanese_hard_observation": "T3 two Wyverns plus Barbarian and Myrmidon, central-left; tentative T5 foot units",
+          "resolution": null
+        },
+        "confidence": "CONFLICTED",
+        "source_ids": [
+          "reinforcements_early_0",
+          "hr_jp_5"
+        ],
+        "notes": "Possible region, phase convention or guide error not established. Within western page table/prose also differ on a Dark Mage versus second Barbarian."
+      },
+      {
+        "kind": "reinforcement",
+        "label": "hard_chapter_5_disputed_schedule:timing",
+        "value": {
+          "kind": "unknown",
+          "turns": null,
+          "event": null,
+          "repeat": null
+        },
+        "confidence": "CONFLICTED",
+        "source_ids": [
+          "reinforcements_early_0",
+          "hr_jp_5",
+          "p2_guide_04_2"
+        ],
+        "notes": "Western indexed Hard table reports turns 3/4/5; explicitly Hard JP 2012-04-19 comment reports a different turn-3 mixture and tentative turn-5 group. Full schedule cannot be selected safely. Wave contains an unresolved disagreement; values are alternatives, not a chosen schedule."
+      },
+      {
+        "kind": "reinforcement",
+        "label": "hard_chapter_5_disputed_schedule:location",
+        "value": "Forts; northwestern flying approach",
+        "confidence": "CONFLICTED",
+        "source_ids": [
+          "reinforcements_early_0",
+          "hr_jp_5",
+          "p2_guide_04_2"
+        ],
+        "notes": " Wave contains an unresolved disagreement; values are alternatives, not a chosen schedule."
+      },
+      {
+        "kind": "reinforcement",
+        "label": "hard_chapter_5_disputed_schedule:units",
+        "value": null,
+        "confidence": "CONFLICTED",
+        "source_ids": [
+          "reinforcements_early_0",
+          "hr_jp_5",
+          "p2_guide_04_2"
+        ],
+        "notes": " Wave contains an unresolved disagreement; values are alternatives, not a chosen schedule."
+      },
+      {
+        "kind": "reinforcement",
+        "label": "hard_chapter_5_disputed_schedule:spawn_phase",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+      },
+      {
+        "kind": "reinforcement",
+        "label": "hard_chapter_5_disputed_schedule:coordinates",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": null
+      },
+      {
+        "kind": "reinforcement",
+        "label": "hard_chapter_5_disputed_schedule:skills",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": null
+      },
+      {
+        "kind": "reinforcement",
+        "label": "hard_chapter_5_disputed_schedule:suppression",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": null
+      },
+      {
+        "kind": "schedule",
+        "label": "Additional arrivals/events",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_04_2",
+          "p2_guide_scope",
+          "reinforcements_early_0",
+          "hr_jp_5"
+        ],
+        "notes": "Complete schedule not established. No matching fixed-turn wave does NOT mean no spawn. Conditional and unknown-time families are always retained as possible."
+      },
+      {
+        "kind": "safety",
+        "label": "Complete threat geometry",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_04_2",
+          "p2_guide_scope",
+          "reinforcements_early_0",
+          "hr_jp_5"
+        ],
+        "notes": "Exact positions, all enemy stats/equipment/skills and event boundaries are not complete. No empty list or zero modeled death chance certifies a move without observed inputs."
+      }
+    ]
+  },
+  "chapter_17_5_player": {
+    "target_enemy_phase_turn": 5,
+    "reinforcement_status": "present",
+    "candidate_reinforcements": [
+      {
+        "id": "hard_chapter_17_first",
+        "chapter_id": "chapter_17",
+        "difficulty": "Hard",
+        "mode": "Classic",
+        "confidence": "CONFLICTED",
+        "source_ids": [
+          "hr_fandom17",
+          "p2_guide_16_2",
+          "hr_jp_17"
+        ],
+        "timing": {
+          "value": {
+            "kind": "conditional_report",
+            "turns": null,
+            "reported_turns": [
+              8
+            ],
+            "event": "After Say\u2019ri warning; exact interval/trigger unresolved",
+            "repeat": null
+          },
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "hr_fandom17",
+            "p2_guide_16_2",
+            "hr_jp_17"
+          ],
+          "notes": null
+        },
+        "location": {
+          "value": "Eastern stairs OR western stairs",
+          "confidence": "CONFLICTED",
+          "source_ids": [
+            "hr_fandom17",
+            "p2_guide_16_2",
+            "hr_jp_17"
+          ],
+          "notes": null
+        },
+        "units": {
+          "value": [
+            {
+              "count": 2,
+              "class_id": "hero",
+              "equipment": [
+                "silver_sword"
+              ],
+              "level": null,
+              "location": null
+            },
+            {
+              "count": 1,
+              "class_id": "war_monk",
+              "equipment": [
+                "silver_axe"
+              ],
+              "level": null,
+              "location": null
+            },
+            {
+              "count": 1,
+              "class_id": "sniper",
+              "equipment": [
+                "silver_bow"
+              ],
+              "level": null,
+              "location": null
+            }
+          ],
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "hr_fandom17",
+            "p2_guide_16_2",
+            "hr_jp_17"
+          ],
+          "notes": "Support applies to the supplied attributes only. Null class/count/equipment/level/location remains UNKNOWN, never absent. Skill rolls and exact enemy forge stats are not established."
+        },
+        "spawn_phase": {
+          "value": null,
+          "confidence": "UNKNOWN",
+          "source_ids": [],
+          "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+        },
+        "immediate_action": {
+          "value": {
+            "can_move": true,
+            "can_attack": true,
+            "can_kill_on_spawn": true
+          },
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "hr_gg_spawn",
+            "hr_hard_spawn_observation"
+          ],
+          "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+        },
+        "coordinates": {
+          "value": null,
+          "confidence": "UNKNOWN",
+          "source_ids": [],
+          "notes": null
+        },
+        "skills": {
+          "value": null,
+          "confidence": "UNKNOWN",
+          "source_ids": [],
+          "notes": null
+        },
+        "suppression": {
+          "value": null,
+          "confidence": "UNKNOWN",
+          "source_ids": [],
+          "notes": null
+        },
+        "schedule_completeness": "UNKNOWN"
+      },
+      {
+        "id": "hard_chapter_17_second",
+        "chapter_id": "chapter_17",
+        "difficulty": "Hard",
+        "mode": "Classic",
+        "confidence": "PARTIAL",
+        "source_ids": [
+          "hr_fandom17",
+          "p2_guide_16_2",
+          "hr_jp_17"
+        ],
+        "timing": {
+          "value": {
+            "kind": "conditional_report",
+            "turns": null,
+            "reported_turns": [
+              9
+            ],
+            "event": "After Say\u2019ri warning; exact interval/trigger unresolved",
+            "repeat": null
+          },
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "hr_fandom17",
+            "p2_guide_16_2",
+            "hr_jp_17"
+          ],
+          "notes": null
+        },
+        "location": {
+          "value": "West-central stairs",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "hr_fandom17",
+            "p2_guide_16_2",
+            "hr_jp_17"
+          ],
+          "notes": null
+        },
+        "units": {
+          "value": [
+            {
+              "count": 2,
+              "class_id": "hero",
+              "equipment": [
+                "silver_sword"
+              ],
+              "level": null,
+              "location": null
+            },
+            {
+              "count": 1,
+              "class_id": "sniper",
+              "equipment": [
+                "silver_bow"
+              ],
+              "level": null,
+              "location": null
+            },
+            {
+              "count": 1,
+              "class_id": "war_monk",
+              "equipment": [
+                "silver_axe"
+              ],
+              "level": null,
+              "location": null
+            }
+          ],
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "hr_fandom17",
+            "p2_guide_16_2",
+            "hr_jp_17"
+          ],
+          "notes": "Support applies to the supplied attributes only. Null class/count/equipment/level/location remains UNKNOWN, never absent. Skill rolls and exact enemy forge stats are not established."
+        },
+        "spawn_phase": {
+          "value": null,
+          "confidence": "UNKNOWN",
+          "source_ids": [],
+          "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+        },
+        "immediate_action": {
+          "value": {
+            "can_move": true,
+            "can_attack": true,
+            "can_kill_on_spawn": true
+          },
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "hr_gg_spawn",
+            "hr_hard_spawn_observation"
+          ],
+          "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+        },
+        "coordinates": {
+          "value": null,
+          "confidence": "UNKNOWN",
+          "source_ids": [],
+          "notes": null
+        },
+        "skills": {
+          "value": null,
+          "confidence": "UNKNOWN",
+          "source_ids": [],
+          "notes": null
+        },
+        "suppression": {
+          "value": null,
+          "confidence": "UNKNOWN",
+          "source_ids": [],
+          "notes": null
+        },
+        "schedule_completeness": "UNKNOWN"
+      },
+      {
+        "id": "hard_chapter_17_central",
+        "chapter_id": "chapter_17",
+        "difficulty": "Hard",
+        "mode": "Classic",
+        "confidence": "PARTIAL",
+        "source_ids": [
+          "hr_fandom17",
+          "p2_guide_16_2",
+          "hr_jp_17"
+        ],
+        "timing": {
+          "value": {
+            "kind": "conditional_report",
+            "turns": null,
+            "reported_turns": [
+              10
+            ],
+            "event": "After Say\u2019ri warning; exact interval/trigger unresolved",
+            "repeat": null
+          },
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "hr_fandom17",
+            "p2_guide_16_2",
+            "hr_jp_17"
+          ],
+          "notes": null
+        },
+        "location": {
+          "value": "Central stairs",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "hr_fandom17",
+            "p2_guide_16_2",
+            "hr_jp_17"
+          ],
+          "notes": null
+        },
+        "units": {
+          "value": [
+            {
+              "count": 3,
+              "class_id": "hero",
+              "equipment": [
+                "silver_sword"
+              ],
+              "level": null,
+              "location": null
+            },
+            {
+              "count": 2,
+              "class_id": "war_monk",
+              "equipment": [
+                "silver_axe"
+              ],
+              "level": null,
+              "location": null
+            },
+            {
+              "count": 1,
+              "class_id": "sniper",
+              "equipment": [
+                "silver_bow"
+              ],
+              "level": null,
+              "location": null
+            }
+          ],
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "hr_fandom17",
+            "p2_guide_16_2",
+            "hr_jp_17"
+          ],
+          "notes": "Support applies to the supplied attributes only. Null class/count/equipment/level/location remains UNKNOWN, never absent. Skill rolls and exact enemy forge stats are not established."
+        },
+        "spawn_phase": {
+          "value": null,
+          "confidence": "UNKNOWN",
+          "source_ids": [],
+          "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+        },
+        "immediate_action": {
+          "value": {
+            "can_move": true,
+            "can_attack": true,
+            "can_kill_on_spawn": true
+          },
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "hr_gg_spawn",
+            "hr_hard_spawn_observation"
+          ],
+          "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+        },
+        "coordinates": {
+          "value": null,
+          "confidence": "UNKNOWN",
+          "source_ids": [],
+          "notes": null
+        },
+        "skills": {
+          "value": null,
+          "confidence": "UNKNOWN",
+          "source_ids": [],
+          "notes": null
+        },
+        "suppression": {
+          "value": null,
+          "confidence": "UNKNOWN",
+          "source_ids": [],
+          "notes": null
+        },
+        "schedule_completeness": "UNKNOWN"
+      }
+    ],
+    "safe_to_conclude_no_reinforcements": false,
+    "uncertain_partial_conflicted_unknown": [
+      {
+        "kind": "map",
+        "label": "initial_enemies",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      {
+        "kind": "map",
+        "label": "shops",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      {
+        "kind": "conflicts",
+        "label": "1",
+        "value": {
+          "guide_and_index": "Eastern stairs first",
+          "hard_jp_2012_04_27": "Left stairs first, approximately three turns after warning",
+          "resolution": null
+        },
+        "confidence": "CONFLICTED",
+        "source_ids": [
+          "p2_guide_16_2",
+          "hr_fandom17",
+          "hr_jp_17"
+        ],
+        "notes": "Do not convert warning to a certified fixed turn or choose only one side to guard."
+      },
+      {
+        "kind": "reinforcement",
+        "label": "hard_chapter_17_first:timing",
+        "value": {
+          "kind": "conditional_report",
+          "turns": null,
+          "reported_turns": [
+            8
+          ],
+          "event": "After Say\u2019ri warning; exact interval/trigger unresolved",
+          "repeat": null
+        },
+        "confidence": "CONFLICTED",
+        "source_ids": [
+          "hr_fandom17",
+          "p2_guide_16_2",
+          "hr_jp_17"
+        ],
+        "notes": " Wave contains an unresolved disagreement; values are alternatives, not a chosen schedule."
+      },
+      {
+        "kind": "reinforcement",
+        "label": "hard_chapter_17_first:location",
+        "value": "Eastern stairs OR western stairs",
+        "confidence": "CONFLICTED",
+        "source_ids": [
+          "hr_fandom17",
+          "p2_guide_16_2",
+          "hr_jp_17"
+        ],
+        "notes": " Wave contains an unresolved disagreement; values are alternatives, not a chosen schedule."
+      },
+      {
+        "kind": "reinforcement",
+        "label": "hard_chapter_17_first:units",
+        "value": [
+          {
+            "count": 2,
+            "class_id": "hero",
+            "equipment": [
+              "silver_sword"
+            ],
+            "level": null,
+            "location": null
+          },
+          {
+            "count": 1,
+            "class_id": "war_monk",
+            "equipment": [
+              "silver_axe"
+            ],
+            "level": null,
+            "location": null
+          },
+          {
+            "count": 1,
+            "class_id": "sniper",
+            "equipment": [
+              "silver_bow"
+            ],
+            "level": null,
+            "location": null
+          }
+        ],
+        "confidence": "CONFLICTED",
+        "source_ids": [
+          "hr_fandom17",
+          "p2_guide_16_2",
+          "hr_jp_17"
+        ],
+        "notes": "Support applies to the supplied attributes only. Null class/count/equipment/level/location remains UNKNOWN, never absent. Skill rolls and exact enemy forge stats are not established. Wave contains an unresolved disagreement; values are alternatives, not a chosen schedule."
+      },
+      {
+        "kind": "reinforcement",
+        "label": "hard_chapter_17_first:spawn_phase",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+      },
+      {
+        "kind": "reinforcement",
+        "label": "hard_chapter_17_first:coordinates",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": null
+      },
+      {
+        "kind": "reinforcement",
+        "label": "hard_chapter_17_first:skills",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": null
+      },
+      {
+        "kind": "reinforcement",
+        "label": "hard_chapter_17_first:suppression",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": null
+      },
+      {
+        "kind": "reinforcement",
+        "label": "hard_chapter_17_second:timing",
+        "value": {
+          "kind": "conditional_report",
+          "turns": null,
+          "reported_turns": [
+            9
+          ],
+          "event": "After Say\u2019ri warning; exact interval/trigger unresolved",
+          "repeat": null
+        },
+        "confidence": "PARTIAL",
+        "source_ids": [
+          "hr_fandom17",
+          "p2_guide_16_2",
+          "hr_jp_17"
+        ],
+        "notes": null
+      },
+      {
+        "kind": "reinforcement",
+        "label": "hard_chapter_17_second:spawn_phase",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+      },
+      {
+        "kind": "reinforcement",
+        "label": "hard_chapter_17_second:coordinates",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": null
+      },
+      {
+        "kind": "reinforcement",
+        "label": "hard_chapter_17_second:skills",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": null
+      },
+      {
+        "kind": "reinforcement",
+        "label": "hard_chapter_17_second:suppression",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": null
+      },
+      {
+        "kind": "reinforcement",
+        "label": "hard_chapter_17_central:timing",
+        "value": {
+          "kind": "conditional_report",
+          "turns": null,
+          "reported_turns": [
+            10
+          ],
+          "event": "After Say\u2019ri warning; exact interval/trigger unresolved",
+          "repeat": null
+        },
+        "confidence": "PARTIAL",
+        "source_ids": [
+          "hr_fandom17",
+          "p2_guide_16_2",
+          "hr_jp_17"
+        ],
+        "notes": null
+      },
+      {
+        "kind": "reinforcement",
+        "label": "hard_chapter_17_central:spawn_phase",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+      },
+      {
+        "kind": "reinforcement",
+        "label": "hard_chapter_17_central:coordinates",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": null
+      },
+      {
+        "kind": "reinforcement",
+        "label": "hard_chapter_17_central:skills",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": null
+      },
+      {
+        "kind": "reinforcement",
+        "label": "hard_chapter_17_central:suppression",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": null
+      },
+      {
+        "kind": "schedule",
+        "label": "Additional arrivals/events",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_16_2",
+          "p2_guide_scope",
+          "hr_fandom17",
+          "hr_jp_17"
+        ],
+        "notes": "Complete schedule not established. No matching fixed-turn wave does NOT mean no spawn. Conditional and unknown-time families are always retained as possible."
+      },
+      {
+        "kind": "safety",
+        "label": "Complete threat geometry",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_16_2",
+          "p2_guide_scope",
+          "hr_fandom17",
+          "hr_jp_17"
+        ],
+        "notes": "Exact positions, all enemy stats/equipment/skills and event boundaries are not complete. No empty list or zero modeled death chance certifies a move without observed inputs."
+      }
+    ]
+  },
+  "chapter_7_99_player": {
+    "target_enemy_phase_turn": 99,
+    "reinforcement_status": "present",
+    "candidate_reinforcements": [],
+    "safe_to_conclude_no_reinforcements": false,
+    "uncertain_partial_conflicted_unknown": [
+      {
+        "kind": "map",
+        "label": "starting_area",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      {
+        "kind": "map",
+        "label": "initial_enemies",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      {
+        "kind": "map",
+        "label": "shops",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      {
+        "kind": "schedule",
+        "label": "Additional arrivals/events",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_08_0",
+          "p2_guide_scope",
+          "reinforcements_early_1"
+        ],
+        "notes": "Complete schedule not established. No matching fixed-turn wave does NOT mean no spawn. Conditional and unknown-time families are always retained as possible."
+      },
+      {
+        "kind": "safety",
+        "label": "Complete threat geometry",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_08_0",
+          "p2_guide_scope",
+          "reinforcements_early_1"
+        ],
+        "notes": "Exact positions, all enemy stats/equipment/skills and event boundaries are not complete. No empty list or zero modeled death chance certifies a move without observed inputs."
+      }
+    ]
+  },
+  "chapter_3_5_player": {
+    "target_enemy_phase_turn": 5,
+    "reinforcement_status": "unknown",
+    "candidate_reinforcements": [],
+    "safe_to_conclude_no_reinforcements": false,
+    "uncertain_partial_conflicted_unknown": [
+      {
+        "kind": "map",
+        "label": "starting_area",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      {
+        "kind": "map",
+        "label": "initial_enemies",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      {
+        "kind": "map",
+        "label": "shops",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      {
+        "kind": "reinforcements",
+        "label": "Existence/absence",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_04_0",
+          "p2_guide_scope"
+        ],
+        "notes": "Sources checked but no reliable explicit presence or absence statement. Silence does not establish absence."
+      },
+      {
+        "kind": "schedule",
+        "label": "Additional arrivals/events",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_04_0",
+          "p2_guide_scope"
+        ],
+        "notes": "Complete schedule not established. No matching fixed-turn wave does NOT mean no spawn. Conditional and unknown-time families are always retained as possible."
+      },
+      {
+        "kind": "safety",
+        "label": "Complete threat geometry",
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_04_0",
+          "p2_guide_scope"
+        ],
+        "notes": "Exact positions, all enemy stats/equipment/skills and event boundaries are not complete. No empty list or zero modeled death chance certifies a move without observed inputs."
+      }
+    ]
+  },
+  "chapter_15_legacy": {
+    "3": [],
+    "4": [],
+    "5": []
+  },
+  "combat": {
+    "baseline": {
+      "input": {
+        "attacker": {
+          "stats": {
+            "hp": 40,
+            "str": 10,
+            "mag": 10,
+            "skl": 0,
+            "spd": 10,
+            "lck": 0,
+            "def": 5,
+            "res": 5
+          },
+          "current_hp": 40,
+          "weapon": {
+            "id": "test",
+            "weapon_type": "sword",
+            "damage_type": "physical",
+            "might": 5,
+            "hit": 100,
+            "crit": 0,
+            "range": "1",
+            "rank": "E",
+            "effect": "\u2013",
+            "brave": false
+          },
+          "weapon_rank": "E",
+          "skills": [],
+          "weaknesses": [],
+          "terrain": {},
+          "combat_bonuses": {},
+          "remaining_uses": 50
+        },
+        "defender": {
+          "stats": {
+            "hp": 40,
+            "str": 10,
+            "mag": 10,
+            "skl": 0,
+            "spd": 10,
+            "lck": 0,
+            "def": 5,
+            "res": 5
+          },
+          "current_hp": 40,
+          "weapon": {
+            "id": "test",
+            "weapon_type": "sword",
+            "damage_type": "physical",
+            "might": 5,
+            "hit": 100,
+            "crit": 0,
+            "range": "1",
+            "rank": "E",
+            "effect": "\u2013",
+            "brave": false
+          },
+          "weapon_rank": "E",
+          "skills": [],
+          "weaknesses": [],
+          "terrain": {},
+          "combat_bonuses": {},
+          "remaining_uses": 50
+        },
+        "context": {
+          "distance": 1
+        },
+        "partners": [],
+        "support_state": "none",
+        "difficulty": "Hard",
+        "mode": "Classic",
+        "stats_basis": "effective_displayed",
+        "observed_inputs_complete": true
+      },
+      "output": {
+        "status": "NO_MODELED_DEATH_IN_THIS_DUEL",
+        "conditional_on_observed_inputs": true,
+        "safe_to_claim_map_survival": false,
+        "attacker_can_die": false,
+        "defender_can_die": false,
+        "worst_attacker_hp": 30,
+        "worst_defender_hp": 30,
+        "forecast": {
+          "scope": "Supported single duel; effective stats supplied; independent uniform RNG model",
+          "source_ids": [
+            "calculations",
+            "true_hit",
+            "p2_skills_game_descriptions_0"
+          ],
+          "attacker": {
+            "can_attack": true,
+            "attack_with_triangle": 15,
+            "defense_used": 5,
+            "displayed_attack": 15,
+            "damage": 10,
+            "damage_scope": "Nominal hit without offensive/defensive procs; full results are in outcome",
+            "critical_damage": 30,
+            "displayed_hit": 85,
+            "true_hit_probability": 0.9565,
+            "crit_raw_base": 0,
+            "crit_percent": 0,
+            "doubles": false,
+            "scheduled_hits": 1,
+            "effective": false,
+            "expected_damage_per_scheduled_hit": 9.565
+          },
+          "defender": {
+            "can_attack": true,
+            "attack_with_triangle": 15,
+            "defense_used": 5,
+            "displayed_attack": 15,
+            "damage": 10,
+            "damage_scope": "Nominal hit without offensive/defensive procs; full results are in outcome",
+            "critical_damage": 30,
+            "displayed_hit": 85,
+            "true_hit_probability": 0.9565,
+            "crit_raw_base": 0,
+            "crit_percent": 0,
+            "doubles": false,
+            "scheduled_hits": 1,
+            "effective": false,
+            "expected_damage_per_scheduled_hit": 9.565
+          },
+          "outcome": {
+            "order": [
+              "a",
+              "b"
+            ],
+            "vantage_active": false,
+            "attacker_death_probability": 0,
+            "defender_death_probability": 0,
+            "expected_attacker_hp": 30.435000000000006,
+            "expected_defender_hp": 30.435000000000006,
+            "minimum_possible_attacker_hp": 30,
+            "minimum_possible_defender_hp": 30,
+            "maximum_possible_attacker_hp": 40,
+            "maximum_possible_defender_hp": 40,
+            "deterministic": false,
+            "states": [
+              {
+                "attacker_hp": 30,
+                "defender_hp": 30,
+                "probability": 0.9148922500000001
+              },
+              {
+                "attacker_hp": 30,
+                "defender_hp": 40,
+                "probability": 0.041607749999999985
+              },
+              {
+                "attacker_hp": 40,
+                "defender_hp": 30,
+                "probability": 0.041607749999999985
+              },
+              {
+                "attacker_hp": 40,
+                "defender_hp": 40,
+                "probability": 0.0018922499999999985
+              }
+            ]
+          },
+          "lethal_risk": false,
+          "certainty": "probability_distribution",
+          "assumptions": [
+            "Effective displayed stats and weapon stats supplied; independent uniform random draws.",
+            "Possible outcomes include criticals and supported procs; expected HP is not a survival guarantee."
+          ]
+        },
+        "outcome": {
+          "order": [
+            "a",
+            "b"
+          ],
+          "vantage_active": false,
+          "attacker_death_probability": 0,
+          "defender_death_probability": 0,
+          "expected_attacker_hp": 30.435000000000006,
+          "expected_defender_hp": 30.435000000000006,
+          "minimum_possible_attacker_hp": 30,
+          "minimum_possible_defender_hp": 30,
+          "maximum_possible_attacker_hp": 40,
+          "maximum_possible_defender_hp": 40,
+          "deterministic": false,
+          "states": [
+            {
+              "attacker_hp": 30,
+              "defender_hp": 30,
+              "probability": 0.9148922500000001
+            },
+            {
+              "attacker_hp": 30,
+              "defender_hp": 40,
+              "probability": 0.041607749999999985
+            },
+            {
+              "attacker_hp": 40,
+              "defender_hp": 30,
+              "probability": 0.041607749999999985
+            },
+            {
+              "attacker_hp": 40,
+              "defender_hp": 40,
+              "probability": 0.0018922499999999985
+            }
+          ]
+        },
+        "warning": "Supported duel only. No prediction of AI order, unseen enemies, reinforcements or future movement. Expected HP is not a guarantee."
+      }
+    },
+    "missing_support_state": {
+      "input": {
+        "attacker": {
+          "stats": {
+            "hp": 40,
+            "str": 10,
+            "mag": 10,
+            "skl": 0,
+            "spd": 10,
+            "lck": 0,
+            "def": 5,
+            "res": 5
+          },
+          "current_hp": 40,
+          "weapon": {
+            "id": "test",
+            "weapon_type": "sword",
+            "damage_type": "physical",
+            "might": 5,
+            "hit": 100,
+            "crit": 0,
+            "range": "1",
+            "rank": "E",
+            "effect": "\u2013",
+            "brave": false
+          },
+          "weapon_rank": "E",
+          "skills": [],
+          "weaknesses": [],
+          "terrain": {},
+          "combat_bonuses": {},
+          "remaining_uses": 50
+        },
+        "defender": {
+          "stats": {
+            "hp": 40,
+            "str": 10,
+            "mag": 10,
+            "skl": 0,
+            "spd": 10,
+            "lck": 0,
+            "def": 5,
+            "res": 5
+          },
+          "current_hp": 40,
+          "weapon": {
+            "id": "test",
+            "weapon_type": "sword",
+            "damage_type": "physical",
+            "might": 5,
+            "hit": 100,
+            "crit": 0,
+            "range": "1",
+            "rank": "E",
+            "effect": "\u2013",
+            "brave": false
+          },
+          "weapon_rank": "E",
+          "skills": [],
+          "weaknesses": [],
+          "terrain": {},
+          "combat_bonuses": {},
+          "remaining_uses": 50
+        },
+        "context": {
+          "distance": 1
+        },
+        "partners": [],
+        "difficulty": "Hard",
+        "mode": "Classic",
+        "stats_basis": "effective_displayed",
+        "observed_inputs_complete": true
+      },
+      "output": {
+        "status": "UNKNOWN",
+        "missing": [
+          "Explicit support_state: none only when neither side has a paired/adjacent support combatant"
+        ],
+        "safe_to_claim_survival": false,
+        "outcome": null
+      }
+    },
+    "missing_partners": {
+      "input": {
+        "attacker": {
+          "stats": {
+            "hp": 40,
+            "str": 10,
+            "mag": 10,
+            "skl": 0,
+            "spd": 10,
+            "lck": 0,
+            "def": 5,
+            "res": 5
+          },
+          "current_hp": 40,
+          "weapon": {
+            "id": "test",
+            "weapon_type": "sword",
+            "damage_type": "physical",
+            "might": 5,
+            "hit": 100,
+            "crit": 0,
+            "range": "1",
+            "rank": "E",
+            "effect": "\u2013",
+            "brave": false
+          },
+          "weapon_rank": "E",
+          "skills": [],
+          "weaknesses": [],
+          "terrain": {},
+          "combat_bonuses": {},
+          "remaining_uses": 50
+        },
+        "defender": {
+          "stats": {
+            "hp": 40,
+            "str": 10,
+            "mag": 10,
+            "skl": 0,
+            "spd": 10,
+            "lck": 0,
+            "def": 5,
+            "res": 5
+          },
+          "current_hp": 40,
+          "weapon": {
+            "id": "test",
+            "weapon_type": "sword",
+            "damage_type": "physical",
+            "might": 5,
+            "hit": 100,
+            "crit": 0,
+            "range": "1",
+            "rank": "E",
+            "effect": "\u2013",
+            "brave": false
+          },
+          "weapon_rank": "E",
+          "skills": [],
+          "weaknesses": [],
+          "terrain": {},
+          "combat_bonuses": {},
+          "remaining_uses": 50
+        },
+        "context": {
+          "distance": 1
+        },
+        "support_state": "none",
+        "difficulty": "Hard",
+        "mode": "Classic",
+        "stats_basis": "effective_displayed",
+        "observed_inputs_complete": true
+      },
+      "output": {
+        "status": "UNKNOWN",
+        "missing": [
+          "Explicit partners list: [] for none; missing/null does not mean unpaired"
+        ],
+        "safe_to_claim_survival": false,
+        "outcome": null
+      }
+    },
+    "adjacent_support": {
+      "input": {
+        "attacker": {
+          "stats": {
+            "hp": 40,
+            "str": 10,
+            "mag": 10,
+            "skl": 0,
+            "spd": 10,
+            "lck": 0,
+            "def": 5,
+            "res": 5
+          },
+          "current_hp": 40,
+          "weapon": {
+            "id": "test",
+            "weapon_type": "sword",
+            "damage_type": "physical",
+            "might": 5,
+            "hit": 100,
+            "crit": 0,
+            "range": "1",
+            "rank": "E",
+            "effect": "\u2013",
+            "brave": false
+          },
+          "weapon_rank": "E",
+          "skills": [],
+          "weaknesses": [],
+          "terrain": {},
+          "combat_bonuses": {},
+          "remaining_uses": 50
+        },
+        "defender": {
+          "stats": {
+            "hp": 40,
+            "str": 10,
+            "mag": 10,
+            "skl": 0,
+            "spd": 10,
+            "lck": 0,
+            "def": 5,
+            "res": 5
+          },
+          "current_hp": 40,
+          "weapon": {
+            "id": "test",
+            "weapon_type": "sword",
+            "damage_type": "physical",
+            "might": 5,
+            "hit": 100,
+            "crit": 0,
+            "range": "1",
+            "rank": "E",
+            "effect": "\u2013",
+            "brave": false
+          },
+          "weapon_rank": "E",
+          "skills": [],
+          "weaknesses": [],
+          "terrain": {},
+          "combat_bonuses": {},
+          "remaining_uses": 50
+        },
+        "context": {
+          "distance": 1
+        },
+        "partners": [],
+        "support_state": "adjacent",
+        "difficulty": "Hard",
+        "mode": "Classic",
+        "stats_basis": "effective_displayed",
+        "observed_inputs_complete": true
+      },
+      "output": {
+        "status": "UNKNOWN",
+        "reason": "Full paired/adjacent Dual Strike and Dual Guard outcome is unsupported; use pair_up/paired_forecast for supported bonuses and rates.",
+        "safe_to_claim_survival": false,
+        "outcome": null
+      }
+    },
+    "counter": {
+      "input": {
+        "attacker": {
+          "stats": {
+            "hp": 40,
+            "str": 10,
+            "mag": 10,
+            "skl": 0,
+            "spd": 10,
+            "lck": 0,
+            "def": 5,
+            "res": 5
+          },
+          "current_hp": 40,
+          "weapon": {
+            "id": "test",
+            "weapon_type": "sword",
+            "damage_type": "physical",
+            "might": 5,
+            "hit": 100,
+            "crit": 0,
+            "range": "1",
+            "rank": "E",
+            "effect": "\u2013",
+            "brave": false
+          },
+          "weapon_rank": "E",
+          "skills": [],
+          "weaknesses": [],
+          "terrain": {},
+          "combat_bonuses": {},
+          "remaining_uses": 50
+        },
+        "defender": {
+          "stats": {
+            "hp": 40,
+            "str": 10,
+            "mag": 10,
+            "skl": 0,
+            "spd": 10,
+            "lck": 0,
+            "def": 5,
+            "res": 5
+          },
+          "current_hp": 40,
+          "weapon": {
+            "id": "test",
+            "weapon_type": "sword",
+            "damage_type": "physical",
+            "might": 5,
+            "hit": 100,
+            "crit": 0,
+            "range": "1",
+            "rank": "E",
+            "effect": "\u2013",
+            "brave": false
+          },
+          "weapon_rank": "E",
+          "skills": [
+            "counter"
+          ],
+          "weaknesses": [],
+          "terrain": {},
+          "combat_bonuses": {},
+          "remaining_uses": 50
+        },
+        "context": {
+          "distance": 1
+        },
+        "partners": [],
+        "support_state": "none",
+        "difficulty": "Hard",
+        "mode": "Classic",
+        "stats_basis": "effective_displayed",
+        "observed_inputs_complete": true
+      },
+      "output": {
+        "status": "UNKNOWN",
+        "reason": "Unsupported combat skills: counter",
+        "safe_to_claim_survival": false,
+        "outcome": null
+      }
+    },
+    "dragonskin": {
+      "input": {
+        "attacker": {
+          "stats": {
+            "hp": 40,
+            "str": 10,
+            "mag": 10,
+            "skl": 0,
+            "spd": 10,
+            "lck": 0,
+            "def": 5,
+            "res": 5
+          },
+          "current_hp": 40,
+          "weapon": {
+            "id": "test",
+            "weapon_type": "sword",
+            "damage_type": "physical",
+            "might": 5,
+            "hit": 100,
+            "crit": 0,
+            "range": "1",
+            "rank": "E",
+            "effect": "\u2013",
+            "brave": false
+          },
+          "weapon_rank": "E",
+          "skills": [],
+          "weaknesses": [],
+          "terrain": {},
+          "combat_bonuses": {},
+          "remaining_uses": 50
+        },
+        "defender": {
+          "stats": {
+            "hp": 40,
+            "str": 10,
+            "mag": 10,
+            "skl": 0,
+            "spd": 10,
+            "lck": 0,
+            "def": 5,
+            "res": 5
+          },
+          "current_hp": 40,
+          "weapon": {
+            "id": "test",
+            "weapon_type": "sword",
+            "damage_type": "physical",
+            "might": 5,
+            "hit": 100,
+            "crit": 0,
+            "range": "1",
+            "rank": "E",
+            "effect": "\u2013",
+            "brave": false
+          },
+          "weapon_rank": "E",
+          "skills": [
+            "dragonskin"
+          ],
+          "weaknesses": [],
+          "terrain": {},
+          "combat_bonuses": {},
+          "remaining_uses": 50
+        },
+        "context": {
+          "distance": 1
+        },
+        "partners": [],
+        "support_state": "none",
+        "difficulty": "Hard",
+        "mode": "Classic",
+        "stats_basis": "effective_displayed",
+        "observed_inputs_complete": true
+      },
+      "output": {
+        "status": "UNKNOWN",
+        "reason": "Unsupported combat skills: dragonskin",
+        "safe_to_claim_survival": false,
+        "outcome": null
+      }
+    },
+    "aether": {
+      "input": {
+        "attacker": {
+          "stats": {
+            "hp": 40,
+            "str": 10,
+            "mag": 10,
+            "skl": 0,
+            "spd": 10,
+            "lck": 0,
+            "def": 5,
+            "res": 5
+          },
+          "current_hp": 40,
+          "weapon": {
+            "id": "test",
+            "weapon_type": "sword",
+            "damage_type": "physical",
+            "might": 5,
+            "hit": 100,
+            "crit": 0,
+            "range": "1",
+            "rank": "E",
+            "effect": "\u2013",
+            "brave": false
+          },
+          "weapon_rank": "E",
+          "skills": [],
+          "weaknesses": [],
+          "terrain": {},
+          "combat_bonuses": {},
+          "remaining_uses": 50
+        },
+        "defender": {
+          "stats": {
+            "hp": 40,
+            "str": 10,
+            "mag": 10,
+            "skl": 0,
+            "spd": 10,
+            "lck": 0,
+            "def": 5,
+            "res": 5
+          },
+          "current_hp": 40,
+          "weapon": {
+            "id": "test",
+            "weapon_type": "sword",
+            "damage_type": "physical",
+            "might": 5,
+            "hit": 100,
+            "crit": 0,
+            "range": "1",
+            "rank": "E",
+            "effect": "\u2013",
+            "brave": false
+          },
+          "weapon_rank": "E",
+          "skills": [
+            "aether"
+          ],
+          "weaknesses": [],
+          "terrain": {},
+          "combat_bonuses": {},
+          "remaining_uses": 50
+        },
+        "context": {
+          "distance": 1
+        },
+        "partners": [],
+        "support_state": "none",
+        "difficulty": "Hard",
+        "mode": "Classic",
+        "stats_basis": "effective_displayed",
+        "observed_inputs_complete": true
+      },
+      "output": {
+        "status": "UNKNOWN",
+        "reason": "Unsupported combat skills: aether",
+        "safe_to_claim_survival": false,
+        "outcome": null
+      }
+    },
+    "explicit_drain": {
+      "input": {
+        "attacker": {
+          "stats": {
+            "hp": 40,
+            "str": 10,
+            "mag": 10,
+            "skl": 0,
+            "spd": 10,
+            "lck": 0,
+            "def": 5,
+            "res": 5
+          },
+          "current_hp": 40,
+          "weapon": {
+            "id": "test",
+            "weapon_type": "sword",
+            "damage_type": "physical",
+            "might": 5,
+            "hit": 100,
+            "crit": 0,
+            "range": "1",
+            "rank": "E",
+            "effect": "Drains HP",
+            "brave": false
+          },
+          "weapon_rank": "E",
+          "skills": [],
+          "weaknesses": [],
+          "terrain": {},
+          "combat_bonuses": {},
+          "remaining_uses": 50
+        },
+        "defender": {
+          "stats": {
+            "hp": 40,
+            "str": 10,
+            "mag": 10,
+            "skl": 0,
+            "spd": 10,
+            "lck": 0,
+            "def": 5,
+            "res": 5
+          },
+          "current_hp": 40,
+          "weapon": {
+            "id": "test",
+            "weapon_type": "sword",
+            "damage_type": "physical",
+            "might": 5,
+            "hit": 100,
+            "crit": 0,
+            "range": "1",
+            "rank": "E",
+            "effect": "\u2013",
+            "brave": false
+          },
+          "weapon_rank": "E",
+          "skills": [],
+          "weaknesses": [],
+          "terrain": {},
+          "combat_bonuses": {},
+          "remaining_uses": 50
+        },
+        "context": {
+          "distance": 1
+        },
+        "partners": [],
+        "support_state": "none",
+        "difficulty": "Hard",
+        "mode": "Classic",
+        "stats_basis": "effective_displayed",
+        "observed_inputs_complete": true
+      },
+      "output": {
+        "status": "UNKNOWN",
+        "reason": "Unsupported weapon effect: Drains HP",
+        "safe_to_claim_survival": false,
+        "outcome": null
+      }
+    },
+    "missing_weapon_effect": {
+      "input": {
+        "attacker": {
+          "stats": {
+            "hp": 40,
+            "str": 10,
+            "mag": 10,
+            "skl": 0,
+            "spd": 10,
+            "lck": 0,
+            "def": 5,
+            "res": 5
+          },
+          "current_hp": 40,
+          "weapon": {
+            "id": "test",
+            "weapon_type": "sword",
+            "damage_type": "physical",
+            "might": 5,
+            "hit": 100,
+            "crit": 0,
+            "range": "1",
+            "rank": "E",
+            "brave": false
+          },
+          "weapon_rank": "E",
+          "skills": [],
+          "weaknesses": [],
+          "terrain": {},
+          "combat_bonuses": {},
+          "remaining_uses": 50
+        },
+        "defender": {
+          "stats": {
+            "hp": 40,
+            "str": 10,
+            "mag": 10,
+            "skl": 0,
+            "spd": 10,
+            "lck": 0,
+            "def": 5,
+            "res": 5
+          },
+          "current_hp": 40,
+          "weapon": {
+            "id": "test",
+            "weapon_type": "sword",
+            "damage_type": "physical",
+            "might": 5,
+            "hit": 100,
+            "crit": 0,
+            "range": "1",
+            "rank": "E",
+            "brave": false
+          },
+          "weapon_rank": "E",
+          "skills": [],
+          "weaknesses": [],
+          "terrain": {},
+          "combat_bonuses": {},
+          "remaining_uses": 50
+        },
+        "context": {
+          "distance": 1
+        },
+        "partners": [],
+        "support_state": "none",
+        "difficulty": "Hard",
+        "mode": "Classic",
+        "stats_basis": "effective_displayed",
+        "observed_inputs_complete": true
+      },
+      "output": {
+        "status": "NO_MODELED_DEATH_IN_THIS_DUEL",
+        "conditional_on_observed_inputs": true,
+        "safe_to_claim_map_survival": false,
+        "attacker_can_die": false,
+        "defender_can_die": false,
+        "worst_attacker_hp": 30,
+        "worst_defender_hp": 30,
+        "forecast": {
+          "scope": "Supported single duel; effective stats supplied; independent uniform RNG model",
+          "source_ids": [
+            "calculations",
+            "true_hit",
+            "p2_skills_game_descriptions_0"
+          ],
+          "attacker": {
+            "can_attack": true,
+            "attack_with_triangle": 15,
+            "defense_used": 5,
+            "displayed_attack": 15,
+            "damage": 10,
+            "damage_scope": "Nominal hit without offensive/defensive procs; full results are in outcome",
+            "critical_damage": 30,
+            "displayed_hit": 85,
+            "true_hit_probability": 0.9565,
+            "crit_raw_base": 0,
+            "crit_percent": 0,
+            "doubles": false,
+            "scheduled_hits": 1,
+            "effective": false,
+            "expected_damage_per_scheduled_hit": 9.565
+          },
+          "defender": {
+            "can_attack": true,
+            "attack_with_triangle": 15,
+            "defense_used": 5,
+            "displayed_attack": 15,
+            "damage": 10,
+            "damage_scope": "Nominal hit without offensive/defensive procs; full results are in outcome",
+            "critical_damage": 30,
+            "displayed_hit": 85,
+            "true_hit_probability": 0.9565,
+            "crit_raw_base": 0,
+            "crit_percent": 0,
+            "doubles": false,
+            "scheduled_hits": 1,
+            "effective": false,
+            "expected_damage_per_scheduled_hit": 9.565
+          },
+          "outcome": {
+            "order": [
+              "a",
+              "b"
+            ],
+            "vantage_active": false,
+            "attacker_death_probability": 0,
+            "defender_death_probability": 0,
+            "expected_attacker_hp": 30.435000000000006,
+            "expected_defender_hp": 30.435000000000006,
+            "minimum_possible_attacker_hp": 30,
+            "minimum_possible_defender_hp": 30,
+            "maximum_possible_attacker_hp": 40,
+            "maximum_possible_defender_hp": 40,
+            "deterministic": false,
+            "states": [
+              {
+                "attacker_hp": 30,
+                "defender_hp": 30,
+                "probability": 0.9148922500000001
+              },
+              {
+                "attacker_hp": 30,
+                "defender_hp": 40,
+                "probability": 0.041607749999999985
+              },
+              {
+                "attacker_hp": 40,
+                "defender_hp": 30,
+                "probability": 0.041607749999999985
+              },
+              {
+                "attacker_hp": 40,
+                "defender_hp": 40,
+                "probability": 0.0018922499999999985
+              }
+            ]
+          },
+          "lethal_risk": false,
+          "certainty": "probability_distribution",
+          "assumptions": [
+            "Effective displayed stats and weapon stats supplied; independent uniform random draws.",
+            "Possible outcomes include criticals and supported procs; expected HP is not a survival guarantee."
+          ]
+        },
+        "outcome": {
+          "order": [
+            "a",
+            "b"
+          ],
+          "vantage_active": false,
+          "attacker_death_probability": 0,
+          "defender_death_probability": 0,
+          "expected_attacker_hp": 30.435000000000006,
+          "expected_defender_hp": 30.435000000000006,
+          "minimum_possible_attacker_hp": 30,
+          "minimum_possible_defender_hp": 30,
+          "maximum_possible_attacker_hp": 40,
+          "maximum_possible_defender_hp": 40,
+          "deterministic": false,
+          "states": [
+            {
+              "attacker_hp": 30,
+              "defender_hp": 30,
+              "probability": 0.9148922500000001
+            },
+            {
+              "attacker_hp": 30,
+              "defender_hp": 40,
+              "probability": 0.041607749999999985
+            },
+            {
+              "attacker_hp": 40,
+              "defender_hp": 30,
+              "probability": 0.041607749999999985
+            },
+            {
+              "attacker_hp": 40,
+              "defender_hp": 40,
+              "probability": 0.0018922499999999985
+            }
+          ]
+        },
+        "warning": "Supported duel only. No prediction of AI order, unseen enemies, reinforcements or future movement. Expected HP is not a guarantee."
+      }
+    },
+    "certain_death": {
+      "input": {
+        "attacker": {
+          "stats": {
+            "hp": 40,
+            "str": 10,
+            "mag": 10,
+            "skl": 0,
+            "spd": 10,
+            "lck": 0,
+            "def": 5,
+            "res": 5
+          },
+          "current_hp": 40,
+          "weapon": {
+            "id": "test",
+            "weapon_type": "sword",
+            "damage_type": "physical",
+            "might": 5,
+            "hit": 100,
+            "crit": 0,
+            "range": "1",
+            "rank": "E",
+            "effect": "\u2013",
+            "brave": true
+          },
+          "weapon_rank": "E",
+          "skills": [
+            "hawkeye"
+          ],
+          "weaknesses": [],
+          "terrain": {},
+          "combat_bonuses": {},
+          "remaining_uses": 50
+        },
+        "defender": {
+          "stats": {
+            "hp": 40,
+            "str": 10,
+            "mag": 10,
+            "skl": 0,
+            "spd": 10,
+            "lck": 0,
+            "def": 5,
+            "res": 5
+          },
+          "current_hp": 20,
+          "weapon": {
+            "id": "test",
+            "weapon_type": "sword",
+            "damage_type": "physical",
+            "might": 5,
+            "hit": 100,
+            "crit": 0,
+            "range": "1",
+            "rank": "E",
+            "effect": "\u2013",
+            "brave": false
+          },
+          "weapon_rank": "E",
+          "skills": [],
+          "weaknesses": [],
+          "terrain": {},
+          "combat_bonuses": {},
+          "remaining_uses": 50
+        },
+        "context": {
+          "distance": 1
+        },
+        "partners": [],
+        "support_state": "none",
+        "difficulty": "Hard",
+        "mode": "Classic",
+        "stats_basis": "effective_displayed",
+        "observed_inputs_complete": true
+      },
+      "output": {
+        "status": "POTENTIALLY_LETHAL",
+        "conditional_on_observed_inputs": true,
+        "safe_to_claim_map_survival": false,
+        "attacker_can_die": false,
+        "defender_can_die": true,
+        "worst_attacker_hp": 40,
+        "worst_defender_hp": 0,
+        "forecast": {
+          "scope": "Supported single duel; effective stats supplied; independent uniform RNG model",
+          "source_ids": [
+            "calculations",
+            "true_hit",
+            "p2_skills_game_descriptions_0"
+          ],
+          "attacker": {
+            "can_attack": true,
+            "attack_with_triangle": 15,
+            "defense_used": 5,
+            "displayed_attack": 15,
+            "damage": 10,
+            "damage_scope": "Nominal hit without offensive/defensive procs; full results are in outcome",
+            "critical_damage": 30,
+            "displayed_hit": 100,
+            "true_hit_probability": 1.0,
+            "crit_raw_base": 0,
+            "crit_percent": 0,
+            "doubles": false,
+            "scheduled_hits": 2,
+            "effective": false,
+            "expected_damage_per_scheduled_hit": 10.0
+          },
+          "defender": {
+            "can_attack": true,
+            "attack_with_triangle": 15,
+            "defense_used": 5,
+            "displayed_attack": 15,
+            "damage": 10,
+            "damage_scope": "Nominal hit without offensive/defensive procs; full results are in outcome",
+            "critical_damage": 30,
+            "displayed_hit": 85,
+            "true_hit_probability": 0.9565,
+            "crit_raw_base": 0,
+            "crit_percent": 0,
+            "doubles": false,
+            "scheduled_hits": 1,
+            "effective": false,
+            "expected_damage_per_scheduled_hit": 9.565
+          },
+          "outcome": {
+            "order": [
+              "a",
+              "a",
+              "b"
+            ],
+            "vantage_active": false,
+            "attacker_death_probability": 0,
+            "defender_death_probability": 1.0,
+            "expected_attacker_hp": 40.0,
+            "expected_defender_hp": 0.0,
+            "minimum_possible_attacker_hp": 40,
+            "minimum_possible_defender_hp": 0,
+            "maximum_possible_attacker_hp": 40,
+            "maximum_possible_defender_hp": 0,
+            "deterministic": true,
+            "states": [
+              {
+                "attacker_hp": 40,
+                "defender_hp": 0,
+                "probability": 1.0
+              }
+            ]
+          },
+          "lethal_risk": false,
+          "certainty": "deterministic",
+          "assumptions": [
+            "Effective displayed stats and weapon stats supplied; independent uniform random draws.",
+            "Possible outcomes include criticals and supported procs; expected HP is not a survival guarantee."
+          ]
+        },
+        "outcome": {
+          "order": [
+            "a",
+            "a",
+            "b"
+          ],
+          "vantage_active": false,
+          "attacker_death_probability": 0,
+          "defender_death_probability": 1.0,
+          "expected_attacker_hp": 40.0,
+          "expected_defender_hp": 0.0,
+          "minimum_possible_attacker_hp": 40,
+          "minimum_possible_defender_hp": 0,
+          "maximum_possible_attacker_hp": 40,
+          "maximum_possible_defender_hp": 0,
+          "deterministic": true,
+          "states": [
+            {
+              "attacker_hp": 40,
+              "defender_hp": 0,
+              "probability": 1.0
+            }
+          ]
+        },
+        "warning": "Supported duel only. No prediction of AI order, unseen enemies, reinforcements or future movement. Expected HP is not a guarantee."
+      }
+    }
+  }
+}
