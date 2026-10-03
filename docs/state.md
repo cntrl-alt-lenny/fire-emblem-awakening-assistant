@@ -31,6 +31,11 @@ existing foundation before selecting the next factual research slice.
 
 ## Parked, and why
 
+- Hard Chapter 5 arrival conflict: accessible textual accounts have not
+  established the actual schedule. Further resolution needs observable,
+  difficulty-specific gameplay with visible phase/setup; repeated guide
+  comparison alone is insufficient. Keep its canonical conflict and unknowns
+  while pursuing the standing Hard Chapter 17 research priority.
 - Broad encyclopaedic expansion: current-map tactical uncertainty takes priority.
 - SpotPass/DLC expansion and Lunatic+ guarantees: their availability, coverage
   and random-skill evidence remain separate and incomplete.
