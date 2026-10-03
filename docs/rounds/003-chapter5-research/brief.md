@@ -114,7 +114,7 @@ game assets. Record URLs, timestamps and short factual observations instead.
 7. Verifier independently inspects original source contexts and searches for
    contrary or insufficient evidence before opening the Worker report or
    results attachments. Then compare every material research claim, recording
-   failures to reproduce and unsupported leaps as findings. A unavailable
+   failures to reproduce and unsupported leaps as findings. An unavailable
    source is unverified, never assumed to agree.
 
 ## Required evidence
