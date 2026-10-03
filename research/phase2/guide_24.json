@@ -1,0 +1,217 @@
+[
+  {
+    "id": "guide_24_0",
+    "name": "Chapter 23 Invisible Ties - Chapter 14 to Endgame - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/chapter-14-to-endgame/chapter-23-invisible-ties",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "timing_label": null,
+        "map_heading": "Chapter 23 Invisible Ties",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Validar",
+            "Sorcerer",
+            "5",
+            "Grima\u2019s Truth"
+          ],
+          [
+            "Validar (Round 2)",
+            "Sorcerer",
+            "18",
+            "Grima\u2019s Truth, Talisman"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "timing_label": null,
+        "map_heading": "Chapter 23 Invisible Ties",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Flavia",
+            "Hero",
+            "10",
+            "After defeating Validar once"
+          ],
+          [
+            "Basilio",
+            "Warrior",
+            "10",
+            "After defeating Validar once"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Chapter 23:",
+        "map_heading": "Chapter 23 Invisible Ties",
+        "text": "Location: The Dragon\u2019s Table"
+      },
+      {
+        "section": "Note: Chapter 23:",
+        "map_heading": "Chapter 23 Invisible Ties",
+        "text": "Condition: Defeat Enemy"
+      },
+      {
+        "section": "Note: Chapter 23:",
+        "map_heading": "Chapter 23 Invisible Ties",
+        "text": "Character Limit: 15 (Including Chrom)"
+      }
+    ],
+    "access_status": "accessed"
+  },
+  {
+    "id": "guide_24_1",
+    "name": "Chapter 24 Awakening - Chapter 14 to Endgame - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/chapter-14-to-endgame/chapter-24-awakening",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "timing_label": null,
+        "map_heading": "Chapter 24 Awakening",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Risen Chief",
+            "Great Knight",
+            "18",
+            "Tomahawk, Bullion (L)"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Chapter 24:",
+        "map_heading": "Chapter 24 Awakening",
+        "text": "Location: Mount Prism"
+      },
+      {
+        "section": "Note: Chapter 24:",
+        "map_heading": "Chapter 24 Awakening",
+        "text": "Condition: Defeat Enemy"
+      },
+      {
+        "section": "Note: Chapter 24:",
+        "map_heading": "Chapter 24 Awakening",
+        "text": "Character Limit: 15 (Including Chrom)"
+      }
+    ],
+    "access_status": "accessed"
+  },
+  {
+    "id": "guide_24_2",
+    "name": "Chapter 25 To Slay a God - Chapter 14 to Endgame - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/chapter-14-to-endgame/chapter-25-to-slay-a-god",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "timing_label": null,
+        "map_heading": "Chapter 25 To Slay a God",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Aversa",
+            "Dark Flier",
+            "20",
+            "Goetia"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Chapter 25:",
+        "map_heading": "Chapter 25 To Slay a God",
+        "text": "Location: Origin Peak"
+      },
+      {
+        "section": "Note: Chapter 25:",
+        "map_heading": "Chapter 25 To Slay a God",
+        "text": "Condition: Defeat Boss"
+      },
+      {
+        "section": "Note: Chapter 25:",
+        "map_heading": "Chapter 25 To Slay a God",
+        "text": "Character Limit: 15 (Including Chrom)"
+      }
+    ],
+    "access_status": "accessed"
+  },
+  {
+    "id": "guide_24_3",
+    "name": "Endgame Grima - Chapter 14 to Endgame - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/chapter-14-to-endgame/endgame-grima",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "timing_label": null,
+        "map_heading": "Endgame Grima",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Grima",
+            "Grima",
+            "30",
+            "Expiration"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Endgame:",
+        "map_heading": "Endgame Grima",
+        "text": "Location: Grima"
+      },
+      {
+        "section": "Note: Endgame:",
+        "map_heading": "Endgame Grima",
+        "text": "Condition: Defeat the Final Boss"
+      },
+      {
+        "section": "Note: Endgame:",
+        "map_heading": "Endgame Grima",
+        "text": "Character Limit: 16 (Including Chrom)"
+      }
+    ],
+    "access_status": "accessed"
+  }
+]

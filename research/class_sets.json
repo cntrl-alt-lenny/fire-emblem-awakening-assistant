@@ -1,0 +1,361 @@
+[
+  {
+    "source_id": "class_sets",
+    "name": "Class Sets - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/characters/class-sets/",
+    "accessed": "2026-10-02",
+    "verification": "extracted_unreviewed",
+    "tables": [
+      {
+        "section": "Class Sets",
+        "rows": [
+          [
+            "Character",
+            "Options"
+          ]
+        ]
+      },
+      {
+        "section": "Class Sets",
+        "rows": [
+          [
+            "Avatar",
+            "Tactician",
+            "Every regular class (according to gender)"
+          ],
+          [
+            "Chrom",
+            "Lord",
+            "Cavalier",
+            "Archer"
+          ],
+          [
+            "Lissa",
+            "Cleric",
+            "Pegasus Knight",
+            "Troubadour"
+          ],
+          [
+            "Frederick",
+            "Cavalier",
+            "Knight",
+            "Wyvern Rider"
+          ],
+          [
+            "Sully",
+            "Cavalier",
+            "Myrmidon",
+            "Wyvern Rider"
+          ],
+          [
+            "Virion",
+            "Archer",
+            "Wyvern Rider",
+            "Mage"
+          ],
+          [
+            "Stahl",
+            "Cavalier",
+            "Archer",
+            "Myrmidon"
+          ],
+          [
+            "Vaike",
+            "Fighter",
+            "Thief",
+            "Barbarian"
+          ],
+          [
+            "Miriel",
+            "Mage",
+            "Troubadour",
+            "Dark Mage"
+          ],
+          [
+            "Sumia",
+            "Pegasus Knight",
+            "Knight",
+            "Cleric"
+          ],
+          [
+            "Kellam",
+            "Knight",
+            "Thief",
+            "Priest"
+          ],
+          [
+            "Donnel",
+            "Villager",
+            "Fighter",
+            "Mercenary"
+          ],
+          [
+            "Lon’qu",
+            "Myrmidon",
+            "Thief",
+            "Wyvern Rider"
+          ],
+          [
+            "Ricken",
+            "Mage",
+            "Cavalier",
+            "Archer"
+          ],
+          [
+            "Maribelle",
+            "Troubadour",
+            "Pegasus Knight",
+            "Mage"
+          ],
+          [
+            "Panne",
+            "Taguel",
+            "Thief",
+            "Wyvern Rider"
+          ],
+          [
+            "Gaius",
+            "Thief",
+            "Fighter",
+            "Myrmidon"
+          ],
+          [
+            "Cordelia",
+            "Pegasus Knight",
+            "Mercenary",
+            "Dark Mage"
+          ],
+          [
+            "Gregor",
+            "Mercenary",
+            "Barbarian",
+            "Myrmidon"
+          ],
+          [
+            "Nowi",
+            "Manakete",
+            "Mage",
+            "Wyvern Rider"
+          ],
+          [
+            "Libra",
+            "Priest",
+            "Mage",
+            "Dark Mage"
+          ],
+          [
+            "Tharja",
+            "Dark Mage",
+            "Knight",
+            "Archer"
+          ],
+          [
+            "Anna",
+            "Thief",
+            "Archer",
+            "Mage"
+          ],
+          [
+            "Olivia",
+            "Dancer",
+            "Myrmidon",
+            "Pegasus Knight"
+          ],
+          [
+            "Cherche",
+            "Wyvern Rider",
+            "Troubadour",
+            "Cleric"
+          ],
+          [
+            "Henry",
+            "Dark Mage",
+            "Barbarian",
+            "Thief"
+          ],
+          [
+            "Say’ri",
+            "Myrmidon",
+            "Pegasus Knight",
+            "Wyvern Rider"
+          ],
+          [
+            "Tiki",
+            "Manakete",
+            "Wyvern Rider",
+            "Mage"
+          ],
+          [
+            "Basilio",
+            "Fighter",
+            "Barbarian",
+            "Knight"
+          ],
+          [
+            "Flavia",
+            "Mercenary",
+            "Thief",
+            "Knight"
+          ],
+          [
+            "Gangrel",
+            "Thief",
+            "Barbarian",
+            "Dark Mage"
+          ],
+          [
+            "Walhart",
+            "Conqueror",
+            "Knight",
+            "Wyvern Rider"
+          ],
+          [
+            "Emmeryn",
+            "Cleric",
+            "Pegasus Knight",
+            "Troubadour"
+          ],
+          [
+            "Yen’fay",
+            "Myrmidon",
+            "Wyvern Rider",
+            "Archer"
+          ],
+          [
+            "Aversa",
+            "Pegasus Knight",
+            "Wyvern Rider",
+            "Dark Mage"
+          ],
+          [
+            "Priam",
+            "Mercenary",
+            "Myrmidon",
+            "Fighter"
+          ]
+        ]
+      },
+      {
+        "section": "Children Characters",
+        "rows": [
+          [
+            "Character",
+            "Options"
+          ]
+        ]
+      },
+      {
+        "section": "Children Characters",
+        "rows": [
+          [
+            "Lucina",
+            "Lord",
+            "Cavalier",
+            "Archer",
+            "–"
+          ],
+          [
+            "Owain",
+            "Myrmidon",
+            "Priest",
+            "Barbarian",
+            "–"
+          ],
+          [
+            "Inigo",
+            "Mercenary",
+            "Myrmidon",
+            "Barbarian",
+            "–"
+          ],
+          [
+            "Brady",
+            "Priest",
+            "Cavalier",
+            "Mage",
+            "–"
+          ],
+          [
+            "Kjelle",
+            "Knight",
+            "Myrmidon",
+            "Cavalier",
+            "Wyvern Rider"
+          ],
+          [
+            "Cynthia",
+            "Pegasus Knight",
+            "Knight",
+            "Cleric",
+            "–"
+          ],
+          [
+            "Severa",
+            "Mercenary",
+            "Pegasus Knight",
+            "Dark Mage",
+            "–"
+          ],
+          [
+            "Gerome",
+            "Wyvern Rider",
+            "Fighter",
+            "Priest",
+            "–"
+          ],
+          [
+            "Morgan",
+            "Class varies",
+            "Every regular class (according to gender)"
+          ],
+          [
+            "Yarne",
+            "Taguel",
+            "Thief",
+            "Barbarian",
+            "–"
+          ],
+          [
+            "Laurent",
+            "Mage",
+            "Barbarian",
+            "Dark Mage",
+            "–"
+          ],
+          [
+            "Noire",
+            "Archer",
+            "Knight",
+            "Dark Mage",
+            "–"
+          ],
+          [
+            "Nah",
+            "Manakete",
+            "Wyvern Rider",
+            "Mage",
+            "–"
+          ]
+        ]
+      },
+      {
+        "section": "DLC/SpotPass Characters",
+        "rows": [
+          [
+            "All",
+            "Initial class",
+            "Every regular class (according to gender)"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source_id": "class_sets_1",
+    "name": "Introduction - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/classes/",
+    "accessed": "2026-10-02",
+    "verification": "extracted_unreviewed",
+    "tables": []
+  }
+]

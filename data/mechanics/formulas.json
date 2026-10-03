@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "attack",
+      "name": "Displayed attack",
+      "value": "strength_or_magic + weapon_might + weapon_rank_attack_bonus",
+      "source_ids": [
+        "calculations"
+      ],
+      "verification": "single_source_reviewed",
+      "notes": "Use effective displayed stats. Triangle is applied to damage separately; effectiveness changes weapon might."
+    },
+    {
+      "id": "damage",
+      "name": "Damage",
+      "value": "max(0, attack + triangle_attack - defense_or_resistance - terrain_defense_or_resistance)",
+      "source_ids": [
+        "calculations"
+      ],
+      "verification": "single_source_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "hit",
+      "name": "Displayed hit",
+      "value": "clamp(weapon_hit + floor((3*skill+luck)/2) + rank_hit + triangle_hit + combat_hit_bonuses - floor((3*defender_speed+defender_luck)/2) - defender_avoid_bonuses - terrain_avoid,0,100)",
+      "source_ids": [
+        "calculations"
+      ],
+      "verification": "single_source_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "critical",
+      "name": "Critical rate",
+      "value": "clamp(weapon_crit + floor(skill/2) + crit_bonuses - defender_luck - defender_crit_avoid_bonuses,0,100)",
+      "source_ids": [
+        "calculations"
+      ],
+      "verification": "single_source_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "double",
+      "name": "Follow-up threshold",
+      "value": 5,
+      "source_ids": [
+        "calculations"
+      ],
+      "verification": "single_source_reviewed",
+      "notes": "Attack speed is effective Speed; no weapon-weight deduction."
+    },
+    {
+      "id": "effective",
+      "name": "Effective might multiplier",
+      "value": 3,
+      "source_ids": [
+        "calculations"
+      ],
+      "verification": "single_source_reviewed",
+      "notes": "Triples weapon might, not total attack; weakness removal and innate weaknesses need explicit handling."
+    },
+    {
+      "id": "critical_damage",
+      "name": "Critical damage multiplier",
+      "value": 3,
+      "source_ids": [
+        "calculations"
+      ],
+      "verification": "single_source_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "true_hit",
+      "name": "2RN hit",
+      "value": "floor((RN1+RN2)/2) < displayed_hit; RN integers 0..99",
+      "source_ids": [
+        "true_hit"
+      ],
+      "verification": "single_source_reviewed",
+      "notes": "Finite distribution model; cannot predict actual RNG sequence."
+    },
+    {
+      "id": "dual_strike",
+      "name": "Dual Strike rate",
+      "value": "min(100,floor((lead_skill+support_skill)/4)+rank_bonus+skill_bonus)",
+      "source_ids": [
+        "calculations",
+        "pair_support_1"
+      ],
+      "verification": "single_source_reviewed",
+      "notes": "rank bonus none/C/B/A/S:20/30/40/50/60; skill bonus10 if Dual Strike+ on either unit, once."
+    },
+    {
+      "id": "dual_guard",
+      "name": "Dual Guard rate",
+      "value": "min(100,floor((lead_def_or_res+support_def_or_res)/4)+rank_bonus+skill_bonus)",
+      "source_ids": [
+        "calculations",
+        "pair_support_1"
+      ],
+      "verification": "single_source_reviewed",
+      "notes": "rank bonus none/C/B/A/S:0/2/5/7/10; Dual Guard+ adds10 once."
+    },
+    {
+      "id": "growth",
+      "name": "Actual growth",
+      "value": "personal_growth + class_growth + equipped_Aptitude_20",
+      "source_ids": [
+        "character_growths",
+        "class_details_1",
+        "skills_extra"
+      ],
+      "verification": "single_source_reviewed",
+      "notes": "Means are not guarantees; model does not include empty-level rerolls."
+    },
+    {
+      "id": "internal_level",
+      "name": "Internal level",
+      "value": "displayed_level + (20 if promoted else 0) + cumulative_level",
+      "source_ids": [
+        "calculations"
+      ],
+      "verification": "single_source_reviewed",
+      "notes": ""
+    },
+    {
+      "id": "second_seal_internal",
+      "name": "Second Seal cumulative",
+      "value": "min(difficulty_cap, old_cumulative + floor((displayed_level + promoted_offset - 1)/2))",
+      "source_ids": [
+        "calculations"
+      ],
+      "verification": "single_source_reviewed",
+      "notes": "caps Normal20 Hard30 Lunatic/Lunatic+50; promoted_offset20."
+    },
+    {
+      "id": "forge",
+      "name": "Player forge limits",
+      "value": {
+        "per_stat_intervals": 5,
+        "total_intervals": 8,
+        "critical_maximum": 50,
+        "cost_multipliers": [
+          0,
+          0.5,
+          1.5,
+          3,
+          5,
+          7.5
+        ],
+        "increments": {
+          "might": 1,
+          "hit": 5,
+          "crit": 3
+        }
+      },
+      "source_ids": [
+        "items_2"
+      ],
+      "verification": "single_source_reviewed",
+      "notes": "Full-use Worth determines cost; no nonzero Worth or Mire => cannot forge. Enemy limits differ."
+    }
+  ]
+}

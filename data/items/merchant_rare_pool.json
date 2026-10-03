@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "rare_item_pool",
+      "name": "Travelling merchant rare pool",
+      "item_ids": [
+        "hammerne",
+        "seraph_robe",
+        "energy_drop",
+        "spirit_dust",
+        "secret_book",
+        "speedwing",
+        "goddess_icon",
+        "dracoshield",
+        "talisman",
+        "arms_scroll"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Selection probability unknown."
+    }
+  ]
+}

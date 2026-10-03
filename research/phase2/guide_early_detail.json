@@ -1,0 +1,218 @@
+[
+  {
+    "id": "guide_early_detail_0",
+    "name": "Prologue The Verge of History - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/prologue-the-verge-of-history",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "timing_label": null,
+        "map_heading": "Prologue The Verge of History",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Garrick",
+            "Barbarian",
+            "3",
+            "Hand Axe"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "timing_label": null,
+        "map_heading": "Prologue The Verge of History",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Avatar",
+            "Tactician",
+            "1",
+            "Automatically"
+          ],
+          [
+            "Chrom",
+            "Lord",
+            "1",
+            "Automatically"
+          ],
+          [
+            "Lissa",
+            "Cleric",
+            "1",
+            "Automatically"
+          ],
+          [
+            "Frederick",
+            "Great Knight",
+            "1",
+            "Automatically"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Prologue:",
+        "map_heading": "Prologue The Verge of History",
+        "text": "Location: Southtown"
+      },
+      {
+        "section": "Note: Prologue:",
+        "map_heading": "Prologue The Verge of History",
+        "text": "Condition: Defeat Boss"
+      }
+    ],
+    "access_status": "accessed"
+  },
+  {
+    "id": "guide_early_detail_1",
+    "name": "Chapter 1 Unwelcome Change - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-1-unwelcome-change",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "timing_label": null,
+        "map_heading": "Chapter 1 Unwelcome Change",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Risen Chief",
+            "Fighter",
+            "3",
+            "Hand Axe"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "timing_label": null,
+        "map_heading": "Chapter 1 Unwelcome Change",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Virion",
+            "Archer",
+            "2",
+            "Start of Turn 2"
+          ],
+          [
+            "Sully",
+            "Cavalier",
+            "2",
+            "Start of Turn 2"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Chapter 1:",
+        "map_heading": "Chapter 1 Unwelcome Change",
+        "text": "Location: West of Ylisstol"
+      },
+      {
+        "section": "Note: Chapter 1:",
+        "map_heading": "Chapter 1 Unwelcome Change",
+        "text": "Condition: Defeat Boss"
+      }
+    ],
+    "access_status": "accessed"
+  },
+  {
+    "id": "guide_early_detail_2",
+    "name": "Chapter 2 Shepherds - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-2-shepherds",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "timing_label": null,
+        "map_heading": "Chapter 2 Shepherds",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Risen Chief",
+            "Barbarian",
+            "4",
+            "Hand Axe"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "timing_label": null,
+        "map_heading": "Chapter 2 Shepherds",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Stahl",
+            "Cavalier",
+            "2",
+            "Automatically"
+          ],
+          [
+            "Vaike",
+            "Fighter",
+            "3",
+            "Automatically"
+          ],
+          [
+            "Miriel",
+            "Mage",
+            "1",
+            "From Turn 2"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Chapter 2:",
+        "map_heading": "Chapter 2 Shepherds",
+        "text": "Location: The Northroad"
+      },
+      {
+        "section": "Note: Chapter 2:",
+        "map_heading": "Chapter 2 Shepherds",
+        "text": "Condition: Defeat Boss"
+      }
+    ],
+    "access_status": "accessed"
+  }
+]

@@ -1,0 +1,3571 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "premonition_normal",
+      "map_id": "premonition",
+      "name": "Invisible Ties",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "premonition_hard",
+      "map_id": "premonition",
+      "name": "Invisible Ties",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "premonition_lunatic",
+      "map_id": "premonition",
+      "name": "Invisible Ties",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "premonition_lunatic_plus",
+      "map_id": "premonition",
+      "name": "Invisible Ties",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "prologue_normal",
+      "map_id": "prologue",
+      "name": "The Verge of History",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "prologue_hard",
+      "map_id": "prologue",
+      "name": "The Verge of History",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "prologue_lunatic",
+      "map_id": "prologue",
+      "name": "The Verge of History",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_lm_edge_details_0"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 11,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "prologue_lunatic_plus",
+      "map_id": "prologue",
+      "name": "The Verge of History",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_1_normal",
+      "map_id": "chapter_1",
+      "name": "Unwelcome Change",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_1_hard",
+      "map_id": "chapter_1",
+      "name": "Unwelcome Change",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_early_detail_1"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_1_lunatic",
+      "map_id": "chapter_1",
+      "name": "Unwelcome Change",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_lm_early_0"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 8,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_1_lunatic_plus",
+      "map_id": "chapter_1",
+      "name": "Unwelcome Change",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_2_normal",
+      "map_id": "chapter_2",
+      "name": "Shepherds",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_2_hard",
+      "map_id": "chapter_2",
+      "name": "Shepherds",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_early_detail_2"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_2_lunatic",
+      "map_id": "chapter_2",
+      "name": "Shepherds",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_lm_para_survey_01_0"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 16,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_2_lunatic_plus",
+      "map_id": "chapter_2",
+      "name": "Shepherds",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_3_normal",
+      "map_id": "chapter_3",
+      "name": "Warrior Realm",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_3_hard",
+      "map_id": "chapter_3",
+      "name": "Warrior Realm",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_04_0"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_3_lunatic",
+      "map_id": "chapter_3",
+      "name": "Warrior Realm",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_lm_early_2"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 18,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_3_lunatic_plus",
+      "map_id": "chapter_3",
+      "name": "Warrior Realm",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_4_normal",
+      "map_id": "chapter_4",
+      "name": "Two Falchions",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_4_hard",
+      "map_id": "chapter_4",
+      "name": "Two Falchions",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_04_detail_0"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_4_lunatic",
+      "map_id": "chapter_4",
+      "name": "Two Falchions",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_lm_early_3"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 9,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_4_lunatic_plus",
+      "map_id": "chapter_4",
+      "name": "Two Falchions",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_5_normal",
+      "map_id": "chapter_5",
+      "name": "The Exalt and the King",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_5_hard",
+      "map_id": "chapter_5",
+      "name": "The Exalt and the King",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_04_detail_1"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_5_lunatic",
+      "map_id": "chapter_5",
+      "name": "The Exalt and the King",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_lm_05_08_0"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "partially_verified",
+      "enemy_count": 31,
+      "wave_count": 3,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_5_lunatic_plus",
+      "map_id": "chapter_5",
+      "name": "The Exalt and the King",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_6_normal",
+      "map_id": "chapter_6",
+      "name": "Foreseer",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_6_hard",
+      "map_id": "chapter_6",
+      "name": "Foreseer",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_survey_04_0"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_6_lunatic",
+      "map_id": "chapter_6",
+      "name": "Foreseer",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_6_lunatic_plus",
+      "map_id": "chapter_6",
+      "name": "Foreseer",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_7_normal",
+      "map_id": "chapter_7",
+      "name": "Incursion",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog",
+        "enemy_ch7_lunatic",
+        "reinforcements_early_1"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_7_hard",
+      "map_id": "chapter_7",
+      "name": "Incursion",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "enemy_ch7_lunatic",
+        "reinforcements_early_1",
+        "p2_guide_08_0",
+        "gamerguides_modes"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "partially_verified",
+      "enemy_count": 0,
+      "wave_count": 1,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_7_lunatic",
+      "map_id": "chapter_7",
+      "name": "Incursion",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "enemy_ch7_lunatic",
+        "reinforcements_early_1",
+        "p2_lm_05_08_2"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "partially_verified",
+      "enemy_count": 22,
+      "wave_count": 1,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_7_lunatic_plus",
+      "map_id": "chapter_7",
+      "name": "Incursion",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog",
+        "enemy_ch7_lunatic",
+        "reinforcements_early_1"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_8_normal",
+      "map_id": "chapter_8",
+      "name": "The Grimleal",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_8_hard",
+      "map_id": "chapter_8",
+      "name": "The Grimleal",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_08_1"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_8_lunatic",
+      "map_id": "chapter_8",
+      "name": "The Grimleal",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_lm_05_08_3"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 23,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_8_lunatic_plus",
+      "map_id": "chapter_8",
+      "name": "The Grimleal",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_9_normal",
+      "map_id": "chapter_9",
+      "name": "Emmeryn",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_9_hard",
+      "map_id": "chapter_9",
+      "name": "Emmeryn",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_9_lunatic",
+      "map_id": "chapter_9",
+      "name": "Emmeryn",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_lm_09_12_0"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "partially_verified",
+      "enemy_count": 29,
+      "wave_count": 1,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_9_lunatic_plus",
+      "map_id": "chapter_9",
+      "name": "Emmeryn",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_10_normal",
+      "map_id": "chapter_10",
+      "name": "Renewal",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_10_hard",
+      "map_id": "chapter_10",
+      "name": "Renewal",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "reinforcements_mid_0",
+        "gamerguides_modes"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "partially_verified",
+      "enemy_count": 0,
+      "wave_count": 1,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_10_lunatic",
+      "map_id": "chapter_10",
+      "name": "Renewal",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_lm_09_12_1"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "partially_verified",
+      "enemy_count": 43,
+      "wave_count": 3,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_10_lunatic_plus",
+      "map_id": "chapter_10",
+      "name": "Renewal",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_11_normal",
+      "map_id": "chapter_11",
+      "name": "Mad King Gangrel",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_11_hard",
+      "map_id": "chapter_11",
+      "name": "Mad King Gangrel",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_12_0"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_11_lunatic",
+      "map_id": "chapter_11",
+      "name": "Mad King Gangrel",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_11_lunatic_plus",
+      "map_id": "chapter_11",
+      "name": "Mad King Gangrel",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_12_normal",
+      "map_id": "chapter_12",
+      "name": "The Seacomers",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_12_hard",
+      "map_id": "chapter_12",
+      "name": "The Seacomers",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_survey_12_2"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_12_lunatic",
+      "map_id": "chapter_12",
+      "name": "The Seacomers",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_12_lunatic_plus",
+      "map_id": "chapter_12",
+      "name": "The Seacomers",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_13_normal",
+      "map_id": "chapter_13",
+      "name": "Of Sacred Blood",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_13_hard",
+      "map_id": "chapter_13",
+      "name": "Of Sacred Blood",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_12_2"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_13_lunatic",
+      "map_id": "chapter_13",
+      "name": "Of Sacred Blood",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_13_lunatic_plus",
+      "map_id": "chapter_13",
+      "name": "Of Sacred Blood",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_14_normal",
+      "map_id": "chapter_14",
+      "name": "Flames on the Blue",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_14_hard",
+      "map_id": "chapter_14",
+      "name": "Flames on the Blue",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_12_3"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_14_lunatic",
+      "map_id": "chapter_14",
+      "name": "Flames on the Blue",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_lm_13_16_1"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "partially_verified",
+      "enemy_count": 45,
+      "wave_count": 3,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_14_lunatic_plus",
+      "map_id": "chapter_14",
+      "name": "Flames on the Blue",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_15_normal",
+      "map_id": "chapter_15",
+      "name": "Smoldering Resistance",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_15_hard",
+      "map_id": "chapter_15",
+      "name": "Smoldering Resistance",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_16_0",
+        "reinforcements_14_16_0",
+        "gamerguides_modes"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "partially_verified",
+      "enemy_count": 0,
+      "wave_count": 3,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_15_lunatic",
+      "map_id": "chapter_15",
+      "name": "Smoldering Resistance",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_lm_13_16_2"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 37,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_15_lunatic_plus",
+      "map_id": "chapter_15",
+      "name": "Smoldering Resistance",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_16_normal",
+      "map_id": "chapter_16",
+      "name": "Naga's Voice",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_16_hard",
+      "map_id": "chapter_16",
+      "name": "Naga's Voice",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_16_1"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_16_lunatic",
+      "map_id": "chapter_16",
+      "name": "Naga's Voice",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_lm_missing_details_0"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "partially_verified",
+      "enemy_count": 53,
+      "wave_count": 3,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_16_lunatic_plus",
+      "map_id": "chapter_16",
+      "name": "Naga's Voice",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_17_normal",
+      "map_id": "chapter_17",
+      "name": "Inexorable Death",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_17_hard",
+      "map_id": "chapter_17",
+      "name": "Inexorable Death",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_16_2"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_17_lunatic",
+      "map_id": "chapter_17",
+      "name": "Inexorable Death",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_lm_17_20_0"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "partially_verified",
+      "enemy_count": 61,
+      "wave_count": 6,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_17_lunatic_plus",
+      "map_id": "chapter_17",
+      "name": "Inexorable Death",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_18_normal",
+      "map_id": "chapter_18",
+      "name": "Sibling Blades",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_18_hard",
+      "map_id": "chapter_18",
+      "name": "Sibling Blades",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_16_3"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_18_lunatic",
+      "map_id": "chapter_18",
+      "name": "Sibling Blades",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_lm_17_20_1"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 24,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_18_lunatic_plus",
+      "map_id": "chapter_18",
+      "name": "Sibling Blades",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_19_normal",
+      "map_id": "chapter_19",
+      "name": "The Conqueror",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_19_hard",
+      "map_id": "chapter_19",
+      "name": "The Conqueror",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_20_0"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_19_lunatic",
+      "map_id": "chapter_19",
+      "name": "The Conqueror",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_lm_missing_details_1",
+        "p2_guide_20_0"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "partially_verified",
+      "enemy_count": 44,
+      "wave_count": 1,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_19_lunatic_plus",
+      "map_id": "chapter_19",
+      "name": "The Conqueror",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_20_normal",
+      "map_id": "chapter_20",
+      "name": "The Sword or the Knee",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_20_hard",
+      "map_id": "chapter_20",
+      "name": "The Sword or the Knee",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_20_1",
+        "reinforcements_20_22_0",
+        "gamerguides_modes"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "partially_verified",
+      "enemy_count": 0,
+      "wave_count": 1,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_20_lunatic",
+      "map_id": "chapter_20",
+      "name": "The Sword or the Knee",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_lm20_detail_0"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "partially_verified",
+      "enemy_count": 68,
+      "wave_count": 1,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_20_lunatic_plus",
+      "map_id": "chapter_20",
+      "name": "The Sword or the Knee",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_21_normal",
+      "map_id": "chapter_21",
+      "name": "Five Gemstones",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_21_hard",
+      "map_id": "chapter_21",
+      "name": "Five Gemstones",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_20_2"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_21_lunatic",
+      "map_id": "chapter_21",
+      "name": "Five Gemstones",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_lm_late_0"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "partially_verified",
+      "enemy_count": 63,
+      "wave_count": 6,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_21_lunatic_plus",
+      "map_id": "chapter_21",
+      "name": "Five Gemstones",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_22_normal",
+      "map_id": "chapter_22",
+      "name": "An Ill Presage",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_22_hard",
+      "map_id": "chapter_22",
+      "name": "An Ill Presage",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_20_3"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "partially_verified",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_22_lunatic",
+      "map_id": "chapter_22",
+      "name": "An Ill Presage",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_lm_late_1"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 13,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_22_lunatic_plus",
+      "map_id": "chapter_22",
+      "name": "An Ill Presage",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_23_normal",
+      "map_id": "chapter_23",
+      "name": "Invisible Ties",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_23_hard",
+      "map_id": "chapter_23",
+      "name": "Invisible Ties",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_24_0"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_23_lunatic",
+      "map_id": "chapter_23",
+      "name": "Invisible Ties",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_lm_tail_retry_0"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "partially_verified",
+      "enemy_count": 57,
+      "wave_count": 4,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_23_lunatic_plus",
+      "map_id": "chapter_23",
+      "name": "Invisible Ties",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_24_normal",
+      "map_id": "chapter_24",
+      "name": "Awakening",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_24_hard",
+      "map_id": "chapter_24",
+      "name": "Awakening",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_24_1"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_24_lunatic",
+      "map_id": "chapter_24",
+      "name": "Awakening",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_lm_tail_retry_1"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "partially_verified",
+      "enemy_count": 31,
+      "wave_count": 1,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_24_lunatic_plus",
+      "map_id": "chapter_24",
+      "name": "Awakening",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_25_normal",
+      "map_id": "chapter_25",
+      "name": "To Slay a God",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_25_hard",
+      "map_id": "chapter_25",
+      "name": "To Slay a God",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_24_2"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_25_lunatic",
+      "map_id": "chapter_25",
+      "name": "To Slay a God",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_lm_edges_0"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "partially_verified",
+      "enemy_count": 85,
+      "wave_count": 5,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "chapter_25_lunatic_plus",
+      "map_id": "chapter_25",
+      "name": "To Slay a God",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "endgame_normal",
+      "map_id": "endgame",
+      "name": "Grima",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "endgame_hard",
+      "map_id": "endgame",
+      "name": "Grima",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "endgame_lunatic",
+      "map_id": "endgame",
+      "name": "Grima",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_lm_edge_details_1"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "partially_verified",
+      "enemy_count": 30,
+      "wave_count": 20,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "endgame_lunatic_plus",
+      "map_id": "endgame",
+      "name": "Grima",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_1_normal",
+      "map_id": "paralogue_1",
+      "name": "Sickle to Sword",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_1_hard",
+      "map_id": "paralogue_1",
+      "name": "Sickle to Sword",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_28_0"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_1_lunatic",
+      "map_id": "paralogue_1",
+      "name": "Sickle to Sword",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_1_lunatic_plus",
+      "map_id": "paralogue_1",
+      "name": "Sickle to Sword",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_2_normal",
+      "map_id": "paralogue_2",
+      "name": "The Secret Seller",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_2_hard",
+      "map_id": "paralogue_2",
+      "name": "The Secret Seller",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_28_1"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_2_lunatic",
+      "map_id": "paralogue_2",
+      "name": "The Secret Seller",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_2_lunatic_plus",
+      "map_id": "paralogue_2",
+      "name": "The Secret Seller",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_3_normal",
+      "map_id": "paralogue_3",
+      "name": "A Strangled Peace",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_3_hard",
+      "map_id": "paralogue_3",
+      "name": "A Strangled Peace",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_survey_28_4"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_3_lunatic",
+      "map_id": "paralogue_3",
+      "name": "A Strangled Peace",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_3_lunatic_plus",
+      "map_id": "paralogue_3",
+      "name": "A Strangled Peace",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_4_normal",
+      "map_id": "paralogue_4",
+      "name": "Anna the Merchant",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_4_hard",
+      "map_id": "paralogue_4",
+      "name": "Anna the Merchant",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_survey_28_3"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_4_lunatic",
+      "map_id": "paralogue_4",
+      "name": "Anna the Merchant",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_lm_paralogue_index_2"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 7,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_4_lunatic_plus",
+      "map_id": "paralogue_4",
+      "name": "Anna the Merchant",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_5_normal",
+      "map_id": "paralogue_5",
+      "name": "Scion of Legend",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_5_hard",
+      "map_id": "paralogue_5",
+      "name": "Scion of Legend",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_5_lunatic",
+      "map_id": "paralogue_5",
+      "name": "Scion of Legend",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_lm_para_full_a_0"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 19,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_5_lunatic_plus",
+      "map_id": "paralogue_5",
+      "name": "Scion of Legend",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_6_normal",
+      "map_id": "paralogue_6",
+      "name": "A Man for Flowers",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_6_hard",
+      "map_id": "paralogue_6",
+      "name": "A Man for Flowers",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_32_1"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_6_lunatic",
+      "map_id": "paralogue_6",
+      "name": "A Man for Flowers",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_6_lunatic_plus",
+      "map_id": "paralogue_6",
+      "name": "A Man for Flowers",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_7_normal",
+      "map_id": "paralogue_7",
+      "name": "Noble Lineage",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_7_hard",
+      "map_id": "paralogue_7",
+      "name": "Noble Lineage",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_survey_32_5"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_7_lunatic",
+      "map_id": "paralogue_7",
+      "name": "Noble Lineage",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_7_lunatic_plus",
+      "map_id": "paralogue_7",
+      "name": "Noble Lineage",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_8_normal",
+      "map_id": "paralogue_8",
+      "name": "A Duel Disgraced",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_8_hard",
+      "map_id": "paralogue_8",
+      "name": "A Duel Disgraced",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_32_3"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "partially_verified",
+      "enemy_count": 0,
+      "wave_count": 1,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_8_lunatic",
+      "map_id": "paralogue_8",
+      "name": "A Duel Disgraced",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_lm_para_full_a_1"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "partially_verified",
+      "enemy_count": 27,
+      "wave_count": 2,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_8_lunatic_plus",
+      "map_id": "paralogue_8",
+      "name": "A Duel Disgraced",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_9_normal",
+      "map_id": "paralogue_9",
+      "name": "Wings of Justice",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_9_hard",
+      "map_id": "paralogue_9",
+      "name": "Wings of Justice",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_36_0"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_9_lunatic",
+      "map_id": "paralogue_9",
+      "name": "Wings of Justice",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_9_lunatic_plus",
+      "map_id": "paralogue_9",
+      "name": "Wings of Justice",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_10_normal",
+      "map_id": "paralogue_10",
+      "name": "Ambivalence",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_10_hard",
+      "map_id": "paralogue_10",
+      "name": "Ambivalence",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_36_1"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "partially_verified",
+      "enemy_count": 0,
+      "wave_count": 1,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_10_lunatic",
+      "map_id": "paralogue_10",
+      "name": "Ambivalence",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_lm_para_full_a_2"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 22,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_10_lunatic_plus",
+      "map_id": "paralogue_10",
+      "name": "Ambivalence",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_11_normal",
+      "map_id": "paralogue_11",
+      "name": "Twin Wyverns",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_11_hard",
+      "map_id": "paralogue_11",
+      "name": "Twin Wyverns",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_36_2"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "partially_verified",
+      "enemy_count": 0,
+      "wave_count": 1,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_11_lunatic",
+      "map_id": "paralogue_11",
+      "name": "Twin Wyverns",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_lm_para_full_c_0"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 28,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_11_lunatic_plus",
+      "map_id": "paralogue_11",
+      "name": "Twin Wyverns",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_12_normal",
+      "map_id": "paralogue_12",
+      "name": "Disowned by Time",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_12_hard",
+      "map_id": "paralogue_12",
+      "name": "Disowned by Time",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_36_3"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_12_lunatic",
+      "map_id": "paralogue_12",
+      "name": "Disowned by Time",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_lm_para_full_a_3"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 24,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_12_lunatic_plus",
+      "map_id": "paralogue_12",
+      "name": "Disowned by Time",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_13_normal",
+      "map_id": "paralogue_13",
+      "name": "Rival Bands",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_13_hard",
+      "map_id": "paralogue_13",
+      "name": "Rival Bands",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_40_0"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_13_lunatic",
+      "map_id": "paralogue_13",
+      "name": "Rival Bands",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_13_lunatic_plus",
+      "map_id": "paralogue_13",
+      "name": "Rival Bands",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_14_normal",
+      "map_id": "paralogue_14",
+      "name": "Shadow in the Sands",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_14_hard",
+      "map_id": "paralogue_14",
+      "name": "Shadow in the Sands",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_survey_40_0",
+        "p2_guide_40_1"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "partially_verified",
+      "enemy_count": 0,
+      "wave_count": 1,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_14_lunatic",
+      "map_id": "paralogue_14",
+      "name": "Shadow in the Sands",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_lm_para_full_b_0"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 19,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_14_lunatic_plus",
+      "map_id": "paralogue_14",
+      "name": "Shadow in the Sands",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_15_normal",
+      "map_id": "paralogue_15",
+      "name": "A Shot from the Dark",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_15_hard",
+      "map_id": "paralogue_15",
+      "name": "A Shot from the Dark",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_40_2"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_15_lunatic",
+      "map_id": "paralogue_15",
+      "name": "A Shot from the Dark",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_lm_para_full_c_2"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 22,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_15_lunatic_plus",
+      "map_id": "paralogue_15",
+      "name": "A Shot from the Dark",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_16_normal",
+      "map_id": "paralogue_16",
+      "name": "Daughter to Dragons",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_16_hard",
+      "map_id": "paralogue_16",
+      "name": "Daughter to Dragons",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_40_3"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_16_lunatic",
+      "map_id": "paralogue_16",
+      "name": "Daughter to Dragons",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_lm_para_full_b_1"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 26,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_16_lunatic_plus",
+      "map_id": "paralogue_16",
+      "name": "Daughter to Dragons",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_17_normal",
+      "map_id": "paralogue_17",
+      "name": "The Threat of Silence",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_17_hard",
+      "map_id": "paralogue_17",
+      "name": "The Threat of Silence",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_44_0"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_17_lunatic",
+      "map_id": "paralogue_17",
+      "name": "The Threat of Silence",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_lm_para_full_c_3"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "partially_verified",
+      "enemy_count": 25,
+      "wave_count": 3,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_17_lunatic_plus",
+      "map_id": "paralogue_17",
+      "name": "The Threat of Silence",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_18_normal",
+      "map_id": "paralogue_18",
+      "name": "The Dead King's Lament",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_18_hard",
+      "map_id": "paralogue_18",
+      "name": "The Dead King's Lament",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_44_1"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_18_lunatic",
+      "map_id": "paralogue_18",
+      "name": "The Dead King's Lament",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_18_lunatic_plus",
+      "map_id": "paralogue_18",
+      "name": "The Dead King's Lament",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_19_normal",
+      "map_id": "paralogue_19",
+      "name": "Irreconcilable Paths",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_19_hard",
+      "map_id": "paralogue_19",
+      "name": "Irreconcilable Paths",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_44_2"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_19_lunatic",
+      "map_id": "paralogue_19",
+      "name": "Irreconcilable Paths",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_lm_para_full_b_2"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "partially_verified",
+      "enemy_count": 19,
+      "wave_count": 1,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_19_lunatic_plus",
+      "map_id": "paralogue_19",
+      "name": "Irreconcilable Paths",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_20_normal",
+      "map_id": "paralogue_20",
+      "name": "A Hard Miracle",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_20_hard",
+      "map_id": "paralogue_20",
+      "name": "A Hard Miracle",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_44_3"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_20_lunatic",
+      "map_id": "paralogue_20",
+      "name": "A Hard Miracle",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_lm_para_full_b_3"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 24,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_20_lunatic_plus",
+      "map_id": "paralogue_20",
+      "name": "A Hard Miracle",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_21_normal",
+      "map_id": "paralogue_21",
+      "name": "Ghost of a Blade",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_21_hard",
+      "map_id": "paralogue_21",
+      "name": "Ghost of a Blade",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_48_0"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_21_lunatic",
+      "map_id": "paralogue_21",
+      "name": "Ghost of a Blade",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_21_lunatic_plus",
+      "map_id": "paralogue_21",
+      "name": "Ghost of a Blade",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_22_normal",
+      "map_id": "paralogue_22",
+      "name": "The Wellspring of Truth",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_22_hard",
+      "map_id": "paralogue_22",
+      "name": "The Wellspring of Truth",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_48_1"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_22_lunatic",
+      "map_id": "paralogue_22",
+      "name": "The Wellspring of Truth",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_22_lunatic_plus",
+      "map_id": "paralogue_22",
+      "name": "The Wellspring of Truth",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_23_normal",
+      "map_id": "paralogue_23",
+      "name": "The Radiant Hero",
+      "difficulty": "Normal",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_23_hard",
+      "map_id": "paralogue_23",
+      "name": "The Radiant Hero",
+      "difficulty": "Hard",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_48_2"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "partially_verified",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_23_lunatic",
+      "map_id": "paralogue_23",
+      "name": "The Radiant Hero",
+      "difficulty": "Lunatic",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_lm_para_full_c_1"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "partially_verified",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 21,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "paralogue_23_lunatic_plus",
+      "map_id": "paralogue_23",
+      "name": "The Radiant Hero",
+      "difficulty": "Lunatic+",
+      "source_ids": [
+        "chapter_catalog"
+      ],
+      "verification": "derived_coverage_audit",
+      "map_status": "unresolved",
+      "reinforcement_status": "unresolved",
+      "enemy_count": 0,
+      "wave_count": 0,
+      "positions": "UNKNOWN",
+      "fully_checked": false,
+      "safe_for_tactical_certainty": false
+    }
+  ]
+}

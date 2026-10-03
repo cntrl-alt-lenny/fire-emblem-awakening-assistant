@@ -1,0 +1,12 @@
+{
+  "difficulty": "Hard",
+  "internal_level": 7,
+  "enemy_level": 7,
+  "enemy_class": "cavalier",
+  "enemy_promoted": false,
+  "unit_bonus": null,
+  "boss": false,
+  "engagement_count": 1,
+  "damaged": true,
+  "killed": true
+}

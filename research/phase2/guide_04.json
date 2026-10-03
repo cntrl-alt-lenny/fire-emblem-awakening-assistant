@@ -1,0 +1,103 @@
+[
+  {
+    "id": "guide_04_0",
+    "name": "Chapter 3 Warrior Realm - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-3-warrior-realm",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "timing_label": null,
+        "map_heading": "Chapter 3 Warrior Realm",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Raimi",
+            "Knight",
+            "5",
+            "Javelin"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "timing_label": null,
+        "map_heading": "Chapter 3 Warrior Realm",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Sumia",
+            "Pegasus Knight",
+            "1",
+            "Automatically"
+          ],
+          [
+            "Kellam",
+            "Knight",
+            "5",
+            "NPC: Talk with Chrom"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Chapter 3:",
+        "map_heading": "Chapter 3 Warrior Realm",
+        "text": "Location: The Longfort"
+      },
+      {
+        "section": "Note: Chapter 3:",
+        "map_heading": "Chapter 3 Warrior Realm",
+        "text": "Condition: Defeat Boss"
+      },
+      {
+        "section": "Note: Chapter 3:",
+        "map_heading": "Chapter 3 Warrior Realm",
+        "text": "Character Limit: 8 (Including Chrom)"
+      }
+    ],
+    "access_status": "accessed"
+  },
+  {
+    "id": "guide_04_1",
+    "name": "Chapter 4 Two Falchions - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-4-two-falchions",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "guide_04_2",
+    "name": "Chapter 5 The Exalt and the King - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-5-the-exalt-and-the-king",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "guide_04_3",
+    "name": "Chapter 6 Foreseer - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-6-foreseer",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  }
+]

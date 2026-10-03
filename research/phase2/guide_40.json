@@ -1,0 +1,229 @@
+[
+  {
+    "id": "guide_40_0",
+    "name": "Sidequest 13 Rival Bands - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-13-rival-bands",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "timing_label": null,
+        "map_heading": "Sidequest 13 Rival Bands",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Gyral (Stonewall Knights)",
+            "General",
+            "13",
+            "Tomahawk, Bullion (M)"
+          ],
+          [
+            "Dalen (Riders of Dawn)",
+            "Paladin",
+            "13",
+            "Spear, Bullion (M)"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "timing_label": null,
+        "map_heading": "Sidequest 13 Rival Bands",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Yarne",
+            "Taguel",
+            "10",
+            "NPC or enemy: Talk with Chrom or Panne"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Sidequest 13:",
+        "map_heading": "Sidequest 13 Rival Bands",
+        "text": "Location: Law\u2019s End"
+      },
+      {
+        "section": "Note: Sidequest 13:",
+        "map_heading": "Sidequest 13 Rival Bands",
+        "text": "Condition: Defeat Enemy"
+      },
+      {
+        "section": "Note: Sidequest 13:",
+        "map_heading": "Sidequest 13 Rival Bands",
+        "text": "Character Limit: 13 (Including Chrom)"
+      }
+    ],
+    "access_status": "accessed"
+  },
+  {
+    "id": "guide_40_1",
+    "name": "Sidequest 14 Shadow in the Sands - Sidequests 14 to 23 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-14-to-23/sidequest-14-shadow-in-the-sands",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "timing_label": null,
+        "map_heading": "Sidequest 14 Shadow in the Sands",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Nombry",
+            "Warrior",
+            "10",
+            "Silver Axe, Silver Bow, Master Seal"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "timing_label": null,
+        "map_heading": "Sidequest 14 Shadow in the Sands",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Laurent",
+            "Mage",
+            "10",
+            "Enter the village with Chrom or Miriel"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Sidequest 14:",
+        "map_heading": "Sidequest 14 Shadow in the Sands",
+        "text": "Location: Desert Oasis"
+      },
+      {
+        "section": "Note: Sidequest 14:",
+        "map_heading": "Sidequest 14 Shadow in the Sands",
+        "text": "Condition: Defeat Enemy"
+      },
+      {
+        "section": "Note: Sidequest 14:",
+        "map_heading": "Sidequest 14 Shadow in the Sands",
+        "text": "Character Limit: 13 (Including Chrom)"
+      }
+    ],
+    "access_status": "accessed"
+  },
+  {
+    "id": "guide_40_2",
+    "name": "Sidequest 15 A Shot from the Dark - Sidequests 14 to 23 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-14-to-23/sidequest-15-a-shot-from-the-dark",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "timing_label": null,
+        "map_heading": "Sidequest 15 A Shot from the Dark",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Ezra",
+            "Bow Knight",
+            "14",
+            "Silver Bow, Silver Sword, Energy Drop"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "timing_label": null,
+        "map_heading": "Sidequest 15 A Shot from the Dark",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Noire",
+            "Archer",
+            "10",
+            "From Turn 2"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Sidequest 15:",
+        "map_heading": "Sidequest 15 A Shot from the Dark",
+        "text": "Location: Kidnapper\u2019s Keep"
+      },
+      {
+        "section": "Note: Sidequest 15:",
+        "map_heading": "Sidequest 15 A Shot from the Dark",
+        "text": "Condition: Defeat Enemy"
+      },
+      {
+        "section": "Note: Sidequest 15:",
+        "map_heading": "Sidequest 15 A Shot from the Dark",
+        "text": "Character Limit: 13 (Including Chrom)"
+      }
+    ],
+    "access_status": "accessed"
+  },
+  {
+    "id": "guide_40_3",
+    "name": "Sidequest 16 Daughter to Dragons - Sidequests 14 to 23 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-14-to-23/sidequest-16-daughter-to-dragons",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [],
+    "factual_candidates": [
+      {
+        "section": "Note: Sidequest 16:",
+        "map_heading": "Sidequest 16 Daughter to Dragons",
+        "text": "Location: Manor of Lost Souls"
+      },
+      {
+        "section": "Note: Sidequest 16:",
+        "map_heading": "Sidequest 16 Daughter to Dragons",
+        "text": "Condition: Defeat Boss"
+      },
+      {
+        "section": "Note: Sidequest 16:",
+        "map_heading": "Sidequest 16 Daughter to Dragons",
+        "text": "Character Limit: 13 (Including Chrom)"
+      }
+    ],
+    "access_status": "accessed"
+  }
+]

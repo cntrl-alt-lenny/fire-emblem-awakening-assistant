@@ -1,0 +1,197 @@
+[
+  {
+    "id": "guide_48_0",
+    "name": "Sidequest 21 Ghost of a Blade - Sidequests 14 to 23 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-14-to-23/sidequest-21-ghost-of-a-blade",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "timing_label": null,
+        "map_heading": "Sidequest 21 Ghost of a Blade",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Risen Chief",
+            "Swordmaster",
+            "20",
+            "Sol Katti"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "timing_label": null,
+        "map_heading": "Sidequest 21 Ghost of a Blade",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Yen\u2019fay",
+            "Swordmaster",
+            "20",
+            "NPC: Talk with Say\u2019ri"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Sidequest 21:",
+        "map_heading": "Sidequest 21 Ghost of a Blade",
+        "text": "Location: Warrior\u2019s Tomb"
+      },
+      {
+        "section": "Note: Sidequest 21:",
+        "map_heading": "Sidequest 21 Ghost of a Blade",
+        "text": "Condition: Defeat Enemy"
+      },
+      {
+        "section": "Note: Sidequest 21:",
+        "map_heading": "Sidequest 21 Ghost of a Blade",
+        "text": "Character Limit: 15 (Including Chrom)"
+      }
+    ],
+    "access_status": "accessed"
+  },
+  {
+    "id": "guide_48_1",
+    "name": "Sidequest 22 The Wellspring of Truth - Sidequests 14 to 23 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-14-to-23/sidequest-22-the-wellspring-of-truth",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "timing_label": null,
+        "map_heading": "Sidequest 22 The Wellspring of Truth",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Aversa (red)",
+            "Dark Flier",
+            "20",
+            "Bolganone, Nosferatu"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "timing_label": null,
+        "map_heading": "Sidequest 22 The Wellspring of Truth",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Aversa (green)",
+            "Dark Flier",
+            "20",
+            "Clear the mission with her alive"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Sidequest 22:",
+        "map_heading": "Sidequest 22 The Wellspring of Truth",
+        "text": "Location: Wellspring of Truth"
+      },
+      {
+        "section": "Note: Sidequest 22:",
+        "map_heading": "Sidequest 22 The Wellspring of Truth",
+        "text": "Condition: Defeat Enemy"
+      },
+      {
+        "section": "Note: Sidequest 22:",
+        "map_heading": "Sidequest 22 The Wellspring of Truth",
+        "text": "Character Limit: 15 (Including Chrom)"
+      }
+    ],
+    "access_status": "accessed"
+  },
+  {
+    "id": "guide_48_2",
+    "name": "Sidequest 23 The Radiant Hero - Sidequests 14 to 23 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-14-to-23/sidequest-23-the-radiant-hero",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "timing_label": null,
+        "map_heading": "Sidequest 23 The Radiant Hero",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Priam",
+            "Hero",
+            "20",
+            "Ragnell, Secret Book, Goddess Icon"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "timing_label": null,
+        "map_heading": "Sidequest 23 The Radiant Hero",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Priam",
+            "Hero",
+            "20",
+            "End of chapter"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Chapter 22:",
+        "map_heading": "Sidequest 23 The Radiant Hero",
+        "text": "Location: Garden of Giants"
+      },
+      {
+        "section": "Note: Chapter 22:",
+        "map_heading": "Sidequest 23 The Radiant Hero",
+        "text": "Condition: Defeat Enemy"
+      },
+      {
+        "section": "Note: Chapter 22:",
+        "map_heading": "Sidequest 23 The Radiant Hero",
+        "text": "Character Limit: 30 (Including Chrom)"
+      }
+    ],
+    "access_status": "accessed"
+  }
+]

@@ -1,0 +1,6449 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "bronze_sword",
+      "name": "Bronze Sword",
+      "source_ids": [
+        "obtain_swords",
+        "weapons_a"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "sword",
+      "rank": "E",
+      "might": 3,
+      "hit": 100,
+      "crit": 0,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 50,
+      "worth": 350,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Playable",
+          "locations": "Avatar, Stahl",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Prologue",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Mist, Edward",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "iron_sword",
+      "name": "Iron Sword",
+      "source_ids": [
+        "obtain_swords",
+        "weapons_a",
+        "p2_iron_sword"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "sword",
+      "rank": "D",
+      "might": 5,
+      "hit": 95,
+      "crit": 0,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 40,
+      "worth": 520,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Playable",
+          "locations": "Gaius, Olivia",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 2",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Ch 5, Ch 11, Par 1, Par 5",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Pro, Ch 1-3",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Florina, Eirika, Soren, Edward, Leonardo, Clair, Fee, Nanna, Shanna",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ],
+      "independent_numeric_crosscheck": {
+        "rank": "D",
+        "might": 5,
+        "hit": 95,
+        "crit": 0,
+        "range": "1",
+        "uses": 40,
+        "worth": 520
+      }
+    },
+    {
+      "id": "steel_sword",
+      "name": "Steel Sword",
+      "source_ids": [
+        "obtain_swords",
+        "weapons_a"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "sword",
+      "rank": "C",
+      "might": 8,
+      "hit": 90,
+      "crit": 0,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 35,
+      "worth": 840,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Playable",
+          "locations": "Gregor, Anna, Owain, Severa, Morgan",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 7, Ch 15, Ch 16",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Ch 9, Ch 15, Par 4, Par 5",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 4-8, Par 1-3",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Serra, Matthew, Eirika, Marisa, Mia, Zihark, Sanaki, Caeda, Linde, Boey, Catria, Athena, Ethlyn, Ulster, Larcei, Salem, Olwen, Lugh, Raigh",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "silver_sword",
+      "name": "Silver Sword",
+      "source_ids": [
+        "obtain_swords",
+        "weapons_a"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "sword",
+      "rank": "B",
+      "might": 11,
+      "hit": 85,
+      "crit": 0,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 30,
+      "worth": 1410,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Playable",
+          "locations": "Flavia",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 12, Ch 16, Ch 19, Ch 23",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Ch 15, Ch 17, Ch 19, Par 5, Par 21",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 9-13, Par 4, Par 9, Par 11, Par 15",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Nino, Karel, Jaffar, Lyn, Hector, Nergal, Marisa, L'Arachel, Geoffrey, Lucia, Sothe, Tiki, Ogma, Navarre, Prince Marth, Nomah, Deen, Athena, Horace, Katarina, King Marth, Quan, Lewyn, Arvis, Sigurd, Larcei, Julia, Salem, Olwen, Eyvel, Mareeta, Raydrik, Perceval, Camus, Narcian, Lloyd, Linus, Ursula, Selena, Petrine",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "Double Duel",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "brave_sword",
+      "name": "Brave Sword",
+      "source_ids": [
+        "obtain_swords",
+        "weapons_a"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "sword",
+      "rank": "A",
+      "might": 9,
+      "hit": 80,
+      "crit": 0,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 30,
+      "worth": 2100,
+      "effect": "2 consecutive attacks",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": true,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Armoury",
+          "locations": "Ch 25, Par 21",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 18-23, Par 5, Par 9, Par 11, Par 15, Par 17",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Nergal, Eliwood, Black Knight, Micaiah, Deen, Ayra, Sigurd, Larcei, Julius, Mareeta, Zephiel, Roy, Camus, Lloyd, Linus",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "armourslayer",
+      "name": "Armourslayer",
+      "source_ids": [
+        "obtain_swords",
+        "weapons_a"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "sword",
+      "rank": "D",
+      "might": 8,
+      "hit": 80,
+      "crit": 0,
+      "range": "1",
+      "effectiveness": [
+        "armour"
+      ],
+      "uses": 25,
+      "worth": 1450,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 11, Ch 18",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Par 21",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 7, Ch 13, Ch 21, Par 7, Par 13, Par 16",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Matthew, Karel, Mia, Malice, Ethlyn",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "wyrmslayer",
+      "name": "Wyrmslayer",
+      "source_ids": [
+        "obtain_swords",
+        "weapons_a"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "sword",
+      "rank": "D",
+      "might": 8,
+      "hit": 80,
+      "crit": 0,
+      "range": "1",
+      "effectiveness": [
+        "dragon"
+      ],
+      "uses": 25,
+      "worth": 1500,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 10, Ch 23",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Event",
+          "locations": "Par 11 (NPC)",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Par 21",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Pro, Ch 4, Ch 15, Ch 17, Par 1, Par 8, Par 10, Par 12, Par 14",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Matthew, Catria, Mareeta",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "Double Duel",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "killing_edge",
+      "name": "Killing Edge",
+      "source_ids": [
+        "obtain_swords",
+        "weapons_a"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "sword",
+      "rank": "C",
+      "might": 9,
+      "hit": 90,
+      "crit": 30,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 30,
+      "worth": 1470,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Playable",
+          "locations": "Lon'qu, Inigo, Yen'fay",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 8",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Chest",
+          "locations": "Par 4",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Event",
+          "locations": "Par 6 (Inigo)",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Ch 19, Par 5",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 12, Ch 14-17, 22, Par 6-8, Par 10, Par 12-14, Par 16",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Nino, Jaffar, Eliwood, Marisa, Zihark, Ike, Linde, Tiki, Ogma, Navarre, Boey, Norne, Malice, Katarina, Julia, Salem, Mareeta, Raigh, Lloyd",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "levin_sword",
+      "name": "Levin Sword",
+      "source_ids": [
+        "obtain_swords",
+        "weapons_a"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "sword",
+      "rank": "C",
+      "might": 10,
+      "hit": 80,
+      "crit": 0,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 25,
+      "worth": 1600,
+      "effect": "Counts as magic",
+      "damage_type": "magical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Playable",
+          "locations": "Gangrel",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 11, Ch 25",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Chest",
+          "locations": "Par 10",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Par 23",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 11, Ch 16, Ch 20, Par 6-7, Par 10, Par 13, Par 16",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Nino, Lyn, Hector, Eliwood, Sothe, Navarre, Malice, Katarina, Leif",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "270 Renown",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "rapier",
+      "name": "Rapier",
+      "source_ids": [
+        "obtain_swords",
+        "weapons_a"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "sword",
+      "rank": "E",
+      "might": 5,
+      "hit": 90,
+      "crit": 10,
+      "range": "1",
+      "effectiveness": [
+        "beast",
+        "armour"
+      ],
+      "uses": 35,
+      "worth": 1600,
+      "effect": "Lords, Great Lords and Lodestars only",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Playable",
+          "locations": "Chrom, Lucina",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 6, Ch 11, Ch 14",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "noble_rapier",
+      "name": "Noble Rapier",
+      "source_ids": [
+        "obtain_swords",
+        "weapons_a"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "sword",
+      "rank": "C",
+      "might": 8,
+      "hit": 85,
+      "crit": 10,
+      "range": "1",
+      "effectiveness": [
+        "beast",
+        "armour"
+      ],
+      "uses": 25,
+      "worth": 2100,
+      "effect": "Lords, Great Lords and Lodestars only",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 18",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Chest",
+          "locations": "Ch 21",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Par 23",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 18, Ch 21",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Prince Marth",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "4000 Renown",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "missiletainn",
+      "name": "Missiletainn",
+      "source_ids": [
+        "obtain_swords",
+        "weapons_a"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "sword",
+      "rank": "C",
+      "might": 8,
+      "hit": 85,
+      "crit": 10,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 35,
+      "worth": 1050,
+      "effect": "Owain only, Skill +1",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {
+        "skl": 1
+      },
+      "obtainability": [
+        {
+          "method": "Event",
+          "locations": "Par 5",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "Infinite Regalia",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "sol",
+      "name": "Sol",
+      "source_ids": [
+        "obtain_swords",
+        "weapons_a"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "sword",
+      "rank": "B",
+      "might": 12,
+      "hit": 85,
+      "crit": 5,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 30,
+      "worth": 0,
+      "effect": "+Sol Skill",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 19",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "Infinite Regalia",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "amatsu",
+      "name": "Amatsu",
+      "source_ids": [
+        "obtain_swords",
+        "weapons_a"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "sword",
+      "rank": "A",
+      "might": 12,
+      "hit": 60,
+      "crit": 5,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 30,
+      "worth": 0,
+      "effect": "Myrmidons and Swordmasters only",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 18",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "Infinite Regalia",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "falchion",
+      "name": "Falchion",
+      "source_ids": [
+        "obtain_swords",
+        "weapons_a"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "sword",
+      "rank": "E",
+      "might": 5,
+      "hit": 80,
+      "crit": 0,
+      "range": "1",
+      "effectiveness": [
+        "dragon"
+      ],
+      "uses": null,
+      "worth": null,
+      "effect": "Chrom and Marth only",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Playable",
+          "locations": "Chrom",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "exalted_falchion",
+      "name": "Exalted Falchion",
+      "source_ids": [
+        "obtain_swords",
+        "weapons_a"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "sword",
+      "rank": "E",
+      "might": 15,
+      "hit": 80,
+      "crit": 10,
+      "range": "1",
+      "effectiveness": [
+        "dragon",
+        "fell_dragon"
+      ],
+      "uses": null,
+      "worth": null,
+      "effect": "Chrom and Marth only, can be used to recover 20 HP",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Event",
+          "locations": "Ch 24 (end of chapter)",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "parallel_falchion",
+      "name": "Parallel Falchion",
+      "source_ids": [
+        "obtain_swords",
+        "weapons_a"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "sword",
+      "rank": "E",
+      "might": 12,
+      "hit": 80,
+      "crit": 5,
+      "range": "1",
+      "effectiveness": [
+        "dragon",
+        "fell_dragon"
+      ],
+      "uses": null,
+      "worth": null,
+      "effect": "Lucina and Marth only, can be used to recover 20 HP",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Playable",
+          "locations": "Lucina",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "mercurius",
+      "name": "Mercurius",
+      "source_ids": [
+        "obtain_swords",
+        "weapons_a"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "sword",
+      "rank": "A",
+      "might": 17,
+      "hit": 95,
+      "crit": 5,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 25,
+      "worth": 0,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Other",
+          "locations": "3000 Renown, Infinite Regalia",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "tyrfing",
+      "name": "Tyrfing",
+      "source_ids": [
+        "obtain_swords",
+        "weapons_a"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "sword",
+      "rank": "A",
+      "might": 15,
+      "hit": 85,
+      "crit": 10,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 25,
+      "worth": 0,
+      "effect": "Res +5",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {
+        "res": 5
+      },
+      "obtainability": [
+        {
+          "method": "Other",
+          "locations": "Bonus item , Infinite Regalia",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "balmung",
+      "name": "Balmung",
+      "source_ids": [
+        "obtain_swords",
+        "weapons_a"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "sword",
+      "rank": "A",
+      "might": 13,
+      "hit": 90,
+      "crit": 10,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 25,
+      "worth": 0,
+      "effect": "Speed +5",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 22",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "Infinite Regalia",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "mystletainn",
+      "name": "Mystletainn",
+      "source_ids": [
+        "obtain_swords",
+        "weapons_a"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "sword",
+      "rank": "A",
+      "might": 14,
+      "hit": 85,
+      "crit": 15,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 25,
+      "worth": 0,
+      "effect": "Skill +5",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {
+        "skl": 5
+      },
+      "obtainability": [
+        {
+          "method": "Other",
+          "locations": "Bonus item , Infinite Regalia",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "sol_katti",
+      "name": "Sol Katti",
+      "source_ids": [
+        "obtain_swords",
+        "weapons_a"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "sword",
+      "rank": "A",
+      "might": 8,
+      "hit": 100,
+      "crit": 50,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 25,
+      "worth": 0,
+      "effect": "Myrmidons & Swordmasters only, Res +5",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {
+        "res": 5
+      },
+      "obtainability": [
+        {
+          "method": "Enemy loot",
+          "locations": "Par 21",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "Infinite Regalia",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "ragnell",
+      "name": "Ragnell",
+      "source_ids": [
+        "obtain_swords",
+        "weapons_a"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "sword",
+      "rank": "A",
+      "might": 15,
+      "hit": 70,
+      "crit": 0,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 25,
+      "worth": 0,
+      "effect": "Def +5",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {
+        "def": 5
+      },
+      "obtainability": [
+        {
+          "method": "Playable",
+          "locations": "Priam",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "Infinite Regalia",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "tree_branch",
+      "name": "Tree Branch",
+      "source_ids": [
+        "obtain_swords",
+        "weapons_a"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "sword",
+      "rank": "E",
+      "might": 1,
+      "hit": 100,
+      "crit": 0,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 20,
+      "worth": 100,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Other",
+          "locations": "Event tile, Barracks",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "glass_sword",
+      "name": "Glass Sword",
+      "source_ids": [
+        "obtain_swords",
+        "weapons_a"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "sword",
+      "rank": "E",
+      "might": 11,
+      "hit": 85,
+      "crit": 0,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 3,
+      "worth": 600,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Other",
+          "locations": "50 Renown, Event tile, Barracks",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "soothing_sword",
+      "name": "Soothing Sword",
+      "source_ids": [
+        "obtain_swords",
+        "weapons_a"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "sword",
+      "rank": "D",
+      "might": 8,
+      "hit": 85,
+      "crit": 0,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 10,
+      "worth": 920,
+      "effect": "Recover 10 HP each Turn",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Other",
+          "locations": "Event tile, Barracks",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "superior_edge",
+      "name": "Superior Edge",
+      "source_ids": [
+        "obtain_swords",
+        "weapons_a"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "sword",
+      "rank": "B",
+      "might": 11,
+      "hit": 80,
+      "crit": 0,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 10,
+      "worth": 1950,
+      "effect": "+Swordbreaker Skill",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Other",
+          "locations": "Event tile, Barracks",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "leifs_blade",
+      "name": "Leif's Blade",
+      "source_ids": [
+        "obtain_swords",
+        "weapons_a"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "sword",
+      "rank": "D",
+      "might": 4,
+      "hit": 95,
+      "crit": 30,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 20,
+      "worth": 820,
+      "effect": "+Despoil Skill",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "SpotPass Team",
+          "locations": "Leif",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "1500 Renown, Event tile, Barracks",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "roys_blade",
+      "name": "Roy's Blade",
+      "source_ids": [
+        "obtain_swords",
+        "weapons_a"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "sword",
+      "rank": "D",
+      "might": 8,
+      "hit": 95,
+      "crit": 5,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 25,
+      "worth": 900,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "SpotPass Team",
+          "locations": "Roy",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "Event tile, Barracks",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "eliwoods_blade",
+      "name": "Eliwood's Blade",
+      "source_ids": [
+        "obtain_swords",
+        "weapons_a"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "sword",
+      "rank": "C",
+      "might": 10,
+      "hit": 85,
+      "crit": 5,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 20,
+      "worth": 960,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "SpotPass Team",
+          "locations": "Eliwood",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "Event tile, Barracks",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "eirikas_blade",
+      "name": "Eirika's Blade",
+      "source_ids": [
+        "obtain_swords",
+        "weapons_a"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "sword",
+      "rank": "C",
+      "might": 6,
+      "hit": 95,
+      "crit": 10,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 20,
+      "worth": 1220,
+      "effect": "2 consecutive attacks",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": true,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "SpotPass Team",
+          "locations": "Eirika",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "Event tile, Barracks",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "seliphs_blade",
+      "name": "Seliph's Blade",
+      "source_ids": [
+        "obtain_swords",
+        "weapons_a"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "sword",
+      "rank": "B",
+      "might": 12,
+      "hit": 90,
+      "crit": 15,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 15,
+      "worth": 1530,
+      "effect": "Spd and Res +2",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {
+        "res": 2
+      },
+      "obtainability": [
+        {
+          "method": "SpotPass Team",
+          "locations": "Seliph",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "Event tile, Barracks",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "alms_blade",
+      "name": "Alm's Blade",
+      "source_ids": [
+        "obtain_swords",
+        "weapons_a"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "sword",
+      "rank": "B",
+      "might": 15,
+      "hit": 75,
+      "crit": 10,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 10,
+      "worth": 1630,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "SpotPass Team",
+          "locations": "Alm",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "8000 Renown, Event tile, Barracks",
+          "source_ids": [
+            "obtain_swords"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "bronze_lance",
+      "name": "Bronze Lance",
+      "source_ids": [
+        "obtain_swords_1",
+        "weapons_a_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "lance",
+      "rank": "E",
+      "might": 3,
+      "hit": 90,
+      "crit": 0,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 50,
+      "worth": 350,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Playable",
+          "locations": "Sully, Donnel",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Prologue",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Brom",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "iron_lance",
+      "name": "Iron Lance",
+      "source_ids": [
+        "obtain_swords_1",
+        "weapons_a_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "lance",
+      "rank": "D",
+      "might": 6,
+      "hit": 85,
+      "crit": 0,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 40,
+      "worth": 560,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Playable",
+          "locations": "Sumia, Kellam",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 2, Ch 6",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Ch 4, Ch 10, Par 1, Par 9",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Pro, Ch 1-3",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Eirika, Amelia, Mist, Elincia, Brom, Nephenee, Nyna, Clair, Norne, Fee, Arthur, Shanna",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "steel_lance",
+      "name": "Steel Lance",
+      "source_ids": [
+        "obtain_swords_1",
+        "weapons_a_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "lance",
+      "rank": "C",
+      "might": 9,
+      "hit": 80,
+      "crit": 0,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 35,
+      "worth": 910,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Playable",
+          "locations": "Cordelia, Kjelle, Cynthia, Morgan",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 8, Ch 15",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Ch 9, Ch 14, Par 4, Par 9",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 4-8, Par 1-3",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Serra, Amelia, Moulder, Zihark, Brom, Nephenee, Sanaki, Caeda, Catria, Malice, Arden, Ethlyn, Ulster, Olwen, Lugh",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "silver_lance",
+      "name": "Silver Lance",
+      "source_ids": [
+        "obtain_swords_1",
+        "weapons_a_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "lance",
+      "rank": "B",
+      "might": 13,
+      "hit": 75,
+      "crit": 0,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 30,
+      "worth": 1560,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Playable",
+          "locations": "Frederick",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 12, Ch 18, Ch 19, Ch 23",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Ch 14, Ch 17, Ch 20, Par 9, Par 19",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 9-13, Par 4, Par 5, Par 11, Par 15",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Lyn, Hector, Eliwood, Eirika, Innes, Seth, Elincia, Geoffrey, Ashnard, Sanaki, Sigrun, Minerva, Prince Marth, Mycen, Valbar, Clive, Nomah, Celica, Alm, Horace, Etzel, Hardin, Raquesis, Quan, Ayra, Arvis, Sigurd, Altena, Ares, Seliph, Finn, Saias, Perceval, Roy, Travant, Lloyd, Linus, Selena, Petrine",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "Double Duel",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "brave_lance",
+      "name": "Brave Lance",
+      "source_ids": [
+        "obtain_swords_1",
+        "weapons_a_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "lance",
+      "rank": "A",
+      "might": 10,
+      "hit": 70,
+      "crit": 0,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 30,
+      "worth": 2220,
+      "effect": "2 consecutive attacks",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": true,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Armoury",
+          "locations": "Ch 25, Par 19",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 18-23, Par 5, Par 9, Par 11, Par 15, Par 17",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Nergal, Eliwood, Seth, Ephraim, Geoffrey, Ike, Black Knight, Micaiah, Hardin, Sigurd, Julius, Finn, Leif, Perceval, Roy, Camus, Travant, Ishtar, Narcian, Lloyd, Petrine",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "javelin",
+      "name": "Javelin",
+      "source_ids": [
+        "obtain_swords_1",
+        "weapons_a_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "lance",
+      "rank": "D",
+      "might": 2,
+      "hit": 80,
+      "crit": 0,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 25,
+      "worth": 700,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Playable",
+          "locations": "Kellam, Cordelia",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 9",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Ch 7, Ch 10, Ch 14, Ch 21, Par 2, Par 9",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Florina, Eirika, Amelia, Brom, Nephenee, Nyna, Clair, Norne, Malice, Olwen",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "short_spear",
+      "name": "Short Spear",
+      "source_ids": [
+        "obtain_swords_1",
+        "weapons_a_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "lance",
+      "rank": "C",
+      "might": 5,
+      "hit": 75,
+      "crit": 0,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 25,
+      "worth": 1600,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 14, Ch 16",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Chest",
+          "locations": "Par 8",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Par 23",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 11, Ch 14, Ch 15, Par 4",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Elincia, Sanaki, Sigrun, Caeda, Mycen, Arden, Altena, Finn",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "spear",
+      "name": "Spear",
+      "source_ids": [
+        "obtain_swords_1",
+        "weapons_a_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "lance",
+      "rank": "B",
+      "might": 8,
+      "hit": 70,
+      "crit": 0,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 25,
+      "worth": 2400,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 24",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 19, Ch 22",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Ashnard, Celica, Alm, Hardin, Zephiel, Camus, Travant, Ishtar, Selena, Petrine",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "beast_killer",
+      "name": "Beast Killer",
+      "source_ids": [
+        "obtain_swords_1",
+        "weapons_a_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "lance",
+      "rank": "D",
+      "might": 9,
+      "hit": 70,
+      "crit": 0,
+      "range": "1",
+      "effectiveness": [
+        "beast"
+      ],
+      "uses": 25,
+      "worth": 1650,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 12, Ch 16",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Village",
+          "locations": "Par 13",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Par 19",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 2, Ch 9, Ch 16, Ch 20, Par 3, Par 6, Par 8, Par 10, Par 12-14, Par 16",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Innes, Ike, Sigrun, Minerva, Prince Marth, Ayra",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "400 Renown, Double Duel",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "blessed_lance",
+      "name": "Blessed Lance",
+      "source_ids": [
+        "obtain_swords_1",
+        "weapons_a_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "lance",
+      "rank": "C",
+      "might": 11,
+      "hit": 70,
+      "crit": 0,
+      "range": "1",
+      "effectiveness": [
+        "revenant"
+      ],
+      "uses": 35,
+      "worth": 1540,
+      "effect": "Recover 10 HP each Turn",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Event",
+          "locations": "Par 7 (NPC)",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Par 19",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 4, Ch 10, Ch 13, Ch 17, Par 6-8, Par 10, Par 12-14",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Innes, Finn",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "killer_lance",
+      "name": "Killer Lance",
+      "source_ids": [
+        "obtain_swords_1",
+        "weapons_a_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "lance",
+      "rank": "C",
+      "might": 10,
+      "hit": 80,
+      "crit": 30,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 30,
+      "worth": 1680,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Chest",
+          "locations": "Ch 18, Par 1",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Ch 20, Par 9",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 12, Ch 14-18, Ch 23, Par 6-8, Par 10, Par 12-14, Par 16",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Hector, Innes, Brom, Sigrun, Caeda, Minerva, Norne, Ethlyn, Quan, Finn, Roy",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "luna",
+      "name": "Luna",
+      "source_ids": [
+        "obtain_swords_1",
+        "weapons_a_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "lance",
+      "rank": "B",
+      "might": 14,
+      "hit": 80,
+      "crit": 5,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 30,
+      "worth": 0,
+      "effect": "+Luna Skill",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Other",
+          "locations": "Bonus item , Infinite Regalia",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "gradivus",
+      "name": "Gradivus",
+      "source_ids": [
+        "obtain_swords_1",
+        "weapons_a_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "lance",
+      "rank": "A",
+      "might": 19,
+      "hit": 85,
+      "crit": 5,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 25,
+      "worth": 0,
+      "effect": "Can be used to recover all HP",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Other",
+          "locations": "10000 Renown, Infinite Regalia",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "gae_bolg",
+      "name": "Gáe Bolg",
+      "source_ids": [
+        "obtain_swords_1",
+        "weapons_a_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "lance",
+      "rank": "A",
+      "might": 15,
+      "hit": 75,
+      "crit": 10,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 25,
+      "worth": 0,
+      "effect": "Def +5",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {
+        "def": 5
+      },
+      "obtainability": [
+        {
+          "method": "Other",
+          "locations": "Bonus item , Infinite Regalia",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "gungnir",
+      "name": "Gungnir",
+      "source_ids": [
+        "obtain_swords_1",
+        "weapons_a_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "lance",
+      "rank": "A",
+      "might": 16,
+      "hit": 70,
+      "crit": 10,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 25,
+      "worth": 0,
+      "effect": "Str +5",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {
+        "str": 5
+      },
+      "obtainability": [
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 22",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "Infinite Regalia",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "log",
+      "name": "Log",
+      "source_ids": [
+        "obtain_swords_1",
+        "weapons_a_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "lance",
+      "rank": "E",
+      "might": 1,
+      "hit": 90,
+      "crit": 0,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 20,
+      "worth": null,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Event",
+          "locations": "Par 3 (NPC)",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "Event tile, Barracks",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "glass_lance",
+      "name": "Glass Lance",
+      "source_ids": [
+        "obtain_swords_1",
+        "weapons_a_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "lance",
+      "rank": "E",
+      "might": 13,
+      "hit": 75,
+      "crit": 0,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 3,
+      "worth": null,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Other",
+          "locations": "Event tile, Barracks",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "miniature_lance",
+      "name": "Miniature Lance",
+      "source_ids": [
+        "obtain_swords_1",
+        "weapons_a_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "lance",
+      "rank": "D",
+      "might": 1,
+      "hit": 55,
+      "crit": 35,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 10,
+      "worth": null,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Other",
+          "locations": "Event tile, Barracks",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "shockstick",
+      "name": "Shockstick",
+      "source_ids": [
+        "obtain_swords_1",
+        "weapons_a_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "lance",
+      "rank": "C",
+      "might": 11,
+      "hit": 85,
+      "crit": 10,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 20,
+      "worth": null,
+      "effect": "Counts as magic",
+      "damage_type": "magical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Other",
+          "locations": "Event tile, Barracks",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "superior_lance",
+      "name": "Superior Lance",
+      "source_ids": [
+        "obtain_swords_1",
+        "weapons_a_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "lance",
+      "rank": "B",
+      "might": 13,
+      "hit": 70,
+      "crit": 0,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 10,
+      "worth": null,
+      "effect": "+Lancebreaker Skill",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Other",
+          "locations": "Event tile, Barracks",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "finns_lance",
+      "name": "Finn's Lance",
+      "source_ids": [
+        "obtain_swords_1",
+        "weapons_a_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "lance",
+      "rank": "D",
+      "might": 8,
+      "hit": 85,
+      "crit": 10,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 25,
+      "worth": null,
+      "effect": "Def and Luck +2",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {
+        "lck": 2
+      },
+      "obtainability": [
+        {
+          "method": "SpotPass Team",
+          "locations": "Finn, Leif",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "Event tile, Barracks",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "ephraims_lance",
+      "name": "Ephraim's Lance",
+      "source_ids": [
+        "obtain_swords_1",
+        "weapons_a_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "lance",
+      "rank": "C",
+      "might": 11,
+      "hit": 80,
+      "crit": 10,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 20,
+      "worth": null,
+      "effect": "Str and Spd +2",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {
+        "spd": 2
+      },
+      "obtainability": [
+        {
+          "method": "SpotPass Team",
+          "locations": "Ephraim",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "810 Renown, Event tile, Barracks",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "sigurds_lance",
+      "name": "Sigurd's Lance",
+      "source_ids": [
+        "obtain_swords_1",
+        "weapons_a_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "lance",
+      "rank": "B",
+      "might": 14,
+      "hit": 85,
+      "crit": 15,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 15,
+      "worth": null,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "SpotPass Team",
+          "locations": "Sigurd",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "5750 Renown, Event tile, Barracks",
+          "source_ids": [
+            "obtain_swords_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "bronze_axe",
+      "name": "Bronze Axe",
+      "source_ids": [
+        "weapons_a_2"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "axe",
+      "rank": "E",
+      "might": 4,
+      "hit": 80,
+      "crit": 0,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 50,
+      "worth": 400,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {}
+    },
+    {
+      "id": "iron_axe",
+      "name": "Iron Axe",
+      "source_ids": [
+        "weapons_a_2"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "axe",
+      "rank": "D",
+      "might": 7,
+      "hit": 75,
+      "crit": 0,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 40,
+      "worth": 600,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {}
+    },
+    {
+      "id": "steel_axe",
+      "name": "Steel Axe",
+      "source_ids": [
+        "weapons_a_2"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "axe",
+      "rank": "C",
+      "might": 11,
+      "hit": 70,
+      "crit": 0,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 35,
+      "worth": 980,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {}
+    },
+    {
+      "id": "silver_axe",
+      "name": "Silver Axe",
+      "source_ids": [
+        "weapons_a_2"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "axe",
+      "rank": "B",
+      "might": 15,
+      "hit": 65,
+      "crit": 0,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 30,
+      "worth": 1740,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {}
+    },
+    {
+      "id": "brave_axe",
+      "name": "Brave Axe",
+      "source_ids": [
+        "weapons_a_2"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "axe",
+      "rank": "A",
+      "might": 12,
+      "hit": 60,
+      "crit": 0,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 30,
+      "worth": 2400,
+      "effect": "2 consecutive attacks",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": true,
+      "stat_bonuses": {}
+    },
+    {
+      "id": "hand_axe",
+      "name": "Hand Axe",
+      "source_ids": [
+        "weapons_a_2"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "axe",
+      "rank": "D",
+      "might": 3,
+      "hit": 70,
+      "crit": 0,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 25,
+      "worth": 750,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {}
+    },
+    {
+      "id": "short_axe",
+      "name": "Short Axe",
+      "source_ids": [
+        "weapons_a_2"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "axe",
+      "rank": "C",
+      "might": 7,
+      "hit": 65,
+      "crit": 0,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 25,
+      "worth": 1750,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {}
+    },
+    {
+      "id": "tomahawk",
+      "name": "Tomahawk",
+      "source_ids": [
+        "weapons_a_2"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "axe",
+      "rank": "B",
+      "might": 10,
+      "hit": 60,
+      "crit": 0,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 25,
+      "worth": 2550,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {}
+    },
+    {
+      "id": "hammer",
+      "name": "Hammer",
+      "source_ids": [
+        "weapons_a_2"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "axe",
+      "rank": "D",
+      "might": 10,
+      "hit": 60,
+      "crit": 0,
+      "range": "1",
+      "effectiveness": [
+        "armour"
+      ],
+      "uses": 25,
+      "worth": 1850,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {}
+    },
+    {
+      "id": "bolt_axe",
+      "name": "Bolt Axe",
+      "source_ids": [
+        "weapons_a_2"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "axe",
+      "rank": "B",
+      "might": 14,
+      "hit": 70,
+      "crit": 5,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 30,
+      "worth": 1920,
+      "effect": "Counts as magic",
+      "damage_type": "magical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {}
+    },
+    {
+      "id": "killer_axe",
+      "name": "Killer Axe",
+      "source_ids": [
+        "weapons_a_2"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "axe",
+      "rank": "C",
+      "might": 12,
+      "hit": 70,
+      "crit": 30,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 30,
+      "worth": 1860,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {}
+    },
+    {
+      "id": "vengeance",
+      "name": "Vengeance",
+      "source_ids": [
+        "weapons_a_2"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "axe",
+      "rank": "B",
+      "might": 16,
+      "hit": 75,
+      "crit": 5,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 30,
+      "worth": 0,
+      "effect": "+Vengeance Skill",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {}
+    },
+    {
+      "id": "wolf_berg",
+      "name": "Wolf Berg",
+      "source_ids": [
+        "weapons_a_2"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "axe",
+      "rank": "A",
+      "might": 18,
+      "hit": 75,
+      "crit": 5,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 35,
+      "worth": 0,
+      "effect": "Walhart only",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {}
+    },
+    {
+      "id": "hauteclere",
+      "name": "Hauteclere",
+      "source_ids": [
+        "weapons_a_2"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "axe",
+      "rank": "A",
+      "might": 21,
+      "hit": 70,
+      "crit": 5,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 25,
+      "worth": 0,
+      "effect": "Can be used to recover all HP",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {}
+    },
+    {
+      "id": "helswath",
+      "name": "Helswath",
+      "source_ids": [
+        "weapons_a_2"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "axe",
+      "rank": "A",
+      "might": 18,
+      "hit": 60,
+      "crit": 10,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 25,
+      "worth": 0,
+      "effect": "Def +5",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {
+        "def": 5
+      }
+    },
+    {
+      "id": "armads",
+      "name": "Armads",
+      "source_ids": [
+        "weapons_a_2"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "axe",
+      "rank": "A",
+      "might": 17,
+      "hit": 80,
+      "crit": 10,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 25,
+      "worth": 0,
+      "effect": "Def +5",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {
+        "def": 5
+      }
+    },
+    {
+      "id": "ladle",
+      "name": "Ladle",
+      "source_ids": [
+        "weapons_a_2"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "axe",
+      "rank": "E",
+      "might": 1,
+      "hit": 80,
+      "crit": 0,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 20,
+      "worth": null,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {}
+    },
+    {
+      "id": "glass_axe",
+      "name": "Glass Axe",
+      "source_ids": [
+        "weapons_a_2"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "axe",
+      "rank": "E",
+      "might": 15,
+      "hit": 65,
+      "crit": 0,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 3,
+      "worth": null,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {}
+    },
+    {
+      "id": "imposing_axe",
+      "name": "Imposing Axe",
+      "source_ids": [
+        "weapons_a_2"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "axe",
+      "rank": "D",
+      "might": 14,
+      "hit": 35,
+      "crit": 10,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 10,
+      "worth": null,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {}
+    },
+    {
+      "id": "volant_axe",
+      "name": "Volant Axe",
+      "source_ids": [
+        "weapons_a_2"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "axe",
+      "rank": "C",
+      "might": 8,
+      "hit": 55,
+      "crit": 0,
+      "range": "1~2",
+      "effectiveness": [
+        "flying"
+      ],
+      "uses": 10,
+      "worth": null,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {}
+    },
+    {
+      "id": "superior_axe",
+      "name": "Superior Axe",
+      "source_ids": [
+        "weapons_a_2"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "axe",
+      "rank": "B",
+      "might": 15,
+      "hit": 60,
+      "crit": 0,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 10,
+      "worth": null,
+      "effect": "+Axebreaker Skill",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {}
+    },
+    {
+      "id": "orsins_hatchet",
+      "name": "Orsin's Hatchet",
+      "source_ids": [
+        "weapons_a_2"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "axe",
+      "rank": "D",
+      "might": 4,
+      "hit": 85,
+      "crit": 5,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 20,
+      "worth": null,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {}
+    },
+    {
+      "id": "titanias_axe",
+      "name": "Titania's Axe",
+      "source_ids": [
+        "weapons_a_2"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "axe",
+      "rank": "C",
+      "might": 12,
+      "hit": 80,
+      "crit": 10,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 20,
+      "worth": null,
+      "effect": "+Patience Skill",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {}
+    },
+    {
+      "id": "hectors_axe",
+      "name": "Hector's Axe",
+      "source_ids": [
+        "weapons_a_2"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "axe",
+      "rank": "B",
+      "might": 15,
+      "hit": 75,
+      "crit": 15,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 15,
+      "worth": null,
+      "effect": "Str and Def +2",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {
+        "def": 2
+      }
+    },
+    {
+      "id": "bronze_bow",
+      "name": "Bronze Bow",
+      "source_ids": [
+        "obtain_magic",
+        "weapons_b"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "bow",
+      "rank": "E",
+      "might": 3,
+      "hit": 90,
+      "crit": 0,
+      "range": "2",
+      "effectiveness": [
+        "flying"
+      ],
+      "uses": 50,
+      "worth": 350,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Armoury",
+          "locations": "Prologue",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Mist",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "iron_bow",
+      "name": "Iron Bow",
+      "source_ids": [
+        "obtain_magic",
+        "weapons_b"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "bow",
+      "rank": "D",
+      "might": 6,
+      "hit": 85,
+      "crit": 0,
+      "range": "2",
+      "effectiveness": [
+        "flying"
+      ],
+      "uses": 40,
+      "worth": 560,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Playable",
+          "locations": "Virion",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Ch 4, Ch 7, Ch 11, Par 1, Par 15",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Pro, Ch 1-3",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Florina, Leonardo, Nephenee, Nyna, Norne, Nanna",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "steel_bow",
+      "name": "Steel Bow",
+      "source_ids": [
+        "obtain_magic",
+        "weapons_b"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "bow",
+      "rank": "C",
+      "might": 9,
+      "hit": 80,
+      "crit": 0,
+      "range": "2",
+      "effectiveness": [
+        "flying"
+      ],
+      "uses": 35,
+      "worth": 910,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Playable",
+          "locations": "Morgan , Noire",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 7, Ch 16",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Ch 9, Ch 14, Par 4, Par 15",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 4-8, Par 1-3",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Lute, Nephenee, Linde, Catria, Jamke, Ulster",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "silver_bow",
+      "name": "Silver Bow",
+      "source_ids": [
+        "obtain_magic",
+        "weapons_b"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "bow",
+      "rank": "B",
+      "might": 13,
+      "hit": 75,
+      "crit": 0,
+      "range": "2",
+      "effectiveness": [
+        "flying"
+      ],
+      "uses": 30,
+      "worth": 1560,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Playable",
+          "locations": "Basilio",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 13, Ch 19, Ch 23",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Ch 14, Ch 17, Ch 19, Par 15, Par 20",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 9-13, Par 4-5, Par 9, Par 11",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Lyn, Seth, Geoffrey, Lucia, Sothe, Black Knight, Navarre, Luthier, Clive, Alm, Athena, Quan, Sigurd, Seliph, Eyvel, Saias, Mareeta, Perceval, Zephiel, Camus, Ishtar, Narcian, Ursula",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "Double Duel",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "brave_bow",
+      "name": "Brave Bow",
+      "source_ids": [
+        "obtain_magic",
+        "weapons_b"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "bow",
+      "rank": "A",
+      "might": 10,
+      "hit": 70,
+      "crit": 0,
+      "range": "2",
+      "effectiveness": [
+        "flying"
+      ],
+      "uses": 30,
+      "worth": 2220,
+      "effect": "2 consecutive attacks",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": true,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Armoury",
+          "locations": "Ch 25, Par 20",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 18-23, Par 5, Par 9, Par 11, Par 15, Par 17",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Nergal, Ike, Hardin, Julius, Zephiel, Camus, Ishtar",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "blessed_bow",
+      "name": "Blessed Bow",
+      "source_ids": [
+        "obtain_magic",
+        "weapons_b"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "bow",
+      "rank": "C",
+      "might": 11,
+      "hit": 70,
+      "crit": 0,
+      "range": "2",
+      "effectiveness": [
+        "flying",
+        "revenant"
+      ],
+      "uses": 35,
+      "worth": 1540,
+      "effect": "Recover 10 HP each Turn",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Village",
+          "locations": "Par 3",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Par 20",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 2, Ch 9, Ch 14, Ch 16, Ch 22, Par 6-8, Par 12-14, Par 16",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Luthier, Jamke",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "killer_bow",
+      "name": "Killer Bow",
+      "source_ids": [
+        "obtain_magic",
+        "weapons_b"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "bow",
+      "rank": "C",
+      "might": 10,
+      "hit": 80,
+      "crit": 30,
+      "range": "2",
+      "effectiveness": [
+        "flying"
+      ],
+      "uses": 30,
+      "worth": 1680,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 9, Ch 17",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Ch 19, Par 15",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 11-12, Ch 14-17, Ch 19-20, Par 6-8, Par 10, Par 12-14, Par 16",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Jaffar, Lyn, Lute, Lucia, Ike, Nephenee, Linde, Malice, Katarina, Jamke, Quan, Mareeta",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "Double Duel",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "longbow",
+      "name": "Longbow",
+      "source_ids": [
+        "obtain_magic",
+        "weapons_b"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "bow",
+      "rank": "C",
+      "might": 9,
+      "hit": 70,
+      "crit": 0,
+      "range": "2~3",
+      "effectiveness": [
+        "flying"
+      ],
+      "uses": 25,
+      "worth": 2150,
+      "effect": "Archers and Snipers only",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 13, Ch 20",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Par 23",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 21, Ch 23",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Ike, Prince Marth, Julia, Mareeta, Zephiel",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "720 Renown",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "astra",
+      "name": "Astra",
+      "source_ids": [
+        "obtain_magic",
+        "weapons_b"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "bow",
+      "rank": "B",
+      "might": 14,
+      "hit": 75,
+      "crit": 5,
+      "range": "2",
+      "effectiveness": [
+        "flying"
+      ],
+      "uses": 30,
+      "worth": 0,
+      "effect": "+Astra Skill",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Other",
+          "locations": "Bonus item , Infinite Regalia",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "parthia",
+      "name": "Parthia",
+      "source_ids": [
+        "obtain_magic",
+        "weapons_b"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "bow",
+      "rank": "A",
+      "might": 19,
+      "hit": 95,
+      "crit": 5,
+      "range": "2",
+      "effectiveness": [
+        "flying"
+      ],
+      "uses": 25,
+      "worth": 0,
+      "effect": "Use to increase Resistance by 5 (effect decreases by 1 each Turn)",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Other",
+          "locations": "5000 Renown, Infinite Regalia",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "yewfelle",
+      "name": "Yewfelle",
+      "source_ids": [
+        "obtain_magic",
+        "weapons_b"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "bow",
+      "rank": "A",
+      "might": 15,
+      "hit": 85,
+      "crit": 10,
+      "range": "2",
+      "effectiveness": [
+        "flying"
+      ],
+      "uses": 25,
+      "worth": 0,
+      "effect": "Spd +5",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {
+        "spd": 5
+      },
+      "obtainability": [
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 22",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "Infinite Regalia",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "nidhogg",
+      "name": "Nidhogg",
+      "source_ids": [
+        "obtain_magic",
+        "weapons_b"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "bow",
+      "rank": "A",
+      "might": 16,
+      "hit": 75,
+      "crit": 10,
+      "range": "2",
+      "effectiveness": [
+        "flying"
+      ],
+      "uses": 25,
+      "worth": 0,
+      "effect": "Luck +10",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {
+        "lck": 10
+      },
+      "obtainability": [
+        {
+          "method": "Other",
+          "locations": "Bonus item , Infinite Regalia",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "double_bow",
+      "name": "Double Bow",
+      "source_ids": [
+        "obtain_magic",
+        "weapons_b"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "bow",
+      "rank": "A",
+      "might": 13,
+      "hit": 70,
+      "crit": 10,
+      "range": "2~3",
+      "effectiveness": [
+        "flying"
+      ],
+      "uses": 25,
+      "worth": 0,
+      "effect": "Archers and Snipers only, Str +5",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {
+        "str": 5
+      },
+      "obtainability": [
+        {
+          "method": "Other",
+          "locations": "Bonus item , Infinite Regalia",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "slack_bow",
+      "name": "Slack Bow",
+      "source_ids": [
+        "obtain_magic",
+        "weapons_b"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "bow",
+      "rank": "E",
+      "might": 1,
+      "hit": 90,
+      "crit": 0,
+      "range": "2",
+      "effectiveness": [
+        "flying"
+      ],
+      "uses": 20,
+      "worth": null,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Other",
+          "locations": "Event tile, Barracks",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "glass_bow",
+      "name": "Glass Bow",
+      "source_ids": [
+        "obtain_magic",
+        "weapons_b"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "bow",
+      "rank": "E",
+      "might": 13,
+      "hit": 75,
+      "crit": 0,
+      "range": "2",
+      "effectiveness": [
+        "flying"
+      ],
+      "uses": 3,
+      "worth": null,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Other",
+          "locations": "Event tile, Barracks",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "towering_bow",
+      "name": "Towering Bow",
+      "source_ids": [
+        "obtain_magic",
+        "weapons_b"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "bow",
+      "rank": "D",
+      "might": 3,
+      "hit": 80,
+      "crit": 0,
+      "range": "2~3",
+      "effectiveness": [
+        "flying"
+      ],
+      "uses": 10,
+      "worth": null,
+      "effect": "Archers and Snipers only",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Other",
+          "locations": "Event tile, Barracks",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "underdog_bow",
+      "name": "Underdog Bow",
+      "source_ids": [
+        "obtain_magic",
+        "weapons_b"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "bow",
+      "rank": "D",
+      "might": 9,
+      "hit": 75,
+      "crit": 5,
+      "range": "2",
+      "effectiveness": [
+        "flying"
+      ],
+      "uses": 15,
+      "worth": null,
+      "effect": "+Underdog Skill",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Other",
+          "locations": "Event tile, Barracks",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "superior_bow",
+      "name": "Superior Bow",
+      "source_ids": [
+        "obtain_magic",
+        "weapons_b"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "bow",
+      "rank": "B",
+      "might": 13,
+      "hit": 70,
+      "crit": 0,
+      "range": "2",
+      "effectiveness": [
+        "flying"
+      ],
+      "uses": 10,
+      "worth": null,
+      "effect": "+Bowbreaker Skill",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Other",
+          "locations": "Event tile, Barracks",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "wolts_bow",
+      "name": "Wolt's Bow",
+      "source_ids": [
+        "obtain_magic",
+        "weapons_b"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "bow",
+      "rank": "C",
+      "might": 10,
+      "hit": 85,
+      "crit": 5,
+      "range": "2",
+      "effectiveness": [
+        "flying"
+      ],
+      "uses": 25,
+      "worth": null,
+      "effect": "Can be used to recover 20 HP",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "SpotPass Team",
+          "locations": "Wolt",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "Event tile, Barracks",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "innes_bow",
+      "name": "Innes' Bow",
+      "source_ids": [
+        "obtain_magic",
+        "weapons_b"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "bow",
+      "rank": "B",
+      "might": 13,
+      "hit": 115,
+      "crit": 10,
+      "range": "2",
+      "effectiveness": [
+        "flying"
+      ],
+      "uses": 15,
+      "worth": null,
+      "effect": "–",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "SpotPass Team",
+          "locations": "Innes",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "2600 Renown, Event tile, Barracks",
+          "source_ids": [
+            "obtain_magic"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "fire",
+      "name": "Fire",
+      "source_ids": [
+        "obtain_magic_1",
+        "weapons_b_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "tome",
+      "rank": "E",
+      "might": 2,
+      "hit": 90,
+      "crit": 0,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 45,
+      "worth": 540,
+      "effect": "–",
+      "damage_type": "magical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Playable",
+          "locations": "Miriel",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Pro, Ch 2, Ch 7, Ch 11, Par 2",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Soren, Caeda, Norne, Deirdre, Arthur, Lugh",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ],
+      "dark_magic_classification": null,
+      "class_restriction_note": "Original table color encodes dark-only restrictions; plain-text extraction loses it. Verify individual eligibility; do not assume all tome classes can use this weapon."
+    },
+    {
+      "id": "elfire",
+      "name": "Elfire",
+      "source_ids": [
+        "obtain_magic_1",
+        "weapons_b_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "tome",
+      "rank": "D",
+      "might": 5,
+      "hit": 85,
+      "crit": 0,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 35,
+      "worth": 980,
+      "effect": "–",
+      "damage_type": "magical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Playable",
+          "locations": "Henry, Morgan",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Ch 13, Par 14",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 4, Ch 10",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Nino, Matthew, Caeda, Boey, Ulster, Lugh",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ],
+      "dark_magic_classification": null,
+      "class_restriction_note": "Original table color encodes dark-only restrictions; plain-text extraction loses it. Verify individual eligibility; do not assume all tome classes can use this weapon."
+    },
+    {
+      "id": "arcfire",
+      "name": "Arcfire",
+      "source_ids": [
+        "obtain_magic_1",
+        "weapons_b_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "tome",
+      "rank": "C",
+      "might": 8,
+      "hit": 80,
+      "crit": 0,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 30,
+      "worth": 1440,
+      "effect": "–",
+      "damage_type": "magical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 18, Ch 23",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Ch 17, Ch 21, Par 17",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 12, Par 5",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Serra, Lute, Zihark, Sanaki, Merric, Valbar, Horace, Etzel, Cecilia",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "Double Duel",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ],
+      "dark_magic_classification": null,
+      "class_restriction_note": "Original table color encodes dark-only restrictions; plain-text extraction loses it. Verify individual eligibility; do not assume all tome classes can use this weapon."
+    },
+    {
+      "id": "bolganone",
+      "name": "Bolganone",
+      "source_ids": [
+        "obtain_magic_1",
+        "weapons_b_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "tome",
+      "rank": "B",
+      "might": 12,
+      "hit": 75,
+      "crit": 0,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 25,
+      "worth": 2000,
+      "effect": "–",
+      "damage_type": "magical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Playable",
+          "locations": "Aversa",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 20",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Ch 24, Par 21",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 19, Ch 22, Par 9, Par 11, Par 17",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Jaffar, Lyon, Ephraim, Sigrun, Sephiran, Merric, Gharnef, Nomah, Arvis, Ares, Saias, Lilina, Narcian, Ursula, Oliver",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ],
+      "dark_magic_classification": null,
+      "class_restriction_note": "Original table color encodes dark-only restrictions; plain-text extraction loses it. Verify individual eligibility; do not assume all tome classes can use this weapon."
+    },
+    {
+      "id": "valflame",
+      "name": "Valflame",
+      "source_ids": [
+        "obtain_magic_1",
+        "weapons_b_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "tome",
+      "rank": "A",
+      "might": 16,
+      "hit": 80,
+      "crit": 10,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 25,
+      "worth": 0,
+      "effect": "Mag +5",
+      "damage_type": "magical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {
+        "mag": 5
+      },
+      "obtainability": [
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 22",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "Infinite Regalia",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ],
+      "dark_magic_classification": null,
+      "class_restriction_note": "Original table color encodes dark-only restrictions; plain-text extraction loses it. Verify individual eligibility; do not assume all tome classes can use this weapon."
+    },
+    {
+      "id": "thunder",
+      "name": "Thunder",
+      "source_ids": [
+        "obtain_magic_1",
+        "weapons_b_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "tome",
+      "rank": "E",
+      "might": 3,
+      "hit": 80,
+      "crit": 5,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 45,
+      "worth": 630,
+      "effect": "–",
+      "damage_type": "magical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Playable",
+          "locations": "Avatar",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 4",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Ch 2, Ch 4, Ch 11, Par 2",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Soren, Caeda, Norne, Deirdre, Arthur",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ],
+      "dark_magic_classification": null,
+      "class_restriction_note": "Original table color encodes dark-only restrictions; plain-text extraction loses it. Verify individual eligibility; do not assume all tome classes can use this weapon."
+    },
+    {
+      "id": "elthunder",
+      "name": "Elthunder",
+      "source_ids": [
+        "obtain_magic_1",
+        "weapons_b_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "tome",
+      "rank": "D",
+      "might": 6,
+      "hit": 75,
+      "crit": 5,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 35,
+      "worth": 1050,
+      "effect": "–",
+      "damage_type": "magical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Playable",
+          "locations": "Tharja",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Ch 13, Par 14",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 5, Ch 7, Par 1",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Nyna, Boey",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ],
+      "dark_magic_classification": null,
+      "class_restriction_note": "Original table color encodes dark-only restrictions; plain-text extraction loses it. Verify individual eligibility; do not assume all tome classes can use this weapon."
+    },
+    {
+      "id": "arcthunder",
+      "name": "Arcthunder",
+      "source_ids": [
+        "obtain_magic_1",
+        "weapons_b_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "tome",
+      "rank": "C",
+      "might": 10,
+      "hit": 70,
+      "crit": 10,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 30,
+      "worth": 1620,
+      "effect": "–",
+      "damage_type": "magical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 15",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Ch 21, Par 17",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 11, Ch 16, Par 4, Par 9",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Linde, Merric, Valbar, Nomah, Horace, Ethlyn, Olwen, Cecilia",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ],
+      "dark_magic_classification": null,
+      "class_restriction_note": "Original table color encodes dark-only restrictions; plain-text extraction loses it. Verify individual eligibility; do not assume all tome classes can use this weapon."
+    },
+    {
+      "id": "thoron",
+      "name": "Thoron",
+      "source_ids": [
+        "obtain_magic_1",
+        "weapons_b_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "tome",
+      "rank": "B",
+      "might": 14,
+      "hit": 65,
+      "crit": 10,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 25,
+      "worth": 2200,
+      "effect": "–",
+      "damage_type": "magical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 24",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Ch 24, Par 19",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 18, Ch 21, Par 5, Par 17",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Nergal, Lyon, Ephraim, Elincia, Sigrun, Sephiran, Gharnef, Alm, Arvis, Sigurd, Seliph, Lilina, Narcian, Selena, Oliver",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "Double Duel",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ],
+      "dark_magic_classification": null,
+      "class_restriction_note": "Original table color encodes dark-only restrictions; plain-text extraction loses it. Verify individual eligibility; do not assume all tome classes can use this weapon."
+    },
+    {
+      "id": "mjolnir",
+      "name": "Mjölnir",
+      "source_ids": [
+        "obtain_magic_1",
+        "weapons_b_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "tome",
+      "rank": "A",
+      "might": 18,
+      "hit": 70,
+      "crit": 20,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 25,
+      "worth": 0,
+      "effect": "Skill +5",
+      "damage_type": "magical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {
+        "skl": 5
+      },
+      "obtainability": [
+        {
+          "method": "Other",
+          "locations": "Bonus item , Infinite Regalia",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ],
+      "dark_magic_classification": null,
+      "class_restriction_note": "Original table color encodes dark-only restrictions; plain-text extraction loses it. Verify individual eligibility; do not assume all tome classes can use this weapon."
+    },
+    {
+      "id": "wind",
+      "name": "Wind",
+      "source_ids": [
+        "obtain_magic_1",
+        "weapons_b_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "tome",
+      "rank": "E",
+      "might": 1,
+      "hit": 100,
+      "crit": 0,
+      "range": "1~2",
+      "effectiveness": [
+        "flying"
+      ],
+      "uses": 45,
+      "worth": 450,
+      "effect": "–",
+      "damage_type": "magical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Armoury",
+          "locations": "Ch 2, Ch 5, Ch 11, Par 2",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Mist, Soren, Arthur",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ],
+      "dark_magic_classification": null,
+      "class_restriction_note": "Original table color encodes dark-only restrictions; plain-text extraction loses it. Verify individual eligibility; do not assume all tome classes can use this weapon."
+    },
+    {
+      "id": "elwind",
+      "name": "Elwind",
+      "source_ids": [
+        "obtain_magic_1",
+        "weapons_b_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "tome",
+      "rank": "D",
+      "might": 4,
+      "hit": 95,
+      "crit": 0,
+      "range": "1~2",
+      "effectiveness": [
+        "flying"
+      ],
+      "uses": 35,
+      "worth": 910,
+      "effect": "–",
+      "damage_type": "magical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Playable",
+          "locations": "Ricken, Laurent",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Ch 13, Par 14",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 6, Ch 8, Par 2",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Matthew, Soren, Arthur",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ],
+      "dark_magic_classification": null,
+      "class_restriction_note": "Original table color encodes dark-only restrictions; plain-text extraction loses it. Verify individual eligibility; do not assume all tome classes can use this weapon."
+    },
+    {
+      "id": "arcwind",
+      "name": "Arcwind",
+      "source_ids": [
+        "obtain_magic_1",
+        "weapons_b_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "tome",
+      "rank": "C",
+      "might": 6,
+      "hit": 90,
+      "crit": 0,
+      "range": "1~2",
+      "effectiveness": [
+        "flying"
+      ],
+      "uses": 30,
+      "worth": 1320,
+      "effect": "–",
+      "damage_type": "magical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 19",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Ch 21, Par 17",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 13, Ch 15, Par 15",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Zihark, Nomah, Etzel, Ced, Cecilia",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ],
+      "dark_magic_classification": null,
+      "class_restriction_note": "Original table color encodes dark-only restrictions; plain-text extraction loses it. Verify individual eligibility; do not assume all tome classes can use this weapon."
+    },
+    {
+      "id": "rexcalibur",
+      "name": "Rexcalibur",
+      "source_ids": [
+        "obtain_magic_1",
+        "weapons_b_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "tome",
+      "rank": "B",
+      "might": 10,
+      "hit": 85,
+      "crit": 0,
+      "range": "1~2",
+      "effectiveness": [
+        "flying"
+      ],
+      "uses": 25,
+      "worth": 1900,
+      "effect": "–",
+      "damage_type": "magical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Armoury",
+          "locations": "Ch 24, Par 20",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 17, Ch 23, Par 15, Par 17",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Nergal, Lyon, Elincia, Geoffrey, Lucia, Ike, Sephiran, Gharnef, Luthier, Ayra, Lewyn, Sigurd, Julius, Raydrik, Cecilia, Lilina, Ishtar",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ],
+      "dark_magic_classification": null,
+      "class_restriction_note": "Original table color encodes dark-only restrictions; plain-text extraction loses it. Verify individual eligibility; do not assume all tome classes can use this weapon."
+    },
+    {
+      "id": "excalibur",
+      "name": "Excalibur",
+      "source_ids": [
+        "obtain_magic_1",
+        "weapons_b_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "tome",
+      "rank": "A",
+      "might": 13,
+      "hit": 100,
+      "crit": 30,
+      "range": "1~2",
+      "effectiveness": [
+        "flying"
+      ],
+      "uses": 25,
+      "worth": 0,
+      "effect": "–",
+      "damage_type": "magical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Other",
+          "locations": "Double Duel, Infinite Regalia",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ],
+      "dark_magic_classification": null,
+      "class_restriction_note": "Original table color encodes dark-only restrictions; plain-text extraction loses it. Verify individual eligibility; do not assume all tome classes can use this weapon."
+    },
+    {
+      "id": "forseti",
+      "name": "Forseti",
+      "source_ids": [
+        "obtain_magic_1",
+        "weapons_b_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "tome",
+      "rank": "A",
+      "might": 14,
+      "hit": 90,
+      "crit": 10,
+      "range": "1~2",
+      "effectiveness": [
+        "flying"
+      ],
+      "uses": 25,
+      "worth": 0,
+      "effect": "Spd +5",
+      "damage_type": "magical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {
+        "spd": 5
+      },
+      "obtainability": [
+        {
+          "method": "Other",
+          "locations": "Bonus item , Infinite Regalia",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ],
+      "dark_magic_classification": null,
+      "class_restriction_note": "Original table color encodes dark-only restrictions; plain-text extraction loses it. Verify individual eligibility; do not assume all tome classes can use this weapon."
+    },
+    {
+      "id": "book_of_naga",
+      "name": "Book of Naga",
+      "source_ids": [
+        "obtain_magic_1",
+        "weapons_b_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "tome",
+      "rank": "A",
+      "might": 15,
+      "hit": 80,
+      "crit": 15,
+      "range": "1~2",
+      "effectiveness": [
+        "dragon"
+      ],
+      "uses": 25,
+      "worth": 0,
+      "effect": "Def and Res +5",
+      "damage_type": "magical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {
+        "def": 5,
+        "res": 5
+      },
+      "obtainability": [
+        {
+          "method": "Other",
+          "locations": "Bonus item , Infinite Regalia",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ],
+      "dark_magic_classification": null,
+      "class_restriction_note": "Original table color encodes dark-only restrictions; plain-text extraction loses it. Verify individual eligibility; do not assume all tome classes can use this weapon."
+    },
+    {
+      "id": "flux",
+      "name": "Flux",
+      "source_ids": [
+        "obtain_magic_1",
+        "weapons_b_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "tome",
+      "rank": "E",
+      "might": 5,
+      "hit": 70,
+      "crit": 0,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 45,
+      "worth": 540,
+      "effect": "–",
+      "damage_type": "magical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Armoury",
+          "locations": "Ch 2, Ch 9, Par 14",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Deirdre, Wolt",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ],
+      "dark_magic_classification": null,
+      "class_restriction_note": "Original table color encodes dark-only restrictions; plain-text extraction loses it. Verify individual eligibility; do not assume all tome classes can use this weapon."
+    },
+    {
+      "id": "nosferatu",
+      "name": "Nosferatu",
+      "source_ids": [
+        "obtain_magic_1",
+        "weapons_b_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "tome",
+      "rank": "D",
+      "might": 7,
+      "hit": 65,
+      "crit": 0,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 20,
+      "worth": 980,
+      "effect": "Recover HP equal to half the damage dealt to the enemy",
+      "damage_type": "magical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Playable",
+          "locations": "Tharja, Aversa",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Ch 13, Par 14, Par 17",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 9, Par 3",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Merric, Deirdre, Salem, Raigh, Sophia",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "Double Duel",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ],
+      "dark_magic_classification": null,
+      "class_restriction_note": "Original table color encodes dark-only restrictions; plain-text extraction loses it. Verify individual eligibility; do not assume all tome classes can use this weapon."
+    },
+    {
+      "id": "ruin",
+      "name": "Ruin",
+      "source_ids": [
+        "obtain_magic_1",
+        "weapons_b_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "tome",
+      "rank": "C",
+      "might": 4,
+      "hit": 60,
+      "crit": 50,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 20,
+      "worth": 1380,
+      "effect": "–",
+      "damage_type": "magical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Playable",
+          "locations": "Henry",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 21",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Ch 19, Par 17",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 14, Par 4, Par 11",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Merric, Raydrik, Sophia",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "Double Duel",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ],
+      "dark_magic_classification": null,
+      "class_restriction_note": "Original table color encodes dark-only restrictions; plain-text extraction loses it. Verify individual eligibility; do not assume all tome classes can use this weapon."
+    },
+    {
+      "id": "waste",
+      "name": "Waste",
+      "source_ids": [
+        "obtain_magic_1",
+        "weapons_b_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "tome",
+      "rank": "B",
+      "might": 10,
+      "hit": 45,
+      "crit": 0,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 30,
+      "worth": 2160,
+      "effect": "2 consecutive attacks",
+      "damage_type": "magical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": true,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Armoury",
+          "locations": "Ch 24, Par 20",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 20, Par 17",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Lyon, Gharnef, Etzel, Raydrik, Oliver",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ],
+      "dark_magic_classification": null,
+      "class_restriction_note": "Original table color encodes dark-only restrictions; plain-text extraction loses it. Verify individual eligibility; do not assume all tome classes can use this weapon."
+    },
+    {
+      "id": "goetia",
+      "name": "Goetia",
+      "source_ids": [
+        "obtain_magic_1",
+        "weapons_b_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "tome",
+      "rank": "A",
+      "might": 19,
+      "hit": 75,
+      "crit": 10,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 25,
+      "worth": 0,
+      "effect": "–",
+      "damage_type": "magical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 25",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "Infinite Regalia",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ],
+      "dark_magic_classification": null,
+      "class_restriction_note": "Original table color encodes dark-only restrictions; plain-text extraction loses it. Verify individual eligibility; do not assume all tome classes can use this weapon."
+    },
+    {
+      "id": "grimas_truth",
+      "name": "Grima's Truth",
+      "source_ids": [
+        "obtain_magic_1",
+        "weapons_b_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "tome",
+      "rank": "B",
+      "might": 12,
+      "hit": 80,
+      "crit": 0,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": null,
+      "worth": 0,
+      "effect": "–",
+      "damage_type": "magical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Other",
+          "locations": "Cannot be obtained",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ],
+      "dark_magic_classification": null,
+      "class_restriction_note": "Original table color encodes dark-only restrictions; plain-text extraction loses it. Verify individual eligibility; do not assume all tome classes can use this weapon."
+    },
+    {
+      "id": "mire",
+      "name": "Mire",
+      "source_ids": [
+        "obtain_magic_1",
+        "weapons_b_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "tome",
+      "rank": "C",
+      "might": 10,
+      "hit": 65,
+      "crit": 0,
+      "range": "3~10",
+      "effectiveness": [],
+      "uses": 10,
+      "worth": 2000,
+      "effect": "Cannot double attack , negates user's offensive trigger Skills (e.g. Astra) and support unit's Dual Strikes",
+      "damage_type": "magical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 21",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 21",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Gharnef, Raydrik",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ],
+      "dark_magic_classification": null,
+      "class_restriction_note": "Original table color encodes dark-only restrictions; plain-text extraction loses it. Verify individual eligibility; do not assume all tome classes can use this weapon."
+    },
+    {
+      "id": "dying_blaze",
+      "name": "Dying Blaze",
+      "source_ids": [
+        "obtain_magic_1",
+        "weapons_b_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "tome",
+      "rank": "E",
+      "might": 10,
+      "hit": 75,
+      "crit": 0,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 3,
+      "worth": 600,
+      "effect": "–",
+      "damage_type": "magical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Other",
+          "locations": "Event tile, Barracks",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ],
+      "dark_magic_classification": null,
+      "class_restriction_note": "Original table color encodes dark-only restrictions; plain-text extraction loses it. Verify individual eligibility; do not assume all tome classes can use this weapon."
+    },
+    {
+      "id": "micaiahs_pyre",
+      "name": "Micaiah's Pyre",
+      "source_ids": [
+        "obtain_magic_1",
+        "weapons_b_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "tome",
+      "rank": "B",
+      "might": 13,
+      "hit": 85,
+      "crit": 5,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 15,
+      "worth": 2130,
+      "effect": "Def and Res +2",
+      "damage_type": "magical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {
+        "def": 2,
+        "res": 2
+      },
+      "obtainability": [
+        {
+          "method": "SpotPass Team",
+          "locations": "Micaiah",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "9000 Renown, Event tile, Barracks",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ],
+      "dark_magic_classification": null,
+      "class_restriction_note": "Original table color encodes dark-only restrictions; plain-text extraction loses it. Verify individual eligibility; do not assume all tome classes can use this weapon."
+    },
+    {
+      "id": "superior_jolt",
+      "name": "Superior Jolt",
+      "source_ids": [
+        "obtain_magic_1",
+        "weapons_b_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "tome",
+      "rank": "B",
+      "might": 14,
+      "hit": 60,
+      "crit": 15,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 10,
+      "worth": 2320,
+      "effect": "+Tomebreaker Skill",
+      "damage_type": "magical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Other",
+          "locations": "Event tile, Barracks",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ],
+      "dark_magic_classification": null,
+      "class_restriction_note": "Original table color encodes dark-only restrictions; plain-text extraction loses it. Verify individual eligibility; do not assume all tome classes can use this weapon."
+    },
+    {
+      "id": "katarinas_bolt",
+      "name": "Katarina's Bolt",
+      "source_ids": [
+        "obtain_magic_1",
+        "weapons_b_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "tome",
+      "rank": "C",
+      "might": 11,
+      "hit": 75,
+      "crit": 30,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 20,
+      "worth": 1920,
+      "effect": "–",
+      "damage_type": "magical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "SpotPass Team",
+          "locations": "Katarina",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "Event tile, Barracks",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ],
+      "dark_magic_classification": null,
+      "class_restriction_note": "Original table color encodes dark-only restrictions; plain-text extraction loses it. Verify individual eligibility; do not assume all tome classes can use this weapon."
+    },
+    {
+      "id": "wilderwind",
+      "name": "Wilderwind",
+      "source_ids": [
+        "obtain_magic_1",
+        "weapons_b_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "tome",
+      "rank": "D",
+      "might": 2,
+      "hit": 70,
+      "crit": 35,
+      "range": "1~2",
+      "effectiveness": [
+        "flying"
+      ],
+      "uses": 5,
+      "worth": 760,
+      "effect": "–",
+      "damage_type": "magical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "ordinary",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Other",
+          "locations": "Event tile, Barracks",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ],
+      "dark_magic_classification": null,
+      "class_restriction_note": "Original table color encodes dark-only restrictions; plain-text extraction loses it. Verify individual eligibility; do not assume all tome classes can use this weapon."
+    },
+    {
+      "id": "celicas_gale",
+      "name": "Celica's Gale",
+      "source_ids": [
+        "obtain_magic_1",
+        "weapons_b_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "tome",
+      "rank": "C",
+      "might": 4,
+      "hit": 80,
+      "crit": 5,
+      "range": "1~2",
+      "effectiveness": [
+        "flying"
+      ],
+      "uses": 20,
+      "worth": 1720,
+      "effect": "2 consecutive attacks",
+      "damage_type": "magical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": true,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "SpotPass Team",
+          "locations": "Celica",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "550 Renown, Event tile, Barracks",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ],
+      "dark_magic_classification": null,
+      "class_restriction_note": "Original table color encodes dark-only restrictions; plain-text extraction loses it. Verify individual eligibility; do not assume all tome classes can use this weapon."
+    },
+    {
+      "id": "aversas_night",
+      "name": "Aversa's Night",
+      "source_ids": [
+        "obtain_magic_1",
+        "weapons_b_1"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "tome",
+      "rank": "B",
+      "might": 15,
+      "hit": 75,
+      "crit": 0,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 10,
+      "worth": 2340,
+      "effect": "Recover HP equal to half the damage dealt to the enemy",
+      "damage_type": "magical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {},
+      "obtainability": [
+        {
+          "method": "Other",
+          "locations": "Event tile, Barracks",
+          "source_ids": [
+            "obtain_magic_1"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ],
+      "dark_magic_classification": null,
+      "class_restriction_note": "Original table color encodes dark-only restrictions; plain-text extraction loses it. Verify individual eligibility; do not assume all tome classes can use this weapon."
+    },
+    {
+      "id": "beaststone",
+      "name": "Beaststone",
+      "source_ids": [
+        "items"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "stone",
+      "rank": null,
+      "might": 6,
+      "hit": 80,
+      "crit": 0,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 50,
+      "worth": 2000,
+      "effect": "Taguel only, Str +3, Skl +5, Spd +5, Lck +4, Def +1",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {
+        "str": 3,
+        "skl": 5,
+        "spd": 5,
+        "lck": 4,
+        "def": 1
+      }
+    },
+    {
+      "id": "beaststone_plus",
+      "name": "Beaststone+",
+      "source_ids": [
+        "items"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "stone",
+      "rank": null,
+      "might": 10,
+      "hit": 70,
+      "crit": 0,
+      "range": "1",
+      "effectiveness": [],
+      "uses": 35,
+      "worth": 3220,
+      "effect": "Taguel only, Str +5, Skl +8, Spd +8, Lck +6, Def +4, Res +2",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {
+        "str": 5,
+        "skl": 8,
+        "spd": 8,
+        "lck": 6,
+        "def": 4,
+        "res": 2
+      }
+    },
+    {
+      "id": "dragonstone",
+      "name": "Dragonstone",
+      "source_ids": [
+        "items"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "stone",
+      "rank": null,
+      "might": 8,
+      "hit": 80,
+      "crit": 0,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 50,
+      "worth": 2300,
+      "effect": "Manaketes only, Str +8, Mag +5, Skl +3, Spd +2, Def +10, Res +7",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {
+        "str": 8,
+        "mag": 5,
+        "skl": 3,
+        "spd": 2,
+        "def": 10,
+        "res": 7
+      }
+    },
+    {
+      "id": "dragonstone_plus",
+      "name": "Dragonstone+",
+      "source_ids": [
+        "items"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "stone",
+      "rank": null,
+      "might": 12,
+      "hit": 70,
+      "crit": 0,
+      "range": "1~2",
+      "effectiveness": [],
+      "uses": 35,
+      "worth": 3780,
+      "effect": "Manaketes only, Str +11, Mag +6, Skl +5, Spd +4, Def +13, Res +9",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {
+        "str": 11,
+        "mag": 6,
+        "skl": 5,
+        "spd": 4,
+        "def": 13,
+        "res": 9
+      }
+    },
+    {
+      "id": "blighted_claws",
+      "name": "Blighted Claws",
+      "source_ids": [
+        "items"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "claw",
+      "rank": null,
+      "might": 12,
+      "hit": 75,
+      "crit": 0,
+      "range": "1",
+      "effectiveness": [],
+      "uses": null,
+      "worth": null,
+      "effect": "Revenants and Entombed only",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {}
+    },
+    {
+      "id": "blighted_talons",
+      "name": "Blighted Talons",
+      "source_ids": [
+        "items"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "breath",
+      "rank": null,
+      "might": 16,
+      "hit": 65,
+      "crit": 0,
+      "range": "1",
+      "effectiveness": [],
+      "uses": null,
+      "worth": null,
+      "effect": "Revenants and Entombed only",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {}
+    },
+    {
+      "id": "expiration",
+      "name": "Expiration",
+      "source_ids": [
+        "items"
+      ],
+      "verification": "single_source_transcribed",
+      "weapon_type": "breath",
+      "rank": null,
+      "might": 20,
+      "hit": 80,
+      "crit": 0,
+      "range": "1~5",
+      "effectiveness": [],
+      "uses": null,
+      "worth": null,
+      "effect": "Grima only",
+      "damage_type": "physical",
+      "weight": null,
+      "weight_note": "No weapon-weight attack-speed penalty in Awakening; doubling uses Speed.",
+      "special_effect_review": "required",
+      "brave": false,
+      "stat_bonuses": {}
+    }
+  ]
+}

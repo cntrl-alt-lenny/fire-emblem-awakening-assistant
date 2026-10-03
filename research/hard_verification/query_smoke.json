@@ -1,0 +1,333 @@
+{
+  "chapter_id": "chapter_7",
+  "difficulty": "Hard",
+  "mode": "Classic",
+  "current_turn": 5,
+  "current_phase": "player",
+  "target_enemy_phase_turn": 5,
+  "map_confidence": "PARTIAL",
+  "schedule_complete": false,
+  "safe_to_claim_move_safe": false,
+  "known_verified_supported": [
+    {
+      "kind": "map",
+      "label": "objective",
+      "value": "Rout the enemy",
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_08_0"
+      ],
+      "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+    },
+    {
+      "kind": "map",
+      "label": "deployment",
+      "value": 11,
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "p2_guide_08_0",
+        "p2_guide_scope"
+      ],
+      "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+    },
+    {
+      "kind": "map",
+      "label": "bosses",
+      "value": [
+        {
+          "name": "Vasto",
+          "class_name": "Wyvern Rider",
+          "level": 12,
+          "equipment_text": "Steel Axe",
+          "equipment_stats": "UNKNOWN"
+        }
+      ],
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "p2_guide_08_0"
+      ],
+      "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+    },
+    {
+      "kind": "hazards",
+      "label": "1",
+      "value": "Flying enemies cross mountain/cliff barriers. Cordelia arrives from the west on turn 3.",
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "p2_guide_08_0",
+        "p2_guide_scope"
+      ],
+      "notes": null
+    },
+    {
+      "kind": "recruitment",
+      "label": "cordelia",
+      "value": "Automatically from Turn 3",
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "recruitment",
+        "p2_guide_08_0"
+      ],
+      "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_7_t5:timing",
+      "value": {
+        "kind": "fixed",
+        "turns": [
+          5
+        ],
+        "event": null,
+        "repeat": null
+      },
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "reinforcements_early_1",
+        "p2_guide_08_0"
+      ],
+      "notes": "Exact turn/count/equipment single indexed Hard subsection; western arrival corroborated by guide. Not a certified complete schedule."
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_7_t5:location",
+      "value": "Western map edge",
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "reinforcements_early_1",
+        "p2_guide_08_0"
+      ],
+      "notes": null
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_7_t5:units",
+      "value": [
+        {
+          "count": 3,
+          "class_id": "wyvern_rider",
+          "equipment": [
+            "steel_axe"
+          ],
+          "level": 7,
+          "location": null
+        }
+      ],
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "reinforcements_early_1",
+        "p2_guide_08_0"
+      ],
+      "notes": "Support applies to the supplied attributes only. Null class/count/equipment/level/location remains UNKNOWN, never absent. Skill rolls and exact enemy forge stats are not established."
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_7_t5:spawn_phase",
+      "value": "beginning_enemy_phase",
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "reinforcements_early_1",
+        "p2_guide_08_0",
+        "hr_gg_spawn"
+      ],
+      "notes": "Ordinary Hard rule applied; map-specific scripted exceptions have not all been excluded."
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_7_t5:immediate_action",
+      "value": {
+        "can_move": true,
+        "can_attack": true,
+        "can_kill_on_spawn": true
+      },
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "hr_gg_spawn",
+        "hr_hard_spawn_observation"
+      ],
+      "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+    }
+  ],
+  "uncertain_partial_conflicted_unknown": [
+    {
+      "kind": "map",
+      "label": "starting_area",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [],
+      "notes": "Exact Hard starting tiles not established; consult observed map."
+    },
+    {
+      "kind": "map",
+      "label": "initial_enemies",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [],
+      "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+    },
+    {
+      "kind": "map",
+      "label": "shops",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [],
+      "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_7_t5:coordinates",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [],
+      "notes": null
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_7_t5:skills",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [],
+      "notes": null
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_7_t5:suppression",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [],
+      "notes": null
+    },
+    {
+      "kind": "schedule",
+      "label": "Additional arrivals/events",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_08_0",
+        "p2_guide_scope",
+        "reinforcements_early_1"
+      ],
+      "notes": "Complete schedule not established. No matching fixed-turn wave does NOT mean no spawn. Conditional and unknown-time families are always retained as possible."
+    },
+    {
+      "kind": "safety",
+      "label": "Complete threat geometry",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_08_0",
+        "p2_guide_scope",
+        "reinforcements_early_1"
+      ],
+      "notes": "Exact positions, all enemy stats/equipment/skills and event boundaries are not complete. No empty list or zero modeled death chance certifies a move without observed inputs."
+    }
+  ],
+  "candidate_reinforcements": [
+    {
+      "id": "hard_chapter_7_t5",
+      "chapter_id": "chapter_7",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "reinforcements_early_1",
+        "p2_guide_08_0"
+      ],
+      "timing": {
+        "value": {
+          "kind": "fixed",
+          "turns": [
+            5
+          ],
+          "event": null,
+          "repeat": null
+        },
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "reinforcements_early_1",
+          "p2_guide_08_0"
+        ],
+        "notes": "Exact turn/count/equipment single indexed Hard subsection; western arrival corroborated by guide. Not a certified complete schedule."
+      },
+      "location": {
+        "value": "Western map edge",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "reinforcements_early_1",
+          "p2_guide_08_0"
+        ],
+        "notes": null
+      },
+      "units": {
+        "value": [
+          {
+            "count": 3,
+            "class_id": "wyvern_rider",
+            "equipment": [
+              "steel_axe"
+            ],
+            "level": 7,
+            "location": null
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "reinforcements_early_1",
+          "p2_guide_08_0"
+        ],
+        "notes": "Support applies to the supplied attributes only. Null class/count/equipment/level/location remains UNKNOWN, never absent. Skill rolls and exact enemy forge stats are not established."
+      },
+      "spawn_phase": {
+        "value": "beginning_enemy_phase",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "reinforcements_early_1",
+          "p2_guide_08_0",
+          "hr_gg_spawn"
+        ],
+        "notes": "Ordinary Hard rule applied; map-specific scripted exceptions have not all been excluded."
+      },
+      "immediate_action": {
+        "value": {
+          "can_move": true,
+          "can_attack": true,
+          "can_kill_on_spawn": true
+        },
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "hr_gg_spawn",
+          "hr_hard_spawn_observation"
+        ],
+        "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+      },
+      "coordinates": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": null
+      },
+      "skills": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": null
+      },
+      "suppression": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": null
+      },
+      "schedule_completeness": "UNKNOWN"
+    }
+  ],
+  "reinforcement_status": "present",
+  "reinforcement_absence_confidence": null,
+  "absence_reasonably_supported": false,
+  "safe_to_conclude_no_reinforcements": false,
+  "warning": "Known facts are source-supported, not a complete threat map. Hard beginning-enemy-phase spawns can move/attack immediately. Never rely on enemy-phasing an unknown wave.",
+  "absence_limitations": null
+}

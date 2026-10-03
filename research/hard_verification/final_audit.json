@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-02",
+  "scope": "Hard/Classic only; no run initialized",
+  "coverage": {
+    "campaign_maps_checked": 44,
+    "map_confidence": {
+      "VERIFIED": 0,
+      "SUPPORTED": 0,
+      "PARTIAL": 36,
+      "CONFLICTED": 8,
+      "UNKNOWN": 0
+    },
+    "reinforcement_records": 29,
+    "wave_confidence": {
+      "VERIFIED": 0,
+      "SUPPORTED": 5,
+      "PARTIAL": 22,
+      "CONFLICTED": 2,
+      "UNKNOWN": 0
+    },
+    "event_family_records": [
+      "hard_chapter_5_disputed_schedule",
+      "hard_chapter_24_fort_sequence",
+      "hard_endgame_continuous",
+      "hard_paralogue_14_village_visits",
+      "hard_paralogue_17_flying_waves"
+    ],
+    "absence_supported": [
+      "chapter_15",
+      "chapter_22"
+    ],
+    "absence_verified": [],
+    "ordinary_hard_same_turn_rule": "VERIFIED by Hard-specific guide and independent player report",
+    "maps_with_rule_applied": [
+      "chapter_5",
+      "chapter_7",
+      "chapter_9",
+      "chapter_10",
+      "chapter_11",
+      "chapter_13",
+      "chapter_14",
+      "chapter_16",
+      "chapter_17",
+      "chapter_19",
+      "chapter_20",
+      "chapter_21",
+      "chapter_23",
+      "chapter_24",
+      "chapter_25",
+      "endgame",
+      "paralogue_8",
+      "paralogue_10",
+      "paralogue_11",
+      "paralogue_12",
+      "paralogue_13",
+      "paralogue_14",
+      "paralogue_17"
+    ],
+    "maps_with_supported_spawn_phase": [
+      "chapter_7",
+      "chapter_10",
+      "chapter_16",
+      "chapter_20",
+      "paralogue_10"
+    ],
+    "maps_with_directly_observed_immediate_action": [],
+    "map_specific_script_exception_audits_complete": [],
+    "complete_schedules": 0,
+    "readiness": "Suitable to BEGIN with evidence-aware assisted play, not a guarantee of an Ironman-safe route. Unknown hazards and incomplete schedules are always exposed; observed enemy data required for combat."
+  },
+  "validation": {
+    "passed": true,
+    "errors": [],
+    "campaign_maps": 44,
+    "reinforcement_records": 29,
+    "registered_sources": 217,
+    "source_refs_resolve": true,
+    "source_truth_not_proven_by_tests": true,
+    "readiness_requires": "Evidence-aware claims, no unconditional route-safety advice, complete observed inputs and refusal for unsupported interactions."
+  },
+  "tests_passing": 101,
+  "tests_ok": true,
+  "preservation": {
+    "offline_data_rebuild_identical": true,
+    "data_files_checked": 28,
+    "changed_files": [],
+    "non_hard_difficulty_slots_unchanged": true,
+    "current_run_pointer_unchanged": true,
+    "state_files_unchanged": true,
+    "no_run_initialized": true
+  },
+  "manual_audit": "research/hard_verification/manual_audit.md",
+  "ready_to_begin_evidence_aware_assisted_play": true,
+  "ready_for_unqualified_ironman_safe_routing": false,
+  "known_false_imports_quarantined": 3,
+  "source_registry_ids_added": 16,
+  "source_registry_total": 217,
+  "readiness_conditions": [
+    "Expose uncertainty at every current-map query",
+    "Do not infer absence from missing data",
+    "Require observed complete battle inputs; refuse unsupported effects",
+    "Do not promise safe movement from incomplete geometry/schedules"
+  ]
+}

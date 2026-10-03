@@ -1,0 +1,19 @@
+{
+  "quarantines": [
+    {
+      "ids": [
+        "p2_reviewed_wave_2",
+        "p2_reviewed_wave_3",
+        "p2_reviewed_wave_4"
+      ],
+      "chapter_id": "chapter_15",
+      "reason": "Map and difficulty heading loss: contents match Chapter 16 Lunatic subsection, not Chapter 15 Hard.",
+      "source_ids": [
+        "reinforcements_14_16_0",
+        "hr_fandom16",
+        "hr_jp_15"
+      ],
+      "status": "RESOLVED_IMPORT_ERROR"
+    }
+  ]
+}

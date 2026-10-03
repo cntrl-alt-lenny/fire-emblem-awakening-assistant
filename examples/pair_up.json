@@ -1,0 +1,34 @@
+{
+  "partner_class": "great_knight",
+  "partner_raw_stats": {
+    "hp": 28,
+    "str": 13,
+    "mag": 2,
+    "skl": 12,
+    "spd": 10,
+    "lck": 6,
+    "def": 14,
+    "res": 3
+  },
+  "lead_effective_stats": {
+    "hp": 22,
+    "str": 13,
+    "mag": 3,
+    "skl": 15,
+    "spd": 15,
+    "lck": 12,
+    "def": 14,
+    "res": 14
+  },
+  "partner_effective_stats": {
+    "hp": 28,
+    "str": 13,
+    "mag": 2,
+    "skl": 12,
+    "spd": 10,
+    "lck": 6,
+    "def": 14,
+    "res": 3
+  },
+  "rank": "C"
+}

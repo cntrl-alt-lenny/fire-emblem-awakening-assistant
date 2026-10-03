@@ -1,0 +1,61 @@
+[
+  {
+    "source_id": "reinforcements_14_16_0",
+    "name": "Smoldering Resistance | Fire Emblem Wiki | Fandom",
+    "url": "https://fireemblem.fandom.com/wiki/Smoldering_Resistance",
+    "accessed": "2026-10-02",
+    "verification": "search_excerpt_unreviewed",
+    "tables": [],
+    "reinforcement_candidates": [
+      "### Hard Mode[]",
+      "All enemies spawn at the beginning of the enemy turn.",
+      "* Turn 4 (from the bottom of the map)",
+      "* 1 Sniper L3 w/ Longbow",
+      "* From the South-East",
+      "* 2 Warriors L3 w/ Silver Axe, Silver Bow (one of these can have Counter!)",
+      "* 1 Fighters L20 w/ Silver Axe",
+      "* 1 Fighters L20 w/ Tomahawk, Concoction*",
+      "* 1 Sniper L3 w/ Longbow",
+      "* Turn 5",
+      "* 2 Falcon Knights L3 w/ Silver Lance (from the West)",
+      "* 1 Falcon Knights L3 w/ Silver Lance (from the East)",
+      "* 1 Falcon Knights L3 w/ Spear (from the East)",
+      "* 1 Falcon Knights L3 w/ Spear (from the South-West)",
+      "* 1 Falcon Knights L3 w/ Spear (from the South-East)",
+      "* Turn 6 (from the South-East and the South-West)",
+      "* 6 Bow Knights L3 w/ Silver Sword, Silver Bow",
+      "All remaining enemies (except the 5 closest to the boss) will charge you once the last reinforcements have spawned"
+    ]
+  },
+  {
+    "source_id": "reinforcements_14_16_1",
+    "name": "Irreconcilable Paths | Fire Emblem Wiki | Fandom",
+    "url": "https://fireemblem.fandom.com/wiki/Irreconcilable_Paths",
+    "accessed": "2026-10-02",
+    "verification": "search_excerpt_unreviewed",
+    "tables": [],
+    "reinforcement_candidates": [
+      "### Normal Mode[]",
+      "* Various units appear from the graves on turns 4-6.",
+      "* 3 random units appear from the central-south road on turn 7.",
+      "* 3 random units appear from the northwest road on turn 8.",
+      "### Lunatic Mode[]",
+      "* Various(10) units appear from the graves on turns 3-5.",
+      "* 3 random units appear from both the Nort-West and South-East on turn 4."
+    ]
+  },
+  {
+    "source_id": "reinforcements_14_16_2",
+    "name": "Incursion | Fire Emblem Wiki | Fandom",
+    "url": "https://fireemblem.fandom.com/wiki/Incursion",
+    "accessed": "2026-10-02",
+    "verification": "search_excerpt_unreviewed",
+    "tables": [],
+    "reinforcement_candidates": [
+      "### Hard/Lunatic mode[]",
+      "All enemies spawn at the beginning of the enemy turn.",
+      "* Turn 5 (from the west)",
+      "* 3 Wyvern Riders L7 w/ Steel Axe"
+    ]
+  }
+]

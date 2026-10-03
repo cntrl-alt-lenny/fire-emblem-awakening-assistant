@@ -1,0 +1,33 @@
+[
+  {
+    "source_id": "reinforcements_17_19_0",
+    "name": "Irreconcilable Paths | Fire Emblem Wiki | Fandom",
+    "url": "https://fireemblem.fandom.com/wiki/Irreconcilable_Paths",
+    "accessed": "2026-10-02",
+    "verification": "search_excerpt_unreviewed",
+    "tables": [],
+    "reinforcement_candidates": [
+      "### Normal Mode[]",
+      "* Various units appear from the graves on turns 4-6.",
+      "* 3 random units appear from the central-south road on turn 7.",
+      "* 3 random units appear from the northwest road on turn 8.",
+      "### Lunatic Mode[]",
+      "* Various(10) units appear from the graves on turns 3-5.",
+      "* 3 random units appear from both the Nort-West and South-East on turn 4."
+    ]
+  },
+  {
+    "source_id": "reinforcements_17_19_1",
+    "name": "Incursion | Fire Emblem Wiki | Fandom",
+    "url": "https://fireemblem.fandom.com/wiki/Incursion",
+    "accessed": "2026-10-02",
+    "verification": "search_excerpt_unreviewed",
+    "tables": [],
+    "reinforcement_candidates": [
+      "### Hard/Lunatic mode[]",
+      "All enemies spawn at the beginning of the enemy turn.",
+      "* Turn 5 (from the west)",
+      "* 3 Wyvern Riders L7 w/ Steel Axe"
+    ]
+  }
+]

@@ -1,0 +1,1027 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "prologue",
+      "name": "Southtown",
+      "chapter_id": "prologue",
+      "item_ids": [
+        "iron_sword",
+        "iron_lance",
+        "iron_axe",
+        "iron_bow",
+        "wyrmslayer",
+        "hammer",
+        "concoction",
+        "master_seal",
+        "second_seal",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "chapter_1",
+      "name": "West of Ylisstol",
+      "chapter_id": "chapter_1",
+      "item_ids": [
+        "iron_sword",
+        "iron_lance",
+        "iron_axe",
+        "iron_bow",
+        "rescue",
+        "physic",
+        "concoction",
+        "master_seal",
+        "second_seal",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "chapter_2",
+      "name": "The North Road",
+      "chapter_id": "chapter_2",
+      "item_ids": [
+        "iron_sword",
+        "iron_lance",
+        "iron_axe",
+        "iron_bow",
+        "beast_killer",
+        "blessed_bow",
+        "concoction",
+        "master_seal",
+        "second_seal",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "chapter_3",
+      "name": "The Longfort",
+      "chapter_id": "chapter_3",
+      "item_ids": [
+        "iron_sword",
+        "iron_lance",
+        "iron_axe",
+        "iron_bow",
+        "rescue",
+        "concoction",
+        "hp_tonic",
+        "master_seal",
+        "second_seal",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "chapter_4",
+      "name": "Arena Ferox",
+      "chapter_id": "chapter_4",
+      "item_ids": [
+        "steel_sword",
+        "steel_lance",
+        "steel_axe",
+        "steel_bow",
+        "elfire",
+        "wyrmslayer",
+        "blessed_lance",
+        "master_seal",
+        "second_seal",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "chapter_5",
+      "name": "Border Pass",
+      "chapter_id": "chapter_5",
+      "item_ids": [
+        "steel_sword",
+        "steel_lance",
+        "steel_axe",
+        "steel_bow",
+        "elthunder",
+        "rescue",
+        "elixir",
+        "master_seal",
+        "second_seal",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "chapter_6",
+      "name": "Ylisstol",
+      "chapter_id": "chapter_6",
+      "item_ids": [
+        "steel_sword",
+        "steel_lance",
+        "steel_axe",
+        "steel_bow",
+        "elwind",
+        "rapier",
+        "hammer",
+        "master_seal",
+        "second_seal",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "chapter_7",
+      "name": "Breakneck Pass",
+      "chapter_id": "chapter_7",
+      "item_ids": [
+        "steel_sword",
+        "steel_lance",
+        "steel_axe",
+        "steel_bow",
+        "elthunder",
+        "armourslayer",
+        "rescue",
+        "master_seal",
+        "second_seal",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "chapter_8",
+      "name": "Border Sands",
+      "chapter_id": "chapter_8",
+      "item_ids": [
+        "steel_sword",
+        "steel_lance",
+        "steel_axe",
+        "steel_bow",
+        "elwind",
+        "hammer",
+        "ward",
+        "master_seal",
+        "second_seal",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "chapter_9",
+      "name": "Plegia Castle Courtyard",
+      "chapter_id": "chapter_9",
+      "item_ids": [
+        "silver_sword",
+        "silver_lance",
+        "silver_axe",
+        "silver_bow",
+        "nosferatu",
+        "beast_killer",
+        "blessed_bow",
+        "master_seal",
+        "second_seal",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "chapter_10",
+      "name": "The Midmire",
+      "chapter_id": "chapter_10",
+      "item_ids": [
+        "silver_sword",
+        "silver_lance",
+        "silver_axe",
+        "silver_bow",
+        "elfire",
+        "blessed_lance",
+        "elixir",
+        "master_seal",
+        "second_seal",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "chapter_11",
+      "name": "Border Wastes",
+      "chapter_id": "chapter_11",
+      "item_ids": [
+        "silver_sword",
+        "silver_lance",
+        "silver_axe",
+        "silver_bow",
+        "arcthunder",
+        "levin_sword",
+        "rapier",
+        "short_spear",
+        "killer_bow",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "chapter_12",
+      "name": "Port Ferox",
+      "chapter_id": "chapter_12",
+      "item_ids": [
+        "silver_sword",
+        "silver_lance",
+        "silver_axe",
+        "silver_bow",
+        "arcfire",
+        "killing_edge",
+        "killer_lance",
+        "killer_axe",
+        "killer_bow",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "chapter_13",
+      "name": "Carrion Isle",
+      "chapter_id": "chapter_13",
+      "item_ids": [
+        "silver_sword",
+        "silver_lance",
+        "silver_axe",
+        "silver_bow",
+        "arcwind",
+        "armourslayer",
+        "blessed_lance",
+        "short_axe",
+        "elixir",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "chapter_14",
+      "name": "The Searoad",
+      "chapter_id": "chapter_14",
+      "item_ids": [
+        "killing_edge",
+        "killer_lance",
+        "killer_axe",
+        "killer_bow",
+        "ruin",
+        "rapier",
+        "short_spear",
+        "short_axe",
+        "blessed_bow",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "chapter_15",
+      "name": "Valm Harbour",
+      "chapter_id": "chapter_15",
+      "item_ids": [
+        "killing_edge",
+        "killer_lance",
+        "killer_axe",
+        "killer_bow",
+        "arcwind",
+        "wyrmslayer",
+        "short_spear",
+        "hammer",
+        "elixir",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "chapter_16",
+      "name": "The Mila Tree",
+      "chapter_id": "chapter_16",
+      "item_ids": [
+        "killing_edge",
+        "killer_lance",
+        "killer_axe",
+        "killer_bow",
+        "arcthunder",
+        "levin_sword",
+        "beast_killer",
+        "short_axe",
+        "blessed_bow",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "chapter_17",
+      "name": "Fort Steiger",
+      "chapter_id": "chapter_17",
+      "item_ids": [
+        "killing_edge",
+        "killer_lance",
+        "killer_axe",
+        "killer_bow",
+        "rexcalibur",
+        "wyrmslayer",
+        "blessed_lance",
+        "hammer",
+        "dragonstone_plus",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "chapter_18",
+      "name": "The Demon's Ingle",
+      "chapter_id": "chapter_18",
+      "item_ids": [
+        "brave_sword",
+        "brave_lance",
+        "brave_axe",
+        "brave_bow",
+        "thoron",
+        "noble_rapier",
+        "killer_lance",
+        "tomahawk",
+        "beaststone_plus",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "chapter_19",
+      "name": "Valm Castle Approach",
+      "chapter_id": "chapter_19",
+      "item_ids": [
+        "brave_sword",
+        "brave_lance",
+        "brave_axe",
+        "brave_bow",
+        "bolganone",
+        "spear",
+        "killer_axe",
+        "killer_bow",
+        "fortify",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "chapter_20",
+      "name": "Valm Castle",
+      "chapter_id": "chapter_20",
+      "item_ids": [
+        "brave_sword",
+        "brave_lance",
+        "brave_axe",
+        "brave_bow",
+        "waste",
+        "levin_sword",
+        "beast_killer",
+        "tomahawk",
+        "killer_bow",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "chapter_21",
+      "name": "Plegia Castle",
+      "chapter_id": "chapter_21",
+      "item_ids": [
+        "brave_sword",
+        "brave_lance",
+        "brave_axe",
+        "brave_bow",
+        "thoron",
+        "armourslayer",
+        "noble_rapier",
+        "longbow",
+        "mire",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "chapter_22",
+      "name": "Table Approach",
+      "chapter_id": "chapter_22",
+      "item_ids": [
+        "brave_sword",
+        "brave_lance",
+        "brave_axe",
+        "brave_bow",
+        "bolganone",
+        "killing_edge",
+        "spear",
+        "hammer",
+        "blessed_bow",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "chapter_23",
+      "name": "The Dragon's Table",
+      "chapter_id": "chapter_23",
+      "item_ids": [
+        "brave_sword",
+        "brave_lance",
+        "brave_axe",
+        "brave_bow",
+        "rexcalibur",
+        "killer_lance",
+        "killer_axe",
+        "longbow",
+        "fortify",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "chapter_24",
+      "name": "Mount Prism",
+      "chapter_id": "chapter_24",
+      "item_ids": [
+        "rare_item",
+        "rare_item",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "chapter_25",
+      "name": "Origin Peak",
+      "chapter_id": "chapter_25",
+      "item_ids": [
+        "rare_item",
+        "rare_item",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "paralogue_1",
+      "name": "The Farfort",
+      "chapter_id": "paralogue_1",
+      "item_ids": [
+        "steel_sword",
+        "steel_lance",
+        "steel_axe",
+        "steel_bow",
+        "elthunder",
+        "wyrmslayer",
+        "rescue",
+        "master_seal",
+        "second_seal",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "paralogue_2",
+      "name": "The Twins' Turf",
+      "chapter_id": "paralogue_2",
+      "item_ids": [
+        "steel_sword",
+        "steel_lance",
+        "steel_axe",
+        "steel_bow",
+        "elwind",
+        "hammer",
+        "physic",
+        "master_seal",
+        "second_seal",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "paralogue_3",
+      "name": "Peaceful Village",
+      "chapter_id": "paralogue_3",
+      "item_ids": [
+        "steel_sword",
+        "steel_lance",
+        "steel_axe",
+        "steel_bow",
+        "nosferatu",
+        "beast_killer",
+        "elixir",
+        "master_seal",
+        "second_seal",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "paralogue_4",
+      "name": "The Twins' Hideout",
+      "chapter_id": "paralogue_4",
+      "item_ids": [
+        "silver_sword",
+        "silver_lance",
+        "silver_axe",
+        "silver_bow",
+        "arcthunder",
+        "ruin",
+        "short_spear",
+        "short_axe",
+        "elixir",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "paralogue_5",
+      "name": "Sage's Hamlet",
+      "chapter_id": "paralogue_5",
+      "item_ids": [
+        "silver_lance",
+        "silver_axe",
+        "silver_bow",
+        "arcfire",
+        "brave_sword",
+        "brave_lance",
+        "brave_axe",
+        "brave_bow",
+        "thoron",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "paralogue_6",
+      "name": "Great Gate",
+      "chapter_id": "paralogue_6",
+      "item_ids": [
+        "killing_edge",
+        "killer_lance",
+        "killer_axe",
+        "killer_bow",
+        "levin_sword",
+        "beast_killer",
+        "blessed_lance",
+        "hammer",
+        "blessed_bow",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "paralogue_7",
+      "name": "Mila Shrine Ruins",
+      "chapter_id": "paralogue_7",
+      "item_ids": [
+        "killing_edge",
+        "killer_lance",
+        "killer_axe",
+        "killer_bow",
+        "armourslayer",
+        "levin_sword",
+        "blessed_lance",
+        "hammer",
+        "blessed_bow",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "paralogue_8",
+      "name": "Duelling Grounds",
+      "chapter_id": "paralogue_8",
+      "item_ids": [
+        "killing_edge",
+        "killer_lance",
+        "killer_axe",
+        "killer_bow",
+        "wyrmslayer",
+        "beast_killer",
+        "blessed_lance",
+        "hammer",
+        "blessed_bow",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "paralogue_9",
+      "name": "Verdant Forest",
+      "chapter_id": "paralogue_9",
+      "item_ids": [
+        "silver_sword",
+        "silver_axe",
+        "silver_bow",
+        "arcthunder",
+        "brave_sword",
+        "brave_lance",
+        "brave_axe",
+        "brave_bow",
+        "bolganone",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "paralogue_10",
+      "name": "Mercenary Fort",
+      "chapter_id": "paralogue_10",
+      "item_ids": [
+        "killing_edge",
+        "killer_lance",
+        "killer_axe",
+        "killer_bow",
+        "wyrmslayer",
+        "levin_sword",
+        "beast_killer",
+        "blessed_lance",
+        "hammer",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "paralogue_11",
+      "name": "Wyvern Valley",
+      "chapter_id": "paralogue_11",
+      "item_ids": [
+        "silver_sword",
+        "silver_lance",
+        "silver_bow",
+        "ruin",
+        "brave_sword",
+        "brave_lance",
+        "brave_axe",
+        "brave_bow",
+        "bolganone",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "paralogue_12",
+      "name": "The Ruins of Time",
+      "chapter_id": "paralogue_12",
+      "item_ids": [
+        "killing_edge",
+        "killer_lance",
+        "killer_axe",
+        "killer_bow",
+        "wyrmslayer",
+        "beast_killer",
+        "blessed_lance",
+        "hammer",
+        "blessed_bow",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "paralogue_13",
+      "name": "Law's End",
+      "chapter_id": "paralogue_13",
+      "item_ids": [
+        "killing_edge",
+        "killer_lance",
+        "killer_axe",
+        "killer_bow",
+        "armourslayer",
+        "levin_sword",
+        "beast_killer",
+        "blessed_lance",
+        "blessed_bow",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "paralogue_14",
+      "name": "Desert Oasis",
+      "chapter_id": "paralogue_14",
+      "item_ids": [
+        "killing_edge",
+        "killer_lance",
+        "killer_axe",
+        "killer_bow",
+        "wyrmslayer",
+        "beast_killer",
+        "blessed_lance",
+        "hammer",
+        "blessed_bow",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "paralogue_15",
+      "name": "Kidnapper's Keep",
+      "chapter_id": "paralogue_15",
+      "item_ids": [
+        "silver_sword",
+        "silver_lance",
+        "silver_axe",
+        "arcwind",
+        "brave_sword",
+        "brave_lance",
+        "brave_axe",
+        "brave_bow",
+        "rexcalibur",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "paralogue_16",
+      "name": "Manor of Lost Souls",
+      "chapter_id": "paralogue_16",
+      "item_ids": [
+        "killing_edge",
+        "killer_lance",
+        "killer_axe",
+        "killer_bow",
+        "armourslayer",
+        "levin_sword",
+        "beast_killer",
+        "hammer",
+        "blessed_bow",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "paralogue_17",
+      "name": "Divine Dragon Grounds",
+      "chapter_id": "paralogue_17",
+      "item_ids": [
+        "bolganone",
+        "thoron",
+        "rexcalibur",
+        "waste",
+        "brave_sword",
+        "brave_lance",
+        "brave_axe",
+        "brave_bow",
+        "fortify",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "paralogue_18",
+      "name": "Sea-King's Throne",
+      "chapter_id": "paralogue_18",
+      "item_ids": [
+        "rare_item",
+        "rare_item",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "paralogue_19",
+      "name": "Conqueror's Whetstone",
+      "chapter_id": "paralogue_19",
+      "item_ids": [
+        "rare_item",
+        "rare_item",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "paralogue_20",
+      "name": "Mountain Village",
+      "chapter_id": "paralogue_20",
+      "item_ids": [
+        "rare_item",
+        "rare_item",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "paralogue_21",
+      "name": "Warriors' Tomb",
+      "chapter_id": "paralogue_21",
+      "item_ids": [
+        "rare_item",
+        "rare_item",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "paralogue_22",
+      "name": "Wellspring of Truth",
+      "chapter_id": "paralogue_22",
+      "item_ids": [
+        "rare_item",
+        "rare_item",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    },
+    {
+      "id": "paralogue_23",
+      "name": "Garden of Giants",
+      "chapter_id": "paralogue_23",
+      "item_ids": [
+        "rare_item",
+        "rare_item",
+        "rare_item"
+      ],
+      "source_ids": [
+        "economy_1"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "World-map location catalog; merchant spawn probability/stock selection not inferred."
+    }
+  ]
+}

@@ -1,0 +1,920 @@
+[
+  {
+    "source_id": "obtain_swords",
+    "name": "Swords - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/item-locations/swords/",
+    "accessed": "2026-10-02",
+    "verification": "extracted_unreviewed",
+    "tables": [
+      {
+        "section": "Bronze Sword",
+        "rows": [
+          [
+            "Playable",
+            "Avatar, Stahl"
+          ],
+          [
+            "Armoury",
+            "Prologue"
+          ],
+          [
+            "SpotPass Team",
+            "Mist, Edward"
+          ]
+        ]
+      },
+      {
+        "section": "Iron Sword",
+        "rows": [
+          [
+            "Playable",
+            "Gaius, Olivia"
+          ],
+          [
+            "Enemy loot",
+            "Ch 2"
+          ],
+          [
+            "Armoury",
+            "Ch 5, Ch 11, Par 1, Par 5"
+          ],
+          [
+            "Merchant",
+            "Pro, Ch 1-3"
+          ],
+          [
+            "SpotPass Team",
+            "Florina, Eirika, Soren, Edward, Leonardo, Clair, Fee, Nanna, Shanna"
+          ]
+        ]
+      },
+      {
+        "section": "Steel Sword",
+        "rows": [
+          [
+            "Playable",
+            "Gregor, Anna, Owain, Severa, Morgan *_{1}"
+          ],
+          [
+            "Enemy loot",
+            "Ch 7, Ch 15, Ch 16"
+          ],
+          [
+            "Armoury",
+            "Ch 9, Ch 15, Par 4, Par 5"
+          ],
+          [
+            "Merchant",
+            "Ch 4-8, Par 1-3"
+          ],
+          [
+            "SpotPass Team",
+            "Serra, Matthew, Eirika, Marisa, Mia, Zihark, Sanaki, Caeda, Linde, Boey, Catria, Athena, Ethlyn, Ulster, Larcei, Salem, Olwen, Lugh, Raigh"
+          ]
+        ]
+      },
+      {
+        "section": "Silver Sword",
+        "rows": [
+          [
+            "Playable",
+            "Flavia"
+          ],
+          [
+            "Enemy loot",
+            "Ch 12, Ch 16, Ch 19, Ch 23"
+          ],
+          [
+            "Armoury",
+            "Ch 15, Ch 17, Ch 19, Par 5, Par 21"
+          ],
+          [
+            "Merchant",
+            "Ch 9-13, Par 4, Par 9, Par 11, Par 15"
+          ],
+          [
+            "SpotPass Team",
+            "Nino, Karel, Jaffar, Lyn, Hector, Nergal, Marisa, L’Arachel, Geoffrey, Lucia, Sothe, Tiki, Ogma, Navarre, Prince Marth, Nomah, Deen, Athena, Horace, Katarina, King Marth, Quan, Lewyn, Arvis, Sigurd, Larcei, Julia, Salem, Olwen, Eyvel, Mareeta, Raydrik, Perceval, Camus, Narcian, Lloyd, Linus, Ursula, Selena, Petrine"
+          ],
+          [
+            "Other",
+            "Double Duel"
+          ]
+        ]
+      },
+      {
+        "section": "Brave Sword",
+        "rows": [
+          [
+            "Armoury",
+            "Ch 25, Par 21"
+          ],
+          [
+            "Merchant",
+            "Ch 18-23, Par 5, Par 9, Par 11, Par 15, Par 17"
+          ],
+          [
+            "SpotPass Team",
+            "Nergal, Eliwood, Black Knight, Micaiah, Deen, Ayra, Sigurd, Larcei, Julius, Mareeta, Zephiel, Roy, Camus, Lloyd, Linus"
+          ]
+        ]
+      },
+      {
+        "section": "Armourslayer",
+        "rows": [
+          [
+            "Enemy loot",
+            "Ch 11, Ch 18"
+          ],
+          [
+            "Armoury",
+            "Par 21"
+          ],
+          [
+            "Merchant",
+            "Ch 7, Ch 13, Ch 21, Par 7, Par 13, Par 16"
+          ],
+          [
+            "SpotPass Team",
+            "Matthew, Karel, Mia, Malice, Ethlyn"
+          ]
+        ]
+      },
+      {
+        "section": "Wyrmslayer",
+        "rows": [
+          [
+            "Enemy loot",
+            "Ch 10, Ch 23"
+          ],
+          [
+            "Event",
+            "Par 11 (NPC) *_{2}"
+          ],
+          [
+            "Armoury",
+            "Par 21"
+          ],
+          [
+            "Merchant",
+            "Pro, Ch 4, Ch 15, Ch 17, Par 1, Par 8, Par 10, Par 12, Par 14"
+          ],
+          [
+            "SpotPass Team",
+            "Matthew, Catria, Mareeta"
+          ],
+          [
+            "Other",
+            "Double Duel"
+          ]
+        ]
+      },
+      {
+        "section": "Killing Edge",
+        "rows": [
+          [
+            "Playable",
+            "Lon’qu, Inigo, Yen’fay"
+          ],
+          [
+            "Enemy loot",
+            "Ch 8"
+          ],
+          [
+            "Chest",
+            "Par 4"
+          ],
+          [
+            "Event",
+            "Par 6 (Inigo) _{3}"
+          ],
+          [
+            "Armoury",
+            "Ch 19, Par 5"
+          ],
+          [
+            "Merchant",
+            "Ch 12, Ch 14-17, 22, Par 6-8, Par 10, Par 12-14, Par 16"
+          ],
+          [
+            "SpotPass Team",
+            "Nino, Jaffar, Eliwood, Marisa, Zihark, Ike, Linde, Tiki, Ogma, Navarre, Boey, Norne, Malice, Katarina, Julia, Salem, Mareeta, Raigh, Lloyd"
+          ]
+        ]
+      },
+      {
+        "section": "Levin Sword",
+        "rows": [
+          [
+            "Playable",
+            "Gangrel"
+          ],
+          [
+            "Enemy loot",
+            "Ch 11, Ch 25"
+          ],
+          [
+            "Chest",
+            "Par 10"
+          ],
+          [
+            "Armoury",
+            "Par 23"
+          ],
+          [
+            "Merchant",
+            "Ch 11, Ch 16, Ch 20, Par 6-7, Par 10, Par 13, Par 16"
+          ],
+          [
+            "SpotPass Team",
+            "Nino, Lyn, Hector, Eliwood, Sothe, Navarre, Malice, Katarina, Leif"
+          ],
+          [
+            "Other",
+            "270 Renown"
+          ]
+        ]
+      },
+      {
+        "section": "Rapier",
+        "rows": [
+          [
+            "Playable",
+            "Chrom, Lucina"
+          ],
+          [
+            "Merchant",
+            "Ch 6, Ch 11, Ch 14"
+          ]
+        ]
+      },
+      {
+        "section": "Noble Rapier",
+        "rows": [
+          [
+            "Enemy loot",
+            "Ch 18"
+          ],
+          [
+            "Chest",
+            "Ch 21"
+          ],
+          [
+            "Armoury",
+            "Par 23"
+          ],
+          [
+            "Merchant",
+            "Ch 18, Ch 21"
+          ],
+          [
+            "SpotPass Team",
+            "Prince Marth"
+          ],
+          [
+            "Other",
+            "4000 Renown"
+          ]
+        ]
+      },
+      {
+        "section": "Missiletainn",
+        "rows": [
+          [
+            "Event",
+            "Par 5 *_{4}"
+          ],
+          [
+            "Other",
+            "Infinite Regalia"
+          ]
+        ]
+      },
+      {
+        "section": "Sol",
+        "rows": [
+          [
+            "Enemy loot",
+            "Ch 19"
+          ],
+          [
+            "Other",
+            "Infinite Regalia"
+          ]
+        ]
+      },
+      {
+        "section": "Amatsu",
+        "rows": [
+          [
+            "Enemy loot",
+            "Ch 18"
+          ],
+          [
+            "Other",
+            "Infinite Regalia"
+          ]
+        ]
+      },
+      {
+        "section": "Falchion",
+        "rows": [
+          [
+            "Playable",
+            "Chrom"
+          ]
+        ]
+      },
+      {
+        "section": "Exalted Falchion",
+        "rows": [
+          [
+            "Event",
+            "Ch 24 (end of chapter)"
+          ]
+        ]
+      },
+      {
+        "section": "Parallel Falchion",
+        "rows": [
+          [
+            "Playable",
+            "Lucina"
+          ]
+        ]
+      },
+      {
+        "section": "Mercurius",
+        "rows": [
+          [
+            "Other",
+            "3000 Renown, Infinite Regalia"
+          ]
+        ]
+      },
+      {
+        "section": "Tyrfing",
+        "rows": [
+          [
+            "Other",
+            "Bonus item , Infinite Regalia"
+          ]
+        ]
+      },
+      {
+        "section": "Balmung",
+        "rows": [
+          [
+            "Enemy loot",
+            "Ch 22"
+          ],
+          [
+            "Other",
+            "Infinite Regalia"
+          ]
+        ]
+      },
+      {
+        "section": "Mystletainn",
+        "rows": [
+          [
+            "Other",
+            "Bonus item , Infinite Regalia"
+          ]
+        ]
+      },
+      {
+        "section": "Sol Katti",
+        "rows": [
+          [
+            "Enemy loot",
+            "Par 21"
+          ],
+          [
+            "Other",
+            "Infinite Regalia"
+          ]
+        ]
+      },
+      {
+        "section": "Ragnell",
+        "rows": [
+          [
+            "Playable",
+            "Priam"
+          ],
+          [
+            "Other",
+            "Infinite Regalia"
+          ]
+        ]
+      },
+      {
+        "section": "Tree Branch",
+        "rows": [
+          [
+            "Other",
+            "Event tile, Barracks"
+          ]
+        ]
+      },
+      {
+        "section": "Glass Sword",
+        "rows": [
+          [
+            "Other",
+            "50 Renown, Event tile, Barracks"
+          ]
+        ]
+      },
+      {
+        "section": "Soothing Sword",
+        "rows": [
+          [
+            "Other",
+            "Event tile, Barracks"
+          ]
+        ]
+      },
+      {
+        "section": "Superior Edge",
+        "rows": [
+          [
+            "Other",
+            "Event tile, Barracks"
+          ]
+        ]
+      },
+      {
+        "section": "Leif’s Blade",
+        "rows": [
+          [
+            "SpotPass Team",
+            "Leif"
+          ],
+          [
+            "Other",
+            "1500 Renown, Event tile, Barracks"
+          ]
+        ]
+      },
+      {
+        "section": "Roy’s Blade",
+        "rows": [
+          [
+            "SpotPass Team",
+            "Roy"
+          ],
+          [
+            "Other",
+            "Event tile, Barracks"
+          ]
+        ]
+      },
+      {
+        "section": "Eliwood’s Blade",
+        "rows": [
+          [
+            "SpotPass Team",
+            "Eliwood"
+          ],
+          [
+            "Other",
+            "Event tile, Barracks"
+          ]
+        ]
+      },
+      {
+        "section": "Eirika’s Blade",
+        "rows": [
+          [
+            "SpotPass Team",
+            "Eirika"
+          ],
+          [
+            "Other",
+            "Event tile, Barracks"
+          ]
+        ]
+      },
+      {
+        "section": "Seliph’s Blade",
+        "rows": [
+          [
+            "SpotPass Team",
+            "Seliph"
+          ],
+          [
+            "Other",
+            "Event tile, Barracks"
+          ]
+        ]
+      },
+      {
+        "section": "Alm’s Blade",
+        "rows": [
+          [
+            "SpotPass Team",
+            "Alm"
+          ],
+          [
+            "Other",
+            "8000 Renown, Event tile, Barracks"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source_id": "obtain_swords_1",
+    "name": "Lances - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/item-locations/lances/",
+    "accessed": "2026-10-02",
+    "verification": "extracted_unreviewed",
+    "tables": [
+      {
+        "section": "Bronze Lance",
+        "rows": [
+          [
+            "Playable",
+            "Sully, Donnel"
+          ],
+          [
+            "Armoury",
+            "Prologue"
+          ],
+          [
+            "SpotPass Team",
+            "Brom"
+          ]
+        ]
+      },
+      {
+        "section": "Iron Lance",
+        "rows": [
+          [
+            "Playable",
+            "Sumia, Kellam"
+          ],
+          [
+            "Enemy loot",
+            "Ch 2, Ch 6"
+          ],
+          [
+            "Armoury",
+            "Ch 4, Ch 10, Par 1, Par 9"
+          ],
+          [
+            "Merchant",
+            "Pro, Ch 1-3"
+          ],
+          [
+            "SpotPass Team",
+            "Eirika, Amelia, Mist, Elincia, Brom, Nephenee, Nyna, Clair, Norne, Fee, Arthur, Shanna"
+          ]
+        ]
+      },
+      {
+        "section": "Steel Lance",
+        "rows": [
+          [
+            "Playable",
+            "Cordelia, Kjelle, Cynthia, Morgan *_{1}"
+          ],
+          [
+            "Enemy loot",
+            "Ch 8, Ch 15"
+          ],
+          [
+            "Armoury",
+            "Ch 9, Ch 14, Par 4, Par 9"
+          ],
+          [
+            "Merchant",
+            "Ch 4-8, Par 1-3"
+          ],
+          [
+            "SpotPass Team",
+            "Serra, Amelia, Moulder, Zihark, Brom, Nephenee, Sanaki, Caeda, Catria, Malice, Arden, Ethlyn, Ulster, Olwen, Lugh"
+          ]
+        ]
+      },
+      {
+        "section": "Silver Lance",
+        "rows": [
+          [
+            "Playable",
+            "Frederick"
+          ],
+          [
+            "Enemy loot",
+            "Ch 12, Ch 18, Ch 19, Ch 23"
+          ],
+          [
+            "Armoury",
+            "Ch 14, Ch 17, Ch 20, Par 9, Par 19"
+          ],
+          [
+            "Merchant",
+            "Ch 9-13, Par 4, Par 5, Par 11, Par 15"
+          ],
+          [
+            "SpotPass Team",
+            "Lyn, Hector, Eliwood, Eirika, Innes, Seth, Elincia, Geoffrey, Ashnard, Sanaki, Sigrun, Minerva, Prince Marth, Mycen, Valbar, Clive, Nomah, Celica, Alm, Horace, Etzel, Hardin, Raquesis, Quan, Ayra, Arvis, Sigurd, Altena, Ares, Seliph, Finn, Saias, Perceval, Roy, Travant, Lloyd, Linus, Selena, Petrine"
+          ],
+          [
+            "Other",
+            "Double Duel"
+          ]
+        ]
+      },
+      {
+        "section": "Brave Lance",
+        "rows": [
+          [
+            "Armoury",
+            "Ch 25, Par 19"
+          ],
+          [
+            "Merchant",
+            "Ch 18-23, Par 5, Par 9, Par 11, Par 15, Par 17"
+          ],
+          [
+            "SpotPass Team",
+            "Nergal, Eliwood, Seth, Ephraim, Geoffrey, Ike, Black Knight, Micaiah, Hardin, Sigurd, Julius, Finn, Leif, Perceval, Roy, Camus, Travant, Ishtar, Narcian, Lloyd, Petrine"
+          ]
+        ]
+      },
+      {
+        "section": "Javelin",
+        "rows": [
+          [
+            "Playable",
+            "Kellam, Cordelia"
+          ],
+          [
+            "Enemy loot",
+            "Ch 9"
+          ],
+          [
+            "Armoury",
+            "Ch 7, Ch 10, Ch 14, Ch 21, Par 2, Par 9"
+          ],
+          [
+            "SpotPass Team",
+            "Florina, Eirika, Amelia, Brom, Nephenee, Nyna, Clair, Norne, Malice, Olwen"
+          ]
+        ]
+      },
+      {
+        "section": "Short Spear",
+        "rows": [
+          [
+            "Enemy loot",
+            "Ch 14, Ch 16"
+          ],
+          [
+            "Chest",
+            "Par 8"
+          ],
+          [
+            "Armoury",
+            "Par 23"
+          ],
+          [
+            "Merchant",
+            "Ch 11, Ch 14, Ch 15, Par 4"
+          ],
+          [
+            "SpotPass Team",
+            "Elincia, Sanaki, Sigrun, Caeda, Mycen, Arden, Altena, Finn"
+          ]
+        ]
+      },
+      {
+        "section": "Spear",
+        "rows": [
+          [
+            "Enemy loot",
+            "Ch 24"
+          ],
+          [
+            "Merchant",
+            "Ch 19, Ch 22"
+          ],
+          [
+            "SpotPass Team",
+            "Ashnard, Celica, Alm, Hardin, Zephiel, Camus, Travant, Ishtar, Selena, Petrine"
+          ]
+        ]
+      },
+      {
+        "section": "Beast Killer",
+        "rows": [
+          [
+            "Enemy loot",
+            "Ch 12, Ch 16"
+          ],
+          [
+            "Village",
+            "Par 13 *_{2}"
+          ],
+          [
+            "Armoury",
+            "Par 19"
+          ],
+          [
+            "Merchant",
+            "Ch 2, Ch 9, Ch 16, Ch 20, Par 3, Par 6, Par 8, Par 10, Par 12-14, Par 16"
+          ],
+          [
+            "SpotPass Team",
+            "Innes, Ike, Sigrun, Minerva, Prince Marth, Ayra"
+          ],
+          [
+            "Other",
+            "400 Renown, Double Duel"
+          ]
+        ]
+      },
+      {
+        "section": "Blessed Lance",
+        "rows": [
+          [
+            "Event",
+            "Par 7 (NPC) *_{3}"
+          ],
+          [
+            "Armoury",
+            "Par 19"
+          ],
+          [
+            "Merchant",
+            "Ch 4, Ch 10, Ch 13, Ch 17, Par 6-8, Par 10, Par 12-14"
+          ],
+          [
+            "SpotPass Team",
+            "Innes, Finn"
+          ]
+        ]
+      },
+      {
+        "section": "Killer Lance",
+        "rows": [
+          [
+            "Chest",
+            "Ch 18, Par 1"
+          ],
+          [
+            "Armoury",
+            "Ch 20, Par 9"
+          ],
+          [
+            "Merchant",
+            "Ch 12, Ch 14-18, Ch 23, Par 6-8, Par 10, Par 12-14, Par 16"
+          ],
+          [
+            "SpotPass Team",
+            "Hector, Innes, Brom, Sigrun, Caeda, Minerva, Norne, Ethlyn, Quan, Finn, Roy"
+          ]
+        ]
+      },
+      {
+        "section": "Luna",
+        "rows": [
+          [
+            "Other",
+            "Bonus item , Infinite Regalia"
+          ]
+        ]
+      },
+      {
+        "section": "Gradivus",
+        "rows": [
+          [
+            "Other",
+            "10000 Renown, Infinite Regalia"
+          ]
+        ]
+      },
+      {
+        "section": "Gáe Bolg",
+        "rows": [
+          [
+            "Other",
+            "Bonus item , Infinite Regalia"
+          ]
+        ]
+      },
+      {
+        "section": "Gungnir",
+        "rows": [
+          [
+            "Enemy loot",
+            "Ch 22"
+          ],
+          [
+            "Other",
+            "Infinite Regalia"
+          ]
+        ]
+      },
+      {
+        "section": "Log",
+        "rows": [
+          [
+            "Event",
+            "Par 3 (NPC) *_{4}"
+          ],
+          [
+            "Other",
+            "Event tile, Barracks"
+          ]
+        ]
+      },
+      {
+        "section": "Glass Lance",
+        "rows": [
+          [
+            "Other",
+            "Event tile, Barracks"
+          ]
+        ]
+      },
+      {
+        "section": "Miniature Lance",
+        "rows": [
+          [
+            "Other",
+            "Event tile, Barracks"
+          ]
+        ]
+      },
+      {
+        "section": "Shockstick",
+        "rows": [
+          [
+            "Other",
+            "Event tile, Barracks"
+          ]
+        ]
+      },
+      {
+        "section": "Superior Lance",
+        "rows": [
+          [
+            "Other",
+            "Event tile, Barracks"
+          ]
+        ]
+      },
+      {
+        "section": "Finn’s Lance",
+        "rows": [
+          [
+            "SpotPass Team",
+            "Finn, Leif"
+          ],
+          [
+            "Other",
+            "Event tile, Barracks"
+          ]
+        ]
+      },
+      {
+        "section": "Ephraim’s Lance",
+        "rows": [
+          [
+            "SpotPass Team",
+            "Ephraim"
+          ],
+          [
+            "Other",
+            "810 Renown, Event tile, Barracks"
+          ]
+        ]
+      },
+      {
+        "section": "Sigurd’s Lance",
+        "rows": [
+          [
+            "SpotPass Team",
+            "Sigurd"
+          ],
+          [
+            "Other",
+            "5750 Renown, Event tile, Barracks"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source_id": "obtain_swords_2",
+    "name": "Axes - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/item-locations/axes/",
+    "accessed": "2026-10-02",
+    "verification": "extracted_unreviewed",
+    "tables": []
+  }
+]

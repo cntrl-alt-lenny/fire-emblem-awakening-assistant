@@ -1,0 +1,64 @@
+{
+  "leader": {
+    "stats": {
+      "hp": 30,
+      "str": 10,
+      "mag": 5,
+      "skl": 10,
+      "spd": 15,
+      "lck": 5,
+      "def": 7,
+      "res": 4
+    },
+    "current_hp": 30,
+    "weapon": "iron_sword",
+    "weapon_rank": "D",
+    "skills": []
+  },
+  "enemy": {
+    "stats": {
+      "hp": 25,
+      "str": 10,
+      "mag": 0,
+      "skl": 8,
+      "spd": 10,
+      "lck": 2,
+      "def": 5,
+      "res": 1
+    },
+    "current_hp": 25,
+    "weapon": "iron_axe",
+    "weapon_rank": "D",
+    "skills": []
+  },
+  "partner": {
+    "stats": {
+      "hp": 30,
+      "str": 10,
+      "mag": 5,
+      "skl": 10,
+      "spd": 15,
+      "lck": 5,
+      "def": 7,
+      "res": 4
+    },
+    "class_id": "great_knight",
+    "skills": [],
+    "alive": true
+  },
+  "partner_raw_stats": {
+    "hp": 30,
+    "str": 10,
+    "mag": 5,
+    "skl": 10,
+    "spd": 15,
+    "lck": 5,
+    "def": 7,
+    "res": 4
+  },
+  "support_rank": "C",
+  "leader_stats_include_pair_up": false,
+  "context": {
+    "distance": 1
+  }
+}

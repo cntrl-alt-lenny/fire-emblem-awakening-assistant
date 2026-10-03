@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "battle_exp_scope",
+      "name": "Battle EXP supported scope",
+      "value": "LD uses known internal level and actual enemy level/promotion; piecewise chip/kill and explicit category bonuses",
+      "source_ids": [
+        "calculations",
+        "p2_exp_empirical"
+      ],
+      "verification": "source_formula_with_empirical_examples",
+      "limitations": "Repeated Lunatic T>=4 and fractional/multiplier rounding refuse by default; no map/category inference."
+    },
+    {
+      "id": "staff_exp_rounding",
+      "name": "Staff final-expression truncation",
+      "value": "floor(base-max(internal_level-5,0)/3+ordinary_unpromoted_bonus+exception), clamp1..100",
+      "source_ids": [
+        "calculations",
+        "p2_exp_staff_empirical"
+      ],
+      "verification": "empirical_rounding_interpretation",
+      "limitations": "Matches reported Rescue level26\u201333 sequence. Exceptions -1 at8/11,+1 at30; modifiers rounding unverified. Dancer no unpromoted bonus."
+    },
+    {
+      "id": "mend_healing",
+      "name": "Mend healing",
+      "value": "15+floor(effective_magic/2)+staff_rank_bonus+Healtouch5, capped by target missingHP",
+      "source_ids": [
+        "p2_mend",
+        "calculations",
+        "skills_extra"
+      ],
+      "verification": "cross_reference_formula",
+      "limitations": "Actual rank, range, HP and durability required."
+    },
+    {
+      "id": "physic_healing",
+      "name": "Physic healing/range",
+      "value": "8+floor(effective_magic/2)+staff_rank_bonus+Healtouch5; max_range=floor(effective_magic/2)",
+      "source_ids": [
+        "p2_physic",
+        "calculations",
+        "skills_extra"
+      ],
+      "verification": "cross_reference_formula",
+      "limitations": "Low-Magic edge behavior and other staves not inferred."
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+[
+  {
+    "id": "survey_28_0",
+    "name": "Awakening Enemy Data - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_Enemy_Data",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_28_1",
+    "name": "Sidequest 4 Anna the Merchant - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-4-anna-the-merchant/",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Vincent",
+            "Berserker",
+            "3",
+            "Short Axe, Spirit Dust"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Anna",
+            "Trickster",
+            "1",
+            "NPC: Talk with Chrom"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_28_2",
+    "name": "Paralogue 1: Sickle to Sword (Script) - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php?title=Paralogue_1%3A_Sickle_to_Sword_%28Script%29",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_28_3",
+    "name": "Sidequest 4 Anna the Merchant - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-4-anna-the-merchant",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Vincent",
+            "Berserker",
+            "3",
+            "Short Axe, Spirit Dust"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Anna",
+            "Trickster",
+            "1",
+            "NPC: Talk with Chrom"
+          ]
+        ]
+      },
+      {
+        "section": "Boss\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Vincent",
+            "Berserker",
+            "3",
+            "Short Axe, Spirit Dust"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Anna",
+            "Trickster",
+            "1",
+            "NPC: Talk with Chrom"
+          ]
+        ]
+      },
+      {
+        "section": "Boss\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Roddick",
+            "Barbarian",
+            "7",
+            "Steel Axe, Hand Axe"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Sidequest 1:",
+        "text": "Condition: Defeat Boss"
+      }
+    ],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_28_4",
+    "name": "Sidequest 3 A Strangled Peace - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-3-a-strangled-peace",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Risen Chief",
+            "Soldier",
+            "12",
+            "Silver Lance"
+          ]
+        ]
+      },
+      {
+        "section": "Boss\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Victor",
+            "Berserker",
+            "1",
+            "Short Axe, Goddess Icon"
+          ]
+        ]
+      },
+      {
+        "section": "Boss\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Grima",
+            "Grima",
+            "30",
+            "Expiration"
+          ]
+        ]
+      },
+      {
+        "section": "Boss\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Gecko",
+            "Assassin",
+            "10",
+            "Silver Sword, Silver Bow, Second Seal"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Owain",
+            "Myrmidon",
+            "10",
+            "NPC: Talk with Chrom or Lissa"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Sidequest 3:",
+        "text": "Location: Peaceful Village"
+      },
+      {
+        "section": "Note: Sidequest 3:",
+        "text": "Condition: Defeat Enemy; save at least one Villager"
+      },
+      {
+        "section": "Note: Endgame:",
+        "text": "Condition: Defeat the Final Boss"
+      }
+    ],
+    "access_status": "accessed"
+  }
+]

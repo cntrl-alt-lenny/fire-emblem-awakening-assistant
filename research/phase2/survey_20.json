@@ -1,0 +1,219 @@
+[
+  {
+    "id": "survey_20_0",
+    "name": "Chapter 21 Five Gemstones - Chapter 14 to Endgame - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://earth.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/chapter-14-to-endgame/chapter-21-five-gemstones",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Algol",
+            "Berserker",
+            "15",
+            "Bolt Axe"
+          ]
+        ]
+      },
+      {
+        "section": "Boss\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Cervantes",
+            "General",
+            "10",
+            "Tomahawk, Dracoshield"
+          ],
+          [
+            "Excellus",
+            "Sage",
+            "10",
+            "Bolganone"
+          ],
+          [
+            "Walhart",
+            "Conqueror",
+            "25",
+            "Wolf Berg, Bullion (L)"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Chapter 21:",
+        "text": "Condition: Defeat Boss"
+      },
+      {
+        "section": "Note: Chapter 20:",
+        "text": "Condition: Defeat every Boss"
+      }
+    ],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_20_1",
+    "name": "Chapter 22 An Ill Presage - Chapter 14 to Endgame - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/chapter-14-to-endgame/chapter-22-an-ill-presage",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Aversa",
+            "Dark Flier",
+            "16",
+            "Goetia, Goddess Icon"
+          ]
+        ]
+      },
+      {
+        "section": "Boss\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Walhart",
+            "Conqueror",
+            "25",
+            "Sol"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Chapter 22:",
+        "text": "Condition: Defeat Boss"
+      },
+      {
+        "section": "Note: Chapter 19:",
+        "text": "Condition: Defeat Boss"
+      }
+    ],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_20_2",
+    "name": "Chapter 22: An Ill Presage (Script) - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Chapter_22%3A_An_Ill_Presage_%28Script%29",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_20_3",
+    "name": "Chapter 19: The Conqueror (Script) - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Chapter_19%3A_The_Conqueror_%28Script%29",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_20_4",
+    "name": "Chapter 20: The Sword or the Knee (Script) - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Chapter_20%3A_The_Sword_or_the_Knee_%28Script%29",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_20_5",
+    "name": "Chapter 23 Invisible Ties - Chapter 14 to Endgame - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/chapter-14-to-endgame/chapter-23-invisible-ties",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Validar",
+            "Sorcerer",
+            "5",
+            "Grima\u2019s Truth"
+          ],
+          [
+            "Validar (Round 2)",
+            "Sorcerer",
+            "18",
+            "Grima\u2019s Truth, Talisman"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Flavia",
+            "Hero",
+            "10",
+            "After defeating Validar once"
+          ],
+          [
+            "Basilio",
+            "Warrior",
+            "10",
+            "After defeating Validar once"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_20_6",
+    "name": "Awakening Story Script - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php?title=Awakening_Story_Script",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  }
+]

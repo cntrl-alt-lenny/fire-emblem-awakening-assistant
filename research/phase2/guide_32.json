@@ -1,0 +1,168 @@
+[
+  {
+    "id": "guide_32_0",
+    "name": "Access failure",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-5-scion-of-legend",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "unavailable"
+  },
+  {
+    "id": "guide_32_1",
+    "name": "Sidequest 6 A Man for Flowers - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-6-a-man-for-flowers",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [],
+    "factual_candidates": [
+      {
+        "section": "Note: Sidequest 6:",
+        "map_heading": "Sidequest 6 A Man for Flowers",
+        "text": "Location: Great Gate"
+      },
+      {
+        "section": "Note: Sidequest 6:",
+        "map_heading": "Sidequest 6 A Man for Flowers",
+        "text": "Condition: Defeat Enemy"
+      },
+      {
+        "section": "Note: Sidequest 6:",
+        "map_heading": "Sidequest 6 A Man for Flowers",
+        "text": "Character Limit: 13 (Including Chrom)"
+      }
+    ],
+    "access_status": "accessed"
+  },
+  {
+    "id": "guide_32_2",
+    "name": "Sidequest 7 Noble Lineage - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-7-noble-lineage",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "timing_label": null,
+        "map_heading": "Sidequest 7 Noble Lineage",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Xalbador",
+            "Hero",
+            "12",
+            "Tomahawk, Master Seal"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "timing_label": null,
+        "map_heading": "Sidequest 7 Noble Lineage",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Brady",
+            "Priest",
+            "10",
+            "NPC: Talk with Chrom or Maribelle"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Sidequest 7:",
+        "map_heading": "Sidequest 7 Noble Lineage",
+        "text": "Location: Mila Shrine Ruins"
+      },
+      {
+        "section": "Note: Sidequest 7:",
+        "map_heading": "Sidequest 7 Noble Lineage",
+        "text": "Condition: Defeat Boss"
+      },
+      {
+        "section": "Note: Sidequest 7:",
+        "map_heading": "Sidequest 7 Noble Lineage",
+        "text": "Character Limit: 13 (Including Chrom)"
+      }
+    ],
+    "access_status": "accessed"
+  },
+  {
+    "id": "guide_32_3",
+    "name": "Sidequest 8 A Duel Disgraced - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-8-a-duel-disgraced",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "timing_label": null,
+        "map_heading": "Sidequest 8 A Duel Disgraced",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Cassius",
+            "Sorcerer",
+            "8",
+            "Waste, Dracoshield"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "timing_label": null,
+        "map_heading": "Sidequest 8 A Duel Disgraced",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Kjelle",
+            "Knight",
+            "10",
+            "NPC: Talk with Chrom or Sully"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Sidequest 8:",
+        "map_heading": "Sidequest 8 A Duel Disgraced",
+        "text": "Location: Dueling Grounds"
+      },
+      {
+        "section": "Note: Sidequest 8:",
+        "map_heading": "Sidequest 8 A Duel Disgraced",
+        "text": "Condition: Defeat Enemy"
+      },
+      {
+        "section": "Note: Sidequest 8:",
+        "map_heading": "Sidequest 8 A Duel Disgraced",
+        "text": "Character Limit: 13 (Including Chrom)"
+      }
+    ],
+    "access_status": "accessed"
+  }
+]

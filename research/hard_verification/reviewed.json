@@ -1,0 +1,4758 @@
+{
+  "schema_version": 1,
+  "reviewed_date": "2026-10-02",
+  "maps": [
+    {
+      "id": "prologue",
+      "guide_id": "p2_guide_00_1",
+      "deployment": {
+        "value": 4,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_00_1",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Bridge chokepoint; Garrick carries a Hand Axe (range 1–2).",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_00_1",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [],
+      "activation": [],
+      "waves": [],
+      "conflicts": [
+        {
+          "value": {
+            "catalog": "Rout the enemy",
+            "guide": "Boss/defend shorthand differs from catalog",
+            "resolution": null
+          },
+          "confidence": "CONFLICTED",
+          "source_ids": [
+            "chapter_catalog",
+            "p2_guide_00_1"
+          ],
+          "notes": "Require in-game displayed objective; do not advise that killing boss necessarily ends a rout map."
+        }
+      ],
+      "reinforcement_absence": null
+    },
+    {
+      "id": "chapter_1",
+      "guide_id": "p2_guide_00_2",
+      "deployment": {
+        "value": 6,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_00_2",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Sully and Virion arrive on turn 2. Woods/forts affect movement and combat. The guide Hammer paragraph is explicitly Lunatic and is excluded.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_00_2",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [],
+      "activation": [],
+      "waves": [],
+      "conflicts": [
+        {
+          "value": {
+            "catalog": "Rout the enemy",
+            "guide": "Boss/defend shorthand differs from catalog",
+            "resolution": null
+          },
+          "confidence": "CONFLICTED",
+          "source_ids": [
+            "chapter_catalog",
+            "p2_guide_00_2"
+          ],
+          "notes": "Require in-game displayed objective; do not advise that killing boss necessarily ends a rout map."
+        }
+      ],
+      "reinforcement_absence": null
+    },
+    {
+      "id": "chapter_2",
+      "guide_id": "p2_guide_00_3",
+      "deployment": {
+        "value": 7,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_00_3",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Vaike starts without his axe; Miriel arrives from the south on turn 2 carrying it. Northern bridge constrains movement.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_00_3",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [],
+      "activation": [],
+      "waves": [],
+      "conflicts": [
+        {
+          "value": {
+            "catalog": "Rout the enemy",
+            "guide": "Boss/defend shorthand differs from catalog",
+            "resolution": null
+          },
+          "confidence": "CONFLICTED",
+          "source_ids": [
+            "chapter_catalog",
+            "p2_guide_00_3"
+          ],
+          "notes": "Require in-game displayed objective; do not advise that killing boss necessarily ends a rout map."
+        }
+      ],
+      "reinforcement_absence": null
+    },
+    {
+      "id": "chapter_3",
+      "guide_id": "p2_guide_04_0",
+      "deployment": {
+        "value": 8,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_04_0",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "A Hammer-bearing Fighter threatens armoured units; enemy bows threaten flying units. Inspect exact enemy inventories before moving Frederick or Sumia.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_04_0",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [
+        {
+          "value": "Doors on the left/right routes; obtain Door Keys from enemies. Kellam is an NPC: recruit with Chrom.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_04_0",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "waves": [],
+      "conflicts": [],
+      "reinforcement_absence": null
+    },
+    {
+      "id": "chapter_4",
+      "guide_id": "p2_guide_04_1",
+      "deployment": {
+        "value": 6,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_04_1",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Small deployment; boss carries Parallel Falchion. Lon’qu joins at map completion, not at the start of Chapter 5.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_04_1",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [],
+      "activation": [],
+      "waves": [],
+      "conflicts": [],
+      "reinforcement_absence": null
+    },
+    {
+      "id": "chapter_5",
+      "guide_id": "p2_guide_04_2",
+      "deployment": {
+        "value": 9,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_04_2",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Ricken and Maribelle start isolated in the north. Wyverns cross cliffs and can threaten units beyond ground chokepoints.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_04_2",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [],
+      "activation": [
+        {
+          "value": "Hard-labelled JP report: two initial Wyverns advance on turn 1; remaining Wyverns/boss respond to attack range. Exact activation tiles unknown.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "hr_jp_5"
+          ],
+          "notes": null
+        }
+      ],
+      "waves": [
+        {
+          "id": "hard_chapter_5_disputed_schedule",
+          "chapter_id": "chapter_5",
+          "difficulty": "Hard",
+          "mode": "Classic",
+          "confidence": "CONFLICTED",
+          "source_ids": [
+            "reinforcements_early_0",
+            "hr_jp_5",
+            "p2_guide_04_2"
+          ],
+          "timing": {
+            "value": {
+              "kind": "unknown",
+              "turns": null,
+              "event": null,
+              "repeat": null
+            },
+            "confidence": "UNKNOWN",
+            "source_ids": [
+              "reinforcements_early_0",
+              "hr_jp_5",
+              "p2_guide_04_2"
+            ],
+            "notes": "Western indexed Hard table reports turns 3/4/5; explicitly Hard JP 2012-04-19 comment reports a different turn-3 mixture and tentative turn-5 group. Full schedule cannot be selected safely."
+          },
+          "location": {
+            "value": "Forts; northwestern flying approach",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "reinforcements_early_0",
+              "hr_jp_5",
+              "p2_guide_04_2"
+            ],
+            "notes": null
+          },
+          "units": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [
+              "reinforcements_early_0",
+              "hr_jp_5",
+              "p2_guide_04_2"
+            ],
+            "notes": null
+          },
+          "spawn_phase": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+          },
+          "immediate_action": {
+            "value": {
+              "can_move": true,
+              "can_attack": true,
+              "can_kill_on_spawn": true
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_gg_spawn",
+              "hr_hard_spawn_observation"
+            ],
+            "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+          },
+          "coordinates": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "skills": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "suppression": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "schedule_completeness": "UNKNOWN"
+        }
+      ],
+      "conflicts": [
+        {
+          "value": {
+            "western_report": "T3 foot units; T4 two Wyverns northwest; T5 mixed group",
+            "japanese_hard_observation": "T3 two Wyverns plus Barbarian and Myrmidon, central-left; tentative T5 foot units",
+            "resolution": null
+          },
+          "confidence": "CONFLICTED",
+          "source_ids": [
+            "reinforcements_early_0",
+            "hr_jp_5"
+          ],
+          "notes": "Possible region, phase convention or guide error not established. Within western page table/prose also differ on a Dark Mage versus second Barbarian."
+        }
+      ],
+      "reinforcement_absence": null,
+      "starting_area": {
+        "value": "Main force south; Ricken/Maribelle isolated north",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_04_2",
+          "p2_guide_scope"
+        ],
+        "notes": "Descriptive area only, not a certified coordinate map."
+      }
+    },
+    {
+      "id": "chapter_6",
+      "guide_id": "p2_guide_04_3",
+      "deployment": {
+        "value": 10,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_04_3",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Emmeryn must survive. Gaius is initially hostile: talk with Chrom rather than killing him. Panne arrives on turn 2.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_04_3",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [],
+      "activation": [
+        {
+          "value": "Validar eventually advances; exact activation turn/condition unresolved. Three approaches threaten Emmeryn.",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "p2_guide_04_3",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "waves": [],
+      "conflicts": [
+        {
+          "value": {
+            "catalog": "Rout the enemy",
+            "guide": "Boss/defend shorthand differs from catalog",
+            "resolution": null
+          },
+          "confidence": "CONFLICTED",
+          "source_ids": [
+            "chapter_catalog",
+            "p2_guide_04_3"
+          ],
+          "notes": "Require in-game displayed objective; do not advise that killing boss necessarily ends a rout map."
+        }
+      ],
+      "reinforcement_absence": null
+    },
+    {
+      "id": "chapter_7",
+      "guide_id": "p2_guide_08_0",
+      "deployment": {
+        "value": 11,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_08_0",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Flying enemies cross mountain/cliff barriers. Cordelia arrives from the west on turn 3.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_08_0",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [],
+      "activation": [],
+      "waves": [
+        {
+          "id": "hard_chapter_7_t5",
+          "chapter_id": "chapter_7",
+          "difficulty": "Hard",
+          "mode": "Classic",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "reinforcements_early_1",
+            "p2_guide_08_0"
+          ],
+          "timing": {
+            "value": {
+              "kind": "fixed",
+              "turns": [
+                5
+              ],
+              "event": null,
+              "repeat": null
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "reinforcements_early_1",
+              "p2_guide_08_0"
+            ],
+            "notes": "Exact turn/count/equipment single indexed Hard subsection; western arrival corroborated by guide. Not a certified complete schedule."
+          },
+          "location": {
+            "value": "Western map edge",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "reinforcements_early_1",
+              "p2_guide_08_0"
+            ],
+            "notes": null
+          },
+          "units": {
+            "value": [
+              {
+                "count": 3,
+                "class_id": "wyvern_rider",
+                "equipment": [
+                  "steel_axe"
+                ],
+                "level": 7,
+                "location": null
+              }
+            ],
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "reinforcements_early_1",
+              "p2_guide_08_0"
+            ],
+            "notes": "Support applies to the supplied attributes only. Null class/count/equipment/level/location remains UNKNOWN, never absent. Skill rolls and exact enemy forge stats are not established."
+          },
+          "spawn_phase": {
+            "value": "beginning_enemy_phase",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "reinforcements_early_1",
+              "p2_guide_08_0",
+              "hr_gg_spawn"
+            ],
+            "notes": "Ordinary Hard rule applied; map-specific scripted exceptions have not all been excluded."
+          },
+          "immediate_action": {
+            "value": {
+              "can_move": true,
+              "can_attack": true,
+              "can_kill_on_spawn": true
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_gg_spawn",
+              "hr_hard_spawn_observation"
+            ],
+            "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+          },
+          "coordinates": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "skills": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "suppression": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "schedule_completeness": "UNKNOWN"
+        }
+      ],
+      "conflicts": [],
+      "reinforcement_absence": null
+    },
+    {
+      "id": "chapter_8",
+      "guide_id": "p2_guide_08_1",
+      "deployment": {
+        "value": 10,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_08_1",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Gregor and Nowi start isolated south; desert movement can prevent timely rescue.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_08_1",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        },
+        {
+          "value": "Guide tentatively suggests villages are not attacked on Hard; do not rely on that tentative claim.",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "p2_guide_08_1",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [
+        {
+          "value": "Three villages: west Master Seal, southeast Second Seal, northeast Rescue. Full tile coordinates unknown.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_08_1",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "waves": [],
+      "conflicts": [],
+      "reinforcement_absence": null,
+      "starting_area": {
+        "value": "Main force north; Gregor/Nowi isolated south",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_08_1",
+          "p2_guide_scope"
+        ],
+        "notes": "Descriptive area only, not a certified coordinate map."
+      }
+    },
+    {
+      "id": "chapter_9",
+      "guide_id": "hr_gg_chapter_9",
+      "deployment": {
+        "value": 12,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "hr_gg_chapter_9",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Recruit NPC Libra and enemy Tharja using Chrom. Desert movement and arriving enemies behind the starting area threaten slow units.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "hr_gg_chapter_9",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [],
+      "activation": [],
+      "waves": [
+        {
+          "id": "hard_chapter_9_rear_arrival",
+          "chapter_id": "chapter_9",
+          "difficulty": "Hard",
+          "mode": "Classic",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "hr_gg_chapter_9",
+            "p2_guide_scope"
+          ],
+          "timing": {
+            "value": {
+              "kind": "unknown",
+              "turns": null,
+              "event": null,
+              "repeat": null
+            },
+            "confidence": "UNKNOWN",
+            "source_ids": [
+              "hr_gg_chapter_9",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "location": {
+            "value": "Behind player starting area",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_gg_chapter_9",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "units": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [
+              "hr_gg_chapter_9",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "spawn_phase": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+          },
+          "immediate_action": {
+            "value": {
+              "can_move": true,
+              "can_attack": true,
+              "can_kill_on_spawn": true
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_gg_spawn",
+              "hr_hard_spawn_observation"
+            ],
+            "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+          },
+          "coordinates": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "skills": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "suppression": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "schedule_completeness": "UNKNOWN"
+        }
+      ],
+      "conflicts": [
+        {
+          "value": {
+            "catalog": "Rout the enemy",
+            "guide": "Boss/defend shorthand differs from catalog",
+            "resolution": null
+          },
+          "confidence": "CONFLICTED",
+          "source_ids": [
+            "chapter_catalog",
+            "hr_gg_chapter_9"
+          ],
+          "notes": "Require in-game displayed objective; do not advise that killing boss necessarily ends a rout map."
+        }
+      ],
+      "reinforcement_absence": null,
+      "boss_override": {
+        "value": [
+          {
+            "name": "Campari",
+            "class_name": "General",
+            "level": 1,
+            "equipment_text": "Short Spear, Dracoshield",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "hr_gg_chapter_9",
+          "p2_guide_scope"
+        ],
+        "notes": "Guide Hard-default boss table; displayed stats/skills and enemy forges remain unknown."
+      }
+    },
+    {
+      "id": "chapter_10",
+      "guide_id": "hr_gg_chapter_10",
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "hr_gg_chapter_10",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Thieves carrying valuable loot escape northwest; reaching them can expose a unit to fort-spawned Wyverns.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "hr_gg_chapter_10",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [],
+      "activation": [],
+      "waves": [
+        {
+          "id": "hard_chapter_10_t6",
+          "chapter_id": "chapter_10",
+          "difficulty": "Hard",
+          "mode": "Classic",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "reinforcements_mid_0",
+            "hr_gg_chapter_10"
+          ],
+          "timing": {
+            "value": {
+              "kind": "fixed",
+              "turns": [
+                6
+              ],
+              "event": null,
+              "repeat": null
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "reinforcements_mid_0",
+              "hr_gg_chapter_10"
+            ],
+            "notes": null
+          },
+          "location": {
+            "value": "Western forts",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "reinforcements_mid_0",
+              "hr_gg_chapter_10"
+            ],
+            "notes": null
+          },
+          "units": {
+            "value": [
+              {
+                "count": 1,
+                "class_id": "wyvern_rider",
+                "equipment": [
+                  "steel_axe"
+                ],
+                "level": 13,
+                "location": null
+              },
+              {
+                "count": 1,
+                "class_id": "wyvern_rider",
+                "equipment": [
+                  "hand_axe"
+                ],
+                "level": 13,
+                "location": null
+              }
+            ],
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "reinforcements_mid_0",
+              "hr_gg_chapter_10"
+            ],
+            "notes": "Support applies to the supplied attributes only. Null class/count/equipment/level/location remains UNKNOWN, never absent. Skill rolls and exact enemy forge stats are not established."
+          },
+          "spawn_phase": {
+            "value": "beginning_enemy_phase",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "reinforcements_mid_0",
+              "hr_gg_chapter_10",
+              "hr_gg_spawn"
+            ],
+            "notes": "Ordinary Hard rule applied; map-specific scripted exceptions have not all been excluded."
+          },
+          "immediate_action": {
+            "value": {
+              "can_move": true,
+              "can_attack": true,
+              "can_kill_on_spawn": true
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_gg_spawn",
+              "hr_hard_spawn_observation"
+            ],
+            "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+          },
+          "coordinates": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "skills": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "suppression": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "schedule_completeness": "UNKNOWN"
+        }
+      ],
+      "conflicts": [],
+      "reinforcement_absence": null,
+      "boss_override": {
+        "value": [
+          {
+            "name": "Mustafa",
+            "class_name": "Berserker",
+            "level": 1,
+            "equipment_text": "Short Axe, Beaststone",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "hr_gg_chapter_10",
+          "p2_guide_scope"
+        ],
+        "notes": "Guide Hard-default boss table; displayed stats/skills and enemy forges remain unknown."
+      }
+    },
+    {
+      "id": "chapter_11",
+      "guide_id": "p2_guide_12_0",
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_12_0",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [],
+      "interactables": [
+        {
+          "value": "Chests contain Bullion and Goddess Icon; thieves threaten chest loot.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_12_0",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [
+        {
+          "value": "Gangrel may advance on turn 4 or when approached; trigger boundary unknown.",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "p2_guide_12_0",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "waves": [
+        {
+          "id": "hard_chapter_11_t3_forts",
+          "chapter_id": "chapter_11",
+          "difficulty": "Hard",
+          "mode": "Classic",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "p2_guide_12_0",
+            "p2_guide_scope"
+          ],
+          "timing": {
+            "value": {
+              "kind": "fixed",
+              "turns": [
+                3
+              ],
+              "event": null,
+              "repeat": null
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "p2_guide_12_0",
+              "p2_guide_scope"
+            ],
+            "notes": "Guide warns to expect fort reinforcements from turn 3; number of subsequent waves unknown."
+          },
+          "location": {
+            "value": "Forts, including southern forts",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "p2_guide_12_0",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "units": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [
+              "p2_guide_12_0",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "spawn_phase": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+          },
+          "immediate_action": {
+            "value": {
+              "can_move": true,
+              "can_attack": true,
+              "can_kill_on_spawn": true
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_gg_spawn",
+              "hr_hard_spawn_observation"
+            ],
+            "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+          },
+          "coordinates": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "skills": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "suppression": {
+            "value": "An occupied fort can prevent its spawn; applicability to every fort/wave not certified.",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "p2_guide_12_0",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "schedule_completeness": "UNKNOWN"
+        },
+        {
+          "id": "hard_chapter_11_t4_nw",
+          "chapter_id": "chapter_11",
+          "difficulty": "Hard",
+          "mode": "Classic",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "p2_guide_12_0",
+            "p2_guide_scope"
+          ],
+          "timing": {
+            "value": {
+              "kind": "fixed",
+              "turns": [
+                4
+              ],
+              "event": null,
+              "repeat": null
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "p2_guide_12_0",
+              "p2_guide_scope"
+            ],
+            "notes": "Three arrivals reported; exact classes, equipment and tiles unknown."
+          },
+          "location": {
+            "value": "Northwest (top-left) map area",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "p2_guide_12_0",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "units": {
+            "value": [
+              {
+                "count": 3,
+                "class_id": null,
+                "equipment": null,
+                "level": null,
+                "location": null
+              }
+            ],
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "p2_guide_12_0",
+              "p2_guide_scope"
+            ],
+            "notes": "Support applies to the supplied attributes only. Null class/count/equipment/level/location remains UNKNOWN, never absent. Skill rolls and exact enemy forge stats are not established."
+          },
+          "spawn_phase": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+          },
+          "immediate_action": {
+            "value": {
+              "can_move": true,
+              "can_attack": true,
+              "can_kill_on_spawn": true
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_gg_spawn",
+              "hr_hard_spawn_observation"
+            ],
+            "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+          },
+          "coordinates": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "skills": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "suppression": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "schedule_completeness": "UNKNOWN"
+        }
+      ],
+      "conflicts": [],
+      "reinforcement_absence": null
+    },
+    {
+      "id": "chapter_12",
+      "guide_id": "p2_guide_12_1",
+      "deployment": {
+        "value": 12,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_12_1",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Cherche joins automatically. Numerous mounted and armoured enemies; inspect effective weapons and counter ranges.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_12_1",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [],
+      "activation": [],
+      "waves": [],
+      "conflicts": [],
+      "reinforcement_absence": null
+    },
+    {
+      "id": "chapter_13",
+      "guide_id": "p2_guide_12_2",
+      "deployment": {
+        "value": 12,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_12_2",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Longbow enemies on raised terrain can attack at range 3; flying units remain vulnerable. Lucina joins after completion.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_12_2",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [],
+      "activation": [],
+      "waves": [
+        {
+          "id": "hard_chapter_13_forts",
+          "chapter_id": "chapter_13",
+          "difficulty": "Hard",
+          "mode": "Classic",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "p2_guide_12_2",
+            "p2_guide_scope"
+          ],
+          "timing": {
+            "value": {
+              "kind": "unknown",
+              "turns": null,
+              "event": null,
+              "repeat": null
+            },
+            "confidence": "UNKNOWN",
+            "source_ids": [
+              "p2_guide_12_2",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "location": {
+            "value": "Forts",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "p2_guide_12_2",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "units": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [
+              "p2_guide_12_2",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "spawn_phase": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+          },
+          "immediate_action": {
+            "value": {
+              "can_move": true,
+              "can_attack": true,
+              "can_kill_on_spawn": true
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_gg_spawn",
+              "hr_hard_spawn_observation"
+            ],
+            "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+          },
+          "coordinates": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "skills": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "suppression": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "schedule_completeness": "UNKNOWN"
+        }
+      ],
+      "conflicts": [],
+      "reinforcement_absence": null
+    },
+    {
+      "id": "chapter_14",
+      "guide_id": "p2_guide_12_3",
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_12_3",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Four main chokepoints connect ships; incoming Pegasus enemies bypass ground chokepoints.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_12_3",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [
+        {
+          "value": "Ship chests; exact contents/coordinates not certified in this Hard pass.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_12_3",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "waves": [
+        {
+          "id": "hard_chapter_14_fliers",
+          "chapter_id": "chapter_14",
+          "difficulty": "Hard",
+          "mode": "Classic",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "p2_guide_12_3",
+            "p2_guide_scope"
+          ],
+          "timing": {
+            "value": {
+              "kind": "unknown",
+              "turns": null,
+              "event": null,
+              "repeat": null
+            },
+            "confidence": "UNKNOWN",
+            "source_ids": [
+              "p2_guide_12_3",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "location": {
+            "value": "Approaches to the ships",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "p2_guide_12_3",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "units": {
+            "value": [
+              {
+                "count": null,
+                "class_id": "pegasus_knight",
+                "equipment": null,
+                "level": null,
+                "location": null
+              }
+            ],
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "p2_guide_12_3",
+              "p2_guide_scope"
+            ],
+            "notes": "Support applies to the supplied attributes only. Null class/count/equipment/level/location remains UNKNOWN, never absent. Skill rolls and exact enemy forge stats are not established."
+          },
+          "spawn_phase": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+          },
+          "immediate_action": {
+            "value": {
+              "can_move": true,
+              "can_attack": true,
+              "can_kill_on_spawn": true
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_gg_spawn",
+              "hr_hard_spawn_observation"
+            ],
+            "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+          },
+          "coordinates": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "skills": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "suppression": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "schedule_completeness": "UNKNOWN"
+        }
+      ],
+      "conflicts": [],
+      "reinforcement_absence": null
+    },
+    {
+      "id": "chapter_15",
+      "guide_id": "p2_guide_16_0",
+      "deployment": {
+        "value": 12,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_16_0",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Say’ri is an unarmed NPC under immediate pressure; talk with Chrom and provide a weapon/healing. Beach movement slows non-fliers.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_16_0",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [],
+      "activation": [
+        {
+          "value": "Enemies on the beach move toward player forces; the old post-reinforcement group activation claim is quarantined.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_16_0",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "waves": [],
+      "conflicts": [],
+      "reinforcement_absence": {
+        "value": true,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "hr_jp_15"
+        ],
+        "notes": "Explicit Hard-labelled original comment, 2012-04-30, reports no reinforcements. Japanese-release observation; not game-script proof. False old waves belong to Chapter 16 Lunatic, not contradictory Hard evidence."
+      }
+    },
+    {
+      "id": "chapter_16",
+      "guide_id": "p2_guide_16_1",
+      "deployment": {
+        "value": 14,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_16_1",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Hard-labelled JP 2012-04-26 observation reports a Warrior with Counter; inspect actual skills. Counter is not guaranteed on every Warrior.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "hr_jp_16"
+          ],
+          "notes": null
+        },
+        {
+          "value": "Some arriving Warriors carry bows; Falcon arrivals threaten units on both sides. Do not concentrate safety checks only at the southern edge.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_16_1",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [],
+      "activation": [],
+      "waves": [
+        {
+          "id": "hard_chapter_16_t4",
+          "chapter_id": "chapter_16",
+          "difficulty": "Hard",
+          "mode": "Classic",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "hr_fandom16",
+            "p2_guide_16_1"
+          ],
+          "timing": {
+            "value": {
+              "kind": "fixed",
+              "turns": [
+                4
+              ],
+              "event": null,
+              "repeat": null
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_fandom16",
+              "p2_guide_16_1"
+            ],
+            "notes": "Eight Hard units; ten-unit Lunatic mixture expressly excluded."
+          },
+          "location": {
+            "value": "Southern/bottom map edge",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_fandom16",
+              "p2_guide_16_1"
+            ],
+            "notes": null
+          },
+          "units": {
+            "value": [
+              {
+                "count": 2,
+                "class_id": "fighter",
+                "equipment": [
+                  "steel_axe"
+                ],
+                "level": 20,
+                "location": null
+              },
+              {
+                "count": 1,
+                "class_id": "fighter",
+                "equipment": [
+                  "short_axe"
+                ],
+                "level": 20,
+                "location": null
+              },
+              {
+                "count": 1,
+                "class_id": "fighter",
+                "equipment": [
+                  "short_axe",
+                  "concoction"
+                ],
+                "level": 20,
+                "location": null
+              },
+              {
+                "count": 1,
+                "class_id": "hero",
+                "equipment": [
+                  "silver_sword"
+                ],
+                "level": 3,
+                "location": null
+              },
+              {
+                "count": 1,
+                "class_id": "hero",
+                "equipment": [
+                  "silver_axe"
+                ],
+                "level": 3,
+                "location": null
+              },
+              {
+                "count": 2,
+                "class_id": "warrior",
+                "equipment": [
+                  "silver_axe",
+                  "silver_bow"
+                ],
+                "level": 3,
+                "location": null
+              }
+            ],
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_fandom16",
+              "p2_guide_16_1"
+            ],
+            "notes": "Support applies to the supplied attributes only. Null class/count/equipment/level/location remains UNKNOWN, never absent. Skill rolls and exact enemy forge stats are not established."
+          },
+          "spawn_phase": {
+            "value": "beginning_enemy_phase",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_fandom16",
+              "p2_guide_16_1",
+              "hr_gg_spawn"
+            ],
+            "notes": "Ordinary Hard rule applied; map-specific scripted exceptions have not all been excluded."
+          },
+          "immediate_action": {
+            "value": {
+              "can_move": true,
+              "can_attack": true,
+              "can_kill_on_spawn": true
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_gg_spawn",
+              "hr_hard_spawn_observation"
+            ],
+            "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+          },
+          "coordinates": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "skills": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "suppression": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "schedule_completeness": "UNKNOWN"
+        },
+        {
+          "id": "hard_chapter_16_t5",
+          "chapter_id": "chapter_16",
+          "difficulty": "Hard",
+          "mode": "Classic",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "hr_fandom16"
+          ],
+          "timing": {
+            "value": {
+              "kind": "fixed",
+              "turns": [
+                5
+              ],
+              "event": null,
+              "repeat": null
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_fandom16"
+            ],
+            "notes": null
+          },
+          "location": {
+            "value": "East/west edges (Silver Lance); southeast/southwest edges (Spear)",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_fandom16"
+            ],
+            "notes": null
+          },
+          "units": {
+            "value": [
+              {
+                "count": 2,
+                "class_id": "falcon_knight",
+                "equipment": [
+                  "silver_lance"
+                ],
+                "level": 3,
+                "location": null
+              },
+              {
+                "count": 2,
+                "class_id": "falcon_knight",
+                "equipment": [
+                  "spear"
+                ],
+                "level": 3,
+                "location": null
+              }
+            ],
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_fandom16"
+            ],
+            "notes": "Support applies to the supplied attributes only. Null class/count/equipment/level/location remains UNKNOWN, never absent. Skill rolls and exact enemy forge stats are not established."
+          },
+          "spawn_phase": {
+            "value": "beginning_enemy_phase",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_fandom16",
+              "hr_gg_spawn"
+            ],
+            "notes": "Ordinary Hard rule applied; map-specific scripted exceptions have not all been excluded."
+          },
+          "immediate_action": {
+            "value": {
+              "can_move": true,
+              "can_attack": true,
+              "can_kill_on_spawn": true
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_gg_spawn",
+              "hr_hard_spawn_observation"
+            ],
+            "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+          },
+          "coordinates": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "skills": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "suppression": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "schedule_completeness": "UNKNOWN"
+        },
+        {
+          "id": "hard_chapter_16_t6",
+          "chapter_id": "chapter_16",
+          "difficulty": "Hard",
+          "mode": "Classic",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "hr_fandom16"
+          ],
+          "timing": {
+            "value": {
+              "kind": "fixed",
+              "turns": [
+                6
+              ],
+              "event": null,
+              "repeat": null
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_fandom16"
+            ],
+            "notes": null
+          },
+          "location": {
+            "value": "Southern/bottom map edge",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_fandom16"
+            ],
+            "notes": null
+          },
+          "units": {
+            "value": [
+              {
+                "count": 4,
+                "class_id": "bow_knight",
+                "equipment": [
+                  "silver_sword",
+                  "silver_bow"
+                ],
+                "level": 3,
+                "location": null
+              }
+            ],
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_fandom16"
+            ],
+            "notes": "Support applies to the supplied attributes only. Null class/count/equipment/level/location remains UNKNOWN, never absent. Skill rolls and exact enemy forge stats are not established."
+          },
+          "spawn_phase": {
+            "value": "beginning_enemy_phase",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_fandom16",
+              "hr_gg_spawn"
+            ],
+            "notes": "Ordinary Hard rule applied; map-specific scripted exceptions have not all been excluded."
+          },
+          "immediate_action": {
+            "value": {
+              "can_move": true,
+              "can_attack": true,
+              "can_kill_on_spawn": true
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_gg_spawn",
+              "hr_hard_spawn_observation"
+            ],
+            "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+          },
+          "coordinates": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "skills": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "suppression": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "schedule_completeness": "UNKNOWN"
+        }
+      ],
+      "conflicts": [],
+      "reinforcement_absence": null,
+      "starting_area": {
+        "value": "Southern/bottom approach to the Mila Tree",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_16_1",
+          "p2_guide_scope"
+        ],
+        "notes": "Descriptive area only, not a certified coordinate map."
+      }
+    },
+    {
+      "id": "chapter_17",
+      "guide_id": "p2_guide_16_2",
+      "deployment": {
+        "value": 14,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_16_2",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Army begins in three southern groups. Multiple staircases spawn enemies; first wave side and exact warning/turn relationship are conflicted.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_16_2",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [
+        {
+          "value": "Northwest chests include Boots and Seraph Robe; thief threatens loot.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_16_2",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [
+        {
+          "value": "Explicit Hard JP 2014-09-06 report: entering attack range of enemies in upper six rows activates that group. Exact geometric boundary not certified.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "hr_jp_17"
+          ],
+          "notes": null
+        }
+      ],
+      "waves": [
+        {
+          "id": "hard_chapter_17_first",
+          "chapter_id": "chapter_17",
+          "difficulty": "Hard",
+          "mode": "Classic",
+          "confidence": "CONFLICTED",
+          "source_ids": [
+            "hr_fandom17",
+            "p2_guide_16_2",
+            "hr_jp_17"
+          ],
+          "timing": {
+            "value": {
+              "kind": "conditional_report",
+              "turns": null,
+              "reported_turns": [
+                8
+              ],
+              "event": "After Say’ri warning; exact interval/trigger unresolved",
+              "repeat": null
+            },
+            "confidence": "PARTIAL",
+            "source_ids": [
+              "hr_fandom17",
+              "p2_guide_16_2",
+              "hr_jp_17"
+            ],
+            "notes": null
+          },
+          "location": {
+            "value": "Eastern stairs OR western stairs",
+            "confidence": "CONFLICTED",
+            "source_ids": [
+              "hr_fandom17",
+              "p2_guide_16_2",
+              "hr_jp_17"
+            ],
+            "notes": null
+          },
+          "units": {
+            "value": [
+              {
+                "count": 2,
+                "class_id": "hero",
+                "equipment": [
+                  "silver_sword"
+                ],
+                "level": null,
+                "location": null
+              },
+              {
+                "count": 1,
+                "class_id": "war_monk",
+                "equipment": [
+                  "silver_axe"
+                ],
+                "level": null,
+                "location": null
+              },
+              {
+                "count": 1,
+                "class_id": "sniper",
+                "equipment": [
+                  "silver_bow"
+                ],
+                "level": null,
+                "location": null
+              }
+            ],
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_fandom17",
+              "p2_guide_16_2",
+              "hr_jp_17"
+            ],
+            "notes": "Support applies to the supplied attributes only. Null class/count/equipment/level/location remains UNKNOWN, never absent. Skill rolls and exact enemy forge stats are not established."
+          },
+          "spawn_phase": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+          },
+          "immediate_action": {
+            "value": {
+              "can_move": true,
+              "can_attack": true,
+              "can_kill_on_spawn": true
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_gg_spawn",
+              "hr_hard_spawn_observation"
+            ],
+            "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+          },
+          "coordinates": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "skills": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "suppression": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "schedule_completeness": "UNKNOWN"
+        },
+        {
+          "id": "hard_chapter_17_second",
+          "chapter_id": "chapter_17",
+          "difficulty": "Hard",
+          "mode": "Classic",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "hr_fandom17",
+            "p2_guide_16_2",
+            "hr_jp_17"
+          ],
+          "timing": {
+            "value": {
+              "kind": "conditional_report",
+              "turns": null,
+              "reported_turns": [
+                9
+              ],
+              "event": "After Say’ri warning; exact interval/trigger unresolved",
+              "repeat": null
+            },
+            "confidence": "PARTIAL",
+            "source_ids": [
+              "hr_fandom17",
+              "p2_guide_16_2",
+              "hr_jp_17"
+            ],
+            "notes": null
+          },
+          "location": {
+            "value": "West-central stairs",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_fandom17",
+              "p2_guide_16_2",
+              "hr_jp_17"
+            ],
+            "notes": null
+          },
+          "units": {
+            "value": [
+              {
+                "count": 2,
+                "class_id": "hero",
+                "equipment": [
+                  "silver_sword"
+                ],
+                "level": null,
+                "location": null
+              },
+              {
+                "count": 1,
+                "class_id": "sniper",
+                "equipment": [
+                  "silver_bow"
+                ],
+                "level": null,
+                "location": null
+              },
+              {
+                "count": 1,
+                "class_id": "war_monk",
+                "equipment": [
+                  "silver_axe"
+                ],
+                "level": null,
+                "location": null
+              }
+            ],
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_fandom17",
+              "p2_guide_16_2",
+              "hr_jp_17"
+            ],
+            "notes": "Support applies to the supplied attributes only. Null class/count/equipment/level/location remains UNKNOWN, never absent. Skill rolls and exact enemy forge stats are not established."
+          },
+          "spawn_phase": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+          },
+          "immediate_action": {
+            "value": {
+              "can_move": true,
+              "can_attack": true,
+              "can_kill_on_spawn": true
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_gg_spawn",
+              "hr_hard_spawn_observation"
+            ],
+            "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+          },
+          "coordinates": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "skills": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "suppression": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "schedule_completeness": "UNKNOWN"
+        },
+        {
+          "id": "hard_chapter_17_central",
+          "chapter_id": "chapter_17",
+          "difficulty": "Hard",
+          "mode": "Classic",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "hr_fandom17",
+            "p2_guide_16_2",
+            "hr_jp_17"
+          ],
+          "timing": {
+            "value": {
+              "kind": "conditional_report",
+              "turns": null,
+              "reported_turns": [
+                10
+              ],
+              "event": "After Say’ri warning; exact interval/trigger unresolved",
+              "repeat": null
+            },
+            "confidence": "PARTIAL",
+            "source_ids": [
+              "hr_fandom17",
+              "p2_guide_16_2",
+              "hr_jp_17"
+            ],
+            "notes": null
+          },
+          "location": {
+            "value": "Central stairs",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_fandom17",
+              "p2_guide_16_2",
+              "hr_jp_17"
+            ],
+            "notes": null
+          },
+          "units": {
+            "value": [
+              {
+                "count": 3,
+                "class_id": "hero",
+                "equipment": [
+                  "silver_sword"
+                ],
+                "level": null,
+                "location": null
+              },
+              {
+                "count": 2,
+                "class_id": "war_monk",
+                "equipment": [
+                  "silver_axe"
+                ],
+                "level": null,
+                "location": null
+              },
+              {
+                "count": 1,
+                "class_id": "sniper",
+                "equipment": [
+                  "silver_bow"
+                ],
+                "level": null,
+                "location": null
+              }
+            ],
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_fandom17",
+              "p2_guide_16_2",
+              "hr_jp_17"
+            ],
+            "notes": "Support applies to the supplied attributes only. Null class/count/equipment/level/location remains UNKNOWN, never absent. Skill rolls and exact enemy forge stats are not established."
+          },
+          "spawn_phase": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+          },
+          "immediate_action": {
+            "value": {
+              "can_move": true,
+              "can_attack": true,
+              "can_kill_on_spawn": true
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_gg_spawn",
+              "hr_hard_spawn_observation"
+            ],
+            "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+          },
+          "coordinates": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "skills": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "suppression": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "schedule_completeness": "UNKNOWN"
+        }
+      ],
+      "conflicts": [
+        {
+          "value": {
+            "guide_and_index": "Eastern stairs first",
+            "hard_jp_2012_04_27": "Left stairs first, approximately three turns after warning",
+            "resolution": null
+          },
+          "confidence": "CONFLICTED",
+          "source_ids": [
+            "p2_guide_16_2",
+            "hr_fandom17",
+            "hr_jp_17"
+          ],
+          "notes": "Do not convert warning to a certified fixed turn or choose only one side to guard."
+        }
+      ],
+      "reinforcement_absence": null,
+      "starting_area": {
+        "value": "Three southern player groups",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_16_2",
+          "p2_guide_scope"
+        ],
+        "notes": "Descriptive area only, not a certified coordinate map."
+      }
+    },
+    {
+      "id": "chapter_18",
+      "guide_id": "p2_guide_16_3",
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_16_3",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Lava progressively consumes floor tiles; affected movement/damage and exact phase must be checked in game.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_16_3",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [
+        {
+          "value": "Guide chest disappearance deadlines: Bullion M turn 7; Energy Drop and Rescue turn 10; Second Seal turn 11. Exact phase unknown: retrieve earlier rather than treating deadline as a safe final action.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_16_3",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "waves": [],
+      "conflicts": [],
+      "reinforcement_absence": null
+    },
+    {
+      "id": "chapter_19",
+      "guide_id": "p2_guide_20_0",
+      "deployment": {
+        "value": 15,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_20_0",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Walhart can move when approached. Conquest negates armour/beast effective damage; equipped Sol is a sword, not proof of a Sol proc skill.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_20_0",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [],
+      "activation": [],
+      "waves": [
+        {
+          "id": "hard_chapter_19_forts",
+          "chapter_id": "chapter_19",
+          "difficulty": "Hard",
+          "mode": "Classic",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "p2_guide_20_0",
+            "p2_guide_scope"
+          ],
+          "timing": {
+            "value": {
+              "kind": "unknown",
+              "turns": null,
+              "event": null,
+              "repeat": null
+            },
+            "confidence": "UNKNOWN",
+            "source_ids": [
+              "p2_guide_20_0",
+              "p2_guide_scope"
+            ],
+            "notes": "Guide turn-8 note explicitly refers to Lunatic and is NOT used for Hard."
+          },
+          "location": {
+            "value": "Multiple forts",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "p2_guide_20_0",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "units": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [
+              "p2_guide_20_0",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "spawn_phase": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+          },
+          "immediate_action": {
+            "value": {
+              "can_move": true,
+              "can_attack": true,
+              "can_kill_on_spawn": true
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_gg_spawn",
+              "hr_hard_spawn_observation"
+            ],
+            "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+          },
+          "coordinates": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "skills": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "suppression": {
+            "value": "Occupied forts prevent their arrivals; complete applicability unknown.",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "p2_guide_20_0",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "schedule_completeness": "UNKNOWN"
+        }
+      ],
+      "conflicts": [],
+      "reinforcement_absence": null
+    },
+    {
+      "id": "chapter_20",
+      "guide_id": "p2_guide_20_1",
+      "deployment": {
+        "value": 15,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_20_1",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Objective wording conflicts: chapter catalog says defeat Walhart; guide says defeat every boss. Verify the displayed objective before attempting a boss rush.",
+          "confidence": "CONFLICTED",
+          "source_ids": [
+            "chapter_catalog",
+            "p2_guide_20_1"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [
+        {
+          "value": "Chests require keys/Locktouch; exact Hard chest positions unresolved.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_20_1",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "waves": [
+        {
+          "id": "hard_chapter_20_southern_warning",
+          "chapter_id": "chapter_20",
+          "difficulty": "Hard",
+          "mode": "Classic",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "reinforcements_20_22_0",
+            "p2_guide_20_1"
+          ],
+          "timing": {
+            "value": {
+              "kind": "relative",
+              "turns": null,
+              "event": "One turn after soldier warning",
+              "repeat": null,
+              "reported_turns": [
+                6
+              ],
+              "offset_turns": 1
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "reinforcements_20_22_0",
+              "p2_guide_20_1"
+            ],
+            "notes": "Indexed Hard table reports turn 6; guide establishes warning-relative timing. Whether the warning itself is conditional is unknown."
+          },
+          "location": {
+            "value": "Southwest, south and southeast edges",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "reinforcements_20_22_0",
+              "p2_guide_20_1"
+            ],
+            "notes": null
+          },
+          "units": {
+            "value": [
+              {
+                "count": 1,
+                "class_id": "general",
+                "equipment": [
+                  "spear"
+                ],
+                "location": "southwest"
+              },
+              {
+                "count": 1,
+                "class_id": "warrior",
+                "equipment": [
+                  "tomahawk"
+                ],
+                "location": "southwest"
+              },
+              {
+                "count": 1,
+                "class_id": "general",
+                "equipment": [
+                  "silver_lance"
+                ],
+                "location": "southwest"
+              },
+              {
+                "count": 1,
+                "class_id": "warrior",
+                "equipment": [
+                  "silver_axe",
+                  "silver_bow"
+                ],
+                "location": "southwest"
+              },
+              {
+                "count": 1,
+                "class_id": "general",
+                "equipment": [
+                  "silver_axe"
+                ],
+                "location": "south"
+              },
+              {
+                "count": 1,
+                "class_id": "general",
+                "equipment": [
+                  "silver_lance"
+                ],
+                "location": "south"
+              },
+              {
+                "count": 1,
+                "class_id": "sage",
+                "equipment": [
+                  "bolganone"
+                ],
+                "location": "south"
+              },
+              {
+                "count": 1,
+                "class_id": "hero",
+                "equipment": [
+                  "silver_sword"
+                ],
+                "location": "south"
+              },
+              {
+                "count": 1,
+                "class_id": "sage",
+                "equipment": [
+                  "thoron"
+                ],
+                "location": "south"
+              },
+              {
+                "count": 1,
+                "class_id": "sage",
+                "equipment": [
+                  "rexcalibur"
+                ],
+                "location": "southeast"
+              },
+              {
+                "count": 1,
+                "class_id": "general",
+                "equipment": [
+                  "silver_lance"
+                ],
+                "location": "southeast"
+              },
+              {
+                "count": 1,
+                "class_id": "sage",
+                "equipment": [
+                  "bolganone"
+                ],
+                "location": "southeast"
+              },
+              {
+                "count": 1,
+                "class_id": "general",
+                "equipment": [
+                  "tomahawk"
+                ],
+                "location": "southeast"
+              }
+            ],
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "reinforcements_20_22_0",
+              "p2_guide_20_1"
+            ],
+            "notes": "Support applies to the supplied attributes only. Null class/count/equipment/level/location remains UNKNOWN, never absent. Skill rolls and exact enemy forge stats are not established."
+          },
+          "spawn_phase": {
+            "value": "beginning_enemy_phase",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "reinforcements_20_22_0",
+              "p2_guide_20_1",
+              "hr_gg_spawn"
+            ],
+            "notes": "Ordinary Hard rule applied; map-specific scripted exceptions have not all been excluded."
+          },
+          "immediate_action": {
+            "value": {
+              "can_move": true,
+              "can_attack": true,
+              "can_kill_on_spawn": true
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_gg_spawn",
+              "hr_hard_spawn_observation"
+            ],
+            "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+          },
+          "coordinates": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "skills": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "suppression": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "schedule_completeness": "UNKNOWN"
+        }
+      ],
+      "conflicts": [
+        {
+          "value": {
+            "catalog": "Defeat Walhart",
+            "hard_guide": "Defeat every boss",
+            "resolution": null
+          },
+          "confidence": "CONFLICTED",
+          "source_ids": [
+            "chapter_catalog",
+            "p2_guide_20_1"
+          ],
+          "notes": null
+        }
+      ],
+      "reinforcement_absence": null
+    },
+    {
+      "id": "chapter_21",
+      "guide_id": "p2_guide_20_2",
+      "deployment": {
+        "value": 14,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_20_2",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Long-range magic from outer halls can threaten units across walls. Algol has a magical Bolt Axe.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_20_2",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [],
+      "activation": [],
+      "waves": [
+        {
+          "id": "hard_chapter_21_outer_stairs",
+          "chapter_id": "chapter_21",
+          "difficulty": "Hard",
+          "mode": "Classic",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "p2_guide_20_2",
+            "p2_guide_scope"
+          ],
+          "timing": {
+            "value": {
+              "kind": "unknown",
+              "turns": null,
+              "event": null,
+              "repeat": null
+            },
+            "confidence": "UNKNOWN",
+            "source_ids": [
+              "p2_guide_20_2",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "location": {
+            "value": "Stairs in left/right outer halls",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "p2_guide_20_2",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "units": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [
+              "p2_guide_20_2",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "spawn_phase": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+          },
+          "immediate_action": {
+            "value": {
+              "can_move": true,
+              "can_attack": true,
+              "can_kill_on_spawn": true
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_gg_spawn",
+              "hr_hard_spawn_observation"
+            ],
+            "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+          },
+          "coordinates": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "skills": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "suppression": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "schedule_completeness": "UNKNOWN"
+        },
+        {
+          "id": "hard_chapter_21_main_area",
+          "chapter_id": "chapter_21",
+          "difficulty": "Hard",
+          "mode": "Classic",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "p2_guide_20_2",
+            "p2_guide_scope"
+          ],
+          "timing": {
+            "value": {
+              "kind": "unknown",
+              "turns": null,
+              "event": null,
+              "repeat": null
+            },
+            "confidence": "UNKNOWN",
+            "source_ids": [
+              "p2_guide_20_2",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "location": {
+            "value": "Main interior area",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "p2_guide_20_2",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "units": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [
+              "p2_guide_20_2",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "spawn_phase": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+          },
+          "immediate_action": {
+            "value": {
+              "can_move": true,
+              "can_attack": true,
+              "can_kill_on_spawn": true
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_gg_spawn",
+              "hr_hard_spawn_observation"
+            ],
+            "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+          },
+          "coordinates": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "skills": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "suppression": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "schedule_completeness": "UNKNOWN"
+        }
+      ],
+      "conflicts": [],
+      "reinforcement_absence": null
+    },
+    {
+      "id": "chapter_22",
+      "guide_id": "p2_guide_20_3",
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_20_3",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Thirteen initial enemies including Aversa; Deadlords carry powerful equipment. Exact Hard stats/skills must be observed.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_20_3",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [],
+      "activation": [],
+      "waves": [],
+      "conflicts": [],
+      "reinforcement_absence": {
+        "value": true,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_20_3",
+          "p2_guide_scope"
+        ],
+        "notes": "Guide explicitly says no reinforcements; not inferred from an empty table. Single strong specific source; no game-script certification."
+      }
+    },
+    {
+      "id": "chapter_23",
+      "guide_id": "p2_guide_24_0",
+      "deployment": {
+        "value": 15,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_24_0",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Initially Chrom/Robin isolated above a barrier. First Validar defeat removes barrier and adds Basilio/Flavia; second Validar moves to the eastern area.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_24_0",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [],
+      "activation": [],
+      "waves": [
+        {
+          "id": "hard_chapter_23_stairs",
+          "chapter_id": "chapter_23",
+          "difficulty": "Hard",
+          "mode": "Classic",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "p2_guide_24_0",
+            "p2_guide_scope"
+          ],
+          "timing": {
+            "value": {
+              "kind": "event",
+              "turns": null,
+              "event": "Script warning during the Validar sequence; exact stage/turn unknown",
+              "repeat": null
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "p2_guide_24_0",
+              "p2_guide_scope"
+            ],
+            "notes": "Do not assume warning is available early enough to reposition safely."
+          },
+          "location": {
+            "value": "Southern/bottom stairs",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "p2_guide_24_0",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "units": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [
+              "p2_guide_24_0",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "spawn_phase": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+          },
+          "immediate_action": {
+            "value": {
+              "can_move": true,
+              "can_attack": true,
+              "can_kill_on_spawn": true
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_gg_spawn",
+              "hr_hard_spawn_observation"
+            ],
+            "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+          },
+          "coordinates": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "skills": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "suppression": {
+            "value": "Occupied stairs can prevent spawns; not all staircase cases independently established.",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "p2_guide_24_0",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "schedule_completeness": "UNKNOWN"
+        }
+      ],
+      "conflicts": [],
+      "reinforcement_absence": null,
+      "starting_area": {
+        "value": "Chrom/Robin separated above barrier from rest of army",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_24_0",
+          "p2_guide_scope"
+        ],
+        "notes": "Descriptive area only, not a certified coordinate map."
+      }
+    },
+    {
+      "id": "chapter_24",
+      "guide_id": "p2_guide_24_1",
+      "deployment": {
+        "value": 15,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_24_1",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Woods slow mounted units; flying enemies bypass that ground restriction.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_24_1",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [],
+      "activation": [],
+      "waves": [
+        {
+          "id": "hard_chapter_24_fort_sequence",
+          "chapter_id": "chapter_24",
+          "difficulty": "Hard",
+          "mode": "Classic",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "p2_guide_24_1",
+            "p2_guide_scope"
+          ],
+          "timing": {
+            "value": {
+              "kind": "repeating",
+              "turns": null,
+              "event": null,
+              "repeat": {
+                "interval_turns": 1,
+                "first_turn": null,
+                "last_turn": null,
+                "termination": null
+              }
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "p2_guide_24_1",
+              "p2_guide_scope"
+            ],
+            "notes": "Consecutive-turn arrivals described; beginning/end and complete wave counts unknown."
+          },
+          "location": {
+            "value": "Forts",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "p2_guide_24_1",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "units": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [
+              "p2_guide_24_1",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "spawn_phase": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+          },
+          "immediate_action": {
+            "value": {
+              "can_move": true,
+              "can_attack": true,
+              "can_kill_on_spawn": true
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_gg_spawn",
+              "hr_hard_spawn_observation"
+            ],
+            "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+          },
+          "coordinates": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "skills": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "suppression": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "schedule_completeness": "UNKNOWN"
+        }
+      ],
+      "conflicts": [],
+      "reinforcement_absence": null
+    },
+    {
+      "id": "chapter_25",
+      "guide_id": "p2_guide_24_2",
+      "deployment": {
+        "value": 15,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_24_2",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Do not treat all enemy arrivals as fort-bound or assume adjacent peaks prevent flying attacks.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_24_2",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [],
+      "activation": [],
+      "waves": [
+        {
+          "id": "hard_chapter_25_multiple_angles",
+          "chapter_id": "chapter_25",
+          "difficulty": "Hard",
+          "mode": "Classic",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "p2_guide_24_2",
+            "p2_guide_scope"
+          ],
+          "timing": {
+            "value": {
+              "kind": "unknown",
+              "turns": null,
+              "event": null,
+              "repeat": null
+            },
+            "confidence": "UNKNOWN",
+            "source_ids": [
+              "p2_guide_24_2",
+              "p2_guide_scope"
+            ],
+            "notes": "Hard guide describes early attacks from multiple directions; exact reinforcement locations/turns unresolved."
+          },
+          "location": {
+            "value": "Several map approaches",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "p2_guide_24_2",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "units": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [
+              "p2_guide_24_2",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "spawn_phase": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+          },
+          "immediate_action": {
+            "value": {
+              "can_move": true,
+              "can_attack": true,
+              "can_kill_on_spawn": true
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_gg_spawn",
+              "hr_hard_spawn_observation"
+            ],
+            "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+          },
+          "coordinates": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "skills": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "suppression": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "schedule_completeness": "UNKNOWN"
+        }
+      ],
+      "conflicts": [],
+      "reinforcement_absence": null
+    },
+    {
+      "id": "endgame",
+      "guide_id": "p2_guide_24_3",
+      "deployment": {
+        "value": 16,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_24_3",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Grima’s Dragonskin/Expiration interaction is outside supported full combat outcomes; do not present a precise survival probability.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_24_3",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [],
+      "activation": [],
+      "waves": [
+        {
+          "id": "hard_endgame_continuous",
+          "chapter_id": "endgame",
+          "difficulty": "Hard",
+          "mode": "Classic",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "p2_guide_24_3",
+            "p2_guide_scope"
+          ],
+          "timing": {
+            "value": {
+              "kind": "repeating",
+              "turns": null,
+              "event": null,
+              "repeat": {
+                "interval_turns": 1,
+                "first_turn": null,
+                "last_turn": null,
+                "termination": "Defeat Grima"
+              }
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "p2_guide_24_3",
+              "p2_guide_scope"
+            ],
+            "notes": "Guide says every turn until completion; first spawning turn and unit count unknown."
+          },
+          "location": {
+            "value": "Map edges/arrival locations unresolved",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "p2_guide_24_3",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "units": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [
+              "p2_guide_24_3",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "spawn_phase": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+          },
+          "immediate_action": {
+            "value": {
+              "can_move": true,
+              "can_attack": true,
+              "can_kill_on_spawn": true
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_gg_spawn",
+              "hr_hard_spawn_observation"
+            ],
+            "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+          },
+          "coordinates": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "skills": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "suppression": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "schedule_completeness": "UNKNOWN"
+        }
+      ],
+      "conflicts": [],
+      "reinforcement_absence": null
+    },
+    {
+      "id": "paralogue_1",
+      "guide_id": "p2_guide_28_0",
+      "deployment": {
+        "value": 8,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_28_0",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Donnel must gain a level and survive completion to join. Thieves threaten chests; enemy bows threaten fliers.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_28_0",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [
+        {
+          "value": "Two chests and enemy Chest Keys; exact tiles not certified.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_28_0",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "waves": [],
+      "conflicts": [],
+      "reinforcement_absence": null
+    },
+    {
+      "id": "paralogue_2",
+      "guide_id": "p2_guide_28_1",
+      "deployment": {
+        "value": 10,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_28_1",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Anna here is an NPC, not the later recruitable unit. A Barbarian targets the village; no certified visit deadline.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_28_1",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [
+        {
+          "value": "Village is threatened; guide turn-5/6 estimate is strategy interpretation, not a fixed destruction script.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_28_1",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [
+        {
+          "value": "Southern group activation is related to approaching its range / visiting village, but logical trigger condition is unresolved.",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "p2_guide_28_1",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "waves": [],
+      "conflicts": [],
+      "reinforcement_absence": null
+    },
+    {
+      "id": "paralogue_3",
+      "guide_id": "p2_guide_28_2",
+      "deployment": {
+        "value": 10,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_28_2",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Villagers flee west/southwest and are threatened by Pegasus Knights. Whether all villagers dying is mission failure rather than lost rewards remains unresolved.",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "p2_guide_28_2",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [],
+      "activation": [],
+      "waves": [],
+      "conflicts": [],
+      "reinforcement_absence": null
+    },
+    {
+      "id": "paralogue_4",
+      "guide_id": "p2_guide_28_3",
+      "deployment": {
+        "value": 12,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_28_3",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [],
+      "interactables": [
+        {
+          "value": "Interior doors/chests; thieves flee with loot. Walls constrain fliers too.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_28_3",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "waves": [],
+      "conflicts": [],
+      "reinforcement_absence": null,
+      "starting_area": {
+        "value": "Southern entry with three interior approaches",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_28_3",
+          "p2_guide_scope"
+        ],
+        "notes": "Descriptive area only, not a certified coordinate map."
+      }
+    },
+    {
+      "id": "paralogue_5",
+      "guide_id": "hr_gg_paralogue_5",
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "hr_gg_paralogue_5",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Enemies target NPC Sages; an NPC may die on the first enemy phase. Gecko is described with Vantage and Pass: inspect skill panel before attacking.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "hr_gg_paralogue_5",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [
+        {
+          "value": "NPC Sages give items when spoken to. Owain receives Missiletainn from the southeast Sage only if another unit has not already spoken to that Sage.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "hr_gg_paralogue_5",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "waves": [],
+      "conflicts": [],
+      "reinforcement_absence": null,
+      "boss_override": {
+        "value": [
+          {
+            "name": "Gecko",
+            "class_name": "Assassin",
+            "level": 10,
+            "equipment_text": "Silver Sword, Silver Bow, Second Seal",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "hr_gg_paralogue_5",
+          "p2_guide_scope"
+        ],
+        "notes": "Guide Hard-default boss table; displayed stats/skills and enemy forges remain unknown."
+      }
+    },
+    {
+      "id": "paralogue_6",
+      "guide_id": "p2_guide_32_1",
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_32_1",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Pass-bearing Assassins can bypass an ordinary body block. Flying threats approach from north/south; the guide does not establish whether all are newly spawned.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_32_1",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        },
+        {
+          "value": "Inigo’s optional five-kill reward is not his recruitment condition.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_32_1",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [],
+      "activation": [],
+      "waves": [],
+      "conflicts": [],
+      "reinforcement_absence": null
+    },
+    {
+      "id": "paralogue_7",
+      "guide_id": "p2_guide_32_2",
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_32_2",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Longbows can threaten villagers beyond ordinary bow range; boss eventually advances, exact trigger unknown.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_32_2",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [],
+      "activation": [],
+      "waves": [],
+      "conflicts": [],
+      "reinforcement_absence": null
+    },
+    {
+      "id": "paralogue_8",
+      "guide_id": "p2_guide_32_3",
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_32_3",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [],
+      "interactables": [
+        {
+          "value": "Doors/chests: guide reports only one Door Key and no Chest Keys; bring appropriate key/Locktouch rather than relying on chest drops.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_32_3",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "waves": [
+        {
+          "id": "hard_paralogue_8_t5",
+          "chapter_id": "paralogue_8",
+          "difficulty": "Hard",
+          "mode": "Classic",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "p2_guide_32_3",
+            "p2_guide_scope"
+          ],
+          "timing": {
+            "value": {
+              "kind": "fixed",
+              "turns": [
+                5
+              ],
+              "event": null,
+              "repeat": null
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "p2_guide_32_3",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "location": {
+            "value": "Stairs",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "p2_guide_32_3",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "units": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [
+              "p2_guide_32_3",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "spawn_phase": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+          },
+          "immediate_action": {
+            "value": {
+              "can_move": true,
+              "can_attack": true,
+              "can_kill_on_spawn": true
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_gg_spawn",
+              "hr_hard_spawn_observation"
+            ],
+            "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+          },
+          "coordinates": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "skills": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "suppression": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "schedule_completeness": "UNKNOWN"
+        }
+      ],
+      "conflicts": [],
+      "reinforcement_absence": null
+    },
+    {
+      "id": "paralogue_9",
+      "guide_id": "p2_guide_36_0",
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_36_0",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Cynthia is initially an enemy. Ruger can turn green units hostile; killing indiscriminately can lose recruitment.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_36_0",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [],
+      "activation": [
+        {
+          "value": "Approaching north of northern walls affects Ruger’s retreat/conversion behaviour; exact activation geometry unresolved.",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "p2_guide_36_0",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "waves": [],
+      "conflicts": [],
+      "reinforcement_absence": null
+    },
+    {
+      "id": "paralogue_10",
+      "guide_id": "p2_guide_36_1",
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_36_1",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Severa must reach and talk to Holland; Chrom/Cordelia talking to her alone does not recruit her. Killing Holland can turn her hostile.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "recruitment",
+            "hr_jp_recruit"
+          ],
+          "notes": null
+        },
+        {
+          "value": "Vantage-bearing Assassins and Levin Sword Tricksters threaten escorts. Confirm actual skills/equipment.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_36_1",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [
+        {
+          "value": "Doors permit shortcuts to Holland; central staircases and chests.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_36_1",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "waves": [
+        {
+          "id": "hard_paralogue_10_severa_join",
+          "chapter_id": "paralogue_10",
+          "difficulty": "Hard",
+          "mode": "Classic",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "p2_guide_36_1",
+            "p2_guide_scope"
+          ],
+          "timing": {
+            "value": {
+              "kind": "event",
+              "turns": null,
+              "event": "Severa talks to Holland and joins; next enemy phase",
+              "repeat": null
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "p2_guide_36_1",
+              "p2_guide_scope"
+            ],
+            "notes": "Event-triggered, NOT a fixed turn. Other staircase arrivals are not ruled out."
+          },
+          "location": {
+            "value": "Four central staircases",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "p2_guide_36_1",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "units": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [
+              "p2_guide_36_1",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "spawn_phase": {
+            "value": "beginning_enemy_phase",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "p2_guide_36_1",
+              "p2_guide_scope",
+              "hr_gg_spawn"
+            ],
+            "notes": "Ordinary Hard rule applied; map-specific scripted exceptions have not all been excluded."
+          },
+          "immediate_action": {
+            "value": {
+              "can_move": true,
+              "can_attack": true,
+              "can_kill_on_spawn": true
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_gg_spawn",
+              "hr_hard_spawn_observation"
+            ],
+            "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+          },
+          "coordinates": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "skills": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "suppression": {
+            "value": "Occupying a staircase prevents its spawn; single guide claim, precise tiles unknown.",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "p2_guide_36_1",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "schedule_completeness": "UNKNOWN"
+        }
+      ],
+      "conflicts": [],
+      "reinforcement_absence": null
+    },
+    {
+      "id": "paralogue_11",
+      "guide_id": "p2_guide_36_2",
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_36_2",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Five scattered villagers need protection; Wyvern reinforcements bypass ground screening.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_36_2",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [],
+      "activation": [],
+      "waves": [
+        {
+          "id": "hard_paralogue_11_t5",
+          "chapter_id": "paralogue_11",
+          "difficulty": "Hard",
+          "mode": "Classic",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "p2_guide_36_2",
+            "p2_guide_scope"
+          ],
+          "timing": {
+            "value": {
+              "kind": "fixed",
+              "turns": [
+                5
+              ],
+              "event": null,
+              "repeat": null
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "p2_guide_36_2",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "location": {
+            "value": "Forts on northern islands",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "p2_guide_36_2",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "units": {
+            "value": [
+              {
+                "count": null,
+                "class_id": "wyvern_lord",
+                "equipment": null,
+                "level": null,
+                "location": null
+              }
+            ],
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "p2_guide_36_2",
+              "p2_guide_scope"
+            ],
+            "notes": "Support applies to the supplied attributes only. Null class/count/equipment/level/location remains UNKNOWN, never absent. Skill rolls and exact enemy forge stats are not established."
+          },
+          "spawn_phase": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+          },
+          "immediate_action": {
+            "value": {
+              "can_move": true,
+              "can_attack": true,
+              "can_kill_on_spawn": true
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_gg_spawn",
+              "hr_hard_spawn_observation"
+            ],
+            "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+          },
+          "coordinates": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "skills": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "suppression": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "schedule_completeness": "UNKNOWN"
+        }
+      ],
+      "conflicts": [],
+      "reinforcement_absence": null
+    },
+    {
+      "id": "paralogue_12",
+      "guide_id": "p2_guide_36_3",
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_36_3",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Morgan starts as NPC; thieves threaten chests immediately. Do not invent a thief capture deadline.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_36_3",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [],
+      "activation": [],
+      "waves": [
+        {
+          "id": "hard_paralogue_12_stairs",
+          "chapter_id": "paralogue_12",
+          "difficulty": "Hard",
+          "mode": "Classic",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "p2_guide_36_3",
+            "p2_guide_scope"
+          ],
+          "timing": {
+            "value": {
+              "kind": "unknown",
+              "turns": null,
+              "event": null,
+              "repeat": null
+            },
+            "confidence": "UNKNOWN",
+            "source_ids": [
+              "p2_guide_36_3",
+              "p2_guide_scope"
+            ],
+            "notes": "Guide points to a reinforcement image; image-derived exact turns/tiles were not reliably established."
+          },
+          "location": {
+            "value": "Stairs",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "p2_guide_36_3",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "units": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [
+              "p2_guide_36_3",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "spawn_phase": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+          },
+          "immediate_action": {
+            "value": {
+              "can_move": true,
+              "can_attack": true,
+              "can_kill_on_spawn": true
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_gg_spawn",
+              "hr_hard_spawn_observation"
+            ],
+            "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+          },
+          "coordinates": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "skills": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "suppression": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "schedule_completeness": "UNKNOWN"
+        }
+      ],
+      "conflicts": [],
+      "reinforcement_absence": null
+    },
+    {
+      "id": "paralogue_13",
+      "guide_id": "p2_guide_40_0",
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_40_0",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Faction choice changes hostile units. Yarne can be NPC or enemy: recruit using Chrom or Panne in either case.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_40_0",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [],
+      "activation": [],
+      "waves": [
+        {
+          "id": "hard_paralogue_13_faction_arrivals",
+          "chapter_id": "paralogue_13",
+          "difficulty": "Hard",
+          "mode": "Classic",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "p2_guide_40_0",
+            "p2_guide_scope"
+          ],
+          "timing": {
+            "value": {
+              "kind": "event",
+              "turns": null,
+              "event": "Depends on selected faction / fighting both sides; exact trigger unknown",
+              "repeat": null
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "p2_guide_40_0",
+              "p2_guide_scope"
+            ],
+            "notes": "Guide reports additional enemies; faction-specific arrival times, locations, classes unknown."
+          },
+          "location": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [
+              "p2_guide_40_0",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "units": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [
+              "p2_guide_40_0",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "spawn_phase": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+          },
+          "immediate_action": {
+            "value": {
+              "can_move": true,
+              "can_attack": true,
+              "can_kill_on_spawn": true
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_gg_spawn",
+              "hr_hard_spawn_observation"
+            ],
+            "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+          },
+          "coordinates": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "skills": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "suppression": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "schedule_completeness": "UNKNOWN"
+        }
+      ],
+      "conflicts": [],
+      "reinforcement_absence": null
+    },
+    {
+      "id": "paralogue_14",
+      "guide_id": "p2_guide_40_1",
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_40_1",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [],
+      "interactables": [
+        {
+          "value": "Recruit Laurent by visiting southwest village with Chrom/Miriel. Hidden village sequence northeast → northwest → southeast; visits can spawn enemies.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_40_1",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "waves": [
+        {
+          "id": "hard_paralogue_14_village_visits",
+          "chapter_id": "paralogue_14",
+          "difficulty": "Hard",
+          "mode": "Classic",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "p2_guide_40_1",
+            "p2_guide_scope"
+          ],
+          "timing": {
+            "value": {
+              "kind": "event",
+              "turns": null,
+              "event": "Each village visit",
+              "repeat": {
+                "interval_turns": null,
+                "first_turn": null,
+                "last_turn": null,
+                "termination": "No further village visits"
+              }
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "p2_guide_40_1",
+              "p2_guide_scope"
+            ],
+            "notes": "Aggregate repeated event family; individual village-specific waves cannot yet be enumerated. Not one certified finite wave."
+          },
+          "location": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [
+              "p2_guide_40_1",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "units": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [
+              "p2_guide_40_1",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "spawn_phase": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+          },
+          "immediate_action": {
+            "value": {
+              "can_move": true,
+              "can_attack": true,
+              "can_kill_on_spawn": true
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_gg_spawn",
+              "hr_hard_spawn_observation"
+            ],
+            "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+          },
+          "coordinates": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "skills": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "suppression": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "schedule_completeness": "UNKNOWN"
+        }
+      ],
+      "conflicts": [],
+      "reinforcement_absence": null
+    },
+    {
+      "id": "paralogue_15",
+      "guide_id": "p2_guide_40_2",
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_40_2",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Noire arrives automatically turn 2, isolated in northern enclosure among flying threats. Guide approximate escape window is not a certified reinforcement turn.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_40_2",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [],
+      "activation": [],
+      "waves": [],
+      "conflicts": [],
+      "reinforcement_absence": null,
+      "starting_area": {
+        "value": "Noire arrives in northern enclosure on turn 2",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_40_2",
+          "p2_guide_scope"
+        ],
+        "notes": "Descriptive area only, not a certified coordinate map."
+      }
+    },
+    {
+      "id": "paralogue_16",
+      "guide_id": "p2_guide_40_3",
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_40_3",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Walls break and reform as turns/area events occur. Opening near Nah can open other routes; exact triggers unknown. Long-range tomes and Counter-bearing Warriors are hazards.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_40_3",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [
+        {
+          "value": "Opened doors remain open according to guide; changing walls do not establish permanent safe chokepoints.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_40_3",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "waves": [],
+      "conflicts": [],
+      "reinforcement_absence": null
+    },
+    {
+      "id": "paralogue_17",
+      "guide_id": "p2_guide_44_0",
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_44_0",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "hazards": [
+        {
+          "value": "Flying reinforcements prioritize Tiki and can fly past the player’s army.",
+          "confidence": "VERIFIED",
+          "source_ids": [
+            "p2_guide_44_0",
+            "hr_jp_p17"
+          ],
+          "notes": "Hard guide and independent Hard-labelled Japanese player report of losing Tiki agree on target priority. Does not prove exact reach/turns."
+        }
+      ],
+      "interactables": [],
+      "activation": [
+        {
+          "value": "Boss advances after reinforcement enemies are eliminated; exact final-wave enumeration unresolved.",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "p2_guide_44_0",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "waves": [
+        {
+          "id": "hard_paralogue_17_flying_waves",
+          "chapter_id": "paralogue_17",
+          "difficulty": "Hard",
+          "mode": "Classic",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "p2_guide_44_0",
+            "p2_guide_scope"
+          ],
+          "timing": {
+            "value": {
+              "kind": "unknown",
+              "turns": null,
+              "event": null,
+              "repeat": null
+            },
+            "confidence": "UNKNOWN",
+            "source_ids": [
+              "p2_guide_44_0",
+              "p2_guide_scope"
+            ],
+            "notes": "Multiple flying waves; count and exact timing unknown. Record is an event family, not a complete list of individual waves."
+          },
+          "location": {
+            "value": "West, south and east approaches",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "p2_guide_44_0",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "units": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [
+              "p2_guide_44_0",
+              "p2_guide_scope"
+            ],
+            "notes": null
+          },
+          "spawn_phase": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+          },
+          "immediate_action": {
+            "value": {
+              "can_move": true,
+              "can_attack": true,
+              "can_kill_on_spawn": true
+            },
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "hr_gg_spawn",
+              "hr_hard_spawn_observation"
+            ],
+            "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+          },
+          "coordinates": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "skills": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "suppression": {
+            "value": null,
+            "confidence": "UNKNOWN",
+            "source_ids": [],
+            "notes": null
+          },
+          "schedule_completeness": "UNKNOWN"
+        }
+      ],
+      "conflicts": [],
+      "reinforcement_absence": null
+    }
+  ],
+  "additional_sources": [
+    {
+      "id": "hr_jp_15",
+      "name": "Pegasus Knight Awakening wiki — Chapter 15",
+      "url": "https://www.pegasusknight.com/wiki/fe13/%E3%83%9E%E3%83%83%E3%83%97%E6%94%BB%E7%95%A5/%E7%AB%A0%E5%88%A5%E6%94%BB%E7%95%A5/15%E7%AB%A0%2B%E8%A7%A3%E6%94%BE%E3%81%AE%E7%8B%BC%E7%85%99",
+      "accessed": "2026-10-02",
+      "scope": [
+        "Explicitly Hard-labelled comments only for mode-specific claims; general objective cross-check where noted"
+      ],
+      "method": "public_web_reader",
+      "evidence_family": "pegasus_original_player_comments",
+      "limitations": "Japanese release. Anonymous dated firsthand comments are observational reports, not independently reproduced tests. Unlabelled enemy tables and end-of-enemy-phase reinforcement tables NOT assigned to Hard."
+    },
+    {
+      "id": "hr_jp_16",
+      "name": "Pegasus Knight Awakening wiki — Chapter 16",
+      "url": "https://www.pegasusknight.com/wiki/fe13/%E3%83%9E%E3%83%83%E3%83%97%E6%94%BB%E7%95%A5/%E7%AB%A0%E5%88%A5%E6%94%BB%E7%95%A5/16%E7%AB%A0%2B%E7%A5%9E%E7%AB%9C%E3%81%AE%E5%B7%AB%E5%A5%B3",
+      "accessed": "2026-10-02",
+      "scope": [
+        "Explicitly Hard-labelled comments only for mode-specific claims; general objective cross-check where noted"
+      ],
+      "method": "public_web_reader",
+      "evidence_family": "pegasus_original_player_comments",
+      "limitations": "Japanese release. Anonymous dated firsthand comments are observational reports, not independently reproduced tests. Unlabelled enemy tables and end-of-enemy-phase reinforcement tables NOT assigned to Hard."
+    },
+    {
+      "id": "hr_jp_17",
+      "name": "Pegasus Knight Awakening wiki — Chapter 17",
+      "url": "https://www.pegasusknight.com/wiki/fe13/%E3%83%9E%E3%83%83%E3%83%97%E6%94%BB%E7%95%A5/%E7%AB%A0%E5%88%A5%E6%94%BB%E7%95%A5/17%E7%AB%A0%2B%E6%AD%BB%E3%81%AE%E9%81%8B%E5%91%BD",
+      "accessed": "2026-10-02",
+      "scope": [
+        "Explicitly Hard-labelled comments only for mode-specific claims; general objective cross-check where noted"
+      ],
+      "method": "public_web_reader",
+      "evidence_family": "pegasus_original_player_comments",
+      "limitations": "Japanese release. Anonymous dated firsthand comments are observational reports, not independently reproduced tests. Unlabelled enemy tables and end-of-enemy-phase reinforcement tables NOT assigned to Hard."
+    },
+    {
+      "id": "hr_jp_19",
+      "name": "Pegasus Knight Awakening wiki — Chapter 19",
+      "url": "https://www.pegasusknight.com/wiki/fe13/%E3%83%9E%E3%83%83%E3%83%97%E6%94%BB%E7%95%A5/%E7%AB%A0%E5%88%A5%E6%94%BB%E7%95%A5/19%E7%AB%A0%2B%E8%A6%87%E7%8E%8B%E3%83%B4%E3%82%A1%E3%83%AB%E3%83%8F%E3%83%AB%E3%83%88",
+      "accessed": "2026-10-02",
+      "scope": [
+        "Explicitly Hard-labelled comments only for mode-specific claims; general objective cross-check where noted"
+      ],
+      "method": "public_web_reader",
+      "evidence_family": "pegasus_original_player_comments",
+      "limitations": "Japanese release. Anonymous dated firsthand comments are observational reports, not independently reproduced tests. Unlabelled enemy tables and end-of-enemy-phase reinforcement tables NOT assigned to Hard."
+    },
+    {
+      "id": "hr_jp_5",
+      "name": "Pegasus Knight Awakening wiki — Chapter 5",
+      "url": "https://www.pegasusknight.com/wiki/fe13/%E3%83%9E%E3%83%83%E3%83%97%E6%94%BB%E7%95%A5/%E7%AB%A0%E5%88%A5%E6%94%BB%E7%95%A5/5%E7%AB%A0%2B%E8%81%96%E7%8E%8B%E3%81%A8%E6%9A%97%E6%84%9A%E7%8E%8B",
+      "accessed": "2026-10-02",
+      "scope": [
+        "Explicitly Hard-labelled comments only for mode-specific claims; general objective cross-check where noted"
+      ],
+      "method": "public_web_reader",
+      "evidence_family": "pegasus_original_player_comments",
+      "limitations": "Japanese release. Anonymous dated firsthand comments are observational reports, not independently reproduced tests. Unlabelled enemy tables and end-of-enemy-phase reinforcement tables NOT assigned to Hard."
+    },
+    {
+      "id": "hr_jp_11",
+      "name": "Pegasus Knight Awakening wiki — Chapter 11",
+      "url": "https://www.pegasusknight.com/wiki/fe13/%E3%83%9E%E3%83%83%E3%83%97%E6%94%BB%E7%95%A5/%E7%AB%A0%E5%88%A5%E6%94%BB%E7%95%A5/11%E7%AB%A0%2B%E6%9A%97%E6%84%9A%E7%8E%8B%E3%82%AE%E3%83%A3%E3%83%B3%E3%83%AC%E3%83%AB",
+      "accessed": "2026-10-02",
+      "scope": [
+        "Explicitly Hard-labelled comments only for mode-specific claims; general objective cross-check where noted"
+      ],
+      "method": "public_web_reader",
+      "evidence_family": "pegasus_original_player_comments",
+      "limitations": "Japanese release. Anonymous dated firsthand comments are observational reports, not independently reproduced tests. Unlabelled enemy tables and end-of-enemy-phase reinforcement tables NOT assigned to Hard."
+    },
+    {
+      "id": "hr_jp_22",
+      "name": "Pegasus Knight Awakening wiki — Chapter 22",
+      "url": "https://www.pegasusknight.com/wiki/fe13/%E3%83%9E%E3%83%83%E3%83%97%E6%94%BB%E7%95%A5/%E7%AB%A0%E5%88%A5%E6%94%BB%E7%95%A5/22%E7%AB%A0%2B%E6%BB%85%E3%81%B3%E3%81%AE%E4%BA%88%E5%85%86",
+      "accessed": "2026-10-02",
+      "scope": [
+        "Explicitly Hard-labelled comments only for mode-specific claims; general objective cross-check where noted"
+      ],
+      "method": "public_web_reader",
+      "evidence_family": "pegasus_original_player_comments",
+      "limitations": "Japanese release. Anonymous dated firsthand comments are observational reports, not independently reproduced tests. Unlabelled enemy tables and end-of-enemy-phase reinforcement tables NOT assigned to Hard."
+    },
+    {
+      "id": "hr_jp_p17",
+      "name": "Pegasus Knight Awakening wiki — Paralogue 17",
+      "url": "https://www.pegasusknight.com/wiki/fe13/%E3%83%9E%E3%83%83%E3%83%97%E6%94%BB%E7%95%A5/%E7%AB%A0%E5%88%A5%E6%94%BB%E7%95%A5/%E5%A4%96%E4%BC%9D17%2B%E6%82%A0%E4%B9%85%E3%81%AE%E6%80%9D%E3%81%84",
+      "accessed": "2026-10-02",
+      "scope": [
+        "Explicitly Hard-labelled comments only for mode-specific claims; general objective cross-check where noted"
+      ],
+      "method": "public_web_reader",
+      "evidence_family": "pegasus_original_player_comments",
+      "limitations": "Japanese release. Anonymous dated firsthand comments are observational reports, not independently reproduced tests. Unlabelled enemy tables and end-of-enemy-phase reinforcement tables NOT assigned to Hard."
+    },
+    {
+      "id": "hr_gg_spawn",
+      "name": "Gamer Guides — Starting a New Game",
+      "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/intro-and-gameplay/gameplay/starting-a-new-game",
+      "scope": [
+        "Hard and above: reinforcements act as enemy phase begins"
+      ],
+      "limitations": "General ordinary reinforcement rule; does not certify every scripted exception.",
+      "method": "public_web_reader",
+      "accessed": "2026-10-02",
+      "evidence_family": "gamerguides_vincent_lau"
+    },
+    {
+      "id": "hr_hard_spawn_observation",
+      "name": "GBAtemp — Awakening Hard reinforcement discussion",
+      "url": "https://gbatemp.net/threads/fire-emblem-awakening-reinforcements.435653/",
+      "scope": [
+        "Explicit Hard player report: enemies spawn at beginning of enemy phase, can attack immediately"
+      ],
+      "limitations": "Public search-index excerpt only; direct page returned 403. Independent community report, not a controlled game-script audit.",
+      "method": "public_search_excerpt",
+      "accessed": "2026-10-02",
+      "evidence_family": "gbatemp_original_player"
+    },
+    {
+      "id": "hr_fandom16",
+      "name": "Fire Emblem Fandom — Nagas Voice, Hard reinforcement subsection",
+      "url": "https://fireemblem.fandom.com/wiki/Naga%27s_Voice",
+      "scope": [
+        "Explicit Hard turn 4/5/6 classes, counts and equipment; contrasted with separately headed Lunatic subsection"
+      ],
+      "limitations": "Public indexed subsection, not full page retrieval. Independent corroboration of each precise count was not available.",
+      "method": "public_search_excerpt",
+      "accessed": "2026-10-02",
+      "evidence_family": "fandom_editors"
+    },
+    {
+      "id": "hr_fandom17",
+      "name": "Fire Emblem Fandom — Inexorable Death, Hard reinforcement subsection",
+      "url": "https://fireemblem.fandom.com/wiki/Inexorable_Death",
+      "scope": [
+        "Reported Hard turn 8 eastern / turn 9 west-central / turn 10 central staircase waves"
+      ],
+      "limitations": "Public indexed subsection; subsequent mode boundary lost in excerpt. Later listed turns NOT imported as Hard. First side conflicts with explicitly Hard Japanese observation.",
+      "method": "public_search_excerpt",
+      "accessed": "2026-10-02",
+      "evidence_family": "fandom_editors"
+    },
+    {
+      "id": "hr_jp_recruit",
+      "name": "Pegasus Knight — Awakening recruitment",
+      "url": "https://www.pegasusknight.com/wiki/fe13/%E3%83%A6%E3%83%8B%E3%83%83%E3%83%88/%E4%BB%B2%E9%96%93%E3%81%AB%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95",
+      "scope": [
+        "Recruitment conditions; killing Holland makes Severa hostile"
+      ],
+      "limitations": "General recruitment system, not Hard enemy stats. Possible underlying overlap with other references; not counted as independent corroboration.",
+      "method": "public_web_reader",
+      "accessed": "2026-10-02",
+      "evidence_family": "pegasus_recruitment"
+    },
+    {
+      "id": "hr_gg_chapter_9",
+      "name": "Gamer Guides — chapter-9-emmeryn",
+      "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-9-emmeryn",
+      "scope": [
+        "Hard map tactical reference"
+      ],
+      "limitations": "Guide defaults to Hard according to reading-this-guide. Exclude explicitly labelled Lunatic paragraphs. Contains occasional objective errors; do not certify completeness.",
+      "method": "public_web_reader",
+      "accessed": "2026-10-02",
+      "evidence_family": "gamerguides_vincent_lau"
+    },
+    {
+      "id": "hr_gg_chapter_10",
+      "name": "Gamer Guides — chapter-10-renewal",
+      "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-10-renewal",
+      "scope": [
+        "Hard map tactical reference"
+      ],
+      "limitations": "Guide defaults to Hard according to reading-this-guide. Exclude explicitly labelled Lunatic paragraphs. Contains occasional objective errors; do not certify completeness.",
+      "method": "public_web_reader",
+      "accessed": "2026-10-02",
+      "evidence_family": "gamerguides_vincent_lau"
+    },
+    {
+      "id": "hr_gg_paralogue_5",
+      "name": "Gamer Guides — sidequest-5-scion-of-legend",
+      "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-5-scion-of-legend",
+      "scope": [
+        "Hard map tactical reference"
+      ],
+      "limitations": "Guide defaults to Hard according to reading-this-guide. Exclude explicitly labelled Lunatic paragraphs. Contains occasional objective errors; do not certify completeness.",
+      "method": "public_web_reader",
+      "accessed": "2026-10-02",
+      "evidence_family": "gamerguides_vincent_lau"
+    }
+  ],
+  "quarantines": [
+    {
+      "ids": [
+        "p2_reviewed_wave_2",
+        "p2_reviewed_wave_3",
+        "p2_reviewed_wave_4"
+      ],
+      "chapter_id": "chapter_15",
+      "reason": "Map and difficulty heading loss: contents match Chapter 16 Lunatic subsection, not Chapter 15 Hard.",
+      "source_ids": [
+        "reinforcements_14_16_0",
+        "hr_fandom16",
+        "hr_jp_15"
+      ],
+      "status": "RESOLVED_IMPORT_ERROR"
+    }
+  ],
+  "access_limitations": [
+    "GameFAQs guides and several wiki pages blocked/restricted; no bypass attempted.",
+    "Neoseeker guide and StrategyWiki returned 403; not used for new claims.",
+    "No gameplay footage was treated as observational evidence; difficulty and event state not established.",
+    "Gamer Guides mirrors and repeated source IDs are one evidence family; possible overlap with MK guide means not independent corroboration."
+  ]
+}

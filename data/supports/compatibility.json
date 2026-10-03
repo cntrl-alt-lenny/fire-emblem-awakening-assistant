@@ -1,0 +1,6325 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "avatar_m__chrom",
+      "name": "Chrom / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "chrom"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "chrom__lissa",
+      "name": "Lissa / Chrom",
+      "units": [
+        "chrom",
+        "lissa"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "chrom__vaike",
+      "name": "Vaike / Chrom",
+      "units": [
+        "chrom",
+        "vaike"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "chrom__gaius",
+      "name": "Gaius / Chrom",
+      "units": [
+        "chrom",
+        "gaius"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "chrom__frederick",
+      "name": "Frederick / Chrom",
+      "units": [
+        "chrom",
+        "frederick"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "chrom__sumia",
+      "name": "Sumia / Chrom",
+      "units": [
+        "chrom",
+        "sumia"
+      ],
+      "thresholds": {
+        "C": 2,
+        "B": 6,
+        "A": 10,
+        "S": 14
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "chrom__sully",
+      "name": "Sully / Chrom",
+      "units": [
+        "chrom",
+        "sully"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 7,
+        "A": 11,
+        "S": 16
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "chrom__maribelle",
+      "name": "Maribelle / Chrom",
+      "units": [
+        "chrom",
+        "maribelle"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 7,
+        "A": 11,
+        "S": 16
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__chrom",
+      "name": "Chrom / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "chrom"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "chrom__olivia",
+      "name": "Olivia / Chrom",
+      "units": [
+        "chrom",
+        "olivia"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__lissa",
+      "name": "Lissa / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "lissa"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "lissa__maribelle",
+      "name": "Maribelle / Lissa",
+      "units": [
+        "lissa",
+        "maribelle"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "lissa__vaike",
+      "name": "Vaike / Lissa",
+      "units": [
+        "lissa",
+        "vaike"
+      ],
+      "thresholds": {
+        "C": 2,
+        "B": 6,
+        "A": 10,
+        "S": 14
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "frederick__lissa",
+      "name": "Frederick / Lissa",
+      "units": [
+        "frederick",
+        "lissa"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 7,
+        "A": 11,
+        "S": 16
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__lissa",
+      "name": "Lissa / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "lissa"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "lissa__stahl",
+      "name": "Stahl / Lissa",
+      "units": [
+        "lissa",
+        "stahl"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "kellam__lissa",
+      "name": "Kellam / Lissa",
+      "units": [
+        "kellam",
+        "lissa"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "lissa__ricken",
+      "name": "Ricken / Lissa",
+      "units": [
+        "lissa",
+        "ricken"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "libra__lissa",
+      "name": "Libra / Lissa",
+      "units": [
+        "libra",
+        "lissa"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "lissa__lonqu",
+      "name": "Lon’qu / Lissa",
+      "units": [
+        "lissa",
+        "lonqu"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "gregor__lissa",
+      "name": "Gregor / Lissa",
+      "units": [
+        "gregor",
+        "lissa"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "gaius__lissa",
+      "name": "Gaius / Lissa",
+      "units": [
+        "gaius",
+        "lissa"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "lissa__virion",
+      "name": "Virion / Lissa",
+      "units": [
+        "lissa",
+        "virion"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "henry__lissa",
+      "name": "Henry / Lissa",
+      "units": [
+        "henry",
+        "lissa"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "donnel__lissa",
+      "name": "Donnel / Lissa",
+      "units": [
+        "donnel",
+        "lissa"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__frederick",
+      "name": "Frederick / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "frederick"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "frederick__henry",
+      "name": "Henry / Frederick",
+      "units": [
+        "frederick",
+        "henry"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "frederick__virion",
+      "name": "Virion / Frederick",
+      "units": [
+        "frederick",
+        "virion"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "frederick__maribelle",
+      "name": "Maribelle / Frederick",
+      "units": [
+        "frederick",
+        "maribelle"
+      ],
+      "thresholds": {
+        "C": 2,
+        "B": 6,
+        "A": 10,
+        "S": 14
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__frederick",
+      "name": "Frederick / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "frederick"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "frederick__sumia",
+      "name": "Sumia / Frederick",
+      "units": [
+        "frederick",
+        "sumia"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "frederick__sully",
+      "name": "Sully / Frederick",
+      "units": [
+        "frederick",
+        "sully"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cordelia__frederick",
+      "name": "Cordelia / Frederick",
+      "units": [
+        "cordelia",
+        "frederick"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "frederick__panne",
+      "name": "Panne / Frederick",
+      "units": [
+        "frederick",
+        "panne"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "frederick__nowi",
+      "name": "Nowi / Frederick",
+      "units": [
+        "frederick",
+        "nowi"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "frederick__olivia",
+      "name": "Olivia / Frederick",
+      "units": [
+        "frederick",
+        "olivia"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cherche__frederick",
+      "name": "Cherche / Frederick",
+      "units": [
+        "cherche",
+        "frederick"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "frederick__miriel",
+      "name": "Miriel / Frederick",
+      "units": [
+        "frederick",
+        "miriel"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "frederick__tharja",
+      "name": "Tharja / Frederick",
+      "units": [
+        "frederick",
+        "tharja"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__virion",
+      "name": "Virion / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "virion"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "libra__virion",
+      "name": "Libra / Virion",
+      "units": [
+        "libra",
+        "virion"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cherche__virion",
+      "name": "Cherche / Virion",
+      "units": [
+        "cherche",
+        "virion"
+      ],
+      "thresholds": {
+        "C": 2,
+        "B": 6,
+        "A": 10,
+        "S": 14
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__virion",
+      "name": "Virion / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "virion"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "sully__virion",
+      "name": "Sully / Virion",
+      "units": [
+        "sully",
+        "virion"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "maribelle__virion",
+      "name": "Maribelle / Virion",
+      "units": [
+        "maribelle",
+        "virion"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cordelia__virion",
+      "name": "Cordelia / Virion",
+      "units": [
+        "cordelia",
+        "virion"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "panne__virion",
+      "name": "Panne / Virion",
+      "units": [
+        "panne",
+        "virion"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "nowi__virion",
+      "name": "Nowi / Virion",
+      "units": [
+        "nowi",
+        "virion"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "olivia__virion",
+      "name": "Olivia / Virion",
+      "units": [
+        "olivia",
+        "virion"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "miriel__virion",
+      "name": "Miriel / Virion",
+      "units": [
+        "miriel",
+        "virion"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "tharja__virion",
+      "name": "Tharja / Virion",
+      "units": [
+        "tharja",
+        "virion"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__sully",
+      "name": "Sully / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "sully"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "miriel__sully",
+      "name": "Miriel / Sully",
+      "units": [
+        "miriel",
+        "sully"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "sully__sumia",
+      "name": "Sumia / Sully",
+      "units": [
+        "sully",
+        "sumia"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "kellam__sully",
+      "name": "Kellam / Sully",
+      "units": [
+        "kellam",
+        "sully"
+      ],
+      "thresholds": {
+        "C": 2,
+        "B": 6,
+        "A": 10,
+        "S": 14
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "stahl__sully",
+      "name": "Stahl / Sully",
+      "units": [
+        "stahl",
+        "sully"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 7,
+        "A": 11,
+        "S": 16
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__sully",
+      "name": "Sully / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "sully"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "ricken__sully",
+      "name": "Ricken / Sully",
+      "units": [
+        "ricken",
+        "sully"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "sully__vaike",
+      "name": "Vaike / Sully",
+      "units": [
+        "sully",
+        "vaike"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "libra__sully",
+      "name": "Libra / Sully",
+      "units": [
+        "libra",
+        "sully"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "lonqu__sully",
+      "name": "Lon’qu / Sully",
+      "units": [
+        "lonqu",
+        "sully"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "gregor__sully",
+      "name": "Gregor / Sully",
+      "units": [
+        "gregor",
+        "sully"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "gaius__sully",
+      "name": "Gaius / Sully",
+      "units": [
+        "gaius",
+        "sully"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "henry__sully",
+      "name": "Henry / Sully",
+      "units": [
+        "henry",
+        "sully"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "donnel__sully",
+      "name": "Donnel / Sully",
+      "units": [
+        "donnel",
+        "sully"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__vaike",
+      "name": "Vaike / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "vaike"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "lonqu__vaike",
+      "name": "Lon’qu / Vaike",
+      "units": [
+        "lonqu",
+        "vaike"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "nowi__vaike",
+      "name": "Nowi / Vaike",
+      "units": [
+        "nowi",
+        "vaike"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 7,
+        "A": 11,
+        "S": 16
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__vaike",
+      "name": "Vaike / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "vaike"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "maribelle__vaike",
+      "name": "Maribelle / Vaike",
+      "units": [
+        "maribelle",
+        "vaike"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cordelia__vaike",
+      "name": "Cordelia / Vaike",
+      "units": [
+        "cordelia",
+        "vaike"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "panne__vaike",
+      "name": "Panne / Vaike",
+      "units": [
+        "panne",
+        "vaike"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "olivia__vaike",
+      "name": "Olivia / Vaike",
+      "units": [
+        "olivia",
+        "vaike"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cherche__vaike",
+      "name": "Cherche / Vaike",
+      "units": [
+        "cherche",
+        "vaike"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "miriel__vaike",
+      "name": "Miriel / Vaike",
+      "units": [
+        "miriel",
+        "vaike"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "tharja__vaike",
+      "name": "Tharja / Vaike",
+      "units": [
+        "tharja",
+        "vaike"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__stahl",
+      "name": "Stahl / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "stahl"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "donnel__stahl",
+      "name": "Donnel / Stahl",
+      "units": [
+        "donnel",
+        "stahl"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "kellam__stahl",
+      "name": "Kellam / Stahl",
+      "units": [
+        "kellam",
+        "stahl"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "miriel__stahl",
+      "name": "Miriel / Stahl",
+      "units": [
+        "miriel",
+        "stahl"
+      ],
+      "thresholds": {
+        "C": 2,
+        "B": 6,
+        "A": 10,
+        "S": 14
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__stahl",
+      "name": "Stahl / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "stahl"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "maribelle__stahl",
+      "name": "Maribelle / Stahl",
+      "units": [
+        "maribelle",
+        "stahl"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cordelia__stahl",
+      "name": "Cordelia / Stahl",
+      "units": [
+        "cordelia",
+        "stahl"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "panne__stahl",
+      "name": "Panne / Stahl",
+      "units": [
+        "panne",
+        "stahl"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "nowi__stahl",
+      "name": "Nowi / Stahl",
+      "units": [
+        "nowi",
+        "stahl"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "olivia__stahl",
+      "name": "Olivia / Stahl",
+      "units": [
+        "olivia",
+        "stahl"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cherche__stahl",
+      "name": "Cherche / Stahl",
+      "units": [
+        "cherche",
+        "stahl"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "stahl__tharja",
+      "name": "Tharja / Stahl",
+      "units": [
+        "stahl",
+        "tharja"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__miriel",
+      "name": "Miriel / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "miriel"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cherche__miriel",
+      "name": "Cherche / Miriel",
+      "units": [
+        "cherche",
+        "miriel"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "kellam__miriel",
+      "name": "Kellam / Miriel",
+      "units": [
+        "kellam",
+        "miriel"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 7,
+        "A": 11,
+        "S": 16
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__miriel",
+      "name": "Miriel / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "miriel"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "miriel__ricken",
+      "name": "Ricken / Miriel",
+      "units": [
+        "miriel",
+        "ricken"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "libra__miriel",
+      "name": "Libra / Miriel",
+      "units": [
+        "libra",
+        "miriel"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "lonqu__miriel",
+      "name": "Lon’qu / Miriel",
+      "units": [
+        "lonqu",
+        "miriel"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "gregor__miriel",
+      "name": "Gregor / Miriel",
+      "units": [
+        "gregor",
+        "miriel"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "gaius__miriel",
+      "name": "Gaius / Miriel",
+      "units": [
+        "gaius",
+        "miriel"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "henry__miriel",
+      "name": "Henry / Miriel",
+      "units": [
+        "henry",
+        "miriel"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "donnel__miriel",
+      "name": "Donnel / Miriel",
+      "units": [
+        "donnel",
+        "miriel"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__kellam",
+      "name": "Kellam / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "kellam"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "donnel__kellam",
+      "name": "Donnel / Kellam",
+      "units": [
+        "donnel",
+        "kellam"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__kellam",
+      "name": "Kellam / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "kellam"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "kellam__maribelle",
+      "name": "Maribelle / Kellam",
+      "units": [
+        "kellam",
+        "maribelle"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cordelia__kellam",
+      "name": "Cordelia / Kellam",
+      "units": [
+        "cordelia",
+        "kellam"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "kellam__panne",
+      "name": "Panne / Kellam",
+      "units": [
+        "kellam",
+        "panne"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "kellam__nowi",
+      "name": "Nowi / Kellam",
+      "units": [
+        "kellam",
+        "nowi"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "kellam__olivia",
+      "name": "Olivia / Kellam",
+      "units": [
+        "kellam",
+        "olivia"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cherche__kellam",
+      "name": "Cherche / Kellam",
+      "units": [
+        "cherche",
+        "kellam"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "kellam__tharja",
+      "name": "Tharja / Kellam",
+      "units": [
+        "kellam",
+        "tharja"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__sumia",
+      "name": "Sumia / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "sumia"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cordelia__sumia",
+      "name": "Cordelia / Sumia",
+      "units": [
+        "cordelia",
+        "sumia"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__sumia",
+      "name": "Sumia / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "sumia"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "gaius__sumia",
+      "name": "Gaius / Sumia",
+      "units": [
+        "gaius",
+        "sumia"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "henry__sumia",
+      "name": "Henry / Sumia",
+      "units": [
+        "henry",
+        "sumia"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__lonqu",
+      "name": "Lon’qu / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "lonqu"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "gregor__lonqu",
+      "name": "Gregor / Lon’qu",
+      "units": [
+        "gregor",
+        "lonqu"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__lonqu",
+      "name": "Lon’qu / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "lonqu"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "lonqu__maribelle",
+      "name": "Maribelle / Lon’qu",
+      "units": [
+        "lonqu",
+        "maribelle"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cordelia__lonqu",
+      "name": "Cordelia / Lon’qu",
+      "units": [
+        "cordelia",
+        "lonqu"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "lonqu__panne",
+      "name": "Panne / Lon’qu",
+      "units": [
+        "lonqu",
+        "panne"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "lonqu__nowi",
+      "name": "Nowi / Lon’qu",
+      "units": [
+        "lonqu",
+        "nowi"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "lonqu__olivia",
+      "name": "Olivia / Lon’qu",
+      "units": [
+        "lonqu",
+        "olivia"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cherche__lonqu",
+      "name": "Cherche / Lon’qu",
+      "units": [
+        "cherche",
+        "lonqu"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "lonqu__tharja",
+      "name": "Tharja / Lon’qu",
+      "units": [
+        "lonqu",
+        "tharja"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__ricken",
+      "name": "Ricken / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "ricken"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "gregor__ricken",
+      "name": "Gregor / Ricken",
+      "units": [
+        "gregor",
+        "ricken"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "henry__ricken",
+      "name": "Henry / Ricken",
+      "units": [
+        "henry",
+        "ricken"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "panne__ricken",
+      "name": "Panne / Ricken",
+      "units": [
+        "panne",
+        "ricken"
+      ],
+      "thresholds": {
+        "C": 2,
+        "B": 6,
+        "A": 10,
+        "S": 14
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cherche__ricken",
+      "name": "Cherche / Ricken",
+      "units": [
+        "cherche",
+        "ricken"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 7,
+        "A": 11,
+        "S": 16
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__ricken",
+      "name": "Ricken / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "ricken"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "maribelle__ricken",
+      "name": "Maribelle / Ricken",
+      "units": [
+        "maribelle",
+        "ricken"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cordelia__ricken",
+      "name": "Cordelia / Ricken",
+      "units": [
+        "cordelia",
+        "ricken"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "nowi__ricken",
+      "name": "Nowi / Ricken",
+      "units": [
+        "nowi",
+        "ricken"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "olivia__ricken",
+      "name": "Olivia / Ricken",
+      "units": [
+        "olivia",
+        "ricken"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "ricken__tharja",
+      "name": "Tharja / Ricken",
+      "units": [
+        "ricken",
+        "tharja"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__maribelle",
+      "name": "Maribelle / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "maribelle"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "maribelle__olivia",
+      "name": "Olivia / Maribelle",
+      "units": [
+        "maribelle",
+        "olivia"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__maribelle",
+      "name": "Maribelle / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "maribelle"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "libra__maribelle",
+      "name": "Libra / Maribelle",
+      "units": [
+        "libra",
+        "maribelle"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "gregor__maribelle",
+      "name": "Gregor / Maribelle",
+      "units": [
+        "gregor",
+        "maribelle"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "gaius__maribelle",
+      "name": "Gaius / Maribelle",
+      "units": [
+        "gaius",
+        "maribelle"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "henry__maribelle",
+      "name": "Henry / Maribelle",
+      "units": [
+        "henry",
+        "maribelle"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "donnel__maribelle",
+      "name": "Donnel / Maribelle",
+      "units": [
+        "donnel",
+        "maribelle"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__panne",
+      "name": "Panne / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "panne"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cordelia__panne",
+      "name": "Cordelia / Panne",
+      "units": [
+        "cordelia",
+        "panne"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "olivia__panne",
+      "name": "Olivia / Panne",
+      "units": [
+        "olivia",
+        "panne"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "libra__panne",
+      "name": "Libra / Panne",
+      "units": [
+        "libra",
+        "panne"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 7,
+        "A": 11,
+        "S": 16
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__panne",
+      "name": "Panne / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "panne"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "gregor__panne",
+      "name": "Gregor / Panne",
+      "units": [
+        "gregor",
+        "panne"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "gaius__panne",
+      "name": "Gaius / Panne",
+      "units": [
+        "gaius",
+        "panne"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "henry__panne",
+      "name": "Henry / Panne",
+      "units": [
+        "henry",
+        "panne"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "donnel__panne",
+      "name": "Donnel / Panne",
+      "units": [
+        "donnel",
+        "panne"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__gaius",
+      "name": "Gaius / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "gaius"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "gaius__libra",
+      "name": "Libra / Gaius",
+      "units": [
+        "gaius",
+        "libra"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "gaius__tharja",
+      "name": "Tharja / Gaius",
+      "units": [
+        "gaius",
+        "tharja"
+      ],
+      "thresholds": {
+        "C": 2,
+        "B": 6,
+        "A": 10,
+        "S": 14
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cordelia__gaius",
+      "name": "Cordelia / Gaius",
+      "units": [
+        "cordelia",
+        "gaius"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 7,
+        "A": 11,
+        "S": 16
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__gaius",
+      "name": "Gaius / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "gaius"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "gaius__nowi",
+      "name": "Nowi / Gaius",
+      "units": [
+        "gaius",
+        "nowi"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "gaius__olivia",
+      "name": "Olivia / Gaius",
+      "units": [
+        "gaius",
+        "olivia"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cherche__gaius",
+      "name": "Cherche / Gaius",
+      "units": [
+        "cherche",
+        "gaius"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__cordelia",
+      "name": "Cordelia / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "cordelia"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cordelia__libra",
+      "name": "Libra / Cordelia",
+      "units": [
+        "cordelia",
+        "libra"
+      ],
+      "thresholds": {
+        "C": 2,
+        "B": 6,
+        "A": 10,
+        "S": 14
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__cordelia",
+      "name": "Cordelia / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "cordelia"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cordelia__gregor",
+      "name": "Gregor / Cordelia",
+      "units": [
+        "cordelia",
+        "gregor"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cordelia__henry",
+      "name": "Henry / Cordelia",
+      "units": [
+        "cordelia",
+        "henry"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cordelia__donnel",
+      "name": "Donnel / Cordelia",
+      "units": [
+        "cordelia",
+        "donnel"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__gregor",
+      "name": "Gregor / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "gregor"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "gregor__nowi",
+      "name": "Nowi / Gregor",
+      "units": [
+        "gregor",
+        "nowi"
+      ],
+      "thresholds": {
+        "C": 2,
+        "B": 6,
+        "A": 10,
+        "S": 14
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "gregor__olivia",
+      "name": "Olivia / Gregor",
+      "units": [
+        "gregor",
+        "olivia"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 7,
+        "A": 11,
+        "S": 16
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__gregor",
+      "name": "Gregor / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "gregor"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cherche__gregor",
+      "name": "Cherche / Gregor",
+      "units": [
+        "cherche",
+        "gregor"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "gregor__tharja",
+      "name": "Tharja / Gregor",
+      "units": [
+        "gregor",
+        "tharja"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__nowi",
+      "name": "Nowi / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "nowi"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cherche__nowi",
+      "name": "Cherche / Nowi",
+      "units": [
+        "cherche",
+        "nowi"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "nowi__tharja",
+      "name": "Tharja / Nowi",
+      "units": [
+        "nowi",
+        "tharja"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__nowi",
+      "name": "Nowi / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "nowi"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "libra__nowi",
+      "name": "Libra / Nowi",
+      "units": [
+        "libra",
+        "nowi"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "henry__nowi",
+      "name": "Henry / Nowi",
+      "units": [
+        "henry",
+        "nowi"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "donnel__nowi",
+      "name": "Donnel / Nowi",
+      "units": [
+        "donnel",
+        "nowi"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__libra",
+      "name": "Libra / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "libra"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__libra",
+      "name": "Libra / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "libra"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "libra__olivia",
+      "name": "Olivia / Libra",
+      "units": [
+        "libra",
+        "olivia"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cherche__libra",
+      "name": "Cherche / Libra",
+      "units": [
+        "cherche",
+        "libra"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "libra__tharja",
+      "name": "Tharja / Libra",
+      "units": [
+        "libra",
+        "tharja"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__tharja",
+      "name": "Tharja / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "tharja"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "henry__tharja",
+      "name": "Henry / Tharja",
+      "units": [
+        "henry",
+        "tharja"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 7,
+        "A": 11,
+        "S": 16
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__tharja",
+      "name": "Tharja / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "tharja"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "donnel__tharja",
+      "name": "Donnel / Tharja",
+      "units": [
+        "donnel",
+        "tharja"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__olivia",
+      "name": "Olivia / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "olivia"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "henry__olivia",
+      "name": "Henry / Olivia",
+      "units": [
+        "henry",
+        "olivia"
+      ],
+      "thresholds": {
+        "C": 2,
+        "B": 6,
+        "A": 10,
+        "S": 14
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__olivia",
+      "name": "Olivia / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "olivia"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "donnel__olivia",
+      "name": "Donnel / Olivia",
+      "units": [
+        "donnel",
+        "olivia"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__cherche",
+      "name": "Cherche / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "cherche"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__cherche",
+      "name": "Cherche / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "cherche"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cherche__henry",
+      "name": "Henry / Cherche",
+      "units": [
+        "cherche",
+        "henry"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cherche__donnel",
+      "name": "Donnel / Cherche",
+      "units": [
+        "cherche",
+        "donnel"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__henry",
+      "name": "Henry / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "henry"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__henry",
+      "name": "Henry / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "henry"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__lucina",
+      "name": "Lucina / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "lucina"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "kjelle__lucina",
+      "name": "Kjelle / Lucina",
+      "units": [
+        "kjelle",
+        "lucina"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "lucina__tiki",
+      "name": "Tiki / Lucina",
+      "units": [
+        "lucina",
+        "tiki"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cynthia__lucina",
+      "name": "Cynthia / Lucina",
+      "units": [
+        "cynthia",
+        "lucina"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "laurent__lucina",
+      "name": "Laurent / Lucina",
+      "units": [
+        "laurent",
+        "lucina"
+      ],
+      "thresholds": {
+        "C": 2,
+        "B": 6,
+        "A": 10,
+        "S": 14
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__lucina",
+      "name": "Lucina / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "lucina"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "gerome__lucina",
+      "name": "Gerome / Lucina",
+      "units": [
+        "gerome",
+        "lucina"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "lucina__owain",
+      "name": "Owain / Lucina",
+      "units": [
+        "lucina",
+        "owain"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "inigo__lucina",
+      "name": "Inigo / Lucina",
+      "units": [
+        "inigo",
+        "lucina"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "brady__lucina",
+      "name": "Brady / Lucina",
+      "units": [
+        "brady",
+        "lucina"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "lucina__yarne",
+      "name": "Yarne / Lucina",
+      "units": [
+        "lucina",
+        "yarne"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "lucina__morgan_m",
+      "name": "Morgan (M) / Lucina",
+      "units": [
+        "lucina",
+        "morgan_m"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__sayri",
+      "name": "Say’ri / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "sayri"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "sayri__tiki",
+      "name": "Tiki / Say’ri",
+      "units": [
+        "sayri",
+        "tiki"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__sayri",
+      "name": "Say’ri / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "sayri"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__basilio",
+      "name": "Basilio / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "basilio"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "basilio__flavia",
+      "name": "Flavia / Basilio",
+      "units": [
+        "basilio",
+        "flavia"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__basilio",
+      "name": "Basilio / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "basilio"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__flavia",
+      "name": "Flavia / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "flavia"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__flavia",
+      "name": "Flavia / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "flavia"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__donnel",
+      "name": "Donnel / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "donnel"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__donnel",
+      "name": "Donnel / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "donnel"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "anna__avatar_f",
+      "name": "Anna / Avatar (F)",
+      "units": [
+        "anna",
+        "avatar_f"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "anna__tiki",
+      "name": "Tiki / Anna",
+      "units": [
+        "anna",
+        "tiki"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "anna__avatar_m",
+      "name": "Anna / Avatar (M)",
+      "units": [
+        "anna",
+        "avatar_m"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__owain",
+      "name": "Owain / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "owain"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "inigo__owain",
+      "name": "Inigo / Owain",
+      "units": [
+        "inigo",
+        "owain"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "morgan_m__owain",
+      "name": "Morgan (M) / Owain",
+      "units": [
+        "morgan_m",
+        "owain"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "brady__owain",
+      "name": "Brady / Owain",
+      "units": [
+        "brady",
+        "owain"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "kjelle__owain",
+      "name": "Kjelle / Owain",
+      "units": [
+        "kjelle",
+        "owain"
+      ],
+      "thresholds": {
+        "C": 2,
+        "B": 6,
+        "A": 10,
+        "S": 14
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__owain",
+      "name": "Owain / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "owain"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cynthia__owain",
+      "name": "Cynthia / Owain",
+      "units": [
+        "cynthia",
+        "owain"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "owain__severa",
+      "name": "Severa / Owain",
+      "units": [
+        "owain",
+        "severa"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "noire__owain",
+      "name": "Noire / Owain",
+      "units": [
+        "noire",
+        "owain"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "nah__owain",
+      "name": "Nah / Owain",
+      "units": [
+        "nah",
+        "owain"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "morgan_f__owain",
+      "name": "Morgan (F) / Owain",
+      "units": [
+        "morgan_f",
+        "owain"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__inigo",
+      "name": "Inigo / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "inigo"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "gerome__inigo",
+      "name": "Gerome / Inigo",
+      "units": [
+        "gerome",
+        "inigo"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "brady__inigo",
+      "name": "Brady / Inigo",
+      "units": [
+        "brady",
+        "inigo"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cynthia__inigo",
+      "name": "Cynthia / Inigo",
+      "units": [
+        "cynthia",
+        "inigo"
+      ],
+      "thresholds": {
+        "C": 2,
+        "B": 6,
+        "A": 10,
+        "S": 14
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__inigo",
+      "name": "Inigo / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "inigo"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "inigo__kjelle",
+      "name": "Kjelle / Inigo",
+      "units": [
+        "inigo",
+        "kjelle"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "inigo__severa",
+      "name": "Severa / Inigo",
+      "units": [
+        "inigo",
+        "severa"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "inigo__noire",
+      "name": "Noire / Inigo",
+      "units": [
+        "inigo",
+        "noire"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "inigo__nah",
+      "name": "Nah / Inigo",
+      "units": [
+        "inigo",
+        "nah"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "inigo__morgan_f",
+      "name": "Morgan (F) / Inigo",
+      "units": [
+        "inigo",
+        "morgan_f"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__brady",
+      "name": "Brady / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "brady"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "brady__yarne",
+      "name": "Yarne / Brady",
+      "units": [
+        "brady",
+        "yarne"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "brady__severa",
+      "name": "Severa / Brady",
+      "units": [
+        "brady",
+        "severa"
+      ],
+      "thresholds": {
+        "C": 2,
+        "B": 6,
+        "A": 10,
+        "S": 14
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__brady",
+      "name": "Brady / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "brady"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "brady__kjelle",
+      "name": "Kjelle / Brady",
+      "units": [
+        "brady",
+        "kjelle"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "brady__cynthia",
+      "name": "Cynthia / Brady",
+      "units": [
+        "brady",
+        "cynthia"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "brady__noire",
+      "name": "Noire / Brady",
+      "units": [
+        "brady",
+        "noire"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "brady__nah",
+      "name": "Nah / Brady",
+      "units": [
+        "brady",
+        "nah"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "brady__morgan_f",
+      "name": "Morgan (F) / Brady",
+      "units": [
+        "brady",
+        "morgan_f"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__kjelle",
+      "name": "Kjelle / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "kjelle"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "kjelle__severa",
+      "name": "Severa / Kjelle",
+      "units": [
+        "kjelle",
+        "severa"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__kjelle",
+      "name": "Kjelle / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "kjelle"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "gerome__kjelle",
+      "name": "Gerome / Kjelle",
+      "units": [
+        "gerome",
+        "kjelle"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "kjelle__yarne",
+      "name": "Yarne / Kjelle",
+      "units": [
+        "kjelle",
+        "yarne"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "kjelle__laurent",
+      "name": "Laurent / Kjelle",
+      "units": [
+        "kjelle",
+        "laurent"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "kjelle__morgan_m",
+      "name": "Morgan (M) / Kjelle",
+      "units": [
+        "kjelle",
+        "morgan_m"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__cynthia",
+      "name": "Cynthia / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "cynthia"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cynthia__nah",
+      "name": "Nah / Cynthia",
+      "units": [
+        "cynthia",
+        "nah"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cynthia__severa",
+      "name": "Severa / Cynthia",
+      "units": [
+        "cynthia",
+        "severa"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__cynthia",
+      "name": "Cynthia / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "cynthia"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cynthia__gerome",
+      "name": "Gerome / Cynthia",
+      "units": [
+        "cynthia",
+        "gerome"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cynthia__yarne",
+      "name": "Yarne / Cynthia",
+      "units": [
+        "cynthia",
+        "yarne"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cynthia__laurent",
+      "name": "Laurent / Cynthia",
+      "units": [
+        "cynthia",
+        "laurent"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "cynthia__morgan_m",
+      "name": "Morgan (M) / Cynthia",
+      "units": [
+        "cynthia",
+        "morgan_m"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__severa",
+      "name": "Severa / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "severa"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "noire__severa",
+      "name": "Noire / Severa",
+      "units": [
+        "noire",
+        "severa"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__severa",
+      "name": "Severa / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "severa"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "gerome__severa",
+      "name": "Gerome / Severa",
+      "units": [
+        "gerome",
+        "severa"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "severa__yarne",
+      "name": "Yarne / Severa",
+      "units": [
+        "severa",
+        "yarne"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "laurent__severa",
+      "name": "Laurent / Severa",
+      "units": [
+        "laurent",
+        "severa"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "morgan_m__severa",
+      "name": "Morgan (M) / Severa",
+      "units": [
+        "morgan_m",
+        "severa"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__gerome",
+      "name": "Gerome / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "gerome"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "gerome__laurent",
+      "name": "Laurent / Gerome",
+      "units": [
+        "gerome",
+        "laurent"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "gerome__nah",
+      "name": "Nah / Gerome",
+      "units": [
+        "gerome",
+        "nah"
+      ],
+      "thresholds": {
+        "C": 2,
+        "B": 6,
+        "A": 10,
+        "S": 14
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__gerome",
+      "name": "Gerome / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "gerome"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "gerome__noire",
+      "name": "Noire / Gerome",
+      "units": [
+        "gerome",
+        "noire"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "gerome__morgan_f",
+      "name": "Morgan (F) / Gerome",
+      "units": [
+        "gerome",
+        "morgan_f"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "morgan_m__yarne",
+      "name": "Yarne / Morgan (M)",
+      "units": [
+        "morgan_m",
+        "yarne"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "morgan_m__noire",
+      "name": "Noire / Morgan (M)",
+      "units": [
+        "morgan_m",
+        "noire"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "morgan_m__nah",
+      "name": "Nah / Morgan (M)",
+      "units": [
+        "morgan_m",
+        "nah"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "morgan_f__noire",
+      "name": "Noire / Morgan (F)",
+      "units": [
+        "morgan_f",
+        "noire"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "morgan_f__nah",
+      "name": "Nah / Morgan (F)",
+      "units": [
+        "morgan_f",
+        "nah"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "morgan_f__yarne",
+      "name": "Yarne / Morgan (F)",
+      "units": [
+        "morgan_f",
+        "yarne"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "laurent__morgan_f",
+      "name": "Laurent / Morgan (F)",
+      "units": [
+        "laurent",
+        "morgan_f"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__yarne",
+      "name": "Yarne / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "yarne"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "laurent__yarne",
+      "name": "Laurent / Yarne",
+      "units": [
+        "laurent",
+        "yarne"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "noire__yarne",
+      "name": "Noire / Yarne",
+      "units": [
+        "noire",
+        "yarne"
+      ],
+      "thresholds": {
+        "C": 2,
+        "B": 6,
+        "A": 10,
+        "S": 14
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__yarne",
+      "name": "Yarne / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "yarne"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "nah__yarne",
+      "name": "Nah / Yarne",
+      "units": [
+        "nah",
+        "yarne"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__laurent",
+      "name": "Laurent / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "laurent"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__laurent",
+      "name": "Laurent / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "laurent"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "laurent__noire",
+      "name": "Noire / Laurent",
+      "units": [
+        "laurent",
+        "noire"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "laurent__nah",
+      "name": "Nah / Laurent",
+      "units": [
+        "laurent",
+        "nah"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__noire",
+      "name": "Noire / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "noire"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__noire",
+      "name": "Noire / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "noire"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__nah",
+      "name": "Nah / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "nah"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "nah__tiki",
+      "name": "Tiki / Nah",
+      "units": [
+        "nah",
+        "tiki"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__nah",
+      "name": "Nah / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "nah"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__tiki",
+      "name": "Tiki / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "tiki"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__tiki",
+      "name": "Tiki / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "tiki"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__gangrel",
+      "name": "Gangrel / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "gangrel"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__walhart",
+      "name": "Walhart / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "walhart"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__yenfay",
+      "name": "Yen’fay / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "yenfay"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__priam",
+      "name": "Priam / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "priam"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__gangrel",
+      "name": "Gangrel / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "gangrel"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__walhart",
+      "name": "Walhart / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "walhart"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__yenfay",
+      "name": "Yen’fay / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "yenfay"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__priam",
+      "name": "Priam / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "priam"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__emmeryn",
+      "name": "Emmeryn / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "emmeryn"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_f__aversa",
+      "name": "Aversa / Avatar (F)",
+      "units": [
+        "avatar_f",
+        "aversa"
+      ],
+      "thresholds": {
+        "C": 3,
+        "B": 8,
+        "A": 15,
+        "S": null
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__emmeryn",
+      "name": "Emmeryn / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "emmeryn"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    },
+    {
+      "id": "avatar_m__aversa",
+      "name": "Aversa / Avatar (M)",
+      "units": [
+        "avatar_m",
+        "aversa"
+      ],
+      "thresholds": {
+        "C": 4,
+        "B": 8,
+        "A": 13,
+        "S": 18
+      },
+      "threshold_basis": "total_accumulated_points",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Fixed-parent/sibling edges are conditional on actual parentage; not included by this threshold table."
+    }
+  ]
+}

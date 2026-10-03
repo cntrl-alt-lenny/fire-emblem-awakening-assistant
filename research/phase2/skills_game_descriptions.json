@@ -1,0 +1,17 @@
+[
+  {
+    "id": "skills_game_descriptions_0",
+    "name": "Skill Descriptions (Awakening) - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Skill_Descriptions_%28Awakening%29",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "accessed",
+    "normalized_facts": {
+      "vantage_hp_condition": "2*current_hp<=max_hp",
+      "wrath_hp_condition": "2*current_hp<=max_hp",
+      "wrath_critical_bonus": 20
+    }
+  }
+]

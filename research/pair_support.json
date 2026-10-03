@@ -1,0 +1,1048 @@
+[
+  {
+    "source_id": "pair_support",
+    "name": "Pair Up - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/pair-up/",
+    "accessed": "2026-10-02",
+    "verification": "extracted_unreviewed",
+    "tables": [
+      {
+        "section": "Pair Up Bonuses",
+        "rows": [
+          [
+            "Property",
+            "Calculation"
+          ]
+        ]
+      },
+      {
+        "section": "Pair Up Bonuses",
+        "rows": [
+          [
+            "Pair Up bonus",
+            "= Support unit’s stat bonus + Support unit’s class bonus + Support level bonus"
+          ]
+        ]
+      },
+      {
+        "section": "Support Unit’s Class Bonus",
+        "rows": [
+          [
+            "Class",
+            "Str",
+            "Mag",
+            "Skl",
+            "Spd",
+            "Lck",
+            "Def",
+            "Res",
+            "Mov"
+          ]
+        ]
+      },
+      {
+        "section": "Support Unit’s Class Bonus",
+        "rows": [
+          [
+            "Lord",
+            "",
+            "",
+            "",
+            "3",
+            "3",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Great Lord",
+            "",
+            "",
+            "",
+            "4",
+            "4",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Tactician",
+            "1",
+            "1",
+            "2",
+            "2",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Grandmaster",
+            "2",
+            "2",
+            "2",
+            "2",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Cavalier",
+            "2",
+            "",
+            "1",
+            "1",
+            "",
+            "2",
+            "",
+            ""
+          ],
+          [
+            "Paladin",
+            "2",
+            "",
+            "2",
+            "2",
+            "",
+            "2",
+            "",
+            ""
+          ],
+          [
+            "Great Knight",
+            "3",
+            "",
+            "",
+            "",
+            "",
+            "3",
+            "",
+            "1"
+          ],
+          [
+            "Knight",
+            "2",
+            "",
+            "",
+            "",
+            "",
+            "4",
+            "",
+            ""
+          ],
+          [
+            "General",
+            "3",
+            "",
+            "",
+            "",
+            "",
+            "5",
+            "",
+            ""
+          ],
+          [
+            "Myrmidon",
+            "",
+            "",
+            "",
+            "4",
+            "2",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Swordmaster",
+            "",
+            "",
+            "",
+            "5",
+            "3",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Mercenary",
+            "",
+            "",
+            "2",
+            "3",
+            "",
+            "1",
+            "",
+            ""
+          ],
+          [
+            "Hero",
+            "",
+            "",
+            "3",
+            "3",
+            "",
+            "2",
+            "",
+            ""
+          ],
+          [
+            "Fighter",
+            "4",
+            "",
+            "",
+            "",
+            "",
+            "2",
+            "",
+            ""
+          ],
+          [
+            "Warrior",
+            "5",
+            "",
+            "",
+            "",
+            "",
+            "3",
+            "",
+            ""
+          ],
+          [
+            "Barbarian",
+            "4",
+            "",
+            "",
+            "2",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Berserker",
+            "5",
+            "",
+            "",
+            "3",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Archer",
+            "2",
+            "",
+            "2",
+            "",
+            "",
+            "2",
+            "",
+            ""
+          ],
+          [
+            "Sniper",
+            "3",
+            "",
+            "3",
+            "",
+            "",
+            "2",
+            "",
+            ""
+          ],
+          [
+            "Bow Knight",
+            "",
+            "",
+            "3",
+            "3",
+            "",
+            "",
+            "",
+            "1"
+          ],
+          [
+            "Class",
+            "Str",
+            "Mag",
+            "Skl",
+            "Spd",
+            "Lck",
+            "Def",
+            "Res",
+            "Mov"
+          ]
+        ]
+      },
+      {
+        "section": "Support Unit’s Class Bonus",
+        "rows": [
+          [
+            "Thief",
+            "",
+            "",
+            "2",
+            "2",
+            "",
+            "",
+            "",
+            "1"
+          ],
+          [
+            "Assassin",
+            "2",
+            "",
+            "2",
+            "4",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Trickster",
+            "",
+            "2",
+            "1",
+            "3",
+            "",
+            "",
+            "",
+            "1"
+          ],
+          [
+            "Pegasus Knight",
+            "",
+            "",
+            "",
+            "3",
+            "",
+            "",
+            "3",
+            ""
+          ],
+          [
+            "Falcon Knight",
+            "",
+            "",
+            "",
+            "4",
+            "",
+            "",
+            "4",
+            ""
+          ],
+          [
+            "Dark Flier",
+            "",
+            "3",
+            "",
+            "3",
+            "",
+            "",
+            "2",
+            ""
+          ],
+          [
+            "Wyvern Rider",
+            "3",
+            "",
+            "",
+            "",
+            "",
+            "3",
+            "",
+            ""
+          ],
+          [
+            "Wyvern Lord",
+            "4",
+            "",
+            "",
+            "",
+            "",
+            "4",
+            "",
+            ""
+          ],
+          [
+            "Griffon Rider",
+            "3",
+            "",
+            "",
+            "",
+            "1",
+            "2",
+            "",
+            "1"
+          ],
+          [
+            "Mage",
+            "",
+            "4",
+            "2",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Sage",
+            "",
+            "4",
+            "2",
+            "",
+            "",
+            "",
+            "2",
+            ""
+          ],
+          [
+            "Dark Mage",
+            "",
+            "3",
+            "",
+            "",
+            "",
+            "3",
+            "",
+            ""
+          ],
+          [
+            "Sorcerer",
+            "",
+            "3",
+            "",
+            "",
+            "",
+            "2",
+            "3",
+            ""
+          ],
+          [
+            "Dark Knight",
+            "",
+            "2",
+            "",
+            "",
+            "",
+            "3",
+            "1",
+            "1"
+          ],
+          [
+            "Priest, Cleric",
+            "",
+            "2",
+            "",
+            "",
+            "2",
+            "",
+            "2",
+            ""
+          ],
+          [
+            "War Monk/Cleric",
+            "2",
+            "2",
+            "",
+            "",
+            "2",
+            "",
+            "2",
+            ""
+          ],
+          [
+            "Troubadour",
+            "",
+            "2",
+            "",
+            "1",
+            "",
+            "",
+            "3",
+            ""
+          ],
+          [
+            "Valkyrie",
+            "",
+            "3",
+            "",
+            "2",
+            "",
+            "",
+            "3",
+            ""
+          ],
+          [
+            "Villager",
+            "",
+            "",
+            "3",
+            "",
+            "3",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Dancer",
+            "",
+            "",
+            "",
+            "3",
+            "3",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Class",
+            "Str",
+            "Mag",
+            "Skl",
+            "Spd",
+            "Lck",
+            "Def",
+            "Res",
+            "Mov"
+          ]
+        ]
+      },
+      {
+        "section": "Support Unit’s Class Bonus",
+        "rows": [
+          [
+            "Taguel",
+            "3",
+            "",
+            "2",
+            "3",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Manakete",
+            "2",
+            "2",
+            "",
+            "",
+            "",
+            "2",
+            "2",
+            ""
+          ],
+          [
+            "Lodestar",
+            "2",
+            "",
+            "",
+            "3",
+            "3",
+            "",
+            "",
+            ""
+          ],
+          [
+            "Dread Fighter",
+            "3",
+            "1",
+            "",
+            "1",
+            "",
+            "",
+            "3",
+            ""
+          ],
+          [
+            "Bride",
+            "",
+            "2",
+            "",
+            "2",
+            "2",
+            "",
+            "2",
+            ""
+          ],
+          [
+            "Conqueror",
+            "2",
+            "",
+            "",
+            "2",
+            "",
+            "2",
+            "",
+            "1"
+          ]
+        ]
+      },
+      {
+        "section": "Example",
+        "rows": [
+          [
+            "Parameter",
+            "Str",
+            "Mag",
+            "Skl",
+            "Spd",
+            "Lck",
+            "Def",
+            "Res",
+            "Mov"
+          ]
+        ]
+      },
+      {
+        "section": "Example",
+        "rows": [
+          [
+            "Avatar’s stats",
+            "25",
+            "31",
+            "27",
+            "22",
+            "33",
+            "15",
+            "19",
+            "6"
+          ],
+          [
+            "Stat bonus",
+            "2",
+            "3",
+            "2",
+            "2",
+            "3",
+            "1",
+            "1",
+            "0"
+          ],
+          [
+            "Class bonus",
+            "2",
+            "2",
+            "2",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "Support level bonus",
+            "2",
+            "2",
+            "2",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "Pair Up bonus",
+            "6",
+            "7",
+            "6",
+            "6",
+            "3",
+            "1",
+            "1",
+            "0"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source_id": "pair_support_1",
+    "name": "Dual System - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/dual-system/",
+    "accessed": "2026-10-02",
+    "verification": "extracted_unreviewed",
+    "tables": [
+      {
+        "section": "Support Bonuses",
+        "rows": [
+          [
+            "Support rank",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"
+          ]
+        ]
+      },
+      {
+        "section": "Support Bonuses",
+        "rows": [
+          [
+            "Hit rate+",
+            "10",
+            "10",
+            "10",
+            "10",
+            "15",
+            "15",
+            "15",
+            "15",
+            "20",
+            "20",
+            "20",
+            "20"
+          ],
+          [
+            "Avoid+",
+            "0",
+            "10",
+            "10",
+            "10",
+            "10",
+            "15",
+            "15",
+            "15",
+            "15",
+            "20",
+            "20",
+            "20"
+          ],
+          [
+            "Critical+",
+            "0",
+            "0",
+            "0",
+            "10",
+            "10",
+            "10",
+            "10",
+            "15",
+            "15",
+            "15",
+            "15",
+            "20"
+          ],
+          [
+            "Critical Avoid+",
+            "0",
+            "0",
+            "10",
+            "10",
+            "10",
+            "10",
+            "15",
+            "15",
+            "15",
+            "15",
+            "20",
+            "20"
+          ]
+        ]
+      },
+      {
+        "section": "Dual Strike",
+        "rows": [
+          [
+            "Support Lv.",
+            "Dual Strike rate [%]"
+          ]
+        ]
+      },
+      {
+        "section": "Dual Strike",
+        "rows": [
+          [
+            "–",
+            "(Lead & Support unit’s combined Skill / 4) + 20"
+          ],
+          [
+            "C",
+            "(Lead & Support unit’s combined Skill / 4) + 30"
+          ],
+          [
+            "B",
+            "(Lead & Support unit’s combined Skill / 4) + 40"
+          ],
+          [
+            "A",
+            "(Lead & Support unit’s combined Skill / 4) + 50"
+          ],
+          [
+            "S",
+            "(Lead & Support unit’s combined Skill / 4) + 60"
+          ]
+        ]
+      },
+      {
+        "section": "Dual Guard",
+        "rows": [
+          [
+            "Support Lv.",
+            "Dual Guard rate [%]"
+          ]
+        ]
+      },
+      {
+        "section": "Dual Guard",
+        "rows": [
+          [
+            "–",
+            "(Lead & Support unit’s combined Def or Res / 4)"
+          ],
+          [
+            "C",
+            "(Lead & Support unit’s combined Def or Res / 4) + 2"
+          ],
+          [
+            "B",
+            "(Lead & Support unit’s combined Def or Res / 4) + 5"
+          ],
+          [
+            "A",
+            "(Lead & Support unit’s combined Def or Res / 4) + 7"
+          ],
+          [
+            "S",
+            "(Lead & Support unit’s combined Def or Res / 4) + 10"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source_id": "pair_support_2",
+    "name": "Supports - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/characters/supports/",
+    "accessed": "2026-10-02",
+    "verification": "extracted_unreviewed",
+    "tables": [
+      {
+        "section": "Supports",
+        "rows": [
+          [
+            "Navigation",
+            "Support Basics",
+            "Support List",
+            "Support Growth"
+          ]
+        ]
+      },
+      {
+        "section": "Support List",
+        "rows": [
+          [
+            "Character(s)",
+            "Possible supports"
+          ]
+        ]
+      },
+      {
+        "section": "Support List",
+        "rows": [
+          [
+            "Avatar",
+            "Every character (marriage only possible if the opposite gender)"
+          ],
+          [
+            "Chrom",
+            "Frederick, Lissa, Sully, Vaike, Sumia, Maribelle, Gaius, Olivia"
+          ],
+          [
+            "Sumia",
+            "Chrom, Frederick, Sully, Gaius, Cordelia, Henry"
+          ],
+          [
+            "Frederick, Virion, Stahl, Vaike, Kellam, Lon’qu, Ricken, Gaius, Donnel, Gregor, Libra, Henry",
+            "Lissa, Sully, Miriel, Maribelle, Panne, Cordelia, Nowi, Tharja, Olivia, Cherche"
+          ],
+          [
+            "Parents",
+            "Their children"
+          ],
+          [
+            "Morgan, Lucina",
+            "Their siblings"
+          ],
+          [
+            "Owain, Inigo, Brady, Gerome, Morgan (M), Yarne, Laurent",
+            "Lucina, Kjelle, Cynthia, Severa, Morgan (F), Noire, Nah *1"
+          ]
+        ]
+      },
+      {
+        "section": "Support List",
+        "rows": [
+          [
+            "Character",
+            "Possible supports",
+            "Character",
+            "Possible supports"
+          ]
+        ]
+      },
+      {
+        "section": "Support List",
+        "rows": [
+          [
+            "Lissa",
+            "Chrom, Maribelle",
+            "Owain",
+            "Inigo, Brady, Morgan (M)"
+          ],
+          [
+            "Frederick",
+            "Chrom, Virion, Sumia, Henry",
+            "Inigo",
+            "Owain, Brady, Gerome"
+          ],
+          [
+            "Sully",
+            "Chrom, Miriel, Sumia",
+            "Brady",
+            "Owain, Inigo, Yarne"
+          ],
+          [
+            "Virion",
+            "Frederick, Libra",
+            "Kjelle",
+            "Lucina, Severa"
+          ],
+          [
+            "Stahl",
+            "Kellam, Donnel",
+            "Cynthia",
+            "Lucina, Severa, Nah"
+          ],
+          [
+            "Vaike",
+            "Chrom, Lon’qu",
+            "Severa",
+            "Kjelle, Cynthia, Noire"
+          ],
+          [
+            "Miriel",
+            "Sully, Cherche",
+            "Gerome",
+            "Inigo, Laurent"
+          ],
+          [
+            "Kellam",
+            "Stahl, Donnel",
+            "Morgan (M)",
+            "Owain, Yarne"
+          ],
+          [
+            "Donnel",
+            "Stahl, Kellam",
+            "Morgan (F)",
+            "Noire, Nah"
+          ],
+          [
+            "Lon’qu",
+            "Vaike, Gregor",
+            "Yarne",
+            "Brady, Morgan (M), Laurent"
+          ],
+          [
+            "Ricken",
+            "Gregor, Henry",
+            "Laurent",
+            "Gerome, Yarne"
+          ],
+          [
+            "Maribelle",
+            "Chrom, Lissa, Olivia",
+            "Noire",
+            "Severa, Morgan (F)"
+          ],
+          [
+            "Panne",
+            "Cordelia, Olivia",
+            "Nah",
+            "Cynthia, Morgan (F), Tiki"
+          ],
+          [
+            "Gaius",
+            "Chrom, Sumia, Libra",
+            "Say’ri",
+            "Tiki"
+          ],
+          [
+            "Cordelia",
+            "Sumia, Panne",
+            "Tiki",
+            "Anna, Say’ri, Lucina, Nah"
+          ],
+          [
+            "Gregor",
+            "Lon’qu, Ricken",
+            "Basilio",
+            "Flavia"
+          ],
+          [
+            "Nowi",
+            "Tharja, Cherche",
+            "Flavia",
+            "Basilio"
+          ],
+          [
+            "Libra",
+            "Virion, Gaius",
+            "Gangrel",
+            "–"
+          ],
+          [
+            "Tharja",
+            "Nowi",
+            "Walhart",
+            "–"
+          ],
+          [
+            "Anna",
+            "Tiki",
+            "Emmeryn",
+            "–"
+          ],
+          [
+            "Olivia",
+            "Chrom, Maribelle, Panne",
+            "Yen’fay",
+            "–"
+          ],
+          [
+            "Cherche",
+            "Miriel, Nowi",
+            "Aversa",
+            "–"
+          ],
+          [
+            "Henry",
+            "Frederick, Sumia, Ricken",
+            "Priam",
+            "–"
+          ],
+          [
+            "Lucina",
+            "Kjelle, Cynthia, Tiki",
+            "–",
+            "–"
+          ]
+        ]
+      }
+    ]
+  }
+]

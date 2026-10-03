@@ -1,0 +1,223 @@
+[
+  {
+    "id": "guide_36_0",
+    "name": "Sidequest 9 Wings of Justice - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-9-wings-of-justice",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "timing_label": null,
+        "map_heading": "Sidequest 9 Wings of Justice",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Ruger",
+            "Trickster",
+            "12",
+            "Levin Sword, Bullion (L)"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "timing_label": null,
+        "map_heading": "Sidequest 9 Wings of Justice",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Cynthia",
+            "Pegasus Knight",
+            "10",
+            "Enemy: Talk with Chrom or Sumia"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Sidequest 9:",
+        "map_heading": "Sidequest 9 Wings of Justice",
+        "text": "Location: Verdant Forest"
+      },
+      {
+        "section": "Note: Sidequest 9:",
+        "map_heading": "Sidequest 9 Wings of Justice",
+        "text": "Condition: Defeat Enemy"
+      },
+      {
+        "section": "Note: Sidequest 9:",
+        "map_heading": "Sidequest 9 Wings of Justice",
+        "text": "Character Limit: 13 (Including Chrom)"
+      }
+    ],
+    "access_status": "accessed"
+  },
+  {
+    "id": "guide_36_1",
+    "name": "Sidequest 10 Ambivalence - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-10-ambivalence",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "timing_label": null,
+        "map_heading": "Sidequest 10 Ambivalence",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Nelson",
+            "Sage",
+            "13",
+            "Thoron, Talisman"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "timing_label": null,
+        "map_heading": "Sidequest 10 Ambivalence",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Severa",
+            "Mercenary",
+            "10",
+            "NPC: Let her talk to Holland"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Sidequest 10:",
+        "map_heading": "Sidequest 10 Ambivalence",
+        "text": "Location: Mercenary Fortress"
+      },
+      {
+        "section": "Note: Sidequest 10:",
+        "map_heading": "Sidequest 10 Ambivalence",
+        "text": "Condition: Defeat Enemy"
+      },
+      {
+        "section": "Note: Sidequest 10:",
+        "map_heading": "Sidequest 10 Ambivalence",
+        "text": "Character Limit: 13 (Including Chrom)"
+      }
+    ],
+    "access_status": "accessed"
+  },
+  {
+    "id": "guide_36_2",
+    "name": "Sidequest 11 Twin Wyverns - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-11-twin-wyverns",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [],
+    "factual_candidates": [
+      {
+        "section": "Note: Sidequest 11:",
+        "map_heading": "Sidequest 11 Twin Wyverns",
+        "text": "Location: Wyvern Valley"
+      },
+      {
+        "section": "Note: Sidequest 11:",
+        "map_heading": "Sidequest 11 Twin Wyverns",
+        "text": "Condition: Defeat Enemy"
+      },
+      {
+        "section": "Note: Sidequest 11:",
+        "map_heading": "Sidequest 11 Twin Wyverns",
+        "text": "Character Limit: 13 (Including Chrom)"
+      }
+    ],
+    "access_status": "accessed"
+  },
+  {
+    "id": "guide_36_3",
+    "name": "Sidequest 12 Disowned by Time - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-12-disowned-by-time",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "timing_label": null,
+        "map_heading": "Sidequest 12 Disowned by Time",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Risen Chief",
+            "Griffon Rider",
+            "10",
+            "Tomahawk, Goddess Icon"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "timing_label": null,
+        "map_heading": "Sidequest 12 Disowned by Time",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Morgan",
+            "See note below",
+            "10",
+            "NPC: Talk with Chrom or Avatar"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Sidequest 12:",
+        "map_heading": "Sidequest 12 Disowned by Time",
+        "text": "Location: The Ruins of Time"
+      },
+      {
+        "section": "Note: Sidequest 12:",
+        "map_heading": "Sidequest 12 Disowned by Time",
+        "text": "Condition: Defeat Boss"
+      },
+      {
+        "section": "Note: Sidequest 12:",
+        "map_heading": "Sidequest 12 Disowned by Time",
+        "text": "Character Limit: 13 (Including Chrom)"
+      }
+    ],
+    "access_status": "accessed"
+  }
+]

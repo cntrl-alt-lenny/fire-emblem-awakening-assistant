@@ -1,0 +1,357 @@
+[
+  {
+    "id": "survey_24_0",
+    "name": "History Mode Guide - Invisible Ties (Warriors) - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/History_Mode_Guide_-_Invisible_Ties_%28Warriors%29",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_24_1",
+    "name": "Awakening LM Enemy Data: Endgame - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_LM_Enemy_Data%3A_Endgame",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [
+      {
+        "section": "",
+        "rows": [
+          [
+            "\ue200cite\ue202turn74search5\ue201 [wordlim: 200] Crawled: 9 months ago; # Awakening LM Enemy Data: Endgame ... Grima",
+            "Grima",
+            "30",
+            "99",
+            "50",
+            "40",
+            "50",
+            "45",
+            "45",
+            "50",
+            "50",
+            "-",
+            "-",
+            "Expiration",
+            "Anathema, Ignis, Pavise, Dragonskin, Rightful God ... Reinforcements appear in the following progression, having the same data as starting enemies of the same class:"
+          ]
+        ]
+      },
+      {
+        "section": "Starting",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "LV",
+            "HP",
+            "Str",
+            "Mag",
+            "Skl",
+            "Spd",
+            "Luck",
+            "Def",
+            "Res",
+            "Mov",
+            "Weapon Rank",
+            "Equipment",
+            "Skills"
+          ],
+          [
+            "Grima",
+            "Grima",
+            "30",
+            "99",
+            "50",
+            "40",
+            "50",
+            "45",
+            "45",
+            "50",
+            "50",
+            "-",
+            "-",
+            "Expiration",
+            "Anathema, Ignis, Pavise, Dragonskin, Rightful God"
+          ],
+          [
+            "Grimleal",
+            "General",
+            "20",
+            "80",
+            "44",
+            "0",
+            "31",
+            "23",
+            "30",
+            "38",
+            "17",
+            "5",
+            "A, A",
+            "Spear++",
+            "Hit Rate +20, Pavise, Random"
+          ],
+          [
+            "Grimleal",
+            "Berserker",
+            "20",
+            "80",
+            "50+5",
+            "0",
+            "24",
+            "37",
+            "22",
+            "21",
+            "11",
+            "6",
+            "A",
+            "Tomahawk++",
+            "Hit Rate +20, Axefaire, Random"
+          ],
+          [
+            "Grimleal",
+            "General",
+            "20",
+            "80",
+            "44",
+            "0",
+            "31",
+            "23",
+            "30",
+            "38",
+            "17",
+            "5",
+            "A, A",
+            "Spear++",
+            "Hit Rate +20, Pavise, Random"
+          ],
+          [
+            "Grimleal",
+            "Berserker",
+            "20",
+            "80",
+            "50+5",
+            "0",
+            "24",
+            "37",
+            "22",
+            "21",
+            "11",
+            "6",
+            "A",
+            "Tomahawk++",
+            "Hit Rate +20, Axefaire, Random"
+          ],
+          [
+            "Grimleal",
+            "General",
+            "20",
+            "80",
+            "44",
+            "0",
+            "31",
+            "23",
+            "30",
+            "38",
+            "17",
+            "5",
+            "A, A",
+            "Spear++",
+            "Hit Rate +20, Pavise, Random"
+          ]
+        ]
+      },
+      {
+        "section": "Reinforcements",
+        "rows": [
+          [
+            "Turn 2",
+            "Paladin",
+            "Wyvern Lord",
+            "Assassin",
+            "General",
+            "-",
+            "-",
+            "-",
+            "-"
+          ],
+          [
+            "Turn 3",
+            "Hero",
+            "Sage",
+            "War Monk",
+            "Swordmaster",
+            "War Monk",
+            "Assassin",
+            "Hero",
+            "Great Knight"
+          ],
+          [
+            "Turn 4",
+            "Trickster",
+            "Great Knight",
+            "Berserker",
+            "Griffon Rider",
+            "General",
+            "Wyvern Lord",
+            "Dark Flier",
+            "Assassin"
+          ],
+          [
+            "Turn 5",
+            "Valkyrie",
+            "Hero",
+            "Falcon Knight",
+            "Paladin",
+            "-",
+            "-",
+            "-",
+            "-"
+          ],
+          [
+            "Turn 6",
+            "Great Knight",
+            "Assassin",
+            "Dark Knight",
+            "Sniper",
+            "-",
+            "-",
+            "-",
+            "-"
+          ],
+          [
+            "Turn 7",
+            "Bow Knight",
+            "Griffon Rider",
+            "Hero",
+            "Wyvern Lord",
+            "Wyvern Lord",
+            "General",
+            "Sniper",
+            "Sniper"
+          ],
+          [
+            "Turn 8",
+            "Falcon Knight",
+            "Dark Knight",
+            "Wyvern Lord",
+            "Sorcerer",
+            "Paladin",
+            "Sniper",
+            "Griffon Rider",
+            "Valkyrie"
+          ],
+          [
+            "Turn 9",
+            "War Monk",
+            "General",
+            "Paladin",
+            "Hero",
+            "-",
+            "-",
+            "-",
+            "-"
+          ],
+          [
+            "Turn 10",
+            "General",
+            "Bow Knight",
+            "Sniper",
+            "Dark Flier",
+            "-",
+            "-",
+            "-",
+            "-"
+          ],
+          [
+            "Turn 11",
+            "Sniper",
+            "Trickster",
+            "Valkyrie",
+            "Dark Knight",
+            "Falcon Knight",
+            "War Monk",
+            "Assassin",
+            "Wyvern Lord"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_24_2",
+    "name": "Chapter 23: Invisible Ties (Script) - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php?title=Chapter_23%3A_Invisible_Ties_%28Script%29",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_24_3",
+    "name": "Awakening Shops - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_Shops",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_24_4",
+    "name": "Endgame: Grima (Script) - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Endgame%3A_Grima_%28Script%29",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_24_5",
+    "name": "History Mode Guide (Warriors) - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/History_Mode_Guide_%28Warriors%29",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_24_6",
+    "name": "Awakening LM Enemy Data: Roster Rescue - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_LM_Enemy_Data%3A_Roster_Rescue",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [
+      {
+        "section": "",
+        "rows": [
+          [
+            "\ue200cite\ue202turn74search11\ue201 [wordlim: 200] Crawled: 9 months ago; ## Reinforcements ... Risen",
+            "Trickster",
+            "20",
+            "80",
+            "35",
+            "27",
+            "45",
+            "43",
+            "38",
+            "30",
+            "35",
+            "6+1",
+            "A, A",
+            "Silver Sword++",
+            "Movement +1, Lucky Seven, Renewal, Acrobat, Axebreaker ... Turn 4"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  }
+]

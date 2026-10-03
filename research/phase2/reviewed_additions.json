@@ -1,0 +1,644 @@
+{
+  "sources": [
+    {
+      "id": "p2_exp_empirical",
+      "name": "Tables and Remnant Sage: empirical Awakening EXP investigation",
+      "url": "https://forums.serenesforest.net/topic/42942-lets-solve-the-awakening-exp-formula/",
+      "accessed": "2026-10-02",
+      "scope": [
+        "Observed Champions of Yore 1 EXP sequence; Rescue staff level exceptions"
+      ],
+      "verification": "original_empirical_reference",
+      "limitations": "Origin of Serenes Forest EXP formulas, not independent confirmation. Early speculative posts are not accepted facts. Multiplier rounding and repeated Lunatic engagements lack completed worked verification."
+    },
+    {
+      "id": "p2_mend",
+      "name": "Mend \u2014 Fire Emblem Wiki",
+      "url": "https://fireemblemwiki.org/wiki/Mend",
+      "accessed": "2026-10-02",
+      "scope": [
+        "Awakening Mend healing coefficient, stats and base EXP"
+      ],
+      "verification": "independent_reference",
+      "limitations": "Only the Awakening row is applicable; other games use different formulas."
+    },
+    {
+      "id": "p2_physic",
+      "name": "Physic \u2014 Fire Emblem Wiki",
+      "url": "https://fireemblemwiki.org/wiki/Physic",
+      "accessed": "2026-10-02",
+      "scope": [
+        "Awakening Physic healing coefficient, range, stats and base EXP"
+      ],
+      "verification": "independent_reference",
+      "limitations": "Only Awakening rows applicable; rank and Healtouch bonuses come from separate sources."
+    },
+    {
+      "id": "p2_guide_scope",
+      "name": "Gamer Guides: Reading this guide",
+      "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/information/reading-this-guide",
+      "accessed": "2026-10-02",
+      "scope": [
+        "Guide's stated Hard-mode default"
+      ],
+      "verification": "source_scope_statement",
+      "limitations": "Do not extend unspecified guide details to other modes."
+    },
+    {
+      "id": "p2_exp_staff_empirical",
+      "name": "Tables: observed staff EXP exceptions and Rescue sequence",
+      "url": "https://forums.serenesforest.net/topic/42942-lets-solve-the-awakening-exp-formula/page/2/",
+      "accessed": "2026-10-02",
+      "scope": [
+        "Rescue internal levels26\u201333: 33,32,32,32,32,31,31,30 EXP without ordinary-unpromoted difficulty bonus; level8/11/30 exceptions"
+      ],
+      "verification": "original_empirical_reference",
+      "limitations": "Original source behind SF calculations, not independent; final-expression truncation inferred from reported worked sequence."
+    },
+    {
+      "id": "p2_iron_sword",
+      "name": "Iron Sword \u2014 Fire Emblem Wiki",
+      "url": "https://fireemblemwiki.org/wiki/Iron_Sword",
+      "accessed": "2026-10-02",
+      "scope": [
+        "Awakening Iron Sword numeric stats"
+      ],
+      "verification": "independent_reference",
+      "limitations": "Awakening-specific row only."
+    },
+    {
+      "id": "p2_pavise",
+      "name": "Pavise \u2014 Fire Emblem Wiki",
+      "url": "https://fireemblemwiki.org/wiki/Pavise",
+      "accessed": "2026-10-02",
+      "scope": [
+        "Awakening Pavise weapon categories, activation, General level15; Pavise+ enemy/DLC availability"
+      ],
+      "verification": "independent_reference",
+      "limitations": "Intro summarizes multiple games; only Awakening rows used."
+    }
+  ],
+  "wave_claims": [
+    {
+      "chapter_id": "chapter_7",
+      "difficulty": "Hard",
+      "turns": [
+        5
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "Western map edge",
+      "spawn_phase": "beginning_enemy_phase",
+      "units": [
+        {
+          "count": 3,
+          "class_id": "wyvern_rider",
+          "level": 7,
+          "equipment": [
+            "steel_axe"
+          ]
+        }
+      ],
+      "source_ids": [
+        "reinforcements_early_1",
+        "p2_guide_08_0"
+      ],
+      "crosscheck_status": "western arrival independently described; exact turn/class/equipment single-source"
+    },
+    {
+      "chapter_id": "chapter_10",
+      "difficulty": "Hard",
+      "turns": [
+        6
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "Western forts",
+      "spawn_phase": "beginning_enemy_phase",
+      "units": [
+        {
+          "count": 1,
+          "class_id": "wyvern_rider",
+          "level": 13,
+          "equipment": [
+            "steel_axe"
+          ]
+        },
+        {
+          "count": 1,
+          "class_id": "wyvern_rider",
+          "level": 13,
+          "equipment": [
+            "hand_axe"
+          ]
+        }
+      ],
+      "source_ids": [
+        "reinforcements_mid_0"
+      ],
+      "crosscheck_status": "single indexed reference"
+    },
+    {
+      "chapter_id": "chapter_15",
+      "difficulty": "Hard",
+      "turns": [
+        4
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "Bottom / southeastern map edge; exact tiles UNKNOWN",
+      "spawn_phase": "beginning_enemy_phase",
+      "units": [
+        {
+          "count": 1,
+          "class_id": "sniper",
+          "level": 3,
+          "equipment": [
+            "longbow"
+          ],
+          "location": "bottom"
+        },
+        {
+          "count": 2,
+          "class_id": "warrior",
+          "level": 3,
+          "equipment": [
+            "silver_axe",
+            "silver_bow"
+          ],
+          "location": "southeast",
+          "possible_skill": "Counter (not a guaranteed roll)"
+        },
+        {
+          "count": 1,
+          "class_id": "fighter",
+          "level": 20,
+          "equipment": [
+            "silver_axe"
+          ],
+          "location": "southeast"
+        },
+        {
+          "count": 1,
+          "class_id": "fighter",
+          "level": 20,
+          "equipment": [
+            "tomahawk",
+            "concoction"
+          ],
+          "location": "southeast"
+        },
+        {
+          "count": 1,
+          "class_id": "sniper",
+          "level": 3,
+          "equipment": [
+            "longbow"
+          ],
+          "location": "southeast"
+        }
+      ],
+      "source_ids": [
+        "reinforcements_14_16_0"
+      ],
+      "crosscheck_status": "single indexed reference"
+    },
+    {
+      "chapter_id": "chapter_15",
+      "difficulty": "Hard",
+      "turns": [
+        5
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "West, east, southwest and southeast edges",
+      "spawn_phase": "beginning_enemy_phase",
+      "units": [
+        {
+          "count": 2,
+          "class_id": "falcon_knight",
+          "level": 3,
+          "equipment": [
+            "silver_lance"
+          ],
+          "location": "west"
+        },
+        {
+          "count": 1,
+          "class_id": "falcon_knight",
+          "level": 3,
+          "equipment": [
+            "silver_lance"
+          ],
+          "location": "east"
+        },
+        {
+          "count": 1,
+          "class_id": "falcon_knight",
+          "level": 3,
+          "equipment": [
+            "spear"
+          ],
+          "location": "east"
+        },
+        {
+          "count": 1,
+          "class_id": "falcon_knight",
+          "level": 3,
+          "equipment": [
+            "spear"
+          ],
+          "location": "southwest"
+        },
+        {
+          "count": 1,
+          "class_id": "falcon_knight",
+          "level": 3,
+          "equipment": [
+            "spear"
+          ],
+          "location": "southeast"
+        }
+      ],
+      "source_ids": [
+        "reinforcements_14_16_0"
+      ],
+      "crosscheck_status": "single indexed reference"
+    },
+    {
+      "chapter_id": "chapter_15",
+      "difficulty": "Hard",
+      "turns": [
+        6
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "Southeast and southwest edges; count split UNKNOWN",
+      "spawn_phase": "beginning_enemy_phase",
+      "units": [
+        {
+          "count": 6,
+          "class_id": "bow_knight",
+          "level": 3,
+          "equipment": [
+            "silver_sword",
+            "silver_bow"
+          ]
+        }
+      ],
+      "source_ids": [
+        "reinforcements_14_16_0"
+      ],
+      "crosscheck_status": "single indexed reference"
+    },
+    {
+      "chapter_id": "chapter_20",
+      "difficulty": "Hard",
+      "turns": [
+        6
+      ],
+      "timing_type": "reported_turn_with_script_warning",
+      "trigger": "Reported wave follows soldier warning by one turn; whether warning is conditional UNKNOWN",
+      "spawn_location": "Southwest, south and southeast edges",
+      "spawn_phase": "beginning_enemy_phase",
+      "units": [
+        {
+          "count": 1,
+          "class_id": "general",
+          "equipment": [
+            "spear"
+          ],
+          "location": "southwest"
+        },
+        {
+          "count": 1,
+          "class_id": "warrior",
+          "equipment": [
+            "tomahawk"
+          ],
+          "location": "southwest"
+        },
+        {
+          "count": 1,
+          "class_id": "general",
+          "equipment": [
+            "silver_lance"
+          ],
+          "location": "southwest"
+        },
+        {
+          "count": 1,
+          "class_id": "warrior",
+          "equipment": [
+            "silver_axe",
+            "silver_bow"
+          ],
+          "location": "southwest"
+        },
+        {
+          "count": 1,
+          "class_id": "general",
+          "equipment": [
+            "silver_axe"
+          ],
+          "location": "south"
+        },
+        {
+          "count": 1,
+          "class_id": "general",
+          "equipment": [
+            "silver_lance"
+          ],
+          "location": "south"
+        },
+        {
+          "count": 1,
+          "class_id": "sage",
+          "equipment": [
+            "bolganone"
+          ],
+          "location": "south"
+        },
+        {
+          "count": 1,
+          "class_id": "hero",
+          "equipment": [
+            "silver_sword"
+          ],
+          "location": "south"
+        },
+        {
+          "count": 1,
+          "class_id": "sage",
+          "equipment": [
+            "thoron"
+          ],
+          "location": "south"
+        },
+        {
+          "count": 1,
+          "class_id": "sage",
+          "equipment": [
+            "rexcalibur"
+          ],
+          "location": "southeast"
+        },
+        {
+          "count": 1,
+          "class_id": "general",
+          "equipment": [
+            "silver_lance"
+          ],
+          "location": "southeast"
+        },
+        {
+          "count": 1,
+          "class_id": "sage",
+          "equipment": [
+            "bolganone"
+          ],
+          "location": "southeast"
+        },
+        {
+          "count": 1,
+          "class_id": "general",
+          "equipment": [
+            "tomahawk"
+          ],
+          "location": "southeast"
+        }
+      ],
+      "source_ids": [
+        "reinforcements_20_22_0",
+        "p2_guide_20_1"
+      ],
+      "crosscheck_status": "southern scripted arrival independently described; exact turn/equipment single-source",
+      "level": 8
+    },
+    {
+      "chapter_id": "paralogue_8",
+      "difficulty": "Hard",
+      "turns": [
+        5
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "Stairs; exact tiles UNKNOWN",
+      "units": "UNKNOWN",
+      "source_ids": [
+        "p2_guide_32_3"
+      ],
+      "crosscheck_status": "single-source Hard; Lunatic table instead reports turns 2 and 3, not copied across modes"
+    },
+    {
+      "chapter_id": "paralogue_10",
+      "difficulty": "Hard",
+      "turns": null,
+      "timing_type": "event_triggered",
+      "trigger": "Severa reaches Holland and is recruited",
+      "spawn_location": "Four central stairs; exact tiles UNKNOWN",
+      "spawn_phase": "end_player_phase / beginning_enemy_phase after recruitment",
+      "spawn_blocking_claim": "Occupying the stairs prevents spawning; single-source",
+      "units": "UNKNOWN",
+      "source_ids": [
+        "p2_guide_36_1"
+      ],
+      "crosscheck_status": "single-source event timing"
+    },
+    {
+      "chapter_id": "paralogue_11",
+      "difficulty": "Hard",
+      "turns": [
+        5
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "Forts on northern islands; exact tiles UNKNOWN",
+      "units": [
+        {
+          "count": null,
+          "class_id": "wyvern_lord",
+          "equipment": "UNKNOWN"
+        }
+      ],
+      "source_ids": [
+        "p2_guide_36_2"
+      ],
+      "crosscheck_status": "single-source"
+    },
+    {
+      "chapter_id": "paralogue_14",
+      "difficulty": "Hard",
+      "turns": null,
+      "timing_type": "event_triggered",
+      "trigger": "Each village visit",
+      "spawn_location": "UNKNOWN",
+      "units": "UNKNOWN",
+      "source_ids": [
+        "p2_guide_40_1"
+      ],
+      "crosscheck_status": "single-source; individual village wave data UNKNOWN"
+    },
+    {
+      "chapter_id": "chapter_19",
+      "difficulty": "Lunatic",
+      "turns": [
+        8
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN; Walhart gives warning",
+      "spawn_location": "Forts; exact tiles UNKNOWN",
+      "units": "UNKNOWN",
+      "source_ids": [
+        "p2_guide_20_0"
+      ],
+      "crosscheck_status": "Guide explicitly identifies Lunatic; enemy table alone lacks these waves"
+    }
+  ],
+  "absence_claims": [
+    {
+      "chapter_id": "chapter_22",
+      "difficulty": "Hard",
+      "claim": "No reinforcements; 13 starting enemies including boss",
+      "source_ids": [
+        "p2_guide_20_3"
+      ],
+      "verification": "single_source_partial",
+      "certified": false
+    },
+    {
+      "chapter_id": "paralogue_23",
+      "difficulty": "Hard",
+      "claim": "No reinforcements",
+      "source_ids": [
+        "p2_guide_48_2"
+      ],
+      "verification": "single_source_partial",
+      "certified": false
+    }
+  ],
+  "hazards": [
+    {
+      "chapter_id": "chapter_11",
+      "difficulty": "Hard",
+      "description": "Gangrel moves from turn 4 or when approached; approach coordinates UNKNOWN. Reinforcements use forts; guide warns about enemy-phase arrivals around turns 3/4.",
+      "source_ids": [
+        "p2_guide_12_0"
+      ]
+    },
+    {
+      "chapter_id": "chapter_15",
+      "difficulty": "Hard",
+      "description": "After the final reinforcement wave, remaining enemies charge except the five nearest the boss; identities/trigger geometry UNKNOWN.",
+      "source_ids": [
+        "reinforcements_14_16_0"
+      ]
+    },
+    {
+      "chapter_id": "chapter_23",
+      "difficulty": "Hard",
+      "description": "Defeating the first Validar removes the barrier between the two army sections. Occupied stairs block reinforcements (single-source claim).",
+      "source_ids": [
+        "p2_guide_24_0"
+      ]
+    },
+    {
+      "chapter_id": "paralogue_9",
+      "difficulty": "Hard",
+      "description": "Advancing north of the northern walls triggers a group; exact activation coordinates UNKNOWN. Boss retreats toward a corner after northern advance.",
+      "source_ids": [
+        "p2_guide_36_0"
+      ]
+    },
+    {
+      "chapter_id": "paralogue_17",
+      "difficulty": "Hard",
+      "description": "Protect Tiki; incoming flying waves threaten the NPC. Boss movement begins after reinforcements are defeated (exact event definition UNKNOWN).",
+      "source_ids": [
+        "p2_guide_44_0"
+      ]
+    }
+  ],
+  "conflicts": [
+    {
+      "map_id": "chapter_5",
+      "difficulties": [
+        "Hard",
+        "Lunatic"
+      ],
+      "issue": "Fandom's grouped Hard/Lunatic excerpt reports waves on turns 3,4,5; the Lunatic numerical table reports 3,5,6. Grouped source may conflate modes. Do not use it as a certified schedule.",
+      "source_ids": [
+        "reinforcements_early_0",
+        "p2_lm_05_08_0"
+      ]
+    },
+    {
+      "map_id": "chapter_7",
+      "difficulties": [
+        "Hard",
+        "Lunatic"
+      ],
+      "issue": "Turn 5 western Wyvern reinforcement timing agrees, but Fandom groups level-7 units under Hard/Lunatic while the Lunatic table gives level 9. Preserve separate modes; random skills and actual stats must be observed.",
+      "source_ids": [
+        "reinforcements_early_1",
+        "p2_lm_05_08_2"
+      ]
+    },
+    {
+      "map_id": "chapter_22",
+      "difficulties": [
+        "Normal",
+        "Lunatic"
+      ],
+      "issue": "Indexed Fandom extract describes grave/road waves, inconsistent with Chapter 22. Identical text appears under Paralogue 19. Quarantined as identity contamination; not imported to either map.",
+      "source_ids": [
+        "reinforcements_20_22_1",
+        "reinforcements_17_19_0"
+      ]
+    }
+  ],
+  "numeric_crosschecks": [
+    {
+      "category": "weapons",
+      "id": "iron_sword",
+      "expected": {
+        "rank": "D",
+        "might": 5,
+        "hit": 95,
+        "crit": 0,
+        "range": "1",
+        "uses": 40,
+        "worth": 520
+      },
+      "source_ids": [
+        "p2_iron_sword"
+      ]
+    },
+    {
+      "category": "items",
+      "id": "mend",
+      "expected": {
+        "rank": "D",
+        "uses": 20,
+        "worth": 1000,
+        "base_exp": 22
+      },
+      "source_ids": [
+        "p2_mend"
+      ]
+    },
+    {
+      "category": "items",
+      "id": "physic",
+      "expected": {
+        "rank": "C",
+        "uses": 10,
+        "worth": 1800,
+        "base_exp": 30
+      },
+      "source_ids": [
+        "p2_physic"
+      ]
+    }
+  ]
+}

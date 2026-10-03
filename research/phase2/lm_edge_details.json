@@ -1,0 +1,1107 @@
+[
+  {
+    "id": "lm_edge_details_0",
+    "name": "Awakening LM Enemy Data: Prologue - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_LM_Enemy_Data%3A_Prologue",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [
+      {
+        "section": "Enemy",
+        "timing_label": null,
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "LV",
+            "HP",
+            "Str",
+            "Mag",
+            "Skl",
+            "Spd",
+            "Luck",
+            "Def",
+            "Res",
+            "Mov",
+            "Weapon Rank",
+            "Equipment",
+            "Skills"
+          ],
+          [
+            "Garrick",
+            "Barbarian",
+            "3",
+            "34",
+            "14",
+            "0",
+            "8",
+            "12",
+            "5",
+            "3",
+            "0",
+            "-",
+            "A",
+            "Short Axe",
+            "Gamble"
+          ],
+          [
+            "Ruffian",
+            "Myrmidon",
+            "1",
+            "26",
+            "9",
+            "0",
+            "11",
+            "12",
+            "10",
+            "1",
+            "2",
+            "5",
+            "A",
+            "Iron Sword",
+            "Random"
+          ],
+          [
+            "Ruffian",
+            "Myrmidon",
+            "1",
+            "26",
+            "9",
+            "0",
+            "11",
+            "12",
+            "10",
+            "1",
+            "2",
+            "5",
+            "A",
+            "Iron Sword",
+            "Random"
+          ],
+          [
+            "Ruffian",
+            "Barbarian",
+            "1",
+            "30",
+            "11",
+            "0",
+            "5",
+            "9",
+            "5",
+            "1",
+            "0",
+            "5",
+            "A",
+            "Iron Axe",
+            "Random"
+          ],
+          [
+            "Ruffian",
+            "Barbarian",
+            "1",
+            "30",
+            "11",
+            "0",
+            "5",
+            "9",
+            "5",
+            "1",
+            "0",
+            "5",
+            "A",
+            "Iron Axe",
+            "Random"
+          ],
+          [
+            "Ruffian",
+            "Mage",
+            "1",
+            "23",
+            "0",
+            "10",
+            "8",
+            "9",
+            "8",
+            "0",
+            "4",
+            "5",
+            "A",
+            "Elwind",
+            "Random"
+          ],
+          [
+            "Ruffian",
+            "Myrmidon",
+            "1",
+            "26",
+            "9",
+            "0",
+            "11",
+            "12",
+            "10",
+            "1",
+            "2",
+            "5",
+            "A",
+            "Iron Sword",
+            "Random"
+          ],
+          [
+            "Ruffian",
+            "Myrmidon",
+            "1",
+            "26",
+            "9",
+            "0",
+            "11",
+            "12",
+            "10",
+            "1",
+            "2",
+            "5",
+            "A",
+            "Iron Sword",
+            "Random"
+          ],
+          [
+            "Ruffian",
+            "Barbarian",
+            "1",
+            "30",
+            "11",
+            "0",
+            "5",
+            "9",
+            "5",
+            "1",
+            "0",
+            "5",
+            "A",
+            "Iron Axe",
+            "Random"
+          ],
+          [
+            "Ruffian",
+            "Mage",
+            "1",
+            "23",
+            "0",
+            "10",
+            "8",
+            "9",
+            "8",
+            "0",
+            "4",
+            "5",
+            "A",
+            "Elthunder",
+            "Random"
+          ],
+          [
+            "Ruffian",
+            "Barbarian",
+            "1",
+            "30",
+            "11",
+            "0",
+            "5",
+            "9",
+            "5",
+            "1",
+            "0",
+            "5",
+            "A",
+            "Iron Axe",
+            "Random"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "lm_edge_details_1",
+    "name": "Awakening LM Enemy Data: Endgame - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_LM_Enemy_Data%3A_Endgame",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [
+      {
+        "section": "Starting",
+        "timing_label": null,
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "LV",
+            "HP",
+            "Str",
+            "Mag",
+            "Skl",
+            "Spd",
+            "Luck",
+            "Def",
+            "Res",
+            "Mov",
+            "Weapon Rank",
+            "Equipment",
+            "Skills"
+          ],
+          [
+            "Grima",
+            "Grima",
+            "30",
+            "99",
+            "50",
+            "40",
+            "50",
+            "45",
+            "45",
+            "50",
+            "50",
+            "-",
+            "-",
+            "Expiration",
+            "Anathema, Ignis, Pavise, Dragonskin, Rightful God"
+          ],
+          [
+            "Grimleal",
+            "General",
+            "20",
+            "80",
+            "44",
+            "0",
+            "31",
+            "23",
+            "30",
+            "38",
+            "17",
+            "5",
+            "A, A",
+            "Spear++",
+            "Hit Rate +20, Pavise, Random"
+          ],
+          [
+            "Grimleal",
+            "Berserker",
+            "20",
+            "80",
+            "50+5",
+            "0",
+            "24",
+            "37",
+            "22",
+            "21",
+            "11",
+            "6",
+            "A",
+            "Tomahawk++",
+            "Hit Rate +20, Axefaire, Random"
+          ],
+          [
+            "Grimleal",
+            "General",
+            "20",
+            "80",
+            "44",
+            "0",
+            "31",
+            "23",
+            "30",
+            "38",
+            "17",
+            "5",
+            "A, A",
+            "Spear++",
+            "Hit Rate +20, Pavise, Random"
+          ],
+          [
+            "Grimleal",
+            "Berserker",
+            "20",
+            "80",
+            "50+5",
+            "0",
+            "24",
+            "37",
+            "22",
+            "21",
+            "11",
+            "6",
+            "A",
+            "Tomahawk++",
+            "Hit Rate +20, Axefaire, Random"
+          ],
+          [
+            "Grimleal",
+            "General",
+            "20",
+            "80",
+            "44",
+            "0",
+            "31",
+            "23",
+            "30",
+            "38",
+            "17",
+            "5",
+            "A, A",
+            "Spear++",
+            "Hit Rate +20, Pavise, Random"
+          ],
+          [
+            "Grimleal",
+            "Berserker",
+            "20",
+            "80",
+            "50+5",
+            "0",
+            "24",
+            "37",
+            "22",
+            "21",
+            "11",
+            "6",
+            "A",
+            "Tomahawk++",
+            "Hit Rate +20, Axefaire, Random"
+          ],
+          [
+            "Grimleal",
+            "General",
+            "20",
+            "80",
+            "44",
+            "0",
+            "31",
+            "23",
+            "30",
+            "38",
+            "17",
+            "5",
+            "A, A",
+            "Spear++",
+            "Hit Rate +20, Pavise, Random"
+          ],
+          [
+            "Grimleal",
+            "Paladin",
+            "20",
+            "80",
+            "38",
+            "1",
+            "33",
+            "34",
+            "33",
+            "32",
+            "24",
+            "8",
+            "A, A",
+            "Silver Lance++, Silver Sword++",
+            "Hit Rate +20, Aegis, Random"
+          ],
+          [
+            "Grimleal",
+            "Sniper",
+            "20",
+            "77",
+            "32+5",
+            "1",
+            "44",
+            "34",
+            "26",
+            "28",
+            "18",
+            "6",
+            "A",
+            "Longbow++",
+            "Hit Rate +20, Bowfaire, Random"
+          ],
+          [
+            "Grimleal",
+            "Assassin",
+            "20",
+            "72",
+            "36",
+            "0",
+            "46",
+            "44",
+            "23",
+            "21",
+            "11",
+            "6",
+            "A, A",
+            "Killing Edge++, Killer Bow++",
+            "Hit Rate +20, Pass, Random"
+          ],
+          [
+            "Grimleal",
+            "General",
+            "20",
+            "80",
+            "44",
+            "0",
+            "31",
+            "23",
+            "30",
+            "38",
+            "17",
+            "5",
+            "A, A",
+            "Spear++",
+            "Hit Rate +20, Pavise, Random"
+          ],
+          [
+            "Grimleal",
+            "General",
+            "20",
+            "80",
+            "44",
+            "0",
+            "31",
+            "23",
+            "30",
+            "38",
+            "17",
+            "5",
+            "A, A",
+            "Spear++",
+            "Hit Rate +20, Pavise, Random"
+          ],
+          [
+            "Grimleal",
+            "Griffon Rider",
+            "20",
+            "79",
+            "36",
+            "0",
+            "37",
+            "36",
+            "31",
+            "28",
+            "13",
+            "8",
+            "A",
+            "Hammer++",
+            "Hit Rate +20, Lancefaire, Random"
+          ],
+          [
+            "Grimleal",
+            "Hero",
+            "20",
+            "79",
+            "37",
+            "1",
+            "43",
+            "38",
+            "31",
+            "27",
+            "18",
+            "6",
+            "A, A",
+            "Silver Sword++, Silver Axe++",
+            "Hit Rate +20, Axebreaker, Random"
+          ],
+          [
+            "Grimleal",
+            "Bow Knight",
+            "20",
+            "80",
+            "33",
+            "0",
+            "36",
+            "35",
+            "26",
+            "22",
+            "12",
+            "8",
+            "A, A",
+            "Silver Bow++, Silver Sword++",
+            "Hit Rate +20, Bowbreaker, Random"
+          ],
+          [
+            "Grimleal",
+            "War Monk",
+            "20",
+            "80",
+            "35",
+            "28",
+            "23",
+            "35",
+            "33",
+            "24",
+            "31",
+            "6",
+            "A, A",
+            "Killer Axe++, Physic",
+            "Hit Rate +20, Renewal, Random"
+          ],
+          [
+            "Grimleal",
+            "Swordmaster",
+            "20",
+            "71",
+            "35+5",
+            "2",
+            "43",
+            "46",
+            "37",
+            "23",
+            "23",
+            "6",
+            "A",
+            "Silver Sword++",
+            "Hit Rate +20, Swordfaire, Random"
+          ],
+          [
+            "Grimleal",
+            "Wyvern Lord",
+            "20",
+            "80",
+            "43+2",
+            "0",
+            "31",
+            "30",
+            "30",
+            "35",
+            "14",
+            "8",
+            "A, A",
+            "Silver Lance++, Silver Axe++",
+            "Hit Rate +20, Swordbreaker, Random"
+          ],
+          [
+            "Grimleal",
+            "Trickster",
+            "20",
+            "64",
+            "33",
+            "30",
+            "39",
+            "40",
+            "26",
+            "19",
+            "21",
+            "6",
+            "A, A",
+            "Levin Sword++, Physic",
+            "Hit Rate +20, Acrobat, Random"
+          ],
+          [
+            "Grimleal",
+            "Warrior",
+            "20",
+            "80",
+            "44",
+            "0",
+            "34",
+            "29",
+            "34",
+            "25",
+            "15",
+            "6",
+            "A, A",
+            "Silver Axe++, Silver Bow++",
+            "Hit Rate +20, Counter, Random"
+          ],
+          [
+            "Grimleal",
+            "Dark Flier",
+            "20",
+            "67",
+            "21",
+            "32",
+            "34",
+            "39",
+            "40",
+            "21",
+            "38",
+            "8",
+            "A, A",
+            "Thoron++, Silver Lance++",
+            "Hit Rate +20, Galeforce, Random"
+          ],
+          [
+            "Grimleal",
+            "Sorcerer",
+            "20",
+            "80",
+            "2",
+            "35",
+            "26",
+            "26",
+            "22",
+            "27",
+            "30",
+            "6",
+            "A",
+            "Waste++, Mire",
+            "Hit Rate +20, Vengeance, Random"
+          ],
+          [
+            "Grimleal",
+            "Berserker",
+            "20",
+            "80",
+            "50+5",
+            "0",
+            "24",
+            "37",
+            "22",
+            "21",
+            "11",
+            "6",
+            "A",
+            "Tomahawk++",
+            "Hit Rate +20, Axefaire, Random"
+          ],
+          [
+            "Grimleal",
+            "Valkyrie",
+            "20",
+            "64",
+            "0",
+            "34",
+            "23",
+            "41",
+            "37",
+            "16",
+            "36",
+            "8",
+            "A, A",
+            "Rexcalibur++, Physic",
+            "Hit Rate +20, Demoiselle, Random"
+          ],
+          [
+            "Grimleal",
+            "Sage",
+            "20",
+            "65",
+            "1",
+            "36+5",
+            "31",
+            "33",
+            "30",
+            "17",
+            "28",
+            "6",
+            "A, A",
+            "Bolganone++, Physic",
+            "Hit Rate +20, Tomefaire, Random"
+          ],
+          [
+            "Grimleal",
+            "Dark Knight",
+            "20",
+            "80",
+            "28",
+            "34",
+            "31",
+            "28",
+            "22",
+            "31",
+            "24",
+            "8",
+            "A, A",
+            "Bolganone++, Silver Sword++",
+            "Hit Rate +20, Anathema, Random"
+          ],
+          [
+            "Grimleal",
+            "Paladin",
+            "20",
+            "80",
+            "38",
+            "1",
+            "33",
+            "34",
+            "33",
+            "32",
+            "24",
+            "8",
+            "A, A",
+            "Silver Lance++, Silver Sword++",
+            "Hit Rate +20, Aegis, Random"
+          ],
+          [
+            "Grimleal",
+            "Falcon Knight",
+            "20",
+            "71",
+            "33+5",
+            "22",
+            "42",
+            "42",
+            "44",
+            "21",
+            "36",
+            "8",
+            "A, A",
+            "Beast Killer++, Physic",
+            "Hit Rate +20, Lancefaire, Random"
+          ],
+          [
+            "Grimleal",
+            "Berserker",
+            "20",
+            "80",
+            "50+5",
+            "0",
+            "24",
+            "37",
+            "22",
+            "21",
+            "11",
+            "6",
+            "A",
+            "Tomahawk++",
+            "Hit Rate +20, Axefaire, Random"
+          ]
+        ]
+      },
+      {
+        "section": "Reinforcements",
+        "timing_label": "Turn 2  | Paladin  | Wyvern Lord  | Assassin  | General  | -  | -  | -  | -",
+        "rows": [
+          [
+            "Turn 2",
+            "Paladin",
+            "Wyvern Lord",
+            "Assassin",
+            "General",
+            "-",
+            "-",
+            "-",
+            "-"
+          ]
+        ]
+      },
+      {
+        "section": "Reinforcements",
+        "timing_label": "Turn 3  | Hero  | Sage  | War Monk  | Swordmaster  | War Monk  | Assassin  | Hero  | Great Knight",
+        "rows": [
+          [
+            "Turn 3",
+            "Hero",
+            "Sage",
+            "War Monk",
+            "Swordmaster",
+            "War Monk",
+            "Assassin",
+            "Hero",
+            "Great Knight"
+          ]
+        ]
+      },
+      {
+        "section": "Reinforcements",
+        "timing_label": "Turn 4  | Trickster  | Great Knight  | Berserker  | Griffon Rider  | General  | Wyvern Lord  | Dark Flier  | Assassin",
+        "rows": [
+          [
+            "Turn 4",
+            "Trickster",
+            "Great Knight",
+            "Berserker",
+            "Griffon Rider",
+            "General",
+            "Wyvern Lord",
+            "Dark Flier",
+            "Assassin"
+          ]
+        ]
+      },
+      {
+        "section": "Reinforcements",
+        "timing_label": "Turn 5  | Valkyrie  | Hero  | Falcon Knight  | Paladin  | -  | -  | -  | -",
+        "rows": [
+          [
+            "Turn 5",
+            "Valkyrie",
+            "Hero",
+            "Falcon Knight",
+            "Paladin",
+            "-",
+            "-",
+            "-",
+            "-"
+          ]
+        ]
+      },
+      {
+        "section": "Reinforcements",
+        "timing_label": "Turn 6  | Great Knight  | Assassin  | Dark Knight  | Sniper  | -  | -  | -  | -",
+        "rows": [
+          [
+            "Turn 6",
+            "Great Knight",
+            "Assassin",
+            "Dark Knight",
+            "Sniper",
+            "-",
+            "-",
+            "-",
+            "-"
+          ]
+        ]
+      },
+      {
+        "section": "Reinforcements",
+        "timing_label": "Turn 7  | Bow Knight  | Griffon Rider  | Hero  | Wyvern Lord  | Wyvern Lord  | General  | Sniper  | Sniper",
+        "rows": [
+          [
+            "Turn 7",
+            "Bow Knight",
+            "Griffon Rider",
+            "Hero",
+            "Wyvern Lord",
+            "Wyvern Lord",
+            "General",
+            "Sniper",
+            "Sniper"
+          ]
+        ]
+      },
+      {
+        "section": "Reinforcements",
+        "timing_label": "Turn 8  | Falcon Knight  | Dark Knight  | Wyvern Lord  | Sorcerer  | Paladin  | Sniper  | Griffon Rider  | Valkyrie",
+        "rows": [
+          [
+            "Turn 8",
+            "Falcon Knight",
+            "Dark Knight",
+            "Wyvern Lord",
+            "Sorcerer",
+            "Paladin",
+            "Sniper",
+            "Griffon Rider",
+            "Valkyrie"
+          ]
+        ]
+      },
+      {
+        "section": "Reinforcements",
+        "timing_label": "Turn 9  | War Monk  | General  | Paladin  | Hero  | -  | -  | -  | -",
+        "rows": [
+          [
+            "Turn 9",
+            "War Monk",
+            "General",
+            "Paladin",
+            "Hero",
+            "-",
+            "-",
+            "-",
+            "-"
+          ]
+        ]
+      },
+      {
+        "section": "Reinforcements",
+        "timing_label": "Turn 10  | General  | Bow Knight  | Sniper  | Dark Flier  | -  | -  | -  | -",
+        "rows": [
+          [
+            "Turn 10",
+            "General",
+            "Bow Knight",
+            "Sniper",
+            "Dark Flier",
+            "-",
+            "-",
+            "-",
+            "-"
+          ]
+        ]
+      },
+      {
+        "section": "Reinforcements",
+        "timing_label": "Turn 11  | Sniper  | Trickster  | Valkyrie  | Dark Knight  | Falcon Knight  | War Monk  | Assassin  | Wyvern Lord",
+        "rows": [
+          [
+            "Turn 11",
+            "Sniper",
+            "Trickster",
+            "Valkyrie",
+            "Dark Knight",
+            "Falcon Knight",
+            "War Monk",
+            "Assassin",
+            "Wyvern Lord"
+          ]
+        ]
+      },
+      {
+        "section": "Reinforcements",
+        "timing_label": "Turn 12  | Dark Flier  | Valkyrie  | General  | Warrior  | Sage  | Paladin  | War Monk  | Great Knight",
+        "rows": [
+          [
+            "Turn 12",
+            "Dark Flier",
+            "Valkyrie",
+            "General",
+            "Warrior",
+            "Sage",
+            "Paladin",
+            "War Monk",
+            "Great Knight"
+          ]
+        ]
+      },
+      {
+        "section": "Reinforcements",
+        "timing_label": "Turn 13  | Sage  | Sorcerer  | Assassin  | Trickster  | -  | -  | -  | -",
+        "rows": [
+          [
+            "Turn 13",
+            "Sage",
+            "Sorcerer",
+            "Assassin",
+            "Trickster",
+            "-",
+            "-",
+            "-",
+            "-"
+          ]
+        ]
+      },
+      {
+        "section": "Reinforcements",
+        "timing_label": "Turn 14  | Berserker  | Berserker  | Sage  | Sage  | -  | -  | -  | -",
+        "rows": [
+          [
+            "Turn 14",
+            "Berserker",
+            "Berserker",
+            "Sage",
+            "Sage",
+            "-",
+            "-",
+            "-",
+            "-"
+          ]
+        ]
+      },
+      {
+        "section": "Reinforcements",
+        "timing_label": "Turn 15  | Swordmaster  | Sniper  | Warrior  | Berserker  | Swordmaster  | Assassin  | Falcon Knight  | Sorcerer",
+        "rows": [
+          [
+            "Turn 15",
+            "Swordmaster",
+            "Sniper",
+            "Warrior",
+            "Berserker",
+            "Swordmaster",
+            "Assassin",
+            "Falcon Knight",
+            "Sorcerer"
+          ]
+        ]
+      },
+      {
+        "section": "Reinforcements",
+        "timing_label": "Turn 16  | Wyvern Lord  | Falcon Knight  | Falcon Knight  | Assassin  | Griffon Rider  | Wyvern Lord  | Dark Knight  | Sniper",
+        "rows": [
+          [
+            "Turn 16",
+            "Wyvern Lord",
+            "Falcon Knight",
+            "Falcon Knight",
+            "Assassin",
+            "Griffon Rider",
+            "Wyvern Lord",
+            "Dark Knight",
+            "Sniper"
+          ]
+        ]
+      },
+      {
+        "section": "Reinforcements",
+        "timing_label": "Turn 17  | Dark Knight  | War Monk  | Sorcerer  | Valkyrie  | -  | -  | -  | -",
+        "rows": [
+          [
+            "Turn 17",
+            "Dark Knight",
+            "War Monk",
+            "Sorcerer",
+            "Valkyrie",
+            "-",
+            "-",
+            "-",
+            "-"
+          ]
+        ]
+      },
+      {
+        "section": "Reinforcements",
+        "timing_label": "Turn 18  | Warrior  | Paladin  | Bow Knight  | General  | -  | -  | -  | -",
+        "rows": [
+          [
+            "Turn 18",
+            "Warrior",
+            "Paladin",
+            "Bow Knight",
+            "General",
+            "-",
+            "-",
+            "-",
+            "-"
+          ]
+        ]
+      },
+      {
+        "section": "Reinforcements",
+        "timing_label": "Turn 19  | Assassin  | Warrior  | Wyvern Lord  | Swordmaster  | Hero  | General  | Wyvern Lord  | Hero",
+        "rows": [
+          [
+            "Turn 19",
+            "Assassin",
+            "Warrior",
+            "Wyvern Lord",
+            "Swordmaster",
+            "Hero",
+            "General",
+            "Wyvern Lord",
+            "Hero"
+          ]
+        ]
+      },
+      {
+        "section": "Reinforcements",
+        "timing_label": "Turn 20  | Griffon Rider  | Swordmaster  | Great Knight  | Griffon Rider  | Dark Flier  | Sniper  | Paladin  | Wyvern Lord",
+        "rows": [
+          [
+            "Turn 20",
+            "Griffon Rider",
+            "Swordmaster",
+            "Great Knight",
+            "Griffon Rider",
+            "Dark Flier",
+            "Sniper",
+            "Paladin",
+            "Wyvern Lord"
+          ]
+        ]
+      },
+      {
+        "section": "Reinforcements",
+        "timing_label": "Turn 21  | Sorcerer  | Dark Flier  | Swordmaster  | Paladin  | -  | -  | -  | -",
+        "rows": [
+          [
+            "Turn 21",
+            "Sorcerer",
+            "Dark Flier",
+            "Swordmaster",
+            "Paladin",
+            "-",
+            "-",
+            "-",
+            "-"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  }
+]

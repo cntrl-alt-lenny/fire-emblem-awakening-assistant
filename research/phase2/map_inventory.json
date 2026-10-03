@@ -1,0 +1,308 @@
+[
+  {
+    "id": "premonition",
+    "name": "Invisible Ties",
+    "label": "Premonition",
+    "kind": "main"
+  },
+  {
+    "id": "prologue",
+    "name": "The Verge of History",
+    "label": "Prologue",
+    "kind": "main"
+  },
+  {
+    "id": "chapter_1",
+    "name": "Unwelcome Change",
+    "label": "Chapter\u00a01",
+    "kind": "main"
+  },
+  {
+    "id": "chapter_2",
+    "name": "Shepherds",
+    "label": "Chapter\u00a02",
+    "kind": "main"
+  },
+  {
+    "id": "chapter_3",
+    "name": "Warrior Realm",
+    "label": "Chapter\u00a03",
+    "kind": "main"
+  },
+  {
+    "id": "chapter_4",
+    "name": "Two Falchions",
+    "label": "Chapter\u00a04",
+    "kind": "main"
+  },
+  {
+    "id": "chapter_5",
+    "name": "The Exalt and the King",
+    "label": "Chapter\u00a05",
+    "kind": "main"
+  },
+  {
+    "id": "chapter_6",
+    "name": "Foreseer",
+    "label": "Chapter\u00a06",
+    "kind": "main"
+  },
+  {
+    "id": "chapter_7",
+    "name": "Incursion",
+    "label": "Chapter\u00a07",
+    "kind": "main"
+  },
+  {
+    "id": "chapter_8",
+    "name": "The Grimleal",
+    "label": "Chapter\u00a08",
+    "kind": "main"
+  },
+  {
+    "id": "chapter_9",
+    "name": "Emmeryn",
+    "label": "Chapter\u00a09",
+    "kind": "main"
+  },
+  {
+    "id": "chapter_10",
+    "name": "Renewal",
+    "label": "Chapter\u00a010",
+    "kind": "main"
+  },
+  {
+    "id": "chapter_11",
+    "name": "Mad King Gangrel",
+    "label": "Chapter\u00a011",
+    "kind": "main"
+  },
+  {
+    "id": "chapter_12",
+    "name": "The Seacomers",
+    "label": "Chapter\u00a012",
+    "kind": "main"
+  },
+  {
+    "id": "chapter_13",
+    "name": "Of Sacred Blood",
+    "label": "Chapter\u00a013",
+    "kind": "main"
+  },
+  {
+    "id": "chapter_14",
+    "name": "Flames on the Blue",
+    "label": "Chapter\u00a014",
+    "kind": "main"
+  },
+  {
+    "id": "chapter_15",
+    "name": "Smoldering Resistance",
+    "label": "Chapter\u00a015",
+    "kind": "main"
+  },
+  {
+    "id": "chapter_16",
+    "name": "Naga's Voice",
+    "label": "Chapter\u00a016",
+    "kind": "main"
+  },
+  {
+    "id": "chapter_17",
+    "name": "Inexorable Death",
+    "label": "Chapter\u00a017",
+    "kind": "main"
+  },
+  {
+    "id": "chapter_18",
+    "name": "Sibling Blades",
+    "label": "Chapter\u00a018",
+    "kind": "main"
+  },
+  {
+    "id": "chapter_19",
+    "name": "The Conqueror",
+    "label": "Chapter\u00a019",
+    "kind": "main"
+  },
+  {
+    "id": "chapter_20",
+    "name": "The Sword or the Knee",
+    "label": "Chapter\u00a020",
+    "kind": "main"
+  },
+  {
+    "id": "chapter_21",
+    "name": "Five Gemstones",
+    "label": "Chapter\u00a021",
+    "kind": "main"
+  },
+  {
+    "id": "chapter_22",
+    "name": "An Ill Presage",
+    "label": "Chapter\u00a022",
+    "kind": "main"
+  },
+  {
+    "id": "chapter_23",
+    "name": "Invisible Ties",
+    "label": "Chapter\u00a023",
+    "kind": "main"
+  },
+  {
+    "id": "chapter_24",
+    "name": "Awakening",
+    "label": "Chapter\u00a024",
+    "kind": "main"
+  },
+  {
+    "id": "chapter_25",
+    "name": "To Slay a God",
+    "label": "Chapter\u00a025",
+    "kind": "main"
+  },
+  {
+    "id": "endgame",
+    "name": "Grima",
+    "label": "Endgame",
+    "kind": "main"
+  },
+  {
+    "id": "paralogue_1",
+    "name": "Sickle to Sword",
+    "label": "Paralogue 1",
+    "kind": "paralogue"
+  },
+  {
+    "id": "paralogue_2",
+    "name": "The Secret Seller",
+    "label": "Paralogue 2",
+    "kind": "paralogue"
+  },
+  {
+    "id": "paralogue_3",
+    "name": "A Strangled Peace",
+    "label": "Paralogue 3",
+    "kind": "paralogue"
+  },
+  {
+    "id": "paralogue_4",
+    "name": "Anna the Merchant",
+    "label": "Paralogue 4",
+    "kind": "paralogue"
+  },
+  {
+    "id": "paralogue_5",
+    "name": "Scion of Legend",
+    "label": "Paralogue 5",
+    "kind": "paralogue"
+  },
+  {
+    "id": "paralogue_6",
+    "name": "A Man for Flowers",
+    "label": "Paralogue 6",
+    "kind": "paralogue"
+  },
+  {
+    "id": "paralogue_7",
+    "name": "Noble Lineage",
+    "label": "Paralogue 7",
+    "kind": "paralogue"
+  },
+  {
+    "id": "paralogue_8",
+    "name": "A Duel Disgraced",
+    "label": "Paralogue 8",
+    "kind": "paralogue"
+  },
+  {
+    "id": "paralogue_9",
+    "name": "Wings of Justice",
+    "label": "Paralogue 9",
+    "kind": "paralogue"
+  },
+  {
+    "id": "paralogue_10",
+    "name": "Ambivalence",
+    "label": "Paralogue 10",
+    "kind": "paralogue"
+  },
+  {
+    "id": "paralogue_11",
+    "name": "Twin Wyverns",
+    "label": "Paralogue 11",
+    "kind": "paralogue"
+  },
+  {
+    "id": "paralogue_12",
+    "name": "Disowned by Time",
+    "label": "Paralogue 12",
+    "kind": "paralogue"
+  },
+  {
+    "id": "paralogue_13",
+    "name": "Rival Bands",
+    "label": "Paralogue 13",
+    "kind": "paralogue"
+  },
+  {
+    "id": "paralogue_14",
+    "name": "Shadow in the Sands",
+    "label": "Paralogue 14",
+    "kind": "paralogue"
+  },
+  {
+    "id": "paralogue_15",
+    "name": "A Shot from the Dark",
+    "label": "Paralogue 15",
+    "kind": "paralogue"
+  },
+  {
+    "id": "paralogue_16",
+    "name": "Daughter to Dragons",
+    "label": "Paralogue 16",
+    "kind": "paralogue"
+  },
+  {
+    "id": "paralogue_17",
+    "name": "The Threat of Silence",
+    "label": "Paralogue 17",
+    "kind": "paralogue"
+  },
+  {
+    "id": "paralogue_18",
+    "name": "The Dead King's Lament",
+    "label": "Paralogue 18",
+    "kind": "paralogue"
+  },
+  {
+    "id": "paralogue_19",
+    "name": "Irreconcilable Paths",
+    "label": "Paralogue 19",
+    "kind": "paralogue"
+  },
+  {
+    "id": "paralogue_20",
+    "name": "A Hard Miracle",
+    "label": "Paralogue 20",
+    "kind": "paralogue"
+  },
+  {
+    "id": "paralogue_21",
+    "name": "Ghost of a Blade",
+    "label": "Paralogue 21",
+    "kind": "paralogue"
+  },
+  {
+    "id": "paralogue_22",
+    "name": "The Wellspring of Truth",
+    "label": "Paralogue 22",
+    "kind": "paralogue"
+  },
+  {
+    "id": "paralogue_23",
+    "name": "The Radiant Hero",
+    "label": "Paralogue 23",
+    "kind": "paralogue"
+  }
+]

@@ -1,0 +1,2394 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "support_growth_0",
+      "name": "Support Growth",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Navigation",
+          "Support Basics",
+          "Support List",
+          "Support Growth"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_1",
+      "name": "Avatar (M)",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_2",
+      "name": "Avatar (M)",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Any male",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Any female",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_3",
+      "name": "Avatar (F)",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_4",
+      "name": "Avatar (F)",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Any female",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Any male",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_5",
+      "name": "Chrom",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_6",
+      "name": "Chrom",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (M), Lissa, Vaike, Gaius, Frederick",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Sumia",
+          "2",
+          "6",
+          "10",
+          "14"
+        ],
+        [
+          "Sully, Maribelle",
+          "3",
+          "7",
+          "11",
+          "16"
+        ],
+        [
+          "Avatar (F), Olivia",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_7",
+      "name": "Lissa",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_8",
+      "name": "Lissa",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (F), Chrom, Maribelle",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Vaike",
+          "2",
+          "6",
+          "10",
+          "14"
+        ],
+        [
+          "Frederick",
+          "3",
+          "7",
+          "11",
+          "16"
+        ],
+        [
+          "Avatar (M), Stahl, Kellam, Ricken, Libra, Lon’qu, Gregor, Gaius, Virion, Henry, Donnel",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_9",
+      "name": "Frederick",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_10",
+      "name": "Frederick",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (M), Henry, Virion, Chrom",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Maribelle",
+          "2",
+          "6",
+          "10",
+          "14"
+        ],
+        [
+          "Lissa",
+          "3",
+          "7",
+          "11",
+          "16"
+        ],
+        [
+          "Avatar (F), Sumia, Sully, Cordelia, Panne, Nowi, Olivia, Cherche, Miriel, Tharja",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_11",
+      "name": "Virion",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_12",
+      "name": "Virion",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (M), Libra, Frederick",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Cherche",
+          "2",
+          "6",
+          "10",
+          "14"
+        ],
+        [
+          "Avatar (F), Lissa, Sully, Maribelle, Cordelia, Panne, Nowi, Olivia, Miriel, Tharja",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_13",
+      "name": "Sully",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_14",
+      "name": "Sully",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (F), Miriel, Sumia",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Kellam",
+          "2",
+          "6",
+          "10",
+          "14"
+        ],
+        [
+          "Chrom, Stahl",
+          "3",
+          "7",
+          "11",
+          "16"
+        ],
+        [
+          "Avatar (M), Frederick, Ricken, Vaike, Libra, Lon’qu, Gregor, Gaius, Virion, Henry, Donnel",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_15",
+      "name": "Vaike",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_16",
+      "name": "Vaike",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (M), Lon’qu, Chrom",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Lissa",
+          "2",
+          "6",
+          "10",
+          "14"
+        ],
+        [
+          "Nowi",
+          "3",
+          "7",
+          "11",
+          "16"
+        ],
+        [
+          "Avatar (F), Sully, Maribelle, Cordelia, Panne, Olivia, Cherche, Miriel, Tharja",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_17",
+      "name": "Stahl",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_18",
+      "name": "Stahl",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (M), Donnel, Kellam",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Miriel",
+          "2",
+          "6",
+          "10",
+          "14"
+        ],
+        [
+          "Sully",
+          "3",
+          "7",
+          "11",
+          "16"
+        ],
+        [
+          "Avatar (F), Lissa, Maribelle, Cordelia, Panne, Nowi, Olivia, Cherche, Tharja",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_19",
+      "name": "Miriel",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_20",
+      "name": "Miriel",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (F), Sully, Cherche",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Stahl",
+          "2",
+          "6",
+          "10",
+          "14"
+        ],
+        [
+          "Kellam",
+          "3",
+          "7",
+          "11",
+          "16"
+        ],
+        [
+          "Avatar (M), Frederick, Ricken, Vaike, Libra, Lon’qu, Gregor, Gaius, Virion, Henry, Donnel",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_21",
+      "name": "Kellam",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_22",
+      "name": "Kellam",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (M), Donnel, Stahl",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Sully",
+          "2",
+          "6",
+          "10",
+          "14"
+        ],
+        [
+          "Miriel",
+          "3",
+          "7",
+          "11",
+          "16"
+        ],
+        [
+          "Avatar (F), Lissa, Maribelle, Cordelia, Panne, Nowi, Olivia, Cherche, Tharja",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_23",
+      "name": "Sumia",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_24",
+      "name": "Sumia",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (F), Sully, Cordelia",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Chrom",
+          "2",
+          "6",
+          "10",
+          "14"
+        ],
+        [
+          "Avatar (M), Frederick, Gaius, Henry",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_25",
+      "name": "Lon’qu",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_26",
+      "name": "Lon’qu",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (M), Vaike, Gregor",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Avatar (F), Lissa, Sully, Maribelle, Cordelia, Panne, Nowi, Olivia, Cherche, Miriel, Tharja",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_27",
+      "name": "Ricken",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_28",
+      "name": "Ricken",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (M), Gregor, Henry",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Panne",
+          "2",
+          "6",
+          "10",
+          "14"
+        ],
+        [
+          "Cherche",
+          "3",
+          "7",
+          "11",
+          "16"
+        ],
+        [
+          "Avatar (F), Lissa, Sully, Maribelle, Cordelia, Nowi, Olivia, Miriel, Tharja",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_29",
+      "name": "Maribelle",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_30",
+      "name": "Maribelle",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (F), Olivia, Lissa",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Frederick",
+          "2",
+          "6",
+          "10",
+          "14"
+        ],
+        [
+          "Chrom",
+          "3",
+          "7",
+          "11",
+          "16"
+        ],
+        [
+          "Avatar (M), Stahl, Kellam, Ricken, Vaike, Libra, Lon’qu, Gregor, Gaius, Virion, Henry, Donnel",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_31",
+      "name": "Panne",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_32",
+      "name": "Panne",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (F), Cordelia, Olivia",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Ricken",
+          "2",
+          "6",
+          "10",
+          "14"
+        ],
+        [
+          "Libra",
+          "3",
+          "7",
+          "11",
+          "16"
+        ],
+        [
+          "Avatar (M), Frederick, Stahl, Kellam, Vaike, Lon’qu, Gregor, Gaius, Virion, Henry, Donnel",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_33",
+      "name": "Gaius",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_34",
+      "name": "Gaius",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (M), Libra, Chrom",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Tharja",
+          "2",
+          "6",
+          "10",
+          "14"
+        ],
+        [
+          "Cordelia",
+          "3",
+          "7",
+          "11",
+          "16"
+        ],
+        [
+          "Avatar (F), Sumia, Lissa, Sully, Maribelle, Panne, Nowi, Olivia, Cherche, Miriel",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_35",
+      "name": "Cordelia",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_36",
+      "name": "Cordelia",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (F), Panne, Sumia",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Libra",
+          "2",
+          "6",
+          "10",
+          "14"
+        ],
+        [
+          "Gaius",
+          "3",
+          "7",
+          "11",
+          "16"
+        ],
+        [
+          "Avatar (M), Frederick, Stahl, Kellam, Ricken, Vaike, Lon’qu, Gregor, Virion, Henry, Donnel",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_37",
+      "name": "Gregor",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_38",
+      "name": "Gregor",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (M), Ricken, Lon’qu",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Nowi",
+          "2",
+          "6",
+          "10",
+          "14"
+        ],
+        [
+          "Olivia",
+          "3",
+          "7",
+          "11",
+          "16"
+        ],
+        [
+          "Avatar (F), Lissa, Sully, Maribelle, Cordelia, Panne, Cherche, Miriel, Tharja",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_39",
+      "name": "Nowi",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_40",
+      "name": "Nowi",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (F), Cherche, Tharja",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Gregor",
+          "2",
+          "6",
+          "10",
+          "14"
+        ],
+        [
+          "Vaike",
+          "3",
+          "7",
+          "11",
+          "16"
+        ],
+        [
+          "Avatar (M), Frederick, Stahl, Kellam, Ricken, Libra, Lon’qu, Gaius, Virion, Henry, Donnel",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_41",
+      "name": "Libra",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_42",
+      "name": "Libra",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (M), Virion, Gaius",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Cordelia",
+          "2",
+          "6",
+          "10",
+          "14"
+        ],
+        [
+          "Panne",
+          "3",
+          "7",
+          "11",
+          "16"
+        ],
+        [
+          "Avatar (F), Lissa, Sully, Maribelle, Nowi, Olivia, Cherche, Miriel, Tharja",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_43",
+      "name": "Tharja",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_44",
+      "name": "Tharja",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (F), Nowi",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Gaius",
+          "2",
+          "6",
+          "10",
+          "14"
+        ],
+        [
+          "Henry",
+          "3",
+          "7",
+          "11",
+          "16"
+        ],
+        [
+          "Avatar (M), Frederick, Stahl, Kellam, Ricken, Vaike, Libra, Lon’qu, Gregor, Virion, Donnel",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_45",
+      "name": "Olivia",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_46",
+      "name": "Olivia",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (F), Maribelle, Panne",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Henry",
+          "2",
+          "6",
+          "10",
+          "14"
+        ],
+        [
+          "Gregor",
+          "3",
+          "7",
+          "11",
+          "16"
+        ],
+        [
+          "Avatar (M), Chrom, Frederick, Stahl, Kellam, Ricken, Vaike, Libra, Lon’qu, Gaius, Virion, Donnel",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_47",
+      "name": "Cherche",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_48",
+      "name": "Cherche",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (F), Nowi, Miriel",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Virion",
+          "2",
+          "6",
+          "10",
+          "14"
+        ],
+        [
+          "Ricken",
+          "3",
+          "7",
+          "11",
+          "16"
+        ],
+        [
+          "Avatar (M), Frederick, Stahl, Kellam, Vaike, Libra, Lon’qu, Gregor, Gaius, Henry, Donnel",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_49",
+      "name": "Henry",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_50",
+      "name": "Henry",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (M), Frederick, Ricken",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Olivia",
+          "2",
+          "6",
+          "10",
+          "14"
+        ],
+        [
+          "Tharja",
+          "3",
+          "7",
+          "11",
+          "16"
+        ],
+        [
+          "Avatar (F), Sumia, Lissa, Sully, Maribelle, Cordelia, Panne, Nowi, Cherche, Miriel",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_51",
+      "name": "Lucina",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_52",
+      "name": "Lucina",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (F), Kjelle, Tiki, Cynthia",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Laurent",
+          "2",
+          "6",
+          "10",
+          "14"
+        ],
+        [
+          "Avatar (M), Gerome, Owain, Inigo, Brady, Yarne, Morgan (M)",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_53",
+      "name": "Say’ri",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_54",
+      "name": "Say’ri",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (F), Tiki",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Avatar (M)",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_55",
+      "name": "Basilio",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_56",
+      "name": "Basilio",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (M), Flavia",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Avatar (F)",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_57",
+      "name": "Flavia",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_58",
+      "name": "Flavia",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (F), Basilio",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Avatar (M)",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_59",
+      "name": "Donnel",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_60",
+      "name": "Donnel",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (M), Stahl, Kellam",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Avatar (F), Lissa, Sully, Maribelle, Cordelia, Panne, Nowi, Olivia, Cherche, Miriel, Tharja",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_61",
+      "name": "Anna",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_62",
+      "name": "Anna",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (F), Tiki",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Avatar (M)",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_63",
+      "name": "Owain",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_64",
+      "name": "Owain",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (M), Inigo, Morgan (M), Brady",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Kjelle",
+          "2",
+          "6",
+          "10",
+          "14"
+        ],
+        [
+          "Avatar (F), Lucina, Cynthia, Severa, Noire, Nah, Morgan (F)",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_65",
+      "name": "Inigo",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_66",
+      "name": "Inigo",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (M), Gerome, Brady, Owain",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Cynthia",
+          "2",
+          "6",
+          "10",
+          "14"
+        ],
+        [
+          "Avatar (F), Lucina, Kjelle, Severa, Noire, Nah, Morgan (F)",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_67",
+      "name": "Brady",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_68",
+      "name": "Brady",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (M), Yarne, Inigo, Owain",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Severa",
+          "2",
+          "6",
+          "10",
+          "14"
+        ],
+        [
+          "Avatar (F), Lucina, Kjelle, Cynthia, Noire, Nah, Morgan (F)",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_69",
+      "name": "Kjelle",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_70",
+      "name": "Kjelle",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (F), Severa, Lucina",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Owain",
+          "2",
+          "6",
+          "10",
+          "14"
+        ],
+        [
+          "Avatar (M), Gerome, Inigo, Brady, Yarne, Laurent, Morgan (M)",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_71",
+      "name": "Cynthia",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_72",
+      "name": "Cynthia",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (F), Nah, Severa, Lucina",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Inigo",
+          "2",
+          "6",
+          "10",
+          "14"
+        ],
+        [
+          "Avatar (M), Gerome, Owain, Brady, Yarne, Laurent, Morgan (M)",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_73",
+      "name": "Severa",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_74",
+      "name": "Severa",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (F), Kjelle, Cynthia, Noire",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Brady",
+          "2",
+          "6",
+          "10",
+          "14"
+        ],
+        [
+          "Avatar (M), Gerome, Owain, Inigo, Yarne, Laurent, Morgan (M)",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_75",
+      "name": "Gerome",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_76",
+      "name": "Gerome",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (M), Laurent, Inigo",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Nah",
+          "2",
+          "6",
+          "10",
+          "14"
+        ],
+        [
+          "Avatar (F), Lucina, Kjelle, Cynthia, Severa, Noire, Morgan (F)",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_77",
+      "name": "Morgan (M)",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_78",
+      "name": "Morgan (M)",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Owain, Yarne",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Lucina, Kjelle, Cynthia, Severa, Noire, Nah, Morgan (F)",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_79",
+      "name": "Morgan (F)",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_80",
+      "name": "Morgan (F)",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Noire, Nah",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Owain, Gerome, Inigo, Brady, Yarne, Laurent",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_81",
+      "name": "Yarne",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_82",
+      "name": "Yarne",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (M), Brady, Morgan (M), Laurent",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Noire",
+          "2",
+          "6",
+          "10",
+          "14"
+        ],
+        [
+          "Avatar (F), Lucina, Kjelle, Cynthia, Severa, Nah, Morgan (F)",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_83",
+      "name": "Laurent",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_84",
+      "name": "Laurent",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (M), Gerome, Yarne",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Lucina",
+          "2",
+          "6",
+          "10",
+          "14"
+        ],
+        [
+          "Avatar (F), Kjelle, Cynthia, Severa, Noire, Nah, Morgan (F)",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_85",
+      "name": "Noire",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_86",
+      "name": "Noire",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (F), Severa, Morgan (F)",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Yarne",
+          "2",
+          "6",
+          "10",
+          "14"
+        ],
+        [
+          "Avatar (M), Gerome, Owain, Inigo, Brady, Laurent, Morgan (M)",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_87",
+      "name": "Nah",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_88",
+      "name": "Nah",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (F), Morgan (F), Tiki, Cynthia",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Gerome",
+          "2",
+          "6",
+          "10",
+          "14"
+        ],
+        [
+          "Avatar (M), Owain, Inigo, Brady, Yarne, Laurent, Morgan (M)",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_89",
+      "name": "Tiki",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_90",
+      "name": "Tiki",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (F), Lucina, Anna, Nah, Say’ri",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Avatar (M)",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_91",
+      "name": "Gangrel/Walhart/Yen’fay/Priam",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_92",
+      "name": "Gangrel/Walhart/Yen’fay/Priam",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (M)",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Avatar (F)",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_93",
+      "name": "Emmeryn/Aversa",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Character(s)",
+          "C",
+          "B",
+          "A",
+          "S"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_94",
+      "name": "Emmeryn/Aversa",
+      "source_ids": [
+        "support_growth"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Avatar (F)",
+          "3",
+          "8",
+          "15",
+          "–"
+        ],
+        [
+          "Avatar (M)",
+          "4",
+          "8",
+          "13",
+          "18"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_1_0",
+      "name": "Support Basics",
+      "source_ids": [
+        "support_growth_1"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Navigation",
+          "Support Basics",
+          "Support List",
+          "Support Growth"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_1_1",
+      "name": "Building Supports",
+      "source_ids": [
+        "support_growth_1"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Action",
+          "Points"
+        ]
+      ]
+    },
+    {
+      "id": "support_growth_1_2",
+      "name": "Building Supports",
+      "source_ids": [
+        "support_growth_1"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Fight an enemy with a Support Unit present (e.g. while paired up )",
+          "+6/9"
+        ],
+        [
+          "Fight an enemy while adjacent to an ally (not the Support Unit)",
+          "+2/9"
+        ],
+        [
+          "Use a staff on or dance for an ally",
+          "+2/9"
+        ],
+        [
+          "Activate a Dual Strike or a Dual Guard (random chance)",
+          "+2/9"
+        ],
+        [
+          "Pair up and trigger an event tile (random chance)",
+          "+1"
+        ],
+        [
+          "Converse in the Barracks (random chance)",
+          "+1"
+        ],
+        [
+          "Use a “Seed of Trust” item while paired up",
+          "+1"
+        ]
+      ]
+    }
+  ]
+}

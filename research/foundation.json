@@ -1,0 +1,1469 @@
+[
+  {
+    "source_id": "foundation",
+    "name": "Base Stats - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/classes/base-stats/",
+    "accessed": "2026-10-02",
+    "verification": "extracted_unreviewed",
+    "tables": [
+      {
+        "section": "Base Stats",
+        "rows": [
+          [
+            "Class",
+            "HP",
+            "Str",
+            "Mag",
+            "Skl",
+            "Spd",
+            "Def",
+            "Res",
+            "Mov",
+            "Weapon ranks"
+          ]
+        ]
+      },
+      {
+        "section": "Base Stats",
+        "rows": [
+          [
+            "Lord (M)",
+            "18",
+            "6",
+            "0",
+            "5",
+            "7",
+            "7",
+            "0",
+            "5",
+            "Sword"
+          ],
+          [
+            "Great Lord (M)",
+            "23",
+            "10",
+            "0",
+            "7",
+            "9",
+            "10",
+            "3",
+            "6",
+            "Sword, Lance"
+          ],
+          [
+            "Tactician",
+            "16",
+            "4",
+            "3",
+            "5",
+            "5",
+            "5",
+            "3",
+            "5",
+            "Sword, Tome"
+          ],
+          [
+            "Grandmaster",
+            "20",
+            "7",
+            "6",
+            "7",
+            "7",
+            "7",
+            "5",
+            "6",
+            "Sword, Tome"
+          ],
+          [
+            "Cavalier",
+            "18",
+            "6",
+            "0",
+            "5",
+            "6",
+            "7",
+            "0",
+            "7",
+            "Sword, Lance"
+          ],
+          [
+            "Paladin",
+            "25",
+            "9",
+            "1",
+            "7",
+            "8",
+            "10",
+            "6",
+            "8",
+            "Sword, Lance"
+          ],
+          [
+            "Great Knight",
+            "26",
+            "11",
+            "0",
+            "6",
+            "5",
+            "14",
+            "1",
+            "7",
+            "Sword, Lance, Axe"
+          ],
+          [
+            "Knight",
+            "18",
+            "8",
+            "0",
+            "4",
+            "2",
+            "11",
+            "0",
+            "4",
+            "Lance"
+          ],
+          [
+            "General",
+            "28",
+            "12",
+            "0",
+            "7",
+            "4",
+            "15",
+            "3",
+            "5",
+            "Lance, Axe"
+          ],
+          [
+            "Myrmidon",
+            "16",
+            "4",
+            "1",
+            "9",
+            "10",
+            "4",
+            "1",
+            "5",
+            "Sword"
+          ],
+          [
+            "Swordmaster",
+            "20",
+            "7",
+            "2",
+            "11",
+            "13",
+            "6",
+            "4",
+            "6",
+            "Sword"
+          ],
+          [
+            "Mercenary",
+            "18",
+            "5",
+            "0",
+            "8",
+            "7",
+            "5",
+            "0",
+            "5",
+            "Sword"
+          ],
+          [
+            "Hero",
+            "22",
+            "8",
+            "1",
+            "11",
+            "10",
+            "8",
+            "3",
+            "6",
+            "Sword, Axe"
+          ],
+          [
+            "Fighter",
+            "20",
+            "8",
+            "0",
+            "5",
+            "5",
+            "4",
+            "0",
+            "5",
+            "Axe"
+          ],
+          [
+            "Warrior",
+            "28",
+            "12",
+            "0",
+            "8",
+            "7",
+            "7",
+            "3",
+            "6",
+            "Axe, Bow"
+          ],
+          [
+            "Barbarian",
+            "22",
+            "8",
+            "0",
+            "3",
+            "8",
+            "3",
+            "0",
+            "5",
+            "Axe"
+          ],
+          [
+            "Berserker",
+            "30",
+            "13",
+            "0",
+            "5",
+            "11",
+            "5",
+            "1",
+            "6",
+            "Axe"
+          ],
+          [
+            "Archer",
+            "16",
+            "5",
+            "0",
+            "8",
+            "6",
+            "5",
+            "0",
+            "5",
+            "Bow"
+          ],
+          [
+            "Sniper",
+            "20",
+            "7",
+            "1",
+            "12",
+            "9",
+            "10",
+            "3",
+            "6",
+            "Bow"
+          ],
+          [
+            "Bow Knight",
+            "24",
+            "8",
+            "0",
+            "10",
+            "10",
+            "6",
+            "2",
+            "8",
+            "Sword, Bow"
+          ],
+          [
+            "Class",
+            "HP",
+            "Str",
+            "Mag",
+            "Skl",
+            "Spd",
+            "Def",
+            "Res",
+            "Mov",
+            "Weapon ranks"
+          ]
+        ]
+      },
+      {
+        "section": "Base Stats",
+        "rows": [
+          [
+            "Thief",
+            "16",
+            "3",
+            "0",
+            "6",
+            "8",
+            "2",
+            "0",
+            "5",
+            "Sword"
+          ],
+          [
+            "Assassin",
+            "21",
+            "8",
+            "0",
+            "13",
+            "12",
+            "5",
+            "1",
+            "6",
+            "Sword, Bow"
+          ],
+          [
+            "Trickster",
+            "19",
+            "4",
+            "4",
+            "10",
+            "11",
+            "3",
+            "5",
+            "6",
+            "Sword, Staff"
+          ],
+          [
+            "Pegasus Knight",
+            "16",
+            "4",
+            "2",
+            "7",
+            "8",
+            "4",
+            "6",
+            "7",
+            "Lance"
+          ],
+          [
+            "Falcon Knight",
+            "20",
+            "6",
+            "3",
+            "10",
+            "11",
+            "6",
+            "9",
+            "8",
+            "Lance, Staff"
+          ],
+          [
+            "Dark Flier",
+            "19",
+            "5",
+            "6",
+            "8",
+            "10",
+            "5",
+            "9",
+            "8",
+            "Lance, Tome"
+          ],
+          [
+            "Wyvern Rider",
+            "19",
+            "7",
+            "0",
+            "6",
+            "5",
+            "8",
+            "0",
+            "7",
+            "Axe"
+          ],
+          [
+            "Wyvern Lord",
+            "24",
+            "11",
+            "0",
+            "8",
+            "7",
+            "11",
+            "3",
+            "8",
+            "Lance, Axe"
+          ],
+          [
+            "Griffon Rider",
+            "22",
+            "9",
+            "0",
+            "10",
+            "9",
+            "8",
+            "3",
+            "8",
+            "Axe"
+          ],
+          [
+            "Mage",
+            "16",
+            "0",
+            "4",
+            "3",
+            "4",
+            "2",
+            "3",
+            "5",
+            "Tome"
+          ],
+          [
+            "Sage",
+            "20",
+            "1",
+            "7",
+            "5",
+            "7",
+            "4",
+            "5",
+            "6",
+            "Tome, Staff"
+          ],
+          [
+            "Dark Mage",
+            "18",
+            "1",
+            "3",
+            "2",
+            "3",
+            "4",
+            "4",
+            "5",
+            "Tome"
+          ],
+          [
+            "Sorcerer",
+            "23",
+            "2",
+            "6",
+            "4",
+            "4",
+            "7",
+            "7",
+            "6",
+            "Tome"
+          ],
+          [
+            "Dark Knight",
+            "25",
+            "4",
+            "5",
+            "6",
+            "5",
+            "9",
+            "5",
+            "8",
+            "Sword, Tome"
+          ],
+          [
+            "Priest, Cleric",
+            "16",
+            "0",
+            "3",
+            "2",
+            "4",
+            "1",
+            "6",
+            "5",
+            "Staff"
+          ],
+          [
+            "War Monk/Cleric",
+            "24",
+            "5",
+            "5",
+            "4",
+            "6",
+            "6",
+            "6",
+            "6",
+            "Axe, Staff"
+          ],
+          [
+            "Troubadour",
+            "16",
+            "0",
+            "3",
+            "2",
+            "5",
+            "1",
+            "5",
+            "7",
+            "Staff"
+          ],
+          [
+            "Valkyrie",
+            "19",
+            "0",
+            "5",
+            "4",
+            "8",
+            "3",
+            "8",
+            "8",
+            "Tome, Staff"
+          ],
+          [
+            "Villager",
+            "16",
+            "1",
+            "0",
+            "1",
+            "1",
+            "1",
+            "0",
+            "5",
+            "Lance"
+          ],
+          [
+            "Dancer",
+            "16",
+            "1",
+            "1",
+            "5",
+            "8",
+            "3",
+            "1",
+            "5",
+            "Sword"
+          ],
+          [
+            "Class",
+            "HP",
+            "Str",
+            "Mag",
+            "Skl",
+            "Spd",
+            "Def",
+            "Res",
+            "Mov",
+            "Weapon ranks"
+          ]
+        ]
+      },
+      {
+        "section": "Base Stats",
+        "rows": [
+          [
+            "Taguel *",
+            "18",
+            "2",
+            "0",
+            "4",
+            "5",
+            "3",
+            "2",
+            "6",
+            "Stone"
+          ],
+          [
+            "Taguel (shifted)",
+            "18",
+            "5",
+            "0",
+            "9",
+            "10",
+            "4",
+            "2",
+            "6",
+            "Stone"
+          ],
+          [
+            "Manakete *",
+            "18",
+            "2",
+            "0",
+            "1",
+            "1",
+            "2",
+            "2",
+            "6",
+            "Stone"
+          ],
+          [
+            "Manakete (shifted)",
+            "18",
+            "10",
+            "5",
+            "4",
+            "3",
+            "12",
+            "9",
+            "6",
+            "Stone"
+          ],
+          [
+            "Lord (F)",
+            "16",
+            "5",
+            "1",
+            "6",
+            "8",
+            "6",
+            "1",
+            "5",
+            "Sword"
+          ],
+          [
+            "Great Lord (F)",
+            "20",
+            "8",
+            "1",
+            "9",
+            "11",
+            "8",
+            "4",
+            "6",
+            "Sword, Lance"
+          ],
+          [
+            "Lodestar",
+            "21",
+            "9",
+            "1",
+            "10",
+            "10",
+            "8",
+            "4",
+            "6",
+            "Sword"
+          ],
+          [
+            "Dread Fighter",
+            "22",
+            "8",
+            "4",
+            "7",
+            "9",
+            "7",
+            "10",
+            "6",
+            "Sword, Axe, Tome"
+          ],
+          [
+            "Bride",
+            "21",
+            "7",
+            "6",
+            "11",
+            "10",
+            "7",
+            "6",
+            "6",
+            "Lance, Bow, Staff"
+          ],
+          [
+            "Soldier",
+            "16",
+            "3",
+            "0",
+            "3",
+            "3",
+            "3",
+            "0",
+            "5",
+            "Lance"
+          ],
+          [
+            "Merchant",
+            "18",
+            "3",
+            "0",
+            "2",
+            "2",
+            "4",
+            "1",
+            "5",
+            "Lance"
+          ],
+          [
+            "Revenant",
+            "18",
+            "3",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "5",
+            "Claw"
+          ],
+          [
+            "Entombed",
+            "20",
+            "3",
+            "1",
+            "2",
+            "2",
+            "2",
+            "1",
+            "6",
+            "Claw"
+          ],
+          [
+            "Conqueror",
+            "24",
+            "10",
+            "3",
+            "9",
+            "8",
+            "12",
+            "5",
+            "8",
+            "Sword, Lance, Axe"
+          ],
+          [
+            "Grima",
+            "30",
+            "15",
+            "15",
+            "15",
+            "15",
+            "15",
+            "10",
+            "0",
+            "Breath"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source_id": "foundation_1",
+    "name": "Skills - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/skills/",
+    "accessed": "2026-10-02",
+    "verification": "extracted_unreviewed",
+    "tables": [
+      {
+        "section": "Obtainable Skills",
+        "rows": [
+          [
+            "Icon",
+            "Skill",
+            "Effect",
+            "Activation",
+            "Class",
+            "Level"
+          ]
+        ]
+      },
+      {
+        "section": "Obtainable Skills",
+        "rows": [
+          [
+            "Image: Dual Strike+",
+            "Dual Strike+",
+            "Adds 10% to the Dual Strike rate",
+            "–",
+            "Lord",
+            "1"
+          ],
+          [
+            "Image: Charm",
+            "Charm",
+            "Hit rate and Avoid +5 to all allies within a 3 tile radius",
+            "–",
+            "Lord",
+            "10"
+          ],
+          [
+            "Image: Aether",
+            "Aether",
+            "Attack twice consecutively, with the first strike having a Sol effect and the second strike having a Luna effect",
+            "Skill/2%",
+            "Great Lord",
+            "5"
+          ],
+          [
+            "Image: Rightful King",
+            "Rightful King",
+            "Adds 10% to Skill activation rates",
+            "–",
+            "Great Lord",
+            "15"
+          ],
+          [
+            "Image: Veteran",
+            "Veteran",
+            "Experience gain x 1.5 when paired up",
+            "–",
+            "Tactician",
+            "1"
+          ],
+          [
+            "Image: Solidarity",
+            "Solidarity",
+            "Critical and Critical Avoid +10 to adjacent allies",
+            "–",
+            "Tactician",
+            "10"
+          ],
+          [
+            "Image: Ignis",
+            "Ignis",
+            "Adds (Magic)/2 to Strength when dealing physical damage and (Strength)/2 to Magic when dealing magical damage",
+            "Skill%",
+            "Grandmaster",
+            "5"
+          ],
+          [
+            "Image: Rally Spectrum",
+            "Rally Spectrum",
+            "All stats *_{1} +4 to all allies within a 3 tile radius for one Turn when the Rally command is used",
+            "Command",
+            "Grandmaster",
+            "15"
+          ],
+          [
+            "Image: Discipline",
+            "Discipline",
+            "Weapon experience x2",
+            "–",
+            "Cavalier",
+            "1"
+          ],
+          [
+            "Image: Outdoor Fighter",
+            "Outdoor Fighter",
+            "Hit rate and Avoid +10 when fighting outdoors",
+            "–",
+            "Cavalier",
+            "10"
+          ],
+          [
+            "Image: Defender",
+            "Defender",
+            "All stats *_{1} +1 when paired up",
+            "–",
+            "Paladin",
+            "5"
+          ],
+          [
+            "Image: Aegis",
+            "Aegis",
+            "Halves damage from bows, tomes and dragonstones *_{2}",
+            "Skill%",
+            "Paladin",
+            "15"
+          ],
+          [
+            "Image: Luna",
+            "Luna",
+            "Ignores half the enemy’s Defence or Resistance",
+            "Skill%",
+            "Great Knight",
+            "5"
+          ],
+          [
+            "",
+            "Dual Guard+",
+            "Adds 10% to the Dual Guard rate",
+            "–",
+            "Great Knight",
+            "15"
+          ],
+          [
+            "Image: Defence +2",
+            "Defence +2",
+            "Defence +2",
+            "–",
+            "Knight",
+            "1"
+          ],
+          [
+            "Image: Indoor Fighter",
+            "Indoor Fighter",
+            "Hit rate and Avoid +10 when fighting indoors",
+            "–",
+            "Knight",
+            "10"
+          ],
+          [
+            "Image: Rally Defence",
+            "Rally Defence",
+            "Defence +4 to all allies within a 3 tile radius for one Turn when the Rally command is used",
+            "Command",
+            "General",
+            "5"
+          ],
+          [
+            "Image: Pavise",
+            "Pavise",
+            "Halves damage from swords, lances, axes (includes magical variants) and beaststones *_{2}",
+            "Skill%",
+            "General",
+            "15"
+          ],
+          [
+            "Image: Avoid +10",
+            "Avoid +10",
+            "Avoid +10",
+            "–",
+            "Myrmidon",
+            "1"
+          ],
+          [
+            "Image: Vantage",
+            "Vantage",
+            "When HP under half, always attack first during the enemy’s Turn",
+            "–",
+            "Myrmidon",
+            "10"
+          ],
+          [
+            "Image: Astra",
+            "Astra",
+            "Deals 5 consecutive hits with half damage",
+            "Skill/2%",
+            "Swordmaster",
+            "5"
+          ],
+          [
+            "Image: Swordfaire",
+            "Swordfaire",
+            "Strength +5 when equipped with a sword (Magic +5 when equipped with the Levin Sword)",
+            "–",
+            "Swordmaster",
+            "15"
+          ],
+          [
+            "Image: Armsthrift",
+            "Armsthrift",
+            "Attack does not reduce weapon usage",
+            "Luck*2%",
+            "Mercenary",
+            "1"
+          ],
+          [
+            "Image: Patience",
+            "Patience",
+            "Hit rate and Avoid +10 during the enemy’s Turn",
+            "–",
+            "Mercenary",
+            "10"
+          ],
+          [
+            "Image: Sol",
+            "Sol",
+            "Recover HP equal to half the damage dealt to the enemy",
+            "Skill%",
+            "Hero",
+            "5"
+          ],
+          [
+            "Image: Axebreaker",
+            "Axebreaker",
+            "Hit rate and Avoid +50 when the enemy is equipped with an axe",
+            "–",
+            "Hero",
+            "15"
+          ],
+          [
+            "Image: HP +5",
+            "HP +5",
+            "Maximum HP +5",
+            "–",
+            "Fighter",
+            "1"
+          ],
+          [
+            "Image: Zeal",
+            "Zeal",
+            "Critical +5",
+            "–",
+            "Fighter",
+            "10"
+          ],
+          [
+            "Image: Rally Strength",
+            "Rally Strength",
+            "Strength +4 to all allies within a 3 tile radius for one Turn when the Rally command is used",
+            "Command",
+            "Warrior",
+            "5"
+          ],
+          [
+            "Image: Counter",
+            "Counter",
+            "Returns damage when attacked by an adjacent enemy (except damage that KOs the user) *_{2}",
+            "–",
+            "Warrior",
+            "15"
+          ],
+          [
+            "Image: Despoil",
+            "Despoil",
+            "Obtain Bullion (S) from the enemy if the user defeats the enemy",
+            "Luck%",
+            "Barbarian",
+            "1"
+          ],
+          [
+            "Image: Gamble",
+            "Gamble",
+            "Hit rate -5, Critical +10",
+            "–",
+            "Barbarian",
+            "10"
+          ],
+          [
+            "Image: Wrath",
+            "Wrath",
+            "Critical +20 when under half HP",
+            "–",
+            "Berserker",
+            "5"
+          ],
+          [
+            "Image: Axefaire",
+            "Axefaire",
+            "Strength +5 when equipped with an axe (Magic +5 when equipped with the Bolt Axe)",
+            "–",
+            "Berserker",
+            "15"
+          ],
+          [
+            "Image: Skill +2",
+            "Skill +2",
+            "Skill +2",
+            "–",
+            "Archer",
+            "1"
+          ],
+          [
+            "Image: Prescience",
+            "Prescience",
+            "Hit rate and Avoid +15 during the user’s Turn",
+            "–",
+            "Archer",
+            "10"
+          ],
+          [
+            "Image: Hit Rate +20",
+            "Hit Rate +20",
+            "Hit rate +20",
+            "–",
+            "Sniper",
+            "5"
+          ],
+          [
+            "Image: Bowfaire",
+            "Bowfaire",
+            "Strength +5 when equipped with a bow",
+            "–",
+            "Sniper",
+            "15"
+          ],
+          [
+            "Image: Rally Skill",
+            "Rally Skill",
+            "Skill +4 to all allies within a 3 tile radius for one Turn when the Rally command is used",
+            "Command",
+            "Bow Knight",
+            "5"
+          ],
+          [
+            "Image: Bowbreaker",
+            "Bowbreaker",
+            "Hit rate and Avoid +50 when the enemy is equipped with a bow",
+            "–",
+            "Bow Knight",
+            "15"
+          ],
+          [
+            "Image: Locktouch",
+            "Locktouch",
+            "Open doors and chests without the need of keys",
+            "–",
+            "Thief",
+            "1"
+          ],
+          [
+            "Image: Movement +1",
+            "Movement +1",
+            "Movement +1",
+            "–",
+            "Thief",
+            "10"
+          ],
+          [
+            "Image: Lethality",
+            "Lethality",
+            "Instantly defeats the enemy",
+            "Skill/4%",
+            "Assassin",
+            "5"
+          ],
+          [
+            "Image: Pass",
+            "Pass",
+            "User can pass through tiles occupied by enemy units",
+            "–",
+            "Assassin",
+            "15"
+          ],
+          [
+            "Image: Lucky Seven",
+            "Lucky Seven",
+            "Hit rate and Avoid +20 up to the 7th Turn",
+            "–",
+            "Trickster",
+            "5"
+          ],
+          [
+            "Image: Acrobat",
+            "Acrobat",
+            "All traversable terrain costs 1 movement point to cross",
+            "–",
+            "Trickster",
+            "15"
+          ],
+          [
+            "Image: Speed +2",
+            "Speed +2",
+            "Speed +2",
+            "–",
+            "Pegasus Knight",
+            "1"
+          ],
+          [
+            "Image: Relief",
+            "Relief",
+            "Recover 20% HP at the start of the user’s Turn if no units are within a 3 tile radius",
+            "–",
+            "Pegasus Knight",
+            "10"
+          ],
+          [
+            "Image: Rally Speed",
+            "Rally Speed",
+            "Speed +4 to all allies within a 3 tile radius for one Turn when the Rally command is used",
+            "Command",
+            "Falcon Knight",
+            "5"
+          ],
+          [
+            "Image: Lancefaire",
+            "Lancefaire",
+            "Strength +5 when equipped with a lance (Magic +5 when equipped with the Shockstick)",
+            "–",
+            "Falcon Knight",
+            "15"
+          ],
+          [
+            "Image: Rally Movement",
+            "Rally Movement",
+            "Movement +1 to all allies within a 3 tile radius for one Turn when the Rally command is used",
+            "Command",
+            "Dark Flier",
+            "5"
+          ],
+          [
+            "Image: Galeforce",
+            "Galeforce",
+            "Allows the user another full action after they defeat an enemy during the user’s Turn (only once per Turn)",
+            "–",
+            "Dark Flier",
+            "15"
+          ],
+          [
+            "Image: Strength +2",
+            "Strength +2",
+            "Strength +2",
+            "–",
+            "Wyvern Rider",
+            "1"
+          ],
+          [
+            "Image: Tantivy",
+            "Tantivy",
+            "Hit rate and Avoid +10 if no allies within a 3 tile radius",
+            "–",
+            "Wyvern Rider",
+            "10"
+          ],
+          [
+            "Image: Quick Burn",
+            "Quick Burn",
+            "Hit rate and Avoid +15 at the start of the chapter. Effect decreases with each passing Turn",
+            "–",
+            "Wyvern Lord",
+            "5"
+          ],
+          [
+            "Image: Swordbreaker",
+            "Swordbreaker",
+            "Hit rate and Avoid +50 when the enemy is equipped with a sword",
+            "–",
+            "Wyvern Lord",
+            "15"
+          ],
+          [
+            "Image: Deliverer",
+            "Deliverer",
+            "Movement +2 when paired up",
+            "–",
+            "Griffon Rider",
+            "5"
+          ],
+          [
+            "Image: Lancebreaker",
+            "Lancebreaker",
+            "Hit rate and Avoid +50 when the enemy is equipped with a lance",
+            "–",
+            "Griffon Rider",
+            "15"
+          ],
+          [
+            "Image: Magic +2",
+            "Magic +2",
+            "Magic +2",
+            "–",
+            "Mage",
+            "1"
+          ],
+          [
+            "Image: Focus",
+            "Focus",
+            "Critical +10 when no allies within a 3 tile radius",
+            "–",
+            "Mage",
+            "10"
+          ],
+          [
+            "Image: Rally Magic",
+            "Rally Magic",
+            "Magic +4 to all allies within a 3 tile radius for one Turn when the Rally command is used",
+            "Command",
+            "Sage",
+            "5"
+          ],
+          [
+            "Image: Tomefaire",
+            "Tomefaire",
+            "Magic +5 when equipped with a Tome",
+            "–",
+            "Sage",
+            "15"
+          ],
+          [
+            "Image: Hex",
+            "Hex",
+            "Avoid -15 to all adjacent enemies",
+            "–",
+            "Dark Mage",
+            "1"
+          ],
+          [
+            "Image: Anathema",
+            "Anathema",
+            "Avoid and Critical Avoid -10 to all enemies within a 3 tile radius",
+            "–",
+            "Dark Mage",
+            "10"
+          ],
+          [
+            "Image: Vengeance",
+            "Vengeance",
+            "Deals (user’s Max HP – Current HP)/2 extra damage",
+            "Skill*2%",
+            "Sorcerer",
+            "5"
+          ],
+          [
+            "Image: Tomebreaker",
+            "Tomebreaker",
+            "Hit rate and Avoid +50 when the enemy is equipped with a tome",
+            "–",
+            "Sorcerer",
+            "15"
+          ],
+          [
+            "Image: Slowburn",
+            "Slow Burn",
+            "Hit rate and Avoid increases by 1 each Turn, up to the 15th Turn",
+            "–",
+            "Dark Knight",
+            "5"
+          ],
+          [
+            "Image: Lifetaker",
+            "Lifetaker",
+            "User recovers 50% HP after they defeat an enemy during the user’s Turn",
+            "–",
+            "Dark Knight",
+            "15"
+          ],
+          [
+            "Image: Miracle",
+            "Miracle",
+            "Character survives with 1 HP after receiving an attack that would otherwise KO them (must have over 1 HP)",
+            "Luck%",
+            "Priest, Cleric",
+            "1"
+          ],
+          [
+            "Image: Healtouch",
+            "Healtouch",
+            "Restores an extra 5 HP when healing allies",
+            "–",
+            "Priest, Cleric",
+            "10"
+          ],
+          [
+            "Image: Rally Luck",
+            "Rally Luck",
+            "Luck +8 to all allies within a 3 tile radius for one Turn when the Rally command is used",
+            "Command",
+            "War Monk, War Cleric",
+            "5"
+          ],
+          [
+            "Image: Renewal",
+            "Renewal",
+            "Recover 30% HP at the start of the user’s Turn",
+            "–",
+            "War Monk, War Cleric",
+            "15"
+          ],
+          [
+            "Image: Resistance +2",
+            "Resistance +2",
+            "Resistance +2",
+            "–",
+            "Troubadour",
+            "1"
+          ],
+          [
+            "Image: Demoiselle",
+            "Demoiselle",
+            "Avoid and Critical Avoid +10 to all male allies within a 3 tile radius",
+            "–",
+            "Troubadour",
+            "10"
+          ],
+          [
+            "Image: Rally Resistance",
+            "Rally Resistance",
+            "Resistance +4 to all allies within a 3 tile radius for one Turn when the Rally command is used",
+            "Command",
+            "Valkyrie",
+            "5"
+          ],
+          [
+            "Image: Dual Support+",
+            "Dual Support+",
+            "Increases the support bonus effect",
+            "–",
+            "Valkyrie",
+            "15"
+          ],
+          [
+            "Image: Aptitude",
+            "Aptitude",
+            "Adds 20% to all growth rates during Level Ups",
+            "–",
+            "Villager",
+            "1"
+          ],
+          [
+            "Image: Underdog",
+            "Underdog",
+            "Hit rate and Avoid +15 when user’s Level is lower than the enemy (promoted units count as Level +20)",
+            "–",
+            "Villager",
+            "15"
+          ],
+          [
+            "Image: Luck +4",
+            "Luck +4",
+            "Luck +4",
+            "–",
+            "Dancer",
+            "1"
+          ],
+          [
+            "Image: Special Dance",
+            "Special Dance",
+            "Strength, Magic, Defence and Resistance +2 for one Turn for the unit who receives the user’s Dance",
+            "–",
+            "Dancer",
+            "15"
+          ],
+          [
+            "Image: Even Rhythm",
+            "Even Rhythm",
+            "Hit rate and Avoid +10 during even numbered Turns",
+            "–",
+            "Taguel",
+            "1"
+          ],
+          [
+            "Image: Beastbane",
+            "Beastbane",
+            "Deals effective damage to Image: Beast (beast *_{3} ) units when user is a Taguel",
+            "–",
+            "Taguel",
+            "15"
+          ],
+          [
+            "Image: Odd Rhythm",
+            "Odd Rhythm",
+            "Hit rate and Avoid +10 during odd numbered Turns",
+            "–",
+            "Manakete",
+            "1"
+          ],
+          [
+            "Image: Wyrmsbane",
+            "Wyrmsbane",
+            "Deals effective damage to Image: Dragon (dragon) units when user is a Manakete",
+            "–",
+            "Manakete",
+            "15"
+          ],
+          [
+            "Image: Shadowgift",
+            "Shadowgift",
+            "Enables usage of Dark Tomes for Tome wielders"
+          ],
+          [
+            "(Aversa, Morgan as Aversa’s daughter, DLC Micaiah and DLC Katarina only)",
+            "–",
+            "–",
+            "–"
+          ],
+          [
+            "Image: Conquest",
+            "Conquest",
+            "Negates user’s Image: Beast (beast *_{3} ) and Image: Armour (armour) type weaknesses (Walhart, Morgan as Walhart’s son, Zephiel and DLC Ephraim only)",
+            "–",
+            "–",
+            "–"
+          ],
+          [
+            "Image: Resistance +10",
+            "Resistance +10",
+            "Resistance +10",
+            "–",
+            "Dread Fighter *_{4}",
+            "1"
+          ],
+          [
+            "Image: Aggressor",
+            "Aggressor",
+            "Attack +10 during the user’s Turn",
+            "–",
+            "Dread Fighter *_{4}",
+            "15"
+          ],
+          [
+            "Image: Rally Heart",
+            "Rally Heart",
+            "All stats *_{1} +2 and Movement +1 to all allies within a 3 tile radius for one Turn when the Rally command is used",
+            "Command",
+            "Bride *_{4}",
+            "1"
+          ]
+        ]
+      }
+    ]
+  }
+]

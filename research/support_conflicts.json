@@ -1,0 +1,7 @@
+{
+  "conflicts": [],
+  "excluded": [
+    "morgan_m__morgan_f"
+  ],
+  "reason": "Supports page explicitly excludes male/female Morgan marriage; growth table accidentally includes it."
+}

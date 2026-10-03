@@ -1,0 +1,535 @@
+[
+  {
+    "source_id": "items",
+    "name": "Stones & Miscellaneous - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/inventory/stones-miscellaneous/",
+    "accessed": "2026-10-02",
+    "verification": "extracted_unreviewed",
+    "tables": [
+      {
+        "section": "Stones & Miscellaneous",
+        "rows": [
+          [
+            "Icon",
+            "Name",
+            "Rank",
+            "Mt",
+            "Hit",
+            "Crit",
+            "Rng",
+            "Effect",
+            "Uses",
+            "Worth",
+            "Description"
+          ]
+        ]
+      },
+      {
+        "section": "Stones & Miscellaneous",
+        "rows": [
+          [
+            "Image: Beaststone",
+            "Beaststone",
+            "–",
+            "6",
+            "80",
+            "0",
+            "1",
+            "–",
+            "50",
+            "2000",
+            "Taguel only, Str +3, Skl +5, Spd +5, Lck +4, Def +1"
+          ],
+          [
+            "Image: Beaststone+",
+            "Beaststone+",
+            "–",
+            "10",
+            "70",
+            "0",
+            "1",
+            "–",
+            "35",
+            "3220",
+            "Taguel only, Str +5, Skl +8, Spd +8, Lck +6, Def +4, Res +2"
+          ],
+          [
+            "Image: Dragonstone",
+            "Dragonstone",
+            "–",
+            "8",
+            "80",
+            "0",
+            "1~2",
+            "–",
+            "50",
+            "2300",
+            "Manaketes only, Str +8, Mag +5, Skl +3, Spd +2, Def +10, Res +7"
+          ],
+          [
+            "Image: Dragonstone+",
+            "Dragonstone+",
+            "–",
+            "12",
+            "70",
+            "0",
+            "1~2",
+            "–",
+            "35",
+            "3780",
+            "Manaketes only, Str +11, Mag +6, Skl +5, Spd +4, Def +13, Res +9"
+          ],
+          [
+            "Image: Blighted Claws",
+            "Blighted Claws",
+            "–",
+            "12",
+            "75",
+            "0",
+            "1",
+            "–",
+            "–",
+            "N/A",
+            "Revenants and Entombed only"
+          ],
+          [
+            "Image: Blighted Talons",
+            "Blighted Talons",
+            "–",
+            "16",
+            "65",
+            "0",
+            "1",
+            "–",
+            "–",
+            "N/A",
+            "Revenants and Entombed only"
+          ],
+          [
+            "Image: Expiration",
+            "Expiration",
+            "–",
+            "20",
+            "80",
+            "0",
+            "1~5",
+            "–",
+            "–",
+            "N/A",
+            "Grima only"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source_id": "items_1",
+    "name": "Items - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/inventory/items/",
+    "accessed": "2026-10-02",
+    "verification": "extracted_unreviewed",
+    "tables": [
+      {
+        "section": "Items",
+        "rows": [
+          [
+            "Icon",
+            "Name",
+            "Uses",
+            "Worth",
+            "Description"
+          ]
+        ]
+      },
+      {
+        "section": "Items",
+        "rows": [
+          [
+            "Image: Vulnerary",
+            "Vulnerary",
+            "3",
+            "300",
+            "Restores 10 HP"
+          ],
+          [
+            "Image: Concoction",
+            "Concoction",
+            "3",
+            "600",
+            "Restores 20 HP"
+          ],
+          [
+            "Image: Elixir",
+            "Elixir",
+            "3",
+            "900",
+            "Restores all HP"
+          ],
+          [
+            "Image: Pure Water",
+            "Pure Water",
+            "3",
+            "600",
+            "Temporarily increases Resistance by 5 (effect decreases by 1 each Turn)"
+          ],
+          [
+            "Image: HP Tonic",
+            "HP Tonic",
+            "1",
+            "150",
+            "Max HP +5 until the chapter/skirmish’s end"
+          ],
+          [
+            "Image: Strength Tonic",
+            "Strength Tonic",
+            "1",
+            "150",
+            "Strength +2 until the chapter/skirmish’s end"
+          ],
+          [
+            "Image: Magic Tonic",
+            "Magic Tonic",
+            "1",
+            "150",
+            "Magic +2 until the chapter/skirmish’s end"
+          ],
+          [
+            "Image: Skill Tonic",
+            "Skill Tonic",
+            "1",
+            "150",
+            "Skill +2 until the chapter/skirmish’s end"
+          ],
+          [
+            "Image: Speed Tonic",
+            "Speed Tonic",
+            "1",
+            "150",
+            "Speed +2 until the chapter/skirmish’s end"
+          ],
+          [
+            "Image: Luck Tonic",
+            "Luck Tonic",
+            "1",
+            "150",
+            "Luck +2 until the chapter/skirmish’s end"
+          ],
+          [
+            "Image: Defence Tonic",
+            "Defence Tonic",
+            "1",
+            "150",
+            "Defence +2 until the chapter/skirmish’s end"
+          ],
+          [
+            "Image: Tesistance Tonic",
+            "Resistance Tonic",
+            "1",
+            "150",
+            "Resistance +2 until the chapter/skirmish’s end"
+          ],
+          [
+            "Image: Door Key",
+            "Door Key",
+            "1",
+            "300",
+            "Opens a door"
+          ],
+          [
+            "Image: Chest Key",
+            "Chest Key",
+            "1",
+            "300",
+            "Opens a chest"
+          ],
+          [
+            "Image: Master Key",
+            "Master Key",
+            "1",
+            "500",
+            "Opens doors or chests"
+          ],
+          [
+            "Image: Seraph Robe",
+            "Seraph Robe",
+            "1",
+            "2500",
+            "Permanently raises HP by 5"
+          ],
+          [
+            "Image: Energy Drop",
+            "Energy Drop",
+            "1",
+            "2500",
+            "Permanently raises Strength by 2"
+          ],
+          [
+            "Image: Spirit Dust",
+            "Spirit Dust",
+            "1",
+            "2500",
+            "Permanently raises Magic by 2"
+          ],
+          [
+            "Image: Secret Book",
+            "Secret Book",
+            "1",
+            "2500",
+            "Permanently raises Skill by 2"
+          ],
+          [
+            "Image: Speedwing",
+            "Speedwing",
+            "1",
+            "2500",
+            "Permanently raises Speed by 2"
+          ],
+          [
+            "Image: Goddess Icon",
+            "Goddess Icon",
+            "1",
+            "2500",
+            "Permanently raises Luck by 2"
+          ],
+          [
+            "Image: Dracoshield",
+            "Dracoshield",
+            "1",
+            "2500",
+            "Permanently raises Defence by 2"
+          ],
+          [
+            "Image: Talisman",
+            "Talisman",
+            "1",
+            "2500",
+            "Permanently raises Resistance by 2"
+          ],
+          [
+            "Image: Naga's Tear",
+            "Naga’s Tear",
+            "1",
+            "5000",
+            "Permanently raises Max HP by 5 and other stats by 2"
+          ],
+          [
+            "Image: Boots",
+            "Boots",
+            "1",
+            "2500",
+            "Permanently raises Movement by 2 (cannot be used on the same character twice)"
+          ],
+          [
+            "Image: Arms Scroll",
+            "Arms Scroll",
+            "1",
+            "2500",
+            "Permanently raises all displayed weapon ranks by 1 level"
+          ],
+          [
+            "Image: Master Seal",
+            "Master Seal",
+            "1",
+            "2500",
+            "Upgrades a Level 10 or higher unit to a promoted class"
+          ],
+          [
+            "Image: Second Seal",
+            "Second Seal",
+            "1",
+            "2500",
+            "Reclasses a Level 10 or higher (or promoted) unit to a different class"
+          ],
+          [
+            "Image: Bullion (S)",
+            "Bullion (S)",
+            "–",
+            "2000",
+            "Sells for 1,000G"
+          ],
+          [
+            "Image: Bullion (M)",
+            "Bullion (M)",
+            "–",
+            "10000",
+            "Sells for 5,000G"
+          ],
+          [
+            "Image: Bullion (L)",
+            "Bullion (L)",
+            "–",
+            "20000",
+            "Sells for 10,000G"
+          ],
+          [
+            "Image: Sweet Tincture",
+            "Sweet Tincture",
+            "3",
+            "150 *_{1}",
+            "Restores HP"
+          ],
+          [
+            "Image: Gaius's Confect",
+            "Gaius’s Confect",
+            "5",
+            "2000 *_{1}",
+            "Strength, Skill and Speed +2 until the chapter/skirmish’s end"
+          ],
+          [
+            "Image: Kris's Confect",
+            "Kris’s Confect",
+            "5",
+            "1000 *_{1}",
+            "Max HP +5, Defence and Resistance +2 until the chapter/skirmish’s end"
+          ],
+          [
+            "Image: Tiki's Tear",
+            "Tiki’s Tear",
+            "1",
+            "1000 *_{1}",
+            "Max HP +5 and all other stats +2 until the chapter/skirmish’s end"
+          ],
+          [
+            "Image: Seed of Trust",
+            "Seed of Trust",
+            "1",
+            "1000 *_{1}",
+            "Can be used to improve support relationships when paired up"
+          ],
+          [
+            "Image: Reeking Box",
+            "Reeking Box",
+            "1",
+            "500 *_{1}",
+            "Summons risen soldiers to the world map (costs 4800G on Hard mode and above)"
+          ],
+          [
+            "Image: Rift Door",
+            "Rift Door",
+            "1",
+            "1000 *_{1}",
+            "Summons merchants to the world map"
+          ],
+          [
+            "Image: Supreme Emblem",
+            "Supreme Emblem",
+            "1",
+            "N/A",
+            "Reward for achieving max Renown. Sells for 99,999G"
+          ],
+          [
+            "Image: Dread Scroll",
+            "Dread Scroll",
+            "1",
+            "–",
+            "Changes a Level 10 or higher (or any Level if promoted) male unit to the Dread Fighter class *_{2}"
+          ],
+          [
+            "Image: Wedding Bouquet",
+            "Wedding Bouquet",
+            "1",
+            "–",
+            "Changes a Level 10 or higher (or any Level if promoted) female unit to the Bride class *_{2}"
+          ],
+          [
+            "Image: All Stats +2",
+            "All Stats +2",
+            "1",
+            "–",
+            "Teaches the All Stats +2 Skill when used *_{2}"
+          ],
+          [
+            "Image: Paragon",
+            "Paragon",
+            "1",
+            "–",
+            "Teaches the Paragon Skill when used *_{2}"
+          ],
+          [
+            "Image: Iote's Shield",
+            "Iote’s Shield",
+            "1",
+            "–",
+            "Teaches the Iote’s Shield Skill when used *_{2}"
+          ],
+          [
+            "Image: Limit Breaker",
+            "Limit Breaker",
+            "1",
+            "–",
+            "Teaches the Limit Breaker Skill when used *_{2}"
+          ],
+          [
+            "Image: Silver Card",
+            "Silver Card",
+            "1",
+            "–",
+            "The user can purchase items for half price *_{2}"
+          ],
+          [
+            "Image: Outrealm Item",
+            "Outrealm Item",
+            "1",
+            "–",
+            "What a DLC-exclusive item looks like to a player without DLC installed"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source_id": "items_2",
+    "name": "Forging - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/forging/",
+    "accessed": "2026-10-02",
+    "verification": "extracted_unreviewed",
+    "tables": [
+      {
+        "section": "Forging Cost",
+        "rows": [
+          [
+            "Cost",
+            "Mt",
+            "Hit",
+            "Crt"
+          ]
+        ]
+      },
+      {
+        "section": "Forging Cost",
+        "rows": [
+          [
+            "+0.5 x Worth",
+            "+1",
+            "+5",
+            "+3"
+          ],
+          [
+            "+1.5 x Worth",
+            "+2",
+            "+10",
+            "+6"
+          ],
+          [
+            "+3.0 x Worth",
+            "+3",
+            "+15",
+            "+9"
+          ],
+          [
+            "+5.0 x Worth",
+            "+4",
+            "+20",
+            "+12"
+          ],
+          [
+            "+7.5 x Worth",
+            "+5",
+            "+25",
+            "+15"
+          ]
+        ]
+      }
+    ]
+  }
+]

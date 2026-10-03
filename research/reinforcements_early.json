@@ -1,0 +1,41 @@
+[
+  {
+    "source_id": "reinforcements_early_0",
+    "name": "The Exalt and the King | Fire Emblem Wiki | Fandom",
+    "url": "https://fireemblem.fandom.com/wiki/The_Exalt_and_the_King",
+    "accessed": "2026-10-02",
+    "verification": "search_excerpt_unreviewed",
+    "tables": [],
+    "reinforcement_candidates": [
+      "### Hard & Lunatic Mode[]",
+      "All enemies spawn at the beginning of the enemy turn.",
+      "* Turn 3:",
+      "* Barbarian L5 w/ Steel Axe (from south-western fort)",
+      "* Barbarian L5 w/ Short Axe,Hand Axe (from western fort)",
+      "* Myrmidon L5 w/ Steel Sword (from northern-central fort)",
+      "* Turn 4 (from north-west forts)",
+      "* Wyvern Rider L7 w/ Steel Axe",
+      "* Wyvern Rider L7 w/ Steel Axe",
+      "* Turn 5",
+      "* Dark Mage L5 w/ Nosferatu (from south-western fort)",
+      "* Myrmidon L5 w/ Steel Sword (from western fort)",
+      "* Barbarian L5 w/ Steel Axe (from northern-central fort)",
+      "* Wyvern Rider L7 w/ Steel Axe (from north-eastern fort)",
+      "* Wyvern Rider L7 w/ Steel Axe (from north-western fort)"
+    ]
+  },
+  {
+    "source_id": "reinforcements_early_1",
+    "name": "Incursion | Fire Emblem Wiki | Fandom",
+    "url": "https://fireemblem.fandom.com/wiki/Incursion",
+    "accessed": "2026-10-02",
+    "verification": "search_excerpt_unreviewed",
+    "tables": [],
+    "reinforcement_candidates": [
+      "### Hard/Lunatic mode[]",
+      "All enemies spawn at the beginning of the enemy turn.",
+      "* Turn 5 (from the west)",
+      "* 3 Wyvern Riders L7 w/ Steel Axe"
+    ]
+  }
+]

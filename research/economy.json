@@ -1,0 +1,1438 @@
+[
+  {
+    "source_id": "economy",
+    "name": "Shops - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/shops/",
+    "accessed": "2026-10-02",
+    "verification": "extracted_unreviewed",
+    "tables": [
+      {
+        "section": "Story Chapters",
+        "rows": [
+          [
+            "Location",
+            "Chapter",
+            "Items"
+          ]
+        ]
+      },
+      {
+        "section": "Story Chapters",
+        "rows": [
+          [
+            "Southtown",
+            "Pro.",
+            "Bronze Sword",
+            "Bronze Lance",
+            "Bronze Axe",
+            "Bronze Bow",
+            "Fire"
+          ],
+          [
+            "West of Ylisstol",
+            "Ch. 1",
+            "Heal",
+            "Vulnerary",
+            "–",
+            "–",
+            "–"
+          ],
+          [
+            "The North Road",
+            "Ch. 2",
+            "Fire",
+            "Thunder",
+            "Wind",
+            "Flux",
+            "–"
+          ],
+          [
+            "The Longfort",
+            "Ch. 3",
+            "Heal",
+            "Vulnerary",
+            "Strength Tonic",
+            "Defence Tonic",
+            "Reeking Box"
+          ],
+          [
+            "Arena Ferox",
+            "Ch. 4",
+            "Iron Lance",
+            "Iron Bow",
+            "Thunder",
+            "–",
+            "–"
+          ],
+          [
+            "Border Pass",
+            "Ch. 5",
+            "Iron Sword",
+            "Iron Axe",
+            "Wind",
+            "–",
+            "–"
+          ],
+          [
+            "Ylisstol",
+            "Ch. 6",
+            "Heal",
+            "Mend",
+            "Vulnerary",
+            "Magic Tonic",
+            "Resistance Tonic"
+          ],
+          [
+            "Breakneck Pass",
+            "Ch. 7",
+            "Iron Sword",
+            "Javelin",
+            "Hand Axe",
+            "Iron Bow",
+            "Fire"
+          ],
+          [
+            "Border Sands",
+            "Ch. 8",
+            "Mend",
+            "Concoction",
+            "Skill Tonic",
+            "Speed Tonic",
+            "Luck Tonic"
+          ],
+          [
+            "Plegia Castle Courtyard",
+            "Ch. 9",
+            "Steel Sword",
+            "Steel Lance",
+            "Steel Axe",
+            "Steel Bow",
+            "Flux"
+          ],
+          [
+            "The Midmire",
+            "Ch. 10",
+            "Iron Lance",
+            "Javelin",
+            "Iron Axe",
+            "Hand Axe",
+            "–"
+          ],
+          [
+            "Border Wastes",
+            "Ch. 11",
+            "Iron Sword",
+            "Iron Bow",
+            "Fire",
+            "Thunder",
+            "Wind"
+          ],
+          [
+            "Port Ferox",
+            "Ch. 12",
+            "Mend",
+            "Rescue",
+            "Dragonstone",
+            "Beaststone",
+            "Master Seal"
+          ],
+          [
+            "Carrion Isle",
+            "Ch. 13",
+            "Elfire",
+            "Elthunder",
+            "Elwind",
+            "Nosferatu",
+            "Reeking Box"
+          ],
+          [
+            "The Searoad",
+            "Ch. 14",
+            "Steel Lance",
+            "Silver Lance",
+            "Javelin",
+            "Steel Bow",
+            "Silver Bow"
+          ],
+          [
+            "Valm Harbour",
+            "Ch. 15",
+            "Steel Sword",
+            "Silver Sword",
+            "Steel Axe",
+            "Silver Axe",
+            "Hand Axe"
+          ],
+          [
+            "The Mila Tree",
+            "Ch. 16",
+            "Heal",
+            "Ward",
+            "Pure Water",
+            "HP Tonic",
+            "Second Seal"
+          ],
+          [
+            "Fort Steiger",
+            "Ch. 17",
+            "Silver Sword",
+            "Silver Lance",
+            "Silver Axe",
+            "Silver Bow",
+            "Arcfire"
+          ],
+          [
+            "The Demon’s Ingle",
+            "Ch. 18",
+            "Physic",
+            "Recover",
+            "Ward",
+            "Dragonstone",
+            "Beaststone"
+          ],
+          [
+            "Valm Castle Approach",
+            "Ch. 19",
+            "Silver Sword",
+            "Killing Edge",
+            "Silver Bow",
+            "Killer Bow",
+            "Ruin"
+          ],
+          [
+            "Valm Castle",
+            "Ch. 20",
+            "Silver Lance",
+            "Killer Lance",
+            "Silver Axe",
+            "Killer Axe",
+            "–"
+          ],
+          [
+            "Plegia Castle",
+            "Ch. 21",
+            "Javelin",
+            "Hand Axe",
+            "Arcfire",
+            "Arcthunder",
+            "Arcwind"
+          ],
+          [
+            "Table Approach",
+            "Ch. 22",
+            "Heal",
+            "Mend",
+            "Rescue",
+            "Ward",
+            "Concoction"
+          ],
+          [
+            "The Dragon’s Table",
+            "Ch. 23",
+            "Physic",
+            "Recover",
+            "Dragonstone+",
+            "Beaststone+",
+            "Elixir"
+          ],
+          [
+            "Mount Prism",
+            "Ch. 24",
+            "Bolganone",
+            "Thoron",
+            "Rexcalibur",
+            "Waste",
+            "–"
+          ],
+          [
+            "Origin Peak",
+            "Ch. 25",
+            "Brave Sword",
+            "Brave Lance",
+            "Brave Axe",
+            "Brave Bow",
+            "Reeking Box"
+          ]
+        ]
+      },
+      {
+        "section": "Paralogues",
+        "rows": [
+          [
+            "Location",
+            "Chapter",
+            "Items"
+          ]
+        ]
+      },
+      {
+        "section": "Paralogues",
+        "rows": [
+          [
+            "The Farfort",
+            "Par. 1",
+            "Iron Sword",
+            "Iron Lance",
+            "Iron Axe",
+            "Iron Bow",
+            "–"
+          ],
+          [
+            "The Twins’ Turf",
+            "Par. 2",
+            "Javelin",
+            "Hand Axe",
+            "Fire",
+            "Thunder",
+            "Wind"
+          ],
+          [
+            "Peaceful Village",
+            "Par. 3",
+            "Heal",
+            "Mend",
+            "Vulnerary",
+            "Concoction",
+            "–"
+          ],
+          [
+            "The Twins’ Hideout",
+            "Par. 4",
+            "Steel Sword",
+            "Steel Lance",
+            "Steel Axe",
+            "Steel Bow",
+            "–"
+          ],
+          [
+            "Sage’s Hamlet",
+            "Par. 5",
+            "Iron Sword",
+            "Steel Sword",
+            "Silver Sword",
+            "Killing Edge",
+            "–"
+          ],
+          [
+            "Great Gate",
+            "Par. 6",
+            "Heal",
+            "Rescue",
+            "Concoction",
+            "Elixir",
+            "Second Seal"
+          ],
+          [
+            "Mila Shrine Ruins",
+            "Par. 7",
+            "Heal",
+            "Mend",
+            "Physic",
+            "Rescue",
+            "Ward"
+          ],
+          [
+            "Duelling Grounds",
+            "Par. 8",
+            "Physic",
+            "Elixir",
+            "HP Tonic",
+            "Luck Tonic",
+            "Master Seal"
+          ],
+          [
+            "Verdant Forest",
+            "Par. 9",
+            "Iron Lance",
+            "Steel Lance",
+            "Silver Lance",
+            "Javelin",
+            "Killer Lance"
+          ],
+          [
+            "Mercenary Fort",
+            "Par. 10",
+            "Recover",
+            "Elixir",
+            "Magic Tonic",
+            "Resistance"
+          ],
+          [
+            "Tonic",
+            "Second Seal"
+          ],
+          [
+            "Wyvern Valley",
+            "Par. 11",
+            "Iron Axe",
+            "Steel Axe",
+            "Silver Axe",
+            "Hand Axe",
+            "Killer Axe"
+          ],
+          [
+            "The Ruins of Time",
+            "Par. 12",
+            "Mend",
+            "Ward",
+            "Concoction",
+            "Elixir",
+            "Master Seal"
+          ],
+          [
+            "Law’s End",
+            "Par. 13",
+            "Beaststone",
+            "Concoction",
+            "Skill Tonic",
+            "Speed Tonic",
+            "Master Seal"
+          ],
+          [
+            "Desert Oasis",
+            "Par. 14",
+            "Elfire",
+            "Elthunder",
+            "Elwind",
+            "Flux",
+            "Nosferatu"
+          ],
+          [
+            "Kidnapper’s Keep",
+            "Par. 15",
+            "Iron Bow",
+            "Steel Bow",
+            "Silver Bow",
+            "Killer Bow",
+            "–"
+          ],
+          [
+            "Manor of Lost Souls",
+            "Par. 16",
+            "Dragonstone",
+            "Concoction",
+            "Strength Tonic",
+            "Defence Tonic",
+            "Second Seal"
+          ],
+          [
+            "Divine Dragon Grounds",
+            "Par. 17",
+            "Arcfire",
+            "Arcthunder",
+            "Arcwind",
+            "Nosferatu",
+            "Ruin"
+          ],
+          [
+            "Sea-King’s Throne",
+            "Par. 18",
+            "Silver Axe",
+            "Brave Axe",
+            "Hammer",
+            "Dragonstone+",
+            "Beaststone+"
+          ],
+          [
+            "Conqueror’s Whetstone",
+            "Par. 19",
+            "Silver Lance",
+            "Brave Lance",
+            "Beast Killer",
+            "Blessed Lance",
+            "Thoron"
+          ],
+          [
+            "Mountain Village",
+            "Par. 20",
+            "Silver Bow",
+            "Brave Bow",
+            "Blessed Bow",
+            "Rexcalibur",
+            "Waste"
+          ],
+          [
+            "Warriors’ Tomb",
+            "Par. 21",
+            "Silver Sword",
+            "Brave Sword",
+            "Armourslayer",
+            "Wyrmslayer",
+            "Bolganone"
+          ],
+          [
+            "Wellspring of Truth",
+            "Par. 22",
+            "Physic",
+            "Recover",
+            "Rescue",
+            "Ward",
+            "Elixir"
+          ],
+          [
+            "Garden of Giants",
+            "Par. 23",
+            "Levin Sword",
+            "Noble Rapier",
+            "Short Spear",
+            "Short Axe",
+            "Longbow"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source_id": "economy_1",
+    "name": "Merchants - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/merchants/",
+    "accessed": "2026-10-02",
+    "verification": "extracted_unreviewed",
+    "tables": [
+      {
+        "section": "Rare Items",
+        "rows": [
+          [
+            "Type",
+            "Chapter",
+            "Items"
+          ]
+        ]
+      },
+      {
+        "section": "Rare Items",
+        "rows": [
+          [
+            "Rare item",
+            "All",
+            "Hammerne",
+            "Seraph Robe",
+            "Energy Drop",
+            "Spirit Dust",
+            "Secret Book"
+          ],
+          [
+            "Speedwing",
+            "Goddess Icon",
+            "Dracoshield",
+            "Talisman",
+            "Arms Scroll"
+          ]
+        ]
+      },
+      {
+        "section": "Story Chapters",
+        "rows": [
+          [
+            "Location",
+            "Chapter",
+            "Items"
+          ]
+        ]
+      },
+      {
+        "section": "Story Chapters",
+        "rows": [
+          [
+            "Southtown",
+            "Pro.",
+            "Iron Sword",
+            "Iron Lance",
+            "Iron Axe",
+            "Iron Bow",
+            "Wyrmslayer"
+          ],
+          [
+            "Hammer",
+            "Concoction",
+            "Master Seal",
+            "Second Seal",
+            "Rare item"
+          ],
+          [
+            "West of Ylisstol",
+            "Ch. 1",
+            "Iron Sword",
+            "Iron Lance",
+            "Iron Axe",
+            "Iron Bow",
+            "Rescue"
+          ],
+          [
+            "Physic",
+            "Concoction",
+            "Master Seal",
+            "Second Seal",
+            "Rare item"
+          ],
+          [
+            "The North Road",
+            "Ch. 2",
+            "Iron Sword",
+            "Iron Lance",
+            "Iron Axe",
+            "Iron Bow",
+            "Beast Killer"
+          ],
+          [
+            "Blessed Bow",
+            "Concoction",
+            "Master Seal",
+            "Second Seal",
+            "Rare item"
+          ],
+          [
+            "The Longfort",
+            "Ch. 3",
+            "Iron Sword",
+            "Iron Lance",
+            "Iron Axe",
+            "Iron Bow",
+            "Rescue"
+          ],
+          [
+            "Concoction",
+            "HP Tonic",
+            "Master Seal",
+            "Second Seal",
+            "Rare item"
+          ],
+          [
+            "Arena Ferox",
+            "Ch. 4",
+            "Steel Sword",
+            "Steel Lance",
+            "Steel Axe",
+            "Steel Bow",
+            "Elfire"
+          ],
+          [
+            "Wyrmslayer",
+            "Blessed Lance",
+            "Master Seal",
+            "Second Seal",
+            "Rare item"
+          ],
+          [
+            "Border Pass",
+            "Ch. 5",
+            "Steel Sword",
+            "Steel Lance",
+            "Steel Axe",
+            "Steel Bow",
+            "Elthunder"
+          ],
+          [
+            "Rescue",
+            "Elixir",
+            "Master Seal",
+            "Second Seal",
+            "Rare item"
+          ],
+          [
+            "Ylisstol",
+            "Ch. 6",
+            "Steel Sword",
+            "Steel Lance",
+            "Steel Axe",
+            "Steel Bow",
+            "Elwind"
+          ],
+          [
+            "Rapier",
+            "Hammer",
+            "Master Seal",
+            "Second Seal",
+            "Rare item"
+          ],
+          [
+            "Breakneck Pass",
+            "Ch. 7",
+            "Steel Sword",
+            "Steel Lance",
+            "Steel Axe",
+            "Steel Bow",
+            "Elthunder"
+          ],
+          [
+            "Armourslayer",
+            "Rescue",
+            "Master Seal",
+            "Second Seal",
+            "Rare item"
+          ],
+          [
+            "Border Sands",
+            "Ch. 8",
+            "Steel Sword",
+            "Steel Lance",
+            "Steel Axe",
+            "Steel Bow",
+            "Elwind"
+          ],
+          [
+            "Hammer",
+            "Ward",
+            "Master Seal",
+            "Second Seal",
+            "Rare item"
+          ],
+          [
+            "Plegia Castle Courtyard",
+            "Ch. 9",
+            "Silver Sword",
+            "Silver Lance",
+            "Silver Axe",
+            "Silver Bow",
+            "Nosferatu"
+          ],
+          [
+            "Beast Killer",
+            "Blessed Bow",
+            "Master Seal",
+            "Second Seal",
+            "Rare item"
+          ],
+          [
+            "The Midmire",
+            "Ch. 10",
+            "Silver Sword",
+            "Silver Lance",
+            "Silver Axe",
+            "Silver Bow",
+            "Elfire"
+          ],
+          [
+            "Blessed Lance",
+            "Elixir",
+            "Master Seal",
+            "Second Seal",
+            "Rare item"
+          ],
+          [
+            "Border Wastes",
+            "Ch. 11",
+            "Silver Sword",
+            "Silver Lance",
+            "Silver Axe",
+            "Silver Bow",
+            "Arcthunder"
+          ],
+          [
+            "Levin Sword",
+            "Rapier",
+            "Short Spear",
+            "Killer Bow",
+            "Rare item"
+          ],
+          [
+            "Port Ferox",
+            "Ch. 12",
+            "Silver Sword",
+            "Silver Lance",
+            "Silver Axe",
+            "Silver Bow",
+            "Arcfire"
+          ],
+          [
+            "Killing Edge",
+            "Killer Lance",
+            "Killer Axe",
+            "Killer Bow",
+            "Rare item"
+          ],
+          [
+            "Carrion Isle",
+            "Ch. 13",
+            "Silver Sword",
+            "Silver Lance",
+            "Silver Axe",
+            "Silver Bow",
+            "Arcwind"
+          ],
+          [
+            "Armourslayer",
+            "Blessed Lance",
+            "Short Axe",
+            "Elixir",
+            "Rare item"
+          ],
+          [
+            "The Searoad",
+            "Ch. 14",
+            "Killing Edge",
+            "Killer Lance",
+            "Killer Axe",
+            "Killer Bow",
+            "Ruin"
+          ],
+          [
+            "Rapier",
+            "Short Spear",
+            "Short Axe",
+            "Blessed Bow",
+            "Rare item"
+          ],
+          [
+            "Valm Harbour",
+            "Ch. 15",
+            "Killing Edge",
+            "Killer Lance",
+            "Killer Axe",
+            "Killer Bow",
+            "Arcwind"
+          ],
+          [
+            "Wyrmslayer",
+            "Short Spear",
+            "Hammer",
+            "Elixir",
+            "Rare item"
+          ],
+          [
+            "The Mila Tree",
+            "Ch. 16",
+            "Killing Edge",
+            "Killer Lance",
+            "Killer Axe",
+            "Killer Bow",
+            "Arcthunder"
+          ],
+          [
+            "Levin Sword",
+            "Beast Killer",
+            "Short Axe",
+            "Blessed Bow",
+            "Rare item"
+          ],
+          [
+            "Fort Steiger",
+            "Ch. 17",
+            "Killing Edge",
+            "Killer Lance",
+            "Killer Axe",
+            "Killer Bow",
+            "Rexcalibur"
+          ],
+          [
+            "Wyrmslayer",
+            "Blessed Lance",
+            "Hammer",
+            "Dragonstone+",
+            "Rare item"
+          ],
+          [
+            "The Demon’s Ingle",
+            "Ch. 18",
+            "Brave Sword",
+            "Brave Lance",
+            "Brave Axe",
+            "Brave Bow",
+            "Thoron"
+          ],
+          [
+            "Noble Rapier",
+            "Killer Lance",
+            "Tomahawk",
+            "Beaststone+",
+            "Rare item"
+          ],
+          [
+            "Valm Castle Approach",
+            "Ch. 19",
+            "Brave Sword",
+            "Brave Lance",
+            "Brave Axe",
+            "Brave Bow",
+            "Bolganone"
+          ],
+          [
+            "Spear",
+            "Killer Axe",
+            "Killer Bow",
+            "Fortify",
+            "Rare item"
+          ],
+          [
+            "Valm Castle",
+            "Ch. 20",
+            "Brave Sword",
+            "Brave Lance",
+            "Brave Axe",
+            "Brave Bow",
+            "Waste"
+          ],
+          [
+            "Levin Sword",
+            "Beast Killer",
+            "Tomahawk",
+            "Killer Bow",
+            "Rare item"
+          ],
+          [
+            "Plegia Castle",
+            "Ch. 21",
+            "Brave Sword",
+            "Brave Lance",
+            "Brave Axe",
+            "Brave Bow",
+            "Thoron"
+          ],
+          [
+            "Armourslayer",
+            "Noble Rapier",
+            "Longbow",
+            "Mire",
+            "Rare item"
+          ],
+          [
+            "Table Approach",
+            "Ch. 22",
+            "Brave Sword",
+            "Brave Lance",
+            "Brave Axe",
+            "Brave Bow",
+            "Bolganone"
+          ],
+          [
+            "Killing Edge",
+            "Spear",
+            "Hammer",
+            "Blessed Bow",
+            "Rare item"
+          ],
+          [
+            "The Dragon’s Table",
+            "Ch. 23",
+            "Brave Sword",
+            "Brave Lance",
+            "Brave Axe",
+            "Brave Bow",
+            "Rexcalibur"
+          ],
+          [
+            "Killer Lance",
+            "Killer Axe",
+            "Longbow",
+            "Fortify",
+            "Rare item"
+          ],
+          [
+            "Mount Prism",
+            "Ch. 24",
+            "Rare item",
+            "Rare item",
+            "Rare item",
+            "–",
+            "–"
+          ],
+          [
+            "Origin Peak",
+            "Ch. 25",
+            "Rare item",
+            "Rare item",
+            "Rare item",
+            "–",
+            "–"
+          ]
+        ]
+      },
+      {
+        "section": "Paralogues",
+        "rows": [
+          [
+            "Location",
+            "Chapter",
+            "Items"
+          ]
+        ]
+      },
+      {
+        "section": "Paralogues",
+        "rows": [
+          [
+            "The Farfort",
+            "Par. 1",
+            "Steel Sword",
+            "Steel Lance",
+            "Steel Axe",
+            "Steel Bow",
+            "Elthunder"
+          ],
+          [
+            "Wyrmslayer",
+            "Rescue",
+            "Master Seal",
+            "Second Seal",
+            "Rare item"
+          ],
+          [
+            "The Twins’ Turf",
+            "Par. 2",
+            "Steel Sword",
+            "Steel Lance",
+            "Steel Axe",
+            "Steel Bow",
+            "Elwind"
+          ],
+          [
+            "Hammer",
+            "Physic",
+            "Master Seal",
+            "Second Seal",
+            "Rare item"
+          ],
+          [
+            "Peaceful Village",
+            "Par. 3",
+            "Steel Sword",
+            "Steel Lance",
+            "Steel Axe",
+            "Steel Bow",
+            "Nosferatu"
+          ],
+          [
+            "Beast Killer",
+            "Elixir",
+            "Master Seal",
+            "Second Seal",
+            "Rare item"
+          ],
+          [
+            "The Twins’ Hideout",
+            "Par. 4",
+            "Silver Sword",
+            "Silver Lance",
+            "Silver Axe",
+            "Silver Bow",
+            "Arcthunder"
+          ],
+          [
+            "Ruin",
+            "Short Spear",
+            "Short Axe",
+            "Elixir",
+            "Rare item"
+          ],
+          [
+            "Sage’s Hamlet",
+            "Par. 5",
+            "Silver Lance",
+            "Silver Axe",
+            "Silver Bow",
+            "Arcfire",
+            "Brave Sword"
+          ],
+          [
+            "Brave Lance",
+            "Brave Axe",
+            "Brave Bow",
+            "Thoron",
+            "Rare item"
+          ],
+          [
+            "Great Gate",
+            "Par. 6",
+            "Killing Edge",
+            "Killer Lance",
+            "Killer Axe",
+            "Killer Bow",
+            "Levin Sword"
+          ],
+          [
+            "Beast Killer",
+            "Blessed Lance",
+            "Hammer",
+            "Blessed Bow",
+            "Rare item"
+          ],
+          [
+            "Mila Shrine Ruins",
+            "Par. 7",
+            "Killing Edge",
+            "Killer Lance",
+            "Killer Axe",
+            "Killer Bow",
+            "Armourslayer"
+          ],
+          [
+            "Levin Sword",
+            "Blessed Lance",
+            "Hammer",
+            "Blessed Bow",
+            "Rare item"
+          ],
+          [
+            "Duelling Grounds",
+            "Par. 8",
+            "Killing Edge",
+            "Killer Lance",
+            "Killer Axe",
+            "Killer Bow",
+            "Wyrmslayer"
+          ],
+          [
+            "Beast Killer",
+            "Blessed Lance",
+            "Hammer",
+            "Blessed Bow",
+            "Rare item"
+          ],
+          [
+            "Verdant Forest",
+            "Par. 9",
+            "Silver Sword",
+            "Silver Axe",
+            "Silver Bow",
+            "Arcthunder",
+            "Brave Sword"
+          ],
+          [
+            "Brave Lance",
+            "Brave Axe",
+            "Brave Bow",
+            "Bolganone",
+            "Rare item"
+          ],
+          [
+            "Mercenary Fort",
+            "Par. 10",
+            "Killing Edge",
+            "Killer Lance",
+            "Killer Axe",
+            "Killer Bow",
+            "Wyrmslayer"
+          ],
+          [
+            "Levin Sword",
+            "Beast Killer",
+            "Blessed Lance",
+            "Hammer",
+            "Rare item"
+          ],
+          [
+            "Wyvern Valley",
+            "Par. 11",
+            "Silver Sword",
+            "Silver Lance",
+            "Silver Bow",
+            "Ruin",
+            "Brave Sword"
+          ],
+          [
+            "Brave Lance",
+            "Brave Axe",
+            "Brave Bow",
+            "Bolganone",
+            "Rare item"
+          ],
+          [
+            "The Ruins of Time",
+            "Par. 12",
+            "Killing Edge",
+            "Killer Lance",
+            "Killer Axe",
+            "Killer Bow",
+            "Wyrmslayer"
+          ],
+          [
+            "Beast Killer",
+            "Blessed Lance",
+            "Hammer",
+            "Blessed Bow",
+            "Rare item"
+          ],
+          [
+            "Law’s End",
+            "Par. 13",
+            "Killing Edge",
+            "Killer Lance",
+            "Killer Axe",
+            "Killer Bow",
+            "Armourslayer"
+          ],
+          [
+            "Levin Sword",
+            "Beast Killer",
+            "Blessed Lance",
+            "Blessed Bow",
+            "Rare item"
+          ],
+          [
+            "Desert Oasis",
+            "Par. 14",
+            "Killing Edge",
+            "Killer Lance",
+            "Killer Axe",
+            "Killer Bow",
+            "Wyrmslayer"
+          ],
+          [
+            "Beast Killer",
+            "Blessed Lance",
+            "Hammer",
+            "Blessed Bow",
+            "Rare item"
+          ],
+          [
+            "Kidnapper’s Keep",
+            "Par. 15",
+            "Silver Sword",
+            "Silver Lance",
+            "Silver Axe",
+            "Arcwind",
+            "Brave Sword"
+          ],
+          [
+            "Brave Lance",
+            "Brave Axe",
+            "Brave Bow",
+            "Rexcalibur",
+            "Rare item"
+          ],
+          [
+            "Manor of Lost Souls",
+            "Par. 16",
+            "Killing Edge",
+            "Killer Lance",
+            "Killer Axe",
+            "Killer Bow",
+            "Armourslayer"
+          ],
+          [
+            "Levin Sword",
+            "Beast Killer",
+            "Hammer",
+            "Blessed Bow",
+            "Rare item"
+          ],
+          [
+            "Divine Dragon Grounds",
+            "Par. 17",
+            "Bolganone",
+            "Thoron",
+            "Rexcalibur",
+            "Waste",
+            "Brave Sword"
+          ],
+          [
+            "Brave Lance",
+            "Brave Axe",
+            "Brave Bow",
+            "Fortify",
+            "Rare item"
+          ],
+          [
+            "Sea-King’s Throne",
+            "Par. 18",
+            "Rare item",
+            "Rare item",
+            "Rare item",
+            "–",
+            "–"
+          ],
+          [
+            "Conqueror’s Whetstone",
+            "Par. 19",
+            "Rare item",
+            "Rare item",
+            "Rare item",
+            "–",
+            "–"
+          ],
+          [
+            "Mountain Village",
+            "Par. 20",
+            "Rare item",
+            "Rare item",
+            "Rare item",
+            "–",
+            "–"
+          ],
+          [
+            "Warriors’ Tomb",
+            "Par. 21",
+            "Rare item",
+            "Rare item",
+            "Rare item",
+            "–",
+            "–"
+          ],
+          [
+            "Wellspring of Truth",
+            "Par. 22",
+            "Rare item",
+            "Rare item",
+            "Rare item",
+            "–",
+            "–"
+          ],
+          [
+            "Garden of Giants",
+            "Par. 23",
+            "Rare item",
+            "Rare item",
+            "Rare item",
+            "–",
+            "–"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source_id": "economy_2",
+    "name": "Renown - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/renown/",
+    "accessed": "2026-10-02",
+    "verification": "extracted_unreviewed",
+    "tables": [
+      {
+        "section": "Rewards",
+        "rows": [
+          [
+            "Item",
+            "Renown"
+          ]
+        ]
+      },
+      {
+        "section": "Rewards",
+        "rows": [
+          [
+            "Glass Sword",
+            "50"
+          ],
+          [
+            "Second Seal",
+            "100"
+          ],
+          [
+            "Orsin’s Hatchet",
+            "150"
+          ],
+          [
+            "Seed of Trust",
+            "210"
+          ],
+          [
+            "Levin Sword",
+            "270"
+          ],
+          [
+            "Energy Drop",
+            "330"
+          ],
+          [
+            "Beast Killer",
+            "400"
+          ],
+          [
+            "Spirit Dust",
+            "470"
+          ],
+          [
+            "Celica’s Gale",
+            "550"
+          ],
+          [
+            "Secret Book",
+            "630"
+          ],
+          [
+            "Longbow",
+            "720"
+          ],
+          [
+            "Ephraim’s Lance",
+            "810"
+          ],
+          [
+            "Goddess Icon",
+            "900"
+          ],
+          [
+            "Bullion (L)",
+            "1000"
+          ],
+          [
+            "Speedwing",
+            "1200"
+          ],
+          [
+            "Leif’s Blade",
+            "1500"
+          ],
+          [
+            "Bolt Axe",
+            "1800"
+          ],
+          [
+            "Seraph Robe",
+            "2200"
+          ],
+          [
+            "Innes’ Bow",
+            "2600"
+          ],
+          [
+            "Mercurius",
+            "3000"
+          ],
+          [
+            "Dracoshield",
+            "3500"
+          ],
+          [
+            "Noble Rapier",
+            "4000"
+          ],
+          [
+            "Tiki’s Tears",
+            "4500"
+          ],
+          [
+            "Parthia",
+            "5000"
+          ],
+          [
+            "Sigurd’s Lance",
+            "5750"
+          ],
+          [
+            "Talisman",
+            "6500"
+          ],
+          [
+            "Hector’s Axe",
+            "7250"
+          ],
+          [
+            "Alm’s Blade",
+            "8000"
+          ],
+          [
+            "Micaiah’s Pyre",
+            "9000"
+          ],
+          [
+            "Gradivus",
+            "10000"
+          ],
+          [
+            "Naga’s Tear",
+            "30000"
+          ],
+          [
+            "Boots",
+            "50000"
+          ],
+          [
+            "Supreme Emblem",
+            "99999"
+          ]
+        ]
+      }
+    ]
+  }
+]

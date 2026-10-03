@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "counts": {
+    "characters": 49,
+    "classes": 55,
+    "weapons": 138,
+    "items": 59,
+    "skills": 103,
+    "chapters": 76,
+    "enemies": 22,
+    "support_edges": 316,
+    "shops": 48,
+    "merchants": 49,
+    "renown": 33,
+    "merchant_rare_pool": 1,
+    "sources": 66
+  },
+  "coverage": {
+    "chapters_by_kind": {
+      "main": 28,
+      "paralogue": 23,
+      "DLC": 25
+    },
+    "map_difficulty_slots": 304,
+    "unresearched_map_difficulty_slots": 303,
+    "verified_safe_reinforcement_schedules": 0,
+    "weapons_with_obtainability": 107
+  },
+  "errors": [],
+  "warnings": [
+    "merchant: missing class growths (enemy/NPC)",
+    "revenant: missing class growths (enemy/NPC)",
+    "entombed: missing class growths (enemy/NPC)",
+    "grima: missing class growths (enemy/NPC)",
+    "Most facts are single-source transcriptions; validation cannot prove game accuracy.",
+    "All map schedules lack complete tactical verification.",
+    "Conditional child recruitment stats/classes/caps require actual parents.",
+    "Legacy SpotPass/DLC bonus character catalogs are incomplete.",
+    "Economy/world tables retained as unreviewed factual rows."
+  ]
+}

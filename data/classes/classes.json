@@ -1,0 +1,4602 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "lord_m",
+      "name": "Lord (M)",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support",
+        "class_sets_1"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 18,
+        "str": 6,
+        "mag": 0,
+        "skl": 5,
+        "spd": 7,
+        "def": 7,
+        "res": 0,
+        "lck": 0
+      },
+      "movement": 5,
+      "weapons": [
+        "sword"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 60,
+        "str": 25,
+        "mag": 20,
+        "skl": 26,
+        "spd": 28,
+        "lck": 30,
+        "def": 25,
+        "res": 25
+      },
+      "growth_modifiers": {
+        "hp": 40,
+        "str": 20,
+        "mag": 0,
+        "skl": 20,
+        "spd": 20,
+        "def": 10,
+        "res": 5,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "dual_strike_plus",
+          "level": 1
+        },
+        {
+          "skill_id": "charm",
+          "level": 10
+        }
+      ],
+      "promotes_to": [
+        "great_lord_m"
+      ],
+      "promotes_from": [],
+      "gender_restriction": "M",
+      "tier": "base",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ],
+        "promotes_to": [
+          "class_sets_1"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 0,
+        "mag": 0,
+        "skl": 0,
+        "spd": 3,
+        "lck": 3,
+        "def": 0,
+        "res": 0,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "great_lord_m",
+      "name": "Great Lord (M)",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 23,
+        "str": 10,
+        "mag": 0,
+        "skl": 7,
+        "spd": 9,
+        "def": 10,
+        "res": 3,
+        "lck": 0
+      },
+      "movement": 6,
+      "weapons": [
+        "sword",
+        "lance"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 80,
+        "str": 43,
+        "mag": 30,
+        "skl": 40,
+        "spd": 41,
+        "lck": 45,
+        "def": 42,
+        "res": 40
+      },
+      "growth_modifiers": {
+        "hp": 40,
+        "str": 20,
+        "mag": 0,
+        "skl": 20,
+        "spd": 20,
+        "def": 10,
+        "res": 5,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "aether",
+          "level": 5
+        },
+        {
+          "skill_id": "rightful_king",
+          "level": 15
+        }
+      ],
+      "promotes_to": [],
+      "promotes_from": [
+        "lord_m"
+      ],
+      "gender_restriction": "M",
+      "tier": "promoted",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 0,
+        "mag": 0,
+        "skl": 0,
+        "spd": 4,
+        "lck": 4,
+        "def": 0,
+        "res": 0,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "tactician",
+      "name": "Tactician",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support",
+        "class_sets_1"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 16,
+        "str": 4,
+        "mag": 3,
+        "skl": 5,
+        "spd": 5,
+        "def": 5,
+        "res": 3,
+        "lck": 0
+      },
+      "movement": 5,
+      "weapons": [
+        "sword",
+        "tome"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 60,
+        "str": 25,
+        "mag": 25,
+        "skl": 25,
+        "spd": 25,
+        "lck": 30,
+        "def": 25,
+        "res": 25
+      },
+      "growth_modifiers": {
+        "hp": 40,
+        "str": 15,
+        "mag": 15,
+        "skl": 15,
+        "spd": 15,
+        "def": 10,
+        "res": 10,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "veteran",
+          "level": 1
+        },
+        {
+          "skill_id": "solidarity",
+          "level": 10
+        }
+      ],
+      "promotes_to": [
+        "grandmaster"
+      ],
+      "promotes_from": [],
+      "gender_restriction": null,
+      "tier": "base",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ],
+        "promotes_to": [
+          "class_sets_1"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 1,
+        "mag": 1,
+        "skl": 2,
+        "spd": 2,
+        "lck": 0,
+        "def": 0,
+        "res": 0,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "grandmaster",
+      "name": "Grandmaster",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 20,
+        "str": 7,
+        "mag": 6,
+        "skl": 7,
+        "spd": 7,
+        "def": 7,
+        "res": 5,
+        "lck": 0
+      },
+      "movement": 6,
+      "weapons": [
+        "sword",
+        "tome"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 80,
+        "str": 40,
+        "mag": 40,
+        "skl": 40,
+        "spd": 40,
+        "lck": 45,
+        "def": 40,
+        "res": 40
+      },
+      "growth_modifiers": {
+        "hp": 40,
+        "str": 15,
+        "mag": 15,
+        "skl": 15,
+        "spd": 15,
+        "def": 10,
+        "res": 10,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "ignis",
+          "level": 5
+        },
+        {
+          "skill_id": "rally_spectrum",
+          "level": 15
+        }
+      ],
+      "promotes_to": [],
+      "promotes_from": [
+        "tactician"
+      ],
+      "gender_restriction": null,
+      "tier": "promoted",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 2,
+        "mag": 2,
+        "skl": 2,
+        "spd": 2,
+        "lck": 0,
+        "def": 0,
+        "res": 0,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "cavalier",
+      "name": "Cavalier",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support",
+        "class_sets_1"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 18,
+        "str": 6,
+        "mag": 0,
+        "skl": 5,
+        "spd": 6,
+        "def": 7,
+        "res": 0,
+        "lck": 0
+      },
+      "movement": 7,
+      "weapons": [
+        "sword",
+        "lance"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 60,
+        "str": 26,
+        "mag": 20,
+        "skl": 25,
+        "spd": 25,
+        "lck": 30,
+        "def": 26,
+        "res": 26
+      },
+      "growth_modifiers": {
+        "hp": 45,
+        "str": 20,
+        "mag": 0,
+        "skl": 20,
+        "spd": 20,
+        "def": 10,
+        "res": 5,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "discipline",
+          "level": 1
+        },
+        {
+          "skill_id": "outdoor_fighter",
+          "level": 10
+        }
+      ],
+      "promotes_to": [
+        "paladin",
+        "great_knight"
+      ],
+      "promotes_from": [],
+      "gender_restriction": null,
+      "tier": "base",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ],
+        "promotes_to": [
+          "class_sets_1"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 2,
+        "mag": 0,
+        "skl": 1,
+        "spd": 1,
+        "lck": 0,
+        "def": 2,
+        "res": 0,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "paladin",
+      "name": "Paladin",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 25,
+        "str": 9,
+        "mag": 1,
+        "skl": 7,
+        "spd": 8,
+        "def": 10,
+        "res": 6,
+        "lck": 0
+      },
+      "movement": 8,
+      "weapons": [
+        "sword",
+        "lance"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 80,
+        "str": 42,
+        "mag": 30,
+        "skl": 40,
+        "spd": 40,
+        "lck": 45,
+        "def": 42,
+        "res": 42
+      },
+      "growth_modifiers": {
+        "hp": 45,
+        "str": 20,
+        "mag": 0,
+        "skl": 20,
+        "spd": 20,
+        "def": 10,
+        "res": 10,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "defender",
+          "level": 5
+        },
+        {
+          "skill_id": "aegis",
+          "level": 15
+        }
+      ],
+      "promotes_to": [],
+      "promotes_from": [
+        "cavalier"
+      ],
+      "gender_restriction": null,
+      "tier": "promoted",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 2,
+        "mag": 0,
+        "skl": 2,
+        "spd": 2,
+        "lck": 0,
+        "def": 2,
+        "res": 0,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "great_knight",
+      "name": "Great Knight",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 26,
+        "str": 11,
+        "mag": 0,
+        "skl": 6,
+        "spd": 5,
+        "def": 14,
+        "res": 1,
+        "lck": 0
+      },
+      "movement": 7,
+      "weapons": [
+        "sword",
+        "lance",
+        "axe"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 80,
+        "str": 48,
+        "mag": 20,
+        "skl": 34,
+        "spd": 37,
+        "lck": 45,
+        "def": 48,
+        "res": 30
+      },
+      "growth_modifiers": {
+        "hp": 50,
+        "str": 25,
+        "mag": 0,
+        "skl": 15,
+        "spd": 15,
+        "def": 15,
+        "res": 5,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "luna",
+          "level": 5
+        },
+        {
+          "skill_id": "dual_guard_plus",
+          "level": 15
+        }
+      ],
+      "promotes_to": [],
+      "promotes_from": [
+        "cavalier",
+        "knight"
+      ],
+      "gender_restriction": null,
+      "tier": "promoted",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 3,
+        "mag": 0,
+        "skl": 0,
+        "spd": 0,
+        "lck": 0,
+        "def": 3,
+        "res": 0,
+        "mov": 1
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "knight",
+      "name": "Knight",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support",
+        "class_sets_1"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 18,
+        "str": 8,
+        "mag": 0,
+        "skl": 4,
+        "spd": 2,
+        "def": 11,
+        "res": 0,
+        "lck": 0
+      },
+      "movement": 4,
+      "weapons": [
+        "lance"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 60,
+        "str": 30,
+        "mag": 20,
+        "skl": 26,
+        "spd": 23,
+        "lck": 30,
+        "def": 30,
+        "res": 22
+      },
+      "growth_modifiers": {
+        "hp": 50,
+        "str": 25,
+        "mag": 0,
+        "skl": 15,
+        "spd": 10,
+        "def": 15,
+        "res": 5,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "defence_plus_2",
+          "level": 1
+        },
+        {
+          "skill_id": "indoor_fighter",
+          "level": 10
+        }
+      ],
+      "promotes_to": [
+        "general",
+        "great_knight"
+      ],
+      "promotes_from": [],
+      "gender_restriction": null,
+      "tier": "base",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ],
+        "promotes_to": [
+          "class_sets_1"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 2,
+        "mag": 0,
+        "skl": 0,
+        "spd": 0,
+        "lck": 0,
+        "def": 4,
+        "res": 0,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "general",
+      "name": "General",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 28,
+        "str": 12,
+        "mag": 0,
+        "skl": 7,
+        "spd": 4,
+        "def": 15,
+        "res": 3,
+        "lck": 0
+      },
+      "movement": 5,
+      "weapons": [
+        "lance",
+        "axe"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 80,
+        "str": 50,
+        "mag": 30,
+        "skl": 41,
+        "spd": 35,
+        "lck": 45,
+        "def": 50,
+        "res": 35
+      },
+      "growth_modifiers": {
+        "hp": 50,
+        "str": 25,
+        "mag": 0,
+        "skl": 15,
+        "spd": 10,
+        "def": 15,
+        "res": 10,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "rally_defence",
+          "level": 5
+        },
+        {
+          "skill_id": "pavise",
+          "level": 15
+        }
+      ],
+      "promotes_to": [],
+      "promotes_from": [
+        "knight"
+      ],
+      "gender_restriction": null,
+      "tier": "promoted",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 3,
+        "mag": 0,
+        "skl": 0,
+        "spd": 0,
+        "lck": 0,
+        "def": 5,
+        "res": 0,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "myrmidon",
+      "name": "Myrmidon",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support",
+        "class_sets_1"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 16,
+        "str": 4,
+        "mag": 1,
+        "skl": 9,
+        "spd": 10,
+        "def": 4,
+        "res": 1,
+        "lck": 0
+      },
+      "movement": 5,
+      "weapons": [
+        "sword"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 60,
+        "str": 24,
+        "mag": 22,
+        "skl": 27,
+        "spd": 28,
+        "lck": 30,
+        "def": 22,
+        "res": 24
+      },
+      "growth_modifiers": {
+        "hp": 40,
+        "str": 20,
+        "mag": 0,
+        "skl": 25,
+        "spd": 25,
+        "def": 5,
+        "res": 5,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "avoid_plus_10",
+          "level": 1
+        },
+        {
+          "skill_id": "vantage",
+          "level": 10
+        }
+      ],
+      "promotes_to": [
+        "swordmaster",
+        "assassin"
+      ],
+      "promotes_from": [],
+      "gender_restriction": null,
+      "tier": "base",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ],
+        "promotes_to": [
+          "class_sets_1"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 0,
+        "mag": 0,
+        "skl": 0,
+        "spd": 4,
+        "lck": 2,
+        "def": 0,
+        "res": 0,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "swordmaster",
+      "name": "Swordmaster",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 20,
+        "str": 7,
+        "mag": 2,
+        "skl": 11,
+        "spd": 13,
+        "def": 6,
+        "res": 4,
+        "lck": 0
+      },
+      "movement": 6,
+      "weapons": [
+        "sword"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 80,
+        "str": 38,
+        "mag": 34,
+        "skl": 44,
+        "spd": 46,
+        "lck": 45,
+        "def": 33,
+        "res": 38
+      },
+      "growth_modifiers": {
+        "hp": 40,
+        "str": 20,
+        "mag": 0,
+        "skl": 25,
+        "spd": 25,
+        "def": 5,
+        "res": 10,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "astra",
+          "level": 5
+        },
+        {
+          "skill_id": "swordfaire",
+          "level": 15
+        }
+      ],
+      "promotes_to": [],
+      "promotes_from": [
+        "myrmidon"
+      ],
+      "gender_restriction": null,
+      "tier": "promoted",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 0,
+        "mag": 0,
+        "skl": 0,
+        "spd": 5,
+        "lck": 3,
+        "def": 0,
+        "res": 0,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "mercenary",
+      "name": "Mercenary",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support",
+        "class_sets_1"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 18,
+        "str": 5,
+        "mag": 0,
+        "skl": 8,
+        "spd": 7,
+        "def": 5,
+        "res": 0,
+        "lck": 0
+      },
+      "movement": 5,
+      "weapons": [
+        "sword"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 60,
+        "str": 26,
+        "mag": 20,
+        "skl": 28,
+        "spd": 26,
+        "lck": 30,
+        "def": 25,
+        "res": 23
+      },
+      "growth_modifiers": {
+        "hp": 45,
+        "str": 20,
+        "mag": 0,
+        "skl": 25,
+        "spd": 20,
+        "def": 10,
+        "res": 5,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "armsthrift",
+          "level": 1
+        },
+        {
+          "skill_id": "patience",
+          "level": 10
+        }
+      ],
+      "promotes_to": [
+        "hero",
+        "bow_knight"
+      ],
+      "promotes_from": [],
+      "gender_restriction": null,
+      "tier": "base",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ],
+        "promotes_to": [
+          "class_sets_1"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 0,
+        "mag": 0,
+        "skl": 2,
+        "spd": 3,
+        "lck": 0,
+        "def": 1,
+        "res": 0,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "hero",
+      "name": "Hero",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 22,
+        "str": 8,
+        "mag": 1,
+        "skl": 11,
+        "spd": 10,
+        "def": 8,
+        "res": 3,
+        "lck": 0
+      },
+      "movement": 6,
+      "weapons": [
+        "sword",
+        "axe"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 80,
+        "str": 42,
+        "mag": 30,
+        "skl": 46,
+        "spd": 42,
+        "lck": 45,
+        "def": 40,
+        "res": 36
+      },
+      "growth_modifiers": {
+        "hp": 45,
+        "str": 20,
+        "mag": 0,
+        "skl": 25,
+        "spd": 20,
+        "def": 10,
+        "res": 5,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "sol",
+          "level": 5
+        },
+        {
+          "skill_id": "axebreaker",
+          "level": 15
+        }
+      ],
+      "promotes_to": [],
+      "promotes_from": [
+        "mercenary",
+        "fighter"
+      ],
+      "gender_restriction": null,
+      "tier": "promoted",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 0,
+        "mag": 0,
+        "skl": 3,
+        "spd": 3,
+        "lck": 0,
+        "def": 2,
+        "res": 0,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "fighter",
+      "name": "Fighter",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support",
+        "class_sets_1"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 20,
+        "str": 8,
+        "mag": 0,
+        "skl": 5,
+        "spd": 5,
+        "def": 4,
+        "res": 0,
+        "lck": 0
+      },
+      "movement": 5,
+      "weapons": [
+        "axe"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 60,
+        "str": 29,
+        "mag": 20,
+        "skl": 26,
+        "spd": 25,
+        "lck": 30,
+        "def": 25,
+        "res": 23
+      },
+      "growth_modifiers": {
+        "hp": 45,
+        "str": 25,
+        "mag": 0,
+        "skl": 20,
+        "spd": 15,
+        "def": 10,
+        "res": 5,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "hp_plus_5",
+          "level": 1
+        },
+        {
+          "skill_id": "zeal",
+          "level": 10
+        }
+      ],
+      "promotes_to": [
+        "warrior",
+        "hero"
+      ],
+      "promotes_from": [],
+      "gender_restriction": "M",
+      "tier": "base",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ],
+        "promotes_to": [
+          "class_sets_1"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 4,
+        "mag": 0,
+        "skl": 0,
+        "spd": 0,
+        "lck": 0,
+        "def": 2,
+        "res": 0,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "warrior",
+      "name": "Warrior",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 28,
+        "str": 12,
+        "mag": 0,
+        "skl": 8,
+        "spd": 7,
+        "def": 7,
+        "res": 3,
+        "lck": 0
+      },
+      "movement": 6,
+      "weapons": [
+        "axe",
+        "bow"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 80,
+        "str": 48,
+        "mag": 30,
+        "skl": 42,
+        "spd": 40,
+        "lck": 45,
+        "def": 40,
+        "res": 35
+      },
+      "growth_modifiers": {
+        "hp": 45,
+        "str": 25,
+        "mag": 0,
+        "skl": 20,
+        "spd": 15,
+        "def": 10,
+        "res": 5,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "rally_strength",
+          "level": 5
+        },
+        {
+          "skill_id": "counter",
+          "level": 15
+        }
+      ],
+      "promotes_to": [],
+      "promotes_from": [
+        "fighter",
+        "barbarian"
+      ],
+      "gender_restriction": "M",
+      "tier": "promoted",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 5,
+        "mag": 0,
+        "skl": 0,
+        "spd": 0,
+        "lck": 0,
+        "def": 3,
+        "res": 0,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "barbarian",
+      "name": "Barbarian",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support",
+        "class_sets_1"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 22,
+        "str": 8,
+        "mag": 0,
+        "skl": 3,
+        "spd": 8,
+        "def": 3,
+        "res": 0,
+        "lck": 0
+      },
+      "movement": 5,
+      "weapons": [
+        "axe"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 60,
+        "str": 30,
+        "mag": 20,
+        "skl": 23,
+        "spd": 27,
+        "lck": 30,
+        "def": 22,
+        "res": 20
+      },
+      "growth_modifiers": {
+        "hp": 50,
+        "str": 25,
+        "mag": 0,
+        "skl": 15,
+        "spd": 20,
+        "def": 5,
+        "res": 5,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "despoil",
+          "level": 1
+        },
+        {
+          "skill_id": "gamble",
+          "level": 10
+        }
+      ],
+      "promotes_to": [
+        "berserker",
+        "warrior"
+      ],
+      "promotes_from": [],
+      "gender_restriction": "M",
+      "tier": "base",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ],
+        "promotes_to": [
+          "class_sets_1"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 4,
+        "mag": 0,
+        "skl": 0,
+        "spd": 2,
+        "lck": 0,
+        "def": 0,
+        "res": 0,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "berserker",
+      "name": "Berserker",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 30,
+        "str": 13,
+        "mag": 0,
+        "skl": 5,
+        "spd": 11,
+        "def": 5,
+        "res": 1,
+        "lck": 0
+      },
+      "movement": 6,
+      "weapons": [
+        "axe"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 80,
+        "str": 50,
+        "mag": 30,
+        "skl": 35,
+        "spd": 44,
+        "lck": 45,
+        "def": 34,
+        "res": 30
+      },
+      "growth_modifiers": {
+        "hp": 50,
+        "str": 25,
+        "mag": 0,
+        "skl": 15,
+        "spd": 20,
+        "def": 5,
+        "res": 5,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "wrath",
+          "level": 5
+        },
+        {
+          "skill_id": "axefaire",
+          "level": 15
+        }
+      ],
+      "promotes_to": [],
+      "promotes_from": [
+        "barbarian"
+      ],
+      "gender_restriction": "M",
+      "tier": "promoted",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 5,
+        "mag": 0,
+        "skl": 0,
+        "spd": 3,
+        "lck": 0,
+        "def": 0,
+        "res": 0,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "archer",
+      "name": "Archer",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support",
+        "class_sets_1"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 16,
+        "str": 5,
+        "mag": 0,
+        "skl": 8,
+        "spd": 6,
+        "def": 5,
+        "res": 0,
+        "lck": 0
+      },
+      "movement": 5,
+      "weapons": [
+        "bow"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 60,
+        "str": 26,
+        "mag": 20,
+        "skl": 29,
+        "spd": 25,
+        "lck": 30,
+        "def": 25,
+        "res": 21
+      },
+      "growth_modifiers": {
+        "hp": 45,
+        "str": 15,
+        "mag": 0,
+        "skl": 30,
+        "spd": 15,
+        "def": 10,
+        "res": 5,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "skill_plus_2",
+          "level": 1
+        },
+        {
+          "skill_id": "prescience",
+          "level": 10
+        }
+      ],
+      "promotes_to": [
+        "sniper",
+        "bow_knight"
+      ],
+      "promotes_from": [],
+      "gender_restriction": null,
+      "tier": "base",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ],
+        "promotes_to": [
+          "class_sets_1"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 2,
+        "mag": 0,
+        "skl": 2,
+        "spd": 0,
+        "lck": 0,
+        "def": 2,
+        "res": 0,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "sniper",
+      "name": "Sniper",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 20,
+        "str": 7,
+        "mag": 1,
+        "skl": 12,
+        "spd": 9,
+        "def": 10,
+        "res": 3,
+        "lck": 0
+      },
+      "movement": 6,
+      "weapons": [
+        "bow"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 80,
+        "str": 41,
+        "mag": 30,
+        "skl": 48,
+        "spd": 40,
+        "lck": 45,
+        "def": 40,
+        "res": 31
+      },
+      "growth_modifiers": {
+        "hp": 45,
+        "str": 15,
+        "mag": 0,
+        "skl": 30,
+        "spd": 15,
+        "def": 15,
+        "res": 5,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "hit_rate_plus_20",
+          "level": 5
+        },
+        {
+          "skill_id": "bowfaire",
+          "level": 15
+        }
+      ],
+      "promotes_to": [],
+      "promotes_from": [
+        "archer"
+      ],
+      "gender_restriction": null,
+      "tier": "promoted",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 3,
+        "mag": 0,
+        "skl": 3,
+        "spd": 0,
+        "lck": 0,
+        "def": 2,
+        "res": 0,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "bow_knight",
+      "name": "Bow Knight",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 24,
+        "str": 8,
+        "mag": 0,
+        "skl": 10,
+        "spd": 10,
+        "def": 6,
+        "res": 2,
+        "lck": 0
+      },
+      "movement": 8,
+      "weapons": [
+        "sword",
+        "bow"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 80,
+        "str": 40,
+        "mag": 30,
+        "skl": 43,
+        "spd": 41,
+        "lck": 45,
+        "def": 35,
+        "res": 30
+      },
+      "growth_modifiers": {
+        "hp": 50,
+        "str": 20,
+        "mag": 0,
+        "skl": 25,
+        "spd": 20,
+        "def": 5,
+        "res": 5,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "rally_skill",
+          "level": 5
+        },
+        {
+          "skill_id": "bowbreaker",
+          "level": 15
+        }
+      ],
+      "promotes_to": [],
+      "promotes_from": [
+        "mercenary",
+        "archer"
+      ],
+      "gender_restriction": null,
+      "tier": "promoted",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 0,
+        "mag": 0,
+        "skl": 3,
+        "spd": 3,
+        "lck": 0,
+        "def": 0,
+        "res": 0,
+        "mov": 1
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "thief",
+      "name": "Thief",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support",
+        "class_sets_1"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 16,
+        "str": 3,
+        "mag": 0,
+        "skl": 6,
+        "spd": 8,
+        "def": 2,
+        "res": 0,
+        "lck": 0
+      },
+      "movement": 5,
+      "weapons": [
+        "sword"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 60,
+        "str": 22,
+        "mag": 20,
+        "skl": 30,
+        "spd": 28,
+        "lck": 30,
+        "def": 21,
+        "res": 20
+      },
+      "growth_modifiers": {
+        "hp": 35,
+        "str": 15,
+        "mag": 5,
+        "skl": 25,
+        "spd": 25,
+        "def": 5,
+        "res": 5,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "locktouch",
+          "level": 1
+        },
+        {
+          "skill_id": "movement_plus_1",
+          "level": 10
+        }
+      ],
+      "promotes_to": [
+        "assassin",
+        "trickster"
+      ],
+      "promotes_from": [],
+      "gender_restriction": null,
+      "tier": "base",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ],
+        "promotes_to": [
+          "class_sets_1"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 0,
+        "mag": 0,
+        "skl": 2,
+        "spd": 2,
+        "lck": 0,
+        "def": 0,
+        "res": 0,
+        "mov": 1
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "assassin",
+      "name": "Assassin",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 21,
+        "str": 8,
+        "mag": 0,
+        "skl": 13,
+        "spd": 12,
+        "def": 5,
+        "res": 1,
+        "lck": 0
+      },
+      "movement": 6,
+      "weapons": [
+        "sword",
+        "bow"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 80,
+        "str": 40,
+        "mag": 30,
+        "skl": 48,
+        "spd": 46,
+        "lck": 45,
+        "def": 31,
+        "res": 30
+      },
+      "growth_modifiers": {
+        "hp": 40,
+        "str": 20,
+        "mag": 0,
+        "skl": 30,
+        "spd": 25,
+        "def": 5,
+        "res": 5,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "lethality",
+          "level": 5
+        },
+        {
+          "skill_id": "pass",
+          "level": 15
+        }
+      ],
+      "promotes_to": [],
+      "promotes_from": [
+        "myrmidon",
+        "thief"
+      ],
+      "gender_restriction": null,
+      "tier": "promoted",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 2,
+        "mag": 0,
+        "skl": 2,
+        "spd": 4,
+        "lck": 0,
+        "def": 0,
+        "res": 0,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "trickster",
+      "name": "Trickster",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 19,
+        "str": 4,
+        "mag": 4,
+        "skl": 10,
+        "spd": 11,
+        "def": 3,
+        "res": 5,
+        "lck": 0
+      },
+      "movement": 6,
+      "weapons": [
+        "sword",
+        "staff"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 80,
+        "str": 35,
+        "mag": 38,
+        "skl": 45,
+        "spd": 43,
+        "lck": 45,
+        "def": 30,
+        "res": 40
+      },
+      "growth_modifiers": {
+        "hp": 35,
+        "str": 10,
+        "mag": 15,
+        "skl": 25,
+        "spd": 20,
+        "def": 5,
+        "res": 10,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "lucky_seven",
+          "level": 5
+        },
+        {
+          "skill_id": "acrobat",
+          "level": 15
+        }
+      ],
+      "promotes_to": [],
+      "promotes_from": [
+        "thief"
+      ],
+      "gender_restriction": null,
+      "tier": "promoted",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 0,
+        "mag": 2,
+        "skl": 1,
+        "spd": 3,
+        "lck": 0,
+        "def": 0,
+        "res": 0,
+        "mov": 1
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "pegasus_knight",
+      "name": "Pegasus Knight",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support",
+        "class_sets_1"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 16,
+        "str": 4,
+        "mag": 2,
+        "skl": 7,
+        "spd": 8,
+        "def": 4,
+        "res": 6,
+        "lck": 0
+      },
+      "movement": 7,
+      "weapons": [
+        "lance"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 60,
+        "str": 24,
+        "mag": 23,
+        "skl": 28,
+        "spd": 27,
+        "lck": 30,
+        "def": 22,
+        "res": 25
+      },
+      "growth_modifiers": {
+        "hp": 40,
+        "str": 15,
+        "mag": 5,
+        "skl": 25,
+        "spd": 25,
+        "def": 5,
+        "res": 10,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "speed_plus_2",
+          "level": 1
+        },
+        {
+          "skill_id": "relief",
+          "level": 10
+        }
+      ],
+      "promotes_to": [
+        "falcon_knight",
+        "dark_flier"
+      ],
+      "promotes_from": [],
+      "gender_restriction": "F",
+      "tier": "base",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ],
+        "promotes_to": [
+          "class_sets_1"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 0,
+        "mag": 0,
+        "skl": 0,
+        "spd": 3,
+        "lck": 0,
+        "def": 0,
+        "res": 3,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "falcon_knight",
+      "name": "Falcon Knight",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 20,
+        "str": 6,
+        "mag": 3,
+        "skl": 10,
+        "spd": 11,
+        "def": 6,
+        "res": 9,
+        "lck": 0
+      },
+      "movement": 8,
+      "weapons": [
+        "lance",
+        "staff"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 80,
+        "str": 38,
+        "mag": 35,
+        "skl": 45,
+        "spd": 44,
+        "lck": 45,
+        "def": 33,
+        "res": 40
+      },
+      "growth_modifiers": {
+        "hp": 40,
+        "str": 15,
+        "mag": 10,
+        "skl": 25,
+        "spd": 25,
+        "def": 5,
+        "res": 10,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "rally_speed",
+          "level": 5
+        },
+        {
+          "skill_id": "lancefaire",
+          "level": 15
+        }
+      ],
+      "promotes_to": [],
+      "promotes_from": [
+        "pegasus_knight"
+      ],
+      "gender_restriction": "F",
+      "tier": "promoted",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 0,
+        "mag": 0,
+        "skl": 0,
+        "spd": 4,
+        "lck": 0,
+        "def": 0,
+        "res": 4,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "dark_flier",
+      "name": "Dark Flier",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 19,
+        "str": 5,
+        "mag": 6,
+        "skl": 8,
+        "spd": 10,
+        "def": 5,
+        "res": 9,
+        "lck": 0
+      },
+      "movement": 8,
+      "weapons": [
+        "lance",
+        "tome"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 80,
+        "str": 36,
+        "mag": 42,
+        "skl": 41,
+        "spd": 42,
+        "lck": 45,
+        "def": 32,
+        "res": 41
+      },
+      "growth_modifiers": {
+        "hp": 40,
+        "str": 10,
+        "mag": 15,
+        "skl": 20,
+        "spd": 20,
+        "def": 5,
+        "res": 10,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "rally_movement",
+          "level": 5
+        },
+        {
+          "skill_id": "galeforce",
+          "level": 15
+        }
+      ],
+      "promotes_to": [],
+      "promotes_from": [
+        "pegasus_knight"
+      ],
+      "gender_restriction": "F",
+      "tier": "promoted",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 0,
+        "mag": 3,
+        "skl": 0,
+        "spd": 3,
+        "lck": 0,
+        "def": 0,
+        "res": 2,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "wyvern_rider",
+      "name": "Wyvern Rider",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support",
+        "class_sets_1"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 19,
+        "str": 7,
+        "mag": 0,
+        "skl": 6,
+        "spd": 5,
+        "def": 8,
+        "res": 0,
+        "lck": 0
+      },
+      "movement": 7,
+      "weapons": [
+        "axe"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 60,
+        "str": 28,
+        "mag": 20,
+        "skl": 24,
+        "spd": 24,
+        "lck": 30,
+        "def": 28,
+        "res": 20
+      },
+      "growth_modifiers": {
+        "hp": 45,
+        "str": 30,
+        "mag": 0,
+        "skl": 15,
+        "spd": 15,
+        "def": 10,
+        "res": 5,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "strength_plus_2",
+          "level": 1
+        },
+        {
+          "skill_id": "tantivy",
+          "level": 10
+        }
+      ],
+      "promotes_to": [
+        "wyvern_lord",
+        "griffon_rider"
+      ],
+      "promotes_from": [],
+      "gender_restriction": null,
+      "tier": "base",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ],
+        "promotes_to": [
+          "class_sets_1"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 3,
+        "mag": 0,
+        "skl": 0,
+        "spd": 0,
+        "lck": 0,
+        "def": 3,
+        "res": 0,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "wyvern_lord",
+      "name": "Wyvern Lord",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 24,
+        "str": 11,
+        "mag": 0,
+        "skl": 8,
+        "spd": 7,
+        "def": 11,
+        "res": 3,
+        "lck": 0
+      },
+      "movement": 8,
+      "weapons": [
+        "lance",
+        "axe"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 80,
+        "str": 46,
+        "mag": 30,
+        "skl": 38,
+        "spd": 38,
+        "lck": 45,
+        "def": 46,
+        "res": 30
+      },
+      "growth_modifiers": {
+        "hp": 45,
+        "str": 30,
+        "mag": 0,
+        "skl": 15,
+        "spd": 15,
+        "def": 10,
+        "res": 5,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "quick_burn",
+          "level": 5
+        },
+        {
+          "skill_id": "swordbreaker",
+          "level": 15
+        }
+      ],
+      "promotes_to": [],
+      "promotes_from": [
+        "wyvern_rider"
+      ],
+      "gender_restriction": null,
+      "tier": "promoted",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 4,
+        "mag": 0,
+        "skl": 0,
+        "spd": 0,
+        "lck": 0,
+        "def": 4,
+        "res": 0,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "griffon_rider",
+      "name": "Griffon Rider",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 22,
+        "str": 9,
+        "mag": 0,
+        "skl": 10,
+        "spd": 9,
+        "def": 8,
+        "res": 3,
+        "lck": 0
+      },
+      "movement": 8,
+      "weapons": [
+        "axe"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 80,
+        "str": 40,
+        "mag": 30,
+        "skl": 43,
+        "spd": 41,
+        "lck": 45,
+        "def": 40,
+        "res": 30
+      },
+      "growth_modifiers": {
+        "hp": 45,
+        "str": 25,
+        "mag": 0,
+        "skl": 20,
+        "spd": 20,
+        "def": 5,
+        "res": 5,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "deliverer",
+          "level": 5
+        },
+        {
+          "skill_id": "lancebreaker",
+          "level": 15
+        }
+      ],
+      "promotes_to": [],
+      "promotes_from": [
+        "wyvern_rider"
+      ],
+      "gender_restriction": null,
+      "tier": "promoted",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 3,
+        "mag": 0,
+        "skl": 0,
+        "spd": 0,
+        "lck": 1,
+        "def": 2,
+        "res": 0,
+        "mov": 1
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "mage",
+      "name": "Mage",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support",
+        "class_sets_1"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 16,
+        "str": 0,
+        "mag": 4,
+        "skl": 3,
+        "spd": 4,
+        "def": 2,
+        "res": 3,
+        "lck": 0
+      },
+      "movement": 5,
+      "weapons": [
+        "tome"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 60,
+        "str": 20,
+        "mag": 28,
+        "skl": 27,
+        "spd": 26,
+        "lck": 30,
+        "def": 21,
+        "res": 25
+      },
+      "growth_modifiers": {
+        "hp": 35,
+        "str": 0,
+        "mag": 20,
+        "skl": 20,
+        "spd": 20,
+        "def": 5,
+        "res": 10,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "magic_plus_2",
+          "level": 1
+        },
+        {
+          "skill_id": "focus",
+          "level": 10
+        }
+      ],
+      "promotes_to": [
+        "sage",
+        "dark_knight"
+      ],
+      "promotes_from": [],
+      "gender_restriction": null,
+      "tier": "base",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ],
+        "promotes_to": [
+          "class_sets_1"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 0,
+        "mag": 4,
+        "skl": 2,
+        "spd": 0,
+        "lck": 0,
+        "def": 0,
+        "res": 0,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "sage",
+      "name": "Sage",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 20,
+        "str": 1,
+        "mag": 7,
+        "skl": 5,
+        "spd": 7,
+        "def": 4,
+        "res": 5,
+        "lck": 0
+      },
+      "movement": 6,
+      "weapons": [
+        "tome",
+        "staff"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 80,
+        "str": 30,
+        "mag": 46,
+        "skl": 43,
+        "spd": 42,
+        "lck": 45,
+        "def": 31,
+        "res": 40
+      },
+      "growth_modifiers": {
+        "hp": 35,
+        "str": 0,
+        "mag": 20,
+        "skl": 20,
+        "spd": 20,
+        "def": 5,
+        "res": 10,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "rally_magic",
+          "level": 5
+        },
+        {
+          "skill_id": "tomefaire",
+          "level": 15
+        }
+      ],
+      "promotes_to": [],
+      "promotes_from": [
+        "mage",
+        "priest",
+        "cleric"
+      ],
+      "gender_restriction": null,
+      "tier": "promoted",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 0,
+        "mag": 4,
+        "skl": 2,
+        "spd": 0,
+        "lck": 0,
+        "def": 0,
+        "res": 2,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "dark_mage",
+      "name": "Dark Mage",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support",
+        "class_sets_1"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 18,
+        "str": 1,
+        "mag": 3,
+        "skl": 2,
+        "spd": 3,
+        "def": 4,
+        "res": 4,
+        "lck": 0
+      },
+      "movement": 5,
+      "weapons": [
+        "tome"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 60,
+        "str": 20,
+        "mag": 27,
+        "skl": 25,
+        "spd": 25,
+        "lck": 30,
+        "def": 25,
+        "res": 27
+      },
+      "growth_modifiers": {
+        "hp": 50,
+        "str": 5,
+        "mag": 15,
+        "skl": 15,
+        "spd": 15,
+        "def": 10,
+        "res": 10,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "hex",
+          "level": 1
+        },
+        {
+          "skill_id": "anathema",
+          "level": 10
+        }
+      ],
+      "promotes_to": [
+        "sorcerer",
+        "dark_knight"
+      ],
+      "promotes_from": [],
+      "gender_restriction": null,
+      "tier": "base",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ],
+        "promotes_to": [
+          "class_sets_1"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 0,
+        "mag": 3,
+        "skl": 0,
+        "spd": 0,
+        "lck": 0,
+        "def": 3,
+        "res": 0,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "sorcerer",
+      "name": "Sorcerer",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 23,
+        "str": 2,
+        "mag": 6,
+        "skl": 4,
+        "spd": 4,
+        "def": 7,
+        "res": 7,
+        "lck": 0
+      },
+      "movement": 6,
+      "weapons": [
+        "tome"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 80,
+        "str": 30,
+        "mag": 44,
+        "skl": 38,
+        "spd": 40,
+        "lck": 45,
+        "def": 41,
+        "res": 44
+      },
+      "growth_modifiers": {
+        "hp": 45,
+        "str": 0,
+        "mag": 20,
+        "skl": 15,
+        "spd": 15,
+        "def": 10,
+        "res": 10,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "vengeance",
+          "level": 5
+        },
+        {
+          "skill_id": "tomebreaker",
+          "level": 15
+        }
+      ],
+      "promotes_to": [],
+      "promotes_from": [
+        "dark_mage"
+      ],
+      "gender_restriction": null,
+      "tier": "promoted",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 0,
+        "mag": 3,
+        "skl": 0,
+        "spd": 0,
+        "lck": 0,
+        "def": 2,
+        "res": 3,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "dark_knight",
+      "name": "Dark Knight",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 25,
+        "str": 4,
+        "mag": 5,
+        "skl": 6,
+        "spd": 5,
+        "def": 9,
+        "res": 5,
+        "lck": 0
+      },
+      "movement": 8,
+      "weapons": [
+        "sword",
+        "tome"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 80,
+        "str": 38,
+        "mag": 41,
+        "skl": 40,
+        "spd": 40,
+        "lck": 45,
+        "def": 42,
+        "res": 38
+      },
+      "growth_modifiers": {
+        "hp": 50,
+        "str": 15,
+        "mag": 15,
+        "skl": 15,
+        "spd": 15,
+        "def": 10,
+        "res": 5,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "slow_burn",
+          "level": 5
+        },
+        {
+          "skill_id": "lifetaker",
+          "level": 15
+        }
+      ],
+      "promotes_to": [],
+      "promotes_from": [
+        "mage",
+        "dark_mage"
+      ],
+      "gender_restriction": null,
+      "tier": "promoted",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 0,
+        "mag": 2,
+        "skl": 0,
+        "spd": 0,
+        "lck": 0,
+        "def": 3,
+        "res": 1,
+        "mov": 1
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "priest",
+      "name": "Priest",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support",
+        "class_sets_1"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 16,
+        "str": 0,
+        "mag": 3,
+        "skl": 2,
+        "spd": 4,
+        "def": 1,
+        "res": 6,
+        "lck": 0
+      },
+      "movement": 5,
+      "weapons": [
+        "staff"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 60,
+        "str": 22,
+        "mag": 25,
+        "skl": 24,
+        "spd": 25,
+        "lck": 30,
+        "def": 22,
+        "res": 27
+      },
+      "growth_modifiers": {
+        "hp": 35,
+        "str": 5,
+        "mag": 15,
+        "skl": 15,
+        "spd": 15,
+        "def": 5,
+        "res": 15,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "miracle",
+          "level": 1
+        },
+        {
+          "skill_id": "healtouch",
+          "level": 10
+        }
+      ],
+      "promotes_to": [
+        "sage",
+        "war_monk"
+      ],
+      "promotes_from": [],
+      "gender_restriction": "M",
+      "tier": "base",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ],
+        "promotes_to": [
+          "class_sets_1"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 0,
+        "mag": 2,
+        "skl": 0,
+        "spd": 0,
+        "lck": 2,
+        "def": 0,
+        "res": 2,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "cleric",
+      "name": "Cleric",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support",
+        "class_sets_1"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 16,
+        "str": 0,
+        "mag": 3,
+        "skl": 2,
+        "spd": 4,
+        "def": 1,
+        "res": 6,
+        "lck": 0
+      },
+      "movement": 5,
+      "weapons": [
+        "staff"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 60,
+        "str": 22,
+        "mag": 25,
+        "skl": 24,
+        "spd": 25,
+        "lck": 30,
+        "def": 22,
+        "res": 27
+      },
+      "growth_modifiers": {
+        "hp": 35,
+        "str": 5,
+        "mag": 15,
+        "skl": 15,
+        "spd": 15,
+        "def": 5,
+        "res": 15,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "miracle",
+          "level": 1
+        },
+        {
+          "skill_id": "healtouch",
+          "level": 10
+        }
+      ],
+      "promotes_to": [
+        "sage",
+        "war_cleric"
+      ],
+      "promotes_from": [],
+      "gender_restriction": "F",
+      "tier": "base",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ],
+        "promotes_to": [
+          "class_sets_1"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 0,
+        "mag": 2,
+        "skl": 0,
+        "spd": 0,
+        "lck": 2,
+        "def": 0,
+        "res": 2,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "war_monk",
+      "name": "War Monk",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 24,
+        "str": 5,
+        "mag": 5,
+        "skl": 4,
+        "spd": 6,
+        "def": 6,
+        "res": 6,
+        "lck": 0
+      },
+      "movement": 6,
+      "weapons": [
+        "axe",
+        "staff"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 80,
+        "str": 40,
+        "mag": 40,
+        "skl": 38,
+        "spd": 41,
+        "lck": 45,
+        "def": 38,
+        "res": 43
+      },
+      "growth_modifiers": {
+        "hp": 45,
+        "str": 15,
+        "mag": 15,
+        "skl": 10,
+        "spd": 15,
+        "def": 10,
+        "res": 10,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "rally_luck",
+          "level": 5
+        },
+        {
+          "skill_id": "renewal",
+          "level": 15
+        }
+      ],
+      "promotes_to": [],
+      "promotes_from": [
+        "priest"
+      ],
+      "gender_restriction": "M",
+      "tier": "promoted",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 2,
+        "mag": 2,
+        "skl": 0,
+        "spd": 0,
+        "lck": 2,
+        "def": 0,
+        "res": 2,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "war_cleric",
+      "name": "War Cleric",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 24,
+        "str": 5,
+        "mag": 5,
+        "skl": 4,
+        "spd": 6,
+        "def": 6,
+        "res": 6,
+        "lck": 0
+      },
+      "movement": 6,
+      "weapons": [
+        "axe",
+        "staff"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 80,
+        "str": 40,
+        "mag": 40,
+        "skl": 38,
+        "spd": 41,
+        "lck": 45,
+        "def": 38,
+        "res": 43
+      },
+      "growth_modifiers": {
+        "hp": 45,
+        "str": 15,
+        "mag": 15,
+        "skl": 10,
+        "spd": 15,
+        "def": 10,
+        "res": 10,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "rally_luck",
+          "level": 5
+        },
+        {
+          "skill_id": "renewal",
+          "level": 15
+        }
+      ],
+      "promotes_to": [],
+      "promotes_from": [
+        "cleric",
+        "troubadour"
+      ],
+      "gender_restriction": "F",
+      "tier": "promoted",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 2,
+        "mag": 2,
+        "skl": 0,
+        "spd": 0,
+        "lck": 2,
+        "def": 0,
+        "res": 2,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "troubadour",
+      "name": "Troubadour",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support",
+        "class_sets_1"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 16,
+        "str": 0,
+        "mag": 3,
+        "skl": 2,
+        "spd": 5,
+        "def": 1,
+        "res": 5,
+        "lck": 0
+      },
+      "movement": 7,
+      "weapons": [
+        "staff"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 60,
+        "str": 20,
+        "mag": 26,
+        "skl": 24,
+        "spd": 26,
+        "lck": 30,
+        "def": 20,
+        "res": 28
+      },
+      "growth_modifiers": {
+        "hp": 35,
+        "str": 0,
+        "mag": 20,
+        "skl": 10,
+        "spd": 20,
+        "def": 5,
+        "res": 15,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "resistance_plus_2",
+          "level": 1
+        },
+        {
+          "skill_id": "demoiselle",
+          "level": 10
+        }
+      ],
+      "promotes_to": [
+        "valkyrie",
+        "war_cleric"
+      ],
+      "promotes_from": [],
+      "gender_restriction": "F",
+      "tier": "base",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ],
+        "promotes_to": [
+          "class_sets_1"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 0,
+        "mag": 2,
+        "skl": 0,
+        "spd": 1,
+        "lck": 0,
+        "def": 0,
+        "res": 3,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "valkyrie",
+      "name": "Valkyrie",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 19,
+        "str": 0,
+        "mag": 5,
+        "skl": 4,
+        "spd": 8,
+        "def": 3,
+        "res": 8,
+        "lck": 0
+      },
+      "movement": 8,
+      "weapons": [
+        "tome",
+        "staff"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 80,
+        "str": 30,
+        "mag": 42,
+        "skl": 38,
+        "spd": 43,
+        "lck": 45,
+        "def": 30,
+        "res": 45
+      },
+      "growth_modifiers": {
+        "hp": 35,
+        "str": 0,
+        "mag": 20,
+        "skl": 10,
+        "spd": 20,
+        "def": 5,
+        "res": 15,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "rally_resistance",
+          "level": 5
+        },
+        {
+          "skill_id": "dual_support_plus",
+          "level": 15
+        }
+      ],
+      "promotes_to": [],
+      "promotes_from": [
+        "troubadour"
+      ],
+      "gender_restriction": "F",
+      "tier": "promoted",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 0,
+        "mag": 3,
+        "skl": 0,
+        "spd": 2,
+        "lck": 0,
+        "def": 0,
+        "res": 3,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "villager",
+      "name": "Villager",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 16,
+        "str": 1,
+        "mag": 0,
+        "skl": 1,
+        "spd": 1,
+        "def": 1,
+        "res": 0,
+        "lck": 0
+      },
+      "movement": 5,
+      "weapons": [
+        "lance"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 60,
+        "str": 20,
+        "mag": 20,
+        "skl": 20,
+        "spd": 20,
+        "lck": 30,
+        "def": 20,
+        "res": 20
+      },
+      "growth_modifiers": {
+        "hp": 35,
+        "str": 10,
+        "mag": 0,
+        "skl": 5,
+        "spd": 5,
+        "def": 10,
+        "res": 5,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "aptitude",
+          "level": 1
+        },
+        {
+          "skill_id": "underdog",
+          "level": 15
+        }
+      ],
+      "promotes_to": [],
+      "promotes_from": [],
+      "gender_restriction": null,
+      "tier": "special",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 0,
+        "mag": 0,
+        "skl": 3,
+        "spd": 0,
+        "lck": 3,
+        "def": 0,
+        "res": 0,
+        "mov": 0
+      },
+      "level_cap": 30,
+      "availability": "ordinary"
+    },
+    {
+      "id": "dancer",
+      "name": "Dancer",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 16,
+        "str": 1,
+        "mag": 1,
+        "skl": 5,
+        "spd": 8,
+        "def": 3,
+        "res": 1,
+        "lck": 0
+      },
+      "movement": 5,
+      "weapons": [
+        "sword"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 80,
+        "str": 30,
+        "mag": 30,
+        "skl": 40,
+        "spd": 40,
+        "lck": 45,
+        "def": 30,
+        "res": 30
+      },
+      "growth_modifiers": {
+        "hp": 35,
+        "str": 5,
+        "mag": 0,
+        "skl": 25,
+        "spd": 25,
+        "def": 5,
+        "res": 5,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "luck_plus_4",
+          "level": 1
+        },
+        {
+          "skill_id": "special_dance",
+          "level": 15
+        }
+      ],
+      "promotes_to": [],
+      "promotes_from": [],
+      "gender_restriction": "F",
+      "tier": "special",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 0,
+        "mag": 0,
+        "skl": 0,
+        "spd": 3,
+        "lck": 3,
+        "def": 0,
+        "res": 0,
+        "mov": 0
+      },
+      "level_cap": 30,
+      "availability": "ordinary"
+    },
+    {
+      "id": "taguel",
+      "name": "Taguel",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "pair_support"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 18,
+        "str": 2,
+        "mag": 0,
+        "skl": 4,
+        "spd": 5,
+        "def": 3,
+        "res": 2,
+        "lck": 0
+      },
+      "movement": 6,
+      "weapons": [
+        "stone"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 80,
+        "str": 35,
+        "mag": 30,
+        "skl": 40,
+        "spd": 40,
+        "lck": 45,
+        "def": 35,
+        "res": 30
+      },
+      "growth_modifiers": null,
+      "skills": [
+        {
+          "skill_id": "even_rhythm",
+          "level": 1
+        },
+        {
+          "skill_id": "beastbane",
+          "level": 15
+        }
+      ],
+      "promotes_to": [],
+      "promotes_from": [],
+      "gender_restriction": null,
+      "tier": "special",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ]
+      },
+      "growth_modifiers_by_gender": {
+        "M": {
+          "hp": 45,
+          "str": 20,
+          "mag": 0,
+          "skl": 15,
+          "spd": 15,
+          "def": 15,
+          "res": 5,
+          "lck": 0
+        },
+        "F": {
+          "hp": 40,
+          "str": 15,
+          "mag": 0,
+          "skl": 20,
+          "spd": 20,
+          "def": 10,
+          "res": 5,
+          "lck": 0
+        }
+      },
+      "pair_up_bonus": {
+        "str": 3,
+        "mag": 0,
+        "skl": 2,
+        "spd": 3,
+        "lck": 0,
+        "def": 0,
+        "res": 0,
+        "mov": 0
+      },
+      "level_cap": 30,
+      "availability": "ordinary"
+    },
+    {
+      "id": "manakete",
+      "name": "Manakete",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 18,
+        "str": 2,
+        "mag": 0,
+        "skl": 1,
+        "spd": 1,
+        "def": 2,
+        "res": 2,
+        "lck": 0
+      },
+      "movement": 6,
+      "weapons": [
+        "stone"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 80,
+        "str": 40,
+        "mag": 35,
+        "skl": 35,
+        "spd": 35,
+        "lck": 45,
+        "def": 40,
+        "res": 40
+      },
+      "growth_modifiers": {
+        "hp": 50,
+        "str": 20,
+        "mag": 5,
+        "skl": 20,
+        "spd": 20,
+        "def": 15,
+        "res": 15,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "odd_rhythm",
+          "level": 1
+        },
+        {
+          "skill_id": "wyrmsbane",
+          "level": 15
+        }
+      ],
+      "promotes_to": [],
+      "promotes_from": [],
+      "gender_restriction": null,
+      "tier": "special",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 2,
+        "mag": 2,
+        "skl": 0,
+        "spd": 0,
+        "lck": 0,
+        "def": 2,
+        "res": 2,
+        "mov": 0
+      },
+      "level_cap": 30,
+      "availability": "ordinary"
+    },
+    {
+      "id": "lord_f",
+      "name": "Lord (F)",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support",
+        "class_sets_1"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 16,
+        "str": 5,
+        "mag": 1,
+        "skl": 6,
+        "spd": 8,
+        "def": 6,
+        "res": 1,
+        "lck": 0
+      },
+      "movement": 5,
+      "weapons": [
+        "sword"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 60,
+        "str": 25,
+        "mag": 20,
+        "skl": 26,
+        "spd": 28,
+        "lck": 30,
+        "def": 25,
+        "res": 25
+      },
+      "growth_modifiers": {
+        "hp": 40,
+        "str": 20,
+        "mag": 0,
+        "skl": 20,
+        "spd": 20,
+        "def": 10,
+        "res": 5,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "dual_strike_plus",
+          "level": 1
+        },
+        {
+          "skill_id": "charm",
+          "level": 10
+        }
+      ],
+      "promotes_to": [
+        "great_lord_f"
+      ],
+      "promotes_from": [],
+      "gender_restriction": "F",
+      "tier": "base",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ],
+        "promotes_to": [
+          "class_sets_1"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 0,
+        "mag": 0,
+        "skl": 0,
+        "spd": 3,
+        "lck": 3,
+        "def": 0,
+        "res": 0,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "great_lord_f",
+      "name": "Great Lord (F)",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 20,
+        "str": 8,
+        "mag": 1,
+        "skl": 9,
+        "spd": 11,
+        "def": 8,
+        "res": 4,
+        "lck": 0
+      },
+      "movement": 6,
+      "weapons": [
+        "sword",
+        "lance"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 80,
+        "str": 40,
+        "mag": 30,
+        "skl": 42,
+        "spd": 44,
+        "lck": 45,
+        "def": 40,
+        "res": 40
+      },
+      "growth_modifiers": {
+        "hp": 40,
+        "str": 20,
+        "mag": 0,
+        "skl": 20,
+        "spd": 20,
+        "def": 10,
+        "res": 5,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "aether",
+          "level": 5
+        },
+        {
+          "skill_id": "rightful_king",
+          "level": 15
+        }
+      ],
+      "promotes_to": [],
+      "promotes_from": [
+        "lord_f"
+      ],
+      "gender_restriction": "F",
+      "tier": "promoted",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 0,
+        "mag": 0,
+        "skl": 0,
+        "spd": 4,
+        "lck": 4,
+        "def": 0,
+        "res": 0,
+        "mov": 0
+      },
+      "level_cap": 20,
+      "availability": "ordinary"
+    },
+    {
+      "id": "lodestar",
+      "name": "Lodestar",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 21,
+        "str": 9,
+        "mag": 1,
+        "skl": 10,
+        "spd": 10,
+        "def": 8,
+        "res": 4,
+        "lck": 0
+      },
+      "movement": 6,
+      "weapons": [
+        "sword"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 80,
+        "str": 41,
+        "mag": 30,
+        "skl": 43,
+        "spd": 43,
+        "lck": 45,
+        "def": 41,
+        "res": 40
+      },
+      "growth_modifiers": {
+        "hp": 40,
+        "str": 20,
+        "mag": 0,
+        "skl": 20,
+        "spd": 20,
+        "def": 10,
+        "res": 5,
+        "lck": 0
+      },
+      "skills": [],
+      "promotes_to": [],
+      "promotes_from": [],
+      "gender_restriction": null,
+      "tier": "special",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 2,
+        "mag": 0,
+        "skl": 0,
+        "spd": 3,
+        "lck": 3,
+        "def": 0,
+        "res": 0,
+        "mov": 0
+      },
+      "level_cap": 30,
+      "availability": "legacy_only"
+    },
+    {
+      "id": "dread_fighter",
+      "name": "Dread Fighter",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 22,
+        "str": 8,
+        "mag": 4,
+        "skl": 7,
+        "spd": 9,
+        "def": 7,
+        "res": 10,
+        "lck": 0
+      },
+      "movement": 6,
+      "weapons": [
+        "sword",
+        "axe",
+        "tome"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 80,
+        "str": 42,
+        "mag": 38,
+        "skl": 40,
+        "spd": 41,
+        "lck": 45,
+        "def": 39,
+        "res": 43
+      },
+      "growth_modifiers": {
+        "hp": 40,
+        "str": 20,
+        "mag": 10,
+        "skl": 20,
+        "spd": 20,
+        "def": 10,
+        "res": 10,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "resistance_plus_10",
+          "level": 1
+        },
+        {
+          "skill_id": "aggressor",
+          "level": 15
+        }
+      ],
+      "promotes_to": [],
+      "promotes_from": [],
+      "gender_restriction": "M",
+      "tier": "special",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 3,
+        "mag": 1,
+        "skl": 0,
+        "spd": 1,
+        "lck": 0,
+        "def": 0,
+        "res": 3,
+        "mov": 0
+      },
+      "level_cap": 30,
+      "availability": "DLC"
+    },
+    {
+      "id": "bride",
+      "name": "Bride",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 21,
+        "str": 7,
+        "mag": 6,
+        "skl": 11,
+        "spd": 10,
+        "def": 7,
+        "res": 6,
+        "lck": 0
+      },
+      "movement": 6,
+      "weapons": [
+        "lance",
+        "bow",
+        "staff"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 80,
+        "str": 40,
+        "mag": 39,
+        "skl": 42,
+        "spd": 42,
+        "lck": 45,
+        "def": 41,
+        "res": 40
+      },
+      "growth_modifiers": {
+        "hp": 40,
+        "str": 20,
+        "mag": 10,
+        "skl": 20,
+        "spd": 20,
+        "def": 10,
+        "res": 10,
+        "lck": 0
+      },
+      "skills": [
+        {
+          "skill_id": "rally_heart",
+          "level": 1
+        },
+        {
+          "skill_id": "bond",
+          "level": 15
+        }
+      ],
+      "promotes_to": [],
+      "promotes_from": [],
+      "gender_restriction": "F",
+      "tier": "special",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 0,
+        "mag": 2,
+        "skl": 0,
+        "spd": 2,
+        "lck": 2,
+        "def": 0,
+        "res": 2,
+        "mov": 0
+      },
+      "level_cap": 30,
+      "availability": "DLC"
+    },
+    {
+      "id": "soldier",
+      "name": "Soldier",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 16,
+        "str": 3,
+        "mag": 0,
+        "skl": 3,
+        "spd": 3,
+        "def": 3,
+        "res": 0,
+        "lck": 0
+      },
+      "movement": 5,
+      "weapons": [
+        "lance"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 80,
+        "str": 30,
+        "mag": 30,
+        "skl": 30,
+        "spd": 30,
+        "lck": 45,
+        "def": 30,
+        "res": 30
+      },
+      "growth_modifiers": {
+        "hp": 40,
+        "str": 10,
+        "mag": 0,
+        "skl": 10,
+        "spd": 10,
+        "def": 5,
+        "res": 5,
+        "lck": 0
+      },
+      "skills": [],
+      "promotes_to": [],
+      "promotes_from": [],
+      "gender_restriction": null,
+      "tier": "special",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ]
+      },
+      "level_cap": 30,
+      "availability": "ordinary"
+    },
+    {
+      "id": "merchant",
+      "name": "Merchant",
+      "source_ids": [
+        "foundation",
+        "class_details"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 18,
+        "str": 3,
+        "mag": 0,
+        "skl": 2,
+        "spd": 2,
+        "def": 4,
+        "res": 1,
+        "lck": 0
+      },
+      "movement": 5,
+      "weapons": [
+        "lance"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 60,
+        "str": 20,
+        "mag": 20,
+        "skl": 20,
+        "spd": 20,
+        "lck": 30,
+        "def": 20,
+        "res": 20
+      },
+      "growth_modifiers": null,
+      "skills": [],
+      "promotes_to": [],
+      "promotes_from": [],
+      "gender_restriction": null,
+      "tier": "special",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ]
+      },
+      "level_cap": 30,
+      "availability": "ordinary"
+    },
+    {
+      "id": "revenant",
+      "name": "Revenant",
+      "source_ids": [
+        "foundation",
+        "class_details"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 18,
+        "str": 3,
+        "mag": 0,
+        "skl": 0,
+        "spd": 0,
+        "def": 0,
+        "res": 0,
+        "lck": 0
+      },
+      "movement": 5,
+      "weapons": [
+        "claw"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 80,
+        "str": 30,
+        "mag": 20,
+        "skl": 25,
+        "spd": 25,
+        "lck": 30,
+        "def": 30,
+        "res": 30
+      },
+      "growth_modifiers": null,
+      "skills": [],
+      "promotes_to": [],
+      "promotes_from": [],
+      "gender_restriction": null,
+      "tier": "special",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ]
+      },
+      "level_cap": 30,
+      "availability": "ordinary"
+    },
+    {
+      "id": "entombed",
+      "name": "Entombed",
+      "source_ids": [
+        "foundation",
+        "class_details"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 20,
+        "str": 3,
+        "mag": 1,
+        "skl": 2,
+        "spd": 2,
+        "def": 2,
+        "res": 1,
+        "lck": 0
+      },
+      "movement": 6,
+      "weapons": [
+        "claw"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 80,
+        "str": 40,
+        "mag": 30,
+        "skl": 35,
+        "spd": 35,
+        "lck": 45,
+        "def": 35,
+        "res": 30
+      },
+      "growth_modifiers": null,
+      "skills": [],
+      "promotes_to": [],
+      "promotes_from": [],
+      "gender_restriction": null,
+      "tier": "special",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ]
+      },
+      "level_cap": 30,
+      "availability": "ordinary"
+    },
+    {
+      "id": "conqueror",
+      "name": "Conqueror",
+      "source_ids": [
+        "foundation",
+        "class_details",
+        "class_details_1",
+        "pair_support"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 24,
+        "str": 10,
+        "mag": 3,
+        "skl": 9,
+        "spd": 8,
+        "def": 12,
+        "res": 5,
+        "lck": 0
+      },
+      "movement": 8,
+      "weapons": [
+        "sword",
+        "lance",
+        "axe"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 80,
+        "str": 45,
+        "mag": 25,
+        "skl": 40,
+        "spd": 40,
+        "lck": 45,
+        "def": 45,
+        "res": 35
+      },
+      "growth_modifiers": {
+        "hp": 50,
+        "str": 20,
+        "mag": 5,
+        "skl": 15,
+        "spd": 15,
+        "def": 10,
+        "res": 10,
+        "lck": 0
+      },
+      "skills": [],
+      "promotes_to": [],
+      "promotes_from": [],
+      "gender_restriction": null,
+      "tier": "special",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ],
+        "growth_modifiers": [
+          "class_details_1"
+        ],
+        "pair_up_bonus": [
+          "pair_support"
+        ]
+      },
+      "pair_up_bonus": {
+        "str": 2,
+        "mag": 0,
+        "skl": 0,
+        "spd": 2,
+        "lck": 0,
+        "def": 2,
+        "res": 0,
+        "mov": 1
+      },
+      "level_cap": 30,
+      "availability": "SpotPass"
+    },
+    {
+      "id": "grima",
+      "name": "Grima",
+      "source_ids": [
+        "foundation",
+        "class_details"
+      ],
+      "verification": "single_source_transcribed",
+      "base_stats": {
+        "hp": 30,
+        "str": 15,
+        "mag": 15,
+        "skl": 15,
+        "spd": 15,
+        "def": 15,
+        "res": 10,
+        "lck": 0
+      },
+      "movement": 0,
+      "weapons": [
+        "breath"
+      ],
+      "starting_weapon_rank": "E",
+      "caps": {
+        "hp": 99,
+        "str": 50,
+        "mag": 40,
+        "skl": 50,
+        "spd": 45,
+        "lck": 45,
+        "def": 50,
+        "res": 50
+      },
+      "growth_modifiers": null,
+      "skills": [],
+      "promotes_to": [],
+      "promotes_from": [],
+      "gender_restriction": null,
+      "tier": "special",
+      "field_sources": {
+        "caps": [
+          "class_details"
+        ]
+      },
+      "level_cap": 30,
+      "availability": "ordinary"
+    }
+  ]
+}

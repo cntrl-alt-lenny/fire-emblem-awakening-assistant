@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "errors": [],
+  "warnings": [
+    "No map has a completely verified tactical schedule. Coordinates, AI geometry and Lunatic+ random skills remain unknown.",
+    "Independent numeric spot checks are limited; this is not an exhaustive numerical audit of all character/class/gender/child/DLC data.",
+    "Template multiplicities are source rows; identical stat rows can represent distinct enemies and must not be deduplicated by stats.",
+    "Parser output gaps and empty source headings prevent certification of starting positions or complete enemy lists."
+  ],
+  "coverage_by_difficulty": {
+    "Normal": {
+      "verified": 0,
+      "partially_verified": 0,
+      "unresolved": 51
+    },
+    "Hard": {
+      "verified": 0,
+      "partially_verified": 46,
+      "unresolved": 5
+    },
+    "Lunatic": {
+      "verified": 0,
+      "partially_verified": 36,
+      "unresolved": 15
+    },
+    "Lunatic+": {
+      "verified": 0,
+      "partially_verified": 0,
+      "unresolved": 51
+    }
+  },
+  "reinforcements_by_difficulty": {
+    "Normal": {
+      "verified": 0,
+      "partially_verified": 0,
+      "unresolved": 51
+    },
+    "Hard": {
+      "verified": 0,
+      "partially_verified": 10,
+      "unresolved": 41
+    },
+    "Lunatic": {
+      "verified": 0,
+      "partially_verified": 17,
+      "unresolved": 34
+    },
+    "Lunatic+": {
+      "verified": 0,
+      "partially_verified": 0,
+      "unresolved": 51
+    }
+  },
+  "enemy_templates": 1104,
+  "partial_wave_records": 74,
+  "independent_numeric_fields_checked": 15,
+  "fully_verified_schedules": 0,
+  "Hard_Classic_ready_without_unverified_tactical_data": false
+}

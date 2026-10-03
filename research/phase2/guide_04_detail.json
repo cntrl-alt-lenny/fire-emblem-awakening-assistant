@@ -1,0 +1,196 @@
+[
+  {
+    "id": "guide_04_detail_0",
+    "name": "Chapter 4 Two Falchions - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-4-two-falchions",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "timing_label": null,
+        "map_heading": "Chapter 4 Two Falchions",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Marth",
+            "Lord",
+            "8",
+            "Parallel Falchion"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Chapter 4:",
+        "map_heading": "Chapter 4 Two Falchions",
+        "text": "Location: Arena Ferox"
+      },
+      {
+        "section": "Note: Chapter 4:",
+        "map_heading": "Chapter 4 Two Falchions",
+        "text": "Condition: Defeat Enemy"
+      },
+      {
+        "section": "Note: Chapter 4:",
+        "map_heading": "Chapter 4 Two Falchions",
+        "text": "Character Limit: 6 (Including Chrom)"
+      }
+    ],
+    "access_status": "accessed"
+  },
+  {
+    "id": "guide_04_detail_1",
+    "name": "Chapter 5 The Exalt and the King - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-5-the-exalt-and-the-king",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "timing_label": null,
+        "map_heading": "Chapter 5 The Exalt and the King",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Orton",
+            "Wyvern Rider",
+            "9",
+            "Short Axe, Bullion (M)"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "timing_label": null,
+        "map_heading": "Chapter 5 The Exalt and the King",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Lon\u2019qu",
+            "Myrmidon",
+            "4",
+            "End of Chapter 4"
+          ],
+          [
+            "Ricken",
+            "Mage",
+            "3",
+            "Automatically"
+          ],
+          [
+            "Maribelle",
+            "Troubadour",
+            "3",
+            "Automatically"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Chapter 5:",
+        "map_heading": "Chapter 5 The Exalt and the King",
+        "text": "Location: Border Pass"
+      },
+      {
+        "section": "Note: Chapter 5:",
+        "map_heading": "Chapter 5 The Exalt and the King",
+        "text": "Condition: Defeat All Enemies"
+      },
+      {
+        "section": "Note: Chapter 5:",
+        "map_heading": "Chapter 5 The Exalt and the King",
+        "text": "Character Limit: 9 (Including Chrom)"
+      }
+    ],
+    "access_status": "accessed"
+  },
+  {
+    "id": "guide_04_detail_2",
+    "name": "Chapter 6 Foreseer - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-6-foreseer",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "timing_label": null,
+        "map_heading": "Chapter 6 Foreseer",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Validar",
+            "Sorcerer",
+            "1",
+            "Elfire, Heal"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "timing_label": null,
+        "map_heading": "Chapter 6 Foreseer",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Gaius",
+            "Thief",
+            "5",
+            "Enemy: Talk with Chrom"
+          ],
+          [
+            "Panne",
+            "Taguel",
+            "6",
+            "From Turn 2"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Chapter 6:",
+        "map_heading": "Chapter 6 Foreseer",
+        "text": "Location: Ylisstol"
+      },
+      {
+        "section": "Note: Chapter 6:",
+        "map_heading": "Chapter 6 Foreseer",
+        "text": "Condition: Defend Emmeryn; Defeat Boss"
+      },
+      {
+        "section": "Note: Chapter 6:",
+        "map_heading": "Chapter 6 Foreseer",
+        "text": "Character Limit: 10 (Including Chrom)"
+      }
+    ],
+    "access_status": "accessed"
+  }
+]

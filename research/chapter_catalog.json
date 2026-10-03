@@ -1,0 +1,664 @@
+[
+  {
+    "source_id": "chapter_catalog",
+    "name": "List of chapters in Fire Emblem Awakening - Fire Emblem Wiki",
+    "url": "https://fireemblemwiki.org/wiki/List_of_chapters_in_Fire_Emblem_Awakening",
+    "accessed": "2026-10-02",
+    "verification": "extracted_unreviewed",
+    "tables": [
+      {
+        "section": "Main story",
+        "rows": [
+          [
+            "",
+            "Title",
+            "Objectives",
+            "Defeat",
+            "New Units",
+            "Bosses"
+          ]
+        ]
+      },
+      {
+        "section": "Main story",
+        "rows": [
+          [
+            "Premonition",
+            "Invisible Ties",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Chrom , Robin",
+            "Validar"
+          ],
+          [
+            "Prologue",
+            "The Verge of History",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Lissa , Frederick",
+            "Garrick"
+          ],
+          [
+            "Chapter 1",
+            "Unwelcome Change",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Sully , Virion",
+            "Risen Chief"
+          ],
+          [
+            "Chapter 2",
+            "Shepherds",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Vaike , Stahl , Miriel",
+            "Risen Chief"
+          ],
+          [
+            "Chapter 3",
+            "Warrior Realm",
+            "Defeat Raimi",
+            "Chrom or Robin dies, or both door keys are lost before either door is opened",
+            "Sumia , Kellam",
+            "Raimi"
+          ],
+          [
+            "Chapter 4",
+            "Two Falchions",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Lon'qu",
+            "Marth"
+          ],
+          [
+            "Chapter 5",
+            "The Exalt and the King",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Ricken , Maribelle",
+            "Orton"
+          ],
+          [
+            "Chapter 6",
+            "Foreseer",
+            "Rout the enemy",
+            "Chrom , Robin , or Emmeryn dies",
+            "Panne , Gaius",
+            "Validar"
+          ],
+          [
+            "Chapter 7",
+            "Incursion",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Cordelia",
+            "Vasto"
+          ],
+          [
+            "Chapter 8",
+            "The Grimleal",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Gregor , Nowi",
+            "Chalard"
+          ],
+          [
+            "Chapter 9",
+            "Emmeryn",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Libra , Tharja",
+            "Campari"
+          ],
+          [
+            "Chapter 10",
+            "Renewal",
+            "Defeat Mustafa",
+            "Chrom or Robin dies",
+            "None",
+            "Mustafa"
+          ],
+          [
+            "Chapter 11",
+            "Mad King Gangrel",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Olivia",
+            "Gangrel"
+          ],
+          [
+            "Chapter 12",
+            "The Seacomers",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Cherche",
+            "Dalton"
+          ],
+          [
+            "Chapter 13",
+            "Of Sacred Blood",
+            "Defeat the Risen Chief",
+            "Chrom or Robin dies",
+            "Henry , Lucina",
+            "Risen Chief"
+          ],
+          [
+            "Chapter 14",
+            "Flames on the Blue",
+            "Defeat Ignatius",
+            "Chrom or Robin dies",
+            "None",
+            "Ignatius"
+          ],
+          [
+            "Chapter 15",
+            "Smoldering Resistance",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Say'ri",
+            "Farber"
+          ],
+          [
+            "Chapter 16",
+            "Naga's Voice",
+            "Defeat Cervantes",
+            "Chrom or Robin dies",
+            "None",
+            "Cervantes"
+          ],
+          [
+            "Chapter 17",
+            "Inexorable Death",
+            "Defeat Pheros",
+            "Chrom or Robin dies",
+            "None",
+            "Pheros"
+          ],
+          [
+            "Chapter 18",
+            "Sibling Blades",
+            "Defeat Yen'fay",
+            "Chrom or Robin dies",
+            "None",
+            "Yen'fay"
+          ],
+          [
+            "Chapter 19",
+            "The Conqueror",
+            "Defeat Walhart",
+            "Chrom or Robin dies",
+            "None",
+            "Walhart"
+          ],
+          [
+            "Chapter 20",
+            "The Sword or the Knee",
+            "Defeat Walhart",
+            "Chrom or Robin dies",
+            "None",
+            "Walhart"
+          ],
+          [
+            "Chapter 21",
+            "Five Gemstones",
+            "Defeat Algol",
+            "Chrom or Robin dies",
+            "None",
+            "Algol"
+          ],
+          [
+            "Chapter 22",
+            "An Ill Presage",
+            "Defeat Aversa",
+            "Chrom or Robin dies",
+            "None",
+            "Aversa"
+          ],
+          [
+            "Chapter 23",
+            "Invisible Ties",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Basilio , Flavia",
+            "Validar"
+          ],
+          [
+            "Chapter 24",
+            "Awakening",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "None",
+            "Risen Chief"
+          ],
+          [
+            "Chapter 25",
+            "To Slay a God",
+            "Defeat Aversa",
+            "Chrom or Robin dies",
+            "None",
+            "Aversa"
+          ],
+          [
+            "Endgame",
+            "Grima",
+            "Defeat Grima",
+            "Chrom or Robin dies",
+            "None",
+            "Grima"
+          ]
+        ]
+      },
+      {
+        "section": "Paralogues",
+        "rows": [
+          [
+            "",
+            "Title",
+            "Objectives",
+            "Defeat",
+            "New Units",
+            "Bosses"
+          ]
+        ]
+      },
+      {
+        "section": "Paralogues",
+        "rows": [
+          [
+            "Paralogue 1",
+            "Sickle to Sword",
+            "Defeat Roddick",
+            "Chrom or Robin dies",
+            "Donnel",
+            "Roddick"
+          ],
+          [
+            "Paralogue 2",
+            "The Secret Seller",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "None",
+            "Victor"
+          ],
+          [
+            "Paralogue 3",
+            "A Strangled Peace",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "None",
+            "Risen Chief"
+          ],
+          [
+            "Paralogue 4",
+            "Anna the Merchant",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Anna",
+            "Vincent"
+          ],
+          [
+            "Paralogue 5",
+            "Scion of Legend",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Owain",
+            "Gecko"
+          ],
+          [
+            "Paralogue 6",
+            "A Man for Flowers",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Inigo",
+            "Jamil"
+          ],
+          [
+            "Paralogue 7",
+            "Noble Lineage",
+            "Defeat Xalbador",
+            "Chrom or Robin dies",
+            "Brady",
+            "Xalbador"
+          ],
+          [
+            "Paralogue 8",
+            "A Duel Disgraced",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Kjelle",
+            "Cassius"
+          ],
+          [
+            "Paralogue 9",
+            "Wings of Justice",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Cynthia",
+            "Ruger"
+          ],
+          [
+            "Paralogue 10",
+            "Ambivalence",
+            "Defeat Nelson",
+            "Chrom or Robin dies",
+            "Severa",
+            "Nelson"
+          ],
+          [
+            "Paralogue 11",
+            "Twin Wyverns",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Gerome",
+            "Morristan"
+          ],
+          [
+            "Paralogue 12",
+            "Disowned by Time",
+            "Defeat the Risen Chief",
+            "Chrom or Robin dies",
+            "Morgan",
+            "Risen Chief"
+          ],
+          [
+            "Paralogue 13",
+            "Rival Bands",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Yarne",
+            "Gyral , Dalen"
+          ],
+          [
+            "Paralogue 14",
+            "Shadow in the Sands",
+            "Defeat Nombry",
+            "Chrom or Robin dies",
+            "Laurent",
+            "Nombry"
+          ],
+          [
+            "Paralogue 15",
+            "A Shot from the Dark",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Noire",
+            "Ezra"
+          ],
+          [
+            "Paralogue 16",
+            "Daughter to Dragons",
+            "Defeat the Risen Chief",
+            "Chrom or Robin dies",
+            "Nah",
+            "Risen Chief"
+          ],
+          [
+            "Paralogue 17",
+            "The Threat of Silence",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Tiki",
+            "Risen Chief"
+          ],
+          [
+            "Paralogue 18",
+            "The Dead King's Lament",
+            "Defeat Zanth",
+            "Chrom or Robin dies",
+            "Gangrel",
+            "Zanth"
+          ],
+          [
+            "Paralogue 19",
+            "Irreconcilable Paths",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Walhart",
+            "Walhart"
+          ],
+          [
+            "Paralogue 20",
+            "A Hard Miracle",
+            "Defeat Ardri",
+            "Chrom or Robin dies",
+            "Emmeryn",
+            "Ardri"
+          ],
+          [
+            "Paralogue 21",
+            "Ghost of a Blade",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Yen'fay",
+            "Risen Chief"
+          ],
+          [
+            "Paralogue 22",
+            "The Wellspring of Truth",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Aversa",
+            "Aversa"
+          ],
+          [
+            "Paralogue 23",
+            "The Radiant Hero",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Priam",
+            "Priam"
+          ]
+        ]
+      },
+      {
+        "section": "Series 1: Outrealm Talismans",
+        "rows": [
+          [
+            "Title",
+            "Objectives",
+            "Defeat",
+            "New Units",
+            "Bosses"
+          ]
+        ]
+      },
+      {
+        "section": "Series 1: Outrealm Talismans",
+        "rows": [
+          [
+            "Champions of Yore 1",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Pr. Marth",
+            "Celica"
+          ],
+          [
+            "Champions of Yore 2",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Roy",
+            "Pr. Marth"
+          ],
+          [
+            "Champions of Yore 3",
+            "Rout the emeny",
+            "Chrom or Robin dies",
+            "Micaiah",
+            "Ike"
+          ],
+          [
+            "The Golden Gaffe",
+            "Rout the enemy",
+            "Chrom or Robin dies, or the player's army is routed",
+            "None",
+            "None"
+          ],
+          [
+            "EXPonential Growth",
+            "Rout the enemy",
+            "Chrom or Robin dies, or the player's army is routed",
+            "None",
+            "None"
+          ],
+          [
+            "Infinite Regalia",
+            "Defeat Mus",
+            "Chrom or Robin dies, or the player's army is routed",
+            "Eldigan",
+            "Mus"
+          ],
+          [
+            "Lost Bloodlines 1",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Leif",
+            "Sigurd"
+          ],
+          [
+            "Lost Bloodlines 2",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Alm",
+            "Alm"
+          ],
+          [
+            "Lost Bloodlines 3",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Seliph",
+            "King Marth"
+          ],
+          [
+            "Smash Brethren 1",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Elincia",
+            "Micaiah"
+          ],
+          [
+            "Smash Brethren 2",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Eirika",
+            "Roy"
+          ],
+          [
+            "Smash Brethren 3",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Lyn",
+            "Ike"
+          ],
+          [
+            "Rogues & Redeemers 1",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Ephraim",
+            "Camus"
+          ],
+          [
+            "Rogues & Redeemers 2",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Celica",
+            "Katarina"
+          ],
+          [
+            "Rogues & Redeemers 3",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Ike",
+            "Eldigan"
+          ]
+        ]
+      },
+      {
+        "section": "Series 2: Path of a Grandmaster",
+        "rows": [
+          [
+            "Title",
+            "Objectives",
+            "Defeat",
+            "New Units",
+            "Bosses"
+          ]
+        ]
+      },
+      {
+        "section": "Series 2: Path of a Grandmaster",
+        "rows": [
+          [
+            "Death's Embrace",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Est",
+            "Algol , Risen Chief"
+          ],
+          [
+            "Five-Anna Firefight",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Catria",
+            "Risen Wyvern Lord"
+          ],
+          [
+            "Roster Rescue",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Palla",
+            "Risen Swordmaster"
+          ],
+          [
+            "Harvest Scramble",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "None",
+            "Risen Entombed"
+          ],
+          [
+            "Summer Scramble",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "None",
+            "Mercenary Assassin"
+          ],
+          [
+            "Hot-Spring Scramble",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "None",
+            "Risen Swordmaster"
+          ],
+          [
+            "The Future Past 1",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "None",
+            "???"
+          ],
+          [
+            "The Future Past 2",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "None",
+            "???"
+          ],
+          [
+            "The Future Past 3",
+            "Defeat Grima",
+            "Chrom , Robin , or NPC Lucina dies",
+            "None",
+            "Grima"
+          ],
+          [
+            "Apotheosis",
+            "Rout the enemy",
+            "Chrom or Robin dies",
+            "Katarina",
+            "Outrealm Hero (normal route)"
+          ]
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,353 @@
+[
+  {
+    "source_id": "recruitment",
+    "name": "Main Story - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/characters/recruitment/main-story/",
+    "accessed": "2026-10-02",
+    "verification": "extracted_unreviewed",
+    "tables": [
+      {
+        "section": "Initial Characters",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Chapter",
+            "Recruit"
+          ]
+        ]
+      },
+      {
+        "section": "Initial Characters",
+        "rows": [
+          [
+            "Avatar",
+            "Tactician",
+            "Premonition / Prologue",
+            "–"
+          ],
+          [
+            "Chrom",
+            "Lord",
+            "Premonition / Prologue",
+            "–"
+          ],
+          [
+            "Lissa",
+            "Cleric",
+            "Prologue",
+            "–"
+          ],
+          [
+            "Frederick",
+            "Great Knight",
+            "Prologue",
+            "–"
+          ],
+          [
+            "Sully",
+            "Cavalier",
+            "1",
+            "Automatically from Turn 2"
+          ],
+          [
+            "Virion",
+            "Archer",
+            "1",
+            "Automatically from Turn 2"
+          ],
+          [
+            "Stahl",
+            "Cavalier",
+            "2",
+            "–"
+          ],
+          [
+            "Vaike",
+            "Fighter",
+            "2",
+            "–"
+          ],
+          [
+            "Miriel",
+            "Mage",
+            "2",
+            "Automatically from Turn 2"
+          ],
+          [
+            "Sumia",
+            "Pegasus Knight",
+            "3",
+            "–"
+          ],
+          [
+            "Kellam",
+            "Knight",
+            "3",
+            "NPC, talk with Chrom"
+          ],
+          [
+            "Donnel",
+            "Villager",
+            "Paralogue 1",
+            "End of chapter if he gained a Level"
+          ],
+          [
+            "Lon’qu",
+            "Myrmidon",
+            "4",
+            "End of chapter"
+          ],
+          [
+            "Ricken",
+            "Mage",
+            "5",
+            "–"
+          ],
+          [
+            "Maribelle",
+            "Troubadour",
+            "5",
+            "–"
+          ],
+          [
+            "Panne",
+            "Taguel",
+            "6",
+            "Automatically from Turn 2"
+          ],
+          [
+            "Gaius",
+            "Thief",
+            "6",
+            "Enemy, talk with Chrom"
+          ],
+          [
+            "Cordelia",
+            "Pegasus Knight",
+            "7",
+            "Automatically from Turn 3"
+          ],
+          [
+            "Gregor",
+            "Mercenary",
+            "8",
+            "–"
+          ],
+          [
+            "Nowi",
+            "Manakete",
+            "8",
+            "–"
+          ],
+          [
+            "Libra",
+            "War Monk",
+            "9",
+            "NPC, talk with Chrom"
+          ],
+          [
+            "Tharja",
+            "Dark Mage",
+            "9",
+            "Enemy, talk with Chrom"
+          ],
+          [
+            "Anna",
+            "Trickster",
+            "Paralogue 4",
+            "NPC, talk with Chrom"
+          ],
+          [
+            "Olivia",
+            "Dancer",
+            "11",
+            "–"
+          ],
+          [
+            "Cherche",
+            "Wyvern Rider",
+            "12",
+            "–"
+          ],
+          [
+            "Henry",
+            "Dark Mage",
+            "13",
+            "–"
+          ],
+          [
+            "Lucina",
+            "Lord",
+            "13",
+            "End of chapter"
+          ],
+          [
+            "Say’ri",
+            "Swordmaster",
+            "15",
+            "NPC, talk with Chrom"
+          ],
+          [
+            "Tiki",
+            "Manakete",
+            "Paralogue 17",
+            "End of chapter"
+          ],
+          [
+            "Basilio",
+            "Warrior",
+            "23",
+            "Automatically after defeating Validar"
+          ],
+          [
+            "Flavia",
+            "Hero",
+            "23",
+            "Automatically after defeating Validar"
+          ]
+        ]
+      },
+      {
+        "section": "Children Characters",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Chapter",
+            "Recruit"
+          ]
+        ]
+      },
+      {
+        "section": "Children Characters",
+        "rows": [
+          [
+            "Owain",
+            "Myrmidon",
+            "Paralogue 5",
+            "NPC, talk with Chrom or Lissa"
+          ],
+          [
+            "Inigo",
+            "Mercenary",
+            "Paralogue 6",
+            "NPC, talk with Chrom or Olivia"
+          ],
+          [
+            "Brady",
+            "Priest",
+            "Paralogue 7",
+            "NPC, talk with Chrom or Maribelle"
+          ],
+          [
+            "Kjelle",
+            "Knight",
+            "Paralogue 8",
+            "NPC, talk with Chrom or Sully"
+          ],
+          [
+            "Cynthia",
+            "Pegasus Knight",
+            "Paralogue 9",
+            "Enemy, talk with Chrom or Sumia"
+          ],
+          [
+            "Severa",
+            "Mercenary",
+            "Paralogue 10",
+            "NPC, let her talk to Holland, the enemy Villager"
+          ],
+          [
+            "Gerome",
+            "Wyvern Rider",
+            "Paralogue 11",
+            "NPC, talk with Chrom or Cherche"
+          ],
+          [
+            "Morgan",
+            "Class varies",
+            "Paralogue 12",
+            "NPC, talk with Chrom or the Avatar"
+          ],
+          [
+            "Yarne",
+            "Taguel",
+            "Paralogue 13",
+            "NPC/enemy, talk with Chrom or Panne"
+          ],
+          [
+            "Laurent",
+            "Mage",
+            "Paralogue 14",
+            "Have Chrom or Miriel visit the south-western village"
+          ],
+          [
+            "Noire",
+            "Archer",
+            "Paralogue 15",
+            "Automatically from Turn 2"
+          ],
+          [
+            "Nah",
+            "Manakete",
+            "Paralogue 16",
+            "NPC, talk with Chrom or Nowi"
+          ]
+        ]
+      },
+      {
+        "section": "SpotPass-exclusive Characters",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Chapter",
+            "Recruit"
+          ]
+        ]
+      },
+      {
+        "section": "SpotPass-exclusive Characters",
+        "rows": [
+          [
+            "Gangrel",
+            "Trickster",
+            "Paralogue 18",
+            "Enemy, talk with Chrom 3 times"
+          ],
+          [
+            "Walhart",
+            "Conqueror",
+            "Paralogue 19",
+            "End of chapter, if Chrom fought him in this chapter"
+          ],
+          [
+            "Emmeryn",
+            "Sage",
+            "Paralogue 20",
+            "End of chapter, if she survived this chapter"
+          ],
+          [
+            "Yen’fay",
+            "Swordmaster",
+            "Paralogue 21",
+            "NPC, talk with Say’ri"
+          ],
+          [
+            "Aversa",
+            "Dark Flier",
+            "Paralogue 22",
+            "End of chapter, if she (NPC version) survived this chapter"
+          ],
+          [
+            "Priam",
+            "Hero",
+            "Paralogue 23",
+            "End of chapter"
+          ]
+        ]
+      }
+    ]
+  }
+]

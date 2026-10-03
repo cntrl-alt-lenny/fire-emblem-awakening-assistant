@@ -1,0 +1,71 @@
+{
+  "map_id": "chapter_7",
+  "difficulty": "Hard",
+  "next_turn": 5,
+  "coverage": "partially_verified",
+  "certain_waves": [],
+  "possible_reported_waves": [
+    {
+      "id": "p2_reviewed_wave_0",
+      "enemy_ids": [],
+      "coordinates": null,
+      "can_act_on_spawn": true,
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN",
+      "chapter_id": "chapter_7",
+      "difficulty": "Hard",
+      "turns": [
+        5
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "Western map edge",
+      "spawn_phase": "beginning_enemy_phase",
+      "units": [
+        {
+          "count": 3,
+          "class_id": "wyvern_rider",
+          "level": 7,
+          "equipment": [
+            "steel_axe"
+          ]
+        }
+      ],
+      "source_ids": [
+        "reinforcements_early_1",
+        "p2_guide_08_0",
+        "gamerguides_modes"
+      ],
+      "crosscheck_status": "western arrival independently described; exact turn/class/equipment single-source",
+      "can_act_on_spawn_verification": "single_source_mode_rule",
+      "enemy_templates": []
+    }
+  ],
+  "waves_with_unknown_timing": [],
+  "schedule_complete": false,
+  "safe_to_conclude_no_reinforcements": false,
+  "warning": "UNKNOWN: schedule is not certified. No candidate for this turn does not establish that no enemies spawn. Check current-map evidence and in-game warnings.",
+  "activation_zones": "UNKNOWN; no reliable coordinate/AI-trigger geometry has been imported.",
+  "hazard_claims": [],
+  "conflicts": [
+    {
+      "map_id": "chapter_7",
+      "difficulties": [
+        "Hard",
+        "Lunatic"
+      ],
+      "issue": "Turn 5 western Wyvern reinforcement timing agrees, but Fandom groups level-7 units under Hard/Lunatic while the Lunatic table gives level 9. Preserve separate modes; random skills and actual stats must be observed.",
+      "source_ids": [
+        "reinforcements_early_1",
+        "p2_lm_05_08_2"
+      ]
+    }
+  ],
+  "reported_absence": null,
+  "source_ids": [
+    "reinforcements_early_1",
+    "p2_guide_08_0",
+    "gamerguides_modes"
+  ]
+}

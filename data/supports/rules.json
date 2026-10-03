@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "support_growth_rules",
+      "name": "Map-end support points",
+      "battle_partner_gain": "6/9",
+      "adjacent_nonpartner_gain": "2/9",
+      "staff_or_dance_gain": "2/9",
+      "dual_strike_or_guard_gain": "2/9",
+      "event_barracks_seed_gain": 1,
+      "rounding": "nearest integer at map end",
+      "ranked_pair_caps": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "tie_break": "in-game unit list order",
+      "source_ids": [
+        "support_basics_review"
+      ],
+      "verification": "single_source_reviewed",
+      "limitations": "Barracks/seed/event exceptions and reached-next-rank stop behavior require context; points already stored are not inferred from support rank."
+    }
+  ]
+}

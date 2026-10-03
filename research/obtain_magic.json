@@ -1,0 +1,1048 @@
+[
+  {
+    "source_id": "obtain_magic",
+    "name": "Bows - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/item-locations/bows/",
+    "accessed": "2026-10-02",
+    "verification": "extracted_unreviewed",
+    "tables": [
+      {
+        "section": "Bronze Bow",
+        "rows": [
+          [
+            "Armoury",
+            "Prologue"
+          ],
+          [
+            "SpotPass Team",
+            "Mist"
+          ]
+        ]
+      },
+      {
+        "section": "Iron Bow",
+        "rows": [
+          [
+            "Playable",
+            "Virion"
+          ],
+          [
+            "Armoury",
+            "Ch 4, Ch 7, Ch 11, Par 1, Par 15"
+          ],
+          [
+            "Merchant",
+            "Pro, Ch 1-3"
+          ],
+          [
+            "SpotPass Team",
+            "Florina, Leonardo, Nephenee, Nyna, Norne, Nanna"
+          ]
+        ]
+      },
+      {
+        "section": "Steel Bow",
+        "rows": [
+          [
+            "Playable",
+            "Morgan *_{1} , Noire"
+          ],
+          [
+            "Enemy loot",
+            "Ch 7, Ch 16"
+          ],
+          [
+            "Armoury",
+            "Ch 9, Ch 14, Par 4, Par 15"
+          ],
+          [
+            "Merchant",
+            "Ch 4-8, Par 1-3"
+          ],
+          [
+            "SpotPass Team",
+            "Lute, Nephenee, Linde, Catria, Jamke, Ulster"
+          ]
+        ]
+      },
+      {
+        "section": "Silver Bow",
+        "rows": [
+          [
+            "Playable",
+            "Basilio"
+          ],
+          [
+            "Enemy loot",
+            "Ch 13, Ch 19, Ch 23"
+          ],
+          [
+            "Armoury",
+            "Ch 14, Ch 17, Ch 19, Par 15, Par 20"
+          ],
+          [
+            "Merchant",
+            "Ch 9-13, Par 4-5, Par 9, Par 11"
+          ],
+          [
+            "SpotPass Team",
+            "Lyn, Seth, Geoffrey, Lucia, Sothe, Black Knight, Navarre, Luthier, Clive, Alm, Athena, Quan, Sigurd, Seliph, Eyvel, Saias, Mareeta, Perceval, Zephiel, Camus, Ishtar, Narcian, Ursula"
+          ],
+          [
+            "Other",
+            "Double Duel"
+          ]
+        ]
+      },
+      {
+        "section": "Brave Bow",
+        "rows": [
+          [
+            "Armoury",
+            "Ch 25, Par 20"
+          ],
+          [
+            "Merchant",
+            "Ch 18-23, Par 5, Par 9, Par 11, Par 15, Par 17"
+          ],
+          [
+            "SpotPass Team",
+            "Nergal, Ike, Hardin, Julius, Zephiel, Camus, Ishtar"
+          ]
+        ]
+      },
+      {
+        "section": "Blessed Bow",
+        "rows": [
+          [
+            "Village",
+            "Par 3"
+          ],
+          [
+            "Armoury",
+            "Par 20"
+          ],
+          [
+            "Merchant",
+            "Ch 2, Ch 9, Ch 14, Ch 16, Ch 22, Par 6-8, Par 12-14, Par 16"
+          ],
+          [
+            "SpotPass Team",
+            "Luthier, Jamke"
+          ]
+        ]
+      },
+      {
+        "section": "Killer Bow",
+        "rows": [
+          [
+            "Enemy loot",
+            "Ch 9, Ch 17"
+          ],
+          [
+            "Armoury",
+            "Ch 19, Par 15"
+          ],
+          [
+            "Merchant",
+            "Ch 11-12, Ch 14-17, Ch 19-20, Par 6-8, Par 10, Par 12-14, Par 16"
+          ],
+          [
+            "SpotPass Team",
+            "Jaffar, Lyn, Lute, Lucia, Ike, Nephenee, Linde, Malice, Katarina, Jamke, Quan, Mareeta"
+          ],
+          [
+            "Other",
+            "Double Duel"
+          ]
+        ]
+      },
+      {
+        "section": "Longbow",
+        "rows": [
+          [
+            "Enemy loot",
+            "Ch 13, Ch 20"
+          ],
+          [
+            "Armoury",
+            "Par 23"
+          ],
+          [
+            "Merchant",
+            "Ch 21, Ch 23"
+          ],
+          [
+            "SpotPass Team",
+            "Ike, Prince Marth, Julia, Mareeta, Zephiel"
+          ],
+          [
+            "Other",
+            "720 Renown"
+          ]
+        ]
+      },
+      {
+        "section": "Astra",
+        "rows": [
+          [
+            "Other",
+            "Bonus item , Infinite Regalia"
+          ]
+        ]
+      },
+      {
+        "section": "Parthia",
+        "rows": [
+          [
+            "Other",
+            "5000 Renown, Infinite Regalia"
+          ]
+        ]
+      },
+      {
+        "section": "Yewfelle",
+        "rows": [
+          [
+            "Enemy loot",
+            "Ch 22"
+          ],
+          [
+            "Other",
+            "Infinite Regalia"
+          ]
+        ]
+      },
+      {
+        "section": "Nidhogg",
+        "rows": [
+          [
+            "Other",
+            "Bonus item , Infinite Regalia"
+          ]
+        ]
+      },
+      {
+        "section": "Double Bow",
+        "rows": [
+          [
+            "Other",
+            "Bonus item , Infinite Regalia"
+          ]
+        ]
+      },
+      {
+        "section": "Slack Bow",
+        "rows": [
+          [
+            "Other",
+            "Event tile, Barracks"
+          ]
+        ]
+      },
+      {
+        "section": "Glass Bow",
+        "rows": [
+          [
+            "Other",
+            "Event tile, Barracks"
+          ]
+        ]
+      },
+      {
+        "section": "Towering Bow",
+        "rows": [
+          [
+            "Other",
+            "Event tile, Barracks"
+          ]
+        ]
+      },
+      {
+        "section": "Underdog Bow",
+        "rows": [
+          [
+            "Other",
+            "Event tile, Barracks"
+          ]
+        ]
+      },
+      {
+        "section": "Superior Bow",
+        "rows": [
+          [
+            "Other",
+            "Event tile, Barracks"
+          ]
+        ]
+      },
+      {
+        "section": "Wolt’s Bow",
+        "rows": [
+          [
+            "SpotPass Team",
+            "Wolt"
+          ],
+          [
+            "Other",
+            "Event tile, Barracks"
+          ]
+        ]
+      },
+      {
+        "section": "Innes’ Bow",
+        "rows": [
+          [
+            "SpotPass Team",
+            "Innes"
+          ],
+          [
+            "Other",
+            "2600 Renown, Event tile, Barracks"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source_id": "obtain_magic_1",
+    "name": "Tomes - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/item-locations/tomes/",
+    "accessed": "2026-10-02",
+    "verification": "extracted_unreviewed",
+    "tables": [
+      {
+        "section": "Fire",
+        "rows": [
+          [
+            "Playable",
+            "Miriel"
+          ],
+          [
+            "Armoury",
+            "Pro, Ch 2, Ch 7, Ch 11, Par 2"
+          ],
+          [
+            "SpotPass Team",
+            "Soren, Caeda, Norne, Deirdre, Arthur, Lugh"
+          ]
+        ]
+      },
+      {
+        "section": "Elfire",
+        "rows": [
+          [
+            "Playable",
+            "Henry, Morgan *_{1}"
+          ],
+          [
+            "Armoury",
+            "Ch 13, Par 14"
+          ],
+          [
+            "Merchant",
+            "Ch 4, Ch 10"
+          ],
+          [
+            "SpotPass Team",
+            "Nino, Matthew, Caeda, Boey, Ulster, Lugh"
+          ]
+        ]
+      },
+      {
+        "section": "Arcfire",
+        "rows": [
+          [
+            "Enemy loot",
+            "Ch 18, Ch 23"
+          ],
+          [
+            "Armoury",
+            "Ch 17, Ch 21, Par 17"
+          ],
+          [
+            "Merchant",
+            "Ch 12, Par 5"
+          ],
+          [
+            "SpotPass Team",
+            "Serra, Lute, Zihark, Sanaki, Merric, Valbar, Horace, Etzel, Cecilia"
+          ],
+          [
+            "Other",
+            "Double Duel"
+          ]
+        ]
+      },
+      {
+        "section": "Bolganone",
+        "rows": [
+          [
+            "Playable",
+            "Aversa"
+          ],
+          [
+            "Enemy loot",
+            "Ch 20"
+          ],
+          [
+            "Armoury",
+            "Ch 24, Par 21"
+          ],
+          [
+            "Merchant",
+            "Ch 19, Ch 22, Par 9, Par 11, Par 17"
+          ],
+          [
+            "SpotPass Team",
+            "Jaffar, Lyon, Ephraim, Sigrun, Sephiran, Merric, Gharnef, Nomah, Arvis, Ares, Saias, Lilina, Narcian, Ursula, Oliver"
+          ]
+        ]
+      },
+      {
+        "section": "Valflame",
+        "rows": [
+          [
+            "Enemy loot",
+            "Ch 22"
+          ],
+          [
+            "Other",
+            "Infinite Regalia"
+          ]
+        ]
+      },
+      {
+        "section": "Thunder",
+        "rows": [
+          [
+            "Playable",
+            "Avatar"
+          ],
+          [
+            "Enemy loot",
+            "Ch 4"
+          ],
+          [
+            "Armoury",
+            "Ch 2, Ch 4, Ch 11, Par 2"
+          ],
+          [
+            "SpotPass Team",
+            "Soren, Caeda, Norne, Deirdre, Arthur"
+          ]
+        ]
+      },
+      {
+        "section": "Elthunder",
+        "rows": [
+          [
+            "Playable",
+            "Tharja"
+          ],
+          [
+            "Armoury",
+            "Ch 13, Par 14"
+          ],
+          [
+            "Merchant",
+            "Ch 5, Ch 7, Par 1"
+          ],
+          [
+            "SpotPass Team",
+            "Nyna, Boey"
+          ]
+        ]
+      },
+      {
+        "section": "Arcthunder",
+        "rows": [
+          [
+            "Enemy loot",
+            "Ch 15"
+          ],
+          [
+            "Armoury",
+            "Ch 21, Par 17"
+          ],
+          [
+            "Merchant",
+            "Ch 11, Ch 16, Par 4, Par 9"
+          ],
+          [
+            "SpotPass Team",
+            "Linde, Merric, Valbar, Nomah, Horace, Ethlyn, Olwen, Cecilia"
+          ]
+        ]
+      },
+      {
+        "section": "Thoron",
+        "rows": [
+          [
+            "Enemy loot",
+            "Ch 24"
+          ],
+          [
+            "Armoury",
+            "Ch 24, Par 19"
+          ],
+          [
+            "Merchant",
+            "Ch 18, Ch 21, Par 5, Par 17"
+          ],
+          [
+            "SpotPass Team",
+            "Nergal, Lyon, Ephraim, Elincia, Sigrun, Sephiran, Gharnef, Alm, Arvis, Sigurd, Seliph, Lilina, Narcian, Selena, Oliver"
+          ],
+          [
+            "Other",
+            "Double Duel"
+          ]
+        ]
+      },
+      {
+        "section": "Mjölnir",
+        "rows": [
+          [
+            "Other",
+            "Bonus item , Infinite Regalia"
+          ]
+        ]
+      },
+      {
+        "section": "Wind",
+        "rows": [
+          [
+            "Armoury",
+            "Ch 2, Ch 5, Ch 11, Par 2"
+          ],
+          [
+            "SpotPass Team",
+            "Mist, Soren, Arthur"
+          ]
+        ]
+      },
+      {
+        "section": "Elwind",
+        "rows": [
+          [
+            "Playable",
+            "Ricken, Laurent"
+          ],
+          [
+            "Armoury",
+            "Ch 13, Par 14"
+          ],
+          [
+            "Merchant",
+            "Ch 6, Ch 8, Par 2"
+          ],
+          [
+            "SpotPass Team",
+            "Matthew, Soren, Arthur"
+          ]
+        ]
+      },
+      {
+        "section": "Arcwind",
+        "rows": [
+          [
+            "Enemy loot",
+            "Ch 19"
+          ],
+          [
+            "Armoury",
+            "Ch 21, Par 17"
+          ],
+          [
+            "Merchant",
+            "Ch 13, Ch 15, Par 15"
+          ],
+          [
+            "SpotPass Team",
+            "Zihark, Nomah, Etzel, Ced, Cecilia"
+          ]
+        ]
+      },
+      {
+        "section": "Rexcalibur",
+        "rows": [
+          [
+            "Armoury",
+            "Ch 24, Par 20"
+          ],
+          [
+            "Merchant",
+            "Ch 17, Ch 23, Par 15, Par 17"
+          ],
+          [
+            "SpotPass Team",
+            "Nergal, Lyon, Elincia, Geoffrey, Lucia, Ike, Sephiran, Gharnef, Luthier, Ayra, Lewyn, Sigurd, Julius, Raydrik, Cecilia, Lilina, Ishtar"
+          ]
+        ]
+      },
+      {
+        "section": "Excalibur",
+        "rows": [
+          [
+            "Other",
+            "Double Duel, Infinite Regalia"
+          ]
+        ]
+      },
+      {
+        "section": "Forseti",
+        "rows": [
+          [
+            "Other",
+            "Bonus item , Infinite Regalia"
+          ]
+        ]
+      },
+      {
+        "section": "Book of Naga",
+        "rows": [
+          [
+            "Other",
+            "Bonus item , Infinite Regalia"
+          ]
+        ]
+      },
+      {
+        "section": "Flux",
+        "rows": [
+          [
+            "Armoury",
+            "Ch 2, Ch 9, Par 14"
+          ],
+          [
+            "SpotPass Team",
+            "Deirdre, Wolt"
+          ]
+        ]
+      },
+      {
+        "section": "Nosferatu",
+        "rows": [
+          [
+            "Playable",
+            "Tharja, Aversa"
+          ],
+          [
+            "Armoury",
+            "Ch 13, Par 14, Par 17"
+          ],
+          [
+            "Merchant",
+            "Ch 9, Par 3"
+          ],
+          [
+            "SpotPass Team",
+            "Merric, Deirdre, Salem, Raigh, Sophia"
+          ],
+          [
+            "Other",
+            "Double Duel"
+          ]
+        ]
+      },
+      {
+        "section": "Ruin",
+        "rows": [
+          [
+            "Playable",
+            "Henry"
+          ],
+          [
+            "Enemy loot",
+            "Ch 21"
+          ],
+          [
+            "Armoury",
+            "Ch 19, Par 17"
+          ],
+          [
+            "Merchant",
+            "Ch 14, Par 4, Par 11"
+          ],
+          [
+            "SpotPass Team",
+            "Merric, Raydrik, Sophia"
+          ],
+          [
+            "Other",
+            "Double Duel"
+          ]
+        ]
+      },
+      {
+        "section": "Waste",
+        "rows": [
+          [
+            "Armoury",
+            "Ch 24, Par 20"
+          ],
+          [
+            "Merchant",
+            "Ch 20, Par 17"
+          ],
+          [
+            "SpotPass Team",
+            "Lyon, Gharnef, Etzel, Raydrik, Oliver"
+          ]
+        ]
+      },
+      {
+        "section": "Goetia",
+        "rows": [
+          [
+            "Enemy loot",
+            "Ch 25"
+          ],
+          [
+            "Other",
+            "Infinite Regalia"
+          ]
+        ]
+      },
+      {
+        "section": "Mire",
+        "rows": [
+          [
+            "Enemy loot",
+            "Ch 21"
+          ],
+          [
+            "Merchant",
+            "Ch 21"
+          ],
+          [
+            "SpotPass Team",
+            "Gharnef, Raydrik"
+          ]
+        ]
+      },
+      {
+        "section": "Grima’s Truth",
+        "rows": [
+          [
+            "Other",
+            "Cannot be obtained"
+          ]
+        ]
+      },
+      {
+        "section": "Dying Blaze",
+        "rows": [
+          [
+            "Other",
+            "Event tile, Barracks"
+          ]
+        ]
+      },
+      {
+        "section": "Micaiah’s Pyre",
+        "rows": [
+          [
+            "SpotPass Team",
+            "Micaiah"
+          ],
+          [
+            "Other",
+            "9000 Renown, Event tile, Barracks"
+          ]
+        ]
+      },
+      {
+        "section": "Superior Jolt",
+        "rows": [
+          [
+            "Other",
+            "Event tile, Barracks"
+          ]
+        ]
+      },
+      {
+        "section": "Katarina’s Bolt",
+        "rows": [
+          [
+            "SpotPass Team",
+            "Katarina"
+          ],
+          [
+            "Other",
+            "Event tile, Barracks"
+          ]
+        ]
+      },
+      {
+        "section": "Wilderwind",
+        "rows": [
+          [
+            "Other",
+            "Event tile, Barracks"
+          ]
+        ]
+      },
+      {
+        "section": "Celica’s Gale",
+        "rows": [
+          [
+            "SpotPass Team",
+            "Celica"
+          ],
+          [
+            "Other",
+            "550 Renown, Event tile, Barracks"
+          ]
+        ]
+      },
+      {
+        "section": "Aversa’s Night",
+        "rows": [
+          [
+            "Other",
+            "Event tile, Barracks"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source_id": "obtain_magic_2",
+    "name": "Staves - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/item-locations/staves/",
+    "accessed": "2026-10-02",
+    "verification": "extracted_unreviewed",
+    "tables": [
+      {
+        "section": "Heal",
+        "rows": [
+          [
+            "Playable",
+            "Lissa, Anna"
+          ],
+          [
+            "Enemy loot",
+            "Ch 3, Ch 6"
+          ],
+          [
+            "Armoury",
+            "Ch 1, Ch 3, Ch 6, Ch 16, Ch 22, Par 3, Par 6-7"
+          ],
+          [
+            "SpotPass Team",
+            "Eirika, Mist, Nanna"
+          ]
+        ]
+      },
+      {
+        "section": "Mend",
+        "rows": [
+          [
+            "Playable",
+            "Maribelle, Libra, Brady, Morgan *_{1}"
+          ],
+          [
+            "Enemy loot",
+            "Ch 16, Ch 17"
+          ],
+          [
+            "Chest",
+            "Par 4"
+          ],
+          [
+            "Event",
+            "Par 7 (NPC) *_{2}"
+          ],
+          [
+            "Armoury",
+            "Ch 6, Ch 8, Ch 12, Ch 22, Par 3, Par 7, Par 12"
+          ],
+          [
+            "SpotPass Team",
+            "Sanaki, Nyna"
+          ]
+        ]
+      },
+      {
+        "section": "Physic",
+        "rows": [
+          [
+            "Enemy loot",
+            "Ch 20, Ch 25, Par 9"
+          ],
+          [
+            "Village",
+            "Ch 15, Par 2"
+          ],
+          [
+            "Armoury",
+            "Ch 18, Ch 23, Par 7-8, Par 22"
+          ],
+          [
+            "Merchant",
+            "Ch 1, Par 2"
+          ],
+          [
+            "SpotPass Team",
+            "Serra, Lyn, Eliwood, Moulder, Black Knight, Micaiah, Prince Marth, Celica, Ethlyn, Oliver"
+          ],
+          [
+            "Other",
+            "Double Duel"
+          ]
+        ]
+      },
+      {
+        "section": "Recover",
+        "rows": [
+          [
+            "Enemy loot",
+            "Ch 22"
+          ],
+          [
+            "Chest",
+            "Par 16"
+          ],
+          [
+            "Event",
+            "Par 11 (NPC) *_{3}"
+          ],
+          [
+            "Armoury",
+            "Ch 18, Ch 23, Par 10, Par 22"
+          ],
+          [
+            "SpotPass Team",
+            "Elincia, Nomah, Raquesis, Oliver"
+          ],
+          [
+            "Other",
+            "Double Duel"
+          ]
+        ]
+      },
+      {
+        "section": "Fortify",
+        "rows": [
+          [
+            "Enemy loot",
+            "Ch 17"
+          ],
+          [
+            "Chest",
+            "Ch 21, Par 12"
+          ],
+          [
+            "Event",
+            "Par 7 (NPC) *_{4} , Par 20 (end of chapter)"
+          ],
+          [
+            "Merchant",
+            "Ch 19, Ch 23, Par 17"
+          ],
+          [
+            "SpotPass Team",
+            "L’Arachel, Ike, Saias"
+          ]
+        ]
+      },
+      {
+        "section": "Goddess Staff",
+        "rows": [
+          [
+            "Event",
+            "Par 14"
+          ],
+          [
+            "Other",
+            "Infinite Regalia"
+          ]
+        ]
+      },
+      {
+        "section": "Rescue",
+        "rows": [
+          [
+            "Chest",
+            "Ch 18, Par 1"
+          ],
+          [
+            "Village",
+            "Ch 8, Par 20"
+          ],
+          [
+            "Armoury",
+            "Ch 12, Ch 22, Par 6-7, Par 22"
+          ],
+          [
+            "Merchant",
+            "Ch 1, Ch 3, Ch 5, Ch 7, Par 1"
+          ]
+        ]
+      },
+      {
+        "section": "Ward",
+        "rows": [
+          [
+            "Playable",
+            "Libra"
+          ],
+          [
+            "Armoury",
+            "Ch 16, Ch 18, Ch 22, Par 7, Par 12, Par 22"
+          ],
+          [
+            "Merchant",
+            "Ch 8"
+          ]
+        ]
+      },
+      {
+        "section": "Hammerne",
+        "rows": [
+          [
+            "Enemy loot",
+            "Par 17"
+          ],
+          [
+            "Event",
+            "Par 6 (Inigo) *_{5}"
+          ],
+          [
+            "Merchant",
+            "All (higher chance in Ch 24-25 and Par 18-23)"
+          ]
+        ]
+      },
+      {
+        "section": "Kneader",
+        "rows": [
+          [
+            "Other",
+            "Event tile, Barracks"
+          ]
+        ]
+      },
+      {
+        "section": "Balmwood Staff",
+        "rows": [
+          [
+            "Other",
+            "Event tile, Barracks"
+          ]
+        ]
+      },
+      {
+        "section": "Catharsis",
+        "rows": [
+          [
+            "Other",
+            "Event tile, Barracks"
+          ]
+        ]
+      }
+    ]
+  }
+]

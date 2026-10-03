@@ -1,0 +1,9 @@
+# Supports and marriage
+
+Sources: `support_basics_review`, `support_growth`, `pair_support_2`. `compatibility.json` has 316 unique threshold edges. Thresholds are **total accumulated points**, not points newly required after each conversation. Subtract the previous threshold to find the increment. Avatar and Morgan retain sex-specific compatibility IDs. Generic Avatar rows and parent/child/sibling conditional edges are not fully expanded, so absence from the edge table does not prove incompatibility.
+
+Support points are fractional during a map: battle partner6/9; adjacent other ally2/9; staff/dance2/9; Dual Strike/Guard2/9; event/barracks/Seed of Trust1. Map-end points round to nearest integer. Per character, strongest pair caps3 points, next2, next1, others0; ties follow in-game character order. Event/seed exceptions need context. Fallen Casual units lose that map's accrued points. Support rank alone does not reveal current stored points.
+
+A supports are not globally limited; one S marriage per unit. Marriage eligibility excludes relevant siblings/parent-child relations and uses actual gender/parentage. Do not treat the numeric table as an unconditional marriage legality checker. An impossible male/female Morgan edge in the source growth table was excluded, using the support list's explicit restriction.
+
+**Future-system information:** Chrom's forced marriage follows Chapter11; prefer established support rank A>B>C>none. Olivia is eligible under her special points/no-other-C conditions. No qualifying available candidate leads to the maiden. Tie rules and candidate priority are detailed in the source; exact stored points are needed to automate this. The tracker records reported supports, not inferred conversations or marriages. Keep this section out of No spoilers and future-map tactical answers.

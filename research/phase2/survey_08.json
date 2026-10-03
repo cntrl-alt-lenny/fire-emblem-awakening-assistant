@@ -1,0 +1,113 @@
+[
+  {
+    "id": "survey_08_0",
+    "name": "History Mode Guide - Emmeryn (Warriors) - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/History_Mode_Guide_-_Emmeryn_%28Warriors%29",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_08_1",
+    "name": "Chapter 8 The Grimleal - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-8-the-grimleal",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Chalard",
+            "Dark Mage",
+            "12",
+            "Nosferatu, Energy Drop"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Gregor",
+            "Mercenary",
+            "10",
+            "Automatically"
+          ],
+          [
+            "Nowi",
+            "Manakete",
+            "3",
+            "Automatically"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_08_2",
+    "name": "Awakening Supports/Avatar(F) Emmeryn - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php?title=Awakening_Supports%2FAvatar%28F%29_Emmeryn",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_08_3",
+    "name": "Awakening Supports/Emmeryn Avatar(M) - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_Supports/Emmeryn_Avatar%28M%29",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_08_4",
+    "name": "Chapter Summaries (Awakening) - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Chapter_Summaries_%28Awakening%29",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_08_5",
+    "name": "History Mode Guide (Warriors) - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/History_Mode_Guide_%28Warriors%29",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_08_6",
+    "name": "User:King Marth 64/Sandbox/Chapter 8: The Grimleal (Script) - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php?redirect=no&title=User%3AKing_Marth_64%2FSandbox%2FChapter_8%3A_The_Grimleal_%28Script%29",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  }
+]

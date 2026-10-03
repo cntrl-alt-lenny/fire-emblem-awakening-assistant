@@ -1,0 +1,26 @@
+{
+  "steps": [
+    {
+      "enemy": "enemy 1",
+      "death_probability": 0,
+      "expected_hp": 23.485999999999997
+    },
+    {
+      "enemy": "enemy 2",
+      "death_probability": 0,
+      "expected_hp": 16.971999999999994
+    }
+  ],
+  "final_hp_distribution": {
+    "10": 0.42432195999999983,
+    "20": 0.4541560799999999,
+    "30": 0.12152195999999998
+  },
+  "death_probability": 0,
+  "minimum_possible_hp": 10,
+  "limitations": [
+    "Enemy attack order, ranges, targets and effective stats must be supplied; this does not predict AI decisions.",
+    "No Dual Strikes/Guards, weapon breakage, EXP-triggered level-ups, terrain healing or unsupported skills.",
+    "Provided player durability must cover maximum scheduled retaliation across the whole phase; missing durability assumes enough uses."
+  ]
+}

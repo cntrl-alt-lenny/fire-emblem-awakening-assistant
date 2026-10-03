@@ -1,0 +1,37 @@
+{
+  "id": "chrom",
+  "class_id": "lord_m",
+  "level": 1,
+  "exp": 0,
+  "stats_basis": "raw",
+  "stats": {
+    "hp": 20,
+    "str": 7,
+    "mag": 1,
+    "skl": 8,
+    "spd": 8,
+    "lck": 5,
+    "def": 7,
+    "res": 1
+  },
+  "alive": true,
+  "weapon_ranks": {
+    "sword": "E"
+  },
+  "skills": [
+    "dual_strike_plus"
+  ],
+  "supports": {},
+  "inventory": [
+    {
+      "instance_id": "falchion_1",
+      "item_id": "falchion",
+      "remaining_uses": null
+    },
+    {
+      "instance_id": "vulnerary_1",
+      "item_id": "vulnerary",
+      "remaining_uses": 3
+    }
+  ]
+}

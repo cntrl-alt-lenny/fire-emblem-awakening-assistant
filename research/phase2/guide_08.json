@@ -1,0 +1,158 @@
+[
+  {
+    "id": "guide_08_0",
+    "name": "Chapter 7 Incursion - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-7-incursion",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "timing_label": null,
+        "map_heading": "Chapter 7 Incursion",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Vasto",
+            "Wyvern Rider",
+            "12",
+            "Steel Axe"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "timing_label": null,
+        "map_heading": "Chapter 7 Incursion",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Cordelia",
+            "Pegasus Knight",
+            "7",
+            "From Turn 3"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Chapter 7:",
+        "map_heading": "Chapter 7 Incursion",
+        "text": "Location: Breakneck Pass"
+      },
+      {
+        "section": "Note: Chapter 7:",
+        "map_heading": "Chapter 7 Incursion",
+        "text": "Condition: Defeat Enemy"
+      },
+      {
+        "section": "Note: Chapter 7:",
+        "map_heading": "Chapter 7 Incursion",
+        "text": "Character Limit: 11 (Including Chrom)"
+      }
+    ],
+    "access_status": "accessed"
+  },
+  {
+    "id": "guide_08_1",
+    "name": "Chapter 8 The Grimleal - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-8-the-grimleal",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "timing_label": null,
+        "map_heading": "Chapter 8 The Grimleal",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Chalard",
+            "Dark Mage",
+            "12",
+            "Nosferatu, Energy Drop"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "timing_label": null,
+        "map_heading": "Chapter 8 The Grimleal",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Gregor",
+            "Mercenary",
+            "10",
+            "Automatically"
+          ],
+          [
+            "Nowi",
+            "Manakete",
+            "3",
+            "Automatically"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Chapter 8:",
+        "map_heading": "Chapter 8 The Grimleal",
+        "text": "Location: Border Sands"
+      },
+      {
+        "section": "Note: Chapter 8:",
+        "map_heading": "Chapter 8 The Grimleal",
+        "text": "Condition: Defeat Enemy"
+      },
+      {
+        "section": "Note: Chapter 8:",
+        "map_heading": "Chapter 8 The Grimleal",
+        "text": "Character Limit: 10 (Including Chrom)"
+      }
+    ],
+    "access_status": "accessed"
+  },
+  {
+    "id": "guide_08_2",
+    "name": "Access failure",
+    "url": null,
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "unavailable"
+  },
+  {
+    "id": "guide_08_3",
+    "name": "Access failure",
+    "url": null,
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "unavailable"
+  }
+]

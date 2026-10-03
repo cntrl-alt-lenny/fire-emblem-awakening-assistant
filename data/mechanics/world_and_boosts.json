@@ -1,0 +1,645 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "other_systems_1_0",
+      "name": "List of Temporary Boosts",
+      "source_ids": [
+        "other_systems_1"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Type",
+          "HP",
+          "Str",
+          "Mag",
+          "Skl",
+          "Spd",
+          "Lck",
+          "Def",
+          "Res",
+          "Mov",
+          "Notes"
+        ]
+      ]
+    },
+    {
+      "id": "other_systems_1_1",
+      "name": "List of Temporary Boosts",
+      "source_ids": [
+        "other_systems_1"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Semi-legendary weapons *_{1}",
+          "",
+          "2",
+          "",
+          "1",
+          "2",
+          "2",
+          "2",
+          "2",
+          "",
+          "Only 2 stats per item *_{2}"
+        ],
+        [
+          "Legendary weapons *_{3}",
+          "",
+          "5",
+          "5",
+          "5",
+          "5",
+          "10",
+          "5",
+          "5",
+          "",
+          "Only 1 stat per item *_{4}"
+        ],
+        [
+          "Beaststone+",
+          "",
+          "5",
+          "",
+          "8",
+          "8",
+          "6",
+          "4",
+          "2",
+          "",
+          "Taguel only"
+        ],
+        [
+          "Dragonstone+",
+          "",
+          "11",
+          "6",
+          "5",
+          "4",
+          "",
+          "13",
+          "9",
+          "",
+          "Manaketes only"
+        ]
+      ]
+    },
+    {
+      "id": "other_systems_1_2",
+      "name": "List of Temporary Boosts",
+      "source_ids": [
+        "other_systems_1"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Type",
+          "HP",
+          "Str",
+          "Mag",
+          "Skl",
+          "Spd",
+          "Lck",
+          "Def",
+          "Res",
+          "Mov",
+          "Notes"
+        ]
+      ]
+    },
+    {
+      "id": "other_systems_1_3",
+      "name": "List of Temporary Boosts",
+      "source_ids": [
+        "other_systems_1"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "HP +5 etc.",
+          "5",
+          "2",
+          "2",
+          "2",
+          "2",
+          "4",
+          "2",
+          "2",
+          "1",
+          "Only 1 stat per Skill"
+        ],
+        [
+          "Resistance +10",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "10",
+          "",
+          "–"
+        ],
+        [
+          "All stats +2",
+          "",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "",
+          "–"
+        ],
+        [
+          "Swordfaire etc.",
+          "",
+          "5",
+          "5",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Only 1 stat at a time"
+        ],
+        [
+          "Defender",
+          "",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "",
+          "Only when paired up"
+        ],
+        [
+          "Deliverer",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "2",
+          "Only when paired up"
+        ]
+      ]
+    },
+    {
+      "id": "other_systems_1_4",
+      "name": "List of Temporary Boosts",
+      "source_ids": [
+        "other_systems_1"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Type",
+          "HP",
+          "Str",
+          "Mag",
+          "Skl",
+          "Spd",
+          "Lck",
+          "Def",
+          "Res",
+          "Mov",
+          "Notes"
+        ]
+      ]
+    },
+    {
+      "id": "other_systems_1_5",
+      "name": "List of Temporary Boosts",
+      "source_ids": [
+        "other_systems_1"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Pair Up",
+          "",
+          "<=10",
+          "<=9",
+          "<=8",
+          "<=10",
+          "<=9",
+          "<=10",
+          "<=9",
+          "<=1",
+          "See Pair Up section"
+        ]
+      ]
+    },
+    {
+      "id": "other_systems_1_6",
+      "name": "List of Temporary Boosts",
+      "source_ids": [
+        "other_systems_1"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Type",
+          "HP",
+          "Str",
+          "Mag",
+          "Skl",
+          "Spd",
+          "Lck",
+          "Def",
+          "Res",
+          "Mov",
+          "Notes"
+        ]
+      ]
+    },
+    {
+      "id": "other_systems_1_7",
+      "name": "List of Temporary Boosts",
+      "source_ids": [
+        "other_systems_1"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Tonics *_{5}",
+          "5",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "",
+          "Stats vary by item"
+        ],
+        [
+          "Pure Water *_{6}",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "5",
+          "",
+          "Decreases by 1 each turn"
+        ],
+        [
+          "Barracks",
+          "",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "",
+          "Only 2 stats at a time"
+        ]
+      ]
+    },
+    {
+      "id": "other_systems_1_8",
+      "name": "List of Temporary Boosts",
+      "source_ids": [
+        "other_systems_1"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Type",
+          "HP",
+          "Str",
+          "Mag",
+          "Skl",
+          "Spd",
+          "Lck",
+          "Def",
+          "Res",
+          "Mov",
+          "Notes"
+        ]
+      ]
+    },
+    {
+      "id": "other_systems_1_9",
+      "name": "List of Temporary Boosts",
+      "source_ids": [
+        "other_systems_1"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Rally Strength etc.",
+          "",
+          "4",
+          "4",
+          "4",
+          "4",
+          "8",
+          "4",
+          "4",
+          "1",
+          "Only 1 stat per Skill"
+        ],
+        [
+          "Rally Spectrum",
+          "",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "",
+          "–"
+        ],
+        [
+          "Rally Heart",
+          "",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "2",
+          "1",
+          "–"
+        ],
+        [
+          "Special Dance",
+          "",
+          "2",
+          "2",
+          "",
+          "",
+          "",
+          "2",
+          "2",
+          "",
+          "–"
+        ]
+      ]
+    },
+    {
+      "id": "other_systems_1_10",
+      "name": "List of Temporary Boosts",
+      "source_ids": [
+        "other_systems_1"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Type",
+          "HP",
+          "Str",
+          "Mag",
+          "Skl",
+          "Spd",
+          "Lck",
+          "Def",
+          "Res",
+          "Mov",
+          "Notes"
+        ]
+      ]
+    },
+    {
+      "id": "other_systems_1_11",
+      "name": "List of Temporary Boosts",
+      "source_ids": [
+        "other_systems_1"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Maximum_{ (with weapons)}",
+          "10",
+          "43",
+          "42",
+          "34",
+          "36",
+          "46",
+          "38",
+          "52",
+          "6",
+          "–"
+        ],
+        [
+          "Maximum (with Stones)",
+          "10",
+          "44",
+          "38",
+          "37",
+          "39",
+          "42",
+          "46",
+          "49",
+          "6",
+          "–"
+        ]
+      ]
+    },
+    {
+      "id": "other_systems_2_0",
+      "name": "World Map",
+      "source_ids": [
+        "other_systems_2"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Chapter",
+          "Name",
+          "Chapter",
+          "Name"
+        ]
+      ]
+    },
+    {
+      "id": "other_systems_2_1",
+      "name": "World Map",
+      "source_ids": [
+        "other_systems_2"
+      ],
+      "verification": "extracted_unreviewed",
+      "rows": [
+        [
+          "Pro.",
+          "Southtown",
+          "End.",
+          "Grima"
+        ],
+        [
+          "1",
+          "West of Ylisstol",
+          "Par. 1",
+          "The Farfort"
+        ],
+        [
+          "2",
+          "The North Road",
+          "Par. 2",
+          "The Twin’s Turf"
+        ],
+        [
+          "3",
+          "The Longfort",
+          "Par. 3",
+          "Peaceful Village"
+        ],
+        [
+          "4",
+          "Arena Ferox",
+          "Par. 4",
+          "The Twin’s Hideout"
+        ],
+        [
+          "5",
+          "Border Pass",
+          "Par. 5",
+          "Sage’s Hamlet"
+        ],
+        [
+          "6",
+          "Ylisstol",
+          "Par. 6",
+          "Great Gate"
+        ],
+        [
+          "7",
+          "Breakneck Pass",
+          "Par. 7",
+          "Mila Shrine Ruins"
+        ],
+        [
+          "8",
+          "Border Sands",
+          "Par. 8",
+          "Duelling Grounds"
+        ],
+        [
+          "9",
+          "Plegia Castle Courtyard",
+          "Par. 9",
+          "Verdant Forest"
+        ],
+        [
+          "10",
+          "The Midmire",
+          "Par. 10",
+          "Mercenary Fortress"
+        ],
+        [
+          "11",
+          "Border Wastes",
+          "Par. 11",
+          "Wyvern Valley"
+        ],
+        [
+          "12",
+          "Port Ferox",
+          "Par. 12",
+          "The Ruins of Time"
+        ],
+        [
+          "13",
+          "Carrion Isle",
+          "Par. 13",
+          "Law’s End"
+        ],
+        [
+          "14",
+          "The Searoad",
+          "Par. 14",
+          "Desert Oasis"
+        ],
+        [
+          "15",
+          "Valm Harbour",
+          "Par. 15",
+          "Kidnapper’s Keep"
+        ],
+        [
+          "16",
+          "The Mila Tree",
+          "Par. 16",
+          "Manor of Lost Souls"
+        ],
+        [
+          "17",
+          "Fort Steiger",
+          "Par. 17",
+          "Divine Dragon Grounds"
+        ],
+        [
+          "18",
+          "The Demon’s Ingle",
+          "Par. 18",
+          "Sea-King’s Throne"
+        ],
+        [
+          "19",
+          "Valm Castle Approach",
+          "Par. 19",
+          "Conqueror’s Whetstone"
+        ],
+        [
+          "20",
+          "Valm Castle",
+          "Par. 20",
+          "Mountain Village"
+        ],
+        [
+          "21",
+          "Plegia Castle",
+          "Par. 21",
+          "Warriors’ Tomb"
+        ],
+        [
+          "22",
+          "Table Approach",
+          "Par. 22",
+          "Wellspring of Truth"
+        ],
+        [
+          "23",
+          "The Dragon’s Table",
+          "Par. 23",
+          "Garden of Giants"
+        ],
+        [
+          "24",
+          "Mount Prism",
+          "Out.",
+          "Outrealm Gate (DLC)"
+        ],
+        [
+          "25",
+          "Origin Peak",
+          "–",
+          "–"
+        ]
+      ]
+    }
+  ]
+}

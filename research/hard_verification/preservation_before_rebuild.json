@@ -1,0 +1,386 @@
+{
+  "other_difficulty_slots": {
+    "premonition": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "prologue": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "240b04d7c137b308c926a215c4e840eacc486ba43164a1c75a7786310a480719",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "chapter_1": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "0091d202a8c9a315931a46f66bc44f3eca301b36f48e61a1ca8c42364761014e",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "chapter_2": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "17ab858f294020568a3f2e9ed753cdd9c865c1abb1dd7e8b037432bd6d15d49f",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "chapter_3": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "5ed650c28bc275acef60f61fc1ac3192ca703487878fe3dc28132987937d4f96",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "chapter_4": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "bd404e3d444ca5e09424464ed9530b3cb1d4c4be76855e837ff892f60eaeef82",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "chapter_5": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "fbaa69d2b62d22d25617ccbba0a9020db297a2222a0ffe0e9c4cbf606e0b23f1",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "chapter_6": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "chapter_7": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "c852d9add5b5fa171fecc16c521b78e887fc7751570a7332dd8794bc80c9d069",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "chapter_8": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "ec81dfdd9f478ff2aa81664a3f05ca41fccfa84f2219f5f6759d646d33f91f55",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "chapter_9": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "871c6762405cb2e635ddbf2c55139a650c0b6bba663a17372f0359864e60346f",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "chapter_10": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "bdfe8b8eaa209cc950c1190ce3385848baeb015f56ebfa295ced55c31356f884",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "chapter_11": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "chapter_12": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "chapter_13": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "chapter_14": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "d42f5ab4290791eb3f9e885c809fe06dcbc34bbbfce2079fcdb1f764b984c416",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "chapter_15": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "c74127b097008c9e47d43345b4af53f6f38742a2c9ba1e8041b30fef49efc203",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "chapter_16": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "137fce206adc2ad345faf167ed23b079c9afe1e6f6387005ff2762f26f3cc1ef",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "chapter_17": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "c0521cb33180a723c0fff66a127c5844a06cc0d2cce3055eb02761a84d9b123a",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "chapter_18": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "c776cadcc7aae6420149cada3846658cd034108201d42cad1558cd33e8b97270",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "chapter_19": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "19da1cb723bcca6fcfac61a64f1fadf5a042300622c386f3ceed896e1d712d51",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "chapter_20": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "b4b590da7afca98d175f5d115895e6a050d29798ad46ce1add503dbf77b9521f",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "chapter_21": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "c45ac22853a9fb6b53fff90ac29f2f31c1cf204e60e010767c785a9111b5c71c",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "chapter_22": {
+      "Normal": "ac5a857f0a5bc26f383f372804e0efb65928158451540d09235621e317914251",
+      "Lunatic": "6d7f57af3d9af483c21d959fa880d975d9de97cc54a9c31aa6f32cea361ded47",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "chapter_23": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "ba037312c887630a901beb9591f7b9e13016dc40fa76d46be17a03760c474fa5",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "chapter_24": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "df6da8cd0c88dcb350a818e12f4e134219e61ac893cf07d923e81e532b317320",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "chapter_25": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "88816592e2d0dc6ef51f4261207446cc8f89c8aace8aaeeab52db54256c1b627",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "endgame": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "2402f0244e569b75c091e5ae4aed3a2368690f90b08a5a5e47c2119e8e9bd372",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "paralogue_1": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "paralogue_2": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "paralogue_3": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "paralogue_4": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "98f4629df457dca9509895be9272c0545c1cb6ea27947658fdf1197996d3044f",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "paralogue_5": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "8f689d3cd5e5f8c59c2b32690c6d93f2340ccc639a696ef158c67593c004fa3b",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "paralogue_6": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "paralogue_7": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "paralogue_8": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "3a0a87da932ad6fe1550ec61230e9d5a1b23918a9a1ba2960d0d406c0f673624",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "paralogue_9": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "paralogue_10": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "98c8eca0fc5dcc594665979822140aa6808ee0e1e6dc724293bafe9436813615",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "paralogue_11": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "9b785f2b141cbc6508ec04b2eb9ea2298ea2c994b632d2842965944b5b57dce4",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "paralogue_12": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "b743973f4787d73eab9ef6567d8a62c305d5febb55ea0cab4ae999b8ef969a7f",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "paralogue_13": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "paralogue_14": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "60a59de3fe61426656a7b18407b99515de9e88490b9fa3cb8f94e33e10d647cc",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "paralogue_15": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "5bd6d012e6d11ba10836afdcedfc1be27d8601dbbdecf7ecc19b1378441aeacf",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "paralogue_16": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "b27d57d78d5c75d9be3bace4128b90dc4fdea7652c224fa2ca2b4d870c20cf11",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "paralogue_17": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "0a3bd877be72ce2f63f031283e2d543421b674f658ea7e71e01dcf98965ac6d0",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "paralogue_18": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "paralogue_19": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "cc7eecbf4d2e4965598a77876a92d23b07069efad45c81d547afce5b956a1333",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "paralogue_20": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "4147c64d2c15f907cd62690813010aef2bf5b0c136e464f009957b840d0bf277",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "paralogue_21": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "paralogue_22": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "paralogue_23": {
+      "Normal": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c",
+      "Lunatic": "4f7f29acfb2495bc77e35e1d6b3afadb367247378685d398b1427d6f92ec1add",
+      "Lunatic+": "8b55f3337ef118e2ad1b2f770f20ad9936cf014b3e70c16895b60cdea7eab42c"
+    },
+    "dlc_champions_of_yore_1": {
+      "Normal": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic+": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb"
+    },
+    "dlc_champions_of_yore_2": {
+      "Normal": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic+": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb"
+    },
+    "dlc_champions_of_yore_3": {
+      "Normal": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic+": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb"
+    },
+    "dlc_the_golden_gaffe": {
+      "Normal": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic+": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb"
+    },
+    "dlc_exponential_growth": {
+      "Normal": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic+": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb"
+    },
+    "dlc_infinite_regalia": {
+      "Normal": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic+": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb"
+    },
+    "dlc_lost_bloodlines_1": {
+      "Normal": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic+": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb"
+    },
+    "dlc_lost_bloodlines_2": {
+      "Normal": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic+": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb"
+    },
+    "dlc_lost_bloodlines_3": {
+      "Normal": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic+": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb"
+    },
+    "dlc_smash_brethren_1": {
+      "Normal": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic+": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb"
+    },
+    "dlc_smash_brethren_2": {
+      "Normal": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic+": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb"
+    },
+    "dlc_smash_brethren_3": {
+      "Normal": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic+": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb"
+    },
+    "dlc_rogues_redeemers_1": {
+      "Normal": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic+": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb"
+    },
+    "dlc_rogues_redeemers_2": {
+      "Normal": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic+": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb"
+    },
+    "dlc_rogues_redeemers_3": {
+      "Normal": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic+": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb"
+    },
+    "dlc_deaths_embrace": {
+      "Normal": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic+": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb"
+    },
+    "dlc_five_anna_firefight": {
+      "Normal": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic+": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb"
+    },
+    "dlc_roster_rescue": {
+      "Normal": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic+": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb"
+    },
+    "dlc_harvest_scramble": {
+      "Normal": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic+": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb"
+    },
+    "dlc_summer_scramble": {
+      "Normal": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic+": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb"
+    },
+    "dlc_hot_spring_scramble": {
+      "Normal": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic+": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb"
+    },
+    "dlc_the_future_past_1": {
+      "Normal": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic+": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb"
+    },
+    "dlc_the_future_past_2": {
+      "Normal": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic+": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb"
+    },
+    "dlc_the_future_past_3": {
+      "Normal": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic+": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb"
+    },
+    "dlc_apotheosis": {
+      "Normal": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb",
+      "Lunatic+": "b53b64162aef625bc20fde279d05eeda04ef0e6285f8a3d387d78f4db016d3fb"
+    }
+  },
+  "current_run_md_sha256": "03f89cdc45587a056abd04f8dda732da99872bacb13fb951e632aa814b62b0b7",
+  "state_files": {}
+}

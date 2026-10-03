@@ -1,0 +1,48 @@
+{
+  "child": "lucina",
+  "parents": [
+    {
+      "base_growths": {
+        "hp": 30,
+        "str": 30,
+        "mag": 30,
+        "skl": 30,
+        "spd": 30,
+        "lck": 30,
+        "def": 30,
+        "res": 30
+      },
+      "cap_modifiers": {
+        "str": 1,
+        "mag": 1,
+        "skl": 1,
+        "spd": 1,
+        "lck": 1,
+        "def": 1,
+        "res": 1
+      }
+    },
+    {
+      "base_growths": {
+        "hp": 30,
+        "str": 30,
+        "mag": 30,
+        "skl": 30,
+        "spd": 30,
+        "lck": 30,
+        "def": 30,
+        "res": 30
+      },
+      "cap_modifiers": {
+        "str": 1,
+        "mag": 1,
+        "skl": 1,
+        "spd": 1,
+        "lck": 1,
+        "def": 1,
+        "res": 1
+      }
+    }
+  ],
+  "note": "Synthetic formula fixture; replace with actual resolved parents."
+}

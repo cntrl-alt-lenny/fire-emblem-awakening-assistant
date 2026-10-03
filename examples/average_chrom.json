@@ -1,0 +1,21 @@
+{
+  "character": "chrom",
+  "starting_class": "lord_m",
+  "starting_level": 1,
+  "starting_raw_stats": {
+    "hp": 20,
+    "str": 7,
+    "mag": 1,
+    "skl": 8,
+    "spd": 8,
+    "lck": 5,
+    "def": 7,
+    "res": 1
+  },
+  "segments": [
+    {
+      "class_id": "lord_m",
+      "level_ups": 9
+    }
+  ]
+}

@@ -1,0 +1,1791 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "dual_strike_plus",
+      "name": "Dual Strike+",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Adds 10% to the Dual Strike rate",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "lord_m",
+          "level": 1
+        },
+        {
+          "class_id": "lord_f",
+          "level": 1
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "charm",
+      "name": "Charm",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Hit rate and Avoid +5 to all allies within a 3 tile radius",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "lord_m",
+          "level": 10
+        },
+        {
+          "class_id": "lord_f",
+          "level": 10
+        }
+      ],
+      "calculator_supported": false
+    },
+    {
+      "id": "aether",
+      "name": "Aether",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Attack twice consecutively, with the first strike having a Sol effect and the second strike having a Luna effect",
+      "activation": "Skill/2%",
+      "learned_in": [
+        {
+          "class_id": "great_lord_m",
+          "level": 5
+        },
+        {
+          "class_id": "great_lord_f",
+          "level": 5
+        }
+      ],
+      "calculator_supported": false
+    },
+    {
+      "id": "rightful_king",
+      "name": "Rightful King",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Adds 10% to Skill activation rates",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "great_lord_m",
+          "level": 15
+        },
+        {
+          "class_id": "great_lord_f",
+          "level": 15
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported with isolated-interaction restrictions; see combat_events.validate and docs/combat-formulas.md. Never omit unsupported combinations."
+    },
+    {
+      "id": "veteran",
+      "name": "Veteran",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Experience gain x 1.5 when paired up",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "tactician",
+          "level": 1
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "solidarity",
+      "name": "Solidarity",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Critical and Critical Avoid +10 to adjacent allies",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "tactician",
+          "level": 10
+        }
+      ],
+      "calculator_supported": false
+    },
+    {
+      "id": "ignis",
+      "name": "Ignis",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Adds (Magic)/2 to Strength when dealing physical damage and (Strength)/2 to Magic when dealing magical damage",
+      "activation": "Skill%",
+      "learned_in": [
+        {
+          "class_id": "grandmaster",
+          "level": 5
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported with isolated-interaction restrictions; see combat_events.validate and docs/combat-formulas.md. Never omit unsupported combinations."
+    },
+    {
+      "id": "rally_spectrum",
+      "name": "Rally Spectrum",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "All stats +4 to all allies within a 3 tile radius for one Turn when the Rally command is used",
+      "activation": "Command",
+      "learned_in": [
+        {
+          "class_id": "grandmaster",
+          "level": 15
+        }
+      ],
+      "calculator_supported": false
+    },
+    {
+      "id": "discipline",
+      "name": "Discipline",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Weapon experience x2",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "cavalier",
+          "level": 1
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "outdoor_fighter",
+      "name": "Outdoor Fighter",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Hit rate and Avoid +10 when fighting outdoors",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "cavalier",
+          "level": 10
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "defender",
+      "name": "Defender",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "All stats +1 when paired up",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "paladin",
+          "level": 5
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "aegis",
+      "name": "Aegis",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Halves damage from bows, tomes and dragonstones",
+      "activation": "Skill%",
+      "learned_in": [
+        {
+          "class_id": "paladin",
+          "level": 15
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported with isolated-interaction restrictions; see combat_events.validate and docs/combat-formulas.md. Never omit unsupported combinations."
+    },
+    {
+      "id": "luna",
+      "name": "Luna",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Ignores half the enemy's Defence or Resistance",
+      "activation": "Skill%",
+      "learned_in": [
+        {
+          "class_id": "great_knight",
+          "level": 5
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported with isolated-interaction restrictions; see combat_events.validate and docs/combat-formulas.md. Never omit unsupported combinations."
+    },
+    {
+      "id": "dual_guard_plus",
+      "name": "Dual Guard+",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Adds 10% to the Dual Guard rate",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "great_knight",
+          "level": 15
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "defence_plus_2",
+      "name": "Defence +2",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Defence +2",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "knight",
+          "level": 1
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "indoor_fighter",
+      "name": "Indoor Fighter",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Hit rate and Avoid +10 when fighting indoors",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "knight",
+          "level": 10
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "rally_defence",
+      "name": "Rally Defence",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Defence +4 to all allies within a 3 tile radius for one Turn when the Rally command is used",
+      "activation": "Command",
+      "learned_in": [
+        {
+          "class_id": "general",
+          "level": 5
+        }
+      ],
+      "calculator_supported": false
+    },
+    {
+      "id": "pavise",
+      "name": "Pavise",
+      "source_ids": [
+        "skills_extra",
+        "p2_pavise"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Halves sword/lance/axe/beaststone/blighted-claw/talon damage; Skill% activation; excludes Dual Strikes.",
+      "activation": "Skill%",
+      "learned_in": [
+        {
+          "class_id": "general",
+          "level": 15
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported with isolated-interaction restrictions; see combat_events.validate and docs/combat-formulas.md. Never omit unsupported combinations."
+    },
+    {
+      "id": "avoid_plus_10",
+      "name": "Avoid +10",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Avoid +10",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "myrmidon",
+          "level": 1
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "vantage",
+      "name": "Vantage",
+      "source_ids": [
+        "skills_extra",
+        "p2_skills_game_descriptions_0"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Defender attacks first when current HP is at most half maximum HP.",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "myrmidon",
+          "level": 10
+        }
+      ],
+      "calculator_supported": true,
+      "boundary_crosscheck": "game_localization",
+      "calculator_support_note": "Supported with isolated-interaction restrictions; see combat_events.validate and docs/combat-formulas.md. Never omit unsupported combinations."
+    },
+    {
+      "id": "astra",
+      "name": "Astra",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Deals 5 consecutive hits with half damage",
+      "activation": "Skill/2%",
+      "learned_in": [
+        {
+          "class_id": "swordmaster",
+          "level": 5
+        }
+      ],
+      "calculator_supported": false
+    },
+    {
+      "id": "swordfaire",
+      "name": "Swordfaire",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Strength +5 when equipped with a sword (Magic +5 when equipped with the Levin Sword)",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "swordmaster",
+          "level": 15
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "armsthrift",
+      "name": "Armsthrift",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Attack does not reduce weapon usage",
+      "activation": "Luck*2%",
+      "learned_in": [
+        {
+          "class_id": "mercenary",
+          "level": 1
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "patience",
+      "name": "Patience",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Hit rate and Avoid +10 during the enemy's Turn",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "mercenary",
+          "level": 10
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "sol",
+      "name": "Sol",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Recover HP equal to half the damage dealt to the enemy",
+      "activation": "Skill%",
+      "learned_in": [
+        {
+          "class_id": "hero",
+          "level": 5
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported with isolated-interaction restrictions; see combat_events.validate and docs/combat-formulas.md. Never omit unsupported combinations."
+    },
+    {
+      "id": "axebreaker",
+      "name": "Axebreaker",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Hit rate and Avoid +50 when the enemy is equipped with an axe",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "hero",
+          "level": 15
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "hp_plus_5",
+      "name": "HP +5",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Maximum HP +5",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "fighter",
+          "level": 1
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "zeal",
+      "name": "Zeal",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Critical +5",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "fighter",
+          "level": 10
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "rally_strength",
+      "name": "Rally Strength",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Strength +4 to all allies within a 3 tile radius for one Turn when the Rally command is used",
+      "activation": "Command",
+      "learned_in": [
+        {
+          "class_id": "warrior",
+          "level": 5
+        }
+      ],
+      "calculator_supported": false
+    },
+    {
+      "id": "counter",
+      "name": "Counter",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Returns damage when attacked by an adjacent enemy (except damage that KOs the user)",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "warrior",
+          "level": 15
+        }
+      ],
+      "calculator_supported": false
+    },
+    {
+      "id": "despoil",
+      "name": "Despoil",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Obtain Bullion (S) from the enemy if the user defeats the enemy",
+      "activation": "Luck%",
+      "learned_in": [
+        {
+          "class_id": "barbarian",
+          "level": 1
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "gamble",
+      "name": "Gamble",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Hit rate -5, Critical +10",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "barbarian",
+          "level": 10
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "wrath",
+      "name": "Wrath",
+      "source_ids": [
+        "skills_extra",
+        "p2_skills_game_descriptions_0"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Adds 20 critical when current HP is at most half maximum HP.",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "berserker",
+          "level": 5
+        }
+      ],
+      "calculator_supported": true,
+      "boundary_crosscheck": "game_localization",
+      "calculator_support_note": "Supported with isolated-interaction restrictions; see combat_events.validate and docs/combat-formulas.md. Never omit unsupported combinations."
+    },
+    {
+      "id": "axefaire",
+      "name": "Axefaire",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Strength +5 when equipped with an axe (Magic +5 when equipped with the Bolt Axe)",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "berserker",
+          "level": 15
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "skill_plus_2",
+      "name": "Skill +2",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Skill +2",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "archer",
+          "level": 1
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "prescience",
+      "name": "Prescience",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Hit rate and Avoid +15 during the user's Turn",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "archer",
+          "level": 10
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "hit_rate_plus_20",
+      "name": "Hit Rate +20",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Hit rate +20",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "sniper",
+          "level": 5
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "bowfaire",
+      "name": "Bowfaire",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Strength +5 when equipped with a bow",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "sniper",
+          "level": 15
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "rally_skill",
+      "name": "Rally Skill",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Skill +4 to all allies within a 3 tile radius for one Turn when the Rally command is used",
+      "activation": "Command",
+      "learned_in": [
+        {
+          "class_id": "bow_knight",
+          "level": 5
+        }
+      ],
+      "calculator_supported": false
+    },
+    {
+      "id": "bowbreaker",
+      "name": "Bowbreaker",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Hit rate and Avoid +50 when the enemy is equipped with a bow",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "bow_knight",
+          "level": 15
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "locktouch",
+      "name": "Locktouch",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Open doors and chests without the need of keys",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "thief",
+          "level": 1
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "movement_plus_1",
+      "name": "Movement +1",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Movement +1",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "thief",
+          "level": 10
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "lethality",
+      "name": "Lethality",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Instantly defeats the enemy",
+      "activation": "Skill/4%",
+      "learned_in": [
+        {
+          "class_id": "assassin",
+          "level": 5
+        }
+      ],
+      "calculator_supported": false
+    },
+    {
+      "id": "pass",
+      "name": "Pass",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "User can pass through tiles occupied by enemy units",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "assassin",
+          "level": 15
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "lucky_seven",
+      "name": "Lucky Seven",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Hit rate and Avoid +20 up to the 7th Turn",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "trickster",
+          "level": 5
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "acrobat",
+      "name": "Acrobat",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "All traversable terrain costs 1 movement point to cross",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "trickster",
+          "level": 15
+        }
+      ],
+      "calculator_supported": false
+    },
+    {
+      "id": "speed_plus_2",
+      "name": "Speed +2",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Speed +2",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "pegasus_knight",
+          "level": 1
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "relief",
+      "name": "Relief",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Recover 20% HP at the start of the user's Turn if no units are within a 3 tile radius",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "pegasus_knight",
+          "level": 10
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "rally_speed",
+      "name": "Rally Speed",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Speed +4 to all allies within a 3 tile radius for one Turn when the Rally command is used",
+      "activation": "Command",
+      "learned_in": [
+        {
+          "class_id": "falcon_knight",
+          "level": 5
+        }
+      ],
+      "calculator_supported": false
+    },
+    {
+      "id": "lancefaire",
+      "name": "Lancefaire",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Strength +5 when equipped with a lance (Magic +5 when equipped with the Shockstick)",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "falcon_knight",
+          "level": 15
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "rally_movement",
+      "name": "Rally Movement",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Movement +1 to all allies within a 3 tile radius for one Turn when the Rally command is used",
+      "activation": "Command",
+      "learned_in": [
+        {
+          "class_id": "dark_flier",
+          "level": 5
+        }
+      ],
+      "calculator_supported": false
+    },
+    {
+      "id": "galeforce",
+      "name": "Galeforce",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Allows the user another full action after they defeat an enemy during the user's Turn (only once per Turn)",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "dark_flier",
+          "level": 15
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "strength_plus_2",
+      "name": "Strength +2",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Strength +2",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "wyvern_rider",
+          "level": 1
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "tantivy",
+      "name": "Tantivy",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Hit rate and Avoid +10 if no allies within a 3 tile radius",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "wyvern_rider",
+          "level": 10
+        }
+      ],
+      "calculator_supported": false
+    },
+    {
+      "id": "quick_burn",
+      "name": "Quick Burn",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Hit rate and Avoid +15 at the start of the chapter. Effect decreases with each passing Turn",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "wyvern_lord",
+          "level": 5
+        }
+      ],
+      "calculator_supported": false
+    },
+    {
+      "id": "swordbreaker",
+      "name": "Swordbreaker",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Hit rate and Avoid +50 when the enemy is equipped with a sword",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "wyvern_lord",
+          "level": 15
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "deliverer",
+      "name": "Deliverer",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Movement +2 when paired up",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "griffon_rider",
+          "level": 5
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "lancebreaker",
+      "name": "Lancebreaker",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Hit rate and Avoid +50 when the enemy is equipped with a lance",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "griffon_rider",
+          "level": 15
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "magic_plus_2",
+      "name": "Magic +2",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Magic +2",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "mage",
+          "level": 1
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "focus",
+      "name": "Focus",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Critical +10 when no allies within a 3 tile radius",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "mage",
+          "level": 10
+        }
+      ],
+      "calculator_supported": false
+    },
+    {
+      "id": "rally_magic",
+      "name": "Rally Magic",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Magic +4 to all allies within a 3 tile radius for one Turn when the Rally command is used",
+      "activation": "Command",
+      "learned_in": [
+        {
+          "class_id": "sage",
+          "level": 5
+        }
+      ],
+      "calculator_supported": false
+    },
+    {
+      "id": "tomefaire",
+      "name": "Tomefaire",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Magic +5 when equipped with a Tome",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "sage",
+          "level": 15
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "hex",
+      "name": "Hex",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Avoid -15 to all adjacent enemies",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "dark_mage",
+          "level": 1
+        }
+      ],
+      "calculator_supported": false
+    },
+    {
+      "id": "anathema",
+      "name": "Anathema",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Avoid and Critical Avoid -10 to all enemies within a 3 tile radius",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "dark_mage",
+          "level": 10
+        }
+      ],
+      "calculator_supported": false
+    },
+    {
+      "id": "vengeance",
+      "name": "Vengeance",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Deals (user's Max HP – Current HP)/2 extra damage",
+      "activation": "Skill*2%",
+      "learned_in": [
+        {
+          "class_id": "sorcerer",
+          "level": 5
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported with isolated-interaction restrictions; see combat_events.validate and docs/combat-formulas.md. Never omit unsupported combinations."
+    },
+    {
+      "id": "tomebreaker",
+      "name": "Tomebreaker",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Hit rate and Avoid +50 when the enemy is equipped with a tome",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "sorcerer",
+          "level": 15
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "slow_burn",
+      "name": "Slow Burn",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Hit rate and Avoid increases by 1 each Turn, up to the 15th Turn",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "dark_knight",
+          "level": 5
+        }
+      ],
+      "calculator_supported": false
+    },
+    {
+      "id": "lifetaker",
+      "name": "Lifetaker",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "User recovers 50% HP after they defeat an enemy during the user's Turn",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "dark_knight",
+          "level": 15
+        }
+      ],
+      "calculator_supported": false
+    },
+    {
+      "id": "miracle",
+      "name": "Miracle",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Character survives with 1 HP after receiving an attack that would otherwise KO them (must have over 1 HP)",
+      "activation": "Luck%",
+      "learned_in": [
+        {
+          "class_id": "priest",
+          "level": 1
+        },
+        {
+          "class_id": "cleric",
+          "level": 1
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported with isolated-interaction restrictions; see combat_events.validate and docs/combat-formulas.md. Never omit unsupported combinations."
+    },
+    {
+      "id": "healtouch",
+      "name": "Healtouch",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Restores an extra 5 HP when healing allies",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "priest",
+          "level": 10
+        },
+        {
+          "class_id": "cleric",
+          "level": 10
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "rally_luck",
+      "name": "Rally Luck",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Luck +8 to all allies within a 3 tile radius for one Turn when the Rally command is used",
+      "activation": "Command",
+      "learned_in": [
+        {
+          "class_id": "war_monk",
+          "level": 5
+        },
+        {
+          "class_id": "war_cleric",
+          "level": 5
+        }
+      ],
+      "calculator_supported": false
+    },
+    {
+      "id": "renewal",
+      "name": "Renewal",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Recover 30% HP at the start of the user's Turn",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "war_monk",
+          "level": 15
+        },
+        {
+          "class_id": "war_cleric",
+          "level": 15
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "resistance_plus_2",
+      "name": "Resistance +2",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Resistance +2",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "troubadour",
+          "level": 1
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "demoiselle",
+      "name": "Demoiselle",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Avoid and Critical Avoid +10 to all male allies within a 3 tile radius",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "troubadour",
+          "level": 10
+        }
+      ],
+      "calculator_supported": false
+    },
+    {
+      "id": "rally_resistance",
+      "name": "Rally Resistance",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Resistance +4 to all allies within a 3 tile radius for one Turn when the Rally command is used",
+      "activation": "Command",
+      "learned_in": [
+        {
+          "class_id": "valkyrie",
+          "level": 5
+        }
+      ],
+      "calculator_supported": false
+    },
+    {
+      "id": "dual_support_plus",
+      "name": "Dual Support+",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Increases the support bonus effect",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "valkyrie",
+          "level": 15
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "aptitude",
+      "name": "Aptitude",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Adds 20% to all growth rates during Level Ups",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "villager",
+          "level": 1
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "underdog",
+      "name": "Underdog",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Hit rate and Avoid +15 when user's Level is lower than the enemy (promoted units count as Level +20)",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "villager",
+          "level": 15
+        }
+      ],
+      "calculator_supported": false
+    },
+    {
+      "id": "luck_plus_4",
+      "name": "Luck +4",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Luck +4",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "dancer",
+          "level": 1
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "special_dance",
+      "name": "Special Dance",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Strength, Magic, Defence and Resistance +2 for one Turn for the unit who receives the user's Dance",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "dancer",
+          "level": 15
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "even_rhythm",
+      "name": "Even Rhythm",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Hit rate and Avoid +10 during even numbered Turns",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "taguel",
+          "level": 1
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "beastbane",
+      "name": "Beastbane",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Deals effective damage to Image: Beast (beast ) units when user is a Taguel",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "taguel",
+          "level": 15
+        }
+      ],
+      "calculator_supported": false
+    },
+    {
+      "id": "odd_rhythm",
+      "name": "Odd Rhythm",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Hit rate and Avoid +10 during odd numbered Turns",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "manakete",
+          "level": 1
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "wyrmsbane",
+      "name": "Wyrmsbane",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Deals effective damage to Image: Dragon (dragon) units when user is a Manakete",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "manakete",
+          "level": 15
+        }
+      ],
+      "calculator_supported": false
+    },
+    {
+      "id": "conquest",
+      "name": "Conquest",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Negates user's Image: Beast (beast ) and Image: Armour (armour) type weaknesses (Walhart, Morgan as Walhart's son, Zephiel and DLC Ephraim only)",
+      "activation": "–",
+      "learned_in": [],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "resistance_plus_10",
+      "name": "Resistance +10",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Resistance +10",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "dread_fighter",
+          "level": 1
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "aggressor",
+      "name": "Aggressor",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Attack +10 during the user's Turn",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "dread_fighter",
+          "level": 15
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "rally_heart",
+      "name": "Rally Heart",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "All stats +2 and Movement +1 to all allies within a 3 tile radius for one Turn when the Rally command is used",
+      "activation": "Command",
+      "learned_in": [
+        {
+          "class_id": "bride",
+          "level": 1
+        }
+      ],
+      "calculator_supported": false
+    },
+    {
+      "id": "bond",
+      "name": "Bond",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Restores 10 HP to all allies within a 3 tile radius at the beginning of the user's Turn",
+      "activation": "–",
+      "learned_in": [
+        {
+          "class_id": "bride",
+          "level": 15
+        }
+      ],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "all_stats_plus_2",
+      "name": "All Stats +2",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "Strength, Magic, Skill, Speed, Luck, Defence and Resistance +2 (Learned by using the All Stats +2 item )",
+      "activation": "–",
+      "learned_in": [],
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "outrealm_skill",
+      "name": "Outrealm Skill",
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "effect": "What a DLC Skill looks like without DLC installed",
+      "activation": "–",
+      "learned_in": [],
+      "calculator_supported": false
+    },
+    {
+      "id": "shadowgift",
+      "name": "Shadowgift",
+      "effect": "Allows dark tomes when the class can use tomes.",
+      "activation": "passive",
+      "learned_in": [],
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "paragon",
+      "name": "Paragon",
+      "effect": "Doubles EXP.",
+      "activation": "passive",
+      "learned_in": [],
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "iotes_shield",
+      "name": "Iote's Shield",
+      "effect": "Removes flying effectiveness vulnerability.",
+      "activation": "passive",
+      "learned_in": [],
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "limit_breaker",
+      "name": "Limit Breaker",
+      "effect": "Raises the seven non-HP stat caps by 10.",
+      "activation": "passive",
+      "learned_in": [],
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "dragonskin",
+      "name": "Dragonskin",
+      "effect": "Halves damage; blocks Lethality and Counter.",
+      "activation": "passive",
+      "learned_in": [],
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "calculator_supported": false
+    },
+    {
+      "id": "hit_rate_plus_10",
+      "name": "Hit Rate +10",
+      "effect": "Adds 10 hit.",
+      "activation": "passive",
+      "learned_in": [],
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "calculator_supported": true,
+      "calculator_support_note": "Supported duel whitelist: active stat bonuses must already be in effective stats; non-duel effects are not simulated. Dual skills require separately supplied partner/rate context."
+    },
+    {
+      "id": "rightful_god",
+      "name": "Rightful God",
+      "effect": "Adds 30 percentage points to activation rates.",
+      "activation": "passive",
+      "learned_in": [],
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "calculator_supported": true,
+      "calculator_support_note": "Supported with isolated-interaction restrictions; see combat_events.validate and docs/combat-formulas.md. Never omit unsupported combinations."
+    },
+    {
+      "id": "vantage_plus",
+      "name": "Vantage+",
+      "effect": "Defender attacks first.",
+      "activation": "passive",
+      "learned_in": [],
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "calculator_supported": true,
+      "calculator_support_note": "Supported with isolated-interaction restrictions; see combat_events.validate and docs/combat-formulas.md. Never omit unsupported combinations."
+    },
+    {
+      "id": "luna_plus",
+      "name": "Luna+",
+      "effect": "Always applies Luna.",
+      "activation": "passive",
+      "learned_in": [],
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "calculator_supported": true,
+      "calculator_support_note": "Supported with isolated-interaction restrictions; see combat_events.validate and docs/combat-formulas.md. Never omit unsupported combinations."
+    },
+    {
+      "id": "hawkeye",
+      "name": "Hawkeye",
+      "effect": "Always hits.",
+      "activation": "passive",
+      "learned_in": [],
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "calculator_supported": true,
+      "calculator_support_note": "Supported with isolated-interaction restrictions; see combat_events.validate and docs/combat-formulas.md. Never omit unsupported combinations."
+    },
+    {
+      "id": "pavise_plus",
+      "name": "Pavise+",
+      "effect": "Always halves sword/lance/axe/beaststone damage; does not halve Dual Strikes.",
+      "activation": "passive",
+      "learned_in": [],
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "calculator_supported": true,
+      "calculator_support_note": "Supported with isolated-interaction restrictions; see combat_events.validate and docs/combat-formulas.md. Never omit unsupported combinations."
+    },
+    {
+      "id": "aegis_plus",
+      "name": "Aegis+",
+      "effect": "Always halves bow/tome/dragonstone damage; does not halve Dual Strikes.",
+      "activation": "passive",
+      "learned_in": [],
+      "source_ids": [
+        "skills_extra"
+      ],
+      "verification": "single_source_transcribed",
+      "calculator_supported": true,
+      "calculator_support_note": "Supported with isolated-interaction restrictions; see combat_events.validate and docs/combat-formulas.md. Never omit unsupported combinations."
+    }
+  ]
+}

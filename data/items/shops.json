@@ -1,0 +1,805 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "prologue",
+      "name": "Southtown",
+      "chapter_id": "prologue",
+      "item_ids": [
+        "bronze_sword",
+        "bronze_lance",
+        "bronze_axe",
+        "bronze_bow",
+        "fire"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "chapter_1",
+      "name": "West of Ylisstol",
+      "chapter_id": "chapter_1",
+      "item_ids": [
+        "heal",
+        "vulnerary"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "chapter_2",
+      "name": "The North Road",
+      "chapter_id": "chapter_2",
+      "item_ids": [
+        "fire",
+        "thunder",
+        "wind",
+        "flux"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "chapter_3",
+      "name": "The Longfort",
+      "chapter_id": "chapter_3",
+      "item_ids": [
+        "heal",
+        "vulnerary",
+        "strength_tonic",
+        "defence_tonic",
+        "reeking_box"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "chapter_4",
+      "name": "Arena Ferox",
+      "chapter_id": "chapter_4",
+      "item_ids": [
+        "iron_lance",
+        "iron_bow",
+        "thunder"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "chapter_5",
+      "name": "Border Pass",
+      "chapter_id": "chapter_5",
+      "item_ids": [
+        "iron_sword",
+        "iron_axe",
+        "wind"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "chapter_6",
+      "name": "Ylisstol",
+      "chapter_id": "chapter_6",
+      "item_ids": [
+        "heal",
+        "mend",
+        "vulnerary",
+        "magic_tonic",
+        "resistance_tonic"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "chapter_7",
+      "name": "Breakneck Pass",
+      "chapter_id": "chapter_7",
+      "item_ids": [
+        "iron_sword",
+        "javelin",
+        "hand_axe",
+        "iron_bow",
+        "fire"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "chapter_8",
+      "name": "Border Sands",
+      "chapter_id": "chapter_8",
+      "item_ids": [
+        "mend",
+        "concoction",
+        "skill_tonic",
+        "speed_tonic",
+        "luck_tonic"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "chapter_9",
+      "name": "Plegia Castle Courtyard",
+      "chapter_id": "chapter_9",
+      "item_ids": [
+        "steel_sword",
+        "steel_lance",
+        "steel_axe",
+        "steel_bow",
+        "flux"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "chapter_10",
+      "name": "The Midmire",
+      "chapter_id": "chapter_10",
+      "item_ids": [
+        "iron_lance",
+        "javelin",
+        "iron_axe",
+        "hand_axe"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "chapter_11",
+      "name": "Border Wastes",
+      "chapter_id": "chapter_11",
+      "item_ids": [
+        "iron_sword",
+        "iron_bow",
+        "fire",
+        "thunder",
+        "wind"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "chapter_12",
+      "name": "Port Ferox",
+      "chapter_id": "chapter_12",
+      "item_ids": [
+        "mend",
+        "rescue",
+        "dragonstone",
+        "beaststone",
+        "master_seal"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "chapter_13",
+      "name": "Carrion Isle",
+      "chapter_id": "chapter_13",
+      "item_ids": [
+        "elfire",
+        "elthunder",
+        "elwind",
+        "nosferatu",
+        "reeking_box"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "chapter_14",
+      "name": "The Searoad",
+      "chapter_id": "chapter_14",
+      "item_ids": [
+        "steel_lance",
+        "silver_lance",
+        "javelin",
+        "steel_bow",
+        "silver_bow"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "chapter_15",
+      "name": "Valm Harbour",
+      "chapter_id": "chapter_15",
+      "item_ids": [
+        "steel_sword",
+        "silver_sword",
+        "steel_axe",
+        "silver_axe",
+        "hand_axe"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "chapter_16",
+      "name": "The Mila Tree",
+      "chapter_id": "chapter_16",
+      "item_ids": [
+        "heal",
+        "ward",
+        "pure_water",
+        "hp_tonic",
+        "second_seal"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "chapter_17",
+      "name": "Fort Steiger",
+      "chapter_id": "chapter_17",
+      "item_ids": [
+        "silver_sword",
+        "silver_lance",
+        "silver_axe",
+        "silver_bow",
+        "arcfire"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "chapter_18",
+      "name": "The Demon's Ingle",
+      "chapter_id": "chapter_18",
+      "item_ids": [
+        "physic",
+        "recover",
+        "ward",
+        "dragonstone",
+        "beaststone"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "chapter_19",
+      "name": "Valm Castle Approach",
+      "chapter_id": "chapter_19",
+      "item_ids": [
+        "silver_sword",
+        "killing_edge",
+        "silver_bow",
+        "killer_bow",
+        "ruin"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "chapter_20",
+      "name": "Valm Castle",
+      "chapter_id": "chapter_20",
+      "item_ids": [
+        "silver_lance",
+        "killer_lance",
+        "silver_axe",
+        "killer_axe"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "chapter_21",
+      "name": "Plegia Castle",
+      "chapter_id": "chapter_21",
+      "item_ids": [
+        "javelin",
+        "hand_axe",
+        "arcfire",
+        "arcthunder",
+        "arcwind"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "chapter_22",
+      "name": "Table Approach",
+      "chapter_id": "chapter_22",
+      "item_ids": [
+        "heal",
+        "mend",
+        "rescue",
+        "ward",
+        "concoction"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "chapter_23",
+      "name": "The Dragon's Table",
+      "chapter_id": "chapter_23",
+      "item_ids": [
+        "physic",
+        "recover",
+        "dragonstone_plus",
+        "beaststone_plus",
+        "elixir"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "chapter_24",
+      "name": "Mount Prism",
+      "chapter_id": "chapter_24",
+      "item_ids": [
+        "bolganone",
+        "thoron",
+        "rexcalibur",
+        "waste"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "chapter_25",
+      "name": "Origin Peak",
+      "chapter_id": "chapter_25",
+      "item_ids": [
+        "brave_sword",
+        "brave_lance",
+        "brave_axe",
+        "brave_bow",
+        "reeking_box"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "paralogue_1",
+      "name": "The Farfort",
+      "chapter_id": "paralogue_1",
+      "item_ids": [
+        "iron_sword",
+        "iron_lance",
+        "iron_axe",
+        "iron_bow"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "paralogue_2",
+      "name": "The Twins' Turf",
+      "chapter_id": "paralogue_2",
+      "item_ids": [
+        "javelin",
+        "hand_axe",
+        "fire",
+        "thunder",
+        "wind"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "paralogue_3",
+      "name": "Peaceful Village",
+      "chapter_id": "paralogue_3",
+      "item_ids": [
+        "heal",
+        "mend",
+        "vulnerary",
+        "concoction"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "paralogue_4",
+      "name": "The Twins' Hideout",
+      "chapter_id": "paralogue_4",
+      "item_ids": [
+        "steel_sword",
+        "steel_lance",
+        "steel_axe",
+        "steel_bow"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "paralogue_5",
+      "name": "Sage's Hamlet",
+      "chapter_id": "paralogue_5",
+      "item_ids": [
+        "iron_sword",
+        "steel_sword",
+        "silver_sword",
+        "killing_edge"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "paralogue_6",
+      "name": "Great Gate",
+      "chapter_id": "paralogue_6",
+      "item_ids": [
+        "heal",
+        "rescue",
+        "concoction",
+        "elixir",
+        "second_seal"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "paralogue_7",
+      "name": "Mila Shrine Ruins",
+      "chapter_id": "paralogue_7",
+      "item_ids": [
+        "heal",
+        "mend",
+        "physic",
+        "rescue",
+        "ward"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "paralogue_8",
+      "name": "Duelling Grounds",
+      "chapter_id": "paralogue_8",
+      "item_ids": [
+        "physic",
+        "elixir",
+        "hp_tonic",
+        "luck_tonic",
+        "master_seal"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "paralogue_9",
+      "name": "Verdant Forest",
+      "chapter_id": "paralogue_9",
+      "item_ids": [
+        "iron_lance",
+        "steel_lance",
+        "silver_lance",
+        "javelin",
+        "killer_lance"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "paralogue_11",
+      "name": "Wyvern Valley",
+      "chapter_id": "paralogue_11",
+      "item_ids": [
+        "iron_axe",
+        "steel_axe",
+        "silver_axe",
+        "hand_axe",
+        "killer_axe"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "paralogue_12",
+      "name": "The Ruins of Time",
+      "chapter_id": "paralogue_12",
+      "item_ids": [
+        "mend",
+        "ward",
+        "concoction",
+        "elixir",
+        "master_seal"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "paralogue_13",
+      "name": "Law's End",
+      "chapter_id": "paralogue_13",
+      "item_ids": [
+        "beaststone",
+        "concoction",
+        "skill_tonic",
+        "speed_tonic",
+        "master_seal"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "paralogue_14",
+      "name": "Desert Oasis",
+      "chapter_id": "paralogue_14",
+      "item_ids": [
+        "elfire",
+        "elthunder",
+        "elwind",
+        "flux",
+        "nosferatu"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "paralogue_15",
+      "name": "Kidnapper's Keep",
+      "chapter_id": "paralogue_15",
+      "item_ids": [
+        "iron_bow",
+        "steel_bow",
+        "silver_bow",
+        "killer_bow"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "paralogue_16",
+      "name": "Manor of Lost Souls",
+      "chapter_id": "paralogue_16",
+      "item_ids": [
+        "dragonstone",
+        "concoction",
+        "strength_tonic",
+        "defence_tonic",
+        "second_seal"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "paralogue_17",
+      "name": "Divine Dragon Grounds",
+      "chapter_id": "paralogue_17",
+      "item_ids": [
+        "arcfire",
+        "arcthunder",
+        "arcwind",
+        "nosferatu",
+        "ruin"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "paralogue_18",
+      "name": "Sea-King's Throne",
+      "chapter_id": "paralogue_18",
+      "item_ids": [
+        "silver_axe",
+        "brave_axe",
+        "hammer",
+        "dragonstone_plus",
+        "beaststone_plus"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "paralogue_19",
+      "name": "Conqueror's Whetstone",
+      "chapter_id": "paralogue_19",
+      "item_ids": [
+        "silver_lance",
+        "brave_lance",
+        "beast_killer",
+        "blessed_lance",
+        "thoron"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "paralogue_20",
+      "name": "Mountain Village",
+      "chapter_id": "paralogue_20",
+      "item_ids": [
+        "silver_bow",
+        "brave_bow",
+        "blessed_bow",
+        "rexcalibur",
+        "waste"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "paralogue_21",
+      "name": "Warriors' Tomb",
+      "chapter_id": "paralogue_21",
+      "item_ids": [
+        "silver_sword",
+        "brave_sword",
+        "armourslayer",
+        "wyrmslayer",
+        "bolganone"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "paralogue_22",
+      "name": "Wellspring of Truth",
+      "chapter_id": "paralogue_22",
+      "item_ids": [
+        "physic",
+        "recover",
+        "rescue",
+        "ward",
+        "elixir"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    },
+    {
+      "id": "paralogue_23",
+      "name": "Garden of Giants",
+      "chapter_id": "paralogue_23",
+      "item_ids": [
+        "levin_sword",
+        "noble_rapier",
+        "short_spear",
+        "short_axe",
+        "longbow"
+      ],
+      "source_ids": [
+        "economy"
+      ],
+      "verification": "single_source_transcribed",
+      "limitations": "Buy/sell pricing, discounts and difficulty changes require separate verification."
+    }
+  ]
+}

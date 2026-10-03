@@ -1,0 +1,335 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "glass_sword",
+      "name": "Glass Sword",
+      "renown": 50,
+      "reward_id": "glass_sword",
+      "source_ids": [
+        "economy_2"
+      ],
+      "verification": "single_source_transcribed"
+    },
+    {
+      "id": "second_seal",
+      "name": "Second Seal",
+      "renown": 100,
+      "reward_id": "second_seal",
+      "source_ids": [
+        "economy_2"
+      ],
+      "verification": "single_source_transcribed"
+    },
+    {
+      "id": "orsins_hatchet",
+      "name": "Orsin's Hatchet",
+      "renown": 150,
+      "reward_id": "orsins_hatchet",
+      "source_ids": [
+        "economy_2"
+      ],
+      "verification": "single_source_transcribed"
+    },
+    {
+      "id": "seed_of_trust",
+      "name": "Seed of Trust",
+      "renown": 210,
+      "reward_id": "seed_of_trust",
+      "source_ids": [
+        "economy_2"
+      ],
+      "verification": "single_source_transcribed"
+    },
+    {
+      "id": "levin_sword",
+      "name": "Levin Sword",
+      "renown": 270,
+      "reward_id": "levin_sword",
+      "source_ids": [
+        "economy_2"
+      ],
+      "verification": "single_source_transcribed"
+    },
+    {
+      "id": "energy_drop",
+      "name": "Energy Drop",
+      "renown": 330,
+      "reward_id": "energy_drop",
+      "source_ids": [
+        "economy_2"
+      ],
+      "verification": "single_source_transcribed"
+    },
+    {
+      "id": "beast_killer",
+      "name": "Beast Killer",
+      "renown": 400,
+      "reward_id": "beast_killer",
+      "source_ids": [
+        "economy_2"
+      ],
+      "verification": "single_source_transcribed"
+    },
+    {
+      "id": "spirit_dust",
+      "name": "Spirit Dust",
+      "renown": 470,
+      "reward_id": "spirit_dust",
+      "source_ids": [
+        "economy_2"
+      ],
+      "verification": "single_source_transcribed"
+    },
+    {
+      "id": "celicas_gale",
+      "name": "Celica's Gale",
+      "renown": 550,
+      "reward_id": "celicas_gale",
+      "source_ids": [
+        "economy_2"
+      ],
+      "verification": "single_source_transcribed"
+    },
+    {
+      "id": "secret_book",
+      "name": "Secret Book",
+      "renown": 630,
+      "reward_id": "secret_book",
+      "source_ids": [
+        "economy_2"
+      ],
+      "verification": "single_source_transcribed"
+    },
+    {
+      "id": "longbow",
+      "name": "Longbow",
+      "renown": 720,
+      "reward_id": "longbow",
+      "source_ids": [
+        "economy_2"
+      ],
+      "verification": "single_source_transcribed"
+    },
+    {
+      "id": "ephraims_lance",
+      "name": "Ephraim's Lance",
+      "renown": 810,
+      "reward_id": "ephraims_lance",
+      "source_ids": [
+        "economy_2"
+      ],
+      "verification": "single_source_transcribed"
+    },
+    {
+      "id": "goddess_icon",
+      "name": "Goddess Icon",
+      "renown": 900,
+      "reward_id": "goddess_icon",
+      "source_ids": [
+        "economy_2"
+      ],
+      "verification": "single_source_transcribed"
+    },
+    {
+      "id": "bullion_l",
+      "name": "Bullion (L)",
+      "renown": 1000,
+      "reward_id": "bullion_l",
+      "source_ids": [
+        "economy_2"
+      ],
+      "verification": "single_source_transcribed"
+    },
+    {
+      "id": "speedwing",
+      "name": "Speedwing",
+      "renown": 1200,
+      "reward_id": "speedwing",
+      "source_ids": [
+        "economy_2"
+      ],
+      "verification": "single_source_transcribed"
+    },
+    {
+      "id": "leifs_blade",
+      "name": "Leif's Blade",
+      "renown": 1500,
+      "reward_id": "leifs_blade",
+      "source_ids": [
+        "economy_2"
+      ],
+      "verification": "single_source_transcribed"
+    },
+    {
+      "id": "bolt_axe",
+      "name": "Bolt Axe",
+      "renown": 1800,
+      "reward_id": "bolt_axe",
+      "source_ids": [
+        "economy_2"
+      ],
+      "verification": "single_source_transcribed"
+    },
+    {
+      "id": "seraph_robe",
+      "name": "Seraph Robe",
+      "renown": 2200,
+      "reward_id": "seraph_robe",
+      "source_ids": [
+        "economy_2"
+      ],
+      "verification": "single_source_transcribed"
+    },
+    {
+      "id": "innes_bow",
+      "name": "Innes' Bow",
+      "renown": 2600,
+      "reward_id": "innes_bow",
+      "source_ids": [
+        "economy_2"
+      ],
+      "verification": "single_source_transcribed"
+    },
+    {
+      "id": "mercurius",
+      "name": "Mercurius",
+      "renown": 3000,
+      "reward_id": "mercurius",
+      "source_ids": [
+        "economy_2"
+      ],
+      "verification": "single_source_transcribed"
+    },
+    {
+      "id": "dracoshield",
+      "name": "Dracoshield",
+      "renown": 3500,
+      "reward_id": "dracoshield",
+      "source_ids": [
+        "economy_2"
+      ],
+      "verification": "single_source_transcribed"
+    },
+    {
+      "id": "noble_rapier",
+      "name": "Noble Rapier",
+      "renown": 4000,
+      "reward_id": "noble_rapier",
+      "source_ids": [
+        "economy_2"
+      ],
+      "verification": "single_source_transcribed"
+    },
+    {
+      "id": "tikis_tears",
+      "name": "Tiki's Tears",
+      "renown": 4500,
+      "reward_id": "tikis_tear",
+      "source_ids": [
+        "economy_2"
+      ],
+      "verification": "single_source_transcribed"
+    },
+    {
+      "id": "parthia",
+      "name": "Parthia",
+      "renown": 5000,
+      "reward_id": "parthia",
+      "source_ids": [
+        "economy_2"
+      ],
+      "verification": "single_source_transcribed"
+    },
+    {
+      "id": "sigurds_lance",
+      "name": "Sigurd's Lance",
+      "renown": 5750,
+      "reward_id": "sigurds_lance",
+      "source_ids": [
+        "economy_2"
+      ],
+      "verification": "single_source_transcribed"
+    },
+    {
+      "id": "talisman",
+      "name": "Talisman",
+      "renown": 6500,
+      "reward_id": "talisman",
+      "source_ids": [
+        "economy_2"
+      ],
+      "verification": "single_source_transcribed"
+    },
+    {
+      "id": "hectors_axe",
+      "name": "Hector's Axe",
+      "renown": 7250,
+      "reward_id": "hectors_axe",
+      "source_ids": [
+        "economy_2"
+      ],
+      "verification": "single_source_transcribed"
+    },
+    {
+      "id": "alms_blade",
+      "name": "Alm's Blade",
+      "renown": 8000,
+      "reward_id": "alms_blade",
+      "source_ids": [
+        "economy_2"
+      ],
+      "verification": "single_source_transcribed"
+    },
+    {
+      "id": "micaiahs_pyre",
+      "name": "Micaiah's Pyre",
+      "renown": 9000,
+      "reward_id": "micaiahs_pyre",
+      "source_ids": [
+        "economy_2"
+      ],
+      "verification": "single_source_transcribed"
+    },
+    {
+      "id": "gradivus",
+      "name": "Gradivus",
+      "renown": 10000,
+      "reward_id": "gradivus",
+      "source_ids": [
+        "economy_2"
+      ],
+      "verification": "single_source_transcribed"
+    },
+    {
+      "id": "nagas_tear",
+      "name": "Naga's Tear",
+      "renown": 30000,
+      "reward_id": "nagas_tear",
+      "source_ids": [
+        "economy_2"
+      ],
+      "verification": "single_source_transcribed"
+    },
+    {
+      "id": "boots",
+      "name": "Boots",
+      "renown": 50000,
+      "reward_id": "boots",
+      "source_ids": [
+        "economy_2"
+      ],
+      "verification": "single_source_transcribed"
+    },
+    {
+      "id": "supreme_emblem",
+      "name": "Supreme Emblem",
+      "renown": 99999,
+      "reward_id": "supreme_emblem",
+      "source_ids": [
+        "economy_2"
+      ],
+      "verification": "single_source_transcribed"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "reinforcements_14_16_0",
+      "name": "Smoldering Resistance | Fire Emblem Wiki | Fandom",
+      "candidate_lines": [
+        "### Hard Mode[]",
+        "All enemies spawn at the beginning of the enemy turn.",
+        "* Turn 4 (from the bottom of the map)",
+        "* 1 Sniper L3 w/ Longbow",
+        "* From the South-East",
+        "* 2 Warriors L3 w/ Silver Axe, Silver Bow (one of these can have Counter!)",
+        "* 1 Fighters L20 w/ Silver Axe",
+        "* 1 Fighters L20 w/ Tomahawk, Concoction*",
+        "* 1 Sniper L3 w/ Longbow",
+        "* Turn 5",
+        "* 2 Falcon Knights L3 w/ Silver Lance (from the West)",
+        "* 1 Falcon Knights L3 w/ Silver Lance (from the East)",
+        "* 1 Falcon Knights L3 w/ Spear (from the East)",
+        "* 1 Falcon Knights L3 w/ Spear (from the South-West)",
+        "* 1 Falcon Knights L3 w/ Spear (from the South-East)",
+        "* Turn 6 (from the South-East and the South-West)",
+        "* 6 Bow Knights L3 w/ Silver Sword, Silver Bow",
+        "All remaining enemies (except the 5 closest to the boss) will charge you once the last reinforcements have spawned"
+      ],
+      "source_ids": [
+        "reinforcements_14_16_0"
+      ],
+      "verification": "unreviewed_search_excerpt",
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "reinforcements_14_16_1",
+      "name": "Irreconcilable Paths | Fire Emblem Wiki | Fandom",
+      "candidate_lines": [
+        "### Normal Mode[]",
+        "* Various units appear from the graves on turns 4-6.",
+        "* 3 random units appear from the central-south road on turn 7.",
+        "* 3 random units appear from the northwest road on turn 8.",
+        "### Lunatic Mode[]",
+        "* Various(10) units appear from the graves on turns 3-5.",
+        "* 3 random units appear from both the Nort-West and South-East on turn 4."
+      ],
+      "source_ids": [
+        "reinforcements_14_16_1"
+      ],
+      "verification": "unreviewed_search_excerpt",
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "reinforcements_14_16_2",
+      "name": "Incursion | Fire Emblem Wiki | Fandom",
+      "candidate_lines": [
+        "### Hard/Lunatic mode[]",
+        "All enemies spawn at the beginning of the enemy turn.",
+        "* Turn 5 (from the west)",
+        "* 3 Wyvern Riders L7 w/ Steel Axe"
+      ],
+      "source_ids": [
+        "reinforcements_14_16_2"
+      ],
+      "verification": "unreviewed_search_excerpt",
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "reinforcements_17_19_0",
+      "name": "Irreconcilable Paths | Fire Emblem Wiki | Fandom",
+      "candidate_lines": [
+        "### Normal Mode[]",
+        "* Various units appear from the graves on turns 4-6.",
+        "* 3 random units appear from the central-south road on turn 7.",
+        "* 3 random units appear from the northwest road on turn 8.",
+        "### Lunatic Mode[]",
+        "* Various(10) units appear from the graves on turns 3-5.",
+        "* 3 random units appear from both the Nort-West and South-East on turn 4."
+      ],
+      "source_ids": [
+        "reinforcements_17_19_0"
+      ],
+      "verification": "unreviewed_search_excerpt",
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "reinforcements_17_19_1",
+      "name": "Incursion | Fire Emblem Wiki | Fandom",
+      "candidate_lines": [
+        "### Hard/Lunatic mode[]",
+        "All enemies spawn at the beginning of the enemy turn.",
+        "* Turn 5 (from the west)",
+        "* 3 Wyvern Riders L7 w/ Steel Axe"
+      ],
+      "source_ids": [
+        "reinforcements_17_19_1"
+      ],
+      "verification": "unreviewed_search_excerpt",
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "reinforcements_20_22_0",
+      "name": "The Sword or the Knee | Fire Emblem Wiki | Fandom",
+      "candidate_lines": [
+        "### Hard Mode[]",
+        "All enemies spawn at the beginning of the enemy turn.",
+        "* Turn 6",
+        "* (from the south-west)",
+        "* General L8 w/ Spear",
+        "* Warrior L8 w/ Tomahawk",
+        "* General L8 w/ Silver Lance",
+        "* Warrior L8 w/ Silver Axe, Silver Bow",
+        "* (from the south)",
+        "* General L8 w/ Silver Axe",
+        "* General L8 w/ Silver Lance",
+        "* Sage L8 w/ Bolganone",
+        "* Hero L8 w/ Silver Sword",
+        "* Sage L8 w/ Thoron",
+        "* (from the south-east)",
+        "* Sage L8 w/ Rexcalibur",
+        "* General L8 w/ Silver Lance",
+        "* Sage L8 w/ Bolganone",
+        "* General L8 w/ Tomahawk",
+        "### Lunatic Mode[]",
+        "All enemies spawn at the beginning of the enemy turn.",
+        "* Turn 4",
+        "* (from the south-west)",
+        "* General L8 w/ Spear"
+      ],
+      "source_ids": [
+        "reinforcements_20_22_0"
+      ],
+      "verification": "unreviewed_search_excerpt",
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "reinforcements_20_22_1",
+      "name": "An Ill Presage | Fire Emblem Wiki | Fandom",
+      "candidate_lines": [
+        "### Normal Mode[]",
+        "* Various units appear from the graves on turns 4-6.",
+        "* 3 random units appear from the central-south road on turn 7.",
+        "* 3 random units appear from the northwest road on turn 8.",
+        "### Lunatic Mode[]",
+        "* Various(10) units appear from the graves on turns 3-5.",
+        "* 3 random units appear from both the Nort-West and South-East on turn 4."
+      ],
+      "source_ids": [
+        "reinforcements_20_22_1"
+      ],
+      "verification": "unreviewed_search_excerpt",
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "reinforcements_early_0",
+      "name": "The Exalt and the King | Fire Emblem Wiki | Fandom",
+      "candidate_lines": [
+        "### Hard & Lunatic Mode[]",
+        "All enemies spawn at the beginning of the enemy turn.",
+        "* Turn 3:",
+        "* Barbarian L5 w/ Steel Axe (from south-western fort)",
+        "* Barbarian L5 w/ Short Axe,Hand Axe (from western fort)",
+        "* Myrmidon L5 w/ Steel Sword (from northern-central fort)",
+        "* Turn 4 (from north-west forts)",
+        "* Wyvern Rider L7 w/ Steel Axe",
+        "* Wyvern Rider L7 w/ Steel Axe",
+        "* Turn 5",
+        "* Dark Mage L5 w/ Nosferatu (from south-western fort)",
+        "* Myrmidon L5 w/ Steel Sword (from western fort)",
+        "* Barbarian L5 w/ Steel Axe (from northern-central fort)",
+        "* Wyvern Rider L7 w/ Steel Axe (from north-eastern fort)",
+        "* Wyvern Rider L7 w/ Steel Axe (from north-western fort)"
+      ],
+      "source_ids": [
+        "reinforcements_early_0"
+      ],
+      "verification": "unreviewed_search_excerpt",
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "reinforcements_early_1",
+      "name": "Incursion | Fire Emblem Wiki | Fandom",
+      "candidate_lines": [
+        "### Hard/Lunatic mode[]",
+        "All enemies spawn at the beginning of the enemy turn.",
+        "* Turn 5 (from the west)",
+        "* 3 Wyvern Riders L7 w/ Steel Axe"
+      ],
+      "source_ids": [
+        "reinforcements_early_1"
+      ],
+      "verification": "unreviewed_search_excerpt",
+      "safe_for_tactical_certainty": false
+    },
+    {
+      "id": "reinforcements_mid_0",
+      "name": "Renewal (Chapter) | Fire Emblem Wiki | Fandom",
+      "candidate_lines": [
+        "Several Wyvern Riders appear from the forts on the right on turn 5. Two more then appear from the forts on the left.",
+        "### Hard mode[]",
+        "All enemies spawn at the beginning of the enemy turn.",
+        "* Turn 6 (from the western forts):",
+        "* 1 Wyvern Rider L13 w/ Steel Axe",
+        "* 1 Wyvern Rider L13 w/ Hand Axe"
+      ],
+      "source_ids": [
+        "reinforcements_mid_0"
+      ],
+      "verification": "unreviewed_search_excerpt",
+      "safe_for_tactical_certainty": false
+    }
+  ]
+}

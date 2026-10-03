@@ -1,0 +1,276 @@
+[
+  {
+    "id": "survey_04_0",
+    "name": "Chapter 6 Foreseer - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-6-foreseer/",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Validar",
+            "Sorcerer",
+            "1",
+            "Elfire, Heal"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Gaius",
+            "Thief",
+            "5",
+            "Enemy: Talk with Chrom"
+          ],
+          [
+            "Panne",
+            "Taguel",
+            "6",
+            "From Turn 2"
+          ]
+        ]
+      },
+      {
+        "section": "Boss\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Orton",
+            "Wyvern Rider",
+            "9",
+            "Short Axe, Bullion (M)"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Lon\u2019qu",
+            "Myrmidon",
+            "4",
+            "End of Chapter 4"
+          ],
+          [
+            "Ricken",
+            "Mage",
+            "3",
+            "Automatically"
+          ],
+          [
+            "Maribelle",
+            "Troubadour",
+            "3",
+            "Automatically"
+          ]
+        ]
+      },
+      {
+        "section": "Boss\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Validar",
+            "Sorcerer",
+            "1",
+            "Elfire, Heal"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Gaius",
+            "Thief",
+            "5",
+            "Enemy: Talk with Chrom"
+          ],
+          [
+            "Panne",
+            "Taguel",
+            "6",
+            "From Turn 2"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Chapter 6:",
+        "text": "Condition: Defend Emmeryn; Defeat Boss"
+      },
+      {
+        "section": "Note: Chapter 6:",
+        "text": "Condition: Defend Emmeryn; Defeat Boss"
+      }
+    ],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_04_1",
+    "name": "Chapter 3 Warrior Realm - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-3-warrior-realm",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Raimi",
+            "Knight",
+            "5",
+            "Javelin"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Sumia",
+            "Pegasus Knight",
+            "1",
+            "Automatically"
+          ],
+          [
+            "Kellam",
+            "Knight",
+            "5",
+            "NPC: Talk with Chrom"
+          ]
+        ]
+      },
+      {
+        "section": "Boss\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Marth",
+            "Lord",
+            "8",
+            "Parallel Falchion"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Chapter 3:",
+        "text": "Condition: Defeat Boss"
+      }
+    ],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_04_2",
+    "name": "Chapter 7 Incursion - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-7-incursion",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Vasto",
+            "Wyvern Rider",
+            "12",
+            "Steel Axe"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Cordelia",
+            "Pegasus Knight",
+            "7",
+            "From Turn 3"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_04_3",
+    "name": "Chapter 4: Two Falchions (Script) - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Chapter_4%3A_Two_Falchions_%28Script%29",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  }
+]

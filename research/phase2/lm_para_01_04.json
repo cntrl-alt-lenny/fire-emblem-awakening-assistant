@@ -1,0 +1,42 @@
+[
+  {
+    "id": "lm_para_01_04_0",
+    "name": "Access failure",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_LM_Enemy_Data:_Paralogue_1",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "unavailable"
+  },
+  {
+    "id": "lm_para_01_04_1",
+    "name": "Access failure",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_LM_Enemy_Data:_Paralogue_2",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "unavailable"
+  },
+  {
+    "id": "lm_para_01_04_2",
+    "name": "Access failure",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_LM_Enemy_Data:_Paralogue_3",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "unavailable"
+  },
+  {
+    "id": "lm_para_01_04_3",
+    "name": "Access failure",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_LM_Enemy_Data:_Paralogue_4",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "unavailable"
+  }
+]

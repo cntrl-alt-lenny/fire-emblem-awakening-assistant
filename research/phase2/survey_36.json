@@ -1,0 +1,301 @@
+[
+  {
+    "id": "survey_36_0",
+    "name": "Ambivalence - Fire Emblem Wiki",
+    "url": "https://fireemblemwiki.org/wiki/Ambivalence",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_36_1",
+    "name": "Sidequest 12 Disowned by Time - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-12-disowned-by-time",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Risen Chief",
+            "Griffon Rider",
+            "10",
+            "Tomahawk, Goddess Icon"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Morgan",
+            "See note below",
+            "10",
+            "NPC: Talk with Chrom or Avatar"
+          ]
+        ]
+      },
+      {
+        "section": "Boss\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Nelson",
+            "Sage",
+            "13",
+            "Thoron, Talisman"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Severa",
+            "Mercenary",
+            "10",
+            "NPC: Let her talk to Holland"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Sidequest 12:",
+        "text": "Condition: Defeat Boss"
+      }
+    ],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_36_2",
+    "name": "Paralogue 12: Disowned by Time (Script) - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Paralogue_12%3A_Disowned_by_Time_%28Script%29",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_36_3",
+    "name": "Sidequest 11 Twin Wyverns - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-11-twin-wyverns",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Morristan",
+            "Berserker",
+            "15",
+            "Tomahawk, Bullion (M)"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Gerome",
+            "Wyvern Rider",
+            "10",
+            "NPC: Talk with Chrom or Cherche"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_36_4",
+    "name": "Sidequest 9 Wings of Justice - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-9-wings-of-justice",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Ruger",
+            "Trickster",
+            "12",
+            "Levin Sword, Bullion (L)"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Cynthia",
+            "Pegasus Knight",
+            "10",
+            "Enemy: Talk with Chrom or Sumia"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_36_5",
+    "name": "Awakening Enemy Data - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_Enemy_Data",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_36_6",
+    "name": "Sidequest 9 Wings of Justice - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://earth.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-9-wings-of-justice",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Ruger",
+            "Trickster",
+            "12",
+            "Levin Sword, Bullion (L)"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Cynthia",
+            "Pegasus Knight",
+            "10",
+            "Enemy: Talk with Chrom or Sumia"
+          ]
+        ]
+      },
+      {
+        "section": "Boss\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Gyral (Stonewall Knights)",
+            "General",
+            "13",
+            "Tomahawk, Bullion (M)"
+          ],
+          [
+            "Dalen (Riders of Dawn)",
+            "Paladin",
+            "13",
+            "Spear, Bullion (M)"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Yarne",
+            "Taguel",
+            "10",
+            "NPC or enemy: Talk with Chrom or Panne"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_36_7",
+    "name": "Paralogue 12: Disowned by Time (Script) - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php?title=Paralogue_12%3A_Disowned_by_Time_%28Script%29",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  }
+]

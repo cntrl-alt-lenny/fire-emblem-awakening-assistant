@@ -1,0 +1,262 @@
+[
+  {
+    "id": "guide_44_0",
+    "name": "Sidequest 17 The Threat of Silence - Sidequests 14 to 23 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-14-to-23/sidequest-17-the-threat-of-silence",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "timing_label": null,
+        "map_heading": "Sidequest 17 The Threat of Silence",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Risen Chief",
+            "Griffon Rider",
+            "12",
+            "Tomahawk, Hammerne"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "timing_label": null,
+        "map_heading": "Sidequest 17 The Threat of Silence",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Tiki",
+            "Manakete",
+            "20",
+            "End of chapter"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Sidequest 17:",
+        "map_heading": "Sidequest 17 The Threat of Silence",
+        "text": "Location: Divine Dragon\u2019s Ground"
+      },
+      {
+        "section": "Note: Sidequest 17:",
+        "map_heading": "Sidequest 17 The Threat of Silence",
+        "text": "Condition: Defeat Enemy; Tiki must survive"
+      },
+      {
+        "section": "Note: Sidequest 17:",
+        "map_heading": "Sidequest 17 The Threat of Silence",
+        "text": "Character Limit: 13 (Including Chrom)"
+      }
+    ],
+    "access_status": "accessed"
+  },
+  {
+    "id": "guide_44_1",
+    "name": "Sidequest 18 The Dead King's Lament - Sidequests 14 to 23 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-14-to-23/sidequest-18-the-dead-kings-lament",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "timing_label": null,
+        "map_heading": "Sidequest 18 The Dead King's Lament",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Zanth",
+            "Berserker",
+            "20",
+            "Tomahawk, Bullion (L)"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "timing_label": null,
+        "map_heading": "Sidequest 18 The Dead King's Lament",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Gangrel",
+            "Trickster",
+            "15",
+            "Enemy: Talk with Chrom 3 times"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Sidequest 18:",
+        "map_heading": "Sidequest 18 The Dead King's Lament",
+        "text": "Location: Sea-King\u2019s Throne"
+      },
+      {
+        "section": "Note: Sidequest 18:",
+        "map_heading": "Sidequest 18 The Dead King's Lament",
+        "text": "Condition: Defeat Boss"
+      },
+      {
+        "section": "Note: Sidequest 18:",
+        "map_heading": "Sidequest 18 The Dead King's Lament",
+        "text": "Character Limit: 15 (Including Chrom)"
+      }
+    ],
+    "access_status": "accessed"
+  },
+  {
+    "id": "guide_44_2",
+    "name": "Sidequest 19 Irreconcilable Paths - Sidequests 14 to 23 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-14-to-23/sidequest-19-irreconcilable-paths",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "timing_label": null,
+        "map_heading": "Sidequest 19 Irreconcilable Paths",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Walhart",
+            "Conqueror",
+            "30",
+            "Wolf Berg, Energy Drop, Dracoshield"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "timing_label": null,
+        "map_heading": "Sidequest 19 Irreconcilable Paths",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Walhart",
+            "Conqueror",
+            "30",
+            "Fight with Chrom, then clear the mission"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Sidequest 19:",
+        "map_heading": "Sidequest 19 Irreconcilable Paths",
+        "text": "Location: Conqueror\u2019s Whetsone"
+      },
+      {
+        "section": "Note: Sidequest 19:",
+        "map_heading": "Sidequest 19 Irreconcilable Paths",
+        "text": "Condition: Defeat Enemy"
+      },
+      {
+        "section": "Note: Sidequest 19:",
+        "map_heading": "Sidequest 19 Irreconcilable Paths",
+        "text": "Character Limit: 15 (Including Chrom)"
+      }
+    ],
+    "access_status": "accessed"
+  },
+  {
+    "id": "guide_44_3",
+    "name": "Sidequest 20 A Hard Miracle - Sidequests 14 to 23 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-14-to-23/sidequest-20-a-hard-miracle",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "timing_label": null,
+        "map_heading": "Sidequest 20 A Hard Miracle",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Ardri",
+            "Sorcerer",
+            "20",
+            "Waste, Mire, Talisman"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "timing_label": null,
+        "map_heading": "Sidequest 20 A Hard Miracle",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Emmeryn",
+            "Sage",
+            "10",
+            "Clear the mission with her alive"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Sidequest 20:",
+        "map_heading": "Sidequest 20 A Hard Miracle",
+        "text": "Location: Mountain Village"
+      },
+      {
+        "section": "Note: Sidequest 20:",
+        "map_heading": "Sidequest 20 A Hard Miracle",
+        "text": "Condition: Defeat Boss"
+      },
+      {
+        "section": "Note: Sidequest 20:",
+        "map_heading": "Sidequest 20 A Hard Miracle",
+        "text": "Character Limit: 15 (Including Chrom)"
+      }
+    ],
+    "access_status": "accessed"
+  }
+]

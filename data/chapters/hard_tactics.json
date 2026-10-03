@@ -1,0 +1,5252 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "prologue_hard_classic",
+      "chapter_id": "prologue",
+      "name": "The Verge of History",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "CONFLICTED",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_00_1",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Rout the enemy",
+        "confidence": "CONFLICTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_00_1"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No pre-battle selectable deployment limit established; automatic arrivals are not a deployment cap."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [
+        {
+          "unit_id": "lissa",
+          "condition": {
+            "value": "Automatically at start",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_00_1"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        },
+        {
+          "unit_id": "frederick",
+          "condition": {
+            "value": "Automatically at start",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_00_1"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        }
+      ],
+      "hazards": [
+        {
+          "value": "Bridge chokepoint; Garrick carries a Hand Axe (range 1–2).",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_00_1",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "interactables": [],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "unknown",
+        "absence": null,
+        "wave_ids": [],
+        "schedule_complete": false,
+        "confidence": "UNKNOWN",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [
+        {
+          "value": {
+            "catalog": "Rout the enemy",
+            "guide": "Boss/defend shorthand differs from catalog",
+            "resolution": null
+          },
+          "confidence": "CONFLICTED",
+          "source_ids": [
+            "chapter_catalog",
+            "p2_guide_00_1"
+          ],
+          "notes": "Require in-game displayed objective; do not advise that killing boss necessarily ends a rout map."
+        }
+      ],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "chapter_1_hard_classic",
+      "chapter_id": "chapter_1",
+      "name": "Unwelcome Change",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "CONFLICTED",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_00_2",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Rout the enemy",
+        "confidence": "CONFLICTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_00_2"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No pre-battle selectable deployment limit established; automatic arrivals are not a deployment cap."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Risen Chief",
+            "class_name": "Fighter",
+            "level": 3,
+            "equipment_text": "Hand Axe",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_00_2"
+        ],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [
+        {
+          "unit_id": "sully",
+          "condition": {
+            "value": "Automatically from Turn 2",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_00_2"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        },
+        {
+          "unit_id": "virion",
+          "condition": {
+            "value": "Automatically from Turn 2",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_00_2"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        }
+      ],
+      "hazards": [
+        {
+          "value": "Sully and Virion arrive on turn 2. Woods/forts affect movement and combat. The guide Hammer paragraph is explicitly Lunatic and is excluded.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_00_2",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "interactables": [],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "unknown",
+        "absence": null,
+        "wave_ids": [],
+        "schedule_complete": false,
+        "confidence": "UNKNOWN",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [
+        {
+          "value": {
+            "catalog": "Rout the enemy",
+            "guide": "Boss/defend shorthand differs from catalog",
+            "resolution": null
+          },
+          "confidence": "CONFLICTED",
+          "source_ids": [
+            "chapter_catalog",
+            "p2_guide_00_2"
+          ],
+          "notes": "Require in-game displayed objective; do not advise that killing boss necessarily ends a rout map."
+        }
+      ],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "chapter_2_hard_classic",
+      "chapter_id": "chapter_2",
+      "name": "Shepherds",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "CONFLICTED",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_00_3",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Rout the enemy",
+        "confidence": "CONFLICTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_00_3"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No pre-battle selectable deployment limit established; automatic arrivals are not a deployment cap."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Risen Chief",
+            "class_name": "Barbarian",
+            "level": 4,
+            "equipment_text": "Hand Axe",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_00_3"
+        ],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [
+        {
+          "unit_id": "vaike",
+          "condition": {
+            "value": "Automatically at start",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_00_3"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        },
+        {
+          "unit_id": "stahl",
+          "condition": {
+            "value": "Automatically at start",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_00_3"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        },
+        {
+          "unit_id": "miriel",
+          "condition": {
+            "value": "Automatically from Turn 2",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_00_3"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        }
+      ],
+      "hazards": [
+        {
+          "value": "Vaike starts without his axe; Miriel arrives from the south on turn 2 carrying it. Northern bridge constrains movement.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_00_3",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "interactables": [],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "unknown",
+        "absence": null,
+        "wave_ids": [],
+        "schedule_complete": false,
+        "confidence": "UNKNOWN",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [
+        {
+          "value": {
+            "catalog": "Rout the enemy",
+            "guide": "Boss/defend shorthand differs from catalog",
+            "resolution": null
+          },
+          "confidence": "CONFLICTED",
+          "source_ids": [
+            "chapter_catalog",
+            "p2_guide_00_3"
+          ],
+          "notes": "Require in-game displayed objective; do not advise that killing boss necessarily ends a rout map."
+        }
+      ],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "chapter_3_hard_classic",
+      "chapter_id": "chapter_3",
+      "name": "Warrior Realm",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_04_0",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Defeat Raimi",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_04_0"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 8,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_04_0",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Raimi",
+            "class_name": "Knight",
+            "level": 5,
+            "equipment_text": "Javelin",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_04_0"
+        ],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [
+        {
+          "unit_id": "sumia",
+          "condition": {
+            "value": "Automatically at start",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_04_0"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        },
+        {
+          "unit_id": "kellam",
+          "condition": {
+            "value": "NPC, talk with Chrom",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_04_0"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        }
+      ],
+      "hazards": [
+        {
+          "value": "A Hammer-bearing Fighter threatens armoured units; enemy bows threaten flying units. Inspect exact enemy inventories before moving Frederick or Sumia.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_04_0",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "interactables": [
+        {
+          "value": "Doors on the left/right routes; obtain Door Keys from enemies. Kellam is an NPC: recruit with Chrom.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_04_0",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "unknown",
+        "absence": null,
+        "wave_ids": [],
+        "schedule_complete": false,
+        "confidence": "UNKNOWN",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "chapter_4_hard_classic",
+      "chapter_id": "chapter_4",
+      "name": "Two Falchions",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_04_1",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Rout the enemy",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_04_1"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 6,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_04_1",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Marth",
+            "class_name": "Lord",
+            "level": 8,
+            "equipment_text": "Parallel Falchion",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_04_1"
+        ],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [
+        {
+          "unit_id": "lon_qu",
+          "condition": {
+            "value": "End of chapter",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_04_1"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        }
+      ],
+      "hazards": [
+        {
+          "value": "Small deployment; boss carries Parallel Falchion. Lon’qu joins at map completion, not at the start of Chapter 5.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_04_1",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "interactables": [],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "unknown",
+        "absence": null,
+        "wave_ids": [],
+        "schedule_complete": false,
+        "confidence": "UNKNOWN",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "chapter_5_hard_classic",
+      "chapter_id": "chapter_5",
+      "name": "The Exalt and the King",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "CONFLICTED",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_04_2",
+        "p2_guide_scope",
+        "reinforcements_early_0",
+        "hr_jp_5"
+      ],
+      "objective": {
+        "value": "Rout the enemy",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_04_2"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 9,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_04_2",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": "Main force south; Ricken/Maribelle isolated north",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_04_2",
+          "p2_guide_scope"
+        ],
+        "notes": "Descriptive area only, not a certified coordinate map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Orton",
+            "class_name": "Wyvern Rider",
+            "level": 9,
+            "equipment_text": "Short Axe, Bullion (M)",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_04_2"
+        ],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [
+        {
+          "unit_id": "ricken",
+          "condition": {
+            "value": "Automatically at start",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_04_2"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        },
+        {
+          "unit_id": "maribelle",
+          "condition": {
+            "value": "Automatically at start",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_04_2"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        }
+      ],
+      "hazards": [
+        {
+          "value": "Ricken and Maribelle start isolated in the north. Wyverns cross cliffs and can threaten units beyond ground chokepoints.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_04_2",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [
+        {
+          "value": "Hard-labelled JP report: two initial Wyverns advance on turn 1; remaining Wyverns/boss respond to attack range. Exact activation tiles unknown.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "hr_jp_5"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "present",
+        "absence": null,
+        "wave_ids": [
+          "hard_chapter_5_disputed_schedule"
+        ],
+        "schedule_complete": false,
+        "confidence": "CONFLICTED",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [
+        {
+          "value": {
+            "western_report": "T3 foot units; T4 two Wyverns northwest; T5 mixed group",
+            "japanese_hard_observation": "T3 two Wyverns plus Barbarian and Myrmidon, central-left; tentative T5 foot units",
+            "resolution": null
+          },
+          "confidence": "CONFLICTED",
+          "source_ids": [
+            "reinforcements_early_0",
+            "hr_jp_5"
+          ],
+          "notes": "Possible region, phase convention or guide error not established. Within western page table/prose also differ on a Dark Mage versus second Barbarian."
+        }
+      ],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "chapter_6_hard_classic",
+      "chapter_id": "chapter_6",
+      "name": "Foreseer",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "CONFLICTED",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_04_3",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Rout the enemy",
+        "confidence": "CONFLICTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_04_3"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 10,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_04_3",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Validar",
+            "class_name": "Sorcerer",
+            "level": 1,
+            "equipment_text": "Elfire, Heal",
+            "equipment_stats": "UNKNOWN"
+          },
+          {
+            "name": "Orton",
+            "class_name": "Wyvern Rider",
+            "level": 9,
+            "equipment_text": "Short Axe, Bullion (M)",
+            "equipment_stats": "UNKNOWN"
+          },
+          {
+            "name": "Validar",
+            "class_name": "Sorcerer",
+            "level": 1,
+            "equipment_text": "Elfire, Heal",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_04_3"
+        ],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [
+        {
+          "unit_id": "panne",
+          "condition": {
+            "value": "Automatically from Turn 2",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_04_3"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        },
+        {
+          "unit_id": "gaius",
+          "condition": {
+            "value": "Enemy, talk with Chrom",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_04_3"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        }
+      ],
+      "hazards": [
+        {
+          "value": "Emmeryn must survive. Gaius is initially hostile: talk with Chrom rather than killing him. Panne arrives on turn 2.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_04_3",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [
+        {
+          "value": "Validar eventually advances; exact activation turn/condition unresolved. Three approaches threaten Emmeryn.",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "p2_guide_04_3",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "unknown",
+        "absence": null,
+        "wave_ids": [],
+        "schedule_complete": false,
+        "confidence": "UNKNOWN",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [
+        {
+          "value": {
+            "catalog": "Rout the enemy",
+            "guide": "Boss/defend shorthand differs from catalog",
+            "resolution": null
+          },
+          "confidence": "CONFLICTED",
+          "source_ids": [
+            "chapter_catalog",
+            "p2_guide_04_3"
+          ],
+          "notes": "Require in-game displayed objective; do not advise that killing boss necessarily ends a rout map."
+        }
+      ],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "chapter_7_hard_classic",
+      "chapter_id": "chapter_7",
+      "name": "Incursion",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_08_0",
+        "p2_guide_scope",
+        "reinforcements_early_1"
+      ],
+      "objective": {
+        "value": "Rout the enemy",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_08_0"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 11,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_08_0",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Vasto",
+            "class_name": "Wyvern Rider",
+            "level": 12,
+            "equipment_text": "Steel Axe",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_08_0"
+        ],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [
+        {
+          "unit_id": "cordelia",
+          "condition": {
+            "value": "Automatically from Turn 3",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_08_0"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        }
+      ],
+      "hazards": [
+        {
+          "value": "Flying enemies cross mountain/cliff barriers. Cordelia arrives from the west on turn 3.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_08_0",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "interactables": [],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "present",
+        "absence": null,
+        "wave_ids": [
+          "hard_chapter_7_t5"
+        ],
+        "schedule_complete": false,
+        "confidence": "PARTIAL",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "chapter_8_hard_classic",
+      "chapter_id": "chapter_8",
+      "name": "The Grimleal",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_08_1",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Rout the enemy",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_08_1"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 10,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_08_1",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": "Main force north; Gregor/Nowi isolated south",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_08_1",
+          "p2_guide_scope"
+        ],
+        "notes": "Descriptive area only, not a certified coordinate map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Chalard",
+            "class_name": "Dark Mage",
+            "level": 12,
+            "equipment_text": "Nosferatu, Energy Drop",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_08_1"
+        ],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [
+        {
+          "unit_id": "gregor",
+          "condition": {
+            "value": "Automatically at start",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_08_1"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        },
+        {
+          "unit_id": "nowi",
+          "condition": {
+            "value": "Automatically at start",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_08_1"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        }
+      ],
+      "hazards": [
+        {
+          "value": "Gregor and Nowi start isolated south; desert movement can prevent timely rescue.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_08_1",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        },
+        {
+          "value": "Guide tentatively suggests villages are not attacked on Hard; do not rely on that tentative claim.",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "p2_guide_08_1",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "interactables": [
+        {
+          "value": "Three villages: west Master Seal, southeast Second Seal, northeast Rescue. Full tile coordinates unknown.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_08_1",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "unknown",
+        "absence": null,
+        "wave_ids": [],
+        "schedule_complete": false,
+        "confidence": "UNKNOWN",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "chapter_9_hard_classic",
+      "chapter_id": "chapter_9",
+      "name": "Emmeryn",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "CONFLICTED",
+      "source_ids": [
+        "chapter_catalog",
+        "hr_gg_chapter_9",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Rout the enemy",
+        "confidence": "CONFLICTED",
+        "source_ids": [
+          "chapter_catalog",
+          "hr_gg_chapter_9"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 12,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "hr_gg_chapter_9",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Campari",
+            "class_name": "General",
+            "level": 1,
+            "equipment_text": "Short Spear, Dracoshield",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "hr_gg_chapter_9",
+          "p2_guide_scope"
+        ],
+        "notes": "Guide Hard-default boss table; displayed stats/skills and enemy forges remain unknown."
+      },
+      "recruitments": [
+        {
+          "unit_id": "libra",
+          "condition": {
+            "value": "NPC, talk with Chrom",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "hr_gg_chapter_9"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        },
+        {
+          "unit_id": "tharja",
+          "condition": {
+            "value": "Enemy, talk with Chrom",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "hr_gg_chapter_9"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        }
+      ],
+      "hazards": [
+        {
+          "value": "Recruit NPC Libra and enemy Tharja using Chrom. Desert movement and arriving enemies behind the starting area threaten slow units.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "hr_gg_chapter_9",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "interactables": [],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "present",
+        "absence": null,
+        "wave_ids": [
+          "hard_chapter_9_rear_arrival"
+        ],
+        "schedule_complete": false,
+        "confidence": "PARTIAL",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [
+        {
+          "value": {
+            "catalog": "Rout the enemy",
+            "guide": "Boss/defend shorthand differs from catalog",
+            "resolution": null
+          },
+          "confidence": "CONFLICTED",
+          "source_ids": [
+            "chapter_catalog",
+            "hr_gg_chapter_9"
+          ],
+          "notes": "Require in-game displayed objective; do not advise that killing boss necessarily ends a rout map."
+        }
+      ],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "chapter_10_hard_classic",
+      "chapter_id": "chapter_10",
+      "name": "Renewal",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "hr_gg_chapter_10",
+        "p2_guide_scope",
+        "reinforcements_mid_0"
+      ],
+      "objective": {
+        "value": "Defeat Mustafa",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "hr_gg_chapter_10"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "hr_gg_chapter_10",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Mustafa",
+            "class_name": "Berserker",
+            "level": 1,
+            "equipment_text": "Short Axe, Beaststone",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "hr_gg_chapter_10",
+          "p2_guide_scope"
+        ],
+        "notes": "Guide Hard-default boss table; displayed stats/skills and enemy forges remain unknown."
+      },
+      "recruitments": [],
+      "hazards": [
+        {
+          "value": "Thieves carrying valuable loot escape northwest; reaching them can expose a unit to fort-spawned Wyverns.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "hr_gg_chapter_10",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "interactables": [],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "present",
+        "absence": null,
+        "wave_ids": [
+          "hard_chapter_10_t6"
+        ],
+        "schedule_complete": false,
+        "confidence": "PARTIAL",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "chapter_11_hard_classic",
+      "chapter_id": "chapter_11",
+      "name": "Mad King Gangrel",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_12_0",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Rout the enemy",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_12_0"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_12_0",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Gangrel",
+            "class_name": "Trickster",
+            "level": 5,
+            "equipment_text": "Levin Sword, Dragonstone",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_12_0"
+        ],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [
+        {
+          "unit_id": "olivia",
+          "condition": {
+            "value": "Automatically at start",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_12_0"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        }
+      ],
+      "hazards": [],
+      "activation": [
+        {
+          "value": "Gangrel may advance on turn 4 or when approached; trigger boundary unknown.",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "p2_guide_12_0",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [
+        {
+          "value": "Chests contain Bullion and Goddess Icon; thieves threaten chest loot.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_12_0",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "present",
+        "absence": null,
+        "wave_ids": [
+          "hard_chapter_11_t3_forts",
+          "hard_chapter_11_t4_nw"
+        ],
+        "schedule_complete": false,
+        "confidence": "PARTIAL",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "chapter_12_hard_classic",
+      "chapter_id": "chapter_12",
+      "name": "The Seacomers",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_12_1",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Rout the enemy",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_12_1"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 12,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_12_1",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Dalton",
+            "class_name": "Paladin",
+            "level": 5,
+            "equipment_text": "Short Spear, Bullion (L)",
+            "equipment_stats": "UNKNOWN"
+          },
+          {
+            "name": "Dalton",
+            "class_name": "Paladin",
+            "level": 5,
+            "equipment_text": "Short Spear, Bullion (L)",
+            "equipment_stats": "UNKNOWN"
+          },
+          {
+            "name": "Farber",
+            "class_name": "Dark Knight",
+            "level": 8,
+            "equipment_text": "Arcfire, Master Seal",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_12_1"
+        ],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [
+        {
+          "unit_id": "cherche",
+          "condition": {
+            "value": "Automatically at start",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_12_1"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        }
+      ],
+      "hazards": [
+        {
+          "value": "Cherche joins automatically. Numerous mounted and armoured enemies; inspect effective weapons and counter ranges.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_12_1",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "interactables": [],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "unknown",
+        "absence": null,
+        "wave_ids": [],
+        "schedule_complete": false,
+        "confidence": "UNKNOWN",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "chapter_13_hard_classic",
+      "chapter_id": "chapter_13",
+      "name": "Of Sacred Blood",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_12_2",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Defeat the Risen Chief",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_12_2"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 12,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_12_2",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Risen Chief",
+            "class_name": "Warrior",
+            "level": 6,
+            "equipment_text": "Short Axe, Secret Book",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_12_2"
+        ],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [
+        {
+          "unit_id": "henry",
+          "condition": {
+            "value": "Automatically at start",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_12_2"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        },
+        {
+          "unit_id": "lucina",
+          "condition": {
+            "value": "End of chapter",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_12_2"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        }
+      ],
+      "hazards": [
+        {
+          "value": "Longbow enemies on raised terrain can attack at range 3; flying units remain vulnerable. Lucina joins after completion.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_12_2",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "interactables": [],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "present",
+        "absence": null,
+        "wave_ids": [
+          "hard_chapter_13_forts"
+        ],
+        "schedule_complete": false,
+        "confidence": "PARTIAL",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "chapter_14_hard_classic",
+      "chapter_id": "chapter_14",
+      "name": "Flames on the Blue",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_12_3",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Defeat Ignatius",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_12_3"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_12_3",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Ignatius",
+            "class_name": "General",
+            "level": 7,
+            "equipment_text": "Spear, Master Seal",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_12_3"
+        ],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [],
+      "hazards": [
+        {
+          "value": "Four main chokepoints connect ships; incoming Pegasus enemies bypass ground chokepoints.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_12_3",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "interactables": [
+        {
+          "value": "Ship chests; exact contents/coordinates not certified in this Hard pass.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_12_3",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "present",
+        "absence": null,
+        "wave_ids": [
+          "hard_chapter_14_fliers"
+        ],
+        "schedule_complete": false,
+        "confidence": "PARTIAL",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "chapter_15_hard_classic",
+      "chapter_id": "chapter_15",
+      "name": "Smoldering Resistance",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_16_0",
+        "p2_guide_scope",
+        "hr_jp_15"
+      ],
+      "objective": {
+        "value": "Rout the enemy",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "hr_jp_15"
+        ],
+        "notes": "Rout. Guide boss-only objective rejected against two chapter references; false reinforcement rows quarantined separately."
+      },
+      "deployment": {
+        "value": 12,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_16_0",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Farber",
+            "class_name": "Dark Knight",
+            "level": 8,
+            "equipment_text": "Arcfire, Master Seal",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_16_0"
+        ],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [
+        {
+          "unit_id": "say_ri",
+          "condition": {
+            "value": "NPC, talk with Chrom",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_16_0"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        }
+      ],
+      "hazards": [
+        {
+          "value": "Say’ri is an unarmed NPC under immediate pressure; talk with Chrom and provide a weapon/healing. Beach movement slows non-fliers.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_16_0",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [
+        {
+          "value": "Enemies on the beach move toward player forces; the old post-reinforcement group activation claim is quarantined.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_16_0",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "none_supported",
+        "absence": {
+          "value": true,
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "hr_jp_15"
+          ],
+          "notes": "Explicit Hard-labelled original comment, 2012-04-30, reports no reinforcements. Japanese-release observation; not game-script proof. False old waves belong to Chapter 16 Lunatic, not contradictory Hard evidence."
+        },
+        "wave_ids": [],
+        "schedule_complete": false,
+        "confidence": "SUPPORTED",
+        "notes": "Explicit absence is one-source support, not certified game-script proof."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries"
+      ]
+    },
+    {
+      "id": "chapter_16_hard_classic",
+      "chapter_id": "chapter_16",
+      "name": "Naga's Voice",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_16_1",
+        "p2_guide_scope",
+        "hr_fandom16"
+      ],
+      "objective": {
+        "value": "Defeat Cervantes",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_16_1"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 14,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_16_1",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": "Southern/bottom approach to the Mila Tree",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_16_1",
+          "p2_guide_scope"
+        ],
+        "notes": "Descriptive area only, not a certified coordinate map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Cervantes",
+            "class_name": "General",
+            "level": 10,
+            "equipment_text": "Tomahawk, Bullion (M)",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_16_1"
+        ],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [],
+      "hazards": [
+        {
+          "value": "Hard-labelled JP 2012-04-26 observation reports a Warrior with Counter; inspect actual skills. Counter is not guaranteed on every Warrior.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "hr_jp_16"
+          ],
+          "notes": null
+        },
+        {
+          "value": "Some arriving Warriors carry bows; Falcon arrivals threaten units on both sides. Do not concentrate safety checks only at the southern edge.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_16_1",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "interactables": [],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "present",
+        "absence": null,
+        "wave_ids": [
+          "hard_chapter_16_t4",
+          "hard_chapter_16_t5",
+          "hard_chapter_16_t6"
+        ],
+        "schedule_complete": false,
+        "confidence": "PARTIAL",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "chapter_17_hard_classic",
+      "chapter_id": "chapter_17",
+      "name": "Inexorable Death",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "CONFLICTED",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_16_2",
+        "p2_guide_scope",
+        "hr_fandom17",
+        "hr_jp_17"
+      ],
+      "objective": {
+        "value": "Defeat Pheros",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_16_2"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 14,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_16_2",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": "Three southern player groups",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_16_2",
+          "p2_guide_scope"
+        ],
+        "notes": "Descriptive area only, not a certified coordinate map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Pheros",
+            "class_name": "Valkyrie",
+            "level": 12,
+            "equipment_text": "Bolganone, Fortify",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_16_2"
+        ],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [],
+      "hazards": [
+        {
+          "value": "Army begins in three southern groups. Multiple staircases spawn enemies; first wave side and exact warning/turn relationship are conflicted.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_16_2",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [
+        {
+          "value": "Explicit Hard JP 2014-09-06 report: entering attack range of enemies in upper six rows activates that group. Exact geometric boundary not certified.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "hr_jp_17"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [
+        {
+          "value": "Northwest chests include Boots and Seraph Robe; thief threatens loot.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_16_2",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "present",
+        "absence": null,
+        "wave_ids": [
+          "hard_chapter_17_first",
+          "hard_chapter_17_second",
+          "hard_chapter_17_central"
+        ],
+        "schedule_complete": false,
+        "confidence": "CONFLICTED",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [
+        {
+          "value": {
+            "guide_and_index": "Eastern stairs first",
+            "hard_jp_2012_04_27": "Left stairs first, approximately three turns after warning",
+            "resolution": null
+          },
+          "confidence": "CONFLICTED",
+          "source_ids": [
+            "p2_guide_16_2",
+            "hr_fandom17",
+            "hr_jp_17"
+          ],
+          "notes": "Do not convert warning to a certified fixed turn or choose only one side to guard."
+        }
+      ],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "chapter_18_hard_classic",
+      "chapter_id": "chapter_18",
+      "name": "Sibling Blades",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_16_3",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Defeat Yen'fay",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_16_3"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_16_3",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Yen’fay",
+            "class_name": "Swordmaster",
+            "level": 15,
+            "equipment_text": "Amatsu, Noble Rapier",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_16_3"
+        ],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [],
+      "hazards": [
+        {
+          "value": "Lava progressively consumes floor tiles; affected movement/damage and exact phase must be checked in game.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_16_3",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "interactables": [
+        {
+          "value": "Guide chest disappearance deadlines: Bullion M turn 7; Energy Drop and Rescue turn 10; Second Seal turn 11. Exact phase unknown: retrieve earlier rather than treating deadline as a safe final action.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_16_3",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "unknown",
+        "absence": null,
+        "wave_ids": [],
+        "schedule_complete": false,
+        "confidence": "UNKNOWN",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "chapter_19_hard_classic",
+      "chapter_id": "chapter_19",
+      "name": "The Conqueror",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_20_0",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Defeat Walhart",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_20_0"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 15,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_20_0",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Walhart",
+            "class_name": "Conqueror",
+            "level": 25,
+            "equipment_text": "Sol",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_20_0"
+        ],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [],
+      "hazards": [
+        {
+          "value": "Walhart can move when approached. Conquest negates armour/beast effective damage; equipped Sol is a sword, not proof of a Sol proc skill.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_20_0",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "interactables": [],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "present",
+        "absence": null,
+        "wave_ids": [
+          "hard_chapter_19_forts"
+        ],
+        "schedule_complete": false,
+        "confidence": "PARTIAL",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "chapter_20_hard_classic",
+      "chapter_id": "chapter_20",
+      "name": "The Sword or the Knee",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "CONFLICTED",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_20_1",
+        "p2_guide_scope",
+        "reinforcements_20_22_0"
+      ],
+      "objective": {
+        "value": "Defeat Walhart",
+        "confidence": "CONFLICTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_20_1"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 15,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_20_1",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Cervantes",
+            "class_name": "General",
+            "level": 10,
+            "equipment_text": "Tomahawk, Dracoshield",
+            "equipment_stats": "UNKNOWN"
+          },
+          {
+            "name": "Excellus",
+            "class_name": "Sage",
+            "level": 10,
+            "equipment_text": "Bolganone",
+            "equipment_stats": "UNKNOWN"
+          },
+          {
+            "name": "Walhart",
+            "class_name": "Conqueror",
+            "level": 25,
+            "equipment_text": "Wolf Berg, Bullion (L)",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_20_1"
+        ],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [],
+      "hazards": [
+        {
+          "value": "Objective wording conflicts: chapter catalog says defeat Walhart; guide says defeat every boss. Verify the displayed objective before attempting a boss rush.",
+          "confidence": "CONFLICTED",
+          "source_ids": [
+            "chapter_catalog",
+            "p2_guide_20_1"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "interactables": [
+        {
+          "value": "Chests require keys/Locktouch; exact Hard chest positions unresolved.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_20_1",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "present",
+        "absence": null,
+        "wave_ids": [
+          "hard_chapter_20_southern_warning"
+        ],
+        "schedule_complete": false,
+        "confidence": "PARTIAL",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [
+        {
+          "value": {
+            "catalog": "Defeat Walhart",
+            "hard_guide": "Defeat every boss",
+            "resolution": null
+          },
+          "confidence": "CONFLICTED",
+          "source_ids": [
+            "chapter_catalog",
+            "p2_guide_20_1"
+          ],
+          "notes": null
+        }
+      ],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "chapter_21_hard_classic",
+      "chapter_id": "chapter_21",
+      "name": "Five Gemstones",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_20_2",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Defeat Algol",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_20_2"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 14,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_20_2",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Algol",
+            "class_name": "Berserker",
+            "level": 15,
+            "equipment_text": "Bolt Axe",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_20_2"
+        ],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [],
+      "hazards": [
+        {
+          "value": "Long-range magic from outer halls can threaten units across walls. Algol has a magical Bolt Axe.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_20_2",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "interactables": [],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "present",
+        "absence": null,
+        "wave_ids": [
+          "hard_chapter_21_outer_stairs",
+          "hard_chapter_21_main_area"
+        ],
+        "schedule_complete": false,
+        "confidence": "PARTIAL",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "chapter_22_hard_classic",
+      "chapter_id": "chapter_22",
+      "name": "An Ill Presage",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_20_3",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Defeat Aversa",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_20_3"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_20_3",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Aversa",
+            "class_name": "Dark Flier",
+            "level": 16,
+            "equipment_text": "Goetia, Goddess Icon",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_20_3"
+        ],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [],
+      "hazards": [
+        {
+          "value": "Thirteen initial enemies including Aversa; Deadlords carry powerful equipment. Exact Hard stats/skills must be observed.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_20_3",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "interactables": [],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "none_supported",
+        "absence": {
+          "value": true,
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_20_3",
+            "p2_guide_scope"
+          ],
+          "notes": "Guide explicitly says no reinforcements; not inferred from an empty table. Single strong specific source; no game-script certification."
+        },
+        "wave_ids": [],
+        "schedule_complete": false,
+        "confidence": "SUPPORTED",
+        "notes": "Explicit absence is one-source support, not certified game-script proof."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries"
+      ]
+    },
+    {
+      "id": "chapter_23_hard_classic",
+      "chapter_id": "chapter_23",
+      "name": "Invisible Ties",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_24_0",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Rout the enemy",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_24_0"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 15,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_24_0",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": "Chrom/Robin separated above barrier from rest of army",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_24_0",
+          "p2_guide_scope"
+        ],
+        "notes": "Descriptive area only, not a certified coordinate map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Validar",
+            "class_name": "Sorcerer",
+            "level": 5,
+            "equipment_text": "Grima’s Truth",
+            "equipment_stats": "UNKNOWN"
+          },
+          {
+            "name": "Validar (Round 2)",
+            "class_name": "Sorcerer",
+            "level": 18,
+            "equipment_text": "Grima’s Truth, Talisman",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_24_0"
+        ],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [
+        {
+          "unit_id": "basilio",
+          "condition": {
+            "value": "Automatically after defeating Validar",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_24_0"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        },
+        {
+          "unit_id": "flavia",
+          "condition": {
+            "value": "Automatically after defeating Validar",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_24_0"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        }
+      ],
+      "hazards": [
+        {
+          "value": "Initially Chrom/Robin isolated above a barrier. First Validar defeat removes barrier and adds Basilio/Flavia; second Validar moves to the eastern area.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_24_0",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "interactables": [],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "present",
+        "absence": null,
+        "wave_ids": [
+          "hard_chapter_23_stairs"
+        ],
+        "schedule_complete": false,
+        "confidence": "PARTIAL",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "chapter_24_hard_classic",
+      "chapter_id": "chapter_24",
+      "name": "Awakening",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_24_1",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Rout the enemy",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_24_1"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 15,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_24_1",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Risen Chief",
+            "class_name": "Great Knight",
+            "level": 18,
+            "equipment_text": "Tomahawk, Bullion (L)",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_24_1"
+        ],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [],
+      "hazards": [
+        {
+          "value": "Woods slow mounted units; flying enemies bypass that ground restriction.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_24_1",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "interactables": [],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "present",
+        "absence": null,
+        "wave_ids": [
+          "hard_chapter_24_fort_sequence"
+        ],
+        "schedule_complete": false,
+        "confidence": "PARTIAL",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "chapter_25_hard_classic",
+      "chapter_id": "chapter_25",
+      "name": "To Slay a God",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_24_2",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Defeat Aversa",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_24_2"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 15,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_24_2",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Aversa",
+            "class_name": "Dark Flier",
+            "level": 20,
+            "equipment_text": "Goetia",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_24_2"
+        ],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [],
+      "hazards": [
+        {
+          "value": "Do not treat all enemy arrivals as fort-bound or assume adjacent peaks prevent flying attacks.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_24_2",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "interactables": [],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "present",
+        "absence": null,
+        "wave_ids": [
+          "hard_chapter_25_multiple_angles"
+        ],
+        "schedule_complete": false,
+        "confidence": "PARTIAL",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "endgame_hard_classic",
+      "chapter_id": "endgame",
+      "name": "Grima",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_24_3",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Defeat Grima",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_24_3"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 16,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_24_3",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [],
+      "hazards": [
+        {
+          "value": "Grima’s Dragonskin/Expiration interaction is outside supported full combat outcomes; do not present a precise survival probability.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_24_3",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "interactables": [],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "present",
+        "absence": null,
+        "wave_ids": [
+          "hard_endgame_continuous"
+        ],
+        "schedule_complete": false,
+        "confidence": "PARTIAL",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "paralogue_1_hard_classic",
+      "chapter_id": "paralogue_1",
+      "name": "Sickle to Sword",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_28_0",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Defeat Roddick",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_28_0"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 8,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_28_0",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Roddick",
+            "class_name": "Barbarian",
+            "level": 7,
+            "equipment_text": "Steel Axe, Hand Axe",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_28_0"
+        ],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [
+        {
+          "unit_id": "donnel",
+          "condition": {
+            "value": "End of chapter if he gained a Level",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_28_0"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        }
+      ],
+      "hazards": [
+        {
+          "value": "Donnel must gain a level and survive completion to join. Thieves threaten chests; enemy bows threaten fliers.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_28_0",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "interactables": [
+        {
+          "value": "Two chests and enemy Chest Keys; exact tiles not certified.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_28_0",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "unknown",
+        "absence": null,
+        "wave_ids": [],
+        "schedule_complete": false,
+        "confidence": "UNKNOWN",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "paralogue_2_hard_classic",
+      "chapter_id": "paralogue_2",
+      "name": "The Secret Seller",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_28_1",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Rout the enemy",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_28_1"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 10,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_28_1",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [],
+      "hazards": [
+        {
+          "value": "Anna here is an NPC, not the later recruitable unit. A Barbarian targets the village; no certified visit deadline.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_28_1",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [
+        {
+          "value": "Southern group activation is related to approaching its range / visiting village, but logical trigger condition is unresolved.",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "p2_guide_28_1",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [
+        {
+          "value": "Village is threatened; guide turn-5/6 estimate is strategy interpretation, not a fixed destruction script.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_28_1",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "unknown",
+        "absence": null,
+        "wave_ids": [],
+        "schedule_complete": false,
+        "confidence": "UNKNOWN",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "paralogue_3_hard_classic",
+      "chapter_id": "paralogue_3",
+      "name": "A Strangled Peace",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_28_2",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Rout the enemy",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_28_2"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 10,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_28_2",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Risen Chief",
+            "class_name": "Soldier",
+            "level": 12,
+            "equipment_text": "Silver Lance",
+            "equipment_stats": "UNKNOWN"
+          },
+          {
+            "name": "Victor",
+            "class_name": "Berserker",
+            "level": 1,
+            "equipment_text": "Short Axe, Goddess Icon",
+            "equipment_stats": "UNKNOWN"
+          },
+          {
+            "name": "Grima",
+            "class_name": "Grima",
+            "level": 30,
+            "equipment_text": "Expiration",
+            "equipment_stats": "UNKNOWN"
+          },
+          {
+            "name": "Gecko",
+            "class_name": "Assassin",
+            "level": 10,
+            "equipment_text": "Silver Sword, Silver Bow, Second Seal",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_28_2"
+        ],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [],
+      "hazards": [
+        {
+          "value": "Villagers flee west/southwest and are threatened by Pegasus Knights. Whether all villagers dying is mission failure rather than lost rewards remains unresolved.",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "p2_guide_28_2",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "interactables": [],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "unknown",
+        "absence": null,
+        "wave_ids": [],
+        "schedule_complete": false,
+        "confidence": "UNKNOWN",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "paralogue_4_hard_classic",
+      "chapter_id": "paralogue_4",
+      "name": "Anna the Merchant",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_28_3",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Rout the enemy",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_28_3"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 12,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_28_3",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": "Southern entry with three interior approaches",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_28_3",
+          "p2_guide_scope"
+        ],
+        "notes": "Descriptive area only, not a certified coordinate map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Vincent",
+            "class_name": "Berserker",
+            "level": 3,
+            "equipment_text": "Short Axe, Spirit Dust",
+            "equipment_stats": "UNKNOWN"
+          },
+          {
+            "name": "Vincent",
+            "class_name": "Berserker",
+            "level": 3,
+            "equipment_text": "Short Axe, Spirit Dust",
+            "equipment_stats": "UNKNOWN"
+          },
+          {
+            "name": "Roddick",
+            "class_name": "Barbarian",
+            "level": 7,
+            "equipment_text": "Steel Axe, Hand Axe",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_28_3"
+        ],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [
+        {
+          "unit_id": "anna",
+          "condition": {
+            "value": "NPC, talk with Chrom",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_28_3"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        }
+      ],
+      "hazards": [],
+      "activation": [],
+      "interactables": [
+        {
+          "value": "Interior doors/chests; thieves flee with loot. Walls constrain fliers too.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_28_3",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "unknown",
+        "absence": null,
+        "wave_ids": [],
+        "schedule_complete": false,
+        "confidence": "UNKNOWN",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "paralogue_5_hard_classic",
+      "chapter_id": "paralogue_5",
+      "name": "Scion of Legend",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "hr_gg_paralogue_5",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Rout the enemy",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "hr_gg_paralogue_5"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "hr_gg_paralogue_5",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Gecko",
+            "class_name": "Assassin",
+            "level": 10,
+            "equipment_text": "Silver Sword, Silver Bow, Second Seal",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "hr_gg_paralogue_5",
+          "p2_guide_scope"
+        ],
+        "notes": "Guide Hard-default boss table; displayed stats/skills and enemy forges remain unknown."
+      },
+      "recruitments": [
+        {
+          "unit_id": "owain",
+          "condition": {
+            "value": "NPC, talk with Chrom or Lissa",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "hr_gg_paralogue_5"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        }
+      ],
+      "hazards": [
+        {
+          "value": "Enemies target NPC Sages; an NPC may die on the first enemy phase. Gecko is described with Vantage and Pass: inspect skill panel before attacking.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "hr_gg_paralogue_5",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "interactables": [
+        {
+          "value": "NPC Sages give items when spoken to. Owain receives Missiletainn from the southeast Sage only if another unit has not already spoken to that Sage.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "hr_gg_paralogue_5",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "unknown",
+        "absence": null,
+        "wave_ids": [],
+        "schedule_complete": false,
+        "confidence": "UNKNOWN",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "paralogue_6_hard_classic",
+      "chapter_id": "paralogue_6",
+      "name": "A Man for Flowers",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_32_1",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Rout the enemy",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_32_1"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_32_1",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [
+        {
+          "unit_id": "inigo",
+          "condition": {
+            "value": "NPC, talk with Chrom or Olivia",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_32_1"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        }
+      ],
+      "hazards": [
+        {
+          "value": "Pass-bearing Assassins can bypass an ordinary body block. Flying threats approach from north/south; the guide does not establish whether all are newly spawned.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_32_1",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        },
+        {
+          "value": "Inigo’s optional five-kill reward is not his recruitment condition.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_32_1",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "interactables": [],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "unknown",
+        "absence": null,
+        "wave_ids": [],
+        "schedule_complete": false,
+        "confidence": "UNKNOWN",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "paralogue_7_hard_classic",
+      "chapter_id": "paralogue_7",
+      "name": "Noble Lineage",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_32_2",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Defeat Xalbador",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_32_2"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_32_2",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Xalbador",
+            "class_name": "Hero",
+            "level": 12,
+            "equipment_text": "Tomahawk, Master Seal",
+            "equipment_stats": "UNKNOWN"
+          },
+          {
+            "name": "Gecko",
+            "class_name": "Assassin",
+            "level": 10,
+            "equipment_text": "Silver Sword, Silver Bow, Second Seal",
+            "equipment_stats": "UNKNOWN"
+          },
+          {
+            "name": "Ruger",
+            "class_name": "Trickster",
+            "level": 12,
+            "equipment_text": "Levin Sword, Bullion (L)",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_32_2"
+        ],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [
+        {
+          "unit_id": "brady",
+          "condition": {
+            "value": "NPC, talk with Chrom or Maribelle",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_32_2"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        }
+      ],
+      "hazards": [
+        {
+          "value": "Longbows can threaten villagers beyond ordinary bow range; boss eventually advances, exact trigger unknown.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_32_2",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "interactables": [],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "unknown",
+        "absence": null,
+        "wave_ids": [],
+        "schedule_complete": false,
+        "confidence": "UNKNOWN",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "paralogue_8_hard_classic",
+      "chapter_id": "paralogue_8",
+      "name": "A Duel Disgraced",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_32_3",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Rout the enemy",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_32_3"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_32_3",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Cassius",
+            "class_name": "Sorcerer",
+            "level": 8,
+            "equipment_text": "Waste, Dracoshield",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_32_3"
+        ],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [
+        {
+          "unit_id": "kjelle",
+          "condition": {
+            "value": "NPC, talk with Chrom or Sully",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_32_3"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        }
+      ],
+      "hazards": [],
+      "activation": [],
+      "interactables": [
+        {
+          "value": "Doors/chests: guide reports only one Door Key and no Chest Keys; bring appropriate key/Locktouch rather than relying on chest drops.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_32_3",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "present",
+        "absence": null,
+        "wave_ids": [
+          "hard_paralogue_8_t5"
+        ],
+        "schedule_complete": false,
+        "confidence": "PARTIAL",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "paralogue_9_hard_classic",
+      "chapter_id": "paralogue_9",
+      "name": "Wings of Justice",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_36_0",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Rout the enemy",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_36_0"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_36_0",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Ruger",
+            "class_name": "Trickster",
+            "level": 12,
+            "equipment_text": "Levin Sword, Bullion (L)",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_36_0"
+        ],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [
+        {
+          "unit_id": "cynthia",
+          "condition": {
+            "value": "Enemy, talk with Chrom or Sumia",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_36_0"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        }
+      ],
+      "hazards": [
+        {
+          "value": "Cynthia is initially an enemy. Ruger can turn green units hostile; killing indiscriminately can lose recruitment.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_36_0",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [
+        {
+          "value": "Approaching north of northern walls affects Ruger’s retreat/conversion behaviour; exact activation geometry unresolved.",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "p2_guide_36_0",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "unknown",
+        "absence": null,
+        "wave_ids": [],
+        "schedule_complete": false,
+        "confidence": "UNKNOWN",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "paralogue_10_hard_classic",
+      "chapter_id": "paralogue_10",
+      "name": "Ambivalence",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_36_1",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Defeat Nelson",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_36_1"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_36_1",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Nelson",
+            "class_name": "Sage",
+            "level": 13,
+            "equipment_text": "Thoron, Talisman",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_36_1"
+        ],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [
+        {
+          "unit_id": "severa",
+          "condition": {
+            "value": "NPC, let her talk to Holland, the enemy Villager",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_36_1"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        }
+      ],
+      "hazards": [
+        {
+          "value": "Severa must reach and talk to Holland; Chrom/Cordelia talking to her alone does not recruit her. Killing Holland can turn her hostile.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "recruitment",
+            "hr_jp_recruit"
+          ],
+          "notes": null
+        },
+        {
+          "value": "Vantage-bearing Assassins and Levin Sword Tricksters threaten escorts. Confirm actual skills/equipment.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_36_1",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "interactables": [
+        {
+          "value": "Doors permit shortcuts to Holland; central staircases and chests.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_36_1",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "present",
+        "absence": null,
+        "wave_ids": [
+          "hard_paralogue_10_severa_join"
+        ],
+        "schedule_complete": false,
+        "confidence": "PARTIAL",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "paralogue_11_hard_classic",
+      "chapter_id": "paralogue_11",
+      "name": "Twin Wyverns",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_36_2",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Rout the enemy",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_36_2"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_36_2",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [
+        {
+          "unit_id": "gerome",
+          "condition": {
+            "value": "NPC, talk with Chrom or Cherche",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_36_2"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        }
+      ],
+      "hazards": [
+        {
+          "value": "Five scattered villagers need protection; Wyvern reinforcements bypass ground screening.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_36_2",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "interactables": [],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "present",
+        "absence": null,
+        "wave_ids": [
+          "hard_paralogue_11_t5"
+        ],
+        "schedule_complete": false,
+        "confidence": "PARTIAL",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "paralogue_12_hard_classic",
+      "chapter_id": "paralogue_12",
+      "name": "Disowned by Time",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_36_3",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Defeat the Risen Chief",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_36_3"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_36_3",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Risen Chief",
+            "class_name": "Griffon Rider",
+            "level": 10,
+            "equipment_text": "Tomahawk, Goddess Icon",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_36_3"
+        ],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [
+        {
+          "unit_id": "morgan",
+          "condition": {
+            "value": "NPC, talk with Chrom or the Avatar",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_36_3"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        }
+      ],
+      "hazards": [
+        {
+          "value": "Morgan starts as NPC; thieves threaten chests immediately. Do not invent a thief capture deadline.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_36_3",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "interactables": [],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "present",
+        "absence": null,
+        "wave_ids": [
+          "hard_paralogue_12_stairs"
+        ],
+        "schedule_complete": false,
+        "confidence": "PARTIAL",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "paralogue_13_hard_classic",
+      "chapter_id": "paralogue_13",
+      "name": "Rival Bands",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_40_0",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Rout the enemy",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_40_0"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_40_0",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Gyral (Stonewall Knights)",
+            "class_name": "General",
+            "level": 13,
+            "equipment_text": "Tomahawk, Bullion (M)",
+            "equipment_stats": "UNKNOWN"
+          },
+          {
+            "name": "Dalen (Riders of Dawn)",
+            "class_name": "Paladin",
+            "level": 13,
+            "equipment_text": "Spear, Bullion (M)",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_40_0"
+        ],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [
+        {
+          "unit_id": "yarne",
+          "condition": {
+            "value": "NPC/enemy, talk with Chrom or Panne",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_40_0"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        }
+      ],
+      "hazards": [
+        {
+          "value": "Faction choice changes hostile units. Yarne can be NPC or enemy: recruit using Chrom or Panne in either case.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_40_0",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "interactables": [],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "present",
+        "absence": null,
+        "wave_ids": [
+          "hard_paralogue_13_faction_arrivals"
+        ],
+        "schedule_complete": false,
+        "confidence": "PARTIAL",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "paralogue_14_hard_classic",
+      "chapter_id": "paralogue_14",
+      "name": "Shadow in the Sands",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_40_1",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Defeat Nombry",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_40_1"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_40_1",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Nombry",
+            "class_name": "Warrior",
+            "level": 10,
+            "equipment_text": "Silver Axe, Silver Bow, Master Seal",
+            "equipment_stats": "UNKNOWN"
+          },
+          {
+            "name": "Nombry",
+            "class_name": "Warrior",
+            "level": 10,
+            "equipment_text": "Silver Axe, Silver Bow, Master Seal",
+            "equipment_stats": "UNKNOWN"
+          },
+          {
+            "name": "Gyral (Stonewall Knights)",
+            "class_name": "General",
+            "level": 13,
+            "equipment_text": "Tomahawk, Bullion (M)",
+            "equipment_stats": "UNKNOWN"
+          },
+          {
+            "name": "Dalen (Riders of Dawn)",
+            "class_name": "Paladin",
+            "level": 13,
+            "equipment_text": "Spear, Bullion (M)",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_40_1"
+        ],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [
+        {
+          "unit_id": "laurent",
+          "condition": {
+            "value": "Have Chrom or Miriel visit the south-western village",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_40_1"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        }
+      ],
+      "hazards": [],
+      "activation": [],
+      "interactables": [
+        {
+          "value": "Recruit Laurent by visiting southwest village with Chrom/Miriel. Hidden village sequence northeast → northwest → southeast; visits can spawn enemies.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_40_1",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "present",
+        "absence": null,
+        "wave_ids": [
+          "hard_paralogue_14_village_visits"
+        ],
+        "schedule_complete": false,
+        "confidence": "PARTIAL",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "paralogue_15_hard_classic",
+      "chapter_id": "paralogue_15",
+      "name": "A Shot from the Dark",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_40_2",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Rout the enemy",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_40_2"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_40_2",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": "Noire arrives in northern enclosure on turn 2",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_40_2",
+          "p2_guide_scope"
+        ],
+        "notes": "Descriptive area only, not a certified coordinate map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Ezra",
+            "class_name": "Bow Knight",
+            "level": 14,
+            "equipment_text": "Silver Bow, Silver Sword, Energy Drop",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_40_2"
+        ],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [
+        {
+          "unit_id": "noire",
+          "condition": {
+            "value": "Automatically from Turn 2",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_40_2"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        }
+      ],
+      "hazards": [
+        {
+          "value": "Noire arrives automatically turn 2, isolated in northern enclosure among flying threats. Guide approximate escape window is not a certified reinforcement turn.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_40_2",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "interactables": [],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "unknown",
+        "absence": null,
+        "wave_ids": [],
+        "schedule_complete": false,
+        "confidence": "UNKNOWN",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "paralogue_16_hard_classic",
+      "chapter_id": "paralogue_16",
+      "name": "Daughter to Dragons",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_40_3",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Defeat the Risen Chief",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_40_3"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_40_3",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [
+        {
+          "unit_id": "nah",
+          "condition": {
+            "value": "NPC, talk with Chrom or Nowi",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_40_3"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        }
+      ],
+      "hazards": [
+        {
+          "value": "Walls break and reform as turns/area events occur. Opening near Nah can open other routes; exact triggers unknown. Long-range tomes and Counter-bearing Warriors are hazards.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_40_3",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "activation": [],
+      "interactables": [
+        {
+          "value": "Opened doors remain open according to guide; changing walls do not establish permanent safe chokepoints.",
+          "confidence": "SUPPORTED",
+          "source_ids": [
+            "p2_guide_40_3",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "unknown",
+        "absence": null,
+        "wave_ids": [],
+        "schedule_complete": false,
+        "confidence": "UNKNOWN",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    },
+    {
+      "id": "paralogue_17_hard_classic",
+      "chapter_id": "paralogue_17",
+      "name": "The Threat of Silence",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "scope": "ordinary_campaign",
+      "survey_checked": true,
+      "confidence": "PARTIAL",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_44_0",
+        "p2_guide_scope"
+      ],
+      "objective": {
+        "value": "Rout the enemy",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "chapter_catalog",
+          "p2_guide_44_0"
+        ],
+        "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+      },
+      "deployment": {
+        "value": 13,
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_44_0",
+          "p2_guide_scope"
+        ],
+        "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+      },
+      "starting_area": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Exact Hard starting tiles not established; consult observed map."
+      },
+      "initial_enemies": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+      },
+      "bosses": {
+        "value": [
+          {
+            "name": "Risen Chief",
+            "class_name": "Griffon Rider",
+            "level": 12,
+            "equipment_text": "Tomahawk, Hammerne",
+            "equipment_stats": "UNKNOWN"
+          }
+        ],
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "p2_guide_44_0"
+        ],
+        "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+      },
+      "recruitments": [
+        {
+          "unit_id": "tiki",
+          "condition": {
+            "value": "End of chapter",
+            "confidence": "SUPPORTED",
+            "source_ids": [
+              "recruitment",
+              "p2_guide_44_0"
+            ],
+            "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+          }
+        }
+      ],
+      "hazards": [
+        {
+          "value": "Flying reinforcements prioritize Tiki and can fly past the player’s army.",
+          "confidence": "VERIFIED",
+          "source_ids": [
+            "p2_guide_44_0",
+            "hr_jp_p17"
+          ],
+          "notes": "Hard guide and independent Hard-labelled Japanese player report of losing Tiki agree on target priority. Does not prove exact reach/turns."
+        }
+      ],
+      "activation": [
+        {
+          "value": "Boss advances after reinforcement enemies are eliminated; exact final-wave enumeration unresolved.",
+          "confidence": "PARTIAL",
+          "source_ids": [
+            "p2_guide_44_0",
+            "p2_guide_scope"
+          ],
+          "notes": null
+        }
+      ],
+      "interactables": [],
+      "interactables_complete": false,
+      "shops": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+      },
+      "reinforcements": {
+        "status": "present",
+        "absence": null,
+        "wave_ids": [
+          "hard_paralogue_17_flying_waves"
+        ],
+        "schedule_complete": false,
+        "confidence": "PARTIAL",
+        "notes": "An empty or filtered wave list never establishes absence. Event-family records are not fully enumerated waves."
+      },
+      "conflicts": [],
+      "unknowns": [
+        "Complete enemy roster/stats/skills/forges and coordinates",
+        "Full interactable geometry and scripted activation boundaries",
+        "Every reinforcement wave and exception to ordinary Hard immediate action"
+      ]
+    }
+  ],
+  "tutorial": {
+    "chapter_id": "premonition",
+    "scope": "tutorial_not_counted_in_44",
+    "confidence": "PARTIAL",
+    "source_ids": [
+      "chapter_catalog",
+      "p2_guide_00_0"
+    ],
+    "notes": "Scripted opening duel; general campaign reinforcement rules not asserted."
+  }
+}

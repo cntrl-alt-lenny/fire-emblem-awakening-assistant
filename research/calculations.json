@@ -1,0 +1,373 @@
+[
+  {
+    "source_id": "calculations",
+    "name": "Calculations - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/calculations/",
+    "accessed": "2026-10-02",
+    "verification": "extracted_unreviewed",
+    "tables": [
+      {
+        "section": "Weapon Triangle",
+        "rows": [
+          [
+            "Weapon Rank (advantageous side)",
+            "Weapon triangle advantage",
+            "Weapon triangle disadvantage"
+          ]
+        ]
+      },
+      {
+        "section": "Weapon Triangle",
+        "rows": [
+          [
+            "E or D",
+            "Hit rate +5",
+            "Hit rate -5"
+          ],
+          [
+            "C",
+            "Hit rate +10",
+            "Hit rate -10"
+          ],
+          [
+            "B",
+            "Hit rate +10, Attack +1",
+            "Hit rate -10, Attack -1"
+          ],
+          [
+            "A",
+            "Hit rate +15, Attack +1",
+            "Hit rate -15, Attack -1"
+          ]
+        ]
+      },
+      {
+        "section": "Combat Stats",
+        "rows": [
+          [
+            "Property",
+            "Calculation"
+          ]
+        ]
+      },
+      {
+        "section": "Combat Stats",
+        "rows": [
+          [
+            "Attack",
+            "= Strength or Magic + Weapon’s Might + Weapon Rank bonus"
+          ],
+          [
+            "Hit rate",
+            "= Weapon’s Hit rate + [(Skill x 3 + Luck) / 2] + Weapon Rank bonus"
+          ]
+        ]
+      },
+      {
+        "section": "Combat Stats",
+        "rows": [
+          [
+            "Rating",
+            "= Strength + Magic + Skill + Speed + Luck + Defence"
+          ]
+        ]
+      },
+      {
+        "section": "Weapon Rank Bonus",
+        "rows": [
+          [
+            "Type",
+            "C Rank bonus",
+            "B Rank bonus",
+            "A Rank bonus"
+          ]
+        ]
+      },
+      {
+        "section": "Weapon Rank Bonus",
+        "rows": [
+          [
+            "Sword",
+            "Attack +1",
+            "Attack +2",
+            "Attack +3"
+          ],
+          [
+            "Lance, Bow, Tome",
+            "Attack +1",
+            "Attack +1, Hit rate +5",
+            "Attack +2, Hit rate +5"
+          ],
+          [
+            "Axe",
+            "Hit rate +5",
+            "Hit rate +10",
+            "Attack +1, Hit rate +10"
+          ],
+          [
+            "Staff",
+            "Recovery +1",
+            "Recovery +2",
+            "Recovery +3"
+          ]
+        ]
+      },
+      {
+        "section": "Multiple Attacks",
+        "rows": [
+          [
+            "Property",
+            "Trigger"
+          ]
+        ]
+      },
+      {
+        "section": "Multiple Attacks",
+        "rows": [
+          [
+            "Double attack",
+            "(Speed – Enemy’s Speed) >= 5"
+          ]
+        ]
+      },
+      {
+        "section": "Dual Strike",
+        "rows": [
+          [
+            "Property",
+            "Calculation"
+          ]
+        ]
+      },
+      {
+        "section": "Dual Strike",
+        "rows": [
+          [
+            "Dual Strike rate",
+            "= (Lead & Support Unit’s combined Skill / 4) + Support bonus + Skill bonus [%]"
+          ]
+        ]
+      },
+      {
+        "section": "Dual Guard",
+        "rows": [
+          [
+            "Property",
+            "Calculation"
+          ]
+        ]
+      },
+      {
+        "section": "Dual Guard",
+        "rows": [
+          [
+            "Dual Guard rate",
+            "= (Lead & Support Unit’s combined Def or Res / 4) + Support bonus + Skill bonus [%]"
+          ]
+        ]
+      },
+      {
+        "section": "Combat Forecast",
+        "rows": [
+          [
+            "Property",
+            "Calculation"
+          ]
+        ]
+      },
+      {
+        "section": "Combat Forecast",
+        "rows": [
+          [
+            "Attack (damage)",
+            "= Attack + Weapon triangle bonus – Enemy’s (Defence or Resistance + Terrain bonus)"
+          ],
+          [
+            "Hit rate",
+            "= Hit rate + Weapon triangle bonus + Support bonus – Enemy’s (Avoid + Terrain bonus + Support bonus) [%]"
+          ],
+          [
+            "Critical rate",
+            "= Critical + Support bonus – Enemy’s (Luck + Support bonus) [%]"
+          ]
+        ]
+      },
+      {
+        "section": "Battle Experience",
+        "rows": [
+          [
+            "Property",
+            "Calculation"
+          ]
+        ]
+      },
+      {
+        "section": "Battle Experience",
+        "rows": [
+          [
+            "Level difference (LD)",
+            "= (enemy’s Level + enemy’s Promotion bonus) – (unit’s Internal Level)"
+          ],
+          [
+            "Experience from doing no damage",
+            "= 0"
+          ],
+          [
+            "Exp. from damaging enemy (base)",
+            "= (31 + LD) / 3 – Lunatic penalty [if LD >= 0]"
+          ]
+        ]
+      },
+      {
+        "section": "Battle Experience",
+        "rows": [
+          [
+            "Exp. from killing enemy (base)",
+            "= 20 + (LD x 3) + Character bonus [if LD >= 0]"
+          ]
+        ]
+      },
+      {
+        "section": "Battle Experience",
+        "rows": [
+          [
+            "Experience from damaging enemy (for Lead unit)",
+            "= Exp. from damaging enemy (base)"
+          ],
+          [
+            "Experience from killing enemy (for Lead unit)",
+            "= Exp. from damaging enemy (base) + Exp. from killing enemy (base)"
+          ],
+          [
+            "Experience for Support unit",
+            "= Exp. from damaging enemy (base) x Kill factor"
+          ]
+        ]
+      },
+      {
+        "section": "Battle Experience",
+        "rows": [
+          [
+            "Property",
+            "Calculation"
+          ]
+        ]
+      },
+      {
+        "section": "Battle Experience",
+        "rows": [
+          [
+            "Number of times attacked (T)",
+            "= Number of times the same enemy has been attacked, including this one"
+          ],
+          [
+            "Lunatic penalty",
+            "= Min(3 – T, 0) [if user is playing on Lunatic or Lunatic+ mode, 0 otherwise]"
+          ]
+        ]
+      },
+      {
+        "section": "Battle Experience",
+        "rows": [
+          [
+            "Property",
+            "Calculation"
+          ]
+        ]
+      },
+      {
+        "section": "Battle Experience",
+        "rows": [
+          [
+            "Character bonus",
+            "= Min(Unit bonus + Class bonus, Unit bonus) + Boss bonus [if a Unit bonus applies]"
+          ]
+        ]
+      },
+      {
+        "section": "Staff and Dance Experience",
+        "rows": [
+          [
+            "Property",
+            "Calculation"
+          ]
+        ]
+      },
+      {
+        "section": "Staff and Dance Experience",
+        "rows": [
+          [
+            "Staff experience",
+            "= Base value – Max(Internal Level – 5, 0) / 3 + Unpromoted bonus + Exceptions"
+          ],
+          [
+            "Dance experience",
+            "= Staff experience with Base value set to 17"
+          ]
+        ]
+      },
+      {
+        "section": "Internal Level",
+        "rows": [
+          [
+            "Property",
+            "Calculation"
+          ]
+        ]
+      },
+      {
+        "section": "Internal Level",
+        "rows": [
+          [
+            "Cumulative Level",
+            "= 0 initially. Each time a Second Seal is used, add [(Displayed Level + Promotion bonus – 1) / 2 {At the time of Second Seal usage}] to this value"
+          ],
+          [
+            "Internal Level",
+            "= Displayed Level + Promotion bonus + Cumulative Level"
+          ]
+        ]
+      },
+      {
+        "section": "Weapon Rank Progression",
+        "rows": [
+          [
+            "Weapon Rank",
+            "Required WEx",
+            "Total WEx"
+          ]
+        ]
+      },
+      {
+        "section": "Weapon Rank Progression",
+        "rows": [
+          [
+            "– to E",
+            "1",
+            "1"
+          ],
+          [
+            "E to D",
+            "30",
+            "31"
+          ],
+          [
+            "D to C",
+            "40",
+            "71"
+          ],
+          [
+            "C to B",
+            "50",
+            "121"
+          ],
+          [
+            "B to A",
+            "60",
+            "181"
+          ]
+        ]
+      }
+    ]
+  }
+]

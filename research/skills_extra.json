@@ -1,0 +1,880 @@
+[
+  {
+    "source_id": "skills_extra",
+    "name": "Skills - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/skills/",
+    "accessed": "2026-10-02",
+    "verification": "extracted_unreviewed",
+    "tables": [
+      {
+        "section": "Obtainable Skills",
+        "rows": [
+          [
+            "Icon",
+            "Skill",
+            "Effect",
+            "Activation",
+            "Class",
+            "Level"
+          ]
+        ]
+      },
+      {
+        "section": "Obtainable Skills",
+        "rows": [
+          [
+            "Image: Dual Strike+",
+            "Dual Strike+",
+            "Adds 10% to the Dual Strike rate",
+            "–",
+            "Lord",
+            "1"
+          ],
+          [
+            "Image: Charm",
+            "Charm",
+            "Hit rate and Avoid +5 to all allies within a 3 tile radius",
+            "–",
+            "Lord",
+            "10"
+          ],
+          [
+            "Image: Aether",
+            "Aether",
+            "Attack twice consecutively, with the first strike having a Sol effect and the second strike having a Luna effect",
+            "Skill/2%",
+            "Great Lord",
+            "5"
+          ],
+          [
+            "Image: Rightful King",
+            "Rightful King",
+            "Adds 10% to Skill activation rates",
+            "–",
+            "Great Lord",
+            "15"
+          ],
+          [
+            "Image: Veteran",
+            "Veteran",
+            "Experience gain x 1.5 when paired up",
+            "–",
+            "Tactician",
+            "1"
+          ],
+          [
+            "Image: Solidarity",
+            "Solidarity",
+            "Critical and Critical Avoid +10 to adjacent allies",
+            "–",
+            "Tactician",
+            "10"
+          ],
+          [
+            "Image: Ignis",
+            "Ignis",
+            "Adds (Magic)/2 to Strength when dealing physical damage and (Strength)/2 to Magic when dealing magical damage",
+            "Skill%",
+            "Grandmaster",
+            "5"
+          ],
+          [
+            "Image: Rally Spectrum",
+            "Rally Spectrum",
+            "All stats *_{1} +4 to all allies within a 3 tile radius for one Turn when the Rally command is used",
+            "Command",
+            "Grandmaster",
+            "15"
+          ],
+          [
+            "Image: Discipline",
+            "Discipline",
+            "Weapon experience x2",
+            "–",
+            "Cavalier",
+            "1"
+          ],
+          [
+            "Image: Outdoor Fighter",
+            "Outdoor Fighter",
+            "Hit rate and Avoid +10 when fighting outdoors",
+            "–",
+            "Cavalier",
+            "10"
+          ],
+          [
+            "Image: Defender",
+            "Defender",
+            "All stats *_{1} +1 when paired up",
+            "–",
+            "Paladin",
+            "5"
+          ],
+          [
+            "Image: Aegis",
+            "Aegis",
+            "Halves damage from bows, tomes and dragonstones *_{2}",
+            "Skill%",
+            "Paladin",
+            "15"
+          ],
+          [
+            "Image: Luna",
+            "Luna",
+            "Ignores half the enemy’s Defence or Resistance",
+            "Skill%",
+            "Great Knight",
+            "5"
+          ],
+          [
+            "",
+            "Dual Guard+",
+            "Adds 10% to the Dual Guard rate",
+            "–",
+            "Great Knight",
+            "15"
+          ],
+          [
+            "Image: Defence +2",
+            "Defence +2",
+            "Defence +2",
+            "–",
+            "Knight",
+            "1"
+          ],
+          [
+            "Image: Indoor Fighter",
+            "Indoor Fighter",
+            "Hit rate and Avoid +10 when fighting indoors",
+            "–",
+            "Knight",
+            "10"
+          ],
+          [
+            "Image: Rally Defence",
+            "Rally Defence",
+            "Defence +4 to all allies within a 3 tile radius for one Turn when the Rally command is used",
+            "Command",
+            "General",
+            "5"
+          ],
+          [
+            "Image: Pavise",
+            "Pavise",
+            "Halves damage from swords, lances, axes (includes magical variants) and beaststones *_{2}",
+            "Skill%",
+            "General",
+            "15"
+          ],
+          [
+            "Image: Avoid +10",
+            "Avoid +10",
+            "Avoid +10",
+            "–",
+            "Myrmidon",
+            "1"
+          ],
+          [
+            "Image: Vantage",
+            "Vantage",
+            "When HP under half, always attack first during the enemy’s Turn",
+            "–",
+            "Myrmidon",
+            "10"
+          ],
+          [
+            "Image: Astra",
+            "Astra",
+            "Deals 5 consecutive hits with half damage",
+            "Skill/2%",
+            "Swordmaster",
+            "5"
+          ],
+          [
+            "Image: Swordfaire",
+            "Swordfaire",
+            "Strength +5 when equipped with a sword (Magic +5 when equipped with the Levin Sword)",
+            "–",
+            "Swordmaster",
+            "15"
+          ],
+          [
+            "Image: Armsthrift",
+            "Armsthrift",
+            "Attack does not reduce weapon usage",
+            "Luck*2%",
+            "Mercenary",
+            "1"
+          ],
+          [
+            "Image: Patience",
+            "Patience",
+            "Hit rate and Avoid +10 during the enemy’s Turn",
+            "–",
+            "Mercenary",
+            "10"
+          ],
+          [
+            "Image: Sol",
+            "Sol",
+            "Recover HP equal to half the damage dealt to the enemy",
+            "Skill%",
+            "Hero",
+            "5"
+          ],
+          [
+            "Image: Axebreaker",
+            "Axebreaker",
+            "Hit rate and Avoid +50 when the enemy is equipped with an axe",
+            "–",
+            "Hero",
+            "15"
+          ],
+          [
+            "Image: HP +5",
+            "HP +5",
+            "Maximum HP +5",
+            "–",
+            "Fighter",
+            "1"
+          ],
+          [
+            "Image: Zeal",
+            "Zeal",
+            "Critical +5",
+            "–",
+            "Fighter",
+            "10"
+          ],
+          [
+            "Image: Rally Strength",
+            "Rally Strength",
+            "Strength +4 to all allies within a 3 tile radius for one Turn when the Rally command is used",
+            "Command",
+            "Warrior",
+            "5"
+          ],
+          [
+            "Image: Counter",
+            "Counter",
+            "Returns damage when attacked by an adjacent enemy (except damage that KOs the user) *_{2}",
+            "–",
+            "Warrior",
+            "15"
+          ],
+          [
+            "Image: Despoil",
+            "Despoil",
+            "Obtain Bullion (S) from the enemy if the user defeats the enemy",
+            "Luck%",
+            "Barbarian",
+            "1"
+          ],
+          [
+            "Image: Gamble",
+            "Gamble",
+            "Hit rate -5, Critical +10",
+            "–",
+            "Barbarian",
+            "10"
+          ],
+          [
+            "Image: Wrath",
+            "Wrath",
+            "Critical +20 when under half HP",
+            "–",
+            "Berserker",
+            "5"
+          ],
+          [
+            "Image: Axefaire",
+            "Axefaire",
+            "Strength +5 when equipped with an axe (Magic +5 when equipped with the Bolt Axe)",
+            "–",
+            "Berserker",
+            "15"
+          ],
+          [
+            "Image: Skill +2",
+            "Skill +2",
+            "Skill +2",
+            "–",
+            "Archer",
+            "1"
+          ],
+          [
+            "Image: Prescience",
+            "Prescience",
+            "Hit rate and Avoid +15 during the user’s Turn",
+            "–",
+            "Archer",
+            "10"
+          ],
+          [
+            "Image: Hit Rate +20",
+            "Hit Rate +20",
+            "Hit rate +20",
+            "–",
+            "Sniper",
+            "5"
+          ],
+          [
+            "Image: Bowfaire",
+            "Bowfaire",
+            "Strength +5 when equipped with a bow",
+            "–",
+            "Sniper",
+            "15"
+          ],
+          [
+            "Image: Rally Skill",
+            "Rally Skill",
+            "Skill +4 to all allies within a 3 tile radius for one Turn when the Rally command is used",
+            "Command",
+            "Bow Knight",
+            "5"
+          ],
+          [
+            "Image: Bowbreaker",
+            "Bowbreaker",
+            "Hit rate and Avoid +50 when the enemy is equipped with a bow",
+            "–",
+            "Bow Knight",
+            "15"
+          ],
+          [
+            "Image: Locktouch",
+            "Locktouch",
+            "Open doors and chests without the need of keys",
+            "–",
+            "Thief",
+            "1"
+          ],
+          [
+            "Image: Movement +1",
+            "Movement +1",
+            "Movement +1",
+            "–",
+            "Thief",
+            "10"
+          ],
+          [
+            "Image: Lethality",
+            "Lethality",
+            "Instantly defeats the enemy",
+            "Skill/4%",
+            "Assassin",
+            "5"
+          ],
+          [
+            "Image: Pass",
+            "Pass",
+            "User can pass through tiles occupied by enemy units",
+            "–",
+            "Assassin",
+            "15"
+          ],
+          [
+            "Image: Lucky Seven",
+            "Lucky Seven",
+            "Hit rate and Avoid +20 up to the 7th Turn",
+            "–",
+            "Trickster",
+            "5"
+          ],
+          [
+            "Image: Acrobat",
+            "Acrobat",
+            "All traversable terrain costs 1 movement point to cross",
+            "–",
+            "Trickster",
+            "15"
+          ],
+          [
+            "Image: Speed +2",
+            "Speed +2",
+            "Speed +2",
+            "–",
+            "Pegasus Knight",
+            "1"
+          ],
+          [
+            "Image: Relief",
+            "Relief",
+            "Recover 20% HP at the start of the user’s Turn if no units are within a 3 tile radius",
+            "–",
+            "Pegasus Knight",
+            "10"
+          ],
+          [
+            "Image: Rally Speed",
+            "Rally Speed",
+            "Speed +4 to all allies within a 3 tile radius for one Turn when the Rally command is used",
+            "Command",
+            "Falcon Knight",
+            "5"
+          ],
+          [
+            "Image: Lancefaire",
+            "Lancefaire",
+            "Strength +5 when equipped with a lance (Magic +5 when equipped with the Shockstick)",
+            "–",
+            "Falcon Knight",
+            "15"
+          ],
+          [
+            "Image: Rally Movement",
+            "Rally Movement",
+            "Movement +1 to all allies within a 3 tile radius for one Turn when the Rally command is used",
+            "Command",
+            "Dark Flier",
+            "5"
+          ],
+          [
+            "Image: Galeforce",
+            "Galeforce",
+            "Allows the user another full action after they defeat an enemy during the user’s Turn (only once per Turn)",
+            "–",
+            "Dark Flier",
+            "15"
+          ],
+          [
+            "Image: Strength +2",
+            "Strength +2",
+            "Strength +2",
+            "–",
+            "Wyvern Rider",
+            "1"
+          ],
+          [
+            "Image: Tantivy",
+            "Tantivy",
+            "Hit rate and Avoid +10 if no allies within a 3 tile radius",
+            "–",
+            "Wyvern Rider",
+            "10"
+          ],
+          [
+            "Image: Quick Burn",
+            "Quick Burn",
+            "Hit rate and Avoid +15 at the start of the chapter. Effect decreases with each passing Turn",
+            "–",
+            "Wyvern Lord",
+            "5"
+          ],
+          [
+            "Image: Swordbreaker",
+            "Swordbreaker",
+            "Hit rate and Avoid +50 when the enemy is equipped with a sword",
+            "–",
+            "Wyvern Lord",
+            "15"
+          ],
+          [
+            "Image: Deliverer",
+            "Deliverer",
+            "Movement +2 when paired up",
+            "–",
+            "Griffon Rider",
+            "5"
+          ],
+          [
+            "Image: Lancebreaker",
+            "Lancebreaker",
+            "Hit rate and Avoid +50 when the enemy is equipped with a lance",
+            "–",
+            "Griffon Rider",
+            "15"
+          ],
+          [
+            "Image: Magic +2",
+            "Magic +2",
+            "Magic +2",
+            "–",
+            "Mage",
+            "1"
+          ],
+          [
+            "Image: Focus",
+            "Focus",
+            "Critical +10 when no allies within a 3 tile radius",
+            "–",
+            "Mage",
+            "10"
+          ],
+          [
+            "Image: Rally Magic",
+            "Rally Magic",
+            "Magic +4 to all allies within a 3 tile radius for one Turn when the Rally command is used",
+            "Command",
+            "Sage",
+            "5"
+          ],
+          [
+            "Image: Tomefaire",
+            "Tomefaire",
+            "Magic +5 when equipped with a Tome",
+            "–",
+            "Sage",
+            "15"
+          ],
+          [
+            "Image: Hex",
+            "Hex",
+            "Avoid -15 to all adjacent enemies",
+            "–",
+            "Dark Mage",
+            "1"
+          ],
+          [
+            "Image: Anathema",
+            "Anathema",
+            "Avoid and Critical Avoid -10 to all enemies within a 3 tile radius",
+            "–",
+            "Dark Mage",
+            "10"
+          ],
+          [
+            "Image: Vengeance",
+            "Vengeance",
+            "Deals (user’s Max HP – Current HP)/2 extra damage",
+            "Skill*2%",
+            "Sorcerer",
+            "5"
+          ],
+          [
+            "Image: Tomebreaker",
+            "Tomebreaker",
+            "Hit rate and Avoid +50 when the enemy is equipped with a tome",
+            "–",
+            "Sorcerer",
+            "15"
+          ],
+          [
+            "Image: Slowburn",
+            "Slow Burn",
+            "Hit rate and Avoid increases by 1 each Turn, up to the 15th Turn",
+            "–",
+            "Dark Knight",
+            "5"
+          ],
+          [
+            "Image: Lifetaker",
+            "Lifetaker",
+            "User recovers 50% HP after they defeat an enemy during the user’s Turn",
+            "–",
+            "Dark Knight",
+            "15"
+          ],
+          [
+            "Image: Miracle",
+            "Miracle",
+            "Character survives with 1 HP after receiving an attack that would otherwise KO them (must have over 1 HP)",
+            "Luck%",
+            "Priest, Cleric",
+            "1"
+          ],
+          [
+            "Image: Healtouch",
+            "Healtouch",
+            "Restores an extra 5 HP when healing allies",
+            "–",
+            "Priest, Cleric",
+            "10"
+          ],
+          [
+            "Image: Rally Luck",
+            "Rally Luck",
+            "Luck +8 to all allies within a 3 tile radius for one Turn when the Rally command is used",
+            "Command",
+            "War Monk, War Cleric",
+            "5"
+          ],
+          [
+            "Image: Renewal",
+            "Renewal",
+            "Recover 30% HP at the start of the user’s Turn",
+            "–",
+            "War Monk, War Cleric",
+            "15"
+          ],
+          [
+            "Image: Resistance +2",
+            "Resistance +2",
+            "Resistance +2",
+            "–",
+            "Troubadour",
+            "1"
+          ],
+          [
+            "Image: Demoiselle",
+            "Demoiselle",
+            "Avoid and Critical Avoid +10 to all male allies within a 3 tile radius",
+            "–",
+            "Troubadour",
+            "10"
+          ],
+          [
+            "Image: Rally Resistance",
+            "Rally Resistance",
+            "Resistance +4 to all allies within a 3 tile radius for one Turn when the Rally command is used",
+            "Command",
+            "Valkyrie",
+            "5"
+          ],
+          [
+            "Image: Dual Support+",
+            "Dual Support+",
+            "Increases the support bonus effect",
+            "–",
+            "Valkyrie",
+            "15"
+          ],
+          [
+            "Image: Aptitude",
+            "Aptitude",
+            "Adds 20% to all growth rates during Level Ups",
+            "–",
+            "Villager",
+            "1"
+          ],
+          [
+            "Image: Underdog",
+            "Underdog",
+            "Hit rate and Avoid +15 when user’s Level is lower than the enemy (promoted units count as Level +20)",
+            "–",
+            "Villager",
+            "15"
+          ],
+          [
+            "Image: Luck +4",
+            "Luck +4",
+            "Luck +4",
+            "–",
+            "Dancer",
+            "1"
+          ],
+          [
+            "Image: Special Dance",
+            "Special Dance",
+            "Strength, Magic, Defence and Resistance +2 for one Turn for the unit who receives the user’s Dance",
+            "–",
+            "Dancer",
+            "15"
+          ],
+          [
+            "Image: Even Rhythm",
+            "Even Rhythm",
+            "Hit rate and Avoid +10 during even numbered Turns",
+            "–",
+            "Taguel",
+            "1"
+          ],
+          [
+            "Image: Beastbane",
+            "Beastbane",
+            "Deals effective damage to Image: Beast (beast *_{3} ) units when user is a Taguel",
+            "–",
+            "Taguel",
+            "15"
+          ],
+          [
+            "Image: Odd Rhythm",
+            "Odd Rhythm",
+            "Hit rate and Avoid +10 during odd numbered Turns",
+            "–",
+            "Manakete",
+            "1"
+          ],
+          [
+            "Image: Wyrmsbane",
+            "Wyrmsbane",
+            "Deals effective damage to Image: Dragon (dragon) units when user is a Manakete",
+            "–",
+            "Manakete",
+            "15"
+          ],
+          [
+            "Image: Shadowgift",
+            "Shadowgift",
+            "Enables usage of Dark Tomes for Tome wielders"
+          ],
+          [
+            "(Aversa, Morgan as Aversa’s daughter, DLC Micaiah and DLC Katarina only)",
+            "–",
+            "–",
+            "–"
+          ],
+          [
+            "Image: Conquest",
+            "Conquest",
+            "Negates user’s Image: Beast (beast *_{3} ) and Image: Armour (armour) type weaknesses (Walhart, Morgan as Walhart’s son, Zephiel and DLC Ephraim only)",
+            "–",
+            "–",
+            "–"
+          ],
+          [
+            "Image: Resistance +10",
+            "Resistance +10",
+            "Resistance +10",
+            "–",
+            "Dread Fighter *_{4}",
+            "1"
+          ],
+          [
+            "Image: Aggressor",
+            "Aggressor",
+            "Attack +10 during the user’s Turn",
+            "–",
+            "Dread Fighter *_{4}",
+            "15"
+          ],
+          [
+            "Image: Rally Heart",
+            "Rally Heart",
+            "All stats *_{1} +2 and Movement +1 to all allies within a 3 tile radius for one Turn when the Rally command is used",
+            "Command",
+            "Bride *_{4}",
+            "1"
+          ],
+          [
+            "Image: Bond",
+            "Bond",
+            "Restores 10 HP to all allies within a 3 tile radius at the beginning of the user’s Turn",
+            "–",
+            "Bride *_{4}",
+            "15"
+          ],
+          [
+            "Image: All Stats +2",
+            "All Stats +2",
+            "Strength, Magic, Skill, Speed, Luck, Defence and Resistance +2 (Learned by using the All Stats +2 item *_{4} )",
+            "–",
+            "–",
+            "–"
+          ],
+          [
+            "Image: Paragon",
+            "Paragon",
+            "Experience gain x2"
+          ],
+          [
+            "(Learned by using the Paragon item *_{4} )",
+            "–",
+            "–",
+            "–"
+          ],
+          [
+            "Image: Iote's Shield",
+            "Iote’s Shield",
+            "Negates user’s Image: Flying (flying) type weakness"
+          ],
+          [
+            "(Learned by using the Iote’s Shield item *_{4} )",
+            "–",
+            "–",
+            "–"
+          ],
+          [
+            "Image: Limit Breaker",
+            "Limit Breaker",
+            "Raises the character’s maximum stats *_{1} by 10"
+          ],
+          [
+            "(Learned by using the Limit Breaker item *_{4} )",
+            "–",
+            "–",
+            "–"
+          ],
+          [
+            "Image: Outrealm Skill",
+            "Outrealm Skill",
+            "What a DLC Skill looks like without DLC installed *_{4}",
+            "–",
+            "–",
+            "–"
+          ]
+        ]
+      },
+      {
+        "section": "Enemy-only Skills",
+        "rows": [
+          [
+            "Icon",
+            "Skill",
+            "Effect",
+            "Activation",
+            "Difficulty"
+          ]
+        ]
+      },
+      {
+        "section": "Enemy-only Skills",
+        "rows": [
+          [
+            "Image: Dragonskin",
+            "Dragonskin",
+            "Halves damage, negates Counter and Lethality"
+          ],
+          [
+            "(Grima and Hard mode~ Validar only)",
+            "–",
+            "Normal~"
+          ],
+          [
+            "Image: Hit Rate +10",
+            "Hit Rate +10",
+            "Hit rate +10",
+            "–",
+            "Lunatic~"
+          ],
+          [
+            "Image: Rightful God",
+            "Rightful God",
+            "Adds 30% to Skill activation rates"
+          ],
+          [
+            "(Grima only)",
+            "–",
+            "Lunatic~"
+          ],
+          [
+            "Image: Vantage+",
+            "Vantage+",
+            "Always attack first during the enemy’s Turn",
+            "–",
+            "Lunatic+"
+          ],
+          [
+            "Image: Luna+",
+            "Luna+",
+            "Every attack has a Luna effect",
+            "–",
+            "Lunatic+"
+          ],
+          [
+            "Image: Hawkeye",
+            "Hawkeye",
+            "Attacks always strike the enemy",
+            "–",
+            "Lunatic+"
+          ],
+          [
+            "Image: Pavise+",
+            "Pavise+",
+            "Halves damage from swords, lances, axes (includes magical variants) and beaststones *",
+            "–",
+            "Lunatic+"
+          ],
+          [
+            "Image: Aegis+",
+            "Aegis+",
+            "Halves damage from bows, tomes and dragonstones *",
+            "–",
+            "Lunatic+"
+          ]
+        ]
+      }
+    ]
+  }
+]

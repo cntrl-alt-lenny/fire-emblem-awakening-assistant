@@ -1,0 +1,128 @@
+[
+  {
+    "id": "survey_00_0",
+    "name": "Chapter 1 Unwelcome Change - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://earth.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-1-unwelcome-change",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Risen Chief",
+            "Fighter",
+            "3",
+            "Hand Axe"
+          ]
+        ]
+      },
+      {
+        "section": "New Units\u00b6",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Recruit"
+          ],
+          [
+            "Virion",
+            "Archer",
+            "2",
+            "Start of Turn 2"
+          ],
+          [
+            "Sully",
+            "Cavalier",
+            "2",
+            "Start of Turn 2"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Chapter 1:",
+        "text": "Condition: Defeat Boss"
+      }
+    ],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_00_1",
+    "name": "Chapter 1: Unwelcome Change (Script) - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Chapter_1%3A_Unwelcome_Change_%28Script%29",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_00_2",
+    "name": "Awakening Enemy Data - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_Enemy_Data",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_00_3",
+    "name": "History Mode Script - Invisible Ties - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/History_Mode_Script_-_Invisible_Ties",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_00_4",
+    "name": "Chapter Summaries (Awakening) - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Chapter_Summaries_%28Awakening%29",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_00_5",
+    "name": "Category:Awakening Scripts - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php?pagefrom=Barracks+Roster+%28Awakening%29&title=Category%3AAwakening_Scripts&until=Paralogue+23%3A+The+Radiant+Hero",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_00_6",
+    "name": "User:King Marth 64/Sandbox/Chapter 1: Unwelcome Change (Script) - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php?title=User%3AKing_Marth_64%2FSandbox%2FChapter_1%3A_The_Verge_of_History_%28Script%29",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "survey_00_7",
+    "name": "Category:Game Scripts - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php?pagefrom=Awakening+Supports%2FVaike+Nah%28PC%29&title=Category%3AGame_Scripts&until=Awakening+Supports%2FMaribelle+Chrom",
+    "accessed": "2026-10-02",
+    "method": "public_search_excerpt",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  }
+]

@@ -1,0 +1,403 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "avatar_configuration",
+      "name": "Avatar configuration",
+      "unmodified_bases": {
+        "hp": 19,
+        "str": 6,
+        "mag": 5,
+        "skl": 5,
+        "spd": 6,
+        "lck": 4,
+        "def": 6,
+        "res": 4
+      },
+      "unmodified_growths": {
+        "hp": 40,
+        "str": 40,
+        "mag": 35,
+        "skl": 35,
+        "spd": 35,
+        "lck": 55,
+        "def": 30,
+        "res": 20
+      },
+      "base_asset_flaw_changes": {
+        "hp": [
+          5,
+          -3
+        ],
+        "lck": [
+          4,
+          -2
+        ],
+        "other": [
+          2,
+          -1
+        ]
+      },
+      "modifiers": {
+        "hp": {
+          "growth_modifiers": {
+            "asset": {
+              "hp": 30,
+              "str": 0,
+              "mag": 0,
+              "skl": 0,
+              "spd": 0,
+              "lck": 0,
+              "def": 5,
+              "res": 5
+            },
+            "flaw": {
+              "hp": -20,
+              "str": 0,
+              "mag": 0,
+              "skl": 0,
+              "spd": 0,
+              "lck": 0,
+              "def": -5,
+              "res": -5
+            }
+          },
+          "cap_modifiers": {
+            "asset": {
+              "str": 1,
+              "mag": 1,
+              "skl": 0,
+              "spd": 0,
+              "lck": 2,
+              "def": 2,
+              "res": 2
+            },
+            "flaw": {
+              "str": -1,
+              "mag": -1,
+              "skl": 0,
+              "spd": 0,
+              "lck": -1,
+              "def": -1,
+              "res": -1
+            }
+          }
+        },
+        "str": {
+          "growth_modifiers": {
+            "asset": {
+              "hp": 0,
+              "str": 15,
+              "mag": 0,
+              "skl": 5,
+              "spd": 0,
+              "lck": 0,
+              "def": 5,
+              "res": 0
+            },
+            "flaw": {
+              "hp": 0,
+              "str": -10,
+              "mag": 0,
+              "skl": -5,
+              "spd": 0,
+              "lck": 0,
+              "def": -5,
+              "res": 0
+            }
+          },
+          "cap_modifiers": {
+            "asset": {
+              "str": 4,
+              "mag": 0,
+              "skl": 2,
+              "spd": 0,
+              "lck": 0,
+              "def": 2,
+              "res": 0
+            },
+            "flaw": {
+              "str": -3,
+              "mag": 0,
+              "skl": -1,
+              "spd": 0,
+              "lck": 0,
+              "def": -1,
+              "res": 0
+            }
+          }
+        },
+        "mag": {
+          "growth_modifiers": {
+            "asset": {
+              "hp": 0,
+              "str": 0,
+              "mag": 15,
+              "skl": 0,
+              "spd": 5,
+              "lck": 0,
+              "def": 0,
+              "res": 5
+            },
+            "flaw": {
+              "hp": 0,
+              "str": 0,
+              "mag": -10,
+              "skl": 0,
+              "spd": -5,
+              "lck": 0,
+              "def": 0,
+              "res": -5
+            }
+          },
+          "cap_modifiers": {
+            "asset": {
+              "str": 0,
+              "mag": 4,
+              "skl": 0,
+              "spd": 2,
+              "lck": 0,
+              "def": 0,
+              "res": 2
+            },
+            "flaw": {
+              "str": 0,
+              "mag": -3,
+              "skl": 0,
+              "spd": -1,
+              "lck": 0,
+              "def": 0,
+              "res": -1
+            }
+          }
+        },
+        "skl": {
+          "growth_modifiers": {
+            "asset": {
+              "hp": 0,
+              "str": 5,
+              "mag": 0,
+              "skl": 15,
+              "spd": 0,
+              "lck": 0,
+              "def": 5,
+              "res": 0
+            },
+            "flaw": {
+              "hp": 0,
+              "str": -5,
+              "mag": 0,
+              "skl": -10,
+              "spd": 0,
+              "lck": 0,
+              "def": -5,
+              "res": 0
+            }
+          },
+          "cap_modifiers": {
+            "asset": {
+              "str": 2,
+              "mag": 0,
+              "skl": 4,
+              "spd": 0,
+              "lck": 0,
+              "def": 2,
+              "res": 0
+            },
+            "flaw": {
+              "str": -1,
+              "mag": 0,
+              "skl": -3,
+              "spd": 0,
+              "lck": 0,
+              "def": -1,
+              "res": 0
+            }
+          }
+        },
+        "spd": {
+          "growth_modifiers": {
+            "asset": {
+              "hp": 0,
+              "str": 0,
+              "mag": 0,
+              "skl": 5,
+              "spd": 15,
+              "lck": 5,
+              "def": 0,
+              "res": 0
+            },
+            "flaw": {
+              "hp": 0,
+              "str": 0,
+              "mag": 0,
+              "skl": -5,
+              "spd": -10,
+              "lck": -5,
+              "def": 0,
+              "res": 0
+            }
+          },
+          "cap_modifiers": {
+            "asset": {
+              "str": 0,
+              "mag": 0,
+              "skl": 2,
+              "spd": 4,
+              "lck": 2,
+              "def": 0,
+              "res": 0
+            },
+            "flaw": {
+              "str": 0,
+              "mag": 0,
+              "skl": -1,
+              "spd": -3,
+              "lck": -1,
+              "def": 0,
+              "res": 0
+            }
+          }
+        },
+        "lck": {
+          "growth_modifiers": {
+            "asset": {
+              "hp": 0,
+              "str": 5,
+              "mag": 5,
+              "skl": 0,
+              "spd": 0,
+              "lck": 15,
+              "def": 0,
+              "res": 0
+            },
+            "flaw": {
+              "hp": 0,
+              "str": -5,
+              "mag": -5,
+              "skl": 0,
+              "spd": 0,
+              "lck": -10,
+              "def": 0,
+              "res": 0
+            }
+          },
+          "cap_modifiers": {
+            "asset": {
+              "str": 2,
+              "mag": 2,
+              "skl": 0,
+              "spd": 0,
+              "lck": 4,
+              "def": 0,
+              "res": 0
+            },
+            "flaw": {
+              "str": -1,
+              "mag": -1,
+              "skl": 0,
+              "spd": 0,
+              "lck": -3,
+              "def": 0,
+              "res": 0
+            }
+          }
+        },
+        "def": {
+          "growth_modifiers": {
+            "asset": {
+              "hp": 0,
+              "str": 0,
+              "mag": 0,
+              "skl": 0,
+              "spd": 0,
+              "lck": 5,
+              "def": 15,
+              "res": 5
+            },
+            "flaw": {
+              "hp": 0,
+              "str": 0,
+              "mag": 0,
+              "skl": 0,
+              "spd": 0,
+              "lck": -5,
+              "def": -10,
+              "res": -5
+            }
+          },
+          "cap_modifiers": {
+            "asset": {
+              "str": 0,
+              "mag": 0,
+              "skl": 0,
+              "spd": 0,
+              "lck": 2,
+              "def": 4,
+              "res": 2
+            },
+            "flaw": {
+              "str": 0,
+              "mag": 0,
+              "skl": 0,
+              "spd": 0,
+              "lck": -1,
+              "def": -3,
+              "res": -1
+            }
+          }
+        },
+        "res": {
+          "growth_modifiers": {
+            "asset": {
+              "hp": 0,
+              "str": 0,
+              "mag": 5,
+              "skl": 0,
+              "spd": 5,
+              "lck": 0,
+              "def": 0,
+              "res": 15
+            },
+            "flaw": {
+              "hp": 0,
+              "str": 0,
+              "mag": -5,
+              "skl": 0,
+              "spd": -5,
+              "lck": 0,
+              "def": 0,
+              "res": -10
+            }
+          },
+          "cap_modifiers": {
+            "asset": {
+              "str": 0,
+              "mag": 2,
+              "skl": 0,
+              "spd": 2,
+              "lck": 0,
+              "def": 0,
+              "res": 4
+            },
+            "flaw": {
+              "str": 0,
+              "mag": -1,
+              "skl": 0,
+              "spd": -1,
+              "lck": 0,
+              "def": 0,
+              "res": -3
+            }
+          }
+        }
+      },
+      "source_ids": [
+        "characters",
+        "character_growths",
+        "inheritance_1"
+      ],
+      "verification": "single_source_transcribed"
+    }
+  ]
+}

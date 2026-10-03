@@ -1,0 +1,429 @@
+[
+  {
+    "source_id": "locations",
+    "name": "Item Locations - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/item-locations/",
+    "accessed": "2026-10-02",
+    "verification": "extracted_unreviewed",
+    "tables": []
+  },
+  {
+    "source_id": "locations_1",
+    "name": "Gaiden Chapters - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/gaiden-chapters/",
+    "accessed": "2026-10-02",
+    "verification": "extracted_unreviewed",
+    "tables": [
+      {
+        "section": "Paralogues",
+        "rows": [
+          [
+            "Paralogue",
+            "Condition(s)"
+          ]
+        ]
+      },
+      {
+        "section": "Paralogues",
+        "rows": [
+          [
+            "1",
+            "Chapter 3 completed"
+          ],
+          [
+            "2",
+            "Chapter 5 completed"
+          ],
+          [
+            "3",
+            "Chapter 7 completed"
+          ],
+          [
+            "4",
+            "Chapter 9 completed"
+          ]
+        ]
+      },
+      {
+        "section": "Paralogues",
+        "rows": [
+          [
+            "5",
+            "Lissa is married to somebody"
+          ]
+        ]
+      },
+      {
+        "section": "Paralogues",
+        "rows": [
+          [
+            "6",
+            "Olivia is married to somebody"
+          ]
+        ]
+      },
+      {
+        "section": "Paralogues",
+        "rows": [
+          [
+            "7",
+            "Maribelle is married to somebody"
+          ]
+        ]
+      },
+      {
+        "section": "Paralogues",
+        "rows": [
+          [
+            "8",
+            "Sully is married to somebody"
+          ],
+          [
+            "9",
+            "Sumia is married to somebody"
+          ]
+        ]
+      },
+      {
+        "section": "Paralogues",
+        "rows": [
+          [
+            "10",
+            "Cordelia is married to somebody"
+          ],
+          [
+            "11",
+            "Cherche is married to somebody"
+          ]
+        ]
+      },
+      {
+        "section": "Paralogues",
+        "rows": [
+          [
+            "12",
+            "The Avatar is married to somebody"
+          ],
+          [
+            "13",
+            "Panne is married to somebody"
+          ],
+          [
+            "14",
+            "Miriel is married to somebody"
+          ],
+          [
+            "15",
+            "Tharja is married to somebody"
+          ],
+          [
+            "16",
+            "Nowi is married to somebody"
+          ],
+          [
+            "17",
+            "Chapter 18 completed"
+          ]
+        ]
+      },
+      {
+        "section": "Paralogues",
+        "rows": [
+          [
+            "18",
+            "SpotPass data received (NA: 14th February, EU: 2nd May)"
+          ],
+          [
+            "19",
+            "SpotPass data received (NA: 28th February, EU: 16th May)"
+          ],
+          [
+            "20",
+            "SpotPass data received (NA: 14th March)"
+          ],
+          [
+            "21",
+            "SpotPass data received (NA: 28th March)"
+          ],
+          [
+            "22",
+            "SpotPass data received (NA: 11th April)"
+          ],
+          [
+            "23",
+            "SpotPass data received (NA: 25th April)"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "source_id": "locations_2",
+    "name": "Barracks - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/barracks/",
+    "accessed": "2026-10-02",
+    "verification": "extracted_unreviewed",
+    "tables": [
+      {
+        "section": "Character Birthdays and Decorations",
+        "rows": [
+          [
+            "Character",
+            "Birthday",
+            "Decoration"
+          ]
+        ]
+      },
+      {
+        "section": "Character Birthdays and Decorations",
+        "rows": [
+          [
+            "Avatar",
+            "Decided by player",
+            "–"
+          ],
+          [
+            "Chrom",
+            "27th May",
+            "–"
+          ],
+          [
+            "Lissa",
+            "6th March",
+            "–"
+          ],
+          [
+            "Frederick",
+            "26th August",
+            "–"
+          ],
+          [
+            "Sully",
+            "5th December",
+            "–"
+          ],
+          [
+            "Virion",
+            "10th December",
+            "–"
+          ],
+          [
+            "Stahl",
+            "16th June",
+            "–"
+          ],
+          [
+            "Vaike",
+            "26th December",
+            "–"
+          ],
+          [
+            "Miriel",
+            "12th February",
+            "–"
+          ],
+          [
+            "Sumia",
+            "24th November",
+            "–"
+          ],
+          [
+            "Kellam",
+            "24th June",
+            "–"
+          ],
+          [
+            "Donnel",
+            "4th June",
+            "–"
+          ],
+          [
+            "Lon’qu",
+            "10th October",
+            "Blade"
+          ],
+          [
+            "Ricken",
+            "23rd May",
+            "Bookshelf"
+          ],
+          [
+            "Maribelle",
+            "14th April",
+            "Staff"
+          ],
+          [
+            "Panne",
+            "18th November",
+            "Rabbit-themed curtain"
+          ],
+          [
+            "Gaius",
+            "2nd January",
+            "Candy tree"
+          ],
+          [
+            "Cordelia",
+            "7th July",
+            "Empty shelf"
+          ],
+          [
+            "Gregor",
+            "27th January",
+            "Two wooden boxes"
+          ],
+          [
+            "Nowi",
+            "21st September",
+            "Green dragonstone"
+          ],
+          [
+            "Libra",
+            "1st July",
+            "–"
+          ],
+          [
+            "Tharja",
+            "2nd April",
+            "–"
+          ],
+          [
+            "Anna",
+            "11th June",
+            "–"
+          ],
+          [
+            "Olivia",
+            "20th August",
+            "Carpet"
+          ],
+          [
+            "Cherche",
+            "17th October",
+            "Two wyvern-themed sacks"
+          ],
+          [
+            "Henry",
+            "13th November",
+            "Extra books"
+          ],
+          [
+            "Lucina",
+            "20th April",
+            "Red Exalt-themed curtain"
+          ],
+          [
+            "Say’ri",
+            "11th January",
+            "Hanging scroll"
+          ],
+          [
+            "Tiki",
+            "28th February",
+            "–"
+          ],
+          [
+            "Basilio",
+            "13th August",
+            "–"
+          ],
+          [
+            "Flavia",
+            "28th October",
+            "–"
+          ],
+          [
+            "Owain",
+            "15th July",
+            "Tree branch"
+          ],
+          [
+            "Inigo",
+            "7th August",
+            "Vase"
+          ],
+          [
+            "Brady",
+            "22nd February",
+            "Staff"
+          ],
+          [
+            "Kjelle",
+            "29th September",
+            "Armour and protector"
+          ],
+          [
+            "Cynthia",
+            "14th May",
+            "Lance"
+          ],
+          [
+            "Severa",
+            "21st January",
+            "Urn"
+          ],
+          [
+            "Gerome",
+            "1st September",
+            "Axe"
+          ],
+          [
+            "Morgan",
+            "5th May",
+            "Extra books"
+          ],
+          [
+            "Yarne",
+            "14th March",
+            "Bag"
+          ],
+          [
+            "Laurent",
+            "25th April",
+            "Triangular hat"
+          ],
+          [
+            "Noire",
+            "7th October",
+            "Feathers"
+          ],
+          [
+            "Nah",
+            "29th March",
+            "Red dragonstone"
+          ],
+          [
+            "Gangrel",
+            "16th March",
+            "–"
+          ],
+          [
+            "Walhart",
+            "14th September",
+            "–"
+          ],
+          [
+            "Emmeryn",
+            "23rd December",
+            "–"
+          ],
+          [
+            "Yen’fay",
+            "23rd July",
+            "–"
+          ],
+          [
+            "Aversa",
+            "3rd November",
+            "–"
+          ],
+          [
+            "Priam",
+            "9th February",
+            "–"
+          ]
+        ]
+      }
+    ]
+  }
+]

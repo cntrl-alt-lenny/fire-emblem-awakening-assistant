@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+<title id="title">Fire Emblem Awakening Assistant</title>
+<desc id="desc">An original tactical grid with a gold route and blue unit markers. Know the numbers. Respect the unknowns.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101c30"/><stop offset="1" stop-color="#26384c"/></linearGradient>
+  <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse"><path d="M64 0H0V64" fill="none" stroke="#9ab8c9" stroke-opacity=".10"/></pattern>
+  <linearGradient id="gold"><stop stop-color="#f6dfa2"/><stop offset="1" stop-color="#bd9650"/></linearGradient>
+</defs>
+<rect width="1280" height="640" fill="url(#bg)"/>
+<rect width="1280" height="640" fill="url(#grid)"/>
+<path d="M960 0V640" stroke="#d4b677" stroke-opacity=".13"/>
+<path d="M109 104H361" stroke="url(#gold)" stroke-width="3"/>
+<text x="108" y="158" font-family="Arial, Helvetica, sans-serif" font-size="19" letter-spacing="5" fill="#d9bf86">OFFLINE TACTICAL COMPANION</text>
+<text x="104" y="260" font-family="Georgia, serif" font-size="66" fill="#f3efe5">Fire Emblem</text>
+<text x="104" y="345" font-family="Georgia, serif" font-size="80" fill="url(#gold)">Awakening</text>
+<text x="109" y="395" font-family="Arial, Helvetica, sans-serif" font-size="25" letter-spacing="8" fill="#c1cfda">ASSISTANT</text>
+<text x="109" y="499" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#e6e9e8">Know the numbers. Respect the unknowns.</text>
+<text x="109" y="542" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#9aafbf">REFERENCE  /  CALCULATE  /  TRACK</text>
+<g transform="translate(811 134)">
+<path d="M0 0H352V352H0Z M0 88H352 M0 176H352 M0 264H352 M88 0V352 M176 0V352 M264 0V352" fill="#172638" stroke="#8aa4b8" stroke-opacity=".32"/>
+<path d="M44 308V220H132V132H220V44" fill="none" stroke="#d9bb77" stroke-width="4" stroke-dasharray="8 8"/>
+<g fill="#6bb5d8" stroke="#aedcf1" stroke-width="2"><path d="M44 282l22 26-22 26-22-26z"/><path d="M132 106l22 26-22 26-22-26z"/></g>
+<path d="M220 22l22 22-22 22-22-22z" fill="#dcc48a" stroke="#fff0ba" stroke-width="2"/>
+<circle cx="308" cy="220" r="19" fill="#a96766" stroke="#dca5a0" stroke-width="2"/>
+<path d="M296 208l24 24m0-24l-24 24" stroke="#eedad5" stroke-width="2"/>
+<text x="0" y="405" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="3" fill="#9aafbf">EVIDENCE BEFORE CONFIDENCE</text>
+</g>
+</svg>

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "independent_maps_0",
+    "name": "Ambivalence - Fire Emblem Wiki",
+    "url": "https://fireemblemwiki.org/wiki/Ambivalence",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "accessed"
+  },
+  {
+    "id": "independent_maps_1",
+    "name": "Access failure",
+    "url": "https://fireemblemwiki.org/wiki/Incursion",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "unavailable"
+  },
+  {
+    "id": "independent_maps_2",
+    "name": "Access failure",
+    "url": "https://fireemblemwiki.org/wiki/The_Exalt_and_the_King",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [],
+    "factual_candidates": [],
+    "access_status": "unavailable"
+  }
+]

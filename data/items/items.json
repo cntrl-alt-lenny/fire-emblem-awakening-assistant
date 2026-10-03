@@ -1,0 +1,1236 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "heal",
+      "name": "Heal",
+      "source_ids": [
+        "obtain_magic_2",
+        "weapons_b_2"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "staff",
+      "weapon_type": "staff",
+      "rank": "E",
+      "range": "1",
+      "uses": 30,
+      "worth": 600,
+      "base_exp": 17,
+      "effect": "Restores a small amount of HP to an ally",
+      "obtainability": [
+        {
+          "method": "Playable",
+          "locations": "Lissa, Anna",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 3, Ch 6",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Ch 1, Ch 3, Ch 6, Ch 16, Ch 22, Par 3, Par 6-7",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Eirika, Mist, Nanna",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "mend",
+      "name": "Mend",
+      "source_ids": [
+        "obtain_magic_2",
+        "weapons_b_2",
+        "p2_mend"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "staff",
+      "weapon_type": "staff",
+      "rank": "D",
+      "range": "1",
+      "uses": 20,
+      "worth": 1000,
+      "base_exp": 22,
+      "effect": "Restores a medium amount of HP to an ally",
+      "obtainability": [
+        {
+          "method": "Playable",
+          "locations": "Maribelle, Libra, Brady, Morgan",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 16, Ch 17",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Chest",
+          "locations": "Par 4",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Event",
+          "locations": "Par 7 (NPC)",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Ch 6, Ch 8, Ch 12, Ch 22, Par 3, Par 7, Par 12",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Sanaki, Nyna",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ],
+      "independent_numeric_crosscheck": {
+        "rank": "D",
+        "uses": 20,
+        "worth": 1000,
+        "base_exp": 22
+      }
+    },
+    {
+      "id": "physic",
+      "name": "Physic",
+      "source_ids": [
+        "obtain_magic_2",
+        "weapons_b_2",
+        "p2_physic"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "staff",
+      "weapon_type": "staff",
+      "rank": "C",
+      "range": "1~Mag/2",
+      "uses": 10,
+      "worth": 1800,
+      "base_exp": 30,
+      "effect": "Restores a small amount of HP to an ally",
+      "obtainability": [
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 20, Ch 25, Par 9",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Village",
+          "locations": "Ch 15, Par 2",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Ch 18, Ch 23, Par 7-8, Par 22",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 1, Par 2",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Serra, Lyn, Eliwood, Moulder, Black Knight, Micaiah, Prince Marth, Celica, Ethlyn, Oliver",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "Double Duel",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ],
+      "independent_numeric_crosscheck": {
+        "rank": "C",
+        "uses": 10,
+        "worth": 1800,
+        "base_exp": 30
+      }
+    },
+    {
+      "id": "recover",
+      "name": "Recover",
+      "source_ids": [
+        "obtain_magic_2",
+        "weapons_b_2"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "staff",
+      "weapon_type": "staff",
+      "rank": "B",
+      "range": "1",
+      "uses": 15,
+      "worth": 1950,
+      "base_exp": 40,
+      "effect": "Restores all HP to an ally",
+      "obtainability": [
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 22",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Chest",
+          "locations": "Par 16",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Event",
+          "locations": "Par 11 (NPC)",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Ch 18, Ch 23, Par 10, Par 22",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "Elincia, Nomah, Raquesis, Oliver",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "Double Duel",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "fortify",
+      "name": "Fortify",
+      "source_ids": [
+        "obtain_magic_2",
+        "weapons_b_2"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "staff",
+      "weapon_type": "staff",
+      "rank": "A",
+      "range": "1~Mag/2",
+      "uses": 5,
+      "worth": 2500,
+      "base_exp": 60,
+      "effect": "Restores a small amount of HP to all allies in range",
+      "obtainability": [
+        {
+          "method": "Enemy loot",
+          "locations": "Ch 17",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Chest",
+          "locations": "Ch 21, Par 12",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Event",
+          "locations": "Par 7 (NPC) , Par 20 (end of chapter)",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 19, Ch 23, Par 17",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "SpotPass Team",
+          "locations": "L'Arachel, Ike, Saias",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "goddess_staff",
+      "name": "Goddess Staff",
+      "source_ids": [
+        "obtain_magic_2",
+        "weapons_b_2"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "staff",
+      "weapon_type": "staff",
+      "rank": "A",
+      "range": "1~Mag/2",
+      "uses": 1,
+      "worth": 0,
+      "base_exp": 100,
+      "effect": "Restores all HP to all allies in range",
+      "obtainability": [
+        {
+          "method": "Event",
+          "locations": "Par 14",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Other",
+          "locations": "Infinite Regalia",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "rescue",
+      "name": "Rescue",
+      "source_ids": [
+        "obtain_magic_2",
+        "weapons_b_2"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "staff",
+      "weapon_type": "staff",
+      "rank": "E",
+      "range": "1~Mag/2",
+      "uses": 5,
+      "worth": 1280,
+      "base_exp": 40,
+      "effect": "Transports a distant ally to the caster's side",
+      "obtainability": [
+        {
+          "method": "Chest",
+          "locations": "Ch 18, Par 1",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Village",
+          "locations": "Ch 8, Par 20",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Ch 12, Ch 22, Par 6-7, Par 22",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 1, Ch 3, Ch 5, Ch 7, Par 1",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "ward",
+      "name": "Ward",
+      "source_ids": [
+        "obtain_magic_2",
+        "weapons_b_2"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "staff",
+      "weapon_type": "staff",
+      "rank": "C",
+      "range": "1~Mag/2",
+      "uses": 5,
+      "worth": 2100,
+      "base_exp": 30,
+      "effect": "Boosts ally's Res by 5 (decreases by 1 each Turn)",
+      "obtainability": [
+        {
+          "method": "Playable",
+          "locations": "Libra",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Armoury",
+          "locations": "Ch 16, Ch 18, Ch 22, Par 7, Par 12, Par 22",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "Ch 8",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "hammerne",
+      "name": "Hammerne",
+      "source_ids": [
+        "obtain_magic_2",
+        "weapons_b_2"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "staff",
+      "weapon_type": "staff",
+      "rank": "B",
+      "range": "1",
+      "uses": 1,
+      "worth": 2000,
+      "base_exp": 50,
+      "effect": "Fully repairs an ally's weapon or staff",
+      "obtainability": [
+        {
+          "method": "Enemy loot",
+          "locations": "Par 17",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Event",
+          "locations": "Par 6 (Inigo)",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        },
+        {
+          "method": "Merchant",
+          "locations": "All (higher chance in Ch 24-25 and Par 18-23)",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "kneader",
+      "name": "Kneader",
+      "source_ids": [
+        "obtain_magic_2",
+        "weapons_b_2"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "staff",
+      "weapon_type": "staff",
+      "rank": "E",
+      "range": "1",
+      "uses": 20,
+      "worth": null,
+      "base_exp": 12,
+      "effect": "Restores a tiny amount of HP to an ally",
+      "obtainability": [
+        {
+          "method": "Other",
+          "locations": "Event tile, Barracks",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "balmwood_staff",
+      "name": "Balmwood Staff",
+      "source_ids": [
+        "obtain_magic_2",
+        "weapons_b_2"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "staff",
+      "weapon_type": "staff",
+      "rank": "D",
+      "range": "1",
+      "uses": 15,
+      "worth": null,
+      "base_exp": 22,
+      "effect": "Restores HP to an ally or the user",
+      "obtainability": [
+        {
+          "method": "Other",
+          "locations": "Event tile, Barracks",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "catharsis",
+      "name": "Catharsis",
+      "source_ids": [
+        "obtain_magic_2",
+        "weapons_b_2"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "staff",
+      "weapon_type": "staff",
+      "rank": "B",
+      "range": "1~Mag/2",
+      "uses": 5,
+      "worth": null,
+      "base_exp": 35,
+      "effect": "Restores a medium amount of HP to an ally",
+      "obtainability": [
+        {
+          "method": "Other",
+          "locations": "Event tile, Barracks",
+          "source_ids": [
+            "obtain_magic_2"
+          ],
+          "verification": "single_source_transcribed",
+          "difficulty": null
+        }
+      ]
+    },
+    {
+      "id": "vulnerary",
+      "name": "Vulnerary",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 3,
+      "worth": 300,
+      "effect": "Restores 10 HP",
+      "sell_price": null
+    },
+    {
+      "id": "concoction",
+      "name": "Concoction",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 3,
+      "worth": 600,
+      "effect": "Restores 20 HP",
+      "sell_price": null
+    },
+    {
+      "id": "elixir",
+      "name": "Elixir",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 3,
+      "worth": 900,
+      "effect": "Restores all HP",
+      "sell_price": null
+    },
+    {
+      "id": "pure_water",
+      "name": "Pure Water",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 3,
+      "worth": 600,
+      "effect": "Temporarily increases Resistance by 5 (effect decreases by 1 each Turn)",
+      "sell_price": null
+    },
+    {
+      "id": "hp_tonic",
+      "name": "HP Tonic",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": 150,
+      "effect": "Max HP +5 until the chapter/skirmish's end",
+      "sell_price": null
+    },
+    {
+      "id": "strength_tonic",
+      "name": "Strength Tonic",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": 150,
+      "effect": "Strength +2 until the chapter/skirmish's end",
+      "sell_price": null
+    },
+    {
+      "id": "magic_tonic",
+      "name": "Magic Tonic",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": 150,
+      "effect": "Magic +2 until the chapter/skirmish's end",
+      "sell_price": null
+    },
+    {
+      "id": "skill_tonic",
+      "name": "Skill Tonic",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": 150,
+      "effect": "Skill +2 until the chapter/skirmish's end",
+      "sell_price": null
+    },
+    {
+      "id": "speed_tonic",
+      "name": "Speed Tonic",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": 150,
+      "effect": "Speed +2 until the chapter/skirmish's end",
+      "sell_price": null
+    },
+    {
+      "id": "luck_tonic",
+      "name": "Luck Tonic",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": 150,
+      "effect": "Luck +2 until the chapter/skirmish's end",
+      "sell_price": null
+    },
+    {
+      "id": "defence_tonic",
+      "name": "Defence Tonic",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": 150,
+      "effect": "Defence +2 until the chapter/skirmish's end",
+      "sell_price": null
+    },
+    {
+      "id": "resistance_tonic",
+      "name": "Resistance Tonic",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": 150,
+      "effect": "Resistance +2 until the chapter/skirmish's end",
+      "sell_price": null
+    },
+    {
+      "id": "door_key",
+      "name": "Door Key",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": 300,
+      "effect": "Opens a door",
+      "sell_price": null
+    },
+    {
+      "id": "chest_key",
+      "name": "Chest Key",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": 300,
+      "effect": "Opens a chest",
+      "sell_price": null
+    },
+    {
+      "id": "master_key",
+      "name": "Master Key",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": 500,
+      "effect": "Opens doors or chests",
+      "sell_price": null
+    },
+    {
+      "id": "seraph_robe",
+      "name": "Seraph Robe",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": 2500,
+      "effect": "Permanently raises HP by 5",
+      "sell_price": null
+    },
+    {
+      "id": "energy_drop",
+      "name": "Energy Drop",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": 2500,
+      "effect": "Permanently raises Strength by 2",
+      "sell_price": null
+    },
+    {
+      "id": "spirit_dust",
+      "name": "Spirit Dust",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": 2500,
+      "effect": "Permanently raises Magic by 2",
+      "sell_price": null
+    },
+    {
+      "id": "secret_book",
+      "name": "Secret Book",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": 2500,
+      "effect": "Permanently raises Skill by 2",
+      "sell_price": null
+    },
+    {
+      "id": "speedwing",
+      "name": "Speedwing",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": 2500,
+      "effect": "Permanently raises Speed by 2",
+      "sell_price": null
+    },
+    {
+      "id": "goddess_icon",
+      "name": "Goddess Icon",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": 2500,
+      "effect": "Permanently raises Luck by 2",
+      "sell_price": null
+    },
+    {
+      "id": "dracoshield",
+      "name": "Dracoshield",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": 2500,
+      "effect": "Permanently raises Defence by 2",
+      "sell_price": null
+    },
+    {
+      "id": "talisman",
+      "name": "Talisman",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": 2500,
+      "effect": "Permanently raises Resistance by 2",
+      "sell_price": null
+    },
+    {
+      "id": "nagas_tear",
+      "name": "Naga's Tear",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": 5000,
+      "effect": "Permanently raises Max HP by 5 and other stats by 2",
+      "sell_price": null
+    },
+    {
+      "id": "boots",
+      "name": "Boots",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": 2500,
+      "effect": "Permanently raises Movement by 2 (cannot be used on the same character twice)",
+      "sell_price": null
+    },
+    {
+      "id": "arms_scroll",
+      "name": "Arms Scroll",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": 2500,
+      "effect": "Permanently raises all displayed weapon ranks by 1 level",
+      "sell_price": null
+    },
+    {
+      "id": "master_seal",
+      "name": "Master Seal",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": 2500,
+      "effect": "Upgrades a Level 10 or higher unit to a promoted class",
+      "sell_price": null
+    },
+    {
+      "id": "second_seal",
+      "name": "Second Seal",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": 2500,
+      "effect": "Reclasses a Level 10 or higher (or promoted) unit to a different class",
+      "sell_price": null
+    },
+    {
+      "id": "bullion_s",
+      "name": "Bullion (S)",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "valuable",
+      "uses": null,
+      "worth": 2000,
+      "effect": "Sells for 1,000G",
+      "sell_price": 1000
+    },
+    {
+      "id": "bullion_m",
+      "name": "Bullion (M)",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "valuable",
+      "uses": null,
+      "worth": 10000,
+      "effect": "Sells for 5,000G",
+      "sell_price": 5000
+    },
+    {
+      "id": "bullion_l",
+      "name": "Bullion (L)",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "valuable",
+      "uses": null,
+      "worth": 20000,
+      "effect": "Sells for 10,000G",
+      "sell_price": 10000
+    },
+    {
+      "id": "sweet_tincture",
+      "name": "Sweet Tincture",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 3,
+      "worth": 150,
+      "effect": "Restores HP",
+      "sell_price": null
+    },
+    {
+      "id": "gaiuss_confect",
+      "name": "Gaius's Confect",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 5,
+      "worth": 2000,
+      "effect": "Strength, Skill and Speed +2 until the chapter/skirmish's end",
+      "sell_price": null
+    },
+    {
+      "id": "kriss_confect",
+      "name": "Kris's Confect",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 5,
+      "worth": 1000,
+      "effect": "Max HP +5, Defence and Resistance +2 until the chapter/skirmish's end",
+      "sell_price": null
+    },
+    {
+      "id": "tikis_tear",
+      "name": "Tiki's Tear",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": 1000,
+      "effect": "Max HP +5 and all other stats +2 until the chapter/skirmish's end",
+      "sell_price": null
+    },
+    {
+      "id": "seed_of_trust",
+      "name": "Seed of Trust",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": 1000,
+      "effect": "Can be used to improve support relationships when paired up",
+      "sell_price": null
+    },
+    {
+      "id": "reeking_box",
+      "name": "Reeking Box",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": 500,
+      "effect": "Summons risen soldiers to the world map (costs 4800G on Hard mode and above)",
+      "sell_price": null
+    },
+    {
+      "id": "rift_door",
+      "name": "Rift Door",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": 1000,
+      "effect": "Summons merchants to the world map",
+      "sell_price": null
+    },
+    {
+      "id": "supreme_emblem",
+      "name": "Supreme Emblem",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": null,
+      "effect": "Reward for achieving max Renown. Sells for 99,999G",
+      "sell_price": null
+    },
+    {
+      "id": "dread_scroll",
+      "name": "Dread Scroll",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": null,
+      "effect": "Changes a Level 10 or higher (or any Level if promoted) male unit to the Dread Fighter class",
+      "sell_price": null
+    },
+    {
+      "id": "wedding_bouquet",
+      "name": "Wedding Bouquet",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": null,
+      "effect": "Changes a Level 10 or higher (or any Level if promoted) female unit to the Bride class",
+      "sell_price": null
+    },
+    {
+      "id": "all_stats_plus_2",
+      "name": "All Stats +2",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": null,
+      "effect": "Teaches the All Stats +2 Skill when used",
+      "sell_price": null
+    },
+    {
+      "id": "paragon",
+      "name": "Paragon",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": null,
+      "effect": "Teaches the Paragon Skill when used",
+      "sell_price": null
+    },
+    {
+      "id": "iotes_shield",
+      "name": "Iote's Shield",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": null,
+      "effect": "Teaches the Iote's Shield Skill when used",
+      "sell_price": null
+    },
+    {
+      "id": "limit_breaker",
+      "name": "Limit Breaker",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": null,
+      "effect": "Teaches the Limit Breaker Skill when used",
+      "sell_price": null
+    },
+    {
+      "id": "silver_card",
+      "name": "Silver Card",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": null,
+      "effect": "The user can purchase items for half price",
+      "sell_price": null
+    },
+    {
+      "id": "outrealm_item",
+      "name": "Outrealm Item",
+      "source_ids": [
+        "items_1"
+      ],
+      "verification": "single_source_transcribed",
+      "item_type": "consumable_or_key",
+      "uses": 1,
+      "worth": null,
+      "effect": "What a DLC-exclusive item looks like to a player without DLC installed",
+      "sell_price": null
+    }
+  ]
+}

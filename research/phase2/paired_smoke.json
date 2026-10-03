@@ -1,0 +1,84 @@
+{
+  "pair_up_stat_bonus": {
+    "str": 5,
+    "mag": 0,
+    "skl": 1,
+    "spd": 1,
+    "lck": 0,
+    "def": 4,
+    "res": 0,
+    "mov": 1
+  },
+  "leader_effective_stats_after_pair_up": {
+    "hp": 30,
+    "str": 15,
+    "mag": 5,
+    "skl": 11,
+    "spd": 16,
+    "lck": 5,
+    "def": 11,
+    "res": 4
+  },
+  "dual_support_combat_bonus": {
+    "hit": 10,
+    "avoid": 10,
+    "crit": 0,
+    "crit_avoid": 0
+  },
+  "dual_rates_percent": {
+    "strike": 35,
+    "physical_guard": 6,
+    "magical_guard": 4
+  },
+  "forecast": {
+    "scope": "Supported single duel; effective stats supplied; independent uniform RNG model",
+    "source_ids": [
+      "calculations",
+      "true_hit",
+      "p2_skills_game_descriptions_0"
+    ],
+    "attacker": {
+      "can_attack": true,
+      "attack_with_triangle": 20,
+      "defense_used": 5,
+      "displayed_attack": 20,
+      "damage": 15,
+      "damage_scope": "Nominal hit without offensive/defensive procs; full results are in outcome",
+      "critical_damage": 45,
+      "displayed_hit": 100,
+      "true_hit_probability": 1.0,
+      "crit_raw_base": 3,
+      "crit_percent": 3,
+      "doubles": true,
+      "scheduled_hits": 2,
+      "effective": false,
+      "expected_damage_per_scheduled_hit": 15.9
+    },
+    "defender": {
+      "can_attack": true,
+      "attack_with_triangle": 17,
+      "defense_used": 11,
+      "displayed_attack": 17,
+      "damage": 6,
+      "damage_scope": "Nominal hit without offensive/defensive procs; full results are in outcome",
+      "critical_damage": 18,
+      "displayed_hit": 47,
+      "true_hit_probability": 0.4465,
+      "crit_raw_base": -1,
+      "crit_percent": 0,
+      "doubles": false,
+      "scheduled_hits": 1,
+      "effective": false,
+      "expected_damage_per_scheduled_hit": 2.6790000000000003
+    },
+    "outcome": null,
+    "limitation": "Dual Strike/Guard battle outcome is not implemented; use pair_up.py for bonuses/rates. Do not infer survival from this forecast."
+  },
+  "full_paired_outcome": "UNKNOWN",
+  "warning": "Do not infer paired survival/kill certainty. Support weapon, dual attack ordering, healing and enemy procs need a full paired model. Enemy combat bonuses must be supplied separately.",
+  "source_ids": [
+    "pair_support",
+    "pair_support_1",
+    "calculations"
+  ]
+}

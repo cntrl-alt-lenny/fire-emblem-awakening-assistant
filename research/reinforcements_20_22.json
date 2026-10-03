@@ -1,0 +1,53 @@
+[
+  {
+    "source_id": "reinforcements_20_22_0",
+    "name": "The Sword or the Knee | Fire Emblem Wiki | Fandom",
+    "url": "https://fireemblem.fandom.com/wiki/The_Sword_or_the_Knee",
+    "accessed": "2026-10-02",
+    "verification": "search_excerpt_unreviewed",
+    "tables": [],
+    "reinforcement_candidates": [
+      "### Hard Mode[]",
+      "All enemies spawn at the beginning of the enemy turn.",
+      "* Turn 6",
+      "* (from the south-west)",
+      "* General L8 w/ Spear",
+      "* Warrior L8 w/ Tomahawk",
+      "* General L8 w/ Silver Lance",
+      "* Warrior L8 w/ Silver Axe, Silver Bow",
+      "* (from the south)",
+      "* General L8 w/ Silver Axe",
+      "* General L8 w/ Silver Lance",
+      "* Sage L8 w/ Bolganone",
+      "* Hero L8 w/ Silver Sword",
+      "* Sage L8 w/ Thoron",
+      "* (from the south-east)",
+      "* Sage L8 w/ Rexcalibur",
+      "* General L8 w/ Silver Lance",
+      "* Sage L8 w/ Bolganone",
+      "* General L8 w/ Tomahawk",
+      "### Lunatic Mode[]",
+      "All enemies spawn at the beginning of the enemy turn.",
+      "* Turn 4",
+      "* (from the south-west)",
+      "* General L8 w/ Spear"
+    ]
+  },
+  {
+    "source_id": "reinforcements_20_22_1",
+    "name": "An Ill Presage | Fire Emblem Wiki | Fandom",
+    "url": "https://fireemblem.fandom.com/wiki/An_Ill_Presage",
+    "accessed": "2026-10-02",
+    "verification": "search_excerpt_unreviewed",
+    "tables": [],
+    "reinforcement_candidates": [
+      "### Normal Mode[]",
+      "* Various units appear from the graves on turns 4-6.",
+      "* 3 random units appear from the central-south road on turn 7.",
+      "* 3 random units appear from the northwest road on turn 8.",
+      "### Lunatic Mode[]",
+      "* Various(10) units appear from the graves on turns 3-5.",
+      "* 3 random units appear from both the Nort-West and South-East on turn 4."
+    ]
+  }
+]

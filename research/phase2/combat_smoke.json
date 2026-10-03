@@ -1,0 +1,87 @@
+{
+  "scope": "Supported single duel; effective stats supplied; independent uniform RNG model",
+  "source_ids": [
+    "calculations",
+    "true_hit",
+    "p2_skills_game_descriptions_0"
+  ],
+  "attacker": {
+    "can_attack": true,
+    "attack_with_triangle": 15,
+    "defense_used": 5,
+    "displayed_attack": 15,
+    "damage": 10,
+    "damage_scope": "Nominal hit without offensive/defensive procs; full results are in outcome",
+    "critical_damage": 30,
+    "displayed_hit": 100,
+    "true_hit_probability": 1.0,
+    "crit_raw_base": 3,
+    "crit_percent": 3,
+    "doubles": true,
+    "scheduled_hits": 2,
+    "effective": false,
+    "expected_damage_per_scheduled_hit": 10.600000000000001
+  },
+  "defender": {
+    "can_attack": true,
+    "attack_with_triangle": 17,
+    "defense_used": 7,
+    "displayed_attack": 17,
+    "damage": 10,
+    "damage_scope": "Nominal hit without offensive/defensive procs; full results are in outcome",
+    "critical_damage": 30,
+    "displayed_hit": 58,
+    "true_hit_probability": 0.6514,
+    "crit_raw_base": -1,
+    "crit_percent": 0,
+    "doubles": false,
+    "scheduled_hits": 1,
+    "effective": false,
+    "expected_damage_per_scheduled_hit": 6.513999999999999
+  },
+  "outcome": {
+    "order": [
+      "a",
+      "b",
+      "a"
+    ],
+    "vantage_active": false,
+    "attacker_death_probability": 0,
+    "defender_death_probability": 0.0591,
+    "expected_attacker_hp": 23.681419999999996,
+    "expected_defender_hp": 4.7044999999999995,
+    "minimum_possible_attacker_hp": 20,
+    "minimum_possible_defender_hp": 0,
+    "maximum_possible_attacker_hp": 30,
+    "maximum_possible_defender_hp": 5,
+    "deterministic": false,
+    "states": [
+      {
+        "attacker_hp": 20,
+        "defender_hp": 0,
+        "probability": 0.018955739999999995
+      },
+      {
+        "attacker_hp": 20,
+        "defender_hp": 5,
+        "probability": 0.6129022599999999
+      },
+      {
+        "attacker_hp": 30,
+        "defender_hp": 0,
+        "probability": 0.04014426
+      },
+      {
+        "attacker_hp": 30,
+        "defender_hp": 5,
+        "probability": 0.32799774
+      }
+    ]
+  },
+  "lethal_risk": false,
+  "certainty": "probability_distribution",
+  "assumptions": [
+    "Effective displayed stats and weapon stats supplied; independent uniform random draws.",
+    "Possible outcomes include criticals and supported procs; expected HP is not a survival guarantee."
+  ]
+}

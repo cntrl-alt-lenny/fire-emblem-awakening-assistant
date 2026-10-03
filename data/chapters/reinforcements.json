@@ -1,0 +1,2922 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "chapter_5_lunatic_wave_1",
+      "chapter_id": "chapter_5",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_5_lunatic_t1_r1",
+        "chapter_5_lunatic_t1_r2",
+        "chapter_5_lunatic_t1_r3"
+      ],
+      "turns": [
+        3
+      ],
+      "timing_text": "Turn 3",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_05_08_0"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_5_lunatic_wave_2",
+      "chapter_id": "chapter_5",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_5_lunatic_t2_r1",
+        "chapter_5_lunatic_t2_r2"
+      ],
+      "turns": [
+        5
+      ],
+      "timing_text": "Turn 5",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_05_08_0"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_5_lunatic_wave_3",
+      "chapter_id": "chapter_5",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_5_lunatic_t3_r1",
+        "chapter_5_lunatic_t3_r2",
+        "chapter_5_lunatic_t3_r3",
+        "chapter_5_lunatic_t3_r4"
+      ],
+      "turns": [
+        6
+      ],
+      "timing_text": "Turn 6",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_05_08_0"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_7_lunatic_wave_1",
+      "chapter_id": "chapter_7",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_7_lunatic_t1_r1",
+        "chapter_7_lunatic_t1_r2",
+        "chapter_7_lunatic_t1_r3"
+      ],
+      "turns": [
+        5
+      ],
+      "timing_text": "Turn 5",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_05_08_2"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_9_lunatic_wave_2",
+      "chapter_id": "chapter_9",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_9_lunatic_t2_r1",
+        "chapter_9_lunatic_t2_r2",
+        "chapter_9_lunatic_t2_r3",
+        "chapter_9_lunatic_t2_r4",
+        "chapter_9_lunatic_t2_r5",
+        "chapter_9_lunatic_t2_r6",
+        "chapter_9_lunatic_t2_r7",
+        "chapter_9_lunatic_t2_r8"
+      ],
+      "turns": [
+        5
+      ],
+      "timing_text": "Turn 5",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_09_12_0"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_10_lunatic_wave_1",
+      "chapter_id": "chapter_10",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_10_lunatic_t1_r1",
+        "chapter_10_lunatic_t1_r2"
+      ],
+      "turns": [
+        5
+      ],
+      "timing_text": "Turn 5",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_09_12_1"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_10_lunatic_wave_2",
+      "chapter_id": "chapter_10",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_10_lunatic_t2_r1",
+        "chapter_10_lunatic_t2_r2",
+        "chapter_10_lunatic_t2_r3"
+      ],
+      "turns": [
+        6
+      ],
+      "timing_text": "Turn 6",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_09_12_1"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_10_lunatic_wave_3",
+      "chapter_id": "chapter_10",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_10_lunatic_t3_r1",
+        "chapter_10_lunatic_t3_r2",
+        "chapter_10_lunatic_t3_r3",
+        "chapter_10_lunatic_t3_r4",
+        "chapter_10_lunatic_t3_r5",
+        "chapter_10_lunatic_t3_r6",
+        "chapter_10_lunatic_t3_r7"
+      ],
+      "turns": [
+        7
+      ],
+      "timing_text": "Turn 7",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_09_12_1"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_14_lunatic_wave_1",
+      "chapter_id": "chapter_14",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_14_lunatic_t1_r1",
+        "chapter_14_lunatic_t1_r2",
+        "chapter_14_lunatic_t1_r3"
+      ],
+      "turns": [
+        3
+      ],
+      "timing_text": "Turn 3",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_13_16_1"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_14_lunatic_wave_2",
+      "chapter_id": "chapter_14",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_14_lunatic_t2_r1",
+        "chapter_14_lunatic_t2_r2",
+        "chapter_14_lunatic_t2_r3"
+      ],
+      "turns": [
+        4
+      ],
+      "timing_text": "Turn 4",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_13_16_1"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_14_lunatic_wave_3",
+      "chapter_id": "chapter_14",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_14_lunatic_t3_r1",
+        "chapter_14_lunatic_t3_r2",
+        "chapter_14_lunatic_t3_r3"
+      ],
+      "turns": [
+        5
+      ],
+      "timing_text": "Turn 5",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_13_16_1"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_16_lunatic_wave_1",
+      "chapter_id": "chapter_16",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_16_lunatic_t1_r1",
+        "chapter_16_lunatic_t1_r2",
+        "chapter_16_lunatic_t1_r3",
+        "chapter_16_lunatic_t1_r4",
+        "chapter_16_lunatic_t1_r5",
+        "chapter_16_lunatic_t1_r6",
+        "chapter_16_lunatic_t1_r7",
+        "chapter_16_lunatic_t1_r8",
+        "chapter_16_lunatic_t1_r9",
+        "chapter_16_lunatic_t1_r10"
+      ],
+      "turns": [
+        4
+      ],
+      "timing_text": "Turn 4",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_missing_details_0"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_16_lunatic_wave_2",
+      "chapter_id": "chapter_16",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_16_lunatic_t2_r1",
+        "chapter_16_lunatic_t2_r2",
+        "chapter_16_lunatic_t2_r3",
+        "chapter_16_lunatic_t2_r4",
+        "chapter_16_lunatic_t2_r5",
+        "chapter_16_lunatic_t2_r6"
+      ],
+      "turns": [
+        5
+      ],
+      "timing_text": "Turn 5",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_missing_details_0"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_16_lunatic_wave_3",
+      "chapter_id": "chapter_16",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_16_lunatic_t3_r1",
+        "chapter_16_lunatic_t3_r2",
+        "chapter_16_lunatic_t3_r3",
+        "chapter_16_lunatic_t3_r4",
+        "chapter_16_lunatic_t3_r5",
+        "chapter_16_lunatic_t3_r6"
+      ],
+      "turns": [
+        6
+      ],
+      "timing_text": "Turn 6",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_missing_details_0"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_17_lunatic_wave_1",
+      "chapter_id": "chapter_17",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_17_lunatic_t1_r1",
+        "chapter_17_lunatic_t1_r2",
+        "chapter_17_lunatic_t1_r3",
+        "chapter_17_lunatic_t1_r4"
+      ],
+      "turns": [
+        8
+      ],
+      "timing_text": "Turn 8",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_17_20_0"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_17_lunatic_wave_2",
+      "chapter_id": "chapter_17",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_17_lunatic_t2_r1",
+        "chapter_17_lunatic_t2_r2",
+        "chapter_17_lunatic_t2_r3",
+        "chapter_17_lunatic_t2_r4"
+      ],
+      "turns": [
+        9
+      ],
+      "timing_text": "Turn 9",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_17_20_0"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_17_lunatic_wave_3",
+      "chapter_id": "chapter_17",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_17_lunatic_t3_r1",
+        "chapter_17_lunatic_t3_r2"
+      ],
+      "turns": [
+        10
+      ],
+      "timing_text": "Turn 10",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_17_20_0"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_17_lunatic_wave_4",
+      "chapter_id": "chapter_17",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_17_lunatic_t4_r1",
+        "chapter_17_lunatic_t4_r2",
+        "chapter_17_lunatic_t4_r3",
+        "chapter_17_lunatic_t4_r4"
+      ],
+      "turns": [
+        11
+      ],
+      "timing_text": "Turn 11",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_17_20_0"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_17_lunatic_wave_5",
+      "chapter_id": "chapter_17",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_17_lunatic_t5_r1",
+        "chapter_17_lunatic_t5_r2",
+        "chapter_17_lunatic_t5_r3",
+        "chapter_17_lunatic_t5_r4"
+      ],
+      "turns": [
+        12
+      ],
+      "timing_text": "Turn 12",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_17_20_0"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_17_lunatic_wave_6",
+      "chapter_id": "chapter_17",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_17_lunatic_t6_r1",
+        "chapter_17_lunatic_t6_r2",
+        "chapter_17_lunatic_t6_r3",
+        "chapter_17_lunatic_t6_r4",
+        "chapter_17_lunatic_t6_r5",
+        "chapter_17_lunatic_t6_r6"
+      ],
+      "turns": [
+        13
+      ],
+      "timing_text": "Turn 13",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_17_20_0"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_20_lunatic_wave_1",
+      "chapter_id": "chapter_20",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_20_lunatic_t1_r1",
+        "chapter_20_lunatic_t1_r2",
+        "chapter_20_lunatic_t1_r3",
+        "chapter_20_lunatic_t1_r4",
+        "chapter_20_lunatic_t1_r5",
+        "chapter_20_lunatic_t1_r6",
+        "chapter_20_lunatic_t1_r7",
+        "chapter_20_lunatic_t1_r8",
+        "chapter_20_lunatic_t1_r9",
+        "chapter_20_lunatic_t1_r10",
+        "chapter_20_lunatic_t1_r11",
+        "chapter_20_lunatic_t1_r12",
+        "chapter_20_lunatic_t1_r13",
+        "chapter_20_lunatic_t1_r14",
+        "chapter_20_lunatic_t1_r15",
+        "chapter_20_lunatic_t1_r16",
+        "chapter_20_lunatic_t1_r17",
+        "chapter_20_lunatic_t1_r18"
+      ],
+      "turns": [
+        4
+      ],
+      "timing_text": "Turn 4",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm20_detail_0"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_21_lunatic_wave_1",
+      "chapter_id": "chapter_21",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_21_lunatic_t1_r1",
+        "chapter_21_lunatic_t1_r2"
+      ],
+      "turns": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "timing_text": "Turns 2-13",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_late_0"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_21_lunatic_wave_2",
+      "chapter_id": "chapter_21",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_21_lunatic_t2_r1",
+        "chapter_21_lunatic_t2_r2",
+        "chapter_21_lunatic_t2_r3",
+        "chapter_21_lunatic_t2_r4"
+      ],
+      "turns": [
+        5
+      ],
+      "timing_text": "Turn 5",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_late_0"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_21_lunatic_wave_3",
+      "chapter_id": "chapter_21",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_21_lunatic_t3_r1",
+        "chapter_21_lunatic_t3_r2",
+        "chapter_21_lunatic_t3_r3",
+        "chapter_21_lunatic_t3_r4"
+      ],
+      "turns": [
+        6
+      ],
+      "timing_text": "Turn 6",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_late_0"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_21_lunatic_wave_4",
+      "chapter_id": "chapter_21",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_21_lunatic_t4_r1",
+        "chapter_21_lunatic_t4_r2",
+        "chapter_21_lunatic_t4_r3",
+        "chapter_21_lunatic_t4_r4"
+      ],
+      "turns": [
+        7
+      ],
+      "timing_text": "Turn 7",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_late_0"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_21_lunatic_wave_5",
+      "chapter_id": "chapter_21",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_21_lunatic_t5_r1",
+        "chapter_21_lunatic_t5_r2",
+        "chapter_21_lunatic_t5_r3",
+        "chapter_21_lunatic_t5_r4"
+      ],
+      "turns": [
+        8
+      ],
+      "timing_text": "Turn 8",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_late_0"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_21_lunatic_wave_6",
+      "chapter_id": "chapter_21",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_21_lunatic_t6_r1",
+        "chapter_21_lunatic_t6_r2",
+        "chapter_21_lunatic_t6_r3",
+        "chapter_21_lunatic_t6_r4",
+        "chapter_21_lunatic_t6_r5",
+        "chapter_21_lunatic_t6_r6",
+        "chapter_21_lunatic_t6_r7",
+        "chapter_21_lunatic_t6_r8"
+      ],
+      "turns": [
+        9
+      ],
+      "timing_text": "Turn 9",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_late_0"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_23_lunatic_wave_1",
+      "chapter_id": "chapter_23",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_23_lunatic_t1_r1"
+      ],
+      "turns": null,
+      "timing_text": null,
+      "timing_type": "UNKNOWN",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_tail_retry_0"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_23_lunatic_wave_2",
+      "chapter_id": "chapter_23",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_23_lunatic_t2_r1",
+        "chapter_23_lunatic_t2_r2",
+        "chapter_23_lunatic_t2_r3"
+      ],
+      "turns": [
+        4
+      ],
+      "timing_text": "Turn 4",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_tail_retry_0"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_23_lunatic_wave_3",
+      "chapter_id": "chapter_23",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_23_lunatic_t3_r1",
+        "chapter_23_lunatic_t3_r2",
+        "chapter_23_lunatic_t3_r3",
+        "chapter_23_lunatic_t3_r4",
+        "chapter_23_lunatic_t3_r5",
+        "chapter_23_lunatic_t3_r6"
+      ],
+      "turns": [
+        5
+      ],
+      "timing_text": "Turn 5",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_tail_retry_0"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_23_lunatic_wave_4",
+      "chapter_id": "chapter_23",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_23_lunatic_t4_r1",
+        "chapter_23_lunatic_t4_r2",
+        "chapter_23_lunatic_t4_r3",
+        "chapter_23_lunatic_t4_r4",
+        "chapter_23_lunatic_t4_r5",
+        "chapter_23_lunatic_t4_r6"
+      ],
+      "turns": [
+        6
+      ],
+      "timing_text": "Turn 6",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_tail_retry_0"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_24_lunatic_wave_1",
+      "chapter_id": "chapter_24",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_24_lunatic_t1_r1"
+      ],
+      "turns": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "timing_text": "Turns 2-5",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_tail_retry_1"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_25_lunatic_wave_2",
+      "chapter_id": "chapter_25",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_25_lunatic_t2_r1",
+        "chapter_25_lunatic_t2_r2",
+        "chapter_25_lunatic_t2_r3",
+        "chapter_25_lunatic_t2_r4",
+        "chapter_25_lunatic_t2_r5",
+        "chapter_25_lunatic_t2_r6",
+        "chapter_25_lunatic_t2_r7",
+        "chapter_25_lunatic_t2_r8"
+      ],
+      "turns": [
+        4
+      ],
+      "timing_text": "Turn 4",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_edges_0"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_25_lunatic_wave_3",
+      "chapter_id": "chapter_25",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_25_lunatic_t3_r1",
+        "chapter_25_lunatic_t3_r2",
+        "chapter_25_lunatic_t3_r3",
+        "chapter_25_lunatic_t3_r4",
+        "chapter_25_lunatic_t3_r5",
+        "chapter_25_lunatic_t3_r6",
+        "chapter_25_lunatic_t3_r7",
+        "chapter_25_lunatic_t3_r8",
+        "chapter_25_lunatic_t3_r9",
+        "chapter_25_lunatic_t3_r10"
+      ],
+      "turns": [
+        5
+      ],
+      "timing_text": "Turn 5",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_edges_0"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_25_lunatic_wave_4",
+      "chapter_id": "chapter_25",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_25_lunatic_t4_r1",
+        "chapter_25_lunatic_t4_r2",
+        "chapter_25_lunatic_t4_r3",
+        "chapter_25_lunatic_t4_r4",
+        "chapter_25_lunatic_t4_r5",
+        "chapter_25_lunatic_t4_r6",
+        "chapter_25_lunatic_t4_r7",
+        "chapter_25_lunatic_t4_r8",
+        "chapter_25_lunatic_t4_r9",
+        "chapter_25_lunatic_t4_r10",
+        "chapter_25_lunatic_t4_r11",
+        "chapter_25_lunatic_t4_r12",
+        "chapter_25_lunatic_t4_r13",
+        "chapter_25_lunatic_t4_r14"
+      ],
+      "turns": [
+        6
+      ],
+      "timing_text": "Turn 6",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_edges_0"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_25_lunatic_wave_5",
+      "chapter_id": "chapter_25",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_25_lunatic_t5_r1",
+        "chapter_25_lunatic_t5_r2",
+        "chapter_25_lunatic_t5_r3",
+        "chapter_25_lunatic_t5_r4",
+        "chapter_25_lunatic_t5_r5",
+        "chapter_25_lunatic_t5_r6"
+      ],
+      "turns": [
+        7
+      ],
+      "timing_text": "Turn 7",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_edges_0"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "chapter_25_lunatic_wave_6",
+      "chapter_id": "chapter_25",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "chapter_25_lunatic_t6_r1",
+        "chapter_25_lunatic_t6_r2",
+        "chapter_25_lunatic_t6_r3",
+        "chapter_25_lunatic_t6_r4",
+        "chapter_25_lunatic_t6_r5",
+        "chapter_25_lunatic_t6_r6"
+      ],
+      "turns": [
+        8
+      ],
+      "timing_text": "Turn 8",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_edges_0"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "endgame_lunatic_progression_1_0",
+      "chapter_id": "endgame",
+      "difficulty": "Lunatic",
+      "enemy_ids": [],
+      "turns": [
+        2
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "units": [
+        {
+          "class_id": "paladin",
+          "source_slot_index": 1,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "wyvern_lord",
+          "source_slot_index": 2,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "assassin",
+          "source_slot_index": 3,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "general",
+          "source_slot_index": 4,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        }
+      ],
+      "source_ids": [
+        "p2_lm_edge_details_1"
+      ],
+      "crosscheck_status": "single_source_progression",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "endgame_lunatic_progression_2_0",
+      "chapter_id": "endgame",
+      "difficulty": "Lunatic",
+      "enemy_ids": [],
+      "turns": [
+        3
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "units": [
+        {
+          "class_id": "hero",
+          "source_slot_index": 1,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "sage",
+          "source_slot_index": 2,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "war_monk",
+          "source_slot_index": 3,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "swordmaster",
+          "source_slot_index": 4,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "war_monk",
+          "source_slot_index": 5,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "assassin",
+          "source_slot_index": 6,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "hero",
+          "source_slot_index": 7,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "great_knight",
+          "source_slot_index": 8,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        }
+      ],
+      "source_ids": [
+        "p2_lm_edge_details_1"
+      ],
+      "crosscheck_status": "single_source_progression",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "endgame_lunatic_progression_3_0",
+      "chapter_id": "endgame",
+      "difficulty": "Lunatic",
+      "enemy_ids": [],
+      "turns": [
+        4
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "units": [
+        {
+          "class_id": "trickster",
+          "source_slot_index": 1,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "great_knight",
+          "source_slot_index": 2,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "berserker",
+          "source_slot_index": 3,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "griffon_rider",
+          "source_slot_index": 4,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "general",
+          "source_slot_index": 5,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "wyvern_lord",
+          "source_slot_index": 6,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "dark_flier",
+          "source_slot_index": 7,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "assassin",
+          "source_slot_index": 8,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        }
+      ],
+      "source_ids": [
+        "p2_lm_edge_details_1"
+      ],
+      "crosscheck_status": "single_source_progression",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "endgame_lunatic_progression_4_0",
+      "chapter_id": "endgame",
+      "difficulty": "Lunatic",
+      "enemy_ids": [],
+      "turns": [
+        5
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "units": [
+        {
+          "class_id": "valkyrie",
+          "source_slot_index": 1,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "hero",
+          "source_slot_index": 2,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "falcon_knight",
+          "source_slot_index": 3,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "paladin",
+          "source_slot_index": 4,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        }
+      ],
+      "source_ids": [
+        "p2_lm_edge_details_1"
+      ],
+      "crosscheck_status": "single_source_progression",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "endgame_lunatic_progression_5_0",
+      "chapter_id": "endgame",
+      "difficulty": "Lunatic",
+      "enemy_ids": [],
+      "turns": [
+        6
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "units": [
+        {
+          "class_id": "great_knight",
+          "source_slot_index": 1,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "assassin",
+          "source_slot_index": 2,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "dark_knight",
+          "source_slot_index": 3,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "sniper",
+          "source_slot_index": 4,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        }
+      ],
+      "source_ids": [
+        "p2_lm_edge_details_1"
+      ],
+      "crosscheck_status": "single_source_progression",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "endgame_lunatic_progression_6_0",
+      "chapter_id": "endgame",
+      "difficulty": "Lunatic",
+      "enemy_ids": [],
+      "turns": [
+        7
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "units": [
+        {
+          "class_id": "bow_knight",
+          "source_slot_index": 1,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "griffon_rider",
+          "source_slot_index": 2,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "hero",
+          "source_slot_index": 3,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "wyvern_lord",
+          "source_slot_index": 4,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "wyvern_lord",
+          "source_slot_index": 5,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "general",
+          "source_slot_index": 6,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "sniper",
+          "source_slot_index": 7,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "sniper",
+          "source_slot_index": 8,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        }
+      ],
+      "source_ids": [
+        "p2_lm_edge_details_1"
+      ],
+      "crosscheck_status": "single_source_progression",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "endgame_lunatic_progression_7_0",
+      "chapter_id": "endgame",
+      "difficulty": "Lunatic",
+      "enemy_ids": [],
+      "turns": [
+        8
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "units": [
+        {
+          "class_id": "falcon_knight",
+          "source_slot_index": 1,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "dark_knight",
+          "source_slot_index": 2,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "wyvern_lord",
+          "source_slot_index": 3,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "sorcerer",
+          "source_slot_index": 4,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "paladin",
+          "source_slot_index": 5,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "sniper",
+          "source_slot_index": 6,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "griffon_rider",
+          "source_slot_index": 7,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "valkyrie",
+          "source_slot_index": 8,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        }
+      ],
+      "source_ids": [
+        "p2_lm_edge_details_1"
+      ],
+      "crosscheck_status": "single_source_progression",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "endgame_lunatic_progression_8_0",
+      "chapter_id": "endgame",
+      "difficulty": "Lunatic",
+      "enemy_ids": [],
+      "turns": [
+        9
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "units": [
+        {
+          "class_id": "war_monk",
+          "source_slot_index": 1,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "general",
+          "source_slot_index": 2,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "paladin",
+          "source_slot_index": 3,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "hero",
+          "source_slot_index": 4,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        }
+      ],
+      "source_ids": [
+        "p2_lm_edge_details_1"
+      ],
+      "crosscheck_status": "single_source_progression",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "endgame_lunatic_progression_9_0",
+      "chapter_id": "endgame",
+      "difficulty": "Lunatic",
+      "enemy_ids": [],
+      "turns": [
+        10
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "units": [
+        {
+          "class_id": "general",
+          "source_slot_index": 1,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "bow_knight",
+          "source_slot_index": 2,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "sniper",
+          "source_slot_index": 3,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "dark_flier",
+          "source_slot_index": 4,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        }
+      ],
+      "source_ids": [
+        "p2_lm_edge_details_1"
+      ],
+      "crosscheck_status": "single_source_progression",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "endgame_lunatic_progression_10_0",
+      "chapter_id": "endgame",
+      "difficulty": "Lunatic",
+      "enemy_ids": [],
+      "turns": [
+        11
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "units": [
+        {
+          "class_id": "sniper",
+          "source_slot_index": 1,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "trickster",
+          "source_slot_index": 2,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "valkyrie",
+          "source_slot_index": 3,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "dark_knight",
+          "source_slot_index": 4,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "falcon_knight",
+          "source_slot_index": 5,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "war_monk",
+          "source_slot_index": 6,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "assassin",
+          "source_slot_index": 7,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "wyvern_lord",
+          "source_slot_index": 8,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        }
+      ],
+      "source_ids": [
+        "p2_lm_edge_details_1"
+      ],
+      "crosscheck_status": "single_source_progression",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "endgame_lunatic_progression_11_0",
+      "chapter_id": "endgame",
+      "difficulty": "Lunatic",
+      "enemy_ids": [],
+      "turns": [
+        12
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "units": [
+        {
+          "class_id": "dark_flier",
+          "source_slot_index": 1,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "valkyrie",
+          "source_slot_index": 2,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "general",
+          "source_slot_index": 3,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "warrior",
+          "source_slot_index": 4,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "sage",
+          "source_slot_index": 5,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "paladin",
+          "source_slot_index": 6,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "war_monk",
+          "source_slot_index": 7,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "great_knight",
+          "source_slot_index": 8,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        }
+      ],
+      "source_ids": [
+        "p2_lm_edge_details_1"
+      ],
+      "crosscheck_status": "single_source_progression",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "endgame_lunatic_progression_12_0",
+      "chapter_id": "endgame",
+      "difficulty": "Lunatic",
+      "enemy_ids": [],
+      "turns": [
+        13
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "units": [
+        {
+          "class_id": "sage",
+          "source_slot_index": 1,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "sorcerer",
+          "source_slot_index": 2,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "assassin",
+          "source_slot_index": 3,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "trickster",
+          "source_slot_index": 4,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        }
+      ],
+      "source_ids": [
+        "p2_lm_edge_details_1"
+      ],
+      "crosscheck_status": "single_source_progression",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "endgame_lunatic_progression_13_0",
+      "chapter_id": "endgame",
+      "difficulty": "Lunatic",
+      "enemy_ids": [],
+      "turns": [
+        14
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "units": [
+        {
+          "class_id": "berserker",
+          "source_slot_index": 1,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "berserker",
+          "source_slot_index": 2,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "sage",
+          "source_slot_index": 3,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "sage",
+          "source_slot_index": 4,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        }
+      ],
+      "source_ids": [
+        "p2_lm_edge_details_1"
+      ],
+      "crosscheck_status": "single_source_progression",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "endgame_lunatic_progression_14_0",
+      "chapter_id": "endgame",
+      "difficulty": "Lunatic",
+      "enemy_ids": [],
+      "turns": [
+        15
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "units": [
+        {
+          "class_id": "swordmaster",
+          "source_slot_index": 1,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "sniper",
+          "source_slot_index": 2,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "warrior",
+          "source_slot_index": 3,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "berserker",
+          "source_slot_index": 4,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "swordmaster",
+          "source_slot_index": 5,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "assassin",
+          "source_slot_index": 6,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "falcon_knight",
+          "source_slot_index": 7,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "sorcerer",
+          "source_slot_index": 8,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        }
+      ],
+      "source_ids": [
+        "p2_lm_edge_details_1"
+      ],
+      "crosscheck_status": "single_source_progression",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "endgame_lunatic_progression_15_0",
+      "chapter_id": "endgame",
+      "difficulty": "Lunatic",
+      "enemy_ids": [],
+      "turns": [
+        16
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "units": [
+        {
+          "class_id": "wyvern_lord",
+          "source_slot_index": 1,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "falcon_knight",
+          "source_slot_index": 2,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "falcon_knight",
+          "source_slot_index": 3,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "assassin",
+          "source_slot_index": 4,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "griffon_rider",
+          "source_slot_index": 5,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "wyvern_lord",
+          "source_slot_index": 6,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "dark_knight",
+          "source_slot_index": 7,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "sniper",
+          "source_slot_index": 8,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        }
+      ],
+      "source_ids": [
+        "p2_lm_edge_details_1"
+      ],
+      "crosscheck_status": "single_source_progression",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "endgame_lunatic_progression_16_0",
+      "chapter_id": "endgame",
+      "difficulty": "Lunatic",
+      "enemy_ids": [],
+      "turns": [
+        17
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "units": [
+        {
+          "class_id": "dark_knight",
+          "source_slot_index": 1,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "war_monk",
+          "source_slot_index": 2,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "sorcerer",
+          "source_slot_index": 3,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "valkyrie",
+          "source_slot_index": 4,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        }
+      ],
+      "source_ids": [
+        "p2_lm_edge_details_1"
+      ],
+      "crosscheck_status": "single_source_progression",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "endgame_lunatic_progression_17_0",
+      "chapter_id": "endgame",
+      "difficulty": "Lunatic",
+      "enemy_ids": [],
+      "turns": [
+        18
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "units": [
+        {
+          "class_id": "warrior",
+          "source_slot_index": 1,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "paladin",
+          "source_slot_index": 2,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "bow_knight",
+          "source_slot_index": 3,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "general",
+          "source_slot_index": 4,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        }
+      ],
+      "source_ids": [
+        "p2_lm_edge_details_1"
+      ],
+      "crosscheck_status": "single_source_progression",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "endgame_lunatic_progression_18_0",
+      "chapter_id": "endgame",
+      "difficulty": "Lunatic",
+      "enemy_ids": [],
+      "turns": [
+        19
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "units": [
+        {
+          "class_id": "assassin",
+          "source_slot_index": 1,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "warrior",
+          "source_slot_index": 2,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "wyvern_lord",
+          "source_slot_index": 3,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "swordmaster",
+          "source_slot_index": 4,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "hero",
+          "source_slot_index": 5,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "general",
+          "source_slot_index": 6,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "wyvern_lord",
+          "source_slot_index": 7,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "hero",
+          "source_slot_index": 8,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        }
+      ],
+      "source_ids": [
+        "p2_lm_edge_details_1"
+      ],
+      "crosscheck_status": "single_source_progression",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "endgame_lunatic_progression_19_0",
+      "chapter_id": "endgame",
+      "difficulty": "Lunatic",
+      "enemy_ids": [],
+      "turns": [
+        20
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "units": [
+        {
+          "class_id": "griffon_rider",
+          "source_slot_index": 1,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "swordmaster",
+          "source_slot_index": 2,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "great_knight",
+          "source_slot_index": 3,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "griffon_rider",
+          "source_slot_index": 4,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "dark_flier",
+          "source_slot_index": 5,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "sniper",
+          "source_slot_index": 6,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "paladin",
+          "source_slot_index": 7,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "wyvern_lord",
+          "source_slot_index": 8,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        }
+      ],
+      "source_ids": [
+        "p2_lm_edge_details_1"
+      ],
+      "crosscheck_status": "single_source_progression",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "endgame_lunatic_progression_20_0",
+      "chapter_id": "endgame",
+      "difficulty": "Lunatic",
+      "enemy_ids": [],
+      "turns": [
+        21
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "units": [
+        {
+          "class_id": "sorcerer",
+          "source_slot_index": 1,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "dark_flier",
+          "source_slot_index": 2,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "swordmaster",
+          "source_slot_index": 3,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        },
+        {
+          "class_id": "paladin",
+          "source_slot_index": 4,
+          "equipment": "UNKNOWN",
+          "note": "Source refers to same-class starting data; equipment variant/coordinates not established."
+        }
+      ],
+      "source_ids": [
+        "p2_lm_edge_details_1"
+      ],
+      "crosscheck_status": "single_source_progression",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "paralogue_8_lunatic_wave_1",
+      "chapter_id": "paralogue_8",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "paralogue_8_lunatic_t1_r1",
+        "paralogue_8_lunatic_t1_r2",
+        "paralogue_8_lunatic_t1_r3",
+        "paralogue_8_lunatic_t1_r4"
+      ],
+      "turns": [
+        2
+      ],
+      "timing_text": "Turn 2",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_para_full_a_1"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "paralogue_8_lunatic_wave_2",
+      "chapter_id": "paralogue_8",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "paralogue_8_lunatic_t2_r1",
+        "paralogue_8_lunatic_t2_r2",
+        "paralogue_8_lunatic_t2_r3",
+        "paralogue_8_lunatic_t2_r4",
+        "paralogue_8_lunatic_t2_r5",
+        "paralogue_8_lunatic_t2_r6"
+      ],
+      "turns": [
+        3
+      ],
+      "timing_text": "Turn 3",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_para_full_a_1"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "paralogue_17_lunatic_wave_1",
+      "chapter_id": "paralogue_17",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "paralogue_17_lunatic_t1_r1",
+        "paralogue_17_lunatic_t1_r2",
+        "paralogue_17_lunatic_t1_r3",
+        "paralogue_17_lunatic_t1_r4",
+        "paralogue_17_lunatic_t1_r5",
+        "paralogue_17_lunatic_t1_r6",
+        "paralogue_17_lunatic_t1_r7",
+        "paralogue_17_lunatic_t1_r8"
+      ],
+      "turns": [
+        2
+      ],
+      "timing_text": "Turn 2",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_para_full_c_3"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "paralogue_17_lunatic_wave_2",
+      "chapter_id": "paralogue_17",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "paralogue_17_lunatic_t2_r1",
+        "paralogue_17_lunatic_t2_r2",
+        "paralogue_17_lunatic_t2_r3",
+        "paralogue_17_lunatic_t2_r4",
+        "paralogue_17_lunatic_t2_r5",
+        "paralogue_17_lunatic_t2_r6",
+        "paralogue_17_lunatic_t2_r7",
+        "paralogue_17_lunatic_t2_r8",
+        "paralogue_17_lunatic_t2_r9",
+        "paralogue_17_lunatic_t2_r10"
+      ],
+      "turns": [
+        3
+      ],
+      "timing_text": "Turn 3",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_para_full_c_3"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "paralogue_17_lunatic_wave_3",
+      "chapter_id": "paralogue_17",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "paralogue_17_lunatic_t3_r1",
+        "paralogue_17_lunatic_t3_r2"
+      ],
+      "turns": [
+        4
+      ],
+      "timing_text": "Turn 4",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_para_full_c_3"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "paralogue_19_lunatic_wave_1",
+      "chapter_id": "paralogue_19",
+      "difficulty": "Lunatic",
+      "enemy_ids": [
+        "paralogue_19_lunatic_t1_r1",
+        "paralogue_19_lunatic_t1_r2",
+        "paralogue_19_lunatic_t1_r3",
+        "paralogue_19_lunatic_t1_r4"
+      ],
+      "turns": [
+        3
+      ],
+      "timing_text": "Turn 3",
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "UNKNOWN",
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "source_ids": [
+        "p2_lm_para_full_b_2"
+      ],
+      "crosscheck_status": "not_independently_confirmed",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN"
+    },
+    {
+      "id": "p2_reviewed_wave_0",
+      "enemy_ids": [],
+      "coordinates": null,
+      "can_act_on_spawn": true,
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN",
+      "chapter_id": "chapter_7",
+      "difficulty": "Hard",
+      "turns": [
+        5
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "Western map edge",
+      "spawn_phase": "beginning_enemy_phase",
+      "units": [
+        {
+          "count": 3,
+          "class_id": "wyvern_rider",
+          "level": 7,
+          "equipment": [
+            "steel_axe"
+          ]
+        }
+      ],
+      "source_ids": [
+        "reinforcements_early_1",
+        "p2_guide_08_0",
+        "gamerguides_modes"
+      ],
+      "crosscheck_status": "western arrival independently described; exact turn/class/equipment single-source",
+      "can_act_on_spawn_verification": "single_source_mode_rule"
+    },
+    {
+      "id": "p2_reviewed_wave_1",
+      "enemy_ids": [],
+      "coordinates": null,
+      "can_act_on_spawn": true,
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN",
+      "chapter_id": "chapter_10",
+      "difficulty": "Hard",
+      "turns": [
+        6
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "Western forts",
+      "spawn_phase": "beginning_enemy_phase",
+      "units": [
+        {
+          "count": 1,
+          "class_id": "wyvern_rider",
+          "level": 13,
+          "equipment": [
+            "steel_axe"
+          ]
+        },
+        {
+          "count": 1,
+          "class_id": "wyvern_rider",
+          "level": 13,
+          "equipment": [
+            "hand_axe"
+          ]
+        }
+      ],
+      "source_ids": [
+        "reinforcements_mid_0",
+        "gamerguides_modes"
+      ],
+      "crosscheck_status": "single indexed reference",
+      "can_act_on_spawn_verification": "single_source_mode_rule"
+    },
+    {
+      "id": "p2_reviewed_wave_2",
+      "enemy_ids": [],
+      "coordinates": null,
+      "can_act_on_spawn": true,
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN",
+      "chapter_id": "chapter_15",
+      "difficulty": "Hard",
+      "turns": [
+        4
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "Bottom / southeastern map edge; exact tiles UNKNOWN",
+      "spawn_phase": "beginning_enemy_phase",
+      "units": [
+        {
+          "count": 1,
+          "class_id": "sniper",
+          "level": 3,
+          "equipment": [
+            "longbow"
+          ],
+          "location": "bottom"
+        },
+        {
+          "count": 2,
+          "class_id": "warrior",
+          "level": 3,
+          "equipment": [
+            "silver_axe",
+            "silver_bow"
+          ],
+          "location": "southeast",
+          "possible_skill": "Counter (not a guaranteed roll)"
+        },
+        {
+          "count": 1,
+          "class_id": "fighter",
+          "level": 20,
+          "equipment": [
+            "silver_axe"
+          ],
+          "location": "southeast"
+        },
+        {
+          "count": 1,
+          "class_id": "fighter",
+          "level": 20,
+          "equipment": [
+            "tomahawk",
+            "concoction"
+          ],
+          "location": "southeast"
+        },
+        {
+          "count": 1,
+          "class_id": "sniper",
+          "level": 3,
+          "equipment": [
+            "longbow"
+          ],
+          "location": "southeast"
+        }
+      ],
+      "source_ids": [
+        "reinforcements_14_16_0",
+        "gamerguides_modes"
+      ],
+      "crosscheck_status": "single indexed reference",
+      "can_act_on_spawn_verification": "single_source_mode_rule",
+      "quarantined": true,
+      "quarantine_reason": "Map and difficulty heading loss: contents match Chapter 16 Lunatic subsection, not Chapter 15 Hard."
+    },
+    {
+      "id": "p2_reviewed_wave_3",
+      "enemy_ids": [],
+      "coordinates": null,
+      "can_act_on_spawn": true,
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN",
+      "chapter_id": "chapter_15",
+      "difficulty": "Hard",
+      "turns": [
+        5
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "West, east, southwest and southeast edges",
+      "spawn_phase": "beginning_enemy_phase",
+      "units": [
+        {
+          "count": 2,
+          "class_id": "falcon_knight",
+          "level": 3,
+          "equipment": [
+            "silver_lance"
+          ],
+          "location": "west"
+        },
+        {
+          "count": 1,
+          "class_id": "falcon_knight",
+          "level": 3,
+          "equipment": [
+            "silver_lance"
+          ],
+          "location": "east"
+        },
+        {
+          "count": 1,
+          "class_id": "falcon_knight",
+          "level": 3,
+          "equipment": [
+            "spear"
+          ],
+          "location": "east"
+        },
+        {
+          "count": 1,
+          "class_id": "falcon_knight",
+          "level": 3,
+          "equipment": [
+            "spear"
+          ],
+          "location": "southwest"
+        },
+        {
+          "count": 1,
+          "class_id": "falcon_knight",
+          "level": 3,
+          "equipment": [
+            "spear"
+          ],
+          "location": "southeast"
+        }
+      ],
+      "source_ids": [
+        "reinforcements_14_16_0",
+        "gamerguides_modes"
+      ],
+      "crosscheck_status": "single indexed reference",
+      "can_act_on_spawn_verification": "single_source_mode_rule",
+      "quarantined": true,
+      "quarantine_reason": "Map and difficulty heading loss: contents match Chapter 16 Lunatic subsection, not Chapter 15 Hard."
+    },
+    {
+      "id": "p2_reviewed_wave_4",
+      "enemy_ids": [],
+      "coordinates": null,
+      "can_act_on_spawn": true,
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN",
+      "chapter_id": "chapter_15",
+      "difficulty": "Hard",
+      "turns": [
+        6
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "Southeast and southwest edges; count split UNKNOWN",
+      "spawn_phase": "beginning_enemy_phase",
+      "units": [
+        {
+          "count": 6,
+          "class_id": "bow_knight",
+          "level": 3,
+          "equipment": [
+            "silver_sword",
+            "silver_bow"
+          ]
+        }
+      ],
+      "source_ids": [
+        "reinforcements_14_16_0",
+        "gamerguides_modes"
+      ],
+      "crosscheck_status": "single indexed reference",
+      "can_act_on_spawn_verification": "single_source_mode_rule",
+      "quarantined": true,
+      "quarantine_reason": "Map and difficulty heading loss: contents match Chapter 16 Lunatic subsection, not Chapter 15 Hard."
+    },
+    {
+      "id": "p2_reviewed_wave_5",
+      "enemy_ids": [],
+      "coordinates": null,
+      "can_act_on_spawn": true,
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN",
+      "chapter_id": "chapter_20",
+      "difficulty": "Hard",
+      "turns": [
+        6
+      ],
+      "timing_type": "reported_turn_with_script_warning",
+      "trigger": "Reported wave follows soldier warning by one turn; whether warning is conditional UNKNOWN",
+      "spawn_location": "Southwest, south and southeast edges",
+      "spawn_phase": "beginning_enemy_phase",
+      "units": [
+        {
+          "count": 1,
+          "class_id": "general",
+          "equipment": [
+            "spear"
+          ],
+          "location": "southwest"
+        },
+        {
+          "count": 1,
+          "class_id": "warrior",
+          "equipment": [
+            "tomahawk"
+          ],
+          "location": "southwest"
+        },
+        {
+          "count": 1,
+          "class_id": "general",
+          "equipment": [
+            "silver_lance"
+          ],
+          "location": "southwest"
+        },
+        {
+          "count": 1,
+          "class_id": "warrior",
+          "equipment": [
+            "silver_axe",
+            "silver_bow"
+          ],
+          "location": "southwest"
+        },
+        {
+          "count": 1,
+          "class_id": "general",
+          "equipment": [
+            "silver_axe"
+          ],
+          "location": "south"
+        },
+        {
+          "count": 1,
+          "class_id": "general",
+          "equipment": [
+            "silver_lance"
+          ],
+          "location": "south"
+        },
+        {
+          "count": 1,
+          "class_id": "sage",
+          "equipment": [
+            "bolganone"
+          ],
+          "location": "south"
+        },
+        {
+          "count": 1,
+          "class_id": "hero",
+          "equipment": [
+            "silver_sword"
+          ],
+          "location": "south"
+        },
+        {
+          "count": 1,
+          "class_id": "sage",
+          "equipment": [
+            "thoron"
+          ],
+          "location": "south"
+        },
+        {
+          "count": 1,
+          "class_id": "sage",
+          "equipment": [
+            "rexcalibur"
+          ],
+          "location": "southeast"
+        },
+        {
+          "count": 1,
+          "class_id": "general",
+          "equipment": [
+            "silver_lance"
+          ],
+          "location": "southeast"
+        },
+        {
+          "count": 1,
+          "class_id": "sage",
+          "equipment": [
+            "bolganone"
+          ],
+          "location": "southeast"
+        },
+        {
+          "count": 1,
+          "class_id": "general",
+          "equipment": [
+            "tomahawk"
+          ],
+          "location": "southeast"
+        }
+      ],
+      "source_ids": [
+        "reinforcements_20_22_0",
+        "p2_guide_20_1",
+        "gamerguides_modes"
+      ],
+      "crosscheck_status": "southern scripted arrival independently described; exact turn/equipment single-source",
+      "level": 8,
+      "can_act_on_spawn_verification": "single_source_mode_rule"
+    },
+    {
+      "id": "p2_reviewed_wave_6",
+      "enemy_ids": [],
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN",
+      "chapter_id": "paralogue_8",
+      "difficulty": "Hard",
+      "turns": [
+        5
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "Stairs; exact tiles UNKNOWN",
+      "units": "UNKNOWN",
+      "source_ids": [
+        "p2_guide_32_3"
+      ],
+      "crosscheck_status": "single-source Hard; Lunatic table instead reports turns 2 and 3, not copied across modes"
+    },
+    {
+      "id": "p2_reviewed_wave_7",
+      "enemy_ids": [],
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN",
+      "chapter_id": "paralogue_10",
+      "difficulty": "Hard",
+      "turns": null,
+      "timing_type": "event_triggered",
+      "trigger": "Severa reaches Holland and is recruited",
+      "spawn_location": "Four central stairs; exact tiles UNKNOWN",
+      "spawn_phase": "end_player_phase / beginning_enemy_phase after recruitment",
+      "spawn_blocking_claim": "Occupying the stairs prevents spawning; single-source",
+      "units": "UNKNOWN",
+      "source_ids": [
+        "p2_guide_36_1"
+      ],
+      "crosscheck_status": "single-source event timing"
+    },
+    {
+      "id": "p2_reviewed_wave_8",
+      "enemy_ids": [],
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN",
+      "chapter_id": "paralogue_11",
+      "difficulty": "Hard",
+      "turns": [
+        5
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN",
+      "spawn_location": "Forts on northern islands; exact tiles UNKNOWN",
+      "units": [
+        {
+          "count": null,
+          "class_id": "wyvern_lord",
+          "equipment": "UNKNOWN"
+        }
+      ],
+      "source_ids": [
+        "p2_guide_36_2"
+      ],
+      "crosscheck_status": "single-source"
+    },
+    {
+      "id": "p2_reviewed_wave_9",
+      "enemy_ids": [],
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN",
+      "chapter_id": "paralogue_14",
+      "difficulty": "Hard",
+      "turns": null,
+      "timing_type": "event_triggered",
+      "trigger": "Each village visit",
+      "spawn_location": "UNKNOWN",
+      "units": "UNKNOWN",
+      "source_ids": [
+        "p2_guide_40_1"
+      ],
+      "crosscheck_status": "single-source; individual village wave data UNKNOWN"
+    },
+    {
+      "id": "p2_reviewed_wave_10",
+      "enemy_ids": [],
+      "coordinates": null,
+      "can_act_on_spawn": "UNKNOWN",
+      "safe_for_tactical_certainty": false,
+      "verification": "partially_verified",
+      "schedule_completeness": "UNKNOWN",
+      "chapter_id": "chapter_19",
+      "difficulty": "Lunatic",
+      "turns": [
+        8
+      ],
+      "timing_type": "reported_turn",
+      "trigger": "UNKNOWN; Walhart gives warning",
+      "spawn_location": "Forts; exact tiles UNKNOWN",
+      "units": "UNKNOWN",
+      "source_ids": [
+        "p2_guide_20_0"
+      ],
+      "crosscheck_status": "Guide explicitly identifies Lunatic; enemy table alone lacks these waves"
+    }
+  ]
+}

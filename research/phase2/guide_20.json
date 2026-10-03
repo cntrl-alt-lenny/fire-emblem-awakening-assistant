@@ -1,0 +1,193 @@
+[
+  {
+    "id": "guide_20_0",
+    "name": "Chapter 19 The Conqueror - Chapter 14 to Endgame - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/chapter-14-to-endgame/chapter-19-the-conqueror",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "timing_label": null,
+        "map_heading": "Chapter 19 The Conqueror",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Walhart",
+            "Conqueror",
+            "25",
+            "Sol"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Chapter 19:",
+        "map_heading": "Chapter 19 The Conqueror",
+        "text": "Location: Varm Castle Approach"
+      },
+      {
+        "section": "Note: Chapter 19:",
+        "map_heading": "Chapter 19 The Conqueror",
+        "text": "Condition: Defeat Boss"
+      },
+      {
+        "section": "Note: Chapter 19:",
+        "map_heading": "Chapter 19 The Conqueror",
+        "text": "Character Limit: 15 (Including Chrom)"
+      }
+    ],
+    "access_status": "accessed"
+  },
+  {
+    "id": "guide_20_1",
+    "name": "Chapter 20 The Sword or the Knee - Chapter 14 to Endgame - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/chapter-14-to-endgame/chapter-20-the-sword-or-the-knee",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "timing_label": null,
+        "map_heading": "Chapter 20 The Sword or the Knee",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Cervantes",
+            "General",
+            "10",
+            "Tomahawk, Dracoshield"
+          ],
+          [
+            "Excellus",
+            "Sage",
+            "10",
+            "Bolganone"
+          ],
+          [
+            "Walhart",
+            "Conqueror",
+            "25",
+            "Wolf Berg, Bullion (L)"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Chapter 20:",
+        "map_heading": "Chapter 20 The Sword or the Knee",
+        "text": "Location: Valm Castle"
+      },
+      {
+        "section": "Note: Chapter 20:",
+        "map_heading": "Chapter 20 The Sword or the Knee",
+        "text": "Condition: Defeat every Boss"
+      }
+    ],
+    "access_status": "accessed"
+  },
+  {
+    "id": "guide_20_2",
+    "name": "Chapter 21 Five Gemstones - Chapter 14 to Endgame - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/chapter-14-to-endgame/chapter-21-five-gemstones",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "timing_label": null,
+        "map_heading": "Chapter 21 Five Gemstones",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Algol",
+            "Berserker",
+            "15",
+            "Bolt Axe"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Chapter 21:",
+        "map_heading": "Chapter 21 Five Gemstones",
+        "text": "Location: Plegia Castle"
+      },
+      {
+        "section": "Note: Chapter 21:",
+        "map_heading": "Chapter 21 Five Gemstones",
+        "text": "Condition: Defeat Boss"
+      },
+      {
+        "section": "Note: Chapter 21:",
+        "map_heading": "Chapter 21 Five Gemstones",
+        "text": "Character Limit: 14 (Including Chrom)"
+      }
+    ],
+    "access_status": "accessed"
+  },
+  {
+    "id": "guide_20_3",
+    "name": "Chapter 22 An Ill Presage - Chapter 14 to Endgame - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides\u00ae",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/chapter-14-to-endgame/chapter-22-an-ill-presage",
+    "accessed": "2026-10-02",
+    "method": "public_web_reader",
+    "tables": [
+      {
+        "section": "Boss\u00b6",
+        "timing_label": null,
+        "map_heading": "Chapter 22 An Ill Presage",
+        "rows": [
+          [
+            "Name",
+            "Class",
+            "Level",
+            "Items"
+          ],
+          [
+            "Aversa",
+            "Dark Flier",
+            "16",
+            "Goetia, Goddess Icon"
+          ]
+        ]
+      }
+    ],
+    "factual_candidates": [
+      {
+        "section": "Note: Chapter 22:",
+        "map_heading": "Chapter 22 An Ill Presage",
+        "text": "Location: Table Approach"
+      },
+      {
+        "section": "Note: Chapter 22:",
+        "map_heading": "Chapter 22 An Ill Presage",
+        "text": "Condition: Defeat Boss"
+      },
+      {
+        "section": "Note: Chapter 22:",
+        "map_heading": "Chapter 22 An Ill Presage",
+        "text": "Character Limit: 13 (Including Chrom)"
+      }
+    ],
+    "access_status": "accessed"
+  }
+]

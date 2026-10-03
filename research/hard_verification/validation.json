@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "errors": [],
+  "campaign_maps": 44,
+  "reinforcement_records": 29,
+  "registered_sources": 217,
+  "source_refs_resolve": true,
+  "source_truth_not_proven_by_tests": true,
+  "readiness_requires": "Evidence-aware claims, no unconditional route-safety advice, complete observed inputs and refusal for unsupported interactions."
+}

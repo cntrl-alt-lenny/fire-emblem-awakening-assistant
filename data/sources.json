@@ -1,0 +1,2814 @@
+[
+  {
+    "id": "calculations",
+    "name": "Calculations - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/calculations/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Weapon Triangle",
+      "Weapon Triangle",
+      "Combat Stats",
+      "Combat Stats",
+      "Combat Stats",
+      "Weapon Rank Bonus",
+      "Weapon Rank Bonus",
+      "Multiple Attacks",
+      "Multiple Attacks",
+      "Dual Strike",
+      "Dual Strike",
+      "Dual Guard",
+      "Dual Guard",
+      "Combat Forecast",
+      "Combat Forecast",
+      "Battle Experience",
+      "Battle Experience",
+      "Battle Experience",
+      "Battle Experience",
+      "Battle Experience",
+      "Battle Experience",
+      "Battle Experience",
+      "Battle Experience",
+      "Staff and Dance Experience",
+      "Staff and Dance Experience",
+      "Internal Level",
+      "Internal Level",
+      "Weapon Rank Progression",
+      "Weapon Rank Progression"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 29
+  },
+  {
+    "id": "chapter_catalog",
+    "name": "List of chapters in Fire Emblem Awakening - Fire Emblem Wiki",
+    "url": "https://fireemblemwiki.org/wiki/List_of_chapters_in_Fire_Emblem_Awakening",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Main story",
+      "Main story",
+      "Paralogues",
+      "Paralogues",
+      "Series 1: Outrealm Talismans",
+      "Series 1: Outrealm Talismans",
+      "Series 2: Path of a Grandmaster",
+      "Series 2: Path of a Grandmaster"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 8
+  },
+  {
+    "id": "character_growths",
+    "name": "Base - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/characters/growth-rates/base/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Base",
+      "Avatar",
+      "Avatar",
+      "Avatar",
+      "Avatar",
+      "Initial Characters",
+      "Initial Characters",
+      "Initial Characters",
+      "Children characters",
+      "Children characters",
+      "Children characters",
+      "Children characters",
+      "DLC and SpotPass Characters",
+      "DLC and SpotPass Characters",
+      "DLC and SpotPass Characters",
+      "DLC and SpotPass Characters",
+      "DLC and SpotPass Characters",
+      "DLC and SpotPass Characters"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 18
+  },
+  {
+    "id": "character_growths_1",
+    "name": "Maximum Stats - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/characters/maximum-stats/",
+    "accessed": "2026-10-02",
+    "scope": [],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 0
+  },
+  {
+    "id": "characters",
+    "name": "Main Story - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/characters/base-stats/main-story/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Avatar",
+      "Avatar",
+      "Initial Characters",
+      "Initial Characters",
+      "Initial Characters",
+      "Initial Characters",
+      "Children Characters",
+      "Children Characters",
+      "SpotPass-exclusive Characters",
+      "SpotPass-exclusive Characters"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 10
+  },
+  {
+    "id": "characters_1",
+    "name": "Base - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/characters/growth-rates/base/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Base",
+      "Avatar",
+      "Avatar"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 3
+  },
+  {
+    "id": "characters_2",
+    "name": "Class Sets - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/characters/class-sets/",
+    "accessed": "2026-10-02",
+    "scope": [],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 0
+  },
+  {
+    "id": "class_details",
+    "name": "Maximum Stats - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/classes/maximum-stats/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Non-promoted Classes",
+      "Non-promoted Classes",
+      "Promoted Classes",
+      "Promoted Classes",
+      "Promoted Classes",
+      "Special Classes",
+      "Special Classes"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 7
+  },
+  {
+    "id": "class_details_1",
+    "name": "Growth Rates - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/classes/growth-rates/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Growth Rates",
+      "Growth Rates",
+      "Growth Rates"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 3
+  },
+  {
+    "id": "class_details_2",
+    "name": "Class Changing - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/classes/class-changing/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Seal eligibility"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 1
+  },
+  {
+    "id": "class_sets",
+    "name": "Class Sets - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/characters/class-sets/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Class Sets",
+      "Class Sets",
+      "Children Characters",
+      "Children Characters",
+      "DLC/SpotPass Characters"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 5
+  },
+  {
+    "id": "class_sets_1",
+    "name": "Introduction - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/classes/",
+    "accessed": "2026-10-02",
+    "scope": [],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 0
+  },
+  {
+    "id": "economy",
+    "name": "Shops - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/shops/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Story Chapters",
+      "Story Chapters",
+      "Paralogues",
+      "Paralogues"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 4
+  },
+  {
+    "id": "economy_1",
+    "name": "Merchants - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/merchants/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Rare Items",
+      "Rare Items",
+      "Story Chapters",
+      "Story Chapters",
+      "Paralogues",
+      "Paralogues"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 6
+  },
+  {
+    "id": "economy_2",
+    "name": "Renown - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/renown/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Rewards",
+      "Rewards"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 2
+  },
+  {
+    "id": "enemy_ch7_lunatic",
+    "name": "Awakening LM Enemy Data: Chapter 7 - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_LM_Enemy_Data%3A_Chapter_7",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Awakening LM Enemy Data: Chapter 7",
+      "Starting",
+      "Starting",
+      "Reinforcements",
+      "Reinforcements",
+      "Reinforcements"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 6
+  },
+  {
+    "id": "foundation",
+    "name": "Base Stats - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/classes/base-stats/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Base Stats",
+      "Base Stats",
+      "Base Stats",
+      "Base Stats"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 4
+  },
+  {
+    "id": "foundation_1",
+    "name": "Skills - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/skills/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Obtainable Skills",
+      "Obtainable Skills"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 2
+  },
+  {
+    "id": "inheritance",
+    "name": "Children - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/characters/children/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Children",
+      "Inheritance",
+      "Inheritance"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 3
+  },
+  {
+    "id": "inheritance_1",
+    "name": "Modifiers - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/characters/maximum-stats/modifiers/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Modifiers",
+      "Avatar",
+      "Avatar",
+      "Avatar",
+      "Avatar",
+      "Initial Characters",
+      "Initial Characters",
+      "Initial Characters",
+      "Children Characters",
+      "Children Characters",
+      "DLC characters",
+      "DLC characters",
+      "Shadow Dragon",
+      "Shadow Dragon",
+      "Gaiden",
+      "Gaiden",
+      "Mystery of the Emblem",
+      "Mystery of the Emblem",
+      "Genealogy of the Holy War – 1st Gen.",
+      "Genealogy of the Holy War – 1st Gen.",
+      "Genealogy of the Holy War – 2nd Gen.",
+      "Genealogy of the Holy War – 2nd Gen.",
+      "Thracia 776",
+      "Thracia 776",
+      "Binding Blade",
+      "Binding Blade"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 26
+  },
+  {
+    "id": "inheritance_2",
+    "name": "Avatar Creation - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/characters/avatar-creation/",
+    "accessed": "2026-10-02",
+    "scope": [],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 0
+  },
+  {
+    "id": "items",
+    "name": "Stones & Miscellaneous - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/inventory/stones-miscellaneous/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Stones & Miscellaneous",
+      "Stones & Miscellaneous"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 2
+  },
+  {
+    "id": "items_1",
+    "name": "Items - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/inventory/items/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Items",
+      "Items"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 2
+  },
+  {
+    "id": "items_2",
+    "name": "Forging - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/forging/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Forging Cost",
+      "Forging Cost"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 2
+  },
+  {
+    "id": "locations",
+    "name": "Item Locations - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/item-locations/",
+    "accessed": "2026-10-02",
+    "scope": [],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 0
+  },
+  {
+    "id": "locations_1",
+    "name": "Gaiden Chapters - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/gaiden-chapters/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Paralogues",
+      "Paralogues",
+      "Paralogues",
+      "Paralogues",
+      "Paralogues",
+      "Paralogues",
+      "Paralogues",
+      "Paralogues",
+      "Paralogues"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 9
+  },
+  {
+    "id": "locations_2",
+    "name": "Barracks - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/barracks/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Character Birthdays and Decorations",
+      "Character Birthdays and Decorations"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 2
+  },
+  {
+    "id": "obtain_magic",
+    "name": "Bows - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/item-locations/bows/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Bronze Bow",
+      "Iron Bow",
+      "Steel Bow",
+      "Silver Bow",
+      "Brave Bow",
+      "Blessed Bow",
+      "Killer Bow",
+      "Longbow",
+      "Astra",
+      "Parthia",
+      "Yewfelle",
+      "Nidhogg",
+      "Double Bow",
+      "Slack Bow",
+      "Glass Bow",
+      "Towering Bow",
+      "Underdog Bow",
+      "Superior Bow",
+      "Wolt’s Bow",
+      "Innes’ Bow"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 20
+  },
+  {
+    "id": "obtain_magic_1",
+    "name": "Tomes - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/item-locations/tomes/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Fire",
+      "Elfire",
+      "Arcfire",
+      "Bolganone",
+      "Valflame",
+      "Thunder",
+      "Elthunder",
+      "Arcthunder",
+      "Thoron",
+      "Mjölnir",
+      "Wind",
+      "Elwind",
+      "Arcwind",
+      "Rexcalibur",
+      "Excalibur",
+      "Forseti",
+      "Book of Naga",
+      "Flux",
+      "Nosferatu",
+      "Ruin",
+      "Waste",
+      "Goetia",
+      "Mire",
+      "Grima’s Truth",
+      "Dying Blaze",
+      "Micaiah’s Pyre",
+      "Superior Jolt",
+      "Katarina’s Bolt",
+      "Wilderwind",
+      "Celica’s Gale",
+      "Aversa’s Night"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 31
+  },
+  {
+    "id": "obtain_magic_2",
+    "name": "Staves - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/item-locations/staves/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Heal",
+      "Mend",
+      "Physic",
+      "Recover",
+      "Fortify",
+      "Goddess Staff",
+      "Rescue",
+      "Ward",
+      "Hammerne",
+      "Kneader",
+      "Balmwood Staff",
+      "Catharsis"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 12
+  },
+  {
+    "id": "obtain_swords",
+    "name": "Swords - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/item-locations/swords/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Bronze Sword",
+      "Iron Sword",
+      "Steel Sword",
+      "Silver Sword",
+      "Brave Sword",
+      "Armourslayer",
+      "Wyrmslayer",
+      "Killing Edge",
+      "Levin Sword",
+      "Rapier",
+      "Noble Rapier",
+      "Missiletainn",
+      "Sol",
+      "Amatsu",
+      "Falchion",
+      "Exalted Falchion",
+      "Parallel Falchion",
+      "Mercurius",
+      "Tyrfing",
+      "Balmung",
+      "Mystletainn",
+      "Sol Katti",
+      "Ragnell",
+      "Tree Branch",
+      "Glass Sword",
+      "Soothing Sword",
+      "Superior Edge",
+      "Leif’s Blade",
+      "Roy’s Blade",
+      "Eliwood’s Blade",
+      "Eirika’s Blade",
+      "Seliph’s Blade",
+      "Alm’s Blade"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 33
+  },
+  {
+    "id": "obtain_swords_1",
+    "name": "Lances - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/item-locations/lances/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Bronze Lance",
+      "Iron Lance",
+      "Steel Lance",
+      "Silver Lance",
+      "Brave Lance",
+      "Javelin",
+      "Short Spear",
+      "Spear",
+      "Beast Killer",
+      "Blessed Lance",
+      "Killer Lance",
+      "Luna",
+      "Gradivus",
+      "Gáe Bolg",
+      "Gungnir",
+      "Log",
+      "Glass Lance",
+      "Miniature Lance",
+      "Shockstick",
+      "Superior Lance",
+      "Finn’s Lance",
+      "Ephraim’s Lance",
+      "Sigurd’s Lance"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 23
+  },
+  {
+    "id": "obtain_swords_2",
+    "name": "Axes - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/item-locations/axes/",
+    "accessed": "2026-10-02",
+    "scope": [],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 0
+  },
+  {
+    "id": "other_systems",
+    "name": "Downloadable Content - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/downloadable-content/",
+    "accessed": "2026-10-02",
+    "scope": [],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 0
+  },
+  {
+    "id": "other_systems_1",
+    "name": "Temporary Boosts - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/temporary-boosts/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "List of Temporary Boosts",
+      "List of Temporary Boosts",
+      "List of Temporary Boosts",
+      "List of Temporary Boosts",
+      "List of Temporary Boosts",
+      "List of Temporary Boosts",
+      "List of Temporary Boosts",
+      "List of Temporary Boosts",
+      "List of Temporary Boosts",
+      "List of Temporary Boosts",
+      "List of Temporary Boosts",
+      "List of Temporary Boosts"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 12
+  },
+  {
+    "id": "other_systems_2",
+    "name": "World Map - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/world-map/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "World Map",
+      "World Map"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 2
+  },
+  {
+    "id": "pair_support",
+    "name": "Pair Up - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/pair-up/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Pair Up Bonuses",
+      "Pair Up Bonuses",
+      "Support Unit’s Class Bonus",
+      "Support Unit’s Class Bonus",
+      "Support Unit’s Class Bonus",
+      "Support Unit’s Class Bonus",
+      "Example",
+      "Example"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 8
+  },
+  {
+    "id": "pair_support_1",
+    "name": "Dual System - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/dual-system/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Support Bonuses",
+      "Support Bonuses",
+      "Dual Strike",
+      "Dual Strike",
+      "Dual Guard",
+      "Dual Guard"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 6
+  },
+  {
+    "id": "pair_support_2",
+    "name": "Supports - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/characters/supports/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Supports",
+      "Support List",
+      "Support List",
+      "Support List",
+      "Support List"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 5
+  },
+  {
+    "id": "recruitment",
+    "name": "Main Story - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/characters/recruitment/main-story/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Initial Characters",
+      "Initial Characters",
+      "Children Characters",
+      "Children Characters",
+      "SpotPass-exclusive Characters",
+      "SpotPass-exclusive Characters"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 6
+  },
+  {
+    "id": "reinforcements_14_16_0",
+    "name": "Smoldering Resistance | Fire Emblem Wiki | Fandom",
+    "url": "https://fireemblem.fandom.com/wiki/Smoldering_Resistance",
+    "accessed": "2026-10-02",
+    "scope": [],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 0
+  },
+  {
+    "id": "reinforcements_14_16_1",
+    "name": "Irreconcilable Paths | Fire Emblem Wiki | Fandom",
+    "url": "https://fireemblem.fandom.com/wiki/Irreconcilable_Paths",
+    "accessed": "2026-10-02",
+    "scope": [],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 0
+  },
+  {
+    "id": "reinforcements_14_16_2",
+    "name": "Incursion | Fire Emblem Wiki | Fandom",
+    "url": "https://fireemblem.fandom.com/wiki/Incursion",
+    "accessed": "2026-10-02",
+    "scope": [],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 0
+  },
+  {
+    "id": "reinforcements_17_19_0",
+    "name": "Irreconcilable Paths | Fire Emblem Wiki | Fandom",
+    "url": "https://fireemblem.fandom.com/wiki/Irreconcilable_Paths",
+    "accessed": "2026-10-02",
+    "scope": [],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 0
+  },
+  {
+    "id": "reinforcements_17_19_1",
+    "name": "Incursion | Fire Emblem Wiki | Fandom",
+    "url": "https://fireemblem.fandom.com/wiki/Incursion",
+    "accessed": "2026-10-02",
+    "scope": [],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 0
+  },
+  {
+    "id": "reinforcements_20_22_0",
+    "name": "The Sword or the Knee | Fire Emblem Wiki | Fandom",
+    "url": "https://fireemblem.fandom.com/wiki/The_Sword_or_the_Knee",
+    "accessed": "2026-10-02",
+    "scope": [],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 0
+  },
+  {
+    "id": "reinforcements_20_22_1",
+    "name": "An Ill Presage | Fire Emblem Wiki | Fandom",
+    "url": "https://fireemblem.fandom.com/wiki/An_Ill_Presage",
+    "accessed": "2026-10-02",
+    "scope": [],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 0
+  },
+  {
+    "id": "reinforcements_early_0",
+    "name": "The Exalt and the King | Fire Emblem Wiki | Fandom",
+    "url": "https://fireemblem.fandom.com/wiki/The_Exalt_and_the_King",
+    "accessed": "2026-10-02",
+    "scope": [],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 0
+  },
+  {
+    "id": "reinforcements_early_1",
+    "name": "Incursion | Fire Emblem Wiki | Fandom",
+    "url": "https://fireemblem.fandom.com/wiki/Incursion",
+    "accessed": "2026-10-02",
+    "scope": [],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 0
+  },
+  {
+    "id": "reinforcements_mid_0",
+    "name": "Renewal (Chapter) | Fire Emblem Wiki | Fandom",
+    "url": "https://fireemblem.fandom.com/wiki/Renewal_%28Chapter%29",
+    "accessed": "2026-10-02",
+    "scope": [],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 0
+  },
+  {
+    "id": "skills_extra",
+    "name": "Skills - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/miscellaneous/skills/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Obtainable Skills",
+      "Obtainable Skills",
+      "Enemy-only Skills",
+      "Enemy-only Skills"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 4
+  },
+  {
+    "id": "support_growth",
+    "name": "Support Growth - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/characters/supports/support-growth/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Support Growth",
+      "Avatar (M)",
+      "Avatar (M)",
+      "Avatar (F)",
+      "Avatar (F)",
+      "Chrom",
+      "Chrom",
+      "Lissa",
+      "Lissa",
+      "Frederick",
+      "Frederick",
+      "Virion",
+      "Virion",
+      "Sully",
+      "Sully",
+      "Vaike",
+      "Vaike",
+      "Stahl",
+      "Stahl",
+      "Miriel",
+      "Miriel",
+      "Kellam",
+      "Kellam",
+      "Sumia",
+      "Sumia",
+      "Lon’qu",
+      "Lon’qu",
+      "Ricken",
+      "Ricken",
+      "Maribelle",
+      "Maribelle",
+      "Panne",
+      "Panne",
+      "Gaius",
+      "Gaius",
+      "Cordelia",
+      "Cordelia",
+      "Gregor",
+      "Gregor",
+      "Nowi",
+      "Nowi",
+      "Libra",
+      "Libra",
+      "Tharja",
+      "Tharja",
+      "Olivia",
+      "Olivia",
+      "Cherche",
+      "Cherche",
+      "Henry",
+      "Henry",
+      "Lucina",
+      "Lucina",
+      "Say’ri",
+      "Say’ri",
+      "Basilio",
+      "Basilio",
+      "Flavia",
+      "Flavia",
+      "Donnel",
+      "Donnel",
+      "Anna",
+      "Anna",
+      "Owain",
+      "Owain",
+      "Inigo",
+      "Inigo",
+      "Brady",
+      "Brady",
+      "Kjelle",
+      "Kjelle",
+      "Cynthia",
+      "Cynthia",
+      "Severa",
+      "Severa",
+      "Gerome",
+      "Gerome",
+      "Morgan (M)",
+      "Morgan (M)",
+      "Morgan (F)",
+      "Morgan (F)",
+      "Yarne",
+      "Yarne",
+      "Laurent",
+      "Laurent",
+      "Noire",
+      "Noire",
+      "Nah",
+      "Nah",
+      "Tiki",
+      "Tiki",
+      "Gangrel/Walhart/Yen’fay/Priam",
+      "Gangrel/Walhart/Yen’fay/Priam",
+      "Emmeryn/Aversa",
+      "Emmeryn/Aversa"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 95
+  },
+  {
+    "id": "support_growth_1",
+    "name": "Support Basics - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/characters/supports/support-basics/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Support Basics",
+      "Building Supports",
+      "Building Supports"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 3
+  },
+  {
+    "id": "weapons_a",
+    "name": "Swords - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/inventory/swords/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Swords",
+      "Swords"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 2
+  },
+  {
+    "id": "weapons_a_1",
+    "name": "Lances - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/inventory/lances/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lances",
+      "Lances"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 2
+  },
+  {
+    "id": "weapons_a_2",
+    "name": "Axes - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/inventory/axes/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Axes",
+      "Axes"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 2
+  },
+  {
+    "id": "weapons_b",
+    "name": "Bows - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/inventory/bows/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Bows",
+      "Bows"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 2
+  },
+  {
+    "id": "weapons_b_1",
+    "name": "Tomes - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/inventory/tomes/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Tomes",
+      "Tomes"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 2
+  },
+  {
+    "id": "weapons_b_2",
+    "name": "Staves - Serenes Forest",
+    "url": "https://serenesforest.net/awakening/inventory/staves/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Staves",
+      "Staves"
+    ],
+    "limitations": "Public web reader factual-table extraction. Single-source unless explicitly cross-checked. Row spans and conditional variants require review.",
+    "method": "public_web_reader",
+    "tables_retained": 2
+  },
+  {
+    "id": "true_hit",
+    "name": "Fire Emblem Wiki: True hit",
+    "url": "https://fireemblemwiki.org/wiki/True_hit",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Awakening 2RN probability and table checks"
+    ],
+    "limitations": "Fan reference; its numeric table credits Serenes Forest, so not fully independent.",
+    "method": "public_web_reader_or_search_excerpt"
+  },
+  {
+    "id": "fe_wiki_pair",
+    "name": "Fire Emblem Wiki: Pair Up",
+    "url": "https://fireemblemwiki.org/wiki/Pair_Up",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Independent explanatory cross-check: Awakening vs Fates, adjacent support, summed dual support levels"
+    ],
+    "limitations": "Initial public read succeeded; subsequent reader requests failed. Do not mix Fates rules.",
+    "method": "public_web_reader_or_search_excerpt"
+  },
+  {
+    "id": "pegasus_calculations",
+    "name": "Pegasus Knight Awakening calculations",
+    "url": "https://www.pegasusknight.com/wiki/fe13/%E8%A8%88%E7%AE%97%E5%BC%8F",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Damage, doubling, rank, healing; numerical discrepancy investigation"
+    ],
+    "limitations": "Several sections explicitly marked uncorrected; early copied New Mystery values. Triangle/rank/terrain conflicts excluded from calculator.",
+    "method": "public_web_reader_or_search_excerpt"
+  },
+  {
+    "id": "nintendo_manual",
+    "name": "Nintendo Awakening EU electronic manual",
+    "url": "https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_3ds_2/fire_emblem__awakening_1/ElectronicManual_Nintendo3DS_FireEmblemAwakening_EN.pdf",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Classic/Newcomer, game over, seals, EXP threshold, Pair Up commands"
+    ],
+    "limitations": "EU Newcomer terminology equals Casual. Historical network instructions do not imply present availability.",
+    "method": "public_web_reader_or_search_excerpt"
+  },
+  {
+    "id": "gamerguides_modes",
+    "name": "Gamer Guides: Starting a New Game",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/intro-and-gameplay/gameplay",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard and above reinforcement action timing"
+    ],
+    "limitations": "Public search excerpt; corroborates timing, not specific schedules.",
+    "method": "public_web_reader_or_search_excerpt"
+  },
+  {
+    "id": "fandom_lunatic_plus",
+    "name": "Fandom Fire Emblem Wiki: Lunatic+ Mode",
+    "url": "https://fireemblem.fandom.com/wiki/Lunatic%2B_Mode",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic+ skill pools and unlock conditions"
+    ],
+    "limitations": "Public search excerpt; article marked stub. Validate observed enemy skills.",
+    "method": "public_web_reader_or_search_excerpt"
+  },
+  {
+    "id": "support_basics_review",
+    "name": "Serenes Forest: Support Basics (full reviewed section)",
+    "url": "https://serenesforest.net/awakening/characters/supports/support-basics/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Map support limits, fractional points, rounding, marriage and Chrom edge cases"
+    ],
+    "limitations": "Tie/rounding rules from one numerical source.",
+    "method": "public_web_reader_or_search_excerpt"
+  },
+  {
+    "id": "p2_guide_00_0",
+    "name": "Premonition Invisible Ties - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/premonition-invisible-ties",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_00_1",
+    "name": "Prologue The Verge of History - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/prologue-the-verge-of-history",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_00_2",
+    "name": "Chapter 1 Unwelcome Change - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-1-unwelcome-change",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_00_3",
+    "name": "Chapter 2 Shepherds - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-2-shepherds",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_04_0",
+    "name": "Chapter 3 Warrior Realm - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-3-warrior-realm",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_04_1",
+    "name": "Chapter 4 Two Falchions - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-4-two-falchions",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_04_2",
+    "name": "Chapter 5 The Exalt and the King - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-5-the-exalt-and-the-king",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_04_3",
+    "name": "Chapter 6 Foreseer - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-6-foreseer",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_04_detail_0",
+    "name": "Chapter 4 Two Falchions - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-4-two-falchions",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_04_detail_1",
+    "name": "Chapter 5 The Exalt and the King - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-5-the-exalt-and-the-king",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_04_detail_2",
+    "name": "Chapter 6 Foreseer - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-6-foreseer",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_08_0",
+    "name": "Chapter 7 Incursion - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-7-incursion",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_08_1",
+    "name": "Chapter 8 The Grimleal - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-8-the-grimleal",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_12_0",
+    "name": "Chapter 11 Mad King Gangrel - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-11-mad-king-gangrel",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_12_1",
+    "name": "Chapter 12 The Seacomers - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-12-the-seacomers",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_12_2",
+    "name": "Chapter 13 Of Sacred Blood - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-13-of-sacred-blood",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_12_3",
+    "name": "Chapter 14 Flames on the Blue - Chapter 14 to Endgame - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/chapter-14-to-endgame/chapter-14-flames-on-the-blue",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_16_0",
+    "name": "Chapter 15 Smoldering Resistance - Chapter 14 to Endgame - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/chapter-14-to-endgame/chapter-15-smoldering-resistance",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_16_1",
+    "name": "Chapter 16 Naga's Voice - Chapter 14 to Endgame - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/chapter-14-to-endgame/chapter-16-nagas-voice",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_16_2",
+    "name": "Chapter 17 Inexorable Death - Chapter 14 to Endgame - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/chapter-14-to-endgame/chapter-17-inexorable-death",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_16_3",
+    "name": "Chapter 18 Sibling Blades - Chapter 14 to Endgame - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/chapter-14-to-endgame/chapter-18-sibling-blades",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_20_0",
+    "name": "Chapter 19 The Conqueror - Chapter 14 to Endgame - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/chapter-14-to-endgame/chapter-19-the-conqueror",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_20_1",
+    "name": "Chapter 20 The Sword or the Knee - Chapter 14 to Endgame - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/chapter-14-to-endgame/chapter-20-the-sword-or-the-knee",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_20_2",
+    "name": "Chapter 21 Five Gemstones - Chapter 14 to Endgame - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/chapter-14-to-endgame/chapter-21-five-gemstones",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_20_3",
+    "name": "Chapter 22 An Ill Presage - Chapter 14 to Endgame - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/chapter-14-to-endgame/chapter-22-an-ill-presage",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_24_0",
+    "name": "Chapter 23 Invisible Ties - Chapter 14 to Endgame - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/chapter-14-to-endgame/chapter-23-invisible-ties",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_24_1",
+    "name": "Chapter 24 Awakening - Chapter 14 to Endgame - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/chapter-14-to-endgame/chapter-24-awakening",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_24_2",
+    "name": "Chapter 25 To Slay a God - Chapter 14 to Endgame - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/chapter-14-to-endgame/chapter-25-to-slay-a-god",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_24_3",
+    "name": "Endgame Grima - Chapter 14 to Endgame - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/chapter-14-to-endgame/endgame-grima",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_28_0",
+    "name": "Sidequest 1 Sickle to Sword - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-1-sickle-to-sword",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_28_1",
+    "name": "Sidequest 2 The Secret Seller - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-2-the-secret-seller",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_28_2",
+    "name": "Sidequest 3 A Strangled Peace - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-3-a-strangled-peace",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_28_3",
+    "name": "Sidequest 4 Anna the Merchant - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-4-anna-the-merchant",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_32_1",
+    "name": "Sidequest 6 A Man for Flowers - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-6-a-man-for-flowers",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_32_2",
+    "name": "Sidequest 7 Noble Lineage - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-7-noble-lineage",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_32_3",
+    "name": "Sidequest 8 A Duel Disgraced - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-8-a-duel-disgraced",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_36_0",
+    "name": "Sidequest 9 Wings of Justice - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-9-wings-of-justice",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_36_1",
+    "name": "Sidequest 10 Ambivalence - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-10-ambivalence",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_36_2",
+    "name": "Sidequest 11 Twin Wyverns - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-11-twin-wyverns",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_36_3",
+    "name": "Sidequest 12 Disowned by Time - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-12-disowned-by-time",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_40_0",
+    "name": "Sidequest 13 Rival Bands - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-13-rival-bands",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_40_1",
+    "name": "Sidequest 14 Shadow in the Sands - Sidequests 14 to 23 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-14-to-23/sidequest-14-shadow-in-the-sands",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_40_2",
+    "name": "Sidequest 15 A Shot from the Dark - Sidequests 14 to 23 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-14-to-23/sidequest-15-a-shot-from-the-dark",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_40_3",
+    "name": "Sidequest 16 Daughter to Dragons - Sidequests 14 to 23 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-14-to-23/sidequest-16-daughter-to-dragons",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_44_0",
+    "name": "Sidequest 17 The Threat of Silence - Sidequests 14 to 23 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-14-to-23/sidequest-17-the-threat-of-silence",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_44_1",
+    "name": "Sidequest 18 The Dead King's Lament - Sidequests 14 to 23 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-14-to-23/sidequest-18-the-dead-kings-lament",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_44_2",
+    "name": "Sidequest 19 Irreconcilable Paths - Sidequests 14 to 23 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-14-to-23/sidequest-19-irreconcilable-paths",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_44_3",
+    "name": "Sidequest 20 A Hard Miracle - Sidequests 14 to 23 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-14-to-23/sidequest-20-a-hard-miracle",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_48_0",
+    "name": "Sidequest 21 Ghost of a Blade - Sidequests 14 to 23 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-14-to-23/sidequest-21-ghost-of-a-blade",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_48_1",
+    "name": "Sidequest 22 The Wellspring of Truth - Sidequests 14 to 23 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-14-to-23/sidequest-22-the-wellspring-of-truth",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_48_2",
+    "name": "Sidequest 23 The Radiant Hero - Sidequests 14 to 23 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-14-to-23/sidequest-23-the-radiant-hero",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_early_detail_0",
+    "name": "Prologue The Verge of History - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/prologue-the-verge-of-history",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_early_detail_1",
+    "name": "Chapter 1 Unwelcome Change - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-1-unwelcome-change",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_guide_early_detail_2",
+    "name": "Chapter 2 Shepherds - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-2-shepherds",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_00_0",
+    "name": "Chapter 1 Unwelcome Change - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://earth.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-1-unwelcome-change",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_04_0",
+    "name": "Chapter 6 Foreseer - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-6-foreseer/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_04_1",
+    "name": "Chapter 3 Warrior Realm - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-3-warrior-realm",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_04_2",
+    "name": "Chapter 7 Incursion - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-7-incursion",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_08_1",
+    "name": "Chapter 8 The Grimleal - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-8-the-grimleal",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_12_0",
+    "name": "Chapter 13 Of Sacred Blood - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-13-of-sacred-blood",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_12_1",
+    "name": "Chapter 14 Flames on the Blue - Chapter 14 to Endgame - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/chapter-14-to-endgame/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_12_2",
+    "name": "Chapter 12 The Seacomers - Beginning to Chapter 13 - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-12-the-seacomers",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_16_0",
+    "name": "Chapter 16 Naga's Voice - Chapter 14 to Endgame - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/chapter-14-to-endgame/chapter-16-nagas-voice",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_16_2",
+    "name": "Chapter 17 Inexorable Death - Chapter 14 to Endgame - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/chapter-14-to-endgame/chapter-17-inexorable-death",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_16_3",
+    "name": "Chapter 15 Smoldering Resistance - Chapter 14 to Endgame - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://earth.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/chapter-14-to-endgame/chapter-15-smoldering-resistance",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_16_6",
+    "name": "Chapter 19 The Conqueror - Chapter 14 to Endgame - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/chapter-14-to-endgame/chapter-19-the-conqueror",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_16_7",
+    "name": "Chapter 14 Flames on the Blue - Chapter 14 to Endgame - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/chapter-14-to-endgame/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_20_0",
+    "name": "Chapter 21 Five Gemstones - Chapter 14 to Endgame - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://earth.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/chapter-14-to-endgame/chapter-21-five-gemstones",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_20_1",
+    "name": "Chapter 22 An Ill Presage - Chapter 14 to Endgame - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/chapter-14-to-endgame/chapter-22-an-ill-presage",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_20_5",
+    "name": "Chapter 23 Invisible Ties - Chapter 14 to Endgame - Story Walkthrough | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/chapter-14-to-endgame/chapter-23-invisible-ties",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_28_1",
+    "name": "Sidequest 4 Anna the Merchant - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-4-anna-the-merchant/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_28_3",
+    "name": "Sidequest 4 Anna the Merchant - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-4-anna-the-merchant",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_28_4",
+    "name": "Sidequest 3 A Strangled Peace - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-3-a-strangled-peace",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_32_1",
+    "name": "Sidequest 8 A Duel Disgraced - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-8-a-duel-disgraced",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_32_2",
+    "name": "Sidequest 6 A Man for Flowers - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-6-a-man-for-flowers",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_32_5",
+    "name": "Sidequest 7 Noble Lineage - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://earth.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-7-noble-lineage",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_32_6",
+    "name": "Sidequest 9 Wings of Justice - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://earth.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-9-wings-of-justice",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_36_1",
+    "name": "Sidequest 12 Disowned by Time - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-12-disowned-by-time",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_36_3",
+    "name": "Sidequest 11 Twin Wyverns - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-11-twin-wyverns",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_36_4",
+    "name": "Sidequest 9 Wings of Justice - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-9-wings-of-justice",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_36_6",
+    "name": "Sidequest 9 Wings of Justice - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://earth.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-9-wings-of-justice",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_40_0",
+    "name": "Sidequest 14 Shadow in the Sands - Sidequests 14 to 23 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-14-to-23/sidequest-14-shadow-in-the-sands",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard deployment/boss/recruitment reference"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_40_2",
+    "name": "Sidequest 16 Daughter to Dragons - Sidequests 14 to 23 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-14-to-23/sidequest-16-daughter-to-dragons",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_40_5",
+    "name": "Sidequest 12 Disowned by Time - Sidequests 1 to 13 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://earth.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-12-disowned-by-time",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_44_0",
+    "name": "Sidequest 17 The Threat of Silence - Sidequests 14 to 23 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-14-to-23/sidequest-17-the-threat-of-silence",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_44_1",
+    "name": "Sidequest 19 Irreconcilable Paths - Sidequests 14 to 23 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-14-to-23/sidequest-19-irreconcilable-paths",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_44_2",
+    "name": "Sidequest 18 The Dead King's Lament - Sidequests 14 to 23 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-14-to-23/sidequest-18-the-dead-kings-lament",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_48_0",
+    "name": "Sidequest 23 The Radiant Hero - Sidequests 14 to 23 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-14-to-23/sidequest-23-the-radiant-hero",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_48_2",
+    "name": "Sidequest 22 The Wellspring of Truth - Sidequests 14 to 23 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-14-to-23/sidequest-22-the-wellspring-of-truth",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_48_4",
+    "name": "Sidequest 21 Ghost of a Blade - Sidequests 14 to 23 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-14-to-23/sidequest-21-ghost-of-a-blade",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_survey_48_7",
+    "name": "Sidequest 21 Ghost of a Blade - Sidequests 14 to 23 - Sidequests (Paralogues) | Fire Emblem: Awakening | Gamer Guides®",
+    "url": "https://earth.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-14-to-23/sidequest-21-ghost-of-a-blade",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Hard map reference; explicitly identified other-mode notes when present"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Guide defaults to Hard; other modes require explicit evidence."
+  },
+  {
+    "id": "p2_lm_edge_details_0",
+    "name": "Awakening LM Enemy Data: Prologue - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_LM_Enemy_Data%3A_Prologue",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_lm_early_0",
+    "name": "Awakening LM Enemy Data: Chapter 1 - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_LM_Enemy_Data%3A_Chapter_1",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_lm_para_survey_01_0",
+    "name": "Awakening LM Enemy Data: Chapter 2 - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php?title=Awakening_LM_Enemy_Data%3A_Chapter_2",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_lm_early_2",
+    "name": "Awakening LM Enemy Data: Chapter 3 - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_LM_Enemy_Data%3A_Chapter_3",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_lm_early_3",
+    "name": "Awakening LM Enemy Data: Chapter 4 - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_LM_Enemy_Data%3A_Chapter_4",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_lm_05_08_0",
+    "name": "Awakening LM Enemy Data: Chapter 5 - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_LM_Enemy_Data%3A_Chapter_5",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_lm_05_08_2",
+    "name": "Awakening LM Enemy Data: Chapter 7 - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_LM_Enemy_Data%3A_Chapter_7",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_lm_05_08_3",
+    "name": "Awakening LM Enemy Data: Chapter 8 - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_LM_Enemy_Data%3A_Chapter_8",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_lm_09_12_0",
+    "name": "Awakening LM Enemy Data: Chapter 9 - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_LM_Enemy_Data%3A_Chapter_9",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_lm_09_12_1",
+    "name": "Awakening LM Enemy Data: Chapter 10 - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_LM_Enemy_Data%3A_Chapter_10",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_lm_13_16_1",
+    "name": "Awakening LM Enemy Data: Chapter 14 - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_LM_Enemy_Data%3A_Chapter_14",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_lm_13_16_2",
+    "name": "Awakening LM Enemy Data: Chapter 15 - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_LM_Enemy_Data%3A_Chapter_15",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_lm_missing_details_0",
+    "name": "Awakening LM Enemy Data: Chapter 16 - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_LM_Enemy_Data%3A_Chapter_16",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_lm_17_20_0",
+    "name": "Awakening LM Enemy Data: Chapter 17 - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_LM_Enemy_Data%3A_Chapter_17",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_lm_17_20_1",
+    "name": "Awakening LM Enemy Data: Chapter 18 - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_LM_Enemy_Data%3A_Chapter_18",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_lm_missing_details_1",
+    "name": "Awakening LM Enemy Data: Chapter 19 - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_LM_Enemy_Data%3A_Chapter_19",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_lm20_detail_0",
+    "name": "Awakening LM Enemy Data: Chapter 20 - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_LM_Enemy_Data%3A_Chapter_20",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_lm_late_0",
+    "name": "Awakening LM Enemy Data: Chapter 21 - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_LM_Enemy_Data%3A_Chapter_21",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_lm_late_1",
+    "name": "Awakening LM Enemy Data: Chapter 22 - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_LM_Enemy_Data%3A_Chapter_22",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_lm_tail_retry_0",
+    "name": "Awakening LM Enemy Data: Chapter 23 - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_LM_Enemy_Data%3A_Chapter_23",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_lm_tail_retry_1",
+    "name": "Awakening LM Enemy Data: Chapter 24 - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_LM_Enemy_Data%3A_Chapter_24",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_lm_edges_0",
+    "name": "Awakening LM Enemy Data: Chapter 25 - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_LM_Enemy_Data%3A_Chapter_25",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_lm_edge_details_1",
+    "name": "Awakening LM Enemy Data: Endgame - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_LM_Enemy_Data%3A_Endgame",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_lm_paralogue_index_2",
+    "name": "Awakening LM Enemy Data: Paralogue 4 - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php?title=Awakening_LM_Enemy_Data%3A_Paralogue_4",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_lm_para_full_a_0",
+    "name": "Awakening LM Enemy Data: Paralogue 5 - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php?title=Awakening_LM_Enemy_Data%3A_Paralogue_5",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_lm_para_full_a_1",
+    "name": "Awakening LM Enemy Data: Paralogue 8 - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php?title=Awakening_LM_Enemy_Data%3A_Paralogue_8",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_lm_para_full_a_2",
+    "name": "Awakening LM Enemy Data: Paralogue 10 - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php?title=Awakening_LM_Enemy_Data%3A_Paralogue_10",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_lm_para_full_c_0",
+    "name": "Awakening LM Enemy Data: Paralogue 11 - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Awakening_LM_Enemy_Data%3A_Paralogue_11",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_lm_para_full_a_3",
+    "name": "Awakening LM Enemy Data: Paralogue 12 - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php?title=Awakening_LM_Enemy_Data%3A_Paralogue_12",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_lm_para_full_b_0",
+    "name": "Awakening LM Enemy Data: Paralogue 14 - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php?title=Awakening_LM_Enemy_Data%3A_Paralogue_14",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_lm_para_full_c_2",
+    "name": "Awakening LM Enemy Data: Paralogue 15 - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php?title=Awakening_LM_Enemy_Data%3A_Paralogue_15",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_lm_para_full_b_1",
+    "name": "Awakening LM Enemy Data: Paralogue 16 - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php?title=Awakening_LM_Enemy_Data%3A_Paralogue_16",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_lm_para_full_c_3",
+    "name": "Awakening LM Enemy Data: Paralogue 17 - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php?title=Awakening_LM_Enemy_Data%3A_Paralogue_17",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_lm_para_full_b_2",
+    "name": "Awakening LM Enemy Data: Paralogue 19 - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php?title=Awakening_LM_Enemy_Data%3A_Paralogue_19",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_lm_para_full_b_3",
+    "name": "Awakening LM Enemy Data: Paralogue 20 - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php?title=Awakening_LM_Enemy_Data%3A_Paralogue_20",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_lm_para_full_c_1",
+    "name": "Awakening LM Enemy Data: Paralogue 23 - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php?title=Awakening_LM_Enemy_Data%3A_Paralogue_23",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Lunatic representative enemy table"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "p2_exp_empirical",
+    "name": "Tables and Remnant Sage: empirical Awakening EXP investigation",
+    "url": "https://forums.serenesforest.net/topic/42942-lets-solve-the-awakening-exp-formula/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Observed Champions of Yore 1 EXP sequence; Rescue staff level exceptions"
+    ],
+    "verification": "original_empirical_reference",
+    "limitations": "Origin of Serenes Forest EXP formulas, not independent confirmation. Early speculative posts are not accepted facts. Multiplier rounding and repeated Lunatic engagements lack completed worked verification."
+  },
+  {
+    "id": "p2_mend",
+    "name": "Mend — Fire Emblem Wiki",
+    "url": "https://fireemblemwiki.org/wiki/Mend",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Awakening Mend healing coefficient, stats and base EXP"
+    ],
+    "verification": "independent_reference",
+    "limitations": "Only the Awakening row is applicable; other games use different formulas."
+  },
+  {
+    "id": "p2_physic",
+    "name": "Physic — Fire Emblem Wiki",
+    "url": "https://fireemblemwiki.org/wiki/Physic",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Awakening Physic healing coefficient, range, stats and base EXP"
+    ],
+    "verification": "independent_reference",
+    "limitations": "Only Awakening rows applicable; rank and Healtouch bonuses come from separate sources."
+  },
+  {
+    "id": "p2_guide_scope",
+    "name": "Gamer Guides: Reading this guide",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/information/reading-this-guide",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Guide's stated Hard-mode default"
+    ],
+    "verification": "source_scope_statement",
+    "limitations": "Do not extend unspecified guide details to other modes."
+  },
+  {
+    "id": "p2_exp_staff_empirical",
+    "name": "Tables: observed staff EXP exceptions and Rescue sequence",
+    "url": "https://forums.serenesforest.net/topic/42942-lets-solve-the-awakening-exp-formula/page/2/",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Rescue internal levels26–33: 33,32,32,32,32,31,31,30 EXP without ordinary-unpromoted difficulty bonus; level8/11/30 exceptions"
+    ],
+    "verification": "original_empirical_reference",
+    "limitations": "Original source behind SF calculations, not independent; final-expression truncation inferred from reported worked sequence."
+  },
+  {
+    "id": "p2_iron_sword",
+    "name": "Iron Sword — Fire Emblem Wiki",
+    "url": "https://fireemblemwiki.org/wiki/Iron_Sword",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Awakening Iron Sword numeric stats"
+    ],
+    "verification": "independent_reference",
+    "limitations": "Awakening-specific row only."
+  },
+  {
+    "id": "p2_pavise",
+    "name": "Pavise — Fire Emblem Wiki",
+    "url": "https://fireemblemwiki.org/wiki/Pavise",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Awakening Pavise weapon categories, activation, General level15; Pavise+ enemy/DLC availability"
+    ],
+    "verification": "independent_reference",
+    "limitations": "Intro summarizes multiple games; only Awakening rows used."
+  },
+  {
+    "id": "p2_skills_game_descriptions_0",
+    "name": "Skill Descriptions (Awakening) - EmblemWiki",
+    "url": "https://wiki.serenesforest.net/index.php/Skill_Descriptions_%28Awakening%29",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Game-localization skill descriptions; Vantage/Wrath inclusive half-HP boundary"
+    ],
+    "verification": "public_reference_partial",
+    "limitations": "Single-source extracted factual data; reader/search output may be incomplete. Same publisher is not independent confirmation. Lunatic tables do not establish Lunatic+ skills, positions or random rolls."
+  },
+  {
+    "id": "hr_jp_15",
+    "name": "Pegasus Knight Awakening wiki — Chapter 15",
+    "url": "https://www.pegasusknight.com/wiki/fe13/%E3%83%9E%E3%83%83%E3%83%97%E6%94%BB%E7%95%A5/%E7%AB%A0%E5%88%A5%E6%94%BB%E7%95%A5/15%E7%AB%A0%2B%E8%A7%A3%E6%94%BE%E3%81%AE%E7%8B%BC%E7%85%99",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Explicitly Hard-labelled comments only for mode-specific claims; general objective cross-check where noted"
+    ],
+    "method": "public_web_reader",
+    "evidence_family": "pegasus_original_player_comments",
+    "limitations": "Japanese release. Anonymous dated firsthand comments are observational reports, not independently reproduced tests. Unlabelled enemy tables and end-of-enemy-phase reinforcement tables NOT assigned to Hard."
+  },
+  {
+    "id": "hr_jp_16",
+    "name": "Pegasus Knight Awakening wiki — Chapter 16",
+    "url": "https://www.pegasusknight.com/wiki/fe13/%E3%83%9E%E3%83%83%E3%83%97%E6%94%BB%E7%95%A5/%E7%AB%A0%E5%88%A5%E6%94%BB%E7%95%A5/16%E7%AB%A0%2B%E7%A5%9E%E7%AB%9C%E3%81%AE%E5%B7%AB%E5%A5%B3",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Explicitly Hard-labelled comments only for mode-specific claims; general objective cross-check where noted"
+    ],
+    "method": "public_web_reader",
+    "evidence_family": "pegasus_original_player_comments",
+    "limitations": "Japanese release. Anonymous dated firsthand comments are observational reports, not independently reproduced tests. Unlabelled enemy tables and end-of-enemy-phase reinforcement tables NOT assigned to Hard."
+  },
+  {
+    "id": "hr_jp_17",
+    "name": "Pegasus Knight Awakening wiki — Chapter 17",
+    "url": "https://www.pegasusknight.com/wiki/fe13/%E3%83%9E%E3%83%83%E3%83%97%E6%94%BB%E7%95%A5/%E7%AB%A0%E5%88%A5%E6%94%BB%E7%95%A5/17%E7%AB%A0%2B%E6%AD%BB%E3%81%AE%E9%81%8B%E5%91%BD",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Explicitly Hard-labelled comments only for mode-specific claims; general objective cross-check where noted"
+    ],
+    "method": "public_web_reader",
+    "evidence_family": "pegasus_original_player_comments",
+    "limitations": "Japanese release. Anonymous dated firsthand comments are observational reports, not independently reproduced tests. Unlabelled enemy tables and end-of-enemy-phase reinforcement tables NOT assigned to Hard."
+  },
+  {
+    "id": "hr_jp_19",
+    "name": "Pegasus Knight Awakening wiki — Chapter 19",
+    "url": "https://www.pegasusknight.com/wiki/fe13/%E3%83%9E%E3%83%83%E3%83%97%E6%94%BB%E7%95%A5/%E7%AB%A0%E5%88%A5%E6%94%BB%E7%95%A5/19%E7%AB%A0%2B%E8%A6%87%E7%8E%8B%E3%83%B4%E3%82%A1%E3%83%AB%E3%83%8F%E3%83%AB%E3%83%88",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Explicitly Hard-labelled comments only for mode-specific claims; general objective cross-check where noted"
+    ],
+    "method": "public_web_reader",
+    "evidence_family": "pegasus_original_player_comments",
+    "limitations": "Japanese release. Anonymous dated firsthand comments are observational reports, not independently reproduced tests. Unlabelled enemy tables and end-of-enemy-phase reinforcement tables NOT assigned to Hard."
+  },
+  {
+    "id": "hr_jp_5",
+    "name": "Pegasus Knight Awakening wiki — Chapter 5",
+    "url": "https://www.pegasusknight.com/wiki/fe13/%E3%83%9E%E3%83%83%E3%83%97%E6%94%BB%E7%95%A5/%E7%AB%A0%E5%88%A5%E6%94%BB%E7%95%A5/5%E7%AB%A0%2B%E8%81%96%E7%8E%8B%E3%81%A8%E6%9A%97%E6%84%9A%E7%8E%8B",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Explicitly Hard-labelled comments only for mode-specific claims; general objective cross-check where noted"
+    ],
+    "method": "public_web_reader",
+    "evidence_family": "pegasus_original_player_comments",
+    "limitations": "Japanese release. Anonymous dated firsthand comments are observational reports, not independently reproduced tests. Unlabelled enemy tables and end-of-enemy-phase reinforcement tables NOT assigned to Hard."
+  },
+  {
+    "id": "hr_jp_11",
+    "name": "Pegasus Knight Awakening wiki — Chapter 11",
+    "url": "https://www.pegasusknight.com/wiki/fe13/%E3%83%9E%E3%83%83%E3%83%97%E6%94%BB%E7%95%A5/%E7%AB%A0%E5%88%A5%E6%94%BB%E7%95%A5/11%E7%AB%A0%2B%E6%9A%97%E6%84%9A%E7%8E%8B%E3%82%AE%E3%83%A3%E3%83%B3%E3%83%AC%E3%83%AB",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Explicitly Hard-labelled comments only for mode-specific claims; general objective cross-check where noted"
+    ],
+    "method": "public_web_reader",
+    "evidence_family": "pegasus_original_player_comments",
+    "limitations": "Japanese release. Anonymous dated firsthand comments are observational reports, not independently reproduced tests. Unlabelled enemy tables and end-of-enemy-phase reinforcement tables NOT assigned to Hard."
+  },
+  {
+    "id": "hr_jp_22",
+    "name": "Pegasus Knight Awakening wiki — Chapter 22",
+    "url": "https://www.pegasusknight.com/wiki/fe13/%E3%83%9E%E3%83%83%E3%83%97%E6%94%BB%E7%95%A5/%E7%AB%A0%E5%88%A5%E6%94%BB%E7%95%A5/22%E7%AB%A0%2B%E6%BB%85%E3%81%B3%E3%81%AE%E4%BA%88%E5%85%86",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Explicitly Hard-labelled comments only for mode-specific claims; general objective cross-check where noted"
+    ],
+    "method": "public_web_reader",
+    "evidence_family": "pegasus_original_player_comments",
+    "limitations": "Japanese release. Anonymous dated firsthand comments are observational reports, not independently reproduced tests. Unlabelled enemy tables and end-of-enemy-phase reinforcement tables NOT assigned to Hard."
+  },
+  {
+    "id": "hr_jp_p17",
+    "name": "Pegasus Knight Awakening wiki — Paralogue 17",
+    "url": "https://www.pegasusknight.com/wiki/fe13/%E3%83%9E%E3%83%83%E3%83%97%E6%94%BB%E7%95%A5/%E7%AB%A0%E5%88%A5%E6%94%BB%E7%95%A5/%E5%A4%96%E4%BC%9D17%2B%E6%82%A0%E4%B9%85%E3%81%AE%E6%80%9D%E3%81%84",
+    "accessed": "2026-10-02",
+    "scope": [
+      "Explicitly Hard-labelled comments only for mode-specific claims; general objective cross-check where noted"
+    ],
+    "method": "public_web_reader",
+    "evidence_family": "pegasus_original_player_comments",
+    "limitations": "Japanese release. Anonymous dated firsthand comments are observational reports, not independently reproduced tests. Unlabelled enemy tables and end-of-enemy-phase reinforcement tables NOT assigned to Hard."
+  },
+  {
+    "id": "hr_gg_spawn",
+    "name": "Gamer Guides — Starting a New Game",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/intro-and-gameplay/gameplay/starting-a-new-game",
+    "scope": [
+      "Hard and above: reinforcements act as enemy phase begins"
+    ],
+    "limitations": "General ordinary reinforcement rule; does not certify every scripted exception.",
+    "method": "public_web_reader",
+    "accessed": "2026-10-02",
+    "evidence_family": "gamerguides_vincent_lau"
+  },
+  {
+    "id": "hr_hard_spawn_observation",
+    "name": "GBAtemp — Awakening Hard reinforcement discussion",
+    "url": "https://gbatemp.net/threads/fire-emblem-awakening-reinforcements.435653/",
+    "scope": [
+      "Explicit Hard player report: enemies spawn at beginning of enemy phase, can attack immediately"
+    ],
+    "limitations": "Public search-index excerpt only; direct page returned 403. Independent community report, not a controlled game-script audit.",
+    "method": "public_search_excerpt",
+    "accessed": "2026-10-02",
+    "evidence_family": "gbatemp_original_player"
+  },
+  {
+    "id": "hr_fandom16",
+    "name": "Fire Emblem Fandom — Nagas Voice, Hard reinforcement subsection",
+    "url": "https://fireemblem.fandom.com/wiki/Naga%27s_Voice",
+    "scope": [
+      "Explicit Hard turn 4/5/6 classes, counts and equipment; contrasted with separately headed Lunatic subsection"
+    ],
+    "limitations": "Public indexed subsection, not full page retrieval. Independent corroboration of each precise count was not available.",
+    "method": "public_search_excerpt",
+    "accessed": "2026-10-02",
+    "evidence_family": "fandom_editors"
+  },
+  {
+    "id": "hr_fandom17",
+    "name": "Fire Emblem Fandom — Inexorable Death, Hard reinforcement subsection",
+    "url": "https://fireemblem.fandom.com/wiki/Inexorable_Death",
+    "scope": [
+      "Reported Hard turn 8 eastern / turn 9 west-central / turn 10 central staircase waves"
+    ],
+    "limitations": "Public indexed subsection; subsequent mode boundary lost in excerpt. Later listed turns NOT imported as Hard. First side conflicts with explicitly Hard Japanese observation.",
+    "method": "public_search_excerpt",
+    "accessed": "2026-10-02",
+    "evidence_family": "fandom_editors"
+  },
+  {
+    "id": "hr_jp_recruit",
+    "name": "Pegasus Knight — Awakening recruitment",
+    "url": "https://www.pegasusknight.com/wiki/fe13/%E3%83%A6%E3%83%8B%E3%83%83%E3%83%88/%E4%BB%B2%E9%96%93%E3%81%AB%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95",
+    "scope": [
+      "Recruitment conditions; killing Holland makes Severa hostile"
+    ],
+    "limitations": "General recruitment system, not Hard enemy stats. Possible underlying overlap with other references; not counted as independent corroboration.",
+    "method": "public_web_reader",
+    "accessed": "2026-10-02",
+    "evidence_family": "pegasus_recruitment"
+  },
+  {
+    "id": "hr_gg_chapter_9",
+    "name": "Gamer Guides — chapter-9-emmeryn",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-9-emmeryn",
+    "scope": [
+      "Hard map tactical reference"
+    ],
+    "limitations": "Guide defaults to Hard according to reading-this-guide. Exclude explicitly labelled Lunatic paragraphs. Contains occasional objective errors; do not certify completeness.",
+    "method": "public_web_reader",
+    "accessed": "2026-10-02",
+    "evidence_family": "gamerguides_vincent_lau"
+  },
+  {
+    "id": "hr_gg_chapter_10",
+    "name": "Gamer Guides — chapter-10-renewal",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/beginning-to-chapter/chapter-10-renewal",
+    "scope": [
+      "Hard map tactical reference"
+    ],
+    "limitations": "Guide defaults to Hard according to reading-this-guide. Exclude explicitly labelled Lunatic paragraphs. Contains occasional objective errors; do not certify completeness.",
+    "method": "public_web_reader",
+    "accessed": "2026-10-02",
+    "evidence_family": "gamerguides_vincent_lau"
+  },
+  {
+    "id": "hr_gg_paralogue_5",
+    "name": "Gamer Guides — sidequest-5-scion-of-legend",
+    "url": "https://www.gamerguides.com/fire-emblem-awakening/guide/sidequests-paralogues/sidequests-1-to-13/sidequest-5-scion-of-legend",
+    "scope": [
+      "Hard map tactical reference"
+    ],
+    "limitations": "Guide defaults to Hard according to reading-this-guide. Exclude explicitly labelled Lunatic paragraphs. Contains occasional objective errors; do not certify completeness.",
+    "method": "public_web_reader",
+    "accessed": "2026-10-02",
+    "evidence_family": "gamerguides_vincent_lau"
+  }
+]

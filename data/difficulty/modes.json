@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "normal",
+      "name": "Normal",
+      "difficulty": "Normal",
+      "cumulative_level_cap": 20,
+      "reinforcements_act_on_arrival": false,
+      "enemy_stat_template": null,
+      "source_ids": [
+        "calculations",
+        "gamerguides_modes"
+      ],
+      "verification": "single_source_reviewed",
+      "limitations": "Arrival timing alone supplies no map-specific spawn schedule. Lunatic+ random enemy skills must be checked individually."
+    },
+    {
+      "id": "hard",
+      "name": "Hard",
+      "difficulty": "Hard",
+      "cumulative_level_cap": 30,
+      "reinforcements_act_on_arrival": true,
+      "enemy_stat_template": null,
+      "source_ids": [
+        "calculations",
+        "gamerguides_modes"
+      ],
+      "verification": "mechanical_timing_cross_reference",
+      "limitations": "Arrival timing alone supplies no map-specific spawn schedule. Lunatic+ random enemy skills must be checked individually."
+    },
+    {
+      "id": "lunatic",
+      "name": "Lunatic",
+      "difficulty": "Lunatic",
+      "cumulative_level_cap": 50,
+      "reinforcements_act_on_arrival": true,
+      "enemy_stat_template": null,
+      "source_ids": [
+        "calculations",
+        "gamerguides_modes"
+      ],
+      "verification": "mechanical_timing_cross_reference",
+      "limitations": "Arrival timing alone supplies no map-specific spawn schedule. Lunatic+ random enemy skills must be checked individually."
+    },
+    {
+      "id": "lunatic_plus",
+      "name": "Lunatic+",
+      "difficulty": "Lunatic+",
+      "cumulative_level_cap": 50,
+      "reinforcements_act_on_arrival": true,
+      "enemy_stat_template": null,
+      "source_ids": [
+        "calculations",
+        "gamerguides_modes"
+      ],
+      "verification": "mechanical_timing_cross_reference",
+      "limitations": "Arrival timing alone supplies no map-specific spawn schedule. Lunatic+ random enemy skills must be checked individually."
+    }
+  ]
+}
