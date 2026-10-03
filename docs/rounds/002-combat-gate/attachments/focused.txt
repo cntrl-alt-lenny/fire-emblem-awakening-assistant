@@ -1,0 +1,21 @@
+$ python3 -m unittest discover -s tests -p test_combat_gate.py -v
+test_brave_contradictions_both_sides (test_combat_gate.CombatGateTests) ... ok
+test_canonical_ids_and_incomplete_resolution (test_combat_gate.CombatGateTests) ... ok
+test_certain_death_both_sides (test_combat_gate.CombatGateTests) ... ok
+test_existing_refusals (test_combat_gate.CombatGateTests) ... ok
+test_explicit_absence_and_input_unchanged (test_combat_gate.CombatGateTests) ... ok
+test_explicit_unequipped_defender (test_combat_gate.CombatGateTests) ... ok
+test_forged_values_and_ambiguous_markers (test_combat_gate.CombatGateTests) ... ok
+test_missing_properties_both_sides (test_combat_gate.CombatGateTests) ... ok
+test_near_one_probability_not_rounded (test_combat_gate.CombatGateTests) ... ok
+test_null_and_malformed_properties_both_sides (test_combat_gate.CombatGateTests) ... ok
+test_possible_death_both_sides (test_combat_gate.CombatGateTests) ... ok
+test_public_cli (test_combat_gate.CombatGateTests) ... ok
+test_weapon_presence_both_sides (test_combat_gate.CombatGateTests) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.221s
+
+OK
+
+exit_status: 0

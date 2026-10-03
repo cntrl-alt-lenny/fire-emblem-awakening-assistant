@@ -24,7 +24,7 @@ The focused source survey, normalization, tooling, validation and separate manua
 | Same-turn rule | **VERIFIED general ordinary Hard rule**; applied conditionally to positive-arrival evidence on **23 maps** |
 | Supported map-specific spawning phase + general action rule | **5 maps**: Chapters7,10,16,20 and Paralogue10; no independent observation of each individual wave |
 | Complete map-specific scripted-exception audits | **0** |
-| Tests passing | **101**, including 41 new Hard/live-safety tests; all existing 60 pass |
+| Tests passing | **115** at round 002, including 13 combat-gate regressions; historical forensic pass had 101 |
 | Added source registry IDs | **16**, registry total **217**; IDs and mirrors do not equal independent sources |
 
 Overall map confidence measures completeness and unresolved contradictions, not whether every fact on the map is doubtful. SUPPORTED precise facts remain useful on PARTIAL maps. Event-family records explicitly represent incomplete enumeration (village visits, continuous arrivals, Tiki-targeting waves, disputed Chapter5 schedule); do not present 29 as all actual waves. See `docs/map-coverage.md` and machine-readable `research/hard_verification/coverage_counts.json`.
@@ -60,6 +60,14 @@ python3 tools/map_info.py --chapter 7 --difficulty hard --turn 5 --phase player
 This targets enemy phase5. `--phase enemy` would target phase6. A turn without a phase is rejected. Known supported claims and uncertain/conflicted parts are separate; unknown/event timing remains a candidate. No matching wave is not absence. Explicit single-source absence is useful support but does not set the stronger certainty flag. No-spoiler mode hides tactical details; normal assistant replies must stay concise and scope to current map.
 
 Strict combat inputs require observed completeness, effective displayed stats, explicit support state/partner list, current HP, weapon/forge, ranks, all skills, weaknesses, terrain, combat bonuses, durability and distance. It reports worst HP and both death possibilities for supported duels; expected HP is not a guarantee. Missing data and Counter/Dragonskin/drain/unsupported procs or full dual outcomes return UNKNOWN. Existing calculator subset remains intact; no broad combat rewrite or EXP expansion was performed. Existing EXP ambiguity/refusals remain as previously documented.
+
+Round 002 repairs the live input contract: custom/forged weapons require known
+effect, Brave and effectiveness fields; canonical IDs resolve those fields
+without changing data. Explicitly observed unequipped defenders remain
+supported. Certain modeled death is LETHAL with the affected side named;
+possible death remains POTENTIALLY_LETHAL. Supported numerical results and
+the general calculator are unchanged. These regressions add no verified
+gameplay facts, map coverage or complete schedules.
 
 ## Final verification and remaining danger
 

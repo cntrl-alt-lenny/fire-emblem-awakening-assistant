@@ -1,0 +1,1312 @@
+{
+  "canonical": {
+    "command": "python3 tools/tactical_combat.py TEMP_INPUT.json",
+    "input": {
+      "attacker": {
+        "stats": {
+          "hp": 30,
+          "str": 10,
+          "mag": 5,
+          "skl": 10,
+          "spd": 15,
+          "lck": 5,
+          "def": 7,
+          "res": 4
+        },
+        "current_hp": 30,
+        "weapon": "iron_sword",
+        "weapon_rank": "D",
+        "skills": [],
+        "weaknesses": [],
+        "terrain": {},
+        "combat_bonuses": {},
+        "remaining_uses": 40
+      },
+      "defender": {
+        "stats": {
+          "hp": 25,
+          "str": 10,
+          "mag": 0,
+          "skl": 8,
+          "spd": 10,
+          "lck": 2,
+          "def": 5,
+          "res": 1
+        },
+        "current_hp": 25,
+        "weapon": "iron_axe",
+        "weapon_rank": "D",
+        "skills": [],
+        "weaknesses": [],
+        "terrain": {},
+        "combat_bonuses": {},
+        "remaining_uses": 40
+      },
+      "context": {
+        "distance": 1
+      },
+      "note": "Illustrative complete unpaired input, not actual player state. Verify actual observations before use.",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "stats_basis": "effective_displayed",
+      "observed_inputs_complete": true,
+      "support_state": "none",
+      "partners": []
+    },
+    "exit_status": 0,
+    "output": {
+      "status": "POTENTIALLY_LETHAL",
+      "at_risk_sides": [
+        "defender"
+      ],
+      "certain_death_sides": [],
+      "attacker_death_probability": 0,
+      "defender_death_probability": 0.0591,
+      "conditional_on_observed_inputs": true,
+      "safe_to_claim_map_survival": false,
+      "attacker_can_die": false,
+      "defender_can_die": true,
+      "worst_attacker_hp": 20,
+      "worst_defender_hp": 0,
+      "forecast": {
+        "scope": "Supported single duel; effective stats supplied; independent uniform RNG model",
+        "source_ids": [
+          "calculations",
+          "true_hit",
+          "p2_skills_game_descriptions_0"
+        ],
+        "attacker": {
+          "can_attack": true,
+          "attack_with_triangle": 15,
+          "defense_used": 5,
+          "displayed_attack": 15,
+          "damage": 10,
+          "damage_scope": "Nominal hit without offensive/defensive procs; full results are in outcome",
+          "critical_damage": 30,
+          "displayed_hit": 100,
+          "true_hit_probability": 1.0,
+          "crit_raw_base": 3,
+          "crit_percent": 3,
+          "doubles": true,
+          "scheduled_hits": 2,
+          "effective": false,
+          "expected_damage_per_scheduled_hit": 10.600000000000001
+        },
+        "defender": {
+          "can_attack": true,
+          "attack_with_triangle": 17,
+          "defense_used": 7,
+          "displayed_attack": 17,
+          "damage": 10,
+          "damage_scope": "Nominal hit without offensive/defensive procs; full results are in outcome",
+          "critical_damage": 30,
+          "displayed_hit": 58,
+          "true_hit_probability": 0.6514,
+          "crit_raw_base": -1,
+          "crit_percent": 0,
+          "doubles": false,
+          "scheduled_hits": 1,
+          "effective": false,
+          "expected_damage_per_scheduled_hit": 6.513999999999999
+        },
+        "outcome": {
+          "order": [
+            "a",
+            "b",
+            "a"
+          ],
+          "vantage_active": false,
+          "attacker_death_probability": 0,
+          "defender_death_probability": 0.0591,
+          "expected_attacker_hp": 23.681419999999996,
+          "expected_defender_hp": 4.7044999999999995,
+          "minimum_possible_attacker_hp": 20,
+          "minimum_possible_defender_hp": 0,
+          "maximum_possible_attacker_hp": 30,
+          "maximum_possible_defender_hp": 5,
+          "deterministic": false,
+          "states": [
+            {
+              "attacker_hp": 20,
+              "defender_hp": 0,
+              "probability": 0.018955739999999995
+            },
+            {
+              "attacker_hp": 20,
+              "defender_hp": 5,
+              "probability": 0.6129022599999999
+            },
+            {
+              "attacker_hp": 30,
+              "defender_hp": 0,
+              "probability": 0.04014426
+            },
+            {
+              "attacker_hp": 30,
+              "defender_hp": 5,
+              "probability": 0.32799774
+            }
+          ]
+        },
+        "lethal_risk": false,
+        "certainty": "probability_distribution",
+        "assumptions": [
+          "Effective displayed stats and weapon stats supplied; independent uniform random draws.",
+          "Possible outcomes include criticals and supported procs; expected HP is not a survival guarantee."
+        ]
+      },
+      "outcome": {
+        "order": [
+          "a",
+          "b",
+          "a"
+        ],
+        "vantage_active": false,
+        "attacker_death_probability": 0,
+        "defender_death_probability": 0.0591,
+        "expected_attacker_hp": 23.681419999999996,
+        "expected_defender_hp": 4.7044999999999995,
+        "minimum_possible_attacker_hp": 20,
+        "minimum_possible_defender_hp": 0,
+        "maximum_possible_attacker_hp": 30,
+        "maximum_possible_defender_hp": 5,
+        "deterministic": false,
+        "states": [
+          {
+            "attacker_hp": 20,
+            "defender_hp": 0,
+            "probability": 0.018955739999999995
+          },
+          {
+            "attacker_hp": 20,
+            "defender_hp": 5,
+            "probability": 0.6129022599999999
+          },
+          {
+            "attacker_hp": 30,
+            "defender_hp": 0,
+            "probability": 0.04014426
+          },
+          {
+            "attacker_hp": 30,
+            "defender_hp": 5,
+            "probability": 0.32799774
+          }
+        ]
+      },
+      "warning": "Supported duel only. Side names describe attack roles, not player/enemy allegiance. No prediction of AI order, unseen enemies, reinforcements or future movement. Expected HP is not a guarantee."
+    }
+  },
+  "forged": {
+    "command": "python3 tools/tactical_combat.py TEMP_INPUT.json",
+    "input": {
+      "attacker": {
+        "stats": {
+          "hp": 40,
+          "str": 10,
+          "mag": 10,
+          "skl": 0,
+          "spd": 10,
+          "lck": 0,
+          "def": 5,
+          "res": 5
+        },
+        "current_hp": 40,
+        "weapon": {
+          "id": "test",
+          "weapon_type": "sword",
+          "damage_type": "physical",
+          "might": 8,
+          "hit": 110,
+          "crit": 3,
+          "range": "1",
+          "rank": "E",
+          "effect": "\u2013",
+          "brave": false,
+          "effectiveness": []
+        },
+        "weapon_rank": "E",
+        "skills": [],
+        "weaknesses": [],
+        "terrain": {},
+        "combat_bonuses": {},
+        "remaining_uses": 50
+      },
+      "defender": {
+        "stats": {
+          "hp": 40,
+          "str": 10,
+          "mag": 10,
+          "skl": 0,
+          "spd": 10,
+          "lck": 0,
+          "def": 5,
+          "res": 5
+        },
+        "current_hp": 40,
+        "weapon": {
+          "id": "test",
+          "weapon_type": "sword",
+          "damage_type": "physical",
+          "might": 5,
+          "hit": 100,
+          "crit": 0,
+          "range": "1",
+          "rank": "E",
+          "effect": "\u2013",
+          "brave": false,
+          "effectiveness": []
+        },
+        "weapon_rank": "E",
+        "skills": [],
+        "weaknesses": [],
+        "terrain": {},
+        "combat_bonuses": {},
+        "remaining_uses": 50
+      },
+      "context": {
+        "distance": 1
+      },
+      "partners": [],
+      "support_state": "none",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "stats_basis": "effective_displayed",
+      "observed_inputs_complete": true
+    },
+    "exit_status": 0,
+    "output": {
+      "status": "NO_MODELED_DEATH_IN_THIS_DUEL",
+      "at_risk_sides": [],
+      "certain_death_sides": [],
+      "attacker_death_probability": 0,
+      "defender_death_probability": 0,
+      "conditional_on_observed_inputs": true,
+      "safe_to_claim_map_survival": false,
+      "attacker_can_die": false,
+      "defender_can_die": false,
+      "worst_attacker_hp": 30,
+      "worst_defender_hp": 1,
+      "forecast": {
+        "scope": "Supported single duel; effective stats supplied; independent uniform RNG model",
+        "source_ids": [
+          "calculations",
+          "true_hit",
+          "p2_skills_game_descriptions_0"
+        ],
+        "attacker": {
+          "can_attack": true,
+          "attack_with_triangle": 18,
+          "defense_used": 5,
+          "displayed_attack": 18,
+          "damage": 13,
+          "damage_scope": "Nominal hit without offensive/defensive procs; full results are in outcome",
+          "critical_damage": 39,
+          "displayed_hit": 95,
+          "true_hit_probability": 0.9955,
+          "crit_raw_base": 3,
+          "crit_percent": 3,
+          "doubles": false,
+          "scheduled_hits": 1,
+          "effective": false,
+          "expected_damage_per_scheduled_hit": 13.717990000000002
+        },
+        "defender": {
+          "can_attack": true,
+          "attack_with_triangle": 15,
+          "defense_used": 5,
+          "displayed_attack": 15,
+          "damage": 10,
+          "damage_scope": "Nominal hit without offensive/defensive procs; full results are in outcome",
+          "critical_damage": 30,
+          "displayed_hit": 85,
+          "true_hit_probability": 0.9565,
+          "crit_raw_base": 0,
+          "crit_percent": 0,
+          "doubles": false,
+          "scheduled_hits": 1,
+          "effective": false,
+          "expected_damage_per_scheduled_hit": 9.565
+        },
+        "outcome": {
+          "order": [
+            "a",
+            "b"
+          ],
+          "vantage_active": false,
+          "attacker_death_probability": 0,
+          "defender_death_probability": 0,
+          "expected_attacker_hp": 30.435,
+          "expected_defender_hp": 26.282009999999996,
+          "minimum_possible_attacker_hp": 30,
+          "minimum_possible_defender_hp": 1,
+          "maximum_possible_attacker_hp": 40,
+          "maximum_possible_defender_hp": 40,
+          "deterministic": false,
+          "states": [
+            {
+              "attacker_hp": 30,
+              "defender_hp": 1,
+              "probability": 0.0285658725
+            },
+            {
+              "attacker_hp": 30,
+              "defender_hp": 27,
+              "probability": 0.9236298775
+            },
+            {
+              "attacker_hp": 30,
+              "defender_hp": 40,
+              "probability": 0.0043042499999999505
+            },
+            {
+              "attacker_hp": 40,
+              "defender_hp": 1,
+              "probability": 0.0012991274999999995
+            },
+            {
+              "attacker_hp": 40,
+              "defender_hp": 27,
+              "probability": 0.042005122499999985
+            },
+            {
+              "attacker_hp": 40,
+              "defender_hp": 40,
+              "probability": 0.00019574999999999768
+            }
+          ]
+        },
+        "lethal_risk": false,
+        "certainty": "probability_distribution",
+        "assumptions": [
+          "Effective displayed stats and weapon stats supplied; independent uniform random draws.",
+          "Possible outcomes include criticals and supported procs; expected HP is not a survival guarantee."
+        ]
+      },
+      "outcome": {
+        "order": [
+          "a",
+          "b"
+        ],
+        "vantage_active": false,
+        "attacker_death_probability": 0,
+        "defender_death_probability": 0,
+        "expected_attacker_hp": 30.435,
+        "expected_defender_hp": 26.282009999999996,
+        "minimum_possible_attacker_hp": 30,
+        "minimum_possible_defender_hp": 1,
+        "maximum_possible_attacker_hp": 40,
+        "maximum_possible_defender_hp": 40,
+        "deterministic": false,
+        "states": [
+          {
+            "attacker_hp": 30,
+            "defender_hp": 1,
+            "probability": 0.0285658725
+          },
+          {
+            "attacker_hp": 30,
+            "defender_hp": 27,
+            "probability": 0.9236298775
+          },
+          {
+            "attacker_hp": 30,
+            "defender_hp": 40,
+            "probability": 0.0043042499999999505
+          },
+          {
+            "attacker_hp": 40,
+            "defender_hp": 1,
+            "probability": 0.0012991274999999995
+          },
+          {
+            "attacker_hp": 40,
+            "defender_hp": 27,
+            "probability": 0.042005122499999985
+          },
+          {
+            "attacker_hp": 40,
+            "defender_hp": 40,
+            "probability": 0.00019574999999999768
+          }
+        ]
+      },
+      "warning": "Supported duel only. Side names describe attack roles, not player/enemy allegiance. No prediction of AI order, unseen enemies, reinforcements or future movement. Expected HP is not a guarantee."
+    }
+  },
+  "unequipped": {
+    "command": "python3 tools/tactical_combat.py TEMP_INPUT.json",
+    "input": {
+      "attacker": {
+        "stats": {
+          "hp": 40,
+          "str": 10,
+          "mag": 10,
+          "skl": 0,
+          "spd": 10,
+          "lck": 0,
+          "def": 5,
+          "res": 5
+        },
+        "current_hp": 40,
+        "weapon": {
+          "id": "test",
+          "weapon_type": "sword",
+          "damage_type": "physical",
+          "might": 5,
+          "hit": 100,
+          "crit": 0,
+          "range": "1",
+          "rank": "E",
+          "effect": "\u2013",
+          "brave": false,
+          "effectiveness": []
+        },
+        "weapon_rank": "E",
+        "skills": [],
+        "weaknesses": [],
+        "terrain": {},
+        "combat_bonuses": {},
+        "remaining_uses": 50
+      },
+      "defender": {
+        "stats": {
+          "hp": 40,
+          "str": 10,
+          "mag": 10,
+          "skl": 0,
+          "spd": 10,
+          "lck": 0,
+          "def": 5,
+          "res": 5
+        },
+        "current_hp": 40,
+        "weapon": null,
+        "weapon_rank": "E",
+        "skills": [],
+        "weaknesses": [],
+        "terrain": {},
+        "combat_bonuses": {},
+        "remaining_uses": 0,
+        "weapon_state": "unequipped"
+      },
+      "context": {
+        "distance": 1
+      },
+      "partners": [],
+      "support_state": "none",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "stats_basis": "effective_displayed",
+      "observed_inputs_complete": true
+    },
+    "exit_status": 0,
+    "output": {
+      "status": "NO_MODELED_DEATH_IN_THIS_DUEL",
+      "at_risk_sides": [],
+      "certain_death_sides": [],
+      "attacker_death_probability": 0,
+      "defender_death_probability": 0,
+      "conditional_on_observed_inputs": true,
+      "safe_to_claim_map_survival": false,
+      "attacker_can_die": false,
+      "defender_can_die": false,
+      "worst_attacker_hp": 40,
+      "worst_defender_hp": 30,
+      "forecast": {
+        "scope": "Supported single duel; effective stats supplied; independent uniform RNG model",
+        "source_ids": [
+          "calculations",
+          "true_hit",
+          "p2_skills_game_descriptions_0"
+        ],
+        "attacker": {
+          "can_attack": true,
+          "attack_with_triangle": 15,
+          "defense_used": 5,
+          "displayed_attack": 15,
+          "damage": 10,
+          "damage_scope": "Nominal hit without offensive/defensive procs; full results are in outcome",
+          "critical_damage": 30,
+          "displayed_hit": 85,
+          "true_hit_probability": 0.9565,
+          "crit_raw_base": 0,
+          "crit_percent": 0,
+          "doubles": false,
+          "scheduled_hits": 1,
+          "effective": false,
+          "expected_damage_per_scheduled_hit": 9.565
+        },
+        "defender": {
+          "can_attack": false,
+          "scheduled_hits": 0
+        },
+        "outcome": {
+          "order": [
+            "a"
+          ],
+          "vantage_active": false,
+          "attacker_death_probability": 0,
+          "defender_death_probability": 0,
+          "expected_attacker_hp": 40.0,
+          "expected_defender_hp": 30.435,
+          "minimum_possible_attacker_hp": 40,
+          "minimum_possible_defender_hp": 30,
+          "maximum_possible_attacker_hp": 40,
+          "maximum_possible_defender_hp": 40,
+          "deterministic": false,
+          "states": [
+            {
+              "attacker_hp": 40,
+              "defender_hp": 30,
+              "probability": 0.9565
+            },
+            {
+              "attacker_hp": 40,
+              "defender_hp": 40,
+              "probability": 0.04349999999999998
+            }
+          ]
+        },
+        "lethal_risk": false,
+        "certainty": "probability_distribution",
+        "assumptions": [
+          "Effective displayed stats and weapon stats supplied; independent uniform random draws.",
+          "Possible outcomes include criticals and supported procs; expected HP is not a survival guarantee."
+        ]
+      },
+      "outcome": {
+        "order": [
+          "a"
+        ],
+        "vantage_active": false,
+        "attacker_death_probability": 0,
+        "defender_death_probability": 0,
+        "expected_attacker_hp": 40.0,
+        "expected_defender_hp": 30.435,
+        "minimum_possible_attacker_hp": 40,
+        "minimum_possible_defender_hp": 30,
+        "maximum_possible_attacker_hp": 40,
+        "maximum_possible_defender_hp": 40,
+        "deterministic": false,
+        "states": [
+          {
+            "attacker_hp": 40,
+            "defender_hp": 30,
+            "probability": 0.9565
+          },
+          {
+            "attacker_hp": 40,
+            "defender_hp": 40,
+            "probability": 0.04349999999999998
+          }
+        ]
+      },
+      "warning": "Supported duel only. Side names describe attack roles, not player/enemy allegiance. No prediction of AI order, unseen enemies, reinforcements or future movement. Expected HP is not a guarantee."
+    }
+  },
+  "certain_attacker": {
+    "command": "python3 tools/tactical_combat.py TEMP_INPUT.json",
+    "input": {
+      "attacker": {
+        "stats": {
+          "hp": 40,
+          "str": 10,
+          "mag": 10,
+          "skl": 0,
+          "spd": 10,
+          "lck": 0,
+          "def": 5,
+          "res": 5
+        },
+        "current_hp": 20,
+        "weapon": {
+          "id": "test",
+          "weapon_type": "sword",
+          "damage_type": "physical",
+          "might": 5,
+          "hit": 100,
+          "crit": 0,
+          "range": "1",
+          "rank": "E",
+          "effect": "\u2013",
+          "brave": false,
+          "effectiveness": []
+        },
+        "weapon_rank": "E",
+        "skills": [],
+        "weaknesses": [],
+        "terrain": {},
+        "combat_bonuses": {},
+        "remaining_uses": 50
+      },
+      "defender": {
+        "stats": {
+          "hp": 40,
+          "str": 10,
+          "mag": 10,
+          "skl": 0,
+          "spd": 10,
+          "lck": 0,
+          "def": 5,
+          "res": 5
+        },
+        "current_hp": 40,
+        "weapon": {
+          "id": "test",
+          "weapon_type": "sword",
+          "damage_type": "physical",
+          "might": 5,
+          "hit": 100,
+          "crit": 0,
+          "range": "1",
+          "rank": "E",
+          "effect": "2 consecutive attacks",
+          "brave": true,
+          "effectiveness": []
+        },
+        "weapon_rank": "E",
+        "skills": [
+          "hawkeye",
+          "vantage_plus"
+        ],
+        "weaknesses": [],
+        "terrain": {},
+        "combat_bonuses": {},
+        "remaining_uses": 50
+      },
+      "context": {
+        "distance": 1
+      },
+      "partners": [],
+      "support_state": "none",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "stats_basis": "effective_displayed",
+      "observed_inputs_complete": true
+    },
+    "exit_status": 0,
+    "output": {
+      "status": "LETHAL",
+      "at_risk_sides": [
+        "attacker"
+      ],
+      "certain_death_sides": [
+        "attacker"
+      ],
+      "attacker_death_probability": 1.0,
+      "defender_death_probability": 0,
+      "conditional_on_observed_inputs": true,
+      "safe_to_claim_map_survival": false,
+      "attacker_can_die": true,
+      "defender_can_die": false,
+      "worst_attacker_hp": 0,
+      "worst_defender_hp": 40,
+      "forecast": {
+        "scope": "Supported single duel; effective stats supplied; independent uniform RNG model",
+        "source_ids": [
+          "calculations",
+          "true_hit",
+          "p2_skills_game_descriptions_0"
+        ],
+        "attacker": {
+          "can_attack": true,
+          "attack_with_triangle": 15,
+          "defense_used": 5,
+          "displayed_attack": 15,
+          "damage": 10,
+          "damage_scope": "Nominal hit without offensive/defensive procs; full results are in outcome",
+          "critical_damage": 30,
+          "displayed_hit": 85,
+          "true_hit_probability": 0.9565,
+          "crit_raw_base": 0,
+          "crit_percent": 0,
+          "doubles": false,
+          "scheduled_hits": 1,
+          "effective": false,
+          "expected_damage_per_scheduled_hit": 9.565
+        },
+        "defender": {
+          "can_attack": true,
+          "attack_with_triangle": 15,
+          "defense_used": 5,
+          "displayed_attack": 15,
+          "damage": 10,
+          "damage_scope": "Nominal hit without offensive/defensive procs; full results are in outcome",
+          "critical_damage": 30,
+          "displayed_hit": 100,
+          "true_hit_probability": 1.0,
+          "crit_raw_base": 0,
+          "crit_percent": 0,
+          "doubles": false,
+          "scheduled_hits": 2,
+          "effective": false,
+          "expected_damage_per_scheduled_hit": 10.0
+        },
+        "outcome": {
+          "order": [
+            "b",
+            "b",
+            "a"
+          ],
+          "vantage_active": true,
+          "attacker_death_probability": 1.0,
+          "defender_death_probability": 0,
+          "expected_attacker_hp": 0.0,
+          "expected_defender_hp": 40.0,
+          "minimum_possible_attacker_hp": 0,
+          "minimum_possible_defender_hp": 40,
+          "maximum_possible_attacker_hp": 0,
+          "maximum_possible_defender_hp": 40,
+          "deterministic": true,
+          "states": [
+            {
+              "attacker_hp": 0,
+              "defender_hp": 40,
+              "probability": 1.0
+            }
+          ]
+        },
+        "lethal_risk": true,
+        "certainty": "deterministic",
+        "assumptions": [
+          "Effective displayed stats and weapon stats supplied; independent uniform random draws.",
+          "Possible outcomes include criticals and supported procs; expected HP is not a survival guarantee."
+        ]
+      },
+      "outcome": {
+        "order": [
+          "b",
+          "b",
+          "a"
+        ],
+        "vantage_active": true,
+        "attacker_death_probability": 1.0,
+        "defender_death_probability": 0,
+        "expected_attacker_hp": 0.0,
+        "expected_defender_hp": 40.0,
+        "minimum_possible_attacker_hp": 0,
+        "minimum_possible_defender_hp": 40,
+        "maximum_possible_attacker_hp": 0,
+        "maximum_possible_defender_hp": 40,
+        "deterministic": true,
+        "states": [
+          {
+            "attacker_hp": 0,
+            "defender_hp": 40,
+            "probability": 1.0
+          }
+        ]
+      },
+      "warning": "Supported duel only. Side names describe attack roles, not player/enemy allegiance. No prediction of AI order, unseen enemies, reinforcements or future movement. Expected HP is not a guarantee."
+    }
+  },
+  "certain_defender": {
+    "command": "python3 tools/tactical_combat.py TEMP_INPUT.json",
+    "input": {
+      "attacker": {
+        "stats": {
+          "hp": 40,
+          "str": 10,
+          "mag": 10,
+          "skl": 0,
+          "spd": 10,
+          "lck": 0,
+          "def": 5,
+          "res": 5
+        },
+        "current_hp": 40,
+        "weapon": {
+          "id": "test",
+          "weapon_type": "sword",
+          "damage_type": "physical",
+          "might": 5,
+          "hit": 100,
+          "crit": 0,
+          "range": "1",
+          "rank": "E",
+          "effect": "2 consecutive attacks",
+          "brave": true,
+          "effectiveness": []
+        },
+        "weapon_rank": "E",
+        "skills": [
+          "hawkeye"
+        ],
+        "weaknesses": [],
+        "terrain": {},
+        "combat_bonuses": {},
+        "remaining_uses": 50
+      },
+      "defender": {
+        "stats": {
+          "hp": 40,
+          "str": 10,
+          "mag": 10,
+          "skl": 0,
+          "spd": 10,
+          "lck": 0,
+          "def": 5,
+          "res": 5
+        },
+        "current_hp": 20,
+        "weapon": {
+          "id": "test",
+          "weapon_type": "sword",
+          "damage_type": "physical",
+          "might": 5,
+          "hit": 100,
+          "crit": 0,
+          "range": "1",
+          "rank": "E",
+          "effect": "\u2013",
+          "brave": false,
+          "effectiveness": []
+        },
+        "weapon_rank": "E",
+        "skills": [],
+        "weaknesses": [],
+        "terrain": {},
+        "combat_bonuses": {},
+        "remaining_uses": 50
+      },
+      "context": {
+        "distance": 1
+      },
+      "partners": [],
+      "support_state": "none",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "stats_basis": "effective_displayed",
+      "observed_inputs_complete": true
+    },
+    "exit_status": 0,
+    "output": {
+      "status": "LETHAL",
+      "at_risk_sides": [
+        "defender"
+      ],
+      "certain_death_sides": [
+        "defender"
+      ],
+      "attacker_death_probability": 0,
+      "defender_death_probability": 1.0,
+      "conditional_on_observed_inputs": true,
+      "safe_to_claim_map_survival": false,
+      "attacker_can_die": false,
+      "defender_can_die": true,
+      "worst_attacker_hp": 40,
+      "worst_defender_hp": 0,
+      "forecast": {
+        "scope": "Supported single duel; effective stats supplied; independent uniform RNG model",
+        "source_ids": [
+          "calculations",
+          "true_hit",
+          "p2_skills_game_descriptions_0"
+        ],
+        "attacker": {
+          "can_attack": true,
+          "attack_with_triangle": 15,
+          "defense_used": 5,
+          "displayed_attack": 15,
+          "damage": 10,
+          "damage_scope": "Nominal hit without offensive/defensive procs; full results are in outcome",
+          "critical_damage": 30,
+          "displayed_hit": 100,
+          "true_hit_probability": 1.0,
+          "crit_raw_base": 0,
+          "crit_percent": 0,
+          "doubles": false,
+          "scheduled_hits": 2,
+          "effective": false,
+          "expected_damage_per_scheduled_hit": 10.0
+        },
+        "defender": {
+          "can_attack": true,
+          "attack_with_triangle": 15,
+          "defense_used": 5,
+          "displayed_attack": 15,
+          "damage": 10,
+          "damage_scope": "Nominal hit without offensive/defensive procs; full results are in outcome",
+          "critical_damage": 30,
+          "displayed_hit": 85,
+          "true_hit_probability": 0.9565,
+          "crit_raw_base": 0,
+          "crit_percent": 0,
+          "doubles": false,
+          "scheduled_hits": 1,
+          "effective": false,
+          "expected_damage_per_scheduled_hit": 9.565
+        },
+        "outcome": {
+          "order": [
+            "a",
+            "a",
+            "b"
+          ],
+          "vantage_active": false,
+          "attacker_death_probability": 0,
+          "defender_death_probability": 1.0,
+          "expected_attacker_hp": 40.0,
+          "expected_defender_hp": 0.0,
+          "minimum_possible_attacker_hp": 40,
+          "minimum_possible_defender_hp": 0,
+          "maximum_possible_attacker_hp": 40,
+          "maximum_possible_defender_hp": 0,
+          "deterministic": true,
+          "states": [
+            {
+              "attacker_hp": 40,
+              "defender_hp": 0,
+              "probability": 1.0
+            }
+          ]
+        },
+        "lethal_risk": false,
+        "certainty": "deterministic",
+        "assumptions": [
+          "Effective displayed stats and weapon stats supplied; independent uniform random draws.",
+          "Possible outcomes include criticals and supported procs; expected HP is not a survival guarantee."
+        ]
+      },
+      "outcome": {
+        "order": [
+          "a",
+          "a",
+          "b"
+        ],
+        "vantage_active": false,
+        "attacker_death_probability": 0,
+        "defender_death_probability": 1.0,
+        "expected_attacker_hp": 40.0,
+        "expected_defender_hp": 0.0,
+        "minimum_possible_attacker_hp": 40,
+        "minimum_possible_defender_hp": 0,
+        "maximum_possible_attacker_hp": 40,
+        "maximum_possible_defender_hp": 0,
+        "deterministic": true,
+        "states": [
+          {
+            "attacker_hp": 40,
+            "defender_hp": 0,
+            "probability": 1.0
+          }
+        ]
+      },
+      "warning": "Supported duel only. Side names describe attack roles, not player/enemy allegiance. No prediction of AI order, unseen enemies, reinforcements or future movement. Expected HP is not a guarantee."
+    }
+  },
+  "possible": {
+    "command": "python3 tools/tactical_combat.py TEMP_INPUT.json",
+    "input": {
+      "attacker": {
+        "stats": {
+          "hp": 40,
+          "str": 10,
+          "mag": 10,
+          "skl": 0,
+          "spd": 10,
+          "lck": 0,
+          "def": 5,
+          "res": 5
+        },
+        "current_hp": 40,
+        "weapon": {
+          "id": "test",
+          "weapon_type": "sword",
+          "damage_type": "physical",
+          "might": 5,
+          "hit": 100,
+          "crit": 1,
+          "range": "1",
+          "rank": "E",
+          "effect": "\u2013",
+          "brave": false,
+          "effectiveness": []
+        },
+        "weapon_rank": "E",
+        "skills": [],
+        "weaknesses": [],
+        "terrain": {},
+        "combat_bonuses": {},
+        "remaining_uses": 50
+      },
+      "defender": {
+        "stats": {
+          "hp": 40,
+          "str": 10,
+          "mag": 10,
+          "skl": 0,
+          "spd": 10,
+          "lck": 0,
+          "def": 5,
+          "res": 5
+        },
+        "current_hp": 20,
+        "weapon": {
+          "id": "test",
+          "weapon_type": "sword",
+          "damage_type": "physical",
+          "might": 5,
+          "hit": 100,
+          "crit": 0,
+          "range": "1",
+          "rank": "E",
+          "effect": "\u2013",
+          "brave": false,
+          "effectiveness": []
+        },
+        "weapon_rank": "E",
+        "skills": [],
+        "weaknesses": [],
+        "terrain": {},
+        "combat_bonuses": {},
+        "remaining_uses": 50
+      },
+      "context": {
+        "distance": 1
+      },
+      "partners": [],
+      "support_state": "none",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "stats_basis": "effective_displayed",
+      "observed_inputs_complete": true
+    },
+    "exit_status": 0,
+    "output": {
+      "status": "POTENTIALLY_LETHAL",
+      "at_risk_sides": [
+        "defender"
+      ],
+      "certain_death_sides": [],
+      "attacker_death_probability": 0,
+      "defender_death_probability": 0.009565,
+      "conditional_on_observed_inputs": true,
+      "safe_to_claim_map_survival": false,
+      "attacker_can_die": false,
+      "defender_can_die": true,
+      "worst_attacker_hp": 30,
+      "worst_defender_hp": 0,
+      "forecast": {
+        "scope": "Supported single duel; effective stats supplied; independent uniform RNG model",
+        "source_ids": [
+          "calculations",
+          "true_hit",
+          "p2_skills_game_descriptions_0"
+        ],
+        "attacker": {
+          "can_attack": true,
+          "attack_with_triangle": 15,
+          "defense_used": 5,
+          "displayed_attack": 15,
+          "damage": 10,
+          "damage_scope": "Nominal hit without offensive/defensive procs; full results are in outcome",
+          "critical_damage": 30,
+          "displayed_hit": 85,
+          "true_hit_probability": 0.9565,
+          "crit_raw_base": 1,
+          "crit_percent": 1,
+          "doubles": false,
+          "scheduled_hits": 1,
+          "effective": false,
+          "expected_damage_per_scheduled_hit": 9.7563
+        },
+        "defender": {
+          "can_attack": true,
+          "attack_with_triangle": 15,
+          "defense_used": 5,
+          "displayed_attack": 15,
+          "damage": 10,
+          "damage_scope": "Nominal hit without offensive/defensive procs; full results are in outcome",
+          "critical_damage": 30,
+          "displayed_hit": 85,
+          "true_hit_probability": 0.9565,
+          "crit_raw_base": 0,
+          "crit_percent": 0,
+          "doubles": false,
+          "scheduled_hits": 1,
+          "effective": false,
+          "expected_damage_per_scheduled_hit": 9.565
+        },
+        "outcome": {
+          "order": [
+            "a",
+            "b"
+          ],
+          "vantage_active": false,
+          "attacker_death_probability": 0,
+          "defender_death_probability": 0.009565,
+          "expected_attacker_hp": 30.526489225000002,
+          "expected_defender_hp": 10.33935,
+          "minimum_possible_attacker_hp": 30,
+          "minimum_possible_defender_hp": 0,
+          "maximum_possible_attacker_hp": 40,
+          "maximum_possible_defender_hp": 20,
+          "deterministic": false,
+          "states": [
+            {
+              "attacker_hp": 30,
+              "defender_hp": 10,
+              "probability": 0.9057433275
+            },
+            {
+              "attacker_hp": 30,
+              "defender_hp": 20,
+              "probability": 0.041607749999999985
+            },
+            {
+              "attacker_hp": 40,
+              "defender_hp": 0,
+              "probability": 0.009565
+            },
+            {
+              "attacker_hp": 40,
+              "defender_hp": 10,
+              "probability": 0.041191672499999984
+            },
+            {
+              "attacker_hp": 40,
+              "defender_hp": 20,
+              "probability": 0.0018922499999999985
+            }
+          ]
+        },
+        "lethal_risk": false,
+        "certainty": "probability_distribution",
+        "assumptions": [
+          "Effective displayed stats and weapon stats supplied; independent uniform random draws.",
+          "Possible outcomes include criticals and supported procs; expected HP is not a survival guarantee."
+        ]
+      },
+      "outcome": {
+        "order": [
+          "a",
+          "b"
+        ],
+        "vantage_active": false,
+        "attacker_death_probability": 0,
+        "defender_death_probability": 0.009565,
+        "expected_attacker_hp": 30.526489225000002,
+        "expected_defender_hp": 10.33935,
+        "minimum_possible_attacker_hp": 30,
+        "minimum_possible_defender_hp": 0,
+        "maximum_possible_attacker_hp": 40,
+        "maximum_possible_defender_hp": 20,
+        "deterministic": false,
+        "states": [
+          {
+            "attacker_hp": 30,
+            "defender_hp": 10,
+            "probability": 0.9057433275
+          },
+          {
+            "attacker_hp": 30,
+            "defender_hp": 20,
+            "probability": 0.041607749999999985
+          },
+          {
+            "attacker_hp": 40,
+            "defender_hp": 0,
+            "probability": 0.009565
+          },
+          {
+            "attacker_hp": 40,
+            "defender_hp": 10,
+            "probability": 0.041191672499999984
+          },
+          {
+            "attacker_hp": 40,
+            "defender_hp": 20,
+            "probability": 0.0018922499999999985
+          }
+        ]
+      },
+      "warning": "Supported duel only. Side names describe attack roles, not player/enemy allegiance. No prediction of AI order, unseen enemies, reinforcements or future movement. Expected HP is not a guarantee."
+    }
+  },
+  "missing_effect": {
+    "command": "python3 tools/tactical_combat.py TEMP_INPUT.json",
+    "input": {
+      "attacker": {
+        "stats": {
+          "hp": 40,
+          "str": 10,
+          "mag": 10,
+          "skl": 0,
+          "spd": 10,
+          "lck": 0,
+          "def": 5,
+          "res": 5
+        },
+        "current_hp": 40,
+        "weapon": {
+          "id": "test",
+          "weapon_type": "sword",
+          "damage_type": "physical",
+          "might": 5,
+          "hit": 100,
+          "crit": 0,
+          "range": "1",
+          "rank": "E",
+          "effect": "\u2013",
+          "brave": false,
+          "effectiveness": []
+        },
+        "weapon_rank": "E",
+        "skills": [],
+        "weaknesses": [],
+        "terrain": {},
+        "combat_bonuses": {},
+        "remaining_uses": 50
+      },
+      "defender": {
+        "stats": {
+          "hp": 40,
+          "str": 10,
+          "mag": 10,
+          "skl": 0,
+          "spd": 10,
+          "lck": 0,
+          "def": 5,
+          "res": 5
+        },
+        "current_hp": 40,
+        "weapon": {
+          "id": "test",
+          "weapon_type": "sword",
+          "damage_type": "physical",
+          "might": 5,
+          "hit": 100,
+          "crit": 0,
+          "range": "1",
+          "rank": "E",
+          "brave": false,
+          "effectiveness": []
+        },
+        "weapon_rank": "E",
+        "skills": [],
+        "weaknesses": [],
+        "terrain": {},
+        "combat_bonuses": {},
+        "remaining_uses": 50
+      },
+      "context": {
+        "distance": 1
+      },
+      "partners": [],
+      "support_state": "none",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "stats_basis": "effective_displayed",
+      "observed_inputs_complete": true
+    },
+    "exit_status": 0,
+    "output": {
+      "status": "UNKNOWN",
+      "reason": "defender:weapon.effect missing, unknown or unsupported; use explicit \u2013 for no special effect",
+      "safe_to_claim_survival": false,
+      "outcome": null
+    }
+  }
+}
