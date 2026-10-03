@@ -22,8 +22,6 @@ jobs:
             python: '3.13'
           - os: macos-latest
             python: '3.13'
-          - os: windows-latest
-            python: '3.13'
     steps:
       - uses: actions/checkout@v4
         with:
@@ -37,5 +35,7 @@ jobs:
         run: python tools/audit_phase2.py
       - name: Audit Hard tactical records
         run: python tools/audit_hard.py
+      - name: Check agent framework hygiene
+        run: python tools/fw.py check
       - name: Run regression suite
         run: python -m unittest discover -s tests -v

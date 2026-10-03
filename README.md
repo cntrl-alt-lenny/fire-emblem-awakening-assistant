@@ -13,7 +13,7 @@
 
 ## What is this?
 
-A local knowledge base and Python toolkit for Fire Emblem Awakening: look up mechanics, calculate supported combat outcomes, and track your actual army. It runs entirely offline with Python's standard library; no installation, account or API key is required.
+A local knowledge base and Python toolkit for Fire Emblem Awakening: look up mechanics, calculate supported combat outcomes, and track your actual army. It runs on Linux and macOS, entirely offline with Python's standard library; no installation, account or API key is required.
 
 The Hard/Classic reference distinguishes supported facts, conflicts and missing evidence. **No complete reinforcement schedule or whole-map safety guarantee is certified.** Passing tests checks structure and modeled behavior; it does not prove every game fact. Read [coverage and limitations](STATUS.md) before relying on tactical advice.
 
@@ -30,7 +30,7 @@ The Hard/Classic reference distinguishes supported facts, conflicts and missing 
 
 3. Read the [usage guide](docs/usage.md) for tracking and more calculations. A playthrough starts only when you request one and supply your actual state.
 
-On Windows, use `py -3` in place of `python3`. Without `make`, run the three validation scripts listed in the [contributing guide](CONTRIBUTING.md), followed by the unittest command.
+Without `make`, run the three validation scripts listed in the [contributing guide](CONTRIBUTING.md), followed by the unittest command. Native Windows tracking is currently unsupported; use Linux through WSL for the full toolkit.
 
 ## What works
 
@@ -49,9 +49,10 @@ Full paired outcomes, complete enemy geometry and many proc interactions remain 
 - [Combat formulas](docs/combat-formulas.md) · [Hard reinforcements](docs/hard-reinforcements.md)
 - [Sources](SOURCES.md) · [Unresolved questions](research/UNCERTAINTIES.md)
 - [Contributing](CONTRIBUTING.md) · [Agent instructions](AGENTS.md)
+- [Agentic framework](docs/agents/FRAMEWORK.md) · [Standing decisions](docs/state.md)
 
 ## Credits and license
 
 An unofficial fan project. Fire Emblem Awakening and related names belong to Nintendo and Intelligent Systems. No ROMs, game binaries, extracted game assets or complete guide pages are included. Factual records cite their sources; use your own game copy for play.
 
-No project-wide license has been selected. Source materials retain their respective rights. Framework files, when installed, carry the upstream framework's MIT license separately.
+No project-wide license has been selected. Source materials retain their respective rights. Installed framework files carry the [upstream MIT license](docs/agents/local/framework-LICENSE) separately.
