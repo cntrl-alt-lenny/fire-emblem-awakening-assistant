@@ -8,7 +8,7 @@ from tactical_combat import assess
 from audit_hard import audit
 
 def unit():
- return {'stats':dict(zip(STATS,[40,10,10,0,10,0,5,5])),'current_hp':40,'weapon':{'id':'test','weapon_type':'sword','damage_type':'physical','might':5,'hit':100,'crit':0,'range':'1','rank':'E','effect':'–','brave':False},'weapon_rank':'E','skills':[],'weaknesses':[],'terrain':{},'combat_bonuses':{},'remaining_uses':50}
+ return {'stats':dict(zip(STATS,[40,10,10,0,10,0,5,5])),'current_hp':40,'weapon':{'id':'test','weapon_type':'sword','damage_type':'physical','might':5,'hit':100,'crit':0,'range':'1','rank':'E','effect':'–','brave':False,'effectiveness':[]},'weapon_rank':'E','skills':[],'weaknesses':[],'terrain':{},'combat_bonuses':{},'remaining_uses':50}
 def battle():return {'attacker':unit(),'defender':unit(),'context':{'distance':1},'partners':[],'support_state':'none','difficulty':'Hard','mode':'Classic','stats_basis':'effective_displayed','observed_inputs_complete':True}
 class HardDataTests(unittest.TestCase):
  def test_complete_campaign_inventory(self):self.assertEqual(len(load()[0]),44);self.assertTrue(audit()['passed'])
@@ -88,10 +88,10 @@ class LiveCombatSafetyTests(unittest.TestCase):
   p=battle();p['attacker']['stats']['spd']=14;self.assertFalse(assess(p)['forecast']['attacker']['doubles'])
   p['attacker']['stats']['spd']=15;self.assertTrue(assess(p)['forecast']['attacker']['doubles'])
  def test_brave_lethal_second_hit(self):
-  p=battle();p['attacker']['weapon']['brave']=True;p['attacker']['skills']=['hawkeye'];p['defender']['current_hp']=20
+  p=battle();p['attacker']['weapon']['brave']=True;p['attacker']['weapon']['effect']='2 consecutive attacks';p['attacker']['skills']=['hawkeye'];p['defender']['current_hp']=20
   self.assertEqual(assess(p)['outcome']['defender_death_probability'],1)
  def test_vantage_can_stop_brave(self):
-  p=battle();p['attacker']['current_hp']=1;p['attacker']['weapon']['brave']=True;p['defender']['current_hp']=20;p['defender']['skills']=['vantage','hawkeye']
+  p=battle();p['attacker']['current_hp']=1;p['attacker']['weapon']['brave']=True;p['attacker']['weapon']['effect']='2 consecutive attacks';p['defender']['current_hp']=20;p['defender']['skills']=['vantage','hawkeye']
   r=assess(p);self.assertEqual(r['outcome']['attacker_death_probability'],1);self.assertEqual(r['outcome']['expected_defender_hp'],20)
  def test_effective_damage_lethal(self):
   p=battle();p['attacker']['weapon']['effectiveness']=['flying'];p['defender']['weaknesses']=['flying'];p['defender']['current_hp']=20;p['attacker']['skills']=['hawkeye']

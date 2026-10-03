@@ -67,9 +67,39 @@ No run has been initialized. The current evidence-aware Hard layer is described 
 
 ```sh
 python3 tools/map_info.py --chapter 7 --difficulty hard --turn 5 --phase player
-python3 tools/tactical_combat.py observed_battle.json
+python3 tools/tactical_combat.py examples/battle.json
 make audit
 make rebuild
 ```
 
 The map command targets enemy phase5 from player phase5; phase is required with a turn. It separates known from uncertain events and retains unknown timing. The strict combat gate requires confirmed observed inputs and explicit support state; unsupported interactions return UNKNOWN. Read `docs/hard-reinforcements.md` before interpreting arrival claims. Other modes, procedural skirmishes and bonus content remain separate.
+
+The [battle example](../examples/battle.json) illustrates the input contract;
+replace it with actual observations for live use. A weapon may be a canonical
+ID (such as `iron_sword`) when the lookup supplies known properties, or a
+complete custom object with actual forged might/hit/crit. Custom objects must
+explicitly include `effect`, boolean `brave` and a category list
+`effectiveness`. Known absence uses `effect: "–"`, `brave: false` and
+`effectiveness: []`; empty text, missing fields and null are unknown.
+Effectiveness is separate from special-effect text: `"–"` does not erase
+an explicitly supplied effectiveness category. For Brave weapons use
+`effect: "2 consecutive attacks"` and `brave: true` together. Contradictions
+refuse; a forge marker or offset cannot replace actual weapon numbers.
+Unsupported canonical effects still refuse, and lookup does not prove class
+eligibility or supply observed durability. Effective stats already include
+equipped stat bonuses once.
+
+An observed unequipped defender uses `weapon: null` with
+`weapon_state: "unequipped"`; both declarations are required. Still supply
+all other observed fields (use `weapon_rank: "E"` and `remaining_uses: 0`
+as unused placeholders). Missing weapon knowledge is UNKNOWN, and an
+unequipped attacker cannot initiate. An equipped weapon may optionally use
+`weapon_state: "equipped"`.
+
+`LETHAL` means at least one side's modeled death probability is exactly one;
+`POTENTIALLY_LETHAL` means positive risk below one; otherwise the status is
+`NO_MODELED_DEATH_IN_THIS_DUEL`. Read `at_risk_sides`, `certain_death_sides`,
+both death probabilities and worst HP. Attacker/defender denote attack roles:
+identify the player's side before interpreting a certain enemy defeat.
+Probabilities below one are not rounded to certainty. All supported outputs
+remain conditional on the supplied observations; no label proves map safety.

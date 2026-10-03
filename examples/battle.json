@@ -13,7 +13,11 @@
     "current_hp": 30,
     "weapon": "iron_sword",
     "weapon_rank": "D",
-    "skills": []
+    "skills": [],
+    "weaknesses": [],
+    "terrain": {},
+    "combat_bonuses": {},
+    "remaining_uses": 40
   },
   "defender": {
     "stats": {
@@ -29,10 +33,20 @@
     "current_hp": 25,
     "weapon": "iron_axe",
     "weapon_rank": "D",
-    "skills": []
+    "skills": [],
+    "weaknesses": [],
+    "terrain": {},
+    "combat_bonuses": {},
+    "remaining_uses": 40
   },
   "context": {
     "distance": 1
   },
-  "note": "Illustrative unpaired duel, not actual player state."
+  "note": "Illustrative complete unpaired input, not actual player state. Verify actual observations before use.",
+  "difficulty": "Hard",
+  "mode": "Classic",
+  "stats_basis": "effective_displayed",
+  "observed_inputs_complete": true,
+  "support_state": "none",
+  "partners": []
 }

@@ -1,0 +1,108 @@
+Baseline 0af85f83df6e372ff0c03853968eca4921be840f; new complete fixtures and new assertions, old wrapper.
+Repository root removed from traceback paths.
+test_missing_properties_both_sides (test_combat_gate.CombatGateTests) ... test_certain_death_both_sides (test_combat_gate.CombatGateTests) ... 
+======================================================================
+FAIL: test_missing_properties_both_sides (test_combat_gate.CombatGateTests) (side='attacker', field='effect')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_combat_gate.py", line 40, in test_missing_properties_both_sides
+    self.unknown(p, side + ':weapon.' + field)
+  File "tests/test_combat_gate.py", line 30, in unknown
+    self.assertEqual(r['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_missing_properties_both_sides (test_combat_gate.CombatGateTests) (side='attacker', field='brave')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_combat_gate.py", line 40, in test_missing_properties_both_sides
+    self.unknown(p, side + ':weapon.' + field)
+  File "tests/test_combat_gate.py", line 30, in unknown
+    self.assertEqual(r['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_missing_properties_both_sides (test_combat_gate.CombatGateTests) (side='attacker', field='effectiveness')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_combat_gate.py", line 40, in test_missing_properties_both_sides
+    self.unknown(p, side + ':weapon.' + field)
+  File "tests/test_combat_gate.py", line 30, in unknown
+    self.assertEqual(r['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_missing_properties_both_sides (test_combat_gate.CombatGateTests) (side='defender', field='effect')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_combat_gate.py", line 40, in test_missing_properties_both_sides
+    self.unknown(p, side + ':weapon.' + field)
+  File "tests/test_combat_gate.py", line 30, in unknown
+    self.assertEqual(r['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_missing_properties_both_sides (test_combat_gate.CombatGateTests) (side='defender', field='brave')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_combat_gate.py", line 40, in test_missing_properties_both_sides
+    self.unknown(p, side + ':weapon.' + field)
+  File "tests/test_combat_gate.py", line 30, in unknown
+    self.assertEqual(r['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_missing_properties_both_sides (test_combat_gate.CombatGateTests) (side='defender', field='effectiveness')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_combat_gate.py", line 40, in test_missing_properties_both_sides
+    self.unknown(p, side + ':weapon.' + field)
+  File "tests/test_combat_gate.py", line 30, in unknown
+    self.assertEqual(r['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_certain_death_both_sides (test_combat_gate.CombatGateTests) (side='attacker')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_combat_gate.py", line 106, in test_certain_death_both_sides
+    self.assertEqual(r['status'],'LETHAL')
+AssertionError: 'POTENTIALLY_LETHAL' != 'LETHAL'
+- POTENTIALLY_LETHAL
++ LETHAL
+
+
+======================================================================
+FAIL: test_certain_death_both_sides (test_combat_gate.CombatGateTests) (side='defender')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/test_combat_gate.py", line 106, in test_certain_death_both_sides
+    self.assertEqual(r['status'],'LETHAL')
+AssertionError: 'POTENTIALLY_LETHAL' != 'LETHAL'
+- POTENTIALLY_LETHAL
++ LETHAL
+
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.004s
+
+FAILED (failures=8)
+expected_test_exit_status: 1

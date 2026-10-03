@@ -1,0 +1,57 @@
+[
+  {
+    "document": "docs/usage.md",
+    "target": "../STATUS.md",
+    "exists": true
+  },
+  {
+    "document": "docs/usage.md",
+    "target": "../AGENTS.md",
+    "exists": true
+  },
+  {
+    "document": "docs/usage.md",
+    "target": "../STATUS.md",
+    "exists": true
+  },
+  {
+    "document": "docs/usage.md",
+    "target": "../CURRENT_RUN.md",
+    "exists": true
+  },
+  {
+    "document": "docs/usage.md",
+    "target": "combat-formulas.md",
+    "exists": true
+  },
+  {
+    "document": "docs/usage.md",
+    "target": "../SOURCES.md",
+    "exists": true
+  },
+  {
+    "document": "docs/usage.md",
+    "target": "../research/UNCERTAINTIES.md",
+    "exists": true
+  },
+  {
+    "document": "docs/usage.md",
+    "target": "../STATUS.md",
+    "exists": true
+  },
+  {
+    "document": "docs/usage.md",
+    "target": "map-coverage.md",
+    "exists": true
+  },
+  {
+    "document": "docs/usage.md",
+    "target": "../examples/battle.json",
+    "exists": true
+  },
+  {
+    "document": "docs/combat-formulas.md",
+    "target": "usage.md",
+    "exists": true
+  }
+]

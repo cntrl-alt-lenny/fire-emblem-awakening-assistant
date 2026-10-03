@@ -1,0 +1,8 @@
+$ python3 docs/rounds/002-combat-gate/attachments/evidence.py
+OS/Python: Darwin 27.0.0 3.9.6
+Baseline: 8 expected assertion failures, 0 errors (test exit 1)
+Numerical comparison: 10 complete fixtures, identical forecasts/outcomes
+CLI: 7 temporary inputs, all exit 0
+Preservation: 30 files; added/deleted/changed: []/[]/[]; live run: False
+
+exit_status: 0

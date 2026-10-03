@@ -35,4 +35,23 @@ Nominal `attacker`/`defender` forecasts exclude proc damage. Use `outcome` for H
 
 Aether/Astra/Lethality/Counter/Dragonskin/drain weapons, post-kill healing, breakage and full dual combat remain unsupported. Pair bonuses, Dual Support and rates remain in `pair_up.py`; `paired_forecast.py` applies bonuses once from explicitly unpaired leader stats and raw partner thresholds, but leaves outcome UNKNOWN. Never strip an unsupported skill/weapon effect to obtain a result. `enemy_phase.py` requires explicit attacker order and enough total player weapon durability; it does not predict AI/pathfinding or missing reinforcements.
 
+The Hard/Classic live wrapper `tactical_combat.py` adds a stricter input gate
+without changing these formulas or the general calculator's compatibility.
+Canonical weapon IDs resolve known fields; custom/forged objects require
+explicit known `effect`, `brave` and `effectiveness`. No special effect is
+`"–"`, no Brave behavior is `false`, and no effectiveness is `[]`. The latter
+is a separate property, so `"–"` can accompany an effective weapon. Brave
+text (`"2 consecutive attacks"`) and its boolean must agree. Missing, null,
+malformed, unknown or unsupported properties return UNKNOWN without a full
+outcome. An unequipped defender requires `weapon: null` and explicit
+`weapon_state: "unequipped"`; this establishes no counterattack rather than
+inventing equipment. See the [live input instructions](usage.md).
+
+The wrapper labels an exactly-one death probability on either side LETHAL,
+other positive risk POTENTIALLY_LETHAL, and zero modeled death risk
+NO_MODELED_DEATH_IN_THIS_DUEL. It exposes `at_risk_sides`,
+`certain_death_sides`, both unrounded probabilities and worst HP. Attack roles
+do not establish player allegiance. This is classification of the existing
+distribution, not new numerical mechanics or a whole-map guarantee.
+
 `healing.py` uses independently sourced Mend15+floor(Magic/2), Physic8+floor(Magic/2), Recover to full HP, plus staff rank/Healtouch and target HP caps. Sources: `p2_mend`, `p2_physic`, `calculations`, `skills_extra`, `weapons_b_2`. Physic maximum range is floor(Magic/2); low-Magic edge cases beyond the table are not inferred. Other healing staff coefficients remain unsupported. No automatic terrain table is implemented. Pegasus Knight's explicitly uncorrected/copy-conflicted sections remain excluded.
