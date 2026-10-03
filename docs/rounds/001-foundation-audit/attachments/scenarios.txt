@@ -1,0 +1,16 @@
+$ python3 docs/rounds/001-foundation-audit/attachments/scenarios.py
+baseline {"status": "NO_MODELED_DEATH_IN_THIS_DUEL", "conditional_on_observed_inputs": true, "safe_to_claim_map_survival": false, "attacker_can_die": false, "defender_can_die": false, "worst_attacker_hp": 30, "worst_defender_hp": 30, "warning": "Supported duel only. No prediction of AI order, unseen enemies, reinforcements or future movement. Expected HP is not a guarantee."}
+death probabilities: 0 0
+missing_support_state {"status": "UNKNOWN", "missing": ["Explicit support_state: none only when neither side has a paired/adjacent support combatant"], "safe_to_claim_survival": false}
+missing_partners {"status": "UNKNOWN", "missing": ["Explicit partners list: [] for none; missing/null does not mean unpaired"], "safe_to_claim_survival": false}
+adjacent_support {"status": "UNKNOWN", "reason": "Full paired/adjacent Dual Strike and Dual Guard outcome is unsupported; use pair_up/paired_forecast for supported bonuses and rates.", "safe_to_claim_survival": false}
+counter {"status": "UNKNOWN", "reason": "Unsupported combat skills: counter", "safe_to_claim_survival": false}
+dragonskin {"status": "UNKNOWN", "reason": "Unsupported combat skills: dragonskin", "safe_to_claim_survival": false}
+aether {"status": "UNKNOWN", "reason": "Unsupported combat skills: aether", "safe_to_claim_survival": false}
+explicit_drain {"status": "UNKNOWN", "reason": "Unsupported weapon effect: Drains HP", "safe_to_claim_survival": false}
+missing_weapon_effect {"status": "NO_MODELED_DEATH_IN_THIS_DUEL", "conditional_on_observed_inputs": true, "safe_to_claim_map_survival": false, "attacker_can_die": false, "defender_can_die": false, "worst_attacker_hp": 30, "worst_defender_hp": 30, "warning": "Supported duel only. No prediction of AI order, unseen enemies, reinforcements or future movement. Expected HP is not a guarantee."}
+death probabilities: 0 0
+certain_death {"status": "POTENTIALLY_LETHAL", "conditional_on_observed_inputs": true, "safe_to_claim_map_survival": false, "attacker_can_die": false, "defender_can_die": true, "worst_attacker_hp": 40, "worst_defender_hp": 0, "warning": "Supported duel only. No prediction of AI order, unseen enemies, reinforcements or future movement. Expected HP is not a guarantee."}
+death probabilities: 0 1.0
+
+exit_status: 0

@@ -1,0 +1,133 @@
+$ make rebuild
+python3 tools/build_data.py
+{
+  "classes": 55,
+  "characters": 49,
+  "skills": 91,
+  "weapons": 138,
+  "items": 59,
+  "chapters": 76
+}
+python3 tools/enrich_data.py
+{'supports': 316, 'support_conflicts': 0, 'enemies': 22, 'skills': 103, 'obtainability_weapons': 107}
+python3 tools/phase2_data.py
+{"enemy_templates": 1104, "partial_waves": 74, "Lunatic_maps": 36, "Hard_metadata_maps": 45, "anomalies": 0}
+python3 tools/coverage_report.py
+python3 tools/hard_data.py
+python3 tools/validate_data.py
+{
+  "passed": true,
+  "counts": {
+    "characters": 49,
+    "classes": 55,
+    "weapons": 138,
+    "items": 59,
+    "skills": 103,
+    "chapters": 76,
+    "enemies": 1104,
+    "support_edges": 316,
+    "shops": 48,
+    "merchants": 49,
+    "renown": 33,
+    "merchant_rare_pool": 1,
+    "sources": 217
+  },
+  "coverage": {
+    "chapters_by_kind": {
+      "main": 28,
+      "paralogue": 23,
+      "DLC": 25
+    },
+    "map_difficulty_slots": 304,
+    "unresolved_map_difficulty_slots": 122,
+    "partially_verified_map_difficulty_slots": 82,
+    "unresearched_map_difficulty_slots": 100,
+    "verified_safe_reinforcement_schedules": 0,
+    "weapons_with_obtainability": 107
+  },
+  "errors": [],
+  "warnings": [
+    "merchant: missing class growths (enemy/NPC)",
+    "revenant: missing class growths (enemy/NPC)",
+    "entombed: missing class growths (enemy/NPC)",
+    "grima: missing class growths (enemy/NPC)",
+    "Most facts are single-source transcriptions; validation cannot prove game accuracy.",
+    "All map schedules lack complete tactical verification.",
+    "Conditional child recruitment stats/classes/caps require actual parents.",
+    "Legacy SpotPass/DLC bonus character catalogs are incomplete.",
+    "Economy/world tables retained as unreviewed factual rows."
+  ]
+}
+python3 tools/audit_phase2.py
+{
+  "passed": true,
+  "errors": [],
+  "warnings": [
+    "No map has a completely verified tactical schedule. Coordinates, AI geometry and Lunatic+ random skills remain unknown.",
+    "Independent numeric spot checks are limited; this is not an exhaustive numerical audit of all character/class/gender/child/DLC data.",
+    "Template multiplicities are source rows; identical stat rows can represent distinct enemies and must not be deduplicated by stats.",
+    "Parser output gaps and empty source headings prevent certification of starting positions or complete enemy lists."
+  ],
+  "coverage_by_difficulty": {
+    "Normal": {
+      "verified": 0,
+      "partially_verified": 0,
+      "unresolved": 51
+    },
+    "Hard": {
+      "verified": 0,
+      "partially_verified": 46,
+      "unresolved": 5
+    },
+    "Lunatic": {
+      "verified": 0,
+      "partially_verified": 36,
+      "unresolved": 15
+    },
+    "Lunatic+": {
+      "verified": 0,
+      "partially_verified": 0,
+      "unresolved": 51
+    }
+  },
+  "reinforcements_by_difficulty": {
+    "Normal": {
+      "verified": 0,
+      "partially_verified": 0,
+      "unresolved": 51
+    },
+    "Hard": {
+      "verified": 0,
+      "partially_verified": 10,
+      "unresolved": 41
+    },
+    "Lunatic": {
+      "verified": 0,
+      "partially_verified": 17,
+      "unresolved": 34
+    },
+    "Lunatic+": {
+      "verified": 0,
+      "partially_verified": 0,
+      "unresolved": 51
+    }
+  },
+  "enemy_templates": 1104,
+  "partial_wave_records": 74,
+  "independent_numeric_fields_checked": 15,
+  "fully_verified_schedules": 0,
+  "Hard_Classic_ready_without_unverified_tactical_data": false
+}
+python3 tools/audit_hard.py
+{
+  "passed": true,
+  "errors": [],
+  "campaign_maps": 44,
+  "reinforcement_records": 29,
+  "registered_sources": 217,
+  "source_refs_resolve": true,
+  "source_truth_not_proven_by_tests": true,
+  "readiness_requires": "Evidence-aware claims, no unconditional route-safety advice, complete observed inputs and refusal for unsupported interactions."
+}
+
+exit_status: 0

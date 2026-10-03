@@ -1,0 +1,352 @@
+$ python3 tools/map_info.py --chapter 5 --difficulty hard --turn 5 --phase player
+{
+  "chapter_id": "chapter_5",
+  "difficulty": "Hard",
+  "mode": "Classic",
+  "current_turn": 5,
+  "current_phase": "player",
+  "target_enemy_phase_turn": 5,
+  "map_confidence": "CONFLICTED",
+  "schedule_complete": false,
+  "safe_to_claim_move_safe": false,
+  "known_verified_supported": [
+    {
+      "kind": "map",
+      "label": "objective",
+      "value": "Rout the enemy",
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_04_2"
+      ],
+      "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+    },
+    {
+      "kind": "map",
+      "label": "deployment",
+      "value": 9,
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "p2_guide_04_2",
+        "p2_guide_scope"
+      ],
+      "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+    },
+    {
+      "kind": "map",
+      "label": "starting_area",
+      "value": "Main force south; Ricken/Maribelle isolated north",
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "p2_guide_04_2",
+        "p2_guide_scope"
+      ],
+      "notes": "Descriptive area only, not a certified coordinate map."
+    },
+    {
+      "kind": "map",
+      "label": "bosses",
+      "value": [
+        {
+          "name": "Orton",
+          "class_name": "Wyvern Rider",
+          "level": 9,
+          "equipment_text": "Short Axe, Bullion (M)",
+          "equipment_stats": "UNKNOWN"
+        }
+      ],
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "p2_guide_04_2"
+      ],
+      "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+    },
+    {
+      "kind": "hazards",
+      "label": "1",
+      "value": "Ricken and Maribelle start isolated in the north. Wyverns cross cliffs and can threaten units beyond ground chokepoints.",
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "p2_guide_04_2",
+        "p2_guide_scope"
+      ],
+      "notes": null
+    },
+    {
+      "kind": "activation",
+      "label": "1",
+      "value": "Hard-labelled JP report: two initial Wyverns advance on turn 1; remaining Wyverns/boss respond to attack range. Exact activation tiles unknown.",
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "hr_jp_5"
+      ],
+      "notes": null
+    },
+    {
+      "kind": "recruitment",
+      "label": "ricken",
+      "value": "Automatically at start",
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "recruitment",
+        "p2_guide_04_2"
+      ],
+      "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+    },
+    {
+      "kind": "recruitment",
+      "label": "maribelle",
+      "value": "Automatically at start",
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "recruitment",
+        "p2_guide_04_2"
+      ],
+      "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_5_disputed_schedule:immediate_action",
+      "value": {
+        "can_move": true,
+        "can_attack": true,
+        "can_kill_on_spawn": true
+      },
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "hr_gg_spawn",
+        "hr_hard_spawn_observation"
+      ],
+      "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+    }
+  ],
+  "uncertain_partial_conflicted_unknown": [
+    {
+      "kind": "map",
+      "label": "initial_enemies",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [],
+      "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+    },
+    {
+      "kind": "map",
+      "label": "shops",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [],
+      "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+    },
+    {
+      "kind": "conflicts",
+      "label": "1",
+      "value": {
+        "western_report": "T3 foot units; T4 two Wyverns northwest; T5 mixed group",
+        "japanese_hard_observation": "T3 two Wyverns plus Barbarian and Myrmidon, central-left; tentative T5 foot units",
+        "resolution": null
+      },
+      "confidence": "CONFLICTED",
+      "source_ids": [
+        "reinforcements_early_0",
+        "hr_jp_5"
+      ],
+      "notes": "Possible region, phase convention or guide error not established. Within western page table/prose also differ on a Dark Mage versus second Barbarian."
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_5_disputed_schedule:timing",
+      "value": {
+        "kind": "unknown",
+        "turns": null,
+        "event": null,
+        "repeat": null
+      },
+      "confidence": "CONFLICTED",
+      "source_ids": [
+        "reinforcements_early_0",
+        "hr_jp_5",
+        "p2_guide_04_2"
+      ],
+      "notes": "Western indexed Hard table reports turns 3/4/5; explicitly Hard JP 2012-04-19 comment reports a different turn-3 mixture and tentative turn-5 group. Full schedule cannot be selected safely. Wave contains an unresolved disagreement; values are alternatives, not a chosen schedule."
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_5_disputed_schedule:location",
+      "value": "Forts; northwestern flying approach",
+      "confidence": "CONFLICTED",
+      "source_ids": [
+        "reinforcements_early_0",
+        "hr_jp_5",
+        "p2_guide_04_2"
+      ],
+      "notes": " Wave contains an unresolved disagreement; values are alternatives, not a chosen schedule."
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_5_disputed_schedule:units",
+      "value": null,
+      "confidence": "CONFLICTED",
+      "source_ids": [
+        "reinforcements_early_0",
+        "hr_jp_5",
+        "p2_guide_04_2"
+      ],
+      "notes": " Wave contains an unresolved disagreement; values are alternatives, not a chosen schedule."
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_5_disputed_schedule:spawn_phase",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [],
+      "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_5_disputed_schedule:coordinates",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [],
+      "notes": null
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_5_disputed_schedule:skills",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [],
+      "notes": null
+    },
+    {
+      "kind": "reinforcement",
+      "label": "hard_chapter_5_disputed_schedule:suppression",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [],
+      "notes": null
+    },
+    {
+      "kind": "schedule",
+      "label": "Additional arrivals/events",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_04_2",
+        "p2_guide_scope",
+        "reinforcements_early_0",
+        "hr_jp_5"
+      ],
+      "notes": "Complete schedule not established. No matching fixed-turn wave does NOT mean no spawn. Conditional and unknown-time families are always retained as possible."
+    },
+    {
+      "kind": "safety",
+      "label": "Complete threat geometry",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_04_2",
+        "p2_guide_scope",
+        "reinforcements_early_0",
+        "hr_jp_5"
+      ],
+      "notes": "Exact positions, all enemy stats/equipment/skills and event boundaries are not complete. No empty list or zero modeled death chance certifies a move without observed inputs."
+    }
+  ],
+  "candidate_reinforcements": [
+    {
+      "id": "hard_chapter_5_disputed_schedule",
+      "chapter_id": "chapter_5",
+      "difficulty": "Hard",
+      "mode": "Classic",
+      "confidence": "CONFLICTED",
+      "source_ids": [
+        "reinforcements_early_0",
+        "hr_jp_5",
+        "p2_guide_04_2"
+      ],
+      "timing": {
+        "value": {
+          "kind": "unknown",
+          "turns": null,
+          "event": null,
+          "repeat": null
+        },
+        "confidence": "UNKNOWN",
+        "source_ids": [
+          "reinforcements_early_0",
+          "hr_jp_5",
+          "p2_guide_04_2"
+        ],
+        "notes": "Western indexed Hard table reports turns 3/4/5; explicitly Hard JP 2012-04-19 comment reports a different turn-3 mixture and tentative turn-5 group. Full schedule cannot be selected safely."
+      },
+      "location": {
+        "value": "Forts; northwestern flying approach",
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "reinforcements_early_0",
+          "hr_jp_5",
+          "p2_guide_04_2"
+        ],
+        "notes": null
+      },
+      "units": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [
+          "reinforcements_early_0",
+          "hr_jp_5",
+          "p2_guide_04_2"
+        ],
+        "notes": null
+      },
+      "spawn_phase": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": "Ordinary Hard arrivals act at enemy-phase beginning, but exact phase of this map-specific event was not directly established."
+      },
+      "immediate_action": {
+        "value": {
+          "can_move": true,
+          "can_attack": true,
+          "can_kill_on_spawn": true
+        },
+        "confidence": "SUPPORTED",
+        "source_ids": [
+          "hr_gg_spawn",
+          "hr_hard_spawn_observation"
+        ],
+        "notes": "Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains."
+      },
+      "coordinates": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": null
+      },
+      "skills": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": null
+      },
+      "suppression": {
+        "value": null,
+        "confidence": "UNKNOWN",
+        "source_ids": [],
+        "notes": null
+      },
+      "schedule_completeness": "UNKNOWN"
+    }
+  ],
+  "reinforcement_status": "present",
+  "reinforcement_absence_confidence": null,
+  "absence_reasonably_supported": false,
+  "safe_to_conclude_no_reinforcements": false,
+  "warning": "Known facts are source-supported, not a complete threat map. Hard beginning-enemy-phase spawns can move/attack immediately. Never rely on enemy-phasing an unknown wave.",
+  "absence_limitations": null
+}
+
+exit_status: 0
