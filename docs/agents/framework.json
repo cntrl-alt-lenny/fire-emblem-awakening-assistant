@@ -1,0 +1,78 @@
+{
+  "about": "Written by the agentic framework's tools/adopt.py. Do not edit by hand, except 'settings'.",
+  "files": {
+    ".claude/agents/brain.md": {
+      "kind": "copy",
+      "sha256": "33f6ec7cb33f2c66a2689c716153af950d680699d518dac96c1ddce6aabd2c91"
+    },
+    ".claude/agents/verifier.md": {
+      "kind": "copy",
+      "sha256": "86d3ae5fafbf965d35adc38353ff69bf2a156a34df3703eb8d18056667056840"
+    },
+    ".claude/agents/worker.md": {
+      "kind": "copy",
+      "sha256": "a4bd118f5a139f8d96ae26943ea0523abb96e96387659a5c39dcdad7c4573a80"
+    },
+    ".claude/commands/status.md": {
+      "kind": "copy",
+      "sha256": "57292b249ebee4d43ef0148a79f1250a55e609174711e8510865cd7d9f54fe60"
+    },
+    ".gitattributes": {
+      "kind": "seed"
+    },
+    "AGENTS.md": {
+      "kind": "seed"
+    },
+    "CLAUDE.md": {
+      "kind": "seed"
+    },
+    "GEMINI.md": {
+      "kind": "seed"
+    },
+    "docs/agents/FRAMEWORK.md": {
+      "kind": "copy",
+      "sha256": "ddb93e8847e1254f4845d1194cc5b1198dc519a0d8de374fa7308e8eb7ae08e8"
+    },
+    "docs/agents/roles/brain.md": {
+      "kind": "copy",
+      "sha256": "446e4fc0f3f85818d25f86ee2e2662c5806d334dd166106ca5db72cf8a3c4373"
+    },
+    "docs/agents/roles/verifier.md": {
+      "kind": "copy",
+      "sha256": "30870db8d4782650b408ca01dc68f0ff178386c5e3a79f8004592098f25e2fef"
+    },
+    "docs/agents/roles/worker.md": {
+      "kind": "copy",
+      "sha256": "d88c7c7da81ec70f13d66c8d9bfd025b4a6d4aa6aa7b6fa03598c7e2a8192381"
+    },
+    "docs/rounds/README.md": {
+      "kind": "seed"
+    },
+    "docs/state.md": {
+      "kind": "seed"
+    },
+    "tests/test_framework.py": {
+      "kind": "copy",
+      "sha256": "6df59bd81a49ba7bf378ddf2f94a0ca7d7831bf70901dff55b8ccfa1e6ff626b"
+    },
+    "tools/fw.py": {
+      "kind": "copy",
+      "sha256": "13c8ee81784a2e83b86fee4ac369ed7273c123e5b9f9852e7b2600b9cc3c9e19"
+    }
+  },
+  "framework": {
+    "release": "3.1.0",
+    "repository": "https://github.com/cntrl-alt-lenny/agentic-framework"
+  },
+  "options": {
+    "adapters": [
+      "claude-code",
+      "gemini"
+    ],
+    "hooks": false
+  },
+  "settings": {
+    "report_check": "git diff --check",
+    "state_words": 1000
+  }
+}
