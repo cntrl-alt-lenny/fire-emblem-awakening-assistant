@@ -1126,11 +1126,9 @@
         ],
         "confidence": "SUPPORTED",
         "source_ids": [
-          "hr_fandom17",
-          "p2_guide_16_2",
-          "hr_jp_17"
+          "hr_fandom17"
         ],
-        "notes": "Support applies to the supplied attributes only. Null class/count/equipment/level/location remains UNKNOWN, never absent. Skill rolls and exact enemy forge stats are not established."
+        "notes": "Reported class/count/equipment only: single-source indexed Hard reinforcement turn-8 row (hr_fandom17, accessed 2026-10-03); not independently observed gameplay. Gamer Guides lists no inventory. The Hard-labelled Pegasus 2012-04-27 comment reports four arrivals including a Sniper, but supplies neither all class counts nor equipment and does not identify a table wave unambiguously. Classic/Casual, region/version and event phase are unspecified. Null level/location and unlisted skills/forges remain UNKNOWN. Timing/location conflict and incomplete schedule remain unchanged."
       },
       "spawn_phase": {
         "value": null,
@@ -1242,11 +1240,9 @@
         ],
         "confidence": "SUPPORTED",
         "source_ids": [
-          "hr_fandom17",
-          "p2_guide_16_2",
-          "hr_jp_17"
+          "hr_fandom17"
         ],
-        "notes": "Support applies to the supplied attributes only. Null class/count/equipment/level/location remains UNKNOWN, never absent. Skill rolls and exact enemy forge stats are not established."
+        "notes": "Reported class/count/equipment only: single-source indexed Hard reinforcement turn-9 row (hr_fandom17, accessed 2026-10-03); not independently observed gameplay. Gamer Guides lists no inventory. The Hard-labelled Pegasus 2012-04-27 comment reports four arrivals including a Sniper, but supplies neither all class counts nor equipment and does not identify a table wave unambiguously. Classic/Casual, region/version and event phase are unspecified. Null level/location and unlisted skills/forges remain UNKNOWN. Timing/location conflict and incomplete schedule remain unchanged."
       },
       "spawn_phase": {
         "value": null,
@@ -1327,42 +1323,12 @@
         "notes": null
       },
       "units": {
-        "value": [
-          {
-            "count": 3,
-            "class_id": "hero",
-            "equipment": [
-              "silver_sword"
-            ],
-            "level": null,
-            "location": null
-          },
-          {
-            "count": 2,
-            "class_id": "war_monk",
-            "equipment": [
-              "silver_axe"
-            ],
-            "level": null,
-            "location": null
-          },
-          {
-            "count": 1,
-            "class_id": "sniper",
-            "equipment": [
-              "silver_bow"
-            ],
-            "level": null,
-            "location": null
-          }
-        ],
-        "confidence": "SUPPORTED",
+        "value": null,
+        "confidence": "CONFLICTED",
         "source_ids": [
-          "hr_fandom17",
-          "p2_guide_16_2",
-          "hr_jp_17"
+          "hr_fandom17"
         ],
-        "notes": "Support applies to the supplied attributes only. Null class/count/equipment/level/location remains UNKNOWN, never absent. Skill rolls and exact enemy forge stats are not established."
+        "notes": "Inherited six-unit alternative: 3 Heroes with Silver Sword, 2 War Monks with Silver Axe, 1 Sniper with Silver Bow; earliest recoverable literal is cf17834fd6a8867d06c25faa772a5d8700f32167 author_review.py, with no recoverable external basis. Accessible indexed two-unit alternative: 1 War Monk with Silver Axe and 1 Hero with Silver Sword (Hard reinforcement turn-10 row, accessed 2026-10-03). Neither alternative is selected as actual gameplay; null inventory is UNKNOWN, not zero. hr_fandom17 supports only the indexed alternative. Gamer Guides supplies no inventory; the Hard-labelled Pegasus comment does not enumerate central classes/counts/equipment. Classic/Casual, region/version and this event phase remain unestablished. No complete schedule or safety guarantee."
       },
       "spawn_phase": {
         "value": null,
