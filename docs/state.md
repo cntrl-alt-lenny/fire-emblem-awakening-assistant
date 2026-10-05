@@ -35,11 +35,12 @@ existing foundation before selecting the next factual research slice.
   established the actual schedule. Further resolution needs observable,
   difficulty-specific gameplay with visible phase/setup; repeated guide
   comparison alone is insufficient. Keep its canonical conflict and unknowns
-  while pursuing the standing Hard Chapter 17 research priority.
-- Hard Chapter 17 first staircase and warning-to-arrival timing: accessible
-  accounts remain insufficient to resolve actual gameplay. Further resolution
-  needs observable Hard setup and phase evidence. Preserve the conflict;
-  inventory provenance can be audited separately without certifying a schedule.
+  while progressing other documented tactical gaps.
+- Hard Chapter 17 first staircase, warning-to-arrival timing and central
+  inventory: accessible accounts remain insufficient to resolve actual
+  gameplay. Further resolution needs observable Hard setup and phase evidence.
+  Preserve the conflict; retained source reports do not certify the actual
+  inventory or a schedule.
 - Broad encyclopaedic expansion: current-map tactical uncertainty takes priority.
 - SpotPass/DLC expansion and Lunatic+ guarantees: their availability, coverage
   and random-skill evidence remain separate and incomplete.
