@@ -1,0 +1,34 @@
+# Chapter 20 objective evidence
+
+Research date: 2026-10-05. Scope: Chapter 20 objective/completion disagreement only. No game or save state was opened or changed.
+
+## Source trace
+
+| Record | Recoverable source context | What it says | Scope and provenance |
+|---|---|---|---|
+| `chapter_catalog` | [Fire Emblem Wiki chapter list](https://fireemblemwiki.org/wiki/List_of_chapters_in_Fire_Emblem_Awakening), Main story table, Chapter 20 row, Objectives column (page lines 40–42). Local extract: `research/chapter_catalog.json`, Main story row `Chapter 20`. Registry extraction was accessed 2026-10-02; page re-opened 2026-10-05. | “Defeat Walhart.” | Chapter catalog; no difficulty, mode, region, or game version is specified. It is a catalog assertion, not a recorded in-game objective screen.
+| `p2_guide_20_1` | [Gamer Guides, Chapter 20: The Sword or the Knee](https://www.gamerguides.com/fire-emblem-awakening/guide/story-walkthrough/chapter-14-to-endgame/chapter-20-the-sword-or-the-knee), `Note: Chapter 20` → `Condition` (page lines 326–334); the adjacent `Boss` table lists Cervantes, Excellus, and Walhart (lines 335–341). The `Strategies for all Difficulties` heading begins at line 342. Local extract: `research/phase2/guide_20.json`, `guide_20_1`, factual candidate `Note: Chapter 20`, plus its `Boss` table. Registry access 2026-10-02; page re-opened 2026-10-05. | “Defeat every Boss.” | The disputed wording is truly in the guide's chapter `Condition` field, not just strategy prose and not an extraction artifact. The source's local condition has no difficulty label. The project registry notes Gamer Guides defaults to Hard; that is project scope metadata, not a label printed beside this condition. This is a guide author's assertion, not evidence that the game displays that objective. The three-boss table alone would not establish a three-boss win condition.
+
+## Claim matrix
+
+| Claim | Observation and locator | Confidence / alternative | Gaps |
+|---|---|---|---|
+| Displayed objective | The catalog row says Walhart. A separately authored Spanish walkthrough says `Victoria: Derrota al comandante` (“Victory: Defeat the commander”), Chapter 20, then describes killing Cervantes and Excellus before going to Walhart ([Vandal, lines 67–85](https://vandal.elespanol.com/guias/fire-emblem-awakening/capitulo-20-lucha-o-sumision)). Gamer Guides' condition field says every boss. | Catalog and Vandal support a single commander objective; Gamer Guides directly conflicts. Vandal does not quote the game's screen and does not name the difficulty. | No visible in-game objective screen for Hard/Classic, region, or software version. The Vandal text is a Spanish editorial guide; no translation of the in-game display is claimed.
+| Can Walhart alone end the map? | An independently authored GameFAQs walkthrough has a Chapter 20 section scoped `Mode: Normal/Hard/Lunatic`, says `Condition: Defeat Boss`, lists Walhart first, and adds: “Walhart is the ‘commander’, defeating him ends the level” ([GameFAQs, lines 3114–3127 and 3177](https://gamefaqs.gamespot.com/3ds/643003-fire-emblem-awakening/faqs/64260)). A separate player post reports beating Chapter 20 with Cervantes and Excellus alive (GameFAQs board, lines 119–123 and 135–138: [topic](https://gamefaqs.gamespot.com/boards/643003-fire-emblem-awakening/65613896)). | Source-based support that killing Walhart ends Chapter 20 on Normal/Hard/Lunatic; the forum account is a first-person report consistent with leaving the two named bosses alive. | The guide is not an observed game capture and gives no region/version. The forum post does not state difficulty or show the alive-boss state and map transition. This does not independently prove the exact Hard/Classic sequence.
+| Are all three bosses required? | Gamer Guides' `Condition` says every boss; its boss roster enumerates all three. GameFAQs says defeat the commander and specifically says Walhart's defeat ends the level; the player post says the other two remained alive after completion. | The Gamer Guides wording is contradicted by two distinct source families. Evidence favors no all-boss requirement; one family is a guide assertion, and the player account is uncorroborated. | No suitable continuous footage or direct game observation was found. The player post is not enough to verify difficulty, game build, hidden boss state, cuts, or exact completion transition.
+
+Source-family accounting: the two registry IDs are distinct publishers/sites. The GameFAQs walkthrough and board are one hosting platform but different contributions; the board report is not treated as confirmation of the walkthrough's authorship. Gamer Guides indexed extracts and page text are one source family. No mirror or repeat extract is counted as independent evidence.
+
+## Assessment and stopping point
+
+Attribution is resolved: `Defeat every Boss` occurs in Gamer Guides' actual Chapter 20 `Condition` field. It is neither strategy wording nor a parser hallucination. The repository's historical conflict correctly describes disagreement between that field and the catalog, but it does not establish which statement matches the game.
+
+Independent source evidence supports the catalog's Walhart-only objective and supports Walhart's defeat ending the level, including an explicit Normal/Hard/Lunatic guide scope. The first-person report is consistent with Cervantes and Excellus surviving. However, no source inspected supplies a visible Hard/Classic objective screen or an uncut Hard/Classic transition with the other two bosses demonstrably alive. Therefore the game-displayed Hard objective and observed Hard/Classic completion behavior remain unverified; do not mark this round as gameplay verification or change coverage. The evidence does not warrant deleting the conflict in canonical data in this research-only round.
+
+Searches stopped after the original two records, one independent multi-difficulty walkthrough, one independently authored walkthrough in another language, and one relevant player report supplied both a contrary objective assertion and a directly discriminating reported outcome. Further search snippets or copied guide tables would not remove the missing Hard/Classic observation.
+
+## Discriminating observation plan / next task
+
+Capture one continuous, owner-supplied Chapter 20 run: show the pre-battle screen with Hard and Classic selected; show the map with Cervantes and Excellus alive; show Walhart defeated while both remain alive; then show the immediate chapter-completion transition. Include the game's displayed objective and region/version if available. A cut, reset, hidden/dead boss, or a sequence where either other boss dies before the transition does not distinguish the hypotheses. No suitable capture was available during this round.
+
+Model, reasoning effort, and speed settings are not exposed to this Worker; no settings are claimed.
