@@ -1,6 +1,6 @@
 ## Change
 
-Describe the problem and the resulting behavior. Link the round brief when applicable.
+Describe the problem and the resulting behavior. Link the batch summary when applicable.
 
 ## Evidence
 
