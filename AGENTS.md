@@ -16,13 +16,12 @@ gaps; structural tests cannot certify every mechanic or complete map safety.
 
 | Seat | Card | Scope |
 |---|---|---|
-| Brain | `docs/agents/roles/brain.md` | GPT plans, briefs, reviews evidence and merges under the merge rule. |
-| Worker | `docs/agents/roles/worker.md` | The other agent executes one brief on its own branch and reports; never merges. |
-| Verifier | `docs/agents/roles/verifier.md` | Independently reviews Tier 2 work at one exact commit; never implements or merges. |
+| Brain | `docs/agents/roles/brain.md` | GPT plans batches, writes prompts, reviews evidence and merges under the merge rule. |
+| Worker | `docs/agents/roles/worker.md` | The other agent does one batch on its own branch and commits its summary in `docs/batches/`; never merges. |
+| Verifier | `docs/agents/roles/verifier.md` | Independently reviews a Checked batch at one exact commit; never implements or merges. |
 
-Brain starts with `python3 tools/fw.py status`. Worker and Verifier start with
-`python3 tools/fw.py start --role ROLE --round ID` from the supplied prompt.
-Use `py -3` or `python` if appropriate on the machine.
+Every session starts with `python3 tools/fw.py status`, then follows the
+prompt Brain supplied. Use `py -3` or `python` if appropriate on the machine.
 
 ## Tactical and data invariants
 
@@ -50,9 +49,10 @@ combat cases. This summary does not replace it.
 - This repository is public. Keep credentials, personal paths and player runs
   out of commits. Git records project decisions; local run JSON records play.
 
-Canonical data, mechanics claims and tactical advice tooling are **Tier 2**:
-Worker, then blind Verifier, then Brain review and independent re-derivation.
-Brain never implements those rounds itself.
+Canonical data, mechanics claims and tactical advice tooling take the
+**Checked** path: Worker, then blind Verifier, then Brain review and
+independent re-derivation. Brain never implements those batches itself.
+Other code is Normal; notes and framework updates are Small.
 
 ## Evidence
 
@@ -71,9 +71,8 @@ framework-only housekeeping does not create new verified gameplay coverage.
 ## What is actually enforced
 
 GitHub Actions runs data validation and regressions on Linux and macOS; the CI badge links to actual runs. Framework tests check document
-hygiene. `fw.py report` checks report structure and project hygiene; its
-configured report check is `git diff --check`, not the full tactical audit.
-The full audit remains required evidence. No local pre-push hook is installed.
+hygiene and `fw.py check` caps batch summaries; neither runs the tactical
+audit. The full audit remains required evidence. No local pre-push hook is installed.
 Branch protection and required-check settings are not configured by this
 bootstrap. Roles and owner approval are agent rules; GitHub cannot distinguish
 seats using the same account. Licensing remains the owner's decision.
@@ -81,7 +80,7 @@ seats using the same account. Licensing remains the owner's decision.
 ## Where to look
 
 - Decisions: [docs/state.md](docs/state.md); live workflow: `tools/fw.py status`.
-- Round briefs/reports: [docs/rounds/](docs/rounds/).
+- Batch summaries: [docs/batches/](docs/batches/); 3.x rounds stay in [docs/rounds/](docs/rounds/) as history.
 - Tactical policy: [docs/agents/local/tactical-policy.md](docs/agents/local/tactical-policy.md).
 - Coverage: [STATUS.md](STATUS.md), [map coverage](docs/map-coverage.md).
 - Usage: [docs/usage.md](docs/usage.md); sources: [SOURCES.md](SOURCES.md).

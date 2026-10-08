@@ -13,7 +13,7 @@ existing foundation before selecting the next factual research slice.
 
 ## Owner decisions
 
-- GPT holds the Brain seat; the other agent executes bounded Worker briefs.
+- GPT holds the Brain seat; the other agent executes bounded Worker batches.
   Planning, implementation and acceptance remain separate.
 - The project belongs in the GitHub folder and its repository is public.
 - Apply the owner's agentic framework and public README house style.
@@ -21,13 +21,19 @@ existing foundation before selecting the next factual research slice.
 ## Standing project policy
 
 - Merge rule: owner-approves, the framework default. A request to bootstrap
-  the repository authorizes this setup; future product rounds use merge cards.
+  the repository authorizes this setup; future product batches use merge cards.
 - No playthrough starts unless the player requests it and supplies actual
   state. Player runs remain local and ignored in this public repository.
 - Tactical spoilers is the inherited default; an explicit player preference
   overrides it. Refer to the full tactical policy for all modes.
-- Facts and tactical tooling receive Tier 2 review. Passing structural tests
+- Facts and tactical tooling take the Checked path. Passing structural tests
   does not certify source accuracy, completeness or whole-map survival.
+
+## Scorecard
+
+Every two weeks, Brain adds one line: dates, product progress, prompts the
+owner relayed, and batches that only fixed an earlier batch. First line due
+2026-10-20 (framework 4.0 adopted 2026-10-06).
 
 ## Parked, and why
 
@@ -48,7 +54,7 @@ existing foundation before selecting the next factual research slice.
   framework retains its upstream MIT notice separately.
 - Native Windows support: initial CI hit a default-text-encoding failure;
   run tracking also imports Unix-only `fcntl`. Use Linux/macOS or WSL until
-  a separately reviewed portability round.
+  a separately reviewed portability batch.
 - Repository protection/settings changes: require the owner's decision;
   the operating rules still apply without a server-side role lock.
 
@@ -57,5 +63,5 @@ existing foundation before selecting the next factual research slice.
 - Project/tactical rules: `AGENTS.md` and `docs/agents/local/tactical-policy.md`.
 - Coverage, inherited priorities and audit results: `STATUS.md` and
   `research/hard_verification/`.
-- Workflow: `docs/agents/FRAMEWORK.md`, role cards and `docs/rounds/`.
+- Workflow: `docs/agents/FRAMEWORK.md`, role cards and `docs/batches/` (3.x rounds: `docs/rounds/`).
 - Usage and sources: `docs/usage.md`, `SOURCES.md`, `research/UNCERTAINTIES.md`.
