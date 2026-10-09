@@ -1,0 +1,13 @@
+Command: Python markdown rendering with tables/fenced_code; headless Chrome screenshot at 1440x2400; local Markdown targets resolved against their source directories.
+First attempt: reference PNG created, Chrome shutdown exceeded 30-second subprocess timeout (failed attempt retained).
+Summary: PNG created, bounded process cleanup exit 0.
+Reference inspected: all headings, table, code blocks and limits visible; no clipping.
+Summary inspected: full commit anchors, command table, evidence/limits and retained failures readable; no clipping. All summary local links resolve.
+reference PNG SHA256: 1ff547be7923c8c1c1a812a44b6820ad586217820dacf4b9605c3a8d1370111a
+summary PNG SHA256: 80745f625d558e5ddf2a10cfdd4e16a7dd8d2ef807d0e6247ef9e38de13cb06e
+
+Reference command (temporary paths redacted): /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --headless --disable-gpu --no-first-run --no-default-browser-check --hide-scrollbars --user-data-dir=<private-render-directory>/reference-chrome-profile --window-size=1440,2400 --screenshot=<private-render-directory>/reference.png file://<private-render-directory>/reference.html
+Reference attempt script exit: 1 (subprocess.TimeoutExpired); PNG was already written and was visually inspected.
+Summary command: same flags with summary names. PNG created; bounded cleanup; script and renderer exit: 0.
+Final visual/local-link inspection: PASS. No rendered artifacts or player data published.
+Revised summary after retained whitespace failure: same renderer command with summary-fixed names; renderer exit 0; links resolve; screenshot inspected and all content readable without clipping. PNG SHA256: 958d5062825c36a7334be0f7bf5e031c1c74e696638526d187c906a70ab62d60
