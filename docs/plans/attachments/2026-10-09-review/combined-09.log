@@ -1,0 +1,3 @@
+Malformed required-context refusals: 80 ; original baseline numerical leaks: 46 ; unchanged complete controls: 33
+Canonical data equals batch 08 when combined, or main when isolated; synthetic inputs immutable
+Private state regular-file set and contents unchanged; no private values recorded
