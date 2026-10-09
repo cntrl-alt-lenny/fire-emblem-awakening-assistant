@@ -27,6 +27,8 @@ record, quarantine, and both checkouts’ private regular-file sets/content
 were preserved. Player/enemy boundaries, Chapters 7/16 fixed turns and
 Chapter 19/Paralogues 10/14 unknown/event controls were exercised.
 
+Continuation at the existing delivery reproduced the six baseline failures,
+two identical rebuilds, passing checks and preservation results without code changes.
 Commands, actual outputs, hashes and reproducible preservation logic are in
 [check evidence](attachments/08-chapter11-candidates/checks.md).
 The [bounded source assessment](../../research/hard_verification/chapter11-candidates.md)

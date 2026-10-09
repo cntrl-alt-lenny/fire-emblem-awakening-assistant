@@ -215,3 +215,40 @@ print('Coverage: complete_schedules='+str(json.loads((root/'research/hard_verifi
 The first bounded authoring comparison used `exec` without `__file__` and exited 1 (`NameError`). Supplying the authoring file location fixed the harness; the bounded Chapter 11 authoring and reviewed timing matched (exit 0). The bundled Python environment lacked `markdown` (`ModuleNotFoundError`, exit 1); rendering used bundled Node `marked` and Playwright instead. Playwright’s default browser executable was missing (exit 1); selecting installed Chrome resolved it. An executable inventory found Chrome but no Edge (exit 1). The initial session stopped because the original plan-on-main prerequisite was absent (Git exit 128); the corrected prompt superseded it. No implementation or run changes occurred during that wait.
 
 No gameplay observation, independent source corroboration, full fort schedule, regional equivalence or complete map safety was established.
+
+## Continuation verification — 2026-10-09
+
+Rechecked the existing delivery `3fd7282116feb054626b87265f5821e8779a5ad0`;
+no implementation changes or branch restart. `git fetch origin` exited 0 and
+the remote Worker branch matched that commit. Framework status passed its
+project checks; the tracked 4.0.1 patch warning remains Brain-owned.
+
+The reproduction script above ran again against the retained private baseline.
+Actual output:
+
+```text
+$ python3 /tmp/fea08-checks.py
+exit 0
+make rebuild (first): exit 0; Hard audit passed true
+make rebuild (second): exit 0; Hard audit passed true
+Two rebuilds: all 28 canonical JSON hashes identical
+make audit: exit 0
+Ran 122 tests in 0.665s
+
+OK
+python3 tools/fw.py check: exit 0; 0 error(s), 0 warning(s)
+git diff --check: exit 0; no output
+Canonical baseline changes: ['data/chapters/hard_reinforcements.json']
+Unrelated Hard waves, fixed northwest record, other-mode records and quarantine: preserved
+primary private regular file set/content: preserved
+worker private regular file set/content: preserved
+Coverage: complete_schedules=0
+```
+
+The full phase-control matrix above was reproduced unchanged. The temporary
+baseline reproduction extracted `git archive` of starting main outside the
+checkout and copied only the current `tests/test_hard.py` into that extraction.
+`python3 -m unittest discover -s tests -p test_hard.py -v` there exited 1:
+`Ran 45 tests in 0.143s`, `FAILED (failures=6)`, with the same representation
+and five phase-boundary failures listed above. The harness exited 0 after
+asserting that expected failure result. No live state was copied or modified.
