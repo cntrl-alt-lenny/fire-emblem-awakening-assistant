@@ -18,6 +18,11 @@ in phase-filtered queries before extending external research.
   Planning, implementation and acceptance remain separate.
 - The project belongs in the GitHub folder and its repository is public.
 - Apply the owner's agentic framework and public README house style.
+- Use two active Workers when useful independent batches are available, with
+  separate file ownership and branches. A pending review, approval or planning
+  document merge blocks only work that actually depends on it. Brain owns
+  shared integration decisions; do not create occupancy tasks. Review and owner
+  merge approval remain required.
 
 ## Standing project policy
 
@@ -72,3 +77,4 @@ owner relayed, and batches that only fixed an earlier batch. First line due
 - Workflow: `docs/agents/FRAMEWORK.md`, role cards and `docs/batches/` (3.x rounds: `docs/rounds/`).
 - Usage and sources: `docs/usage.md`, `SOURCES.md`, `research/UNCERTAINTIES.md`.
 - Prepared prompts and acceptance criteria: `docs/plans/08-chapter11-candidates.md`.
+- Parallel ownership and both Worker prompts: `docs/plans/parallel-workers.md`.
