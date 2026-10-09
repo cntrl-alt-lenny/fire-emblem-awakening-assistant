@@ -7,7 +7,7 @@ test_defender_without_counterattack_still_requires_context (test_combat_context.
 test_optional_fields_absent_without_relevant_skill (test_combat_context.CombatContextTests) ... ok
 test_paired_and_unsupported_effect_refusals_preserved (test_combat_context.CombatContextTests) ... ok
 test_public_json_cli_invalid_and_valid (test_combat_context.CombatContextTests) ... test_turn_boundaries_and_parity_numerical_controls (test_combat_context.CombatContextTests) ... ok
-test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) ... 
+test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) ...
 ======================================================================
 FAIL: test_both_sides_and_both_context_fields (test_combat_context.CombatContextTests)
 ----------------------------------------------------------------------

@@ -10,3 +10,4 @@ Reference command (temporary paths redacted): /Applications/Google Chrome.app/Co
 Reference attempt script exit: 1 (subprocess.TimeoutExpired); PNG was already written and was visually inspected.
 Summary command: same flags with summary names. PNG created; bounded cleanup; script and renderer exit: 0.
 Final visual/local-link inspection: PASS. No rendered artifacts or player data published.
+Revised summary after retained whitespace failure: same renderer command with summary-fixed names; renderer exit 0; links resolve; screenshot inspected and all content readable without clipping. PNG SHA256: 958d5062825c36a7334be0f7bf5e031c1c74e696638526d187c906a70ab62d60

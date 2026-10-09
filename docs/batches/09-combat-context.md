@@ -51,4 +51,7 @@ Brain owns those existing housekeeping issues. Neither blocks this batch.
 The first headless renderer created a valid reference screenshot but timed out
 during browser shutdown (30 seconds); retained output was inspected, and a
 bounded screenshot-and-cleanup path rendered the summary. No implementation
-failure or cross-scope dependency found.
+failure or cross-scope dependency found. Branch-wide `git diff --check` at the
+first report commit found trailing whitespace emitted in the baseline transcript
+(exit 2). The shell still pushed that commit; transcript whitespace was trimmed
+and checks rerun before Verifier handoff.
