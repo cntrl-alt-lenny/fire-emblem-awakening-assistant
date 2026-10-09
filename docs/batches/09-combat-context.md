@@ -33,6 +33,10 @@ supported assessments equal the baseline gate's outputs exactly.
 | `python3 -m unittest discover -s tests -p test_combat_context.py -v` | 9 tests OK | 0 |
 | `python3 docs/batches/attachments/09-combat-context/check_controls.py d3b646975a5f0686a798aaf12c0e541ed396da08` | 34 complete numerical results preserved | 0 |
 
+Revalidation at `4c9821bd6c6c6447a88683b0be2e974a8e20a94e` reran all listed
+checks successfully, reproduced ten baseline defects on both sides, and checked
+branch-wide whitespace. See `revalidation.log` and `reproduced-baseline.log`.
+
 Canonical JSON and private file sets/content were privately hashed before/after;
 all preserved. No run initialized or used as test input. New reference rendered,
 visually inspected and local links resolved. No rebuild required by scope.
