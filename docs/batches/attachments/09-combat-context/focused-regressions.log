@@ -1,0 +1,19 @@
+Commit: cf1e62d7742a8729eaabc0e0b1da72e794931cc5
+Command: python3 -m unittest discover -s tests -p test_combat_context.py -v
+
+test_both_sides_and_both_context_fields (test_combat_context.CombatContextTests) ... ok
+test_defender_without_counterattack_still_requires_context (test_combat_context.CombatContextTests) ... ok
+test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) ... ok
+test_fighter_true_false_numerical_controls (test_combat_context.CombatContextTests) ... ok
+test_optional_fields_absent_without_relevant_skill (test_combat_context.CombatContextTests) ... ok
+test_paired_and_unsupported_effect_refusals_preserved (test_combat_context.CombatContextTests) ... ok
+test_public_json_cli_invalid_and_valid (test_combat_context.CombatContextTests) ... ok
+test_turn_boundaries_and_parity_numerical_controls (test_combat_context.CombatContextTests) ... ok
+test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.511s
+
+OK
+
+Exit status: 0

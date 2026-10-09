@@ -1,0 +1,8 @@
+Commit: cf1e62d7742a8729eaabc0e0b1da72e794931cc5
+Command: SHA256 snapshot comparison of sorted data/**/*.json and CURRENT_RUN.md plus every regular state file, in the separate checkout; also primary private files.
+
+Canonical JSON file sets and contents preserved: 28 files.
+Separate checkout private file sets and contents preserved: 2 files.
+Primary private file sets and contents preserved: 2 files.
+No rebuild or run initialization performed. Player data used only for private hashes, never test fixtures or committed evidence.
+Exit status: 0
