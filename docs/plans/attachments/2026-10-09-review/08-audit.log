@@ -1,0 +1,243 @@
+python3 tools/validate_data.py
+{
+  "passed": true,
+  "counts": {
+    "characters": 49,
+    "classes": 55,
+    "weapons": 138,
+    "items": 59,
+    "skills": 103,
+    "chapters": 76,
+    "enemies": 1104,
+    "support_edges": 316,
+    "shops": 48,
+    "merchants": 49,
+    "renown": 33,
+    "merchant_rare_pool": 1,
+    "sources": 217
+  },
+  "coverage": {
+    "chapters_by_kind": {
+      "main": 28,
+      "paralogue": 23,
+      "DLC": 25
+    },
+    "map_difficulty_slots": 304,
+    "unresolved_map_difficulty_slots": 122,
+    "partially_verified_map_difficulty_slots": 82,
+    "unresearched_map_difficulty_slots": 100,
+    "verified_safe_reinforcement_schedules": 0,
+    "weapons_with_obtainability": 107
+  },
+  "errors": [],
+  "warnings": [
+    "merchant: missing class growths (enemy/NPC)",
+    "revenant: missing class growths (enemy/NPC)",
+    "entombed: missing class growths (enemy/NPC)",
+    "grima: missing class growths (enemy/NPC)",
+    "Most facts are single-source transcriptions; validation cannot prove game accuracy.",
+    "All map schedules lack complete tactical verification.",
+    "Conditional child recruitment stats/classes/caps require actual parents.",
+    "Legacy SpotPass/DLC bonus character catalogs are incomplete.",
+    "Economy/world tables retained as unreviewed factual rows."
+  ]
+}
+python3 tools/audit_phase2.py
+{
+  "passed": true,
+  "errors": [],
+  "warnings": [
+    "No map has a completely verified tactical schedule. Coordinates, AI geometry and Lunatic+ random skills remain unknown.",
+    "Independent numeric spot checks are limited; this is not an exhaustive numerical audit of all character/class/gender/child/DLC data.",
+    "Template multiplicities are source rows; identical stat rows can represent distinct enemies and must not be deduplicated by stats.",
+    "Parser output gaps and empty source headings prevent certification of starting positions or complete enemy lists."
+  ],
+  "coverage_by_difficulty": {
+    "Normal": {
+      "verified": 0,
+      "partially_verified": 0,
+      "unresolved": 51
+    },
+    "Hard": {
+      "verified": 0,
+      "partially_verified": 46,
+      "unresolved": 5
+    },
+    "Lunatic": {
+      "verified": 0,
+      "partially_verified": 36,
+      "unresolved": 15
+    },
+    "Lunatic+": {
+      "verified": 0,
+      "partially_verified": 0,
+      "unresolved": 51
+    }
+  },
+  "reinforcements_by_difficulty": {
+    "Normal": {
+      "verified": 0,
+      "partially_verified": 0,
+      "unresolved": 51
+    },
+    "Hard": {
+      "verified": 0,
+      "partially_verified": 10,
+      "unresolved": 41
+    },
+    "Lunatic": {
+      "verified": 0,
+      "partially_verified": 17,
+      "unresolved": 34
+    },
+    "Lunatic+": {
+      "verified": 0,
+      "partially_verified": 0,
+      "unresolved": 51
+    }
+  },
+  "enemy_templates": 1104,
+  "partial_wave_records": 74,
+  "independent_numeric_fields_checked": 15,
+  "fully_verified_schedules": 0,
+  "Hard_Classic_ready_without_unverified_tactical_data": false
+}
+python3 tools/audit_hard.py
+{
+  "passed": true,
+  "errors": [],
+  "campaign_maps": 44,
+  "reinforcement_records": 29,
+  "registered_sources": 217,
+  "source_refs_resolve": true,
+  "source_truth_not_proven_by_tests": true,
+  "readiness_requires": "Evidence-aware claims, no unconditional route-safety advice, complete observed inputs and refusal for unsupported interactions."
+}
+python3 -m unittest discover -s tests -v
+test_fresh_authoring_preserves_inventory_notes_and_claims (test_chapter17_provenance.Chapter17ProvenanceTests) ... ok
+test_inventory_attribution_and_unresolved_central (test_chapter17_provenance.Chapter17ProvenanceTests) ... ok
+test_query_does_not_promote_central_inventory (test_chapter17_provenance.Chapter17ProvenanceTests) ... ok
+test_brave_contradictions_both_sides (test_combat_gate.CombatGateTests) ... ok
+test_canonical_ids_and_incomplete_resolution (test_combat_gate.CombatGateTests) ... ok
+test_certain_death_both_sides (test_combat_gate.CombatGateTests) ... ok
+test_existing_refusals (test_combat_gate.CombatGateTests) ... ok
+test_explicit_absence_and_input_unchanged (test_combat_gate.CombatGateTests) ... ok
+test_explicit_unequipped_defender (test_combat_gate.CombatGateTests) ... ok
+test_forged_values_and_ambiguous_markers (test_combat_gate.CombatGateTests) ... ok
+test_missing_properties_both_sides (test_combat_gate.CombatGateTests) ... ok
+test_near_one_probability_not_rounded (test_combat_gate.CombatGateTests) ... ok
+test_null_and_malformed_properties_both_sides (test_combat_gate.CombatGateTests) ... ok
+test_possible_death_both_sides (test_combat_gate.CombatGateTests) ... ok
+test_public_cli (test_combat_gate.CombatGateTests) ... ok
+test_weapon_presence_both_sides (test_combat_gate.CombatGateTests) ... ok
+test_project_checks (test_framework.FrameworkHygiene) ... ok
+test_bonus_content_separated (test_hard.HardDataTests) ... ok
+test_chapter11_family_not_recurrence (test_hard.HardDataTests) ... ok
+test_chapter11_fort_family_phase_boundaries (test_hard.HardDataTests) ... ok
+test_chapter16_not_lunatic_counts (test_hard.HardDataTests) ... ok
+test_chapter19_no_lunatic_turn8 (test_hard.HardDataTests) ... ok
+test_chapter_alias (test_hard.HardDataTests) ... ok
+test_complete_campaign_inventory (test_hard.HardDataTests) ... ok
+test_conflicted_wave_not_known_schedule (test_hard.HardDataTests) ... ok
+test_enemy_phase_following_turn (test_hard.HardDataTests) ... ok
+test_event_not_fixed (test_hard.HardDataTests) ... ok
+test_every_map_explicit_presence (test_hard.HardDataTests) ... ok
+test_fixed_turn_controls (test_hard.HardDataTests) ... ok
+test_hard_scope (test_hard.HardDataTests) ... ok
+test_missing_wave_never_proves_absence (test_hard.HardDataTests) ... ok
+test_negative_turn_rejected (test_hard.HardDataTests) ... ok
+test_no_other_map_leak (test_hard.HardDataTests) ... ok
+test_no_spoilers (test_hard.HardDataTests) ... ok
+test_null_coordinates (test_hard.HardDataTests) ... ok
+test_other_difficulties_rejected (test_hard.HardDataTests) ... ok
+test_phase_required (test_hard.HardDataTests) ... ok
+test_player_phase_same_turn (test_hard.HardDataTests) ... ok
+test_quarantine_old_queries (test_hard.HardDataTests) ... ok
+test_recruitment_not_vague (test_hard.HardDataTests) ... ok
+test_repeat_start_unknown (test_hard.HardDataTests) ... ok
+test_silence_unknown (test_hard.HardDataTests) ... ok
+test_single_source_absence_exposed_not_certainty (test_hard.HardDataTests) ... ok
+test_source_resolution (test_hard.HardDataTests) ... ok
+test_unknown_event_controls_both_phases (test_hard.HardDataTests) ... ok
+test_village_event_retained (test_hard.HardDataTests) ... ok
+test_adjacent_support_outcome_refuses (test_hard.LiveCombatSafetyTests) ... ok
+test_brave_lethal_second_hit (test_hard.LiveCombatSafetyTests) ... ok
+test_counter_refuses (test_hard.LiveCombatSafetyTests) ... ok
+test_crit_risk_worst_not_expected (test_hard.LiveCombatSafetyTests) ... ok
+test_effective_damage_lethal (test_hard.LiveCombatSafetyTests) ... ok
+test_malformed_context_refuses (test_hard.LiveCombatSafetyTests) ... ok
+test_malformed_unit_refuses (test_hard.LiveCombatSafetyTests) ... ok
+test_missing_enemy_skill_inspection_refuses (test_hard.LiveCombatSafetyTests) ... ok
+test_missing_partner_knowledge_refuses (test_hard.LiveCombatSafetyTests) ... ok
+test_never_claim_map_survival (test_hard.LiveCombatSafetyTests) ... ok
+test_null_partners_refuse (test_hard.LiveCombatSafetyTests) ... ok
+test_paired_probability_not_certified (test_hard.LiveCombatSafetyTests) ... ok
+test_speed_threshold_five (test_hard.LiveCombatSafetyTests) ... ok
+test_support_state_required (test_hard.LiveCombatSafetyTests) ... ok
+test_unknown_enemy_forge_refuses (test_hard.LiveCombatSafetyTests) ... ok
+test_vantage_can_stop_brave (test_hard.LiveCombatSafetyTests) ... ok
+test_enemy_forges_unknown (test_phase2.DataSafetyTests) ... ok
+test_event_wave_remains_candidate (test_phase2.DataSafetyTests) ... ok
+test_full_coverage_matrix (test_phase2.DataSafetyTests) ... ok
+test_hazard_lists_unsupported_skills (test_phase2.DataSafetyTests) ... ok
+test_mend_and_physic (test_phase2.DataSafetyTests) ... ok
+test_missing_wave_never_means_safe (test_phase2.DataSafetyTests) ... ok
+test_next_turn_mode_separation (test_phase2.DataSafetyTests) ... ok
+test_no_spoilers (test_phase2.DataSafetyTests) ... ok
+test_category_cap (test_phase2.ExpTests) ... ok
+test_damage_and_boss (test_phase2.ExpTests) ... ok
+test_lunatic_sign_refusal (test_phase2.ExpTests) ... ok
+test_observed_coy_sequence (test_phase2.ExpTests) ... ok
+test_observed_rescue_sequence (test_phase2.ExpTests) ... ok
+test_staff_exceptions_modes_and_dancer (test_phase2.ExpTests) ... ok
+test_support_fraction_rounding_refusal (test_phase2.ExpTests) ... ok
+test_invalid_damage_category_refuses (test_phase2.MoreSafetyTests) ... ok
+test_invalid_or_unknown_bonus_refuses (test_phase2.MoreSafetyTests) ... ok
+test_multiple_probabilistic_offensive_procs_refuse (test_phase2.MoreSafetyTests) ... ok
+test_paired_preview_is_explicitly_partial (test_phase2.MoreSafetyTests) ... ok
+test_weapon_combined_stat_bonus (test_phase2.MoreSafetyTests) ... ok
+test_ambiguous_combinations_refuse (test_phase2.ProcTests) ... ok
+test_brave_tome_import (test_phase2.ProcTests) ... ok
+test_dragonstone_uses_aegis (test_phase2.ProcTests) ... ok
+test_ignis_before_crit (test_phase2.ProcTests) ... ok
+test_luna_plus_floor_and_crit (test_phase2.ProcTests) ... ok
+test_miracle_brave_can_still_die (test_phase2.ProcTests) ... ok
+test_miracle_only_above_one_hp (test_phase2.ProcTests) ... ok
+test_offensive_proc_priority (test_phase2.ProcTests) ... ok
+test_pavise_after_crit (test_phase2.ProcTests) ... ok
+test_player_durability_whole_enemy_phase (test_phase2.ProcTests) ... ok
+test_sol_heals_non_overkill (test_phase2.ProcTests) ... ok
+test_vantage_half_boundary (test_phase2.ProcTests) ... ok
+test_vantage_range_and_lethal_stop (test_phase2.ProcTests) ... ok
+test_vengeance_rechecks_after_damage (test_phase2.ProcTests) ... ok
+test_wrath_raw_negative_crit (test_phase2.ProcTests) ... ok
+test_basic_damage_and_doubling_boundary (test_tools.CombatTests) ... ok
+test_dual_explicitly_partial (test_tools.CombatTests) ... ok
+test_effective_triples_might (test_tools.CombatTests) ... ok
+test_magic_targets_res (test_tools.CombatTests) ... ok
+test_probability_and_early_death (test_tools.CombatTests) ... ok
+test_rank_and_triangle (test_tools.CombatTests) ... ok
+test_true_hit (test_tools.CombatTests) ... ok
+test_unsupported_and_invalid (test_tools.CombatTests) ... ok
+test_comparison_rejects_wrong_level (test_tools.ExtraToolsTests) ... ok
+test_enemy_phase_accumulates_damage (test_tools.ExtraToolsTests) ... ok
+test_forge (test_tools.ExtraToolsTests) ... ok
+test_low_level_promotion_refused (test_tools.ExtraToolsTests) ... ok
+test_avatar (test_tools.GrowthTests) ... ok
+test_cap (test_tools.GrowthTests) ... ok
+test_child (test_tools.GrowthTests) ... ok
+test_growth_and_projection (test_tools.GrowthTests) ... ok
+test_internal (test_tools.GrowthTests) ... ok
+test_dual (test_tools.PairTests) ... ok
+test_threshold_support (test_tools.PairTests) ... ok
+test_atomic_failure (test_tools.StateTests) ... ok
+test_casual (test_tools.StateTests) ... ok
+test_class_history (test_tools.StateTests) ... ok
+test_consumption (test_tools.StateTests) ... ok
+test_death_and_no_resurrection (test_tools.StateTests) ... ok
+test_level_history (test_tools.StateTests) ... ok
+
+----------------------------------------------------------------------
+Ran 122 tests in 11.140s
+
+OK

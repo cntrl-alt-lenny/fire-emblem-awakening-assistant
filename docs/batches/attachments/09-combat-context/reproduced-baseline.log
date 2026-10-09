@@ -1,0 +1,12 @@
+Baseline: d3b646975a5f0686a798aaf12c0e541ed396da08
+attacker outdoor_fighter outdoors=None: baseline NO_MODELED_DEATH_IN_THIS_DUEL, delivery UNKNOWN/null, unchanged input
+attacker outdoor_fighter outdoors='unknown': baseline NO_MODELED_DEATH_IN_THIS_DUEL, delivery UNKNOWN/null, unchanged input
+attacker lucky_seven turn=0: baseline NO_MODELED_DEATH_IN_THIS_DUEL, delivery UNKNOWN/null, unchanged input
+attacker lucky_seven turn=-1: baseline NO_MODELED_DEATH_IN_THIS_DUEL, delivery UNKNOWN/null, unchanged input
+attacker lucky_seven turn=True: baseline NO_MODELED_DEATH_IN_THIS_DUEL, delivery UNKNOWN/null, unchanged input
+defender outdoor_fighter outdoors=None: baseline NO_MODELED_DEATH_IN_THIS_DUEL, delivery UNKNOWN/null, unchanged input
+defender outdoor_fighter outdoors='unknown': baseline NO_MODELED_DEATH_IN_THIS_DUEL, delivery UNKNOWN/null, unchanged input
+defender lucky_seven turn=0: baseline NO_MODELED_DEATH_IN_THIS_DUEL, delivery UNKNOWN/null, unchanged input
+defender lucky_seven turn=-1: baseline NO_MODELED_DEATH_IN_THIS_DUEL, delivery UNKNOWN/null, unchanged input
+defender lucky_seven turn=True: baseline NO_MODELED_DEATH_IN_THIS_DUEL, delivery UNKNOWN/null, unchanged input
+Exit status: 0

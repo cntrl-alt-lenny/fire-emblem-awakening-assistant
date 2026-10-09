@@ -1,0 +1,9 @@
+Commit: cf1e62d7742a8729eaabc0e0b1da72e794931cc5
+Command: python3 docs/batches/attachments/09-combat-context/check_controls.py d3b646975a5f0686a798aaf12c0e541ed396da08
+
+Baseline gate: d3b646975a5f0686a798aaf12c0e541ed396da08
+All 34 complete supported assessment objects match baseline exactly; inputs unchanged.
+SHA256 of ordered results: 290edc7757011f783140d5822d9b1e99e36795e08ad6aa954babaf477aa4c3be
+General calculator and proc engine must remain unchanged; verify with git diff before using this check.
+
+Exit status: 0

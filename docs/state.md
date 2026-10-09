@@ -8,8 +8,9 @@ status` and ask git for live workflow state.
 Maintain an evidence-aware offline Awakening companion that can help with
 actual play without turning incomplete records into safety guarantees.
 Inherited research priorities from `STATUS.md` are Hard Chapter 5 and 17
-conflicts, then other documented reinforcement and event gaps. Audit the
-existing foundation before selecting the next factual research slice.
+conflicts, then other documented reinforcement and event gaps. The foundation
+audit is retained in round 001. Keep incompletely timed arrival families visible
+in phase-filtered queries before extending external research.
 
 ## Owner decisions
 
@@ -17,6 +18,11 @@ existing foundation before selecting the next factual research slice.
   Planning, implementation and acceptance remain separate.
 - The project belongs in the GitHub folder and its repository is public.
 - Apply the owner's agentic framework and public README house style.
+- Use two active Workers when useful independent batches are available, with
+  separate file ownership and branches. A pending review, approval or planning
+  document merge blocks only work that actually depends on it. Brain owns
+  shared integration decisions; do not create occupancy tasks. Review and owner
+  merge approval remain required.
 
 ## Standing project policy
 
@@ -41,11 +47,17 @@ owner relayed, and batches that only fixed an earlier batch. First line due
   established the actual schedule. Further resolution needs observable,
   difficulty-specific gameplay with visible phase/setup; repeated guide
   comparison alone is insufficient. Keep its canonical conflict and unknowns
-  while pursuing the standing Hard Chapter 17 research priority.
-- Hard Chapter 17 first staircase and warning-to-arrival timing: accessible
-  accounts remain insufficient to resolve actual gameplay. Further resolution
-  needs observable Hard setup and phase evidence. Preserve the conflict;
-  inventory provenance can be audited separately without certifying a schedule.
+  while progressing other documented tactical gaps.
+- Hard Chapter 17 first staircase, warning-to-arrival timing and central
+  inventory: accessible accounts remain insufficient to resolve actual
+  gameplay. Further resolution needs observable Hard setup and phase evidence.
+  Preserve the conflict; retained source reports do not certify the actual
+  inventory or a schedule.
+- Hard Chapter 20 objective/completion: corrected source attribution leaves
+  source independence and actual Hard/Classic completion unresolved. Further
+  resolution needs continuous gameplay establishing settings on the same save,
+  displayed objective and completion with both other bosses still alive.
+  Repeated guide comparison cannot supply that observation; preserve the conflict.
 - Broad encyclopaedic expansion: current-map tactical uncertainty takes priority.
 - SpotPass/DLC expansion and Lunatic+ guarantees: their availability, coverage
   and random-skill evidence remain separate and incomplete.
@@ -64,3 +76,5 @@ owner relayed, and batches that only fixed an earlier batch. First line due
   `research/hard_verification/`.
 - Workflow: `docs/agents/FRAMEWORK.md`, role cards and `docs/batches/` (3.x rounds: `docs/rounds/`).
 - Usage and sources: `docs/usage.md`, `SOURCES.md`, `research/UNCERTAINTIES.md`.
+- Prepared prompts and acceptance criteria: `docs/plans/08-chapter11-candidates.md`.
+- Parallel ownership and both Worker prompts: `docs/plans/parallel-workers.md`.

@@ -1,0 +1,1659 @@
+Baseline code commit: d3b646975a5f0686a798aaf12c0e541ed396da08
+Command: python3 -m unittest discover -s tests -p test_combat_context.py -v
+New tests added to unchanged baseline implementation; failure expected.
+
+test_both_sides_and_both_context_fields (test_combat_context.CombatContextTests) ... FAIL
+test_defender_without_counterattack_still_requires_context (test_combat_context.CombatContextTests) ... test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) ... test_fighter_true_false_numerical_controls (test_combat_context.CombatContextTests) ... ok
+test_optional_fields_absent_without_relevant_skill (test_combat_context.CombatContextTests) ... ok
+test_paired_and_unsupported_effect_refusals_preserved (test_combat_context.CombatContextTests) ... ok
+test_public_json_cli_invalid_and_valid (test_combat_context.CombatContextTests) ... test_turn_boundaries_and_parity_numerical_controls (test_combat_context.CombatContextTests) ... ok
+test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) ...
+======================================================================
+FAIL: test_both_sides_and_both_context_fields (test_combat_context.CombatContextTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 120, in test_both_sides_and_both_context_fields
+    self.assert_unknown(bad, field, 'attacker')
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_defender_without_counterattack_still_requires_context (test_combat_context.CombatContextTests) (skill='outdoor_fighter')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 127, in test_defender_without_counterattack_still_requires_context
+    self.assert_unknown(payload, field, 'defender')
+  File "<checkout>/tests/test_combat_context.py", line 32, in assert_unknown
+    self.assertIn(side, diagnostic)
+AssertionError: 'defender' not found in 'Specify outdoors for fighter skill'
+
+======================================================================
+FAIL: test_defender_without_counterattack_still_requires_context (test_combat_context.CombatContextTests) (skill='odd_rhythm')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 127, in test_defender_without_counterattack_still_requires_context
+    self.assert_unknown(payload, field, 'defender')
+  File "<checkout>/tests/test_combat_context.py", line 32, in assert_unknown
+    self.assertIn(side, diagnostic)
+AssertionError: 'defender' not found in 'Specify turn for turn-dependent skills'
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='indoor_fighter', value=None)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='indoor_fighter', value=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='indoor_fighter', value=1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='indoor_fighter', value=-1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='indoor_fighter', value=1.0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='indoor_fighter', value='')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='indoor_fighter', value='unknown')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='indoor_fighter', value='false')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='indoor_fighter', value=[])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='indoor_fighter', value={})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='indoor_fighter', value=[True])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='indoor_fighter', missing=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 47, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 32, in assert_unknown
+    self.assertIn(side, diagnostic)
+AssertionError: 'attacker' not found in 'Specify outdoors for fighter skill'
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='outdoor_fighter', value=None)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='outdoor_fighter', value=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='outdoor_fighter', value=1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='outdoor_fighter', value=-1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='outdoor_fighter', value=1.0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='outdoor_fighter', value='')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='outdoor_fighter', value='unknown')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='outdoor_fighter', value='false')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='outdoor_fighter', value=[])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='outdoor_fighter', value={})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='outdoor_fighter', value=[True])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='outdoor_fighter', missing=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 47, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 32, in assert_unknown
+    self.assertIn(side, diagnostic)
+AssertionError: 'attacker' not found in 'Specify outdoors for fighter skill'
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='indoor_fighter', value=None)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='indoor_fighter', value=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='indoor_fighter', value=1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='indoor_fighter', value=-1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='indoor_fighter', value=1.0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='indoor_fighter', value='')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='indoor_fighter', value='unknown')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='indoor_fighter', value='false')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='indoor_fighter', value=[])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='indoor_fighter', value={})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='indoor_fighter', value=[True])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='indoor_fighter', missing=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 47, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 32, in assert_unknown
+    self.assertIn(side, diagnostic)
+AssertionError: 'defender' not found in 'Specify outdoors for fighter skill'
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='outdoor_fighter', value=None)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='outdoor_fighter', value=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='outdoor_fighter', value=1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='outdoor_fighter', value=-1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='outdoor_fighter', value=1.0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='outdoor_fighter', value='')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='outdoor_fighter', value='unknown')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='outdoor_fighter', value='false')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='outdoor_fighter', value=[])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='outdoor_fighter', value={})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='outdoor_fighter', value=[True])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 43, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='outdoor_fighter', missing=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 47, in test_fighter_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'outdoors', side)
+  File "<checkout>/tests/test_combat_context.py", line 32, in assert_unknown
+    self.assertIn(side, diagnostic)
+AssertionError: 'defender' not found in 'Specify outdoors for fighter skill'
+
+======================================================================
+FAIL: test_public_json_cli_invalid_and_valid (test_combat_context.CombatContextTests) (side='attacker', skill='outdoor_fighter', status='UNKNOWN')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 173, in test_public_json_cli_invalid_and_valid
+    self.assertEqual(output['status'], status)
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_public_json_cli_invalid_and_valid (test_combat_context.CombatContextTests) (side='attacker', skill='indoor_fighter', status='UNKNOWN')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 173, in test_public_json_cli_invalid_and_valid
+    self.assertEqual(output['status'], status)
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_public_json_cli_invalid_and_valid (test_combat_context.CombatContextTests) (side='attacker', skill='lucky_seven', status='UNKNOWN')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 173, in test_public_json_cli_invalid_and_valid
+    self.assertEqual(output['status'], status)
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_public_json_cli_invalid_and_valid (test_combat_context.CombatContextTests) (side='attacker', skill='even_rhythm', status='UNKNOWN')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 173, in test_public_json_cli_invalid_and_valid
+    self.assertEqual(output['status'], status)
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_public_json_cli_invalid_and_valid (test_combat_context.CombatContextTests) (side='attacker', skill='odd_rhythm', status='UNKNOWN')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 173, in test_public_json_cli_invalid_and_valid
+    self.assertEqual(output['status'], status)
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_public_json_cli_invalid_and_valid (test_combat_context.CombatContextTests) (side='defender', skill='outdoor_fighter', status='UNKNOWN')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 173, in test_public_json_cli_invalid_and_valid
+    self.assertEqual(output['status'], status)
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_public_json_cli_invalid_and_valid (test_combat_context.CombatContextTests) (side='defender', skill='indoor_fighter', status='UNKNOWN')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 173, in test_public_json_cli_invalid_and_valid
+    self.assertEqual(output['status'], status)
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_public_json_cli_invalid_and_valid (test_combat_context.CombatContextTests) (side='defender', skill='lucky_seven', status='UNKNOWN')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 173, in test_public_json_cli_invalid_and_valid
+    self.assertEqual(output['status'], status)
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_public_json_cli_invalid_and_valid (test_combat_context.CombatContextTests) (side='defender', skill='even_rhythm', status='UNKNOWN')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 173, in test_public_json_cli_invalid_and_valid
+    self.assertEqual(output['status'], status)
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_public_json_cli_invalid_and_valid (test_combat_context.CombatContextTests) (side='defender', skill='odd_rhythm', status='UNKNOWN')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 173, in test_public_json_cli_invalid_and_valid
+    self.assertEqual(output['status'], status)
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='lucky_seven', value=None)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'NoneType' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='lucky_seven', value=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='lucky_seven', value=-1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='lucky_seven', value=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='lucky_seven', value=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='lucky_seven', value=1.0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='lucky_seven', value=1.5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='lucky_seven', value='1')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'str' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='lucky_seven', value='unknown')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'str' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='lucky_seven', value=[])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'list' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='lucky_seven', value={})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'dict' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='lucky_seven', value=[1])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'list' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='lucky_seven', missing=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 61, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 32, in assert_unknown
+    self.assertIn(side, diagnostic)
+AssertionError: 'attacker' not found in 'Specify turn for turn-dependent skills'
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='even_rhythm', value=None)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'NoneType' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='even_rhythm', value=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='even_rhythm', value=-1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='even_rhythm', value=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='even_rhythm', value=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='even_rhythm', value=1.0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='even_rhythm', value=1.5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='even_rhythm', value='1')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'str' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='even_rhythm', value='unknown')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'str' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='even_rhythm', value=[])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'list' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='even_rhythm', value={})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'dict' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='even_rhythm', value=[1])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'list' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='even_rhythm', missing=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 61, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 32, in assert_unknown
+    self.assertIn(side, diagnostic)
+AssertionError: 'attacker' not found in 'Specify turn for turn-dependent skills'
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='odd_rhythm', value=None)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'NoneType' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='odd_rhythm', value=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='odd_rhythm', value=-1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='odd_rhythm', value=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='odd_rhythm', value=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='odd_rhythm', value=1.0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='odd_rhythm', value=1.5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='odd_rhythm', value='1')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'str' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='odd_rhythm', value='unknown')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'str' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='odd_rhythm', value=[])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'list' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='odd_rhythm', value={})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'dict' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='odd_rhythm', value=[1])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'list' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='attacker', skill='odd_rhythm', missing=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 61, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 32, in assert_unknown
+    self.assertIn(side, diagnostic)
+AssertionError: 'attacker' not found in 'Specify turn for turn-dependent skills'
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='lucky_seven', value=None)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'NoneType' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='lucky_seven', value=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='lucky_seven', value=-1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='lucky_seven', value=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='lucky_seven', value=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='lucky_seven', value=1.0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='lucky_seven', value=1.5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='lucky_seven', value='1')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'str' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='lucky_seven', value='unknown')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'str' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='lucky_seven', value=[])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'list' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='lucky_seven', value={})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'dict' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='lucky_seven', value=[1])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'list' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='lucky_seven', missing=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 61, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 32, in assert_unknown
+    self.assertIn(side, diagnostic)
+AssertionError: 'defender' not found in 'Specify turn for turn-dependent skills'
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='even_rhythm', value=None)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'NoneType' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='even_rhythm', value=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='even_rhythm', value=-1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='even_rhythm', value=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='even_rhythm', value=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='even_rhythm', value=1.0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='even_rhythm', value=1.5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='even_rhythm', value='1')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'str' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='even_rhythm', value='unknown')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'str' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='even_rhythm', value=[])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'list' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='even_rhythm', value={})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'dict' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='even_rhythm', value=[1])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'list' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='even_rhythm', missing=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 61, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 32, in assert_unknown
+    self.assertIn(side, diagnostic)
+AssertionError: 'defender' not found in 'Specify turn for turn-dependent skills'
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='odd_rhythm', value=None)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'NoneType' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='odd_rhythm', value=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='odd_rhythm', value=-1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='odd_rhythm', value=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='odd_rhythm', value=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='odd_rhythm', value=1.0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='odd_rhythm', value=1.5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 26, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='odd_rhythm', value='1')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'str' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='odd_rhythm', value='unknown')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'str' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='odd_rhythm', value=[])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'list' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='odd_rhythm', value={})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'dict' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='odd_rhythm', value=[1])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 57, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 31, in assert_unknown
+    self.assertIn(field, diagnostic)
+AssertionError: 'turn' not found in "'<=' not supported between instances of 'list' and 'int'"
+
+======================================================================
+FAIL: test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) (side='defender', skill='odd_rhythm', missing=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_combat_context.py", line 61, in test_turn_missing_and_malformed_context_refused
+    self.assert_unknown(payload, 'turn', side)
+  File "<checkout>/tests/test_combat_context.py", line 32, in assert_unknown
+    self.assertIn(side, diagnostic)
+AssertionError: 'defender' not found in 'Specify turn for turn-dependent skills'
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.538s
+
+FAILED (failures=139)
+
+Exit status: 1
