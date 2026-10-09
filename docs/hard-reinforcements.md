@@ -12,7 +12,9 @@ A reported “turn 5” can mean player phase 5, beginning of enemy phase 5, or 
 
 `map_info.py --chapter 7 --difficulty hard --turn 5 --phase player` targets the next enemy phase **5**. If currently in enemy phase 5, `--phase enemy` targets enemy phase **6**. Phase is mandatory when a turn is supplied. The older `tactical_query.py` explicitly targets the following numbered turn N+1; it is retained for compatibility and is not the preferred Hard reference.
 
-Fixed-turn supported records are filtered to that phase number. Conditional, relative-warning, repeated or unknown-timing events remain candidates on every query. A returned candidate is not a prediction that its condition is satisfied. A wave not returned by the fixed-turn filter does not establish an empty map schedule.
+Fixed-turn supported records are filtered to that phase number. Conditional, relative-warning, repeated or unknown-timing events remain candidates on every query. A family with a reported start remains a candidate from that target phase onward, without asserting recurrence or a final turn. A returned candidate is not a prediction that its condition is satisfied. A wave not returned by the fixed-turn filter does not establish an empty map schedule.
+
+Chapter 11’s fort family uses the turn-3 positioning warning as a reported start; subsequent timing is unresolved. The separate northwest report remains fixed at turn 4. See the [bounded source assessment](../research/hard_verification/chapter11-candidates.md).
 
 ## Evidence and independence
 
