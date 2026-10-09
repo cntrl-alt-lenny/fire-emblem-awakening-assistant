@@ -36,6 +36,8 @@ def audit():
   turns=t['turns'];check(turns is None or isinstance(turns,list) and turns==sorted(set(turns)) and all(type(n)is int and n>0 for n in turns),w['id']+': invalid turns')
   check(t['kind']!='fixed' or bool(turns),w['id']+': fixed timing missing turns')
   check(t['kind']=='fixed' or turns is None,w['id']+': conditional event wrongly fixed')
+  if 'reported_start_turn' in t:
+   check(t['kind']=='conditional_report' and type(t['reported_start_turn']) is int and t['reported_start_turn']>0 and turns is None and t['repeat'] is None,w['id']+': invalid unresolved family start')
   check(w['coordinates']['value'] is None,w['id']+': invented coordinates')
   for u in w['units']['value'] or []:
    check(u['class_id'] is None or u['class_id'] in cm,w['id']+': invalid class')

@@ -15,7 +15,10 @@ def resolve(chapter,maps):
  raise ValueError('No reviewed ordinary Hard campaign map: '+str(chapter)+'. Premonition/tutorial, DLC and SpotPass are separate.')
 def eligible(w,ep):
  t=w['timing']['value']
- if ep is None or t['turns'] is None:return True
+ if ep is None:return True
+ # A reported family start is a candidate boundary, never a recurrence promise.
+ if t.get('reported_start_turn') is not None:return ep>=t['reported_start_turn']
+ if t['turns'] is None:return True
  return ep in t['turns']
 def query(chapter,difficulty='hard',turn=None,phase=None,spoilers='Tactical spoilers'):
  if str(difficulty).lower()!='hard':raise ValueError('This forensic query supports Hard only; other difficulties require separate datasets.')

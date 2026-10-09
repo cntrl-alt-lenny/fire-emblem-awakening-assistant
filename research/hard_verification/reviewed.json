@@ -926,19 +926,18 @@
           ],
           "timing": {
             "value": {
-              "kind": "fixed",
-              "turns": [
-                3
-              ],
-              "event": null,
+              "kind": "conditional_report",
+              "turns": null,
+              "reported_start_turn": 3,
+              "event": "Fort arrivals: turn-3 warning; subsequent timing unresolved",
               "repeat": null
             },
-            "confidence": "SUPPORTED",
+            "confidence": "PARTIAL",
             "source_ids": [
               "p2_guide_12_0",
               "p2_guide_scope"
             ],
-            "notes": "Guide warns to expect fort reinforcements from turn 3; number of subsequent waves unknown."
+            "notes": "Source warns about positioning on Turn 3 and occupying southern forts by Turn 3; it does not specify recurrence or a final turn. Reported start is an interpretation of that warning. Retain as a possible family from that turn, not a prediction of arrivals on every later turn."
           },
           "location": {
             "value": "Forts, including southern forts",

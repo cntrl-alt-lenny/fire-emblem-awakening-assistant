@@ -82,3 +82,5 @@ Next work: obtain clearly Hard-labelled full wave tables or game-derived event e
 ## Chapter 17 inventory attribution — round 005
 
 First/second inventory attribution is narrowed to the single source enumerating the supplied classes/counts/equipment. The inherited six-unit central inventory is now explicitly unresolved against an indexed two-unit report; both alternatives remain visible, with no chosen gameplay count. This corrects one unit claim's confidence and adds no verified gameplay coverage. Existing 44-map/29-wave counters and zero complete verified schedules are unchanged. See the [inventory audit](docs/rounds/005-chapter17-provenance/attachments/inventory-audit.md); timing, stairs and phase remain unresolved.
+
+Chapter 11 fort candidates remain visible from the interpreted turn-3 start; recurrence and final turn remain unknown. This query correction adds no verified gameplay coverage. See [source assessment](research/hard_verification/chapter11-candidates.md).

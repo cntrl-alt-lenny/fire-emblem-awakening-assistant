@@ -60,6 +60,36 @@ class HardDataTests(unittest.TestCase):
  def test_no_spoilers(self):
   q=query(7,spoilers='No spoilers');self.assertNotIn('candidate_reinforcements',q);self.assertNotIn('Cordelia',json.dumps(q))
  def test_no_other_map_leak(self):self.assertNotIn('hard_chapter_16',json.dumps(query(7)))
+ def test_chapter11_fort_family_phase_boundaries(self):
+  for turn,phase,target in [(1,'player',1),(2,'player',2),(1,'enemy',2),(2,'enemy',3),(3,'player',3),(3,'enemy',4),(4,'player',4),(4,'enemy',5),(5,'player',5),(99,'player',99)]:
+   with self.subTest(turn=turn,phase=phase):
+    q=query(11,turn=turn,phase=phase)
+    ids={w['id'] for w in q['candidate_reinforcements']}
+    self.assertEqual(q['target_enemy_phase_turn'],target)
+    self.assertEqual('hard_chapter_11_t3_forts' in ids,target>=3)
+    self.assertEqual('hard_chapter_11_t4_nw' in ids,target==4)
+    self.assertFalse(q['schedule_complete'])
+    self.assertFalse(q['safe_to_conclude_no_reinforcements'])
+ def test_chapter11_family_not_recurrence(self):
+  w=load()[1]['hard_chapter_11_t3_forts'];t=w['timing']['value']
+  self.assertEqual(t['kind'],'conditional_report')
+  self.assertIsNone(t['turns']);self.assertIsNone(t['repeat'])
+  self.assertEqual(t['reported_start_turn'],3)
+  self.assertEqual(w['timing']['confidence'],'PARTIAL')
+  for f in ('units','coordinates','skills'):self.assertIsNone(w[f]['value'])
+ def test_fixed_turn_controls(self):
+  for chapter,turns in [(7,[5]),(16,[4,5,6])]:
+   for target in range(1,9):
+    for turn,phase in [(target,'player')]+([(target-1,'enemy')] if target>1 else []):
+     with self.subTest(chapter=chapter,target=target,phase=phase):
+      q=query(chapter,turn=turn,phase=phase)
+      self.assertEqual(bool(q['candidate_reinforcements']),target in turns)
+ def test_unknown_event_controls_both_phases(self):
+  for chapter in [19,'para10','para14']:
+   for turn in [1,3,99]:
+    for phase in ['player','enemy']:
+     with self.subTest(chapter=chapter,turn=turn,phase=phase):
+      self.assertTrue(query(chapter,turn=turn,phase=phase)['candidate_reinforcements'])
 class LiveCombatSafetyTests(unittest.TestCase):
  def test_missing_partner_knowledge_refuses(self):
   p=battle();del p['partners'];self.assertEqual(assess(p)['status'],'UNKNOWN')
