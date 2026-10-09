@@ -7,6 +7,16 @@ from common import read_json,dump,lookup
 from combat_calculator import calculate,SAFE_WEAPON_EFFECTS
 REQUIRED=('stats','current_hp','weapon','weapon_rank','skills','weaknesses','terrain','combat_bonuses','remaining_uses')
 
+def require_skill_context(unit, side, context):
+ """Reject unknown skill conditions before the calculator can coerce/default them."""
+ skills = unit['skills']
+ fighters = [s for s in ('indoor_fighter','outdoor_fighter') if s in skills]
+ if fighters and type(context.get('outdoors')) is not bool:
+  raise ValueError(side+':context.outdoors requires an explicit boolean for '+', '.join(fighters))
+ turn_skills = [s for s in ('lucky_seven','even_rhythm','odd_rhythm') if s in skills]
+ if turn_skills and (type(context.get('turn')) is not int or context['turn']<1):
+  raise ValueError(side+':context.turn requires an explicit positive integer (not boolean) for '+', '.join(turn_skills))
+
 def known_weapon(unit, side):
  """Resolve IDs, then enforce the live input contract without changing mechanics."""
  weapon = unit['weapon']
@@ -53,6 +63,7 @@ def assess(payload):
  if missing:return {'status':'UNKNOWN','missing':missing,'safe_to_claim_survival':False,'outcome':None}
  if payload['support_state']!='none':return {'status':'UNKNOWN','reason':'Full paired/adjacent Dual Strike and Dual Guard outcome is unsupported; use pair_up/paired_forecast for supported bonuses and rates.','safe_to_claim_survival':False,'outcome':None}
  try:
+  for side in ('attacker','defender'):require_skill_context(payload[side],side,payload['context'])
   prepared=copy.deepcopy(payload)
   for side in ('attacker','defender'):prepared[side]['weapon']=known_weapon(prepared[side],side)
   r=calculate(prepared)
