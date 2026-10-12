@@ -25,6 +25,9 @@ in phase-filtered queries before extending external research.
   document merge blocks only work that actually depends on it. Brain owns
   shared integration decisions; do not create occupancy tasks. Review and owner
   merge approval remain required.
+- After a merge, Brain supplies the next useful batches and relay prompts, or
+  explains the concrete dependency preventing them. A merged phase is not the
+  end of the project; do not create occupancy work to fill a handoff.
 
 ## Standing project policy
 
@@ -78,5 +81,5 @@ owner relayed, and batches that only fixed an earlier batch. First line due
   `research/hard_verification/`.
 - Workflow: `docs/agents/FRAMEWORK.md`, role cards and `docs/batches/` (3.x rounds: `docs/rounds/`).
 - Usage and sources: `docs/usage.md`, `SOURCES.md`, `research/UNCERTAINTIES.md`.
-- Prepared prompts and acceptance criteria: `docs/plans/08-chapter11-candidates.md`.
-- Parallel ownership and both Worker prompts: `docs/plans/parallel-workers.md`.
+- Prepared prompts, acceptance criteria and dated roadmaps: `docs/plans/`.
+- Parallel ownership and Worker prompts: `docs/plans/parallel-alpha-entry.md`.

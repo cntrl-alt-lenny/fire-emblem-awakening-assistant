@@ -1,0 +1,5 @@
+{"field": "alive", "observation": "?", "status": "POTENTIALLY_LETHAL", "numeric_outcome": true}
+{"field": "alive", "observation": "false", "status": "POTENTIALLY_LETHAL", "numeric_outcome": true}
+{"field": "forge", "observation": {}, "status": "POTENTIALLY_LETHAL", "numeric_outcome": true}
+{"field": "status_effects", "observation": ["unknown"], "status": "POTENTIALLY_LETHAL", "numeric_outcome": true}
+Synthetic checked-in fixture unchanged; no run read or initialized. Exit0
