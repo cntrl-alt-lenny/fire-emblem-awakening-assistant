@@ -1,0 +1,8 @@
+{"side": "attacker", "field": "alive", "value": "?", "status": "POTENTIALLY_LETHAL", "numeric_outcome": true}
+{"side": "attacker", "field": "alive", "value": "false", "status": "POTENTIALLY_LETHAL", "numeric_outcome": true}
+{"side": "attacker", "field": "forge", "value": {}, "status": "POTENTIALLY_LETHAL", "numeric_outcome": true}
+{"side": "attacker", "field": "status_effects", "value": ["unknown"], "status": "POTENTIALLY_LETHAL", "numeric_outcome": true}
+{"side": "defender", "field": "alive", "value": "?", "status": "POTENTIALLY_LETHAL", "numeric_outcome": true}
+{"side": "defender", "field": "alive", "value": "false", "status": "POTENTIALLY_LETHAL", "numeric_outcome": true}
+{"side": "defender", "field": "forge", "value": {}, "status": "POTENTIALLY_LETHAL", "numeric_outcome": true}
+{"side": "defender", "field": "status_effects", "value": ["unknown"], "status": "POTENTIALLY_LETHAL", "numeric_outcome": true}
