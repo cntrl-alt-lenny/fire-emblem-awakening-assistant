@@ -8,7 +8,7 @@ plan: `7f4553587263772d9539e571c04abb18207704bf`; clarification:
 
 ## Findings and verdict
 
-**BLOCKER — unknown forge observations earn completeness.**
+**BLOCKER — unknown edited effects/state earn completeness or numbers.**
 `tools/observed_input.py:294-296` checks only top-level null unit values.
 Starting with this collector's complete custom output, add
 `attacker.forge = {"might": null}`. Run `python3 tools/observed_input.py --edit`
@@ -22,13 +22,22 @@ as the previously corrected unknown-range case did. Preserve these observations
 with completeness false or refuse their incompatible shape; add public CLI
 regressions without removing real forge/effect data.
 
+The same 27-keep transcript with supplied `attacker.alive: "?"` or the string
+`"false"` preserves it, sets completeness true and emits
+`NO_MODELED_DEATH_IN_THIS_DUEL` with both death probabilities zero. This is an
+unknown-to-supported conversion: deliberate reuse bypasses boolean parsing and
+the permissive engine only refuses literal boolean false. Validate supplied
+optional state/effects before confirming completeness; retain actual boolean
+false as a dead-unit refusal. Empty forge list/object also earn supported output;
+their compatibility requires explicit validation rather than truthiness.
+
 **NOTE — burden count disagrees with measured output.**
 `docs/guided-observation.md:68`, the summary and workflow footer say catalog
 entry uses 29 answers. Independent supported two-catalog entry uses 27;
 `corrected-workflows.log:161` agrees. Correct the prose/footer.
 
 Verdict: **CHANGES REQUIRED**. Other bounded entry, preservation and refusal
-goals passed; truthful completeness is not met.
+goals otherwise passed; truthful completeness and unknown refusal are not met.
 
 ## Independent evidence
 
@@ -46,15 +55,16 @@ agree. Shared engines, canonical data and research have no baseline diff.
 | `gh run list --branch worker/13-guided-observation --limit 3 --json headSha,status,conclusion,url,name` | Exact reviewed SHA: CI completed/success, run 38225177698 | 0 |
 | `python3 -m unittest discover -s tests -p test_observed_input.py -v` | 13 tests OK | 0 |
 | `git diff --check 5c596d42adb3d2a5eeee460032ee20bdd4bb78ba HEAD` | Empty | 0 |
-| Independent private public-CLI runner | 30 controls pass; unknown forge failures above reproduced separately | 0 |
+| Independent private public-CLI runner | 30 controls pass; forge/optional alive failures above reproduced separately | 0 |
 | Existing `tools/tactical_combat.py` public CLI | Exact complete assessment equality | 0 |
 | Private headless Markdown render/link check | Reference/summary/attempts readable; 8 links resolve; zero overflow | 0 |
 
 Controls covered partial/blank stats, integer retries, raw basis, Counter/drain,
 forge values, unarmed/paired, explicit context null, keep/reconfirmation,
 extra effects, duplicate/run-shaped sources, cancel/EOF and create-only output,
-overwrite/traversal/symlink/run-name refusals. UNKNOWN diagnostics expose no
-partial numbers. Synthetic drafts/existing outputs stayed unchanged. Privately
+overwrite/traversal/symlink/run-name refusals. Refused UNKNOWN diagnostics expose
+no partial numbers; retained unknown alive state incorrectly avoids refusal.
+Synthetic drafts/existing outputs stayed unchanged. Privately
 verified canonical/research/private file sets and contents unchanged in primary
 and review checkouts; no private values/hashes published. Custom entry: 41
 answers, 16 stats in two groups, zero manual JSON edits. Catalog: 27 answers.
