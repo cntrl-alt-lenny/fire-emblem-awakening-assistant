@@ -1,0 +1,1146 @@
+Commit: 264957745acd52799bfde43cb3ab853af45caa16
+Command: python3 -m unittest discover -s tests -p test_play_entry.py -v
+test_collection_and_cancellation_preserve_batched_stdin (test_play_entry.PlayEntryTests) ... 
+CASE: complete collection 
+DIRECT: observed_input.py [] 
+STDIN: '2\n\nHard\nClassic\neffective_displayed\nnone\nnone\n40 10 10 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\nnone\nnone\nnone\nnone\n50\n40 10 10 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\nnone\nnone\nnone\nnone\n50\n1\nyes\n' 
+EXIT: 0 
+STDOUT: {
+  "difficulty": "Hard",
+  "mode": "Classic",
+  "stats_basis": "effective_displayed",
+  "support_state": "none",
+  "partners": [],
+  "attacker": {
+    "stats": {
+      "hp": 40,
+      "str": 10,
+      "mag": 10,
+      "skl": 0,
+      "spd": 10,
+      "lck": 0,
+      "def": 5,
+      "res": 5
+    },
+    "current_hp": 40,
+    "weapon": {
+      "weapon_type": "sword",
+      "damage_type": "physical",
+      "rank": "E",
+      "might": 5,
+      "hit": 100,
+      "crit": 0,
+      "range": "1",
+      "effect": "–",
+      "brave": false,
+      "effectiveness": []
+    },
+    "weapon_state": "equipped",
+    "weapon_rank": "E",
+    "skills": [],
+    "weaknesses": [],
+    "terrain": {},
+    "combat_bonuses": {},
+    "remaining_uses": 50
+  },
+  "defender": {
+    "stats": {
+      "hp": 40,
+      "str": 10,
+      "mag": 10,
+      "skl": 0,
+      "spd": 10,
+      "lck": 0,
+      "def": 5,
+      "res": 5
+    },
+    "current_hp": 40,
+    "weapon": {
+      "weapon_type": "sword",
+      "damage_type": "physical",
+      "rank": "E",
+      "might": 5,
+      "hit": 100,
+      "crit": 0,
+      "range": "1",
+      "effect": "–",
+      "brave": false,
+      "effectiveness": []
+    },
+    "weapon_state": "equipped",
+    "weapon_rank": "E",
+    "skills": [],
+    "weaknesses": [],
+    "terrain": {},
+    "combat_bonuses": {},
+    "remaining_uses": 50
+  },
+  "context": {
+    "distance": 1
+  },
+  "observed_inputs_complete": true
+}
+ 
+DELEGATED STDERR: Observed duel only. Enter actual observations; no inferred defaults or bonus conversion.
+For an edited draft, type keep deliberately for each value; final confirmation is renewed.
+Difficulty (Normal/Hard/Lunatic/Lunatic+) [blank/? unknown; cancel stops]: Mode (Classic/Casual) [blank/? unknown; cancel stops]: Stats basis (effective_displayed/raw_permanent); include bonuses once [blank/? unknown; cancel stops]: Support on either side (none/adjacent/paired); none confirms both absent [blank/? unknown; cancel stops]: Observed partner IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker stats hp str mag skl spd lck def res [blank/? unknown; cancel stops]: attacker actual current HP (never defaults to max) [blank/? unknown; cancel stops]: Weapon: custom, catalog EXACT_NAME, unequipped (defender only) [blank/? unknown; cancel stops]: Weapon type (sword/lance/axe/bow/tome/stone/claw/breath) [blank/? unknown; cancel stops]: Damage type (physical/magical) [blank/? unknown; cancel stops]: Actual weapon required rank (E/D/C/B/A), separate from unit proficiency [blank/? unknown; cancel stops]: Actual weapon might hit crit (including forge) [blank/? unknown; cancel stops]: Actual weapon range, e.g. 1 or 1-2 [blank/? unknown; cancel stops]: Exact weapon effect; none confirms no special effect [blank/? unknown; cancel stops]: Two consecutive attacks: yes/no [blank/? unknown; cancel stops]: Weapon effectiveness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker Observed weapon rank (E/D/C/B/A) [blank/? unknown; cancel stops]: attacker All equipped skill IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker All innate weakness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker Terrain def res avoid; none confirms no bonuses [blank/? unknown; cancel stops]: attacker Combat bonuses hit avoid crit crit_avoid attack; none confirms no bonuses [blank/? unknown; cancel stops]: attacker Observed remaining weapon uses (explicit 0 if unequipped) [blank/? unknown; cancel stops]: defender stats hp str mag skl spd lck def res [blank/? unknown; cancel stops]: defender actual current HP (never defaults to max) [blank/? unknown; cancel stops]: Weapon: custom, catalog EXACT_NAME, unequipped (defender only) [blank/? unknown; cancel stops]: Weapon type (sword/lance/axe/bow/tome/stone/claw/breath) [blank/? unknown; cancel stops]: Damage type (physical/magical) [blank/? unknown; cancel stops]: Actual weapon required rank (E/D/C/B/A), separate from unit proficiency [blank/? unknown; cancel stops]: Actual weapon might hit crit (including forge) [blank/? unknown; cancel stops]: Actual weapon range, e.g. 1 or 1-2 [blank/? unknown; cancel stops]: Exact weapon effect; none confirms no special effect [blank/? unknown; cancel stops]: Two consecutive attacks: yes/no [blank/? unknown; cancel stops]: Weapon effectiveness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: defender Observed weapon rank (E/D/C/B/A) [blank/? unknown; cancel stops]: defender All equipped skill IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: defender All innate weakness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: defender Terrain def res avoid; none confirms no bonuses [blank/? unknown; cancel stops]: defender Combat bonuses hit avoid crit crit_avoid attack; none confirms no bonuses [blank/? unknown; cancel stops]: defender Observed remaining weapon uses (explicit 0 if unequipped) [blank/? unknown; cancel stops]: Actual attack distance [blank/? unknown; cancel stops]: Confirm ALL observations current and complete, including effects/support: yes/no [blank/? unknown; cancel stops]: NO_MODELED_DEATH_IN_THIS_DUEL: attacker death probability=0, defender death probability=0
+Supplied duel only; no whole-map survival guarantee.
+
+
+CASE: partial collection 
+DIRECT: observed_input.py [] 
+STDIN: '2\n\nHard\nClassic\neffective_displayed\nnone\nnone\n40 10 ? 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\nnone\nnone\nnone\nnone\n50\n40 10 ? 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\nnone\nnone\nnone\nnone\n50\n1\nyes\n' 
+EXIT: 0 
+STDOUT: {
+  "difficulty": "Hard",
+  "mode": "Classic",
+  "stats_basis": "effective_displayed",
+  "support_state": "none",
+  "partners": [],
+  "attacker": {
+    "stats": {
+      "hp": 40,
+      "str": 10,
+      "mag": null,
+      "skl": 0,
+      "spd": 10,
+      "lck": 0,
+      "def": 5,
+      "res": 5
+    },
+    "current_hp": 40,
+    "weapon": {
+      "weapon_type": "sword",
+      "damage_type": "physical",
+      "rank": "E",
+      "might": 5,
+      "hit": 100,
+      "crit": 0,
+      "range": "1",
+      "effect": "–",
+      "brave": false,
+      "effectiveness": []
+    },
+    "weapon_state": "equipped",
+    "weapon_rank": "E",
+    "skills": [],
+    "weaknesses": [],
+    "terrain": {},
+    "combat_bonuses": {},
+    "remaining_uses": 50
+  },
+  "defender": {
+    "stats": {
+      "hp": 40,
+      "str": 10,
+      "mag": null,
+      "skl": 0,
+      "spd": 10,
+      "lck": 0,
+      "def": 5,
+      "res": 5
+    },
+    "current_hp": 40,
+    "weapon": {
+      "weapon_type": "sword",
+      "damage_type": "physical",
+      "rank": "E",
+      "might": 5,
+      "hit": 100,
+      "crit": 0,
+      "range": "1",
+      "effect": "–",
+      "brave": false,
+      "effectiveness": []
+    },
+    "weapon_state": "equipped",
+    "weapon_rank": "E",
+    "skills": [],
+    "weaknesses": [],
+    "terrain": {},
+    "combat_bonuses": {},
+    "remaining_uses": 50
+  },
+  "context": {
+    "distance": 1
+  },
+  "observed_inputs_complete": false
+}
+ 
+DELEGATED STDERR: Observed duel only. Enter actual observations; no inferred defaults or bonus conversion.
+For an edited draft, type keep deliberately for each value; final confirmation is renewed.
+Difficulty (Normal/Hard/Lunatic/Lunatic+) [blank/? unknown; cancel stops]: Mode (Classic/Casual) [blank/? unknown; cancel stops]: Stats basis (effective_displayed/raw_permanent); include bonuses once [blank/? unknown; cancel stops]: Support on either side (none/adjacent/paired); none confirms both absent [blank/? unknown; cancel stops]: Observed partner IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker stats hp str mag skl spd lck def res [blank/? unknown; cancel stops]: attacker actual current HP (never defaults to max) [blank/? unknown; cancel stops]: Weapon: custom, catalog EXACT_NAME, unequipped (defender only) [blank/? unknown; cancel stops]: Weapon type (sword/lance/axe/bow/tome/stone/claw/breath) [blank/? unknown; cancel stops]: Damage type (physical/magical) [blank/? unknown; cancel stops]: Actual weapon required rank (E/D/C/B/A), separate from unit proficiency [blank/? unknown; cancel stops]: Actual weapon might hit crit (including forge) [blank/? unknown; cancel stops]: Actual weapon range, e.g. 1 or 1-2 [blank/? unknown; cancel stops]: Exact weapon effect; none confirms no special effect [blank/? unknown; cancel stops]: Two consecutive attacks: yes/no [blank/? unknown; cancel stops]: Weapon effectiveness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker Observed weapon rank (E/D/C/B/A) [blank/? unknown; cancel stops]: attacker All equipped skill IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker All innate weakness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker Terrain def res avoid; none confirms no bonuses [blank/? unknown; cancel stops]: attacker Combat bonuses hit avoid crit crit_avoid attack; none confirms no bonuses [blank/? unknown; cancel stops]: attacker Observed remaining weapon uses (explicit 0 if unequipped) [blank/? unknown; cancel stops]: defender stats hp str mag skl spd lck def res [blank/? unknown; cancel stops]: defender actual current HP (never defaults to max) [blank/? unknown; cancel stops]: Weapon: custom, catalog EXACT_NAME, unequipped (defender only) [blank/? unknown; cancel stops]: Weapon type (sword/lance/axe/bow/tome/stone/claw/breath) [blank/? unknown; cancel stops]: Damage type (physical/magical) [blank/? unknown; cancel stops]: Actual weapon required rank (E/D/C/B/A), separate from unit proficiency [blank/? unknown; cancel stops]: Actual weapon might hit crit (including forge) [blank/? unknown; cancel stops]: Actual weapon range, e.g. 1 or 1-2 [blank/? unknown; cancel stops]: Exact weapon effect; none confirms no special effect [blank/? unknown; cancel stops]: Two consecutive attacks: yes/no [blank/? unknown; cancel stops]: Weapon effectiveness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: defender Observed weapon rank (E/D/C/B/A) [blank/? unknown; cancel stops]: defender All equipped skill IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: defender All innate weakness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: defender Terrain def res avoid; none confirms no bonuses [blank/? unknown; cancel stops]: defender Combat bonuses hit avoid crit crit_avoid attack; none confirms no bonuses [blank/? unknown; cancel stops]: defender Observed remaining weapon uses (explicit 0 if unequipped) [blank/? unknown; cancel stops]: Actual attack distance [blank/? unknown; cancel stops]: Confirm ALL observations current and complete, including effects/support: yes/no [blank/? unknown; cancel stops]: Incomplete/invalid observations remain; completeness is false.
+UNKNOWN: Observed stats, equipment/forge, skills, weaknesses and support completeness must be confirmed
+Supplied duel only; no whole-map survival guarantee.
+
+
+CASE: unsupported Counter 
+DIRECT: observed_input.py [] 
+STDIN: '2\n\nHard\nClassic\neffective_displayed\nnone\nnone\n40 10 10 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\ncounter\nnone\nnone\nnone\n50\n40 10 10 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\ncounter\nnone\nnone\nnone\n50\n1\nyes\n' 
+EXIT: 0 
+STDOUT: {
+  "difficulty": "Hard",
+  "mode": "Classic",
+  "stats_basis": "effective_displayed",
+  "support_state": "none",
+  "partners": [],
+  "attacker": {
+    "stats": {
+      "hp": 40,
+      "str": 10,
+      "mag": 10,
+      "skl": 0,
+      "spd": 10,
+      "lck": 0,
+      "def": 5,
+      "res": 5
+    },
+    "current_hp": 40,
+    "weapon": {
+      "weapon_type": "sword",
+      "damage_type": "physical",
+      "rank": "E",
+      "might": 5,
+      "hit": 100,
+      "crit": 0,
+      "range": "1",
+      "effect": "–",
+      "brave": false,
+      "effectiveness": []
+    },
+    "weapon_state": "equipped",
+    "weapon_rank": "E",
+    "skills": [
+      "counter"
+    ],
+    "weaknesses": [],
+    "terrain": {},
+    "combat_bonuses": {},
+    "remaining_uses": 50
+  },
+  "defender": {
+    "stats": {
+      "hp": 40,
+      "str": 10,
+      "mag": 10,
+      "skl": 0,
+      "spd": 10,
+      "lck": 0,
+      "def": 5,
+      "res": 5
+    },
+    "current_hp": 40,
+    "weapon": {
+      "weapon_type": "sword",
+      "damage_type": "physical",
+      "rank": "E",
+      "might": 5,
+      "hit": 100,
+      "crit": 0,
+      "range": "1",
+      "effect": "–",
+      "brave": false,
+      "effectiveness": []
+    },
+    "weapon_state": "equipped",
+    "weapon_rank": "E",
+    "skills": [
+      "counter"
+    ],
+    "weaknesses": [],
+    "terrain": {},
+    "combat_bonuses": {},
+    "remaining_uses": 50
+  },
+  "context": {
+    "distance": 1
+  },
+  "observed_inputs_complete": true
+}
+ 
+DELEGATED STDERR: ok
+test_edit_assessment_sequence_and_sources_unchanged (test_play_entry.PlayEntryTests) ... Observed duel only. Enter actual observations; no inferred defaults or bonus conversion.
+For an edited draft, type keep deliberately for each value; final confirmation is renewed.
+Difficulty (Normal/Hard/Lunatic/Lunatic+) [blank/? unknown; cancel stops]: Mode (Classic/Casual) [blank/? unknown; cancel stops]: Stats basis (effective_displayed/raw_permanent); include bonuses once [blank/? unknown; cancel stops]: Support on either side (none/adjacent/paired); none confirms both absent [blank/? unknown; cancel stops]: Observed partner IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker stats hp str mag skl spd lck def res [blank/? unknown; cancel stops]: attacker actual current HP (never defaults to max) [blank/? unknown; cancel stops]: Weapon: custom, catalog EXACT_NAME, unequipped (defender only) [blank/? unknown; cancel stops]: Weapon type (sword/lance/axe/bow/tome/stone/claw/breath) [blank/? unknown; cancel stops]: Damage type (physical/magical) [blank/? unknown; cancel stops]: Actual weapon required rank (E/D/C/B/A), separate from unit proficiency [blank/? unknown; cancel stops]: Actual weapon might hit crit (including forge) [blank/? unknown; cancel stops]: Actual weapon range, e.g. 1 or 1-2 [blank/? unknown; cancel stops]: Exact weapon effect; none confirms no special effect [blank/? unknown; cancel stops]: Two consecutive attacks: yes/no [blank/? unknown; cancel stops]: Weapon effectiveness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker Observed weapon rank (E/D/C/B/A) [blank/? unknown; cancel stops]: attacker All equipped skill IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker All innate weakness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker Terrain def res avoid; none confirms no bonuses [blank/? unknown; cancel stops]: attacker Combat bonuses hit avoid crit crit_avoid attack; none confirms no bonuses [blank/? unknown; cancel stops]: attacker Observed remaining weapon uses (explicit 0 if unequipped) [blank/? unknown; cancel stops]: defender stats hp str mag skl spd lck def res [blank/? unknown; cancel stops]: defender actual current HP (never defaults to max) [blank/? unknown; cancel stops]: Weapon: custom, catalog EXACT_NAME, unequipped (defender only) [blank/? unknown; cancel stops]: Weapon type (sword/lance/axe/bow/tome/stone/claw/breath) [blank/? unknown; cancel stops]: Damage type (physical/magical) [blank/? unknown; cancel stops]: Actual weapon required rank (E/D/C/B/A), separate from unit proficiency [blank/? unknown; cancel stops]: Actual weapon might hit crit (including forge) [blank/? unknown; cancel stops]: Actual weapon range, e.g. 1 or 1-2 [blank/? unknown; cancel stops]: Exact weapon effect; none confirms no special effect [blank/? unknown; cancel stops]: Two consecutive attacks: yes/no [blank/? unknown; cancel stops]: Weapon effectiveness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: defender Observed weapon rank (E/D/C/B/A) [blank/? unknown; cancel stops]: defender All equipped skill IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: defender All innate weakness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: defender Terrain def res avoid; none confirms no bonuses [blank/? unknown; cancel stops]: defender Combat bonuses hit avoid crit crit_avoid attack; none confirms no bonuses [blank/? unknown; cancel stops]: defender Observed remaining weapon uses (explicit 0 if unequipped) [blank/? unknown; cancel stops]: Actual attack distance [blank/? unknown; cancel stops]: Confirm ALL observations current and complete, including effects/support: yes/no [blank/? unknown; cancel stops]: UNKNOWN: attacker:skills: Unsupported combat skills: counter
+Supplied duel only; no whole-map survival guarantee.
+
+
+CASE: paired collection 
+DIRECT: observed_input.py [] 
+STDIN: '2\n\nHard\nClassic\neffective_displayed\npaired\nobserved_partner\n40 10 10 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\nnone\nnone\nnone\nnone\n50\n40 10 10 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\nnone\nnone\nnone\nnone\n50\n1\nyes\n' 
+EXIT: 0 
+STDOUT: {
+  "difficulty": "Hard",
+  "mode": "Classic",
+  "stats_basis": "effective_displayed",
+  "support_state": "paired",
+  "partners": [
+    "observed_partner"
+  ],
+  "attacker": {
+    "stats": {
+      "hp": 40,
+      "str": 10,
+      "mag": 10,
+      "skl": 0,
+      "spd": 10,
+      "lck": 0,
+      "def": 5,
+      "res": 5
+    },
+    "current_hp": 40,
+    "weapon": {
+      "weapon_type": "sword",
+      "damage_type": "physical",
+      "rank": "E",
+      "might": 5,
+      "hit": 100,
+      "crit": 0,
+      "range": "1",
+      "effect": "–",
+      "brave": false,
+      "effectiveness": []
+    },
+    "weapon_state": "equipped",
+    "weapon_rank": "E",
+    "skills": [],
+    "weaknesses": [],
+    "terrain": {},
+    "combat_bonuses": {},
+    "remaining_uses": 50
+  },
+  "defender": {
+    "stats": {
+      "hp": 40,
+      "str": 10,
+      "mag": 10,
+      "skl": 0,
+      "spd": 10,
+      "lck": 0,
+      "def": 5,
+      "res": 5
+    },
+    "current_hp": 40,
+    "weapon": {
+      "weapon_type": "sword",
+      "damage_type": "physical",
+      "rank": "E",
+      "might": 5,
+      "hit": 100,
+      "crit": 0,
+      "range": "1",
+      "effect": "–",
+      "brave": false,
+      "effectiveness": []
+    },
+    "weapon_state": "equipped",
+    "weapon_rank": "E",
+    "skills": [],
+    "weaknesses": [],
+    "terrain": {},
+    "combat_bonuses": {},
+    "remaining_uses": 50
+  },
+  "context": {
+    "distance": 1
+  },
+  "observed_inputs_complete": true
+}
+ 
+DELEGATED STDERR: Observed duel only. Enter actual observations; no inferred defaults or bonus conversion.
+For an edited draft, type keep deliberately for each value; final confirmation is renewed.
+Difficulty (Normal/Hard/Lunatic/Lunatic+) [blank/? unknown; cancel stops]: Mode (Classic/Casual) [blank/? unknown; cancel stops]: Stats basis (effective_displayed/raw_permanent); include bonuses once [blank/? unknown; cancel stops]: Support on either side (none/adjacent/paired); none confirms both absent [blank/? unknown; cancel stops]: Observed partner IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker stats hp str mag skl spd lck def res [blank/? unknown; cancel stops]: attacker actual current HP (never defaults to max) [blank/? unknown; cancel stops]: Weapon: custom, catalog EXACT_NAME, unequipped (defender only) [blank/? unknown; cancel stops]: Weapon type (sword/lance/axe/bow/tome/stone/claw/breath) [blank/? unknown; cancel stops]: Damage type (physical/magical) [blank/? unknown; cancel stops]: Actual weapon required rank (E/D/C/B/A), separate from unit proficiency [blank/? unknown; cancel stops]: Actual weapon might hit crit (including forge) [blank/? unknown; cancel stops]: Actual weapon range, e.g. 1 or 1-2 [blank/? unknown; cancel stops]: Exact weapon effect; none confirms no special effect [blank/? unknown; cancel stops]: Two consecutive attacks: yes/no [blank/? unknown; cancel stops]: Weapon effectiveness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker Observed weapon rank (E/D/C/B/A) [blank/? unknown; cancel stops]: attacker All equipped skill IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker All innate weakness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker Terrain def res avoid; none confirms no bonuses [blank/? unknown; cancel stops]: attacker Combat bonuses hit avoid crit crit_avoid attack; none confirms no bonuses [blank/? unknown; cancel stops]: attacker Observed remaining weapon uses (explicit 0 if unequipped) [blank/? unknown; cancel stops]: defender stats hp str mag skl spd lck def res [blank/? unknown; cancel stops]: defender actual current HP (never defaults to max) [blank/? unknown; cancel stops]: Weapon: custom, catalog EXACT_NAME, unequipped (defender only) [blank/? unknown; cancel stops]: Weapon type (sword/lance/axe/bow/tome/stone/claw/breath) [blank/? unknown; cancel stops]: Damage type (physical/magical) [blank/? unknown; cancel stops]: Actual weapon required rank (E/D/C/B/A), separate from unit proficiency [blank/? unknown; cancel stops]: Actual weapon might hit crit (including forge) [blank/? unknown; cancel stops]: Actual weapon range, e.g. 1 or 1-2 [blank/? unknown; cancel stops]: Exact weapon effect; none confirms no special effect [blank/? unknown; cancel stops]: Two consecutive attacks: yes/no [blank/? unknown; cancel stops]: Weapon effectiveness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: defender Observed weapon rank (E/D/C/B/A) [blank/? unknown; cancel stops]: defender All equipped skill IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: defender All innate weakness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: defender Terrain def res avoid; none confirms no bonuses [blank/? unknown; cancel stops]: defender Combat bonuses hit avoid crit crit_avoid attack; none confirms no bonuses [blank/? unknown; cancel stops]: defender Observed remaining weapon uses (explicit 0 if unequipped) [blank/? unknown; cancel stops]: Actual attack distance [blank/? unknown; cancel stops]: Confirm ALL observations current and complete, including effects/support: yes/no [blank/? unknown; cancel stops]: UNKNOWN: Full paired/adjacent Dual Strike and Dual Guard outcome is unsupported; use pair_up/paired_forecast for supported bonuses and rates.
+Supplied duel only; no whole-map survival guarantee.
+
+
+CASE: collector cancellation 
+DIRECT: observed_input.py [] 
+STDIN: '2\n\ncancel\n' 
+EXIT: 1 
+STDOUT:  
+DELEGATED STDERR: Observed duel only. Enter actual observations; no inferred defaults or bonus conversion.
+For an edited draft, type keep deliberately for each value; final confirmation is renewed.
+Difficulty (Normal/Hard/Lunatic/Lunatic+) [blank/? unknown; cancel stops]: Cancelled; no observation payload or file created.
+
+
+CASE: collector EOF 
+DIRECT: observed_input.py [] 
+STDIN: '2\n\nHard\n' 
+EXIT: 1 
+STDOUT:  
+DELEGATED STDERR: Observed duel only. Enter actual observations; no inferred defaults or bonus conversion.
+For an edited draft, type keep deliberately for each value; final confirmation is renewed.
+Difficulty (Normal/Hard/Lunatic/Lunatic+) [blank/? unknown; cancel stops]: Mode (Classic/Casual) [blank/? unknown; cancel stops]: Cancelled; no observation payload or file created.
+
+
+CASE: protected output 
+DIRECT: observed_input.py ['--output', 'state/current_run.json'] 
+STDIN: '2\nstate/current_run.json\nHard\nClassic\neffective_displayed\nnone\nnone\n40 10 10 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\nnone\nnone\nnone\nnone\n50\n40 10 10 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\nnone\nnone\nnone\nnone\n50\n1\nyes\n' 
+EXIT: 2 
+STDOUT:  
+DELEGATED STDERR: Observed duel only. Enter actual observations; no inferred defaults or bonus conversion.
+For an edited draft, type keep deliberately for each value; final confirmation is renewed.
+Difficulty (Normal/Hard/Lunatic/Lunatic+) [blank/? unknown; cancel stops]: Mode (Classic/Casual) [blank/? unknown; cancel stops]: Stats basis (effective_displayed/raw_permanent); include bonuses once [blank/? unknown; cancel stops]: Support on either side (none/adjacent/paired); none confirms both absent [blank/? unknown; cancel stops]: Observed partner IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker stats hp str mag skl spd lck def res [blank/? unknown; cancel stops]: attacker actual current HP (never defaults to max) [blank/? unknown; cancel stops]: Weapon: custom, catalog EXACT_NAME, unequipped (defender only) [blank/? unknown; cancel stops]: Weapon type (sword/lance/axe/bow/tome/stone/claw/breath) [blank/? unknown; cancel stops]: Damage type (physical/magical) [blank/? unknown; cancel stops]: Actual weapon required rank (E/D/C/B/A), separate from unit proficiency [blank/? unknown; cancel stops]: Actual weapon might hit crit (including forge) [blank/? unknown; cancel stops]: Actual weapon range, e.g. 1 or 1-2 [blank/? unknown; cancel stops]: Exact weapon effect; none confirms no special effect [blank/? unknown; cancel stops]: Two consecutive attacks: yes/no [blank/? unknown; cancel stops]: Weapon effectiveness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker Observed weapon rank (E/D/C/B/A) [blank/? unknown; cancel stops]: attacker All equipped skill IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker All innate weakness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker Terrain def res avoid; none confirms no bonuses [blank/? unknown; cancel stops]: attacker Combat bonuses hit avoid crit crit_avoid attack; none confirms no bonuses [blank/? unknown; cancel stops]: attacker Observed remaining weapon uses (explicit 0 if unequipped) [blank/? unknown; cancel stops]: defender stats hp str mag skl spd lck def res [blank/? unknown; cancel stops]: defender actual current HP (never defaults to max) [blank/? unknown; cancel stops]: Weapon: custom, catalog EXACT_NAME, unequipped (defender only) [blank/? unknown; cancel stops]: Weapon type (sword/lance/axe/bow/tome/stone/claw/breath) [blank/? unknown; cancel stops]: Damage type (physical/magical) [blank/? unknown; cancel stops]: Actual weapon required rank (E/D/C/B/A), separate from unit proficiency [blank/? unknown; cancel stops]: Actual weapon might hit crit (including forge) [blank/? unknown; cancel stops]: Actual weapon range, e.g. 1 or 1-2 [blank/? unknown; cancel stops]: Exact weapon effect; none confirms no special effect [blank/? unknown; cancel stops]: Two consecutive attacks: yes/no [blank/? unknown; cancel stops]: Weapon effectiveness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: defender Observed weapon rank (E/D/C/B/A) [blank/? unknown; cancel stops]: defender All equipped skill IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: defender All innate weakness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: defender Terrain def res avoid; none confirms no bonuses [blank/? unknown; cancel stops]: defender Combat bonuses hit avoid crit crit_avoid attack; none confirms no bonuses [blank/? unknown; cancel stops]: defender Observed remaining weapon uses (explicit 0 if unequipped) [blank/? unknown; cancel stops]: Actual attack distance [blank/? unknown; cancel stops]: Confirm ALL observations current and complete, including effects/support: yes/no [blank/? unknown; cancel stops]: Refused: Output must be inside this checkout state/observations.
+
+
+CASE: edit confirmation 'yes' 
+DIRECT: observed_input.py ['--edit', '/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/custom.json'] 
+STDIN: '3\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/custom.json\n\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nyes\n' 
+EXIT: 0 
+STDOUT: {
+  "difficulty": "Hard",
+  "mode": "Classic",
+  "stats_basis": "effective_displayed",
+  "support_state": "none",
+  "partners": [],
+  "attacker": {
+    "stats": {
+      "hp": 40,
+      "str": 10,
+      "mag": 10,
+      "skl": 0,
+      "spd": 10,
+      "lck": 0,
+      "def": 5,
+      "res": 5
+    },
+    "current_hp": 40,
+    "weapon": {
+      "weapon_type": "sword",
+      "damage_type": "physical",
+      "rank": "E",
+      "might": 5,
+      "hit": 100,
+      "crit": 0,
+      "range": "1",
+      "effect": "–",
+      "brave": false,
+      "effectiveness": []
+    },
+    "weapon_state": "equipped",
+    "weapon_rank": "E",
+    "skills": [],
+    "weaknesses": [],
+    "terrain": {},
+    "combat_bonuses": {},
+    "remaining_uses": 50
+  },
+  "defender": {
+    "stats": {
+      "hp": 40,
+      "str": 10,
+      "mag": 10,
+      "skl": 0,
+      "spd": 10,
+      "lck": 0,
+      "def": 5,
+      "res": 5
+    },
+    "current_hp": 40,
+    "weapon": {
+      "weapon_type": "sword",
+      "damage_type": "physical",
+      "rank": "E",
+      "might": 5,
+      "hit": 100,
+      "crit": 0,
+      "range": "1",
+      "effect": "–",
+      "brave": false,
+      "effectiveness": []
+    },
+    "weapon_state": "equipped",
+    "weapon_rank": "E",
+    "skills": [],
+    "weaknesses": [],
+    "terrain": {},
+    "combat_bonuses": {},
+    "remaining_uses": 50
+  },
+  "context": {
+    "distance": 1
+  },
+  "observed_inputs_complete": true
+}
+ 
+DELEGATED STDERR: Observed duel only. Enter actual observations; no inferred defaults or bonus conversion.
+For an edited draft, type keep deliberately for each value; final confirmation is renewed.
+Difficulty (Normal/Hard/Lunatic/Lunatic+); keep="Hard" [blank/? unknown; cancel stops]: Mode (Classic/Casual); keep="Classic" [blank/? unknown; cancel stops]: Stats basis (effective_displayed/raw_permanent); include bonuses once; keep="effective_displayed" [blank/? unknown; cancel stops]: Support on either side (none/adjacent/paired); none confirms both absent; keep="none" [blank/? unknown; cancel stops]: Observed partner IDs, comma-separated; none confirms empty; keep=[] [blank/? unknown; cancel stops]: attacker stats hp str mag skl spd lck def res; keep={"hp": 40, "str": 10, "mag": 10, "skl": 0, "spd": 10, "lck": 0, "def": 5, "res": 5} [blank/? unknown; cancel stops]: attacker actual current HP (never defaults to max); keep=40 [blank/? unknown; cancel stops]: Weapon: custom, catalog EXACT_NAME, unequipped (defender only); keep={"weapon_type": "sword", "damage_type": "physical", "rank": "E", "might": 5, "hit": 100, "crit": 0, "range": "1", "effect": "–", "brave": false, "effectiveness": []} [blank/? unknown; cancel stops]: attacker supplied weapon_state (equipped/unequipped); keep="equipped" [blank/? unknown; cancel stops]: attacker Observed weapon rank (E/D/C/B/A); keep="E" [blank/? unknown; cancel stops]: attacker All equipped skill IDs, comma-separated; none confirms empty; keep=[] [blank/? unknown; cancel stops]: attacker All innate weakness IDs, comma-separated; none confirms empty; keep=[] [blank/? unknown; cancel stops]: attacker Terrain def res avoid; none confirms no bonuses; keep={} [blank/? unknown; cancel stops]: attacker Combat bonuses hit avoid crit crit_avoid attack; none confirms no bonuses; keep={} [blank/? unknown; cancel stops]: attacker Observed remaining weapon uses (explicit 0 if unequipped); keep=50 [blank/? unknown; cancel stops]: defender stats hp str mag skl spd lck def res; keep={"hp": 40, "str": 10, "mag": 10, "skl": 0, "spd": 10, "lck": 0, "def": 5, "res": 5} [blank/? unknown; cancel stops]: defender actual current HP (never defaults to max); keep=40 [blank/? unknown; cancel stops]: Weapon: custom, catalog EXACT_NAME, unequipped (defender only); keep={"weapon_type": "sword", "damage_type": "physical", "rank": "E", "might": 5, "hit": 100, "crit": 0, "range": "1", "effect": "–", "brave": false, "effectiveness": []} [blank/? unknown; cancel stops]: defender supplied weapon_state (equipped/unequipped); keep="equipped" [blank/? unknown; cancel stops]: defender Observed weapon rank (E/D/C/B/A); keep="E" [blank/? unknown; cancel stops]: defender All equipped skill IDs, comma-separated; none confirms empty; keep=[] [blank/? unknown; cancel stops]: defender All innate weakness IDs, comma-separated; none confirms empty; keep=[] [blank/? unknown; cancel stops]: defender Terrain def res avoid; none confirms no bonuses; keep={} [blank/? unknown; cancel stops]: defender Combat bonuses hit avoid crit crit_avoid attack; none confirms no bonuses; keep={} [blank/? unknown; cancel stops]: defender Observed remaining weapon uses (explicit 0 if unequipped); keep=50 [blank/? unknown; cancel stops]: Actual attack distance; keep=1 [blank/? unknown; cancel stops]: Confirm ALL observations current and complete, including effects/support: yes/no [blank/? unknown; cancel stops]: NO_MODELED_DEATH_IN_THIS_DUEL: attacker death probability=0, defender death probability=0
+Supplied duel only; no whole-map survival guarantee.
+
+
+CASE: edit confirmation '' 
+DIRECT: observed_input.py ['--edit', '/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/custom.json'] 
+STDIN: '3\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/custom.json\n\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\n\n' 
+EXIT: 0 
+STDOUT: {
+  "difficulty": "Hard",
+  "mode": "Classic",
+  "stats_basis": "effective_displayed",
+  "support_state": "none",
+  "partners": [],
+  "attacker": {
+    "stats": {
+      "hp": 40,
+      "str": 10,
+      "mag": 10,
+      "skl": 0,
+      "spd": 10,
+      "lck": 0,
+      "def": 5,
+      "res": 5
+    },
+    "current_hp": 40,
+    "weapon": {
+      "weapon_type": "sword",
+      "damage_type": "physical",
+      "rank": "E",
+      "might": 5,
+      "hit": 100,
+      "crit": 0,
+      "range": "1",
+      "effect": "–",
+      "brave": false,
+      "effectiveness": []
+    },
+    "weapon_state": "equipped",
+    "weapon_rank": "E",
+    "skills": [],
+    "weaknesses": [],
+    "terrain": {},
+    "combat_bonuses": {},
+    "remaining_uses": 50
+  },
+  "defender": {
+    "stats": {
+      "hp": 40,
+      "str": 10,
+      "mag": 10,
+      "skl": 0,
+      "spd": 10,
+      "lck": 0,
+      "def": 5,
+      "res": 5
+    },
+    "current_hp": 40,
+    "weapon": {
+      "weapon_type": "sword",
+      "damage_type": "physical",
+      "rank": "E",
+      "might": 5,
+      "hit": 100,
+      "crit": 0,
+      "range": "1",
+      "effect": "–",
+      "brave": false,
+      "effectiveness": []
+    },
+    "weapon_state": "equipped",
+    "weapon_rank": "E",
+    "skills": [],
+    "weaknesses": [],
+    "terrain": {},
+    "combat_bonuses": {},
+    "remaining_uses": 50
+  },
+  "context": {
+    "distance": 1
+  },
+  "observed_inputs_complete": false
+}
+ 
+DELEGATED STDERR: ok
+test_isolated_public_saving_and_run_alias_boundaries (test_play_entry.PlayEntryTests) ... ok
+test_map_views_phase_spoilers_and_refusal (test_play_entry.PlayEntryTests) ... Observed duel only. Enter actual observations; no inferred defaults or bonus conversion.
+For an edited draft, type keep deliberately for each value; final confirmation is renewed.
+Difficulty (Normal/Hard/Lunatic/Lunatic+); keep="Hard" [blank/? unknown; cancel stops]: Mode (Classic/Casual); keep="Classic" [blank/? unknown; cancel stops]: Stats basis (effective_displayed/raw_permanent); include bonuses once; keep="effective_displayed" [blank/? unknown; cancel stops]: Support on either side (none/adjacent/paired); none confirms both absent; keep="none" [blank/? unknown; cancel stops]: Observed partner IDs, comma-separated; none confirms empty; keep=[] [blank/? unknown; cancel stops]: attacker stats hp str mag skl spd lck def res; keep={"hp": 40, "str": 10, "mag": 10, "skl": 0, "spd": 10, "lck": 0, "def": 5, "res": 5} [blank/? unknown; cancel stops]: attacker actual current HP (never defaults to max); keep=40 [blank/? unknown; cancel stops]: Weapon: custom, catalog EXACT_NAME, unequipped (defender only); keep={"weapon_type": "sword", "damage_type": "physical", "rank": "E", "might": 5, "hit": 100, "crit": 0, "range": "1", "effect": "–", "brave": false, "effectiveness": []} [blank/? unknown; cancel stops]: attacker supplied weapon_state (equipped/unequipped); keep="equipped" [blank/? unknown; cancel stops]: attacker Observed weapon rank (E/D/C/B/A); keep="E" [blank/? unknown; cancel stops]: attacker All equipped skill IDs, comma-separated; none confirms empty; keep=[] [blank/? unknown; cancel stops]: attacker All innate weakness IDs, comma-separated; none confirms empty; keep=[] [blank/? unknown; cancel stops]: attacker Terrain def res avoid; none confirms no bonuses; keep={} [blank/? unknown; cancel stops]: attacker Combat bonuses hit avoid crit crit_avoid attack; none confirms no bonuses; keep={} [blank/? unknown; cancel stops]: attacker Observed remaining weapon uses (explicit 0 if unequipped); keep=50 [blank/? unknown; cancel stops]: defender stats hp str mag skl spd lck def res; keep={"hp": 40, "str": 10, "mag": 10, "skl": 0, "spd": 10, "lck": 0, "def": 5, "res": 5} [blank/? unknown; cancel stops]: defender actual current HP (never defaults to max); keep=40 [blank/? unknown; cancel stops]: Weapon: custom, catalog EXACT_NAME, unequipped (defender only); keep={"weapon_type": "sword", "damage_type": "physical", "rank": "E", "might": 5, "hit": 100, "crit": 0, "range": "1", "effect": "–", "brave": false, "effectiveness": []} [blank/? unknown; cancel stops]: defender supplied weapon_state (equipped/unequipped); keep="equipped" [blank/? unknown; cancel stops]: defender Observed weapon rank (E/D/C/B/A); keep="E" [blank/? unknown; cancel stops]: defender All equipped skill IDs, comma-separated; none confirms empty; keep=[] [blank/? unknown; cancel stops]: defender All innate weakness IDs, comma-separated; none confirms empty; keep=[] [blank/? unknown; cancel stops]: defender Terrain def res avoid; none confirms no bonuses; keep={} [blank/? unknown; cancel stops]: defender Combat bonuses hit avoid crit crit_avoid attack; none confirms no bonuses; keep={} [blank/? unknown; cancel stops]: defender Observed remaining weapon uses (explicit 0 if unequipped); keep=50 [blank/? unknown; cancel stops]: Actual attack distance; keep=1 [blank/? unknown; cancel stops]: Confirm ALL observations current and complete, including effects/support: yes/no [blank/? unknown; cancel stops]: UNKNOWN: Observed stats, equipment/forge, skills, weaknesses and support completeness must be confirmed
+Supplied duel only; no whole-map survival guarantee.
+
+
+CASE: guided sequence 
+DIRECT: sequence_input.py [] 
+STDIN: '4\n\nsynthetic_player\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/0.json\nsynthetic_enemy_1\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/1.json\nsynthetic_enemy_2\n\nyes\nyes\nyes\n' 
+EXIT: 0 
+STDOUT: {
+  "difficulty": "Hard",
+  "mode": "Classic",
+  "stats_basis": "effective_displayed",
+  "support_state": "none",
+  "partners": [],
+  "observed_inputs_complete": true,
+  "player_id": "synthetic_player",
+  "player": {
+    "stats": {
+      "hp": 30,
+      "str": 10,
+      "mag": 5,
+      "skl": 10,
+      "spd": 15,
+      "lck": 5,
+      "def": 7,
+      "res": 4
+    },
+    "current_hp": 30,
+    "weapon": "iron_sword",
+    "weapon_rank": "D",
+    "skills": [],
+    "weaknesses": [],
+    "terrain": {},
+    "combat_bonuses": {},
+    "remaining_uses": 10
+  },
+  "enemies": [
+    {
+      "id": "synthetic_enemy_1",
+      "unit": {
+        "stats": {
+          "hp": 25,
+          "str": 10,
+          "mag": 0,
+          "skl": 8,
+          "spd": 10,
+          "lck": 2,
+          "def": 5,
+          "res": 1
+        },
+        "current_hp": 25,
+        "weapon": "iron_axe",
+        "weapon_rank": "D",
+        "skills": [],
+        "weaknesses": [],
+        "terrain": {},
+        "combat_bonuses": {},
+        "remaining_uses": 10
+      },
+      "context": {
+        "distance": 1
+      }
+    },
+    {
+      "id": "synthetic_enemy_2",
+      "unit": {
+        "stats": {
+          "hp": 25,
+          "str": 10,
+          "mag": 0,
+          "skl": 8,
+          "spd": 10,
+          "lck": 2,
+          "def": 5,
+          "res": 1
+        },
+        "current_hp": 25,
+        "weapon": "iron_axe",
+        "weapon_rank": "D",
+        "skills": [],
+        "weaknesses": [],
+        "terrain": {},
+        "combat_bonuses": {},
+        "remaining_uses": 10
+      },
+      "context": {
+        "distance": 1
+      }
+    }
+  ]
+}
+ 
+DELEGATED STDERR: Attacker = distinct enemy; defender = same player. Type cancel to stop. Never rename a repeated entity to obtain numbers.
+Player entity ID: Next plain duel JSON path (blank finishes ordered list): Distinct observed enemy entity ID: Next plain duel JSON path (blank finishes ordered list): Distinct observed enemy entity ID: Next plain duel JSON path (blank finishes ordered list): Supplied order: synthetic_enemy_1 -> synthetic_enemy_2
+Confirm this exact supplied attack order? (yes/no) Confirm all supplied observations are complete and still unchanged? (yes/no) Confirm no healing, levels, equipment/skill swaps or other events intervene? (yes/no) NO_MODELED_PLAYER_DEATH_IN_THIS_SEQUENCE; supplied sequence only; no map survival guarantee.
+
+
+CASE: sequence cancellation 
+DIRECT: sequence_input.py [] 
+STDIN: '4\n\nsynthetic_player\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/0.json\nsynthetic_enemy_1\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/1.json\nsynthetic_enemy_2\n\nyes\nyes\ncancel\n' 
+EXIT: 2 
+STDOUT:  
+DELEGATED STDERR: Attacker = distinct enemy; defender = same player. Type cancel to stop. Never rename a repeated entity to obtain numbers.
+Player entity ID: Next plain duel JSON path (blank finishes ordered list): Distinct observed enemy entity ID: Next plain duel JSON path (blank finishes ordered list): Distinct observed enemy entity ID: Next plain duel JSON path (blank finishes ordered list): Supplied order: synthetic_enemy_1 -> synthetic_enemy_2
+Confirm this exact supplied attack order? (yes/no) Confirm all supplied observations are complete and still unchanged? (yes/no) Confirm no healing, levels, equipment/skill swaps or other events intervene? (yes/no) Cancelled; no sequence emitted or saved.
+
+
+CASE: assessment 5 
+DIRECT: tactical_combat.py ['/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/0.json'] 
+STDIN: '5\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/0.json\n' 
+EXIT: 0 
+STDOUT: {
+  "status": "POTENTIALLY_LETHAL",
+  "at_risk_sides": [
+    "attacker"
+  ],
+  "certain_death_sides": [],
+  "attacker_death_probability": 0.0591,
+  "defender_death_probability": 0,
+  "conditional_on_observed_inputs": true,
+  "safe_to_claim_map_survival": false,
+  "attacker_can_die": true,
+  "defender_can_die": false,
+  "worst_attacker_hp": 0,
+  "worst_defender_hp": 20,
+  "forecast": {
+    "scope": "Supported single duel; effective stats supplied; independent uniform RNG model",
+    "source_ids": [
+      "calculations",
+      "true_hit",
+      "p2_skills_game_descriptions_0"
+    ],
+    "attacker": {
+      "can_attack": true,
+      "attack_with_triangle": 17,
+      "defense_used": 7,
+      "displayed_attack": 17,
+      "damage": 10,
+      "damage_scope": "Nominal hit without offensive/defensive procs; full results are in outcome",
+      "critical_damage": 30,
+      "displayed_hit": 58,
+      "true_hit_probability": 0.6514,
+      "crit_raw_base": -1,
+      "crit_percent": 0,
+      "doubles": false,
+      "scheduled_hits": 1,
+      "effective": false,
+      "expected_damage_per_scheduled_hit": 6.513999999999999
+    },
+    "defender": {
+      "can_attack": true,
+      "attack_with_triangle": 15,
+      "defense_used": 5,
+      "displayed_attack": 15,
+      "damage": 10,
+      "damage_scope": "Nominal hit without offensive/defensive procs; full results are in outcome",
+      "critical_damage": 30,
+      "displayed_hit": 100,
+      "true_hit_probability": 1.0,
+      "crit_raw_base": 3,
+      "crit_percent": 3,
+      "doubles": true,
+      "scheduled_hits": 2,
+      "effective": false,
+      "expected_damage_per_scheduled_hit": 10.600000000000001
+    },
+    "outcome": {
+      "order": [
+        "a",
+        "b",
+        "b"
+      ],
+      "vantage_active": false,
+      "attacker_death_probability": 0.0591,
+      "defender_death_probability": 0,
+      "expected_attacker_hp": 4.7044999999999995,
+      "expected_defender_hp": 23.485999999999997,
+      "minimum_possible_attacker_hp": 0,
+      "minimum_possible_defender_hp": 20,
+      "maximum_possible_attacker_hp": 5,
+      "maximum_possible_defender_hp": 30,
+      "deterministic": false,
+      "states": [
+        {
+          "attacker_hp": 0,
+          "defender_hp": 20,
+          "probability": 0.038497739999999996
+        },
+        {
+          "attacker_hp": 0,
+          "defender_hp": 30,
+          "probability": 0.02060226
+        },
+        {
+          "attacker_hp": 5,
+          "defender_hp": 20,
+          "probability": 0.6129022599999999
+        },
+        {
+          "attacker_hp": 5,
+          "defender_hp": 30,
+          "probability": 0.32799774
+        }
+      ]
+    },
+    "lethal_risk": true,
+    "certainty": "probability_distribution",
+    "assumptions": [
+      "Effective displayed stats and weapon stats supplied; independent uniform random draws.",
+      "Possible outcomes include criticals and supported procs; expected HP is not a survival guarantee."
+    ]
+  },
+  "outcome": {
+    "order": [
+      "a",
+      "b",
+      "b"
+    ],
+    "vantage_active": false,
+    "attacker_death_probability": 0.0591,
+    "defender_death_probability": 0,
+    "expected_attacker_hp": 4.7044999999999995,
+    "expected_defender_hp": 23.485999999999997,
+    "minimum_possible_attacker_hp": 0,
+    "minimum_possible_defender_hp": 20,
+    "maximum_possible_attacker_hp": 5,
+    "maximum_possible_defender_hp": 30,
+    "deterministic": false,
+    "states": [
+      {
+        "attacker_hp": 0,
+        "defender_hp": 20,
+        "probability": 0.038497739999999996
+      },
+      {
+        "attacker_hp": 0,
+        "defender_hp": 30,
+        "probability": 0.02060226
+      },
+      {
+        "attacker_hp": 5,
+        "defender_hp": 20,
+        "probability": 0.6129022599999999
+      },
+      {
+        "attacker_hp": 5,
+        "defender_hp": 30,
+        "probability": 0.32799774
+      }
+    ]
+  },
+  "warning": "Supported duel only. Side names describe attack roles, not player/enemy allegiance. No prediction of AI order, unseen enemies, reinforcements or future movement. Expected HP is not a guarantee."
+}
+ 
+DELEGATED STDERR: 
+
+CASE: assessment 6 
+DIRECT: tactical_enemy_phase.py ['/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/sequence.json'] 
+STDIN: '6\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/sequence.json\n' 
+EXIT: 0 
+STDOUT: {
+  "status": "NO_MODELED_PLAYER_DEATH_IN_THIS_SEQUENCE",
+  "outcome": {
+    "final_hp_distribution": [
+      {
+        "hp": 10,
+        "probability": 0.42432195999999983
+      },
+      {
+        "hp": 20,
+        "probability": 0.4541560799999999
+      },
+      {
+        "hp": 30,
+        "probability": 0.12152195999999998
+      }
+    ],
+    "player_death_probability": 0.0,
+    "minimum_possible_player_hp": 10,
+    "expected_player_hp": 16.971999999999994,
+    "maximum_scheduled_retaliation_uses": 4,
+    "steps": [
+      {
+        "enemy_id": "synthetic_enemy_1",
+        "player_death_probability": 0.0,
+        "enemy_death_probability": 0.0591,
+        "minimum_possible_player_hp": 20,
+        "expected_player_hp": 23.485999999999997
+      },
+      {
+        "enemy_id": "synthetic_enemy_2",
+        "player_death_probability": 0.0,
+        "enemy_death_probability": 0.059099999999999986,
+        "minimum_possible_player_hp": 10,
+        "expected_player_hp": 16.971999999999994
+      }
+    ]
+  },
+  "conditional_on_observed_inputs": true,
+  "safe_to_claim_survival": false,
+  "safe_to_claim_map_survival": false,
+  "warning": "Only this supplied sequence of distinct observed attackers. Independent uniform RNG model; no AI order/targets/paths, unseen enemies, reinforcements, between-duel events, healing or weapon swaps. Zero modeled player death is conditional, never whole-map safety. Enemy death is reported per step."
+}
+ 
+DELEGATED STDERR: 
+
+CASE: partial assessment 
+DIRECT: tactical_combat.py ['/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/0.json'] 
+STDIN: '5\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/0.json\n' 
+EXIT: 0 
+STDOUT: {
+  "status": "UNKNOWN",
+  "missing": [
+    "Observed stats, equipment/forge, skills, weaknesses and support completeness must be confirmed"
+  ],
+  "safe_to_claim_survival": false,
+  "outcome": null
+}
+ 
+DELEGATED STDERR: 
+
+CASE: unsupported assessment 
+DIRECT: tactical_combat.py ['/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/0.json'] 
+STDIN: '5\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/0.json\n' 
+EXIT: 0 
+STDOUT: {
+  "status": "UNKNOWN",
+  "reason": "attacker:skills: Unsupported combat skills: counter",
+  "safe_to_claim_survival": false,
+  "outcome": null
+}
+ 
+DELEGATED STDERR: 
+
+CASE: map tactical 
+DIRECT: play_briefing.py ['--chapter', '7', '--difficulty', 'hard', '--turn', '5', '--phase', 'player', '--spoilers', 'Tactical spoilers'] 
+STDIN: '1\n7\nhard\n5\nplayer\n\n\n' 
+EXIT: 0 
+STDOUT: ok
+test_protected_run_aliases_before_open_and_wrong_kind (test_play_entry.PlayEntryTests) ... ok
+test_selection_eof_cancel_invalid_and_no_second_action (test_play_entry.PlayEntryTests) ... ok
+test_terminal_stream (test_play_entry.PlayEntryTests) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 2.921s
+
+OK
+chapter_7 | Hard / Classic
+Current: player phase 5 -> target: enemy phase 5
+Known facts are source-supported, not a complete threat map. Hard beginning-enemy-phase spawns can move/attack immediately. Never rely on enemy-phasing an unknown wave. Tactical view abridges other-map references; Full information retains the original reference.
+Map completeness: PARTIAL; complete schedule: no; move safety certified: no.
+Candidates are reports, not predictions that an event condition is satisfied.
+Arrival status: present; absence reasonably supported: no; absence certain: no
+Current-map facts, hazards and uncertainty:
+  [SUPPORTED] map / objective: Rout the enemy — Verify displayed objective before declaring completion.
+  [SUPPORTED] map / deployment: 11 — Includes Chrom; automatic arrivals additional. Without preparation: initial army size.
+  [SUPPORTED] map / bosses: name: Vasto; class_name: Wyvern Rider; level: 12; equipment_text: Steel Axe; equipment_stats: UNKNOWN — Exact stats/skills unknown; weapon names do not establish procs.
+  [SUPPORTED] hazards / 1: Flying enemies cross mountain/cliff barriers. Cordelia arrives from the west on turn 3.
+  [SUPPORTED] recruitment / cordelia: Automatically from Turn 3 — Recruit must survive for retention in Classic.
+  [UNKNOWN] map / starting_area: UNKNOWN — Starting tiles unknown; observe map.
+  [UNKNOWN] map / initial_enemies: UNKNOWN — Roster/positions/stats/forges/skills incomplete; observe enemies, never substitute Lunatic templates.
+  [UNKNOWN] map / shops: UNKNOWN — World-map shops separate; in-map shop/event inventory incomplete.
+  [UNKNOWN] schedule / Additional arrivals/events: UNKNOWN — Schedule incomplete; no fixed match is not no spawn. Conditional/unknown-time families remain possible.
+  [UNKNOWN] safety / Complete threat geometry: UNKNOWN — Positions/stats/equipment/skills/events incomplete; empty results or zero modeled risk do not certify a move.
+Candidate hard_chapter_7_t5 [SUPPORTED]; schedule completeness: UNKNOWN
+  [SUPPORTED] timing: kind: fixed; turns: 5; event: UNKNOWN; repeat: UNKNOWN — Turn/count/equipment single indexed Hard source; west corroborated. Schedule incomplete.
+  [SUPPORTED] location: Western map edge
+  [SUPPORTED] units: count: 3; class_id: wyvern_rider; equipment: steel_axe; level: 7; location: UNKNOWN — Only listed attributes supported; nulls UNKNOWN, never absent. Skills/exact forges unestablished.
+  [SUPPORTED] spawn_phase: beginning_enemy_phase — Rule applied conditionally; scripted exceptions not excluded.
+  [SUPPORTED] immediate_action: can_move: yes; can_attack: yes; can_kill_on_spawn: yes — VERIFIED rule, conditional application: ordinary EP-beginning arrivals act/kill immediately. Wave not independently observed; scripted phase/exceptions uncertain.
+  [UNKNOWN] coordinates: UNKNOWN
+  [UNKNOWN] skills: UNKNOWN
+  [UNKNOWN] suppression: UNKNOWN
+Use --provenance for claim source IDs; --details for the full spoiler-filtered query.
+ 
+DELEGATED STDERR: 
+
+CASE: map enemy phase details 
+DIRECT: play_briefing.py ['--chapter', '7', '--difficulty', 'hard', '--turn', '5', '--phase', 'enemy', '--spoilers', 'Tactical spoilers', '--details'] 
+STDIN: '1\n7\nhard\n5\nenemy\nTactical spoilers\ndetails\n' 
+EXIT: 0 
+STDOUT: {
+  "chapter_id": "chapter_7",
+  "difficulty": "Hard",
+  "mode": "Classic",
+  "current_turn": 5,
+  "current_phase": "enemy",
+  "target_enemy_phase_turn": 6,
+  "map_confidence": "PARTIAL",
+  "schedule_complete": false,
+  "safe_to_claim_move_safe": false,
+  "known_verified_supported": [
+    {
+      "kind": "map",
+      "label": "objective",
+      "value": "Rout the enemy",
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_08_0"
+      ],
+      "notes": "Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion."
+    },
+    {
+      "kind": "map",
+      "label": "deployment",
+      "value": 11,
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "p2_guide_08_0",
+        "p2_guide_scope"
+      ],
+      "notes": "Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size."
+    },
+    {
+      "kind": "map",
+      "label": "bosses",
+      "value": [
+        {
+          "name": "Vasto",
+          "class_name": "Wyvern Rider",
+          "level": 12,
+          "equipment_text": "Steel Axe",
+          "equipment_stats": "UNKNOWN"
+        }
+      ],
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "p2_guide_08_0"
+      ],
+      "notes": "Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills."
+    },
+    {
+      "kind": "hazards",
+      "label": "1",
+      "value": "Flying enemies cross mountain/cliff barriers. Cordelia arrives from the west on turn 3.",
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "p2_guide_08_0",
+        "p2_guide_scope"
+      ],
+      "notes": null
+    },
+    {
+      "kind": "recruitment",
+      "label": "cordelia",
+      "value": "Automatically from Turn 3",
+      "confidence": "SUPPORTED",
+      "source_ids": [
+        "recruitment",
+        "p2_guide_08_0"
+      ],
+      "notes": "Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic."
+    }
+  ],
+  "uncertain_partial_conflicted_unknown": [
+    {
+      "kind": "map",
+      "label": "starting_area",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [],
+      "notes": "Exact Hard starting tiles not established; consult observed map."
+    },
+    {
+      "kind": "map",
+      "label": "initial_enemies",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [],
+      "notes": "No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute."
+    },
+    {
+      "kind": "map",
+      "label": "shops",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [],
+      "notes": "World-map shops are separate; full in-map shop/event inventory not established."
+    },
+    {
+      "kind": "schedule",
+      "label": "Additional arrivals/events",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_08_0",
+        "p2_guide_scope",
+        "reinforcements_early_1"
+      ],
+      "notes": "Complete schedule not established. No matching fixed-turn wave does NOT mean no spawn. Conditional and unknown-time families are always retained as possible."
+    },
+    {
+      "kind": "safety",
+      "label": "Complete threat geometry",
+      "value": null,
+      "confidence": "UNKNOWN",
+      "source_ids": [
+        "chapter_catalog",
+        "p2_guide_08_0",
+        "p2_guide_scope",
+        "reinforcements_early_1"
+      ],
+      "notes": "Exact positions, all enemy stats/equipment/skills and event boundaries are not complete. No empty list or zero modeled death chance certifies a move without observed inputs."
+    }
+  ],
+  "candidate_reinforcements": [],
+  "reinforcement_status": "present",
+  "reinforcement_absence_confidence": null,
+  "absence_reasonably_supported": false,
+  "safe_to_conclude_no_reinforcements": false,
+  "warning": "Known facts are source-supported, not a complete threat map. Hard beginning-enemy-phase spawns can move/attack immediately. Never rely on enemy-phasing an unknown wave. Tactical view abridges other-map references; Full information retains the original reference.",
+  "absence_limitations": null
+}
+ 
+DELEGATED STDERR: 
+
+CASE: map no spoilers 
+DIRECT: play_briefing.py ['--chapter', '7', '--difficulty', 'hard', '--turn', '5', '--phase', 'player', '--spoilers', 'No spoilers', '--details'] 
+STDIN: '1\n7\nhard\n5\nplayer\nNo spoilers\ndetails\n' 
+EXIT: 0 
+STDOUT: {
+  "chapter_id": "chapter_7",
+  "difficulty": "Hard",
+  "mode": "Classic",
+  "current_turn": 5,
+  "current_phase": "player",
+  "target_enemy_phase_turn": 5,
+  "schedule_complete": false,
+  "safe_to_claim_move_safe": false,
+  "warning": "Map and schedule evidence is incomplete. No empty result or modeled outcome establishes whole-map safety. Detailed material withheld under No spoilers."
+}
+ 
+DELEGATED STDERR: 
+
+CASE: map full provenance 
+DIRECT: play_briefing.py ['--chapter', '7', '--difficulty', 'hard', '--turn', '5', '--phase', 'player', '--spoilers', 'Full information', '--provenance'] 
+STDIN: '1\n7\nhard\n5\nplayer\nFull information\nprovenance\n' 
+EXIT: 0 
+STDOUT: chapter_7 | Hard / Classic
+Current: player phase 5 -> target: enemy phase 5
+Known facts are source-supported, not a complete threat map. Hard beginning-enemy-phase spawns can move/attack immediately. Never rely on enemy-phasing an unknown wave.
+Map completeness: PARTIAL; complete schedule: no; move safety certified: no.
+Candidates are reports, not predictions that an event condition is satisfied.
+Arrival status: present; absence reasonably supported: no; absence certain: no
+Current-map facts, hazards and uncertainty:
+  [SUPPORTED] map / objective: Rout the enemy — Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion. [sources: chapter_catalog, p2_guide_08_0]
+  [SUPPORTED] map / deployment: 11 — Pre-battle limit including Chrom; automatic NPC/allied arrivals are additional. Early chapters without preparation use initial army size. [sources: p2_guide_08_0, p2_guide_scope]
+  [SUPPORTED] map / bosses: name: Vasto; class_name: Wyvern Rider; level: 12; equipment_text: Steel Axe; equipment_stats: UNKNOWN — Hard-default guide metadata; exact displayed stats and equipped skill rolls remain unknown. Weapon names do not establish proc skills. [sources: p2_guide_08_0]
+  [SUPPORTED] hazards / 1: Flying enemies cross mountain/cliff barriers. Cordelia arrives from the west on turn 3. [sources: p2_guide_08_0, p2_guide_scope]
+  [SUPPORTED] recruitment / cordelia: Automatically from Turn 3 — Recruitment system conditions checked against current Hard reference. Unit must survive to retain recruit in Classic. [sources: recruitment, p2_guide_08_0]
+  [UNKNOWN] map / starting_area: UNKNOWN — Exact Hard starting tiles not established; consult observed map. [sources: none recorded]
+  [UNKNOWN] map / initial_enemies: UNKNOWN — No complete Hard enemy roster, starting coordinates, numerical stats, enemy forges or random skill rolls certified. Observe actual enemies; Lunatic templates cannot substitute. [sources: none recorded]
+  [UNKNOWN] map / shops: UNKNOWN — World-map shops are separate; full in-map shop/event inventory not established. [sources: none recorded]
+  [UNKNOWN] schedule / Additional arrivals/events: UNKNOWN — Complete schedule not established. No matching fixed-turn wave does NOT mean no spawn. Conditional and unknown-time families are always retained as possible. [sources: chapter_catalog, p2_guide_08_0, p2_guide_scope, reinforcements_early_1]
+  [UNKNOWN] safety / Complete threat geometry: UNKNOWN — Exact positions, all enemy stats/equipment/skills and event boundaries are not complete. No empty list or zero modeled death chance certifies a move without observed inputs. [sources: chapter_catalog, p2_guide_08_0, p2_guide_scope, reinforcements_early_1]
+Candidate hard_chapter_7_t5 [SUPPORTED]; schedule completeness: UNKNOWN
+  [SUPPORTED] timing: kind: fixed; turns: 5; event: UNKNOWN; repeat: UNKNOWN — Exact turn/count/equipment single indexed Hard subsection; western arrival corroborated by guide. Not a certified complete schedule. [sources: reinforcements_early_1, p2_guide_08_0]
+  [SUPPORTED] location: Western map edge [sources: reinforcements_early_1, p2_guide_08_0]
+  [SUPPORTED] units: count: 3; class_id: wyvern_rider; equipment: steel_axe; level: 7; location: UNKNOWN — Support applies to the supplied attributes only. Null class/count/equipment/level/location remains UNKNOWN, never absent. Skill rolls and exact enemy forge stats are not established. [sources: reinforcements_early_1, p2_guide_08_0]
+  [SUPPORTED] spawn_phase: beginning_enemy_phase — Ordinary Hard rule applied; map-specific scripted exceptions have not all been excluded. [sources: reinforcements_early_1, p2_guide_08_0, hr_gg_spawn]
+  [SUPPORTED] immediate_action: can_move: yes; can_attack: yes; can_kill_on_spawn: yes — Conditional application of VERIFIED ordinary Hard rule: if this is an ordinary beginning-enemy-phase arrival it can move/attack and kill immediately. This wave was not independently observed; scripted phase/exception uncertainty remains. [sources: hr_gg_spawn, hr_hard_spawn_observation]
+  [UNKNOWN] coordinates: UNKNOWN [sources: none recorded]
+  [UNKNOWN] skills: UNKNOWN [sources: none recorded]
+  [UNKNOWN] suppression: UNKNOWN [sources: none recorded]
+Use --provenance for claim source IDs; --details for the full spoiler-filtered query.
+ 
+DELEGATED STDERR: 
+
+CASE: unsupported map difficulty 
+DIRECT: play_briefing.py ['--chapter', '7', '--difficulty', 'normal', '--turn', '5', '--phase', 'player', '--spoilers', 'Tactical spoilers'] 
+STDIN: '1\n7\nnormal\n5\nplayer\n\n\n' 
+EXIT: 2 
+STDOUT:  
+DELEGATED STDERR: This reference supports Hard only; other difficulties require separate datasets
+
+
+CASE: invalid phase 
+DIRECT: play_briefing.py ['--chapter', '7', '--difficulty', 'hard', '--turn', '5', '--phase', 'unknown', '--spoilers', 'Tactical spoilers'] 
+STDIN: '1\n7\nhard\n5\nunknown\n\n\n' 
+EXIT: 2 
+STDOUT:  
+DELEGATED STDERR: usage: play_briefing.py [-h] [--chapter CHAPTER] [--difficulty DIFFICULTY]
+                        [--turn TURN] [--phase {player,enemy}]
+                        [--spoilers {No spoilers,Tactical spoilers,Full information}]
+                        [--state STATE] [--provenance | --details]
+play_briefing.py: error: argument --phase: invalid choice: 'unknown' (choose from 'player', 'enemy')
+
+
+Exit: 0

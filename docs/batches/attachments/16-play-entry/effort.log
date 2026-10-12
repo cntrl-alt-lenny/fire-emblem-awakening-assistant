@@ -1,0 +1,9 @@
+Measured synthetic input effort at code commit 264957745acd52799bfde43cb3ab853af45caa16
+Custom duel: 41 existing observation answers/prompts + 2 launcher answers = 43.
+Two-duel sequence: 9 existing guided answers + 2 launcher answers = 11.
+Map: action + 4 actual context answers + spoiler + view = 7 answers; replaces selecting play_briefing.py and spelling 4 mandatory flags, 1 spoiler flag, optional view flag.
+New/edit/assembly: replaces helper filename choice and optional --output flag spelling; edit path becomes a prompt instead of --edit.
+Assessment: action + path = 2 answers; replaces choosing tactical_combat.py vs tactical_enemy_phase.py.
+Observation values are delegated, not retyped/repaired by launcher. Additional manual JSON edits: 0.
+41/9 counts asserted; existing collector CLI exit: 0.
+Scripted trial only; no human UAT claim.

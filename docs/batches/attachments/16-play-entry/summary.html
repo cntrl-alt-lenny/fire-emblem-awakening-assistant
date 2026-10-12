@@ -1,0 +1,43 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Play entry</title><style>body{background:#eef2f5;color:#182330;font:17px/1.5 system-ui}article{max-width:900px;margin:24px auto;padding:30px;background:white}h1,h2{line-height:1.2}pre{padding:14px;background:#f3f6f8;white-space:pre-wrap}code{overflow-wrap:anywhere}a{color:#17649b}</style><article><h1>16-play-entry — Worker</h1>
+<h2>Done</h2>
+<p>Added one-action <code>tools/play.py</code>, dedicated public CLI replay tests and
+<a href="../../../play-entry.md">reference</a>. Baseline:
+<code>ec3bceca1d70a4da240a490601602e97c2466de2</code>; literal pushed plan:
+<code>b9fffaeeea149470e7892106d9e6c6060f104c17</code>.
+Started independently in the requested Worker worktree. Delegation shares stdin,
+preserves stdout/warnings/exits and retains helper confirmations and create-only
+saving. Assessment selection blocks run aliases before opening and run-shaped
+JSON before calculation. No formulas, shared tools, trackers or canonical records
+changed. Navigation replaces tool/flag selection; existing observation questions
+and zero-manual-JSON workflows remain intact.</p>
+<h2>Checked</h2>
+<p>At code commit <code>2649577</code> (full hash in logs):
+<code>make audit</code> exits 0, 200 tests pass; <code>python3 tools/fw.py check</code> exits 0,
+zero errors/warnings. Focused replay exits 0, seven test groups compare actual
+existing-tool stdout, stderr suffixes and exits across 21 workflows, including
+map/spoilers/refusal, complete/partial/Counter/paired, edits with renewed
+confirmation, sequence, assessment, EOF/cancellation and protected output.
+Synthetic terminal stdin, isolated create-only saves/overwrite/symlink refusal,
+wrong-kind/run-shaped inputs and named/symlink/hardlink run aliases also pass.
+Private canonical/research/state file sets and bytes match baseline/before checks.
+Branch ownership/diff checks pass. Reference and summary local links resolve;
+rendered HTML inspected without clipping or horizontal overflow.</p>
+<p>Evidence: <a href="../../attachments/16-play-entry/audit.log">audit</a>,
+<a href="../../attachments/16-play-entry/framework.log">framework</a>,
+<a href="../../attachments/16-play-entry/focused.log">workflow transcripts/results</a>,
+<a href="../../attachments/16-play-entry/preservation.log">preservation/diff</a>,
+<a href="../../attachments/16-play-entry/render.log">render</a>.</p>
+<h2>Not checked</h2>
+<p>Human UAT, actual gameplay, native Windows, complete maps/schedules and source
+truth remain unverified. Baseline duel-gate gaps are not certified repaired:
+Brain&#39;s combined batch 15 acceptance remains required. No new tactical coverage.
+No reviewer spawned and no merge performed.</p>
+<h2>Failed or blocked</h2>
+<p>Initial tests wrongly expected collector cancellation exit 2 (actual 1) and
+reused a catalog-weapon edit transcript without its fresh exact-match answer.
+Corrected the tests, preserving helper behavior. A second test expectation
+mistakenly changed protected-output refusal to 1 (actual 2); corrected it.
+Both <a href="../../attachments/16-play-entry/initial-focused.log">initial</a> and
+<a href="../../attachments/16-play-entry/second-focused.log">second</a> failures are retained.
+No remaining blocker.</p>
+</article></html>

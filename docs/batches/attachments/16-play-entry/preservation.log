@@ -1,0 +1,12 @@
+Code commit: 264957745acd52799bfde43cb3ab853af45caa16
+Private preservation: 160 data/research/state files, identical set and bytes before/after checks.
+Baseline canonical/research: 159 tracked files identical to baseline.
+No player run opened by launcher/tests; alias tests used isolated synthetic sentinels.
+Command: git diff --check ec3bceca1d70a4da240a490601602e97c2466de2
+Exit: 0
+Owned branch paths only: PASS
+docs/batches/attachments/16-play-entry/initial-focused.log
+docs/batches/attachments/16-play-entry/second-focused.log
+docs/play-entry.md
+tests/test_play_entry.py
+tools/play.py

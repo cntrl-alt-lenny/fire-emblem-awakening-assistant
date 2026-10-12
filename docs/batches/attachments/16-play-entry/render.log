@@ -1,0 +1,5 @@
+docs/play-entry.md: 7 local links resolve; no horizontal overflow; rendered 1120x1245
+docs/batches/16-play-entry.md: 8 local links resolve; no horizontal overflow; rendered 1120x1037
+Command: node docs/batches/attachments/16-play-entry/render.mjs (bundled marked/playwright; local Chrome)
+Exit: 0
+Screenshots visually inspected: readable full content, no clipping.
