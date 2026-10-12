@@ -1,0 +1,6 @@
+Commit: d45e0d49fb8460d0afa1678d9ddb65fc9ef512a4
+Command: python3 tools/fw.py check
+
+0 error(s), 0 warning(s)
+
+EXIT 0

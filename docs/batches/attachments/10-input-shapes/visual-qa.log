@@ -1,0 +1,10 @@
+Command: Python markdown rendering with tables/fenced_code; resolve local Markdown links against each source directory.
+Result: docs/combat-input-shapes.md and docs/batches/10-input-shapes.md render; all changed local links resolve. EXIT 0
+Reference renderer: Google Chrome --headless --disable-gpu --no-first-run --no-default-browser-check --hide-scrollbars --user-data-dir=<private-render-directory>/reference-profile --window-size=1440,2000 --screenshot=<private-render-directory>/reference.png file://<private-render-directory>/reference.html
+First reference attempt output: Renderer timed out; PNG exists: True. Python TimeoutExpired after 20 seconds; script EXIT 1.
+PNG was visually inspected: entire reference readable, table and JSON/code blocks fit; no clipping.
+Summary renderer: same flags with summary names, window-size 1440,2200. Bounded screenshot creation, process terminate/wait cleanup.
+Output: Summary links resolve; PNG generated; controlled renderer cleanup. EXIT 0.
+Summary PNG visually inspected: four summary parts and tables readable; no clipping.
+reference PNG SHA256: 4e1d8233222955cdc364102f1e98aafdc04046abc5aafc5277e541bf78f0e69d
+summary PNG SHA256: f211039bd1009fc261952b436cad09b57498feba9d87cd4ae40b338c791da86e

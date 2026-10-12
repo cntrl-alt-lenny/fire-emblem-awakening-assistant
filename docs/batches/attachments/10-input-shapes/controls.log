@@ -1,0 +1,25 @@
+Commit: d45e0d49fb8460d0afa1678d9ddb65fc9ef512a4
+Command: python3 docs/batches/attachments/10-input-shapes/check_controls.py
+
+Baseline: e78fa7bcc245071556a408f725105ac63ce7a8e9
+Current commit: d45e0d49fb8460d0afa1678d9ddb65fc9ef512a4
+Baseline direct/CLI numeric leaks -> hardened UNKNOWN/null; original inputs unchanged:
+attacker:skills '' direct=NO_MODELED_DEATH_IN_THIS_DUEL CLI=NO_MODELED_DEATH_IN_THIS_DUEL -> UNKNOWN/null; CLI exit 0
+attacker:skills {} direct=NO_MODELED_DEATH_IN_THIS_DUEL CLI=NO_MODELED_DEATH_IN_THIS_DUEL -> UNKNOWN/null; CLI exit 0
+attacker:weaknesses '' direct=NO_MODELED_DEATH_IN_THIS_DUEL CLI=NO_MODELED_DEATH_IN_THIS_DUEL -> UNKNOWN/null; CLI exit 0
+attacker:weaknesses {} direct=NO_MODELED_DEATH_IN_THIS_DUEL CLI=NO_MODELED_DEATH_IN_THIS_DUEL -> UNKNOWN/null; CLI exit 0
+attacker:current_hp True direct=POTENTIALLY_LETHAL CLI=POTENTIALLY_LETHAL -> UNKNOWN/null; CLI exit 0
+attacker:current_hp 1.0 direct=POTENTIALLY_LETHAL CLI=POTENTIALLY_LETHAL -> UNKNOWN/null; CLI exit 0
+attacker:current_hp 1.5 direct=POTENTIALLY_LETHAL CLI=POTENTIALLY_LETHAL -> UNKNOWN/null; CLI exit 0
+defender:skills '' direct=NO_MODELED_DEATH_IN_THIS_DUEL CLI=NO_MODELED_DEATH_IN_THIS_DUEL -> UNKNOWN/null; CLI exit 0
+defender:skills {} direct=NO_MODELED_DEATH_IN_THIS_DUEL CLI=NO_MODELED_DEATH_IN_THIS_DUEL -> UNKNOWN/null; CLI exit 0
+defender:weaknesses '' direct=NO_MODELED_DEATH_IN_THIS_DUEL CLI=NO_MODELED_DEATH_IN_THIS_DUEL -> UNKNOWN/null; CLI exit 0
+defender:weaknesses {} direct=NO_MODELED_DEATH_IN_THIS_DUEL CLI=NO_MODELED_DEATH_IN_THIS_DUEL -> UNKNOWN/null; CLI exit 0
+defender:current_hp True direct=POTENTIALLY_LETHAL CLI=POTENTIALLY_LETHAL -> UNKNOWN/null; CLI exit 0
+defender:current_hp 1.0 direct=POTENTIALLY_LETHAL CLI=POTENTIALLY_LETHAL -> UNKNOWN/null; CLI exit 0
+defender:current_hp 1.5 direct=POTENTIALLY_LETHAL CLI=POTENTIALLY_LETHAL -> UNKNOWN/null; CLI exit 0
+288 complete supported assessment objects equal baseline; all inputs unchanged.
+17 supported full CLI outputs equal baseline; CLI exit 0; files unchanged.
+No canonical/private run input used; this comparison certifies no new gameplay fact.
+
+EXIT 0
