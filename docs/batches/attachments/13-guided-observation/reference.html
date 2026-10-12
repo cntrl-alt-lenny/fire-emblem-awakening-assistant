@@ -40,6 +40,8 @@ An unobserved required skill condition prevents completeness.</p>
 it. Blank clears that value to unknown. <code>keep</code> never accepts a previous overall
 confirmation. Confirm current, complete observations again at the final prompt.
 Incomplete values keep <code>observed_inputs_complete</code> false even after <code>yes</code>.
+Unknown, zero, malformed or reversed weapon ranges and unknown effectiveness
+categories also prevent completeness; keeping them preserves the supplied value.
 Supplied forge markers and real effects survive deliberate reuse; an incompatible
 shape, extra field or duplicate JSON key is refused before collection rather
 than silently dropping observations. Existing custom weapon objects are reused
@@ -48,7 +50,7 @@ as a whole; choose <code>custom</code> to re-enter their actual values.</p>
 <p>The <a href="../../../batches/attachments/13-guided-observation/workflows.py">deterministic workflow runner</a>
 records complete, partial, forged, unsupported, unarmed, paired, edit, context,
 cancellation and file-boundary cases without using a player run. Its
-<a href="../../../batches/attachments/13-guided-observation/workflows.log">output</a> contains literal
+<a href="../../../batches/attachments/13-guided-observation/corrected-workflows.log">output</a> contains literal
 input transcripts and results. A complete custom duel uses 41 answers and zero
 manual JSON edits; a catalog duel uses 29. Scripted replay is not human usability
 testing or gameplay validation.</p>

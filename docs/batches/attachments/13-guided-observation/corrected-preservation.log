@@ -1,0 +1,6 @@
+Committed implementation: d6ecb5da4dddb122460caf3b23ba2c713a626281
+Private canonical/research/run file sets and content unchanged in Worker and primary; no values/hashes published.
+Command: git diff 5c596d42adb3d2a5eeee460032ee20bdd4bb78ba --check
+Output: (empty)
+Exit: 0
+Ownership check: pass; shared engines, canonical data, coverage, framework and primary branch unchanged.

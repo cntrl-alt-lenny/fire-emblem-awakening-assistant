@@ -27,13 +27,13 @@ coverage; shared engines remain unchanged.</p>
 </tr>
 <tr>
 <td>Audited implementation</td>
-<td><code>80d50e43da32b769c988de1d9f2ec116238a03fa</code></td>
+<td><code>d6ecb5da4dddb122460caf3b23ba2c713a626281</code></td>
 </tr>
 </tbody></table>
 <h2>Checked</h2>
 <p><a href="../../attachments/13-guided-observation/">Evidence</a> retains real commands, output,
 exits and failures. The <a href="../../attachments/13-guided-observation/workflows.py">workflow runner</a>
-records 23 synthetic public CLI cases: complete/custom/catalog, partial, Counter,
+records 25 synthetic public CLI cases: complete/custom/catalog, partial, Counter,
 drain, forged, paired, raw, context, mismatch, integer re-entry, unarmed, deliberate
 edit, stale confirmation, cancel/EOF, malformed draft and file creation/refusal.
 Complete/custom-forged/unarmed full assessments exactly equal baseline (3/3).
@@ -51,7 +51,7 @@ measurement does not prove human usability.</p>
 </thead>
 <tbody><tr>
 <td><code>make audit</code></td>
-<td>All three audits pass; 178 tests OK</td>
+<td>All three audits pass; 179 tests OK</td>
 <td align="right">0</td>
 </tr>
 <tr>
@@ -61,12 +61,12 @@ measurement does not prove human usability.</p>
 </tr>
 <tr>
 <td><code>python3 -m unittest discover -s tests -p &#39;test_observed_input.py&#39; -v</code></td>
-<td>12 tests OK</td>
+<td>13 tests OK</td>
 <td align="right">0</td>
 </tr>
 <tr>
 <td><code>python3 docs/batches/attachments/13-guided-observation/workflows.py</code></td>
-<td>All 23 cases; equality and preservation pass</td>
+<td>All 25 cases; equality and preservation pass</td>
 <td align="right">0</td>
 </tr>
 <tr>
@@ -88,5 +88,8 @@ new gameplay fact or whole-map safety validation. No rebuild was needed.</p>
 focused failure (prompt count 39 versus expected 40), zsh wrapper failure and
 missing exploratory filenames. Explicit required weapon rank now brings custom
 entry to 41 prompts and meets sequence requirements. Edited unequipped state
-gets deliberate confirmation. Corrected checks pass; no shared-contract blocker.</p>
+gets deliberate confirmation. Brain then reproduced an edited <code>?</code> weapon range
+incorrectly earning completeness at the first delivery. The retained failure
+is fixed: unknown/invalid/reversed/zero ranges and unknown effectiveness stay
+present and incomplete, with public CLI regressions. Corrected checks pass.</p>
 </article></html>

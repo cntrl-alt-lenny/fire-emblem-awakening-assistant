@@ -1,0 +1,27 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Guided observation reference and evidence</title><style>body{margin:0;background:#eef2f5;color:#182330;font:17px/1.5 system-ui}article{max-width:1000px;margin:24px auto;padding:30px;background:white;border-radius:12px}h1,h2{line-height:1.2;color:#163f61}h2{margin-top:32px}pre{padding:14px;background:#f3f6f8;border-radius:6px;white-space:pre-wrap;overflow-wrap:anywhere;font:14px/1.5 ui-monospace,Menlo,monospace}code{font:14px/1.5 ui-monospace,Menlo,monospace;overflow-wrap:anywhere}a{color:#17649b}table{border-collapse:collapse;width:100%;font-size:14px}td,th{border:1px solid #ccd6dc;padding:8px;text-align:left}</style><article><h1>Attempts retained</h1>
+<p>Before the first implementation commit, focused tests exited 1:</p>
+<pre><code class="language-text">python3 -m unittest discover -s tests -p &#39;test_observed_input.py&#39; -v
+FAIL: test_complete_public_transcript_and_gate_equality
+AssertionError: 39 != 40
+Ran 12 tests in 0.525s
+FAILED (failures=1)
+exit: 1
+</code></pre>
+<p>The assertion counted 40 prompts but the initial custom flow had 39. Brain&#39;s
+interchange inspection also identified the missing explicit weapon required-rank
+prompt. Adding it on both sides brought the final measured count to 41; the
+focused test now measures that count and checks existing sequence compatibility.
+An explicitly unequipped edited draft now separately renews its supplied weapon
+state; exact preservation is tested.</p>
+<p>The first workflow capture completed its Python runner, but the surrounding zsh
+wrapper attempted to assign the reserved read-only <code>status</code> variable:</p>
+<pre><code class="language-text">zsh:139: read-only variable: status
+exit: 1
+</code></pre>
+<p>The workflow capture was rerun using <code>fea13_exit</code>; the final log contains its
+actual exit. Initial exploratory lookups used absent guessed filenames
+(<code>test_tactical_combat.py</code>, <code>input_shapes.py</code>, <code>observed_sequence.py</code>,
+<code>observed_enemy_phase.py</code>) and exited 1/2; repository file search located the
+actual <code>test_combat_gate.py</code>, <code>tactical_combat.py</code> and <code>tactical_enemy_phase.py</code>.
+No source/private file was modified by these unsuccessful lookups.</p>
+</article></html>

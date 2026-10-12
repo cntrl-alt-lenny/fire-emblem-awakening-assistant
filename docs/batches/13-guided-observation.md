@@ -18,13 +18,13 @@ coverage; shared engines remain unchanged.
 |---|---|
 | Fetched baseline origin/main | `5c596d42adb3d2a5eeee460032ee20bdd4bb78ba` |
 | Literal pushed planning commit | `7f4553587263772d9539e571c04abb18207704bf` |
-| Audited implementation | `80d50e43da32b769c988de1d9f2ec116238a03fa` |
+| Audited implementation | `d6ecb5da4dddb122460caf3b23ba2c713a626281` |
 
 ## Checked
 
 [Evidence](attachments/13-guided-observation/) retains real commands, output,
 exits and failures. The [workflow runner](attachments/13-guided-observation/workflows.py)
-records 23 synthetic public CLI cases: complete/custom/catalog, partial, Counter,
+records 25 synthetic public CLI cases: complete/custom/catalog, partial, Counter,
 drain, forged, paired, raw, context, mismatch, integer re-entry, unarmed, deliberate
 edit, stale confirmation, cancel/EOF, malformed draft and file creation/refusal.
 Complete/custom-forged/unarmed full assessments exactly equal baseline (3/3).
@@ -35,10 +35,10 @@ measurement does not prove human usability.
 
 | Command at audited implementation | Actual result | Exit |
 |---|---|---:|
-| `make audit` | All three audits pass; 178 tests OK | 0 |
+| `make audit` | All three audits pass; 179 tests OK | 0 |
 | `python3 tools/fw.py check` | 0 errors, 0 warnings | 0 |
-| `python3 -m unittest discover -s tests -p 'test_observed_input.py' -v` | 12 tests OK | 0 |
-| `python3 docs/batches/attachments/13-guided-observation/workflows.py` | All 23 cases; equality and preservation pass | 0 |
+| `python3 -m unittest discover -s tests -p 'test_observed_input.py' -v` | 13 tests OK | 0 |
+| `python3 docs/batches/attachments/13-guided-observation/workflows.py` | All 25 cases; equality and preservation pass | 0 |
 | `git diff 5c596d42adb3d2a5eeee460032ee20bdd4bb78ba --check` | Empty output | 0 |
 
 Privately compared canonical/research/run file sets and content before/after in
@@ -58,4 +58,7 @@ new gameplay fact or whole-map safety validation. No rebuild was needed.
 focused failure (prompt count 39 versus expected 40), zsh wrapper failure and
 missing exploratory filenames. Explicit required weapon rank now brings custom
 entry to 41 prompts and meets sequence requirements. Edited unequipped state
-gets deliberate confirmation. Corrected checks pass; no shared-contract blocker.
+gets deliberate confirmation. Brain then reproduced an edited `?` weapon range
+incorrectly earning completeness at the first delivery. The retained failure
+is fixed: unknown/invalid/reversed/zero ranges and unknown effectiveness stay
+present and incomplete, with public CLI regressions. Corrected checks pass.
