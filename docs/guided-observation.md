@@ -51,6 +51,8 @@ Every loaded value is shown with `keep=...`; type `keep` deliberately or re-ente
 it. Blank clears that value to unknown. `keep` never accepts a previous overall
 confirmation. Confirm current, complete observations again at the final prompt.
 Incomplete values keep `observed_inputs_complete` false even after `yes`.
+Unknown, zero, malformed or reversed weapon ranges and unknown effectiveness
+categories also prevent completeness; keeping them preserves the supplied value.
 Supplied forge markers and real effects survive deliberate reuse; an incompatible
 shape, extra field or duplicate JSON key is refused before collection rather
 than silently dropping observations. Existing custom weapon objects are reused

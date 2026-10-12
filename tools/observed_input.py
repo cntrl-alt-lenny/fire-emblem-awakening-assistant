@@ -209,7 +209,8 @@ def observations_known(payload):
                          ('support_state', ('none', 'adjacent', 'paired'))):
         if payload[key] not in allowed:
             return False
-    if not isinstance(payload['partners'], list) or any(type(value) is not str or not value.strip() for value in payload['partners']):
+    if not isinstance(payload['partners'], list) or any(type(value) is not str or not value.strip()
+            or value.strip().lower() in ('?', 'unknown') for value in payload['partners']):
         return False
     if payload['support_state'] == 'none' and payload['partners']:
         return False
@@ -255,7 +256,17 @@ def observations_known(payload):
             if any(type(weapon.get(key)) is not int or weapon[key] < 0 for key in WEAPON_NUMBERS):
                 return False
             if any(type(weapon.get(key)) is not str or not weapon[key].strip()
-                   for key in ('weapon_type', 'damage_type', 'range', 'effect')):
+                   for key in ('weapon_type', 'damage_type', 'effect')):
+                return False
+            distance = weapon.get('range')
+            if type(distance) is int:
+                if distance < 1:
+                    return False
+            elif type(distance) is str and re.fullmatch(r'[1-9][0-9]*(?:[-~][1-9][0-9]*)?', distance):
+                ends = re.split('[-~]', distance)
+                if len(ends) == 2 and int(ends[0]) > int(ends[1]):
+                    return False
+            else:
                 return False
             if type(weapon.get('brave')) is not bool or not isinstance(weapon.get('effectiveness'), list):
                 return False
@@ -270,6 +281,8 @@ def observations_known(payload):
             if weapon['brave'] != (weapon['effect'] == '2 consecutive attacks'):
                 return False
             if any(type(value) is not str or not value.strip() for value in weapon['effectiveness']):
+                return False
+            if set(weapon['effectiveness']) - {'beast', 'dragon', 'armour', 'flying'}:
                 return False
         skills = set(unit['skills'])
         if skills & {'indoor_fighter', 'outdoor_fighter'} and type(context.get('outdoors')) is not bool:

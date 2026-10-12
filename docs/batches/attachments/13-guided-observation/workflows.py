@@ -83,6 +83,15 @@ def main():
         assert edited == counter and draft.read_bytes() == before
         stale = run('edit blank final confirmation', edit_transcript(counter, ''), ('--edit', str(draft)), status='UNKNOWN')
         assert stale['observed_inputs_complete'] is False and draft.read_bytes() == before
+        for field, value in (('range', '?'), ('effectiveness', ['?'])):
+            unknown = copy.deepcopy(complete)
+            unknown['attacker']['weapon'][field] = value
+            draft.write_text(json.dumps(unknown), encoding='utf-8')
+            before_unknown = draft.read_bytes()
+            kept = run('edit unknown weapon ' + field, edit_transcript(unknown), ('--edit', str(draft)), status='UNKNOWN')
+            assert kept['observed_inputs_complete'] is False
+            assert kept['attacker']['weapon'][field] == value and draft.read_bytes() == before_unknown
+        draft.write_bytes(before)
         run('cancel draft after observations', edit_transcript(counter, 'cancel'), ('--edit', str(draft)), 1)
         run('EOF during draft', 'keep\nkeep\n', ('--edit', str(draft)), 1)
         assert draft.read_bytes() == before

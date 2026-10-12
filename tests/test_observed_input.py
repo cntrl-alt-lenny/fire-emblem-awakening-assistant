@@ -199,6 +199,36 @@ class ObservedInputTests(unittest.TestCase):
             payload['context'][field] = None
             self.assertFalse(observations_known(payload))
 
+    def test_public_edit_unknown_invalid_range_and_effectiveness_never_complete(self):
+        original, _ = collect(transcript())
+        with tempfile.TemporaryDirectory() as temp:
+            draft = Path(temp) / 'synthetic.json'
+            for side in ('attacker', 'defender'):
+                for field, values in (
+                    ('range', ('?', 'UNKNOWN', '0', 0, -1, '2-1', '2~1', '1-?', 'one', '', None, True, 1.0)),
+                    ('effectiveness', (['?'], ['UNKNOWN'], ['not_a_category'], [None], None))):
+                    for value in values:
+                        with self.subTest(side=side, field=field, value=value):
+                            payload = copy.deepcopy(original)
+                            payload[side]['weapon'][field] = value
+                            draft.write_text(json.dumps(payload), encoding='utf-8')
+                            before = draft.read_bytes()
+                            process = self.cli(edit_transcript(payload), '--edit', str(draft))
+                            self.assertEqual(process.returncode, 0, process.stderr)
+                            result = json.loads(process.stdout)
+                            self.assertEqual(result[side]['weapon'][field], value)
+                            self.assertFalse(result['observed_inputs_complete'])
+                            self.assertEqual(assess(result)['status'], 'UNKNOWN')
+                            self.assertNotIn('probability=', process.stderr)
+                            self.assertEqual(draft.read_bytes(), before)
+            for value in ('1', '1-2', '1~2', 1):
+                payload = copy.deepcopy(original)
+                payload['attacker']['weapon']['range'] = value
+                draft.write_text(json.dumps(payload), encoding='utf-8')
+                process = self.cli(edit_transcript(payload), '--edit', str(draft))
+                self.assertEqual(process.returncode, 0, process.stderr)
+                self.assertTrue(json.loads(process.stdout)['observed_inputs_complete'])
+
     def test_edit_rejects_run_paths_aliases_shapes_extras_duplicate_keys(self):
         payload, _ = collect(transcript())
         with tempfile.TemporaryDirectory() as temp:
