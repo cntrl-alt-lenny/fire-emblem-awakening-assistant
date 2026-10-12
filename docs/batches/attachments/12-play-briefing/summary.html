@@ -1,0 +1,81 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Play briefing reference and evidence</title><style>body{margin:0;background:#eef2f5;color:#182330;font:17px/1.5 system-ui}article{max-width:1000px;margin:24px auto;padding:30px;background:white;border-radius:12px}h1,h2{line-height:1.2;color:#163f61}h2{margin-top:32px}pre{padding:14px;background:#f3f6f8;border-radius:6px;white-space:pre-wrap;overflow-wrap:anywhere;font:14px/1.5 ui-monospace,Menlo,monospace}code{font:14px/1.5 ui-monospace,Menlo,monospace;overflow-wrap:anywhere}a{color:#17649b}table{border-collapse:collapse;width:100%;font-size:14px}td,th{border:1px solid #ccd6dc;padding:8px;text-align:left}</style><article><h1>Batch 12-play-briefing — Worker</h1>
+<h2>Done</h2>
+<p>Added an offline, read-only Hard/Classic briefing around <code>map_info.query</code>.
+Chapter7&#39;s baseline output falls from 333 JSON lines to 27 physical text
+lines (363 words); wrapped terminals may show more lines. All returned values
+and confidence remain visible; only exact repeated notes are abridged.
+Unique dangers and conflicted notes have no length cap. Provenance restores
+full notes/source IDs; details retain the complete spoiler-filtered query.</p>
+<p>Explicit state supplies context only. Known chapter/turn/difficulty mismatches
+are refused after alias normalization; phase remains mandatory. Deliberate
+spoiler overrides are supported. No spoilers withholds every tactical claim
+and provenance label. Tactical replies abridge other-map references while
+retaining current-map caveats; explicit Full information keeps originals.
+No deployment advice, stat conversion, run initialization or mutation added.</p>
+<h2>Checked</h2>
+<p>Baseline: <code>e78fa7bcc245071556a408f725105ac63ce7a8e9</code>.
+Approved plan: <code>ea5eb003d232f1e45a1c31e5ac2bb7412949b56e</code>.
+Code commit: <code>77baae3db23078b6315b9a01e55eafaceeec4ec2</code>.
+The delivery adds evidence and repairs/extends only the QA renderer.
+Real outputs/exits are in <a href="../../attachments/12-play-briefing/acceptance.log">evidence</a>,
+<a href="../../attachments/12-play-briefing/audit.log">audit</a>,
+<a href="../../attachments/12-play-briefing/framework.log">framework</a>,
+<a href="../../attachments/12-play-briefing/focused.log">focused tests</a>,
+<a href="../../attachments/12-play-briefing/diff.log">diff</a> and
+<a href="../../attachments/12-play-briefing/render.log">render</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Command / check at code commit</th>
+<th>Actual result</th>
+<th align="right">Exit</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>make audit</code></td>
+<td>Three validators/audits passed; 146 tests OK</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td><code>python3 tools/fw.py check</code></td>
+<td>0 errors, 0 warnings</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td><code>python3 -m unittest discover -s tests -p test_play_briefing.py -v</code></td>
+<td>15 tests OK</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td><code>python3 docs/batches/attachments/12-play-briefing/acceptance.py --baseline /tmp/awakening-12-preservation.json</code></td>
+<td>108 CLI/raw-query comparisons; phase/fixed/event/family/conflict/absence controls; No-spoiler views; context refusals; synthetic bytes/file set preserved</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td><code>git diff --check e78fa7bcc245071556a408f725105ac63ce7a8e9 HEAD</code></td>
+<td>No output</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>Render reference; resolve links; inspect screenshot</td>
+<td>Six local links resolve; no horizontal overflow; visually inspected</td>
+<td align="right">0</td>
+</tr>
+</tbody></table>
+<p>Canonical 28-file set, 131 research files and both two-file private sets/content
+are unchanged against a private pre-work snapshot. No private paths, hashes or
+run values were published. Query results are copied before filtering.</p>
+<h2>Not checked</h2>
+<p>No new external facts, observational gameplay, real-session usability, source
+independence or complete schedule/safety certification. No rebuild was needed:
+canonical data and build code are unchanged. Coverage counters remain unchanged.
+Other difficulties, Casual and native Windows remain outside this reference.
+Fresh blind Verifier, Brain re-derivation and owner merge approval remain due.</p>
+<h2>Failed or blocked</h2>
+<p>An initial test-file read used a nonexistent filename; inventory corrected it.
+One focused run failed because shortening an objective note violated the
+conflict-preservation assertion; all conflicted notes now remain verbatim.
+Initial visual QA hit Playwright&#39;s CommonJS export shape; the portable
+evidence renderer now handles that export. <a href="../../attachments/12-play-briefing/attempts.md">Attempts</a>
+retain commands, relevant failures and exits. No Worker blocker remains.</p>
+</article></html>

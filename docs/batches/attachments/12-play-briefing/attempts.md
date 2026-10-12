@@ -8,6 +8,7 @@ All work used the isolated Worker checkout. No private run was used as a test.
 | First `python3 -m unittest discover -s tests -p test_play_briefing.py -v` | `Ran 15 tests in 2.310s`, `OK` before standard-note shortening | 0 |
 | Focused tests after shortening repeated notes | `Ran 15 tests in 2.202s`, `FAILED (failures=1)`; conflict test expected the exact objective note for Chapter20; default renderer had abbreviated that generic note | 1 |
 | Focused tests after preserving every conflicted note verbatim | `Ran 15 tests in 2.192s`, `OK` | 0 |
+| Initial reference rendering | `TypeError: Cannot read properties of undefined (reading launch)`; bundled Playwright exposes Chromium through the CommonJS default export. Corrected the QA harness import; no product change | 1 |
 | Pre-commit CLI acceptance | 108 raw-query CLI comparisons passed; 333/27 before/after lines; canonical/research/local/private preservation passed | 0 |
 
 The failed conflict assertion produced:
