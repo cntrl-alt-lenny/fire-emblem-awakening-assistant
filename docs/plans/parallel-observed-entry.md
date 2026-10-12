@@ -29,6 +29,11 @@ from omission. A compatible existing draft is an observation, not proof it is
 still current. Whole-input confirmations must be renewed. Unsupported observed
 effects remain present even when engines refuse them. No actual run is started.
 
+Selected draft/source loaders reject duplicate JSON keys and run-shaped inputs.
+They never open current_run.json, including a symlink resolving to that file.
+The duel gate's tolerance of an extra observation/effect field is not permission
+to drop it: preserve it with refusal, or reject the incompatible input shape.
+
 Both deliver independently with fresh blind Verifiers at exact commits. Brain's
 combined end-to-end trial genuinely waits for both accepted deliveries: collect
 and save synthetic duels, assemble them, compare strict results and preservation.
