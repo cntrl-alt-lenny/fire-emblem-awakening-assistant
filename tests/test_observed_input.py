@@ -265,6 +265,80 @@ class ObservedInputTests(unittest.TestCase):
             self.assertEqual(json.loads(process.stdout), payload)
             self.assertEqual(draft.read_bytes(), before)
 
+    def test_public_edit_nested_unknown_forge_and_known_unsupported_controls(self):
+        original, _ = collect(transcript())
+        unknown = (None, '?', 'UNKNOWN', 'null', '', ' ', {}, [], False, 0, 1, 1.5,
+                   {'might': None}, {'might': '?'}, {'might': 'unknown'},
+                   {'might': {}}, {'might': []}, {'might': ''},
+                   {'might': {'observed': [3, None]}}, {'might': [3, '?']},
+                   {'might': {'?': 3}})
+        known = ('+', '++', {'might': 3}, {'might': 0, 'hit': -1},
+                 {'unsupported_observation': {'values': [3, 'observed']}})
+        with tempfile.TemporaryDirectory() as temp:
+            draft = Path(temp) / 'synthetic.json'
+            for side in ('attacker', 'defender'):
+                for complete, values in ((False, unknown), (True, known)):
+                    for value in values:
+                        with self.subTest(side=side, complete=complete, value=value):
+                            payload = copy.deepcopy(original)
+                            payload[side]['forge'] = value
+                            draft.write_text(json.dumps(payload), encoding='utf-8')
+                            before = draft.read_bytes()
+                            process = self.cli(edit_transcript(payload), '--edit', str(draft))
+                            self.assertEqual(process.returncode, 0, process.stderr)
+                            result = json.loads(process.stdout)
+                            self.assertEqual(result[side]['forge'], value)
+                            self.assertEqual(result['observed_inputs_complete'], complete)
+                            self.assertEqual(assess(result)['status'], 'UNKNOWN')
+                            self.assertNotIn('probability=', process.stderr)
+                            self.assertEqual(draft.read_bytes(), before)
+
+    def test_public_edit_other_supplied_nested_unknowns_are_incomplete(self):
+        original, _ = collect(transcript())
+        with tempfile.TemporaryDirectory() as temp:
+            draft = Path(temp) / 'synthetic.json'
+            for side in ('attacker', 'defender'):
+                for field, value in (('stats', dict(original[side]['stats'], str=None)),
+                                     ('terrain', {'def': None}), ('combat_bonuses', {'attack': '?'}),
+                                     ('id', {'observed': None}), ('name', '?'), ('alive', {'observed': None}),
+                                     ('alive', '?'), ('alive', 'false'), ('alive', ''), ('alive', 0)):
+                    with self.subTest(side=side, field=field):
+                        payload = copy.deepcopy(original)
+                        payload[side][field] = value
+                        draft.write_text(json.dumps(payload), encoding='utf-8')
+                        before = draft.read_bytes()
+                        process = self.cli(edit_transcript(payload), '--edit', str(draft))
+                        self.assertEqual(process.returncode, 0, process.stderr)
+                        result = json.loads(process.stdout)
+                        self.assertEqual(result[side][field], value)
+                        self.assertFalse(result['observed_inputs_complete'])
+                        self.assertNotIn('probability=', process.stderr)
+                        self.assertEqual(draft.read_bytes(), before)
+                for field, value in (('id', {'observed': None}), ('name', '?')):
+                    payload = copy.deepcopy(original)
+                    payload[side]['weapon'][field] = value
+                    draft.write_text(json.dumps(payload), encoding='utf-8')
+                    process = self.cli(edit_transcript(payload), '--edit', str(draft))
+                    self.assertEqual(process.returncode, 0, process.stderr)
+                    result = json.loads(process.stdout)
+                    self.assertEqual(result[side]['weapon'][field], value)
+                    self.assertFalse(result['observed_inputs_complete'])
+            for side in ('attacker', 'defender'):
+                for alive in (False, True):
+                    payload = copy.deepcopy(original)
+                    payload[side]['alive'] = alive
+                    draft.write_text(json.dumps(payload), encoding='utf-8')
+                    process = self.cli(edit_transcript(payload), '--edit', str(draft))
+                    self.assertEqual(process.returncode, 0, process.stderr)
+                    result = json.loads(process.stdout)
+                    self.assertIs(result[side]['alive'], alive)
+                    self.assertTrue(result['observed_inputs_complete'])
+                    if alive is False:
+                        self.assertEqual(assess(result)['status'], 'UNKNOWN')
+                        self.assertNotIn('probability=', process.stderr)
+                    else:
+                        self.assertIsNotNone(assess(result)['outcome'])
+
     def test_cancel_and_eof_no_stdout_or_output_no_draft_overwrite(self):
         payload, _ = collect(transcript())
         with tempfile.TemporaryDirectory() as temp:

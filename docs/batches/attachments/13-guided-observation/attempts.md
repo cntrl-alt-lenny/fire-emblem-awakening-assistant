@@ -53,3 +53,67 @@ true. This failed the input contract. The correction preserves the range while
 requiring a positive, ordered range shape before completeness; unknown
 effectiveness categories are also incomplete. Public CLI regressions exercise
 unknown/malformed/reversed/zero ranges and unknown effectiveness markers.
+
+## Verifier-found nested forge failure
+
+At attempted delivery `872259eef43594b3371327d6f0a90d5f6b02a1ad`, an explicit
+synthetic duel draft supplied attacker forge `{"might":null}`. 27 observations
+were deliberately kept, with final `yes`. Brain independently confirmed it.
+
+```text
+COMMAND: python3 tools/observed_input.py --edit [explicit synthetic draft]
+EXIT: 0
+PRESERVED FORGE: {"might": null}
+observed_inputs_complete: True
+UNKNOWN: Supply forged might/hit/crit as a full weapon object; forge offsets are ambiguous
+Supplied duel only; no whole-map survival guarantee.
+```
+
+Forge data was preserved and the engine correctly refused its unsupported
+marker, but nested missing data incorrectly earned completeness. The correction
+recursively checks opaque forge observations for null/unknown/empty data while
+retaining every supplied value. Explicit known nonempty forge data remains
+complete but unsupported. Both-side public edit regressions and challenges to
+other accepted nested fields cover preservation without new mechanics.
+
+## Brain-found numeric leakage and burden correction
+
+Brain independently challenged these accepted supplied fields at attempted
+delivery `872259eef43594b3371327d6f0a90d5f6b02a1ad`. An archive of that exact
+public engine/data tree reproduced every case without selecting a run.
+
+```text
+COMMAND: python3 tools/observed_input.py --edit [explicit synthetic draft]
+SUPPLIED: attacker.alive="?"
+EXIT: 0
+observed_inputs_complete: True
+NO_MODELED_DEATH_IN_THIS_DUEL: attacker death probability=0, defender death probability=0
+Supplied duel only; no whole-map survival guarantee.
+COMMAND: python3 tools/observed_input.py --edit [explicit synthetic draft]
+SUPPLIED: attacker.alive="false"
+EXIT: 0
+observed_inputs_complete: True
+NO_MODELED_DEATH_IN_THIS_DUEL: attacker death probability=0, defender death probability=0
+Supplied duel only; no whole-map survival guarantee.
+COMMAND: python3 tools/observed_input.py --edit [explicit synthetic draft]
+SUPPLIED: attacker.forge=[]
+EXIT: 0
+observed_inputs_complete: True
+NO_MODELED_DEATH_IN_THIS_DUEL: attacker death probability=0, defender death probability=0
+Supplied duel only; no whole-map survival guarantee.
+COMMAND: python3 tools/observed_input.py --edit [explicit synthetic draft]
+SUPPLIED: attacker.forge={}
+EXIT: 0
+observed_inputs_complete: True
+NO_MODELED_DEATH_IN_THIS_DUEL: attacker death probability=0, defender death probability=0
+Supplied duel only; no whole-map survival guarantee.
+```
+
+The old collector treated malformed alive strings and empty forge markers as
+complete, allowing supported numeric diagnostics. The correction preserves them
+with completeness false; boolean False remains known but engine-refused.
+
+The same audit found a reporting mistake: the complete two-catalog transcript
+actually takes 27 answers (the recorded PROMPTS field already said 27), while
+the burden footer and reference claimed 29. Current prose/footer now use 27;
+older logs/render artifacts are retained as attempted evidence.

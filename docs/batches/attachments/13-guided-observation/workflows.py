@@ -92,6 +92,19 @@ def main():
             assert kept['observed_inputs_complete'] is False
             assert kept['attacker']['weapon'][field] == value and draft.read_bytes() == before_unknown
         draft.write_bytes(before)
+        for field, value, is_complete in (('forge', {'might': None}, False), ('forge', [], False),
+                                       ('forge', {}, False), ('forge', {'might': 3}, True),
+                                       ('alive', '?', False), ('alive', 'false', False),
+                                       ('alive', False, True), ('alive', True, True)):
+            supplied = copy.deepcopy(complete)
+            supplied['attacker'][field] = value
+            draft.write_text(json.dumps(supplied), encoding='utf-8')
+            before_supplied = draft.read_bytes()
+            kept = run('edit supplied ' + field + '=' + json.dumps(value), edit_transcript(supplied),
+                       ('--edit', str(draft)), status='NO_MODELED_DEATH_IN_THIS_DUEL' if field == 'alive' and value is True else 'UNKNOWN')
+            assert kept['attacker'][field] == value and kept['observed_inputs_complete'] is is_complete
+            assert draft.read_bytes() == before_supplied
+        draft.write_bytes(before)
         run('cancel draft after observations', edit_transcript(counter, 'cancel'), ('--edit', str(draft)), 1)
         run('EOF during draft', 'keep\nkeep\n', ('--edit', str(draft)), 1)
         assert draft.read_bytes() == before
@@ -134,7 +147,8 @@ def main():
         {'id': 'two', 'unit': copy.deepcopy(forged['attacker']), 'context': forged['context']}])
     assert evaluate(sequence)['outcome'] is not None
     print('EXISTING SEQUENCE: two actual forged attackers schema/outcome accepted.')
-    print('BURDEN: complete custom 41 answers, catalog 29 answers, manual JSON edits 0.')
+    print('BURDEN: complete custom ' + str(len(transcript().splitlines())) + ' answers, catalog '
+          + str(len(transcript(weapon='catalog iron_sword').splitlines())) + ' answers, manual JSON edits 0.')
     print('GENERATED JSON: ' + str(keys(complete)) + ' object keys, ' + str(len(json.dumps(complete, indent=2).splitlines())) + ' formatted lines.')
     print('GROUPS: 16 stat values collected in 2 answers; 10 bonus values in 2 answers when supplied.')
     print('Unknown-to-number conversion: 0; unsupported effects removed: 0; existing files overwritten: 0.')

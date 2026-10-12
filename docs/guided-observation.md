@@ -53,6 +53,10 @@ confirmation. Confirm current, complete observations again at the final prompt.
 Incomplete values keep `observed_inputs_complete` false even after `yes`.
 Unknown, zero, malformed or reversed weapon ranges and unknown effectiveness
 categories also prevent completeness; keeping them preserves the supplied value.
+Supplied forge data with nested null, `?`, `unknown` or empty observations remains
+incomplete. Empty forge markers never confirm absence. Known nonempty forge
+markers remain present and unsupported. Supplied `alive` must be a boolean;
+malformed strings stay incomplete, and an explicitly dead unit refuses combat.
 Supplied forge markers and real effects survive deliberate reuse; an incompatible
 shape, extra field or duplicate JSON key is refused before collection rather
 than silently dropping observations. Existing custom weapon objects are reused
@@ -65,7 +69,7 @@ records complete, partial, forged, unsupported, unarmed, paired, edit, context,
 cancellation and file-boundary cases without using a player run. Its
 [output](batches/attachments/13-guided-observation/corrected-workflows.log) contains literal
 input transcripts and results. A complete custom duel uses 41 answers and zero
-manual JSON edits; a catalog duel uses 29. Scripted replay is not human usability
+manual JSON edits; a catalog duel uses 27. Scripted replay is not human usability
 testing or gameplay validation.
 
 These drafts use the [existing live gate](../tools/tactical_combat.py) and supported

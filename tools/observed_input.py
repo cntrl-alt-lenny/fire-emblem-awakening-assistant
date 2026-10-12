@@ -199,6 +199,20 @@ class Collector:
         return payload
 
 
+def opaque_observation_known(value):
+    """Check retained opaque observations without interpreting their effects."""
+    if type(value) is str:
+        return bool(value.strip()) and value.strip().lower() not in ('?', 'unknown', 'null')
+    if type(value) is int:
+        return True
+    if type(value) is dict:
+        return bool(value) and all(type(key) is str and opaque_observation_known(key)
+                                   and opaque_observation_known(item) for key, item in value.items())
+    if type(value) is list:
+        return bool(value) and all(opaque_observation_known(item) for item in value)
+    return False
+
+
 def observations_known(payload):
     """Presence is separate from supported mechanics; assess owns calculation."""
     if any(payload.get(key) is None for key in ('difficulty', 'mode', 'stats_basis', 'support_state', 'partners')):
@@ -225,6 +239,14 @@ def observations_known(payload):
         return False
     for side in ('attacker', 'defender'):
         unit = payload[side]
+        if 'forge' in unit:
+            if type(unit['forge']) not in (str, dict, list) or not opaque_observation_known(unit['forge']):
+                return False
+        for field in ('id', 'name'):
+            if field in unit and (type(unit[field]) is not str or not opaque_observation_known(unit[field])):
+                return False
+        if 'alive' in unit and type(unit['alive']) is not bool:
+            return False
         stats = unit.get('stats')
         if not isinstance(stats, dict) or any(type(stats.get(key)) is not int or stats[key] < 0 for key in STATS):
             return False
@@ -253,6 +275,9 @@ def observations_known(payload):
                 return False
             if not isinstance(weapon, dict):
                 return False
+            for field in ('id', 'name'):
+                if field in weapon and (type(weapon[field]) is not str or not opaque_observation_known(weapon[field])):
+                    return False
             if any(type(weapon.get(key)) is not int or weapon[key] < 0 for key in WEAPON_NUMBERS):
                 return False
             if any(type(weapon.get(key)) is not str or not weapon[key].strip()
