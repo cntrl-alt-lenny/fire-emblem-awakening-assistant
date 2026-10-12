@@ -67,7 +67,7 @@ as a whole; choose `custom` to re-enter their actual values.
 The [deterministic workflow runner](batches/attachments/13-guided-observation/workflows.py)
 records complete, partial, forged, unsupported, unarmed, paired, edit, context,
 cancellation and file-boundary cases without using a player run. Its
-[output](batches/attachments/13-guided-observation/corrected-workflows.log) contains literal
+[output](batches/attachments/13-guided-observation/nested-workflows.log) contains literal
 input transcripts and results. A complete custom duel uses 41 answers and zero
 manual JSON edits; a catalog duel uses 27. Scripted replay is not human usability
 testing or gameplay validation.

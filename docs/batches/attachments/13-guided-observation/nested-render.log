@@ -1,0 +1,8 @@
+Committed implementation: 1b6e77ef786e806819b57088fd1a6a12f20a2b62
+Command: node docs/batches/attachments/13-guided-observation/render.mjs (bundled runtime/modules and installed Chrome selected explicitly)
+
+docs/guided-observation.md rendered; 5 local links resolve; horizontal overflow: 0; dimensions: 1120x1526
+docs/batches/13-guided-observation.md rendered; 3 local links resolve; horizontal overflow: 0; dimensions: 1120x1602
+docs/batches/attachments/13-guided-observation/attempts.md rendered; 0 local links resolve; horizontal overflow: 0; dimensions: 1120x2448
+
+Command exit: 0

@@ -2,63 +2,67 @@
 
 ## Done
 
-Added a standard-library terminal collector/editor for plain existing duel
-payloads. Stats and bonuses are grouped; prompts/assessment use stderr and JSON
-uses stdout. Unknown stays null; absence, catalog values, reuse and overall
-completeness require deliberate confirmation. Actual forged/unsupported effects
-survive. Fresh optional context is omitted unless relevant; edited supplied
-unknown context remains present. Run files, incompatible/extra fields and
-duplicate keys are refused. Optional files are create-only inside ignored
-`state/observations`, with traversal/symlink/overwrite refusal.
+Added a standard-library terminal collector/editor for plain existing duels.
+Grouped stats/bonuses and deliberate confirmations preserve unknowns, actual
+forged values and unsupported effects. Prompts/assessment use stderr; stdout is
+JSON. Optional files are create-only in ignored `state/observations`; runs,
+incompatible/extra fields, duplicate keys, traversal, symlinks and overwrite are
+refused. Editing renews each observation and the final confirmation.
 
-Only assigned product files and batch evidence changed. No new mechanics or
-coverage; shared engines remain unchanged.
+Nested null/unknown/empty forge observations and malformed optional alive state
+now stay present with completeness false. Known nonempty forge data remains
+complete but engine-refused; literal boolean false still refuses a dead unit.
+Supplied nested metadata and other observation fields are checked conservatively.
+No engine, mechanics, canonical coverage or primary checkout changes.
 
 | Anchor | Full commit |
 |---|---|
 | Fetched baseline origin/main | `5c596d42adb3d2a5eeee460032ee20bdd4bb78ba` |
 | Literal pushed planning commit | `7f4553587263772d9539e571c04abb18207704bf` |
-| Audited implementation | `d6ecb5da4dddb122460caf3b23ba2c713a626281` |
+| Preserved Verifier report tip | `517315b6f652c347c3c54dbf217e246c4cee8a63` |
+| Audited revised implementation | `1b6e77ef786e806819b57088fd1a6a12f20a2b62` |
 
 ## Checked
 
-[Evidence](attachments/13-guided-observation/) retains real commands, output,
-exits and failures. The [workflow runner](attachments/13-guided-observation/workflows.py)
-records 25 synthetic public CLI cases: complete/custom/catalog, partial, Counter,
-drain, forged, paired, raw, context, mismatch, integer re-entry, unarmed, deliberate
-edit, stale confirmation, cancel/EOF, malformed draft and file creation/refusal.
-Complete/custom-forged/unarmed full assessments exactly equal baseline (3/3).
-Forged outputs pass the existing two-attacker sequence schema/outcome. Custom:
-41 answers for 66 generated keys/75 formatted JSON lines; catalog: 29 answers;
-manual JSON edits: zero. Sixteen stat values use two answers. Scripted burden
-measurement does not prove human usability.
+[Evidence](attachments/13-guided-observation/) retains original failures and
+revised `nested-*.log` commands, output and exits. The
+[workflow runner](attachments/13-guided-observation/workflows.py) records 33
+synthetic public cases spanning complete/custom/catalog, partial, real effects,
+forge, paired/raw/context, mismatch, integer re-entry, unarmed, edit, renewed
+confirmation, cancel/EOF, nested forge/alive and file boundaries. Both-side
+public regressions challenge null/unknown/empty nested observations, malformed
+alive values and known-forge/boolean controls without dropping data.
 
-| Command at audited implementation | Actual result | Exit |
+Complete/custom-forged/unarmed full assessments equal baseline (3/3). Forged
+outputs pass the existing two-attacker sequence schema/outcome. Custom: 41
+answers for 66 generated keys/75 formatted JSON lines; catalog: measured 27
+answers; manual JSON edits: zero. Sixteen stat values use two answers.
+
+| Command at audited revised implementation | Actual result | Exit |
 |---|---|---:|
-| `make audit` | All three audits pass; 179 tests OK | 0 |
+| `make audit` | All three audits pass; 181 tests OK | 0 |
 | `python3 tools/fw.py check` | 0 errors, 0 warnings | 0 |
-| `python3 -m unittest discover -s tests -p 'test_observed_input.py' -v` | 13 tests OK | 0 |
-| `python3 docs/batches/attachments/13-guided-observation/workflows.py` | All 25 cases; equality and preservation pass | 0 |
+| `python3 -m unittest discover -s tests -p 'test_observed_input.py' -v` | 15 tests OK | 0 |
+| `python3 docs/batches/attachments/13-guided-observation/workflows.py` | All 33 cases; equality/preservation pass | 0 |
 | `git diff 5c596d42adb3d2a5eeee460032ee20bdd4bb78ba --check` | Empty output | 0 |
 
-Privately compared canonical/research/run file sets and content before/after in
-primary and Worker checkouts: unchanged; published no private values/hashes.
-Reference, summary and failed-attempt record rendered and visually inspected;
-changed local links resolve. No run was initialized or selected as observation.
+Canonical/research/run file sets and content privately compared before/after in
+primary and Worker: unchanged; no private values/hashes published. Verifier
+report fast-forwarded before correction commits and remains untouched.
+Reference/summary/attempts rendered, inspected and local links resolved.
 
 ## Not checked
 
-Fresh blind Verifier, Brain re-derivation, combined Batch14 entry and owner merge
-approval remain pending. No human terminal trial, native Windows verification,
-new gameplay fact or whole-map safety validation. No rebuild was needed.
+Verifier recheck of this revised delivery, Brain re-derivation, combined Batch14
+acceptance and owner merge approval remain pending. No human usability, native
+Windows, new gameplay fact or whole-map safety validation. No rebuild needed.
 
 ## Failed or blocked
 
-[Attempts](attachments/13-guided-observation/attempts.md) preserves the first
-focused failure (prompt count 39 versus expected 40), zsh wrapper failure and
-missing exploratory filenames. Explicit required weapon rank now brings custom
-entry to 41 prompts and meets sequence requirements. Edited unequipped state
-gets deliberate confirmation. Brain then reproduced an edited `?` weapon range
-incorrectly earning completeness at the first delivery. The retained failure
-is fixed: unknown/invalid/reversed/zero ranges and unknown effectiveness stay
-present and incomplete, with public CLI regressions. Corrected checks pass.
+[Attempts](attachments/13-guided-observation/attempts.md) retains prompt-count,
+zsh wrapper and exploratory failures; Brain's unknown-range failure; Verifier's
+nested-null forge failure; and Brain-confirmed alive-string/empty-forge numeric
+leaks at prior delivery. Revised public regressions preserve those values with
+completeness false and no numbers. The prior catalog burden claim of 29 was
+wrong; captured prompts and replay measure 27. Original evidence/history stays
+available. Correction checks pass; independent recheck remains required.
