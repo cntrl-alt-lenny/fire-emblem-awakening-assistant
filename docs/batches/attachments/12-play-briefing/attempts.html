@@ -1,0 +1,50 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Play briefing reference and evidence</title><style>body{margin:0;background:#eef2f5;color:#182330;font:17px/1.5 system-ui}article{max-width:1000px;margin:24px auto;padding:30px;background:white;border-radius:12px}h1,h2{line-height:1.2;color:#163f61}h2{margin-top:32px}pre{padding:14px;background:#f3f6f8;border-radius:6px;white-space:pre-wrap;overflow-wrap:anywhere;font:14px/1.5 ui-monospace,Menlo,monospace}code{font:14px/1.5 ui-monospace,Menlo,monospace;overflow-wrap:anywhere}a{color:#17649b}table{border-collapse:collapse;width:100%;font-size:14px}td,th{border:1px solid #ccd6dc;padding:8px;text-align:left}</style><article><h1>Earlier attempts</h1>
+<p>All work used the isolated Worker checkout. No private run was used as a test.</p>
+<table>
+<thead>
+<tr>
+<th>Command / attempt</th>
+<th>Relevant actual result</th>
+<th align="right">Exit</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Read <code>tests/test_hard_tactics.py</code> after inspecting Makefile</td>
+<td><code>sed: tests/test_hard_tactics.py: No such file or directory</code>; inventory located actual <code>tests/test_hard.py</code> and subsequent read succeeded</td>
+<td align="right">1</td>
+</tr>
+<tr>
+<td>First <code>python3 -m unittest discover -s tests -p test_play_briefing.py -v</code></td>
+<td><code>Ran 15 tests in 2.310s</code>, <code>OK</code> before standard-note shortening</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>Focused tests after shortening repeated notes</td>
+<td><code>Ran 15 tests in 2.202s</code>, <code>FAILED (failures=1)</code>; conflict test expected the exact objective note for Chapter20; default renderer had abbreviated that generic note</td>
+<td align="right">1</td>
+</tr>
+<tr>
+<td>Focused tests after preserving every conflicted note verbatim</td>
+<td><code>Ran 15 tests in 2.192s</code>, <code>OK</code></td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td>Initial reference rendering</td>
+<td><code>TypeError: Cannot read properties of undefined (reading launch)</code>; bundled Playwright exposes Chromium through the CommonJS default export. Corrected the QA harness import; no product change</td>
+<td align="right">1</td>
+</tr>
+<tr>
+<td>Pre-commit CLI acceptance</td>
+<td>108 raw-query CLI comparisons passed; 333/27 before/after lines; canonical/research/local/private preservation passed</td>
+<td align="right">0</td>
+</tr>
+</tbody></table>
+<p>The failed conflict assertion produced:</p>
+<pre><code class="language-text">FAIL: test_conflicts_and_terrain_dangers_not_truncated
+AssertionError: &#39;Campaign objective catalog compared against Hard-default guide; verify displayed objective before declaring completion.&#39; not found
+Ran 15 tests in 2.202s
+FAILED (failures=1)
+</code></pre>
+<p>The renderer now leaves all conflicted notes unabridged. No test was weakened
+to resolve that failure. No blocker remains from these attempts.</p>
+</article></html>

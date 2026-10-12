@@ -1,0 +1,41 @@
+Commit: d45e0d49fb8460d0afa1678d9ddb65fc9ef512a4
+Command: python3 -m unittest discover -s tests -p test_combat*.py -v
+
+test_both_sides_and_both_context_fields (test_combat_context.CombatContextTests) ... ok
+test_defender_without_counterattack_still_requires_context (test_combat_context.CombatContextTests) ... ok
+test_fighter_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) ... ok
+test_fighter_true_false_numerical_controls (test_combat_context.CombatContextTests) ... ok
+test_optional_fields_absent_without_relevant_skill (test_combat_context.CombatContextTests) ... ok
+test_paired_and_unsupported_effect_refusals_preserved (test_combat_context.CombatContextTests) ... ok
+test_public_json_cli_invalid_and_valid (test_combat_context.CombatContextTests) ... ok
+test_turn_boundaries_and_parity_numerical_controls (test_combat_context.CombatContextTests) ... ok
+test_turn_missing_and_malformed_context_refused (test_combat_context.CombatContextTests) ... ok
+test_brave_contradictions_both_sides (test_combat_gate.CombatGateTests) ... ok
+test_canonical_ids_and_incomplete_resolution (test_combat_gate.CombatGateTests) ... ok
+test_certain_death_both_sides (test_combat_gate.CombatGateTests) ... ok
+test_existing_refusals (test_combat_gate.CombatGateTests) ... ok
+test_explicit_absence_and_input_unchanged (test_combat_gate.CombatGateTests) ... ok
+test_explicit_unequipped_defender (test_combat_gate.CombatGateTests) ... ok
+test_forged_values_and_ambiguous_markers (test_combat_gate.CombatGateTests) ... ok
+test_missing_properties_both_sides (test_combat_gate.CombatGateTests) ... ok
+test_near_one_probability_not_rounded (test_combat_gate.CombatGateTests) ... ok
+test_null_and_malformed_properties_both_sides (test_combat_gate.CombatGateTests) ... ok
+test_possible_death_both_sides (test_combat_gate.CombatGateTests) ... ok
+test_public_cli (test_combat_gate.CombatGateTests) ... ok
+test_weapon_presence_both_sides (test_combat_gate.CombatGateTests) ... ok
+test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) ... ok
+test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) ... ok
+test_context_and_real_effect_refusals_preserved (test_combat_input_shapes.CombatInputShapeTests) ... ok
+test_hp_types_and_bounds_both_sides (test_combat_input_shapes.CombatInputShapeTests) ... ok
+test_missing_and_null_fields_both_sides (test_combat_input_shapes.CombatInputShapeTests) ... ok
+test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) ... ok
+test_supported_collections_and_hp_controls (test_combat_input_shapes.CombatInputShapeTests) ... ok
+test_unequipped_defender_still_validates_observation (test_combat_input_shapes.CombatInputShapeTests) ... ok
+test_unknown_membership_both_sides (test_combat_input_shapes.CombatInputShapeTests) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 2.816s
+
+OK
+
+EXIT 0

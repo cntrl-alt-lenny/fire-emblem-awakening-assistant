@@ -1,0 +1,40 @@
+Commit: 77baae3db23078b6315b9a01e55eafaceeec4ec2
+$ python3 docs/batches/attachments/12-play-briefing/acceptance.py --baseline /tmp/awakening-12-preservation.json
+$ python3 tools/map_info.py --chapter 7 --difficulty hard --turn 5 --phase player
+exit 0
+$ python3 tools/play_briefing.py --chapter 7 --difficulty hard --turn 5 --phase player
+exit 0
+Before/after physical lines: 333 / 27
+After words: 363 ; characters: 2961
+$ python3 tools/play_briefing.py --chapter 7 --difficulty hard --turn 5 --phase player --spoilers Full information --details
+exit 0
+Full information details exactly equal raw query: PASS
+108 CLI raw-query comparisons (phase/fixed/family/event/conflict/absence): PASS
+$ python3 tools/play_briefing.py --chapter 7 --difficulty hard --turn 5 --phase enemy
+exit 0
+EP5 query targets EP6; fixed EP5 candidate omitted, incompleteness retained: PASS
+$ python3 tools/play_briefing.py --chapter 7 --difficulty hard --turn 5 --phase player --spoilers No spoilers
+exit 0
+$ python3 tools/play_briefing.py --chapter 7 --difficulty hard --turn 5 --phase player --spoilers No spoilers --details
+exit 0
+$ python3 tools/play_briefing.py --chapter 7 --difficulty hard --turn 5 --phase player --spoilers No spoilers --provenance
+exit 0
+No-spoiler text/provenance/details contain context + general warning only: PASS
+$ python3 tools/play_briefing.py --chapter 7 --difficulty hard --turn 5
+exit 2
+Supply current phase player or enemy; selected state does not establish phase
+$ python3 tools/play_briefing.py --chapter 7 --difficulty Lunatic --turn 5 --phase player
+exit 2
+This reference supports Hard only; other difficulties require separate datasets
+$ python3 tools/play_briefing.py --state <synthetic-state> --phase player
+exit 0
+$ python3 tools/play_briefing.py --state <synthetic-state> --chapter 7 --phase player --spoilers Tactical spoilers
+exit 0
+$ python3 tools/play_briefing.py --state <synthetic-state> --phase player --turn 6
+exit 2
+Explicit turn does not match selected state
+Synthetic state/death/history bytes and file set preserved; no lock/initialization: PASS
+Canonical, research and both private file sets/content preserved: {'data': 28, 'reports': 131, 'local': 2, 'primary_local': 2}
+No private paths, filenames, hashes or run values emitted.
+
+Exit: 0

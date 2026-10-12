@@ -1,0 +1,24 @@
+Commit: 77baae3db23078b6315b9a01e55eafaceeec4ec2
+$ python3 -m unittest discover -s tests -p test_play_briefing.py -v
+test_absence_is_supported_not_certain_and_silence_is_unknown (test_play_briefing.BriefingTests) ... ok
+test_all_maps_retain_all_claim_values_notes_confidence_and_sources (test_play_briefing.BriefingTests) ... ok
+test_baseline_concise_but_complete (test_play_briefing.BriefingTests) ... ok
+test_chapter11_family_is_candidate_not_recurrence (test_play_briefing.BriefingTests) ... ok
+test_conflicts_and_terrain_dangers_not_truncated (test_play_briefing.BriefingTests) ... ok
+test_context_refusals_cli_do_not_emit_tactical_output (test_play_briefing.BriefingTests) ... ok
+test_events_unknown_and_repeating_retained (test_play_briefing.BriefingTests) ... ok
+test_fixed_turn_and_phase_controls (test_play_briefing.BriefingTests) ... ok
+test_no_spoilers_in_every_output_mode (test_play_briefing.BriefingTests) ... ok
+test_query_inputs_and_result_are_not_mutated (test_play_briefing.BriefingTests) ... ok
+test_tactical_cross_map_references_abridged_full_original_retained (test_play_briefing.BriefingTests) ... ok
+test_context_mismatch_and_missing_phase_refuse (test_play_briefing.StateTests) ... ok
+test_malformed_missing_and_unknown_state_refuse (test_play_briefing.StateTests) ... ok
+test_read_only_bytes_files_and_canonical_inputs (test_play_briefing.StateTests) ... ok
+test_state_aliases_and_explicit_spoiler_override (test_play_briefing.StateTests) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 2.384s
+
+OK
+
+Exit: 0

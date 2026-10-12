@@ -1,0 +1,9 @@
+Code commit: 77baae3db23078b6315b9a01e55eafaceeec4ec2 (product/reference unchanged)
+$ FEA_NODE_MODULES=<bundled modules> FEA_CHROME=<installed Chrome> node docs/batches/attachments/12-play-briefing/render.mjs
+docs/play-briefing.md rendered; 6 local links resolve; horizontal overflow: 0; dimensions: 1120x2013
+docs/batches/12-play-briefing.md rendered; 7 local links resolve; horizontal overflow: 0; dimensions: 1120x1422
+docs/batches/attachments/12-play-briefing/attempts.md rendered; 0 local links resolve; horizontal overflow: 0; dimensions: 1120x908
+
+Exit: 0
+
+Visual inspection: viewed all three full screenshots. Reference commands, summary table and failed-attempt details are readable, with no clipped text, horizontal overflow or overlap.

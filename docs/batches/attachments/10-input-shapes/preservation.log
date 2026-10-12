@@ -1,0 +1,4 @@
+Check: privately snapshot all file names/content SHA256 under data/ and state/ in primary and isolated Worker checkouts, before and after synthetic testing.
+Result: canonical and private file sets/content identical in both checkouts.
+No private contents, file names or hashes published; no player run initialized or used as input.
+EXIT 0

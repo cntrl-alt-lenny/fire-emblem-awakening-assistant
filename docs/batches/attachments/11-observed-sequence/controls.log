@@ -1,0 +1,525 @@
+CODE COMMIT: 8da558e27212cf808d8d9eb04b38c5ed5c780420
+BASELINE: e78fa7bcc245071556a408f725105ac63ce7a8e9
+PLAN: ea5eb003d232f1e45a1c31e5ac2bb7412949b56e
+DIRECT reference example missing player current HP/durability
+{
+  "death_probability": 0,
+  "final_hp_distribution": {
+    "10": 0.42432195999999983,
+    "20": 0.4541560799999999,
+    "30": 0.12152195999999998
+  },
+  "limitations": [
+    "Enemy attack order, ranges, targets and effective stats must be supplied; this does not predict AI decisions.",
+    "No Dual Strikes/Guards, weapon breakage, EXP-triggered level-ups, terrain healing or unsupported skills.",
+    "Provided player durability must cover maximum scheduled retaliation across the whole phase; missing durability assumes enough uses."
+  ],
+  "minimum_possible_hp": 10,
+  "steps": [
+    {
+      "death_probability": 0,
+      "enemy": "enemy 1",
+      "expected_hp": 23.485999999999997
+    },
+    {
+      "death_probability": 0,
+      "enemy": "enemy 2",
+      "expected_hp": 16.971999999999994
+    }
+  ]
+}
+DIRECT evaluate: complete_example
+{
+  "conditional_on_observed_inputs": true,
+  "outcome": {
+    "expected_player_hp": 16.971999999999994,
+    "final_hp_distribution": [
+      {
+        "hp": 10,
+        "probability": 0.42432195999999983
+      },
+      {
+        "hp": 20,
+        "probability": 0.4541560799999999
+      },
+      {
+        "hp": 30,
+        "probability": 0.12152195999999998
+      }
+    ],
+    "maximum_scheduled_retaliation_uses": 4,
+    "minimum_possible_player_hp": 10,
+    "player_death_probability": 0.0,
+    "steps": [
+      {
+        "enemy_death_probability": 0.0591,
+        "enemy_id": "synthetic_enemy_1",
+        "expected_player_hp": 23.485999999999997,
+        "minimum_possible_player_hp": 20,
+        "player_death_probability": 0.0
+      },
+      {
+        "enemy_death_probability": 0.059099999999999986,
+        "enemy_id": "synthetic_enemy_2",
+        "expected_player_hp": 16.971999999999994,
+        "minimum_possible_player_hp": 10,
+        "player_death_probability": 0.0
+      }
+    ]
+  },
+  "safe_to_claim_map_survival": false,
+  "safe_to_claim_survival": false,
+  "status": "NO_MODELED_PLAYER_DEATH_IN_THIS_SEQUENCE",
+  "warning": "Only this supplied sequence of distinct observed attackers. Independent uniform RNG model; no AI order/targets/paths, unseen enemies, reinforcements, between-duel events, healing or weapon swaps. Zero modeled player death is conditional, never whole-map safety. Enemy death is reported per step."
+}
+COMMAND: python3 tools/tactical_enemy_phase.py sequence-controls-x64zudo7/complete_example.json
+{
+  "status": "NO_MODELED_PLAYER_DEATH_IN_THIS_SEQUENCE",
+  "outcome": {
+    "final_hp_distribution": [
+      {
+        "hp": 10,
+        "probability": 0.42432195999999983
+      },
+      {
+        "hp": 20,
+        "probability": 0.4541560799999999
+      },
+      {
+        "hp": 30,
+        "probability": 0.12152195999999998
+      }
+    ],
+    "player_death_probability": 0.0,
+    "minimum_possible_player_hp": 10,
+    "expected_player_hp": 16.971999999999994,
+    "maximum_scheduled_retaliation_uses": 4,
+    "steps": [
+      {
+        "enemy_id": "synthetic_enemy_1",
+        "player_death_probability": 0.0,
+        "enemy_death_probability": 0.0591,
+        "minimum_possible_player_hp": 20,
+        "expected_player_hp": 23.485999999999997
+      },
+      {
+        "enemy_id": "synthetic_enemy_2",
+        "player_death_probability": 0.0,
+        "enemy_death_probability": 0.059099999999999986,
+        "minimum_possible_player_hp": 10,
+        "expected_player_hp": 16.971999999999994
+      }
+    ]
+  },
+  "conditional_on_observed_inputs": true,
+  "safe_to_claim_survival": false,
+  "safe_to_claim_map_survival": false,
+  "warning": "Only this supplied sequence of distinct observed attackers. Independent uniform RNG model; no AI order/targets/paths, unseen enemies, reinforcements, between-duel events, healing or weapon swaps. Zero modeled player death is conditional, never whole-map safety. Enemy death is reported per step."
+}
+STDERR:
+EXIT: 0
+DIRECT evaluate: independent_composition
+{
+  "conditional_on_observed_inputs": true,
+  "outcome": {
+    "expected_player_hp": 4.45005,
+    "final_hp_distribution": [
+      {
+        "hp": 0,
+        "probability": 0.255025
+      },
+      {
+        "hp": 4,
+        "probability": 0.49995
+      },
+      {
+        "hp": 10,
+        "probability": 0.245025
+      }
+    ],
+    "maximum_scheduled_retaliation_uses": 0,
+    "minimum_possible_player_hp": 0,
+    "player_death_probability": 0.255025,
+    "steps": [
+      {
+        "enemy_death_probability": 0.0,
+        "enemy_id": "enemy_0",
+        "expected_player_hp": 6.970000000000001,
+        "minimum_possible_player_hp": 4,
+        "player_death_probability": 0.0
+      },
+      {
+        "enemy_death_probability": 0.0,
+        "enemy_id": "enemy_1",
+        "expected_player_hp": 4.45005,
+        "minimum_possible_player_hp": 0,
+        "player_death_probability": 0.255025
+      }
+    ]
+  },
+  "safe_to_claim_map_survival": false,
+  "safe_to_claim_survival": false,
+  "status": "POTENTIALLY_LETHAL",
+  "warning": "Only this supplied sequence of distinct observed attackers. Independent uniform RNG model; no AI order/targets/paths, unseen enemies, reinforcements, between-duel events, healing or weapon swaps. Zero modeled player death is conditional, never whole-map safety. Enemy death is reported per step."
+}
+COMMAND: python3 tools/tactical_enemy_phase.py sequence-controls-x64zudo7/independent_composition.json
+{
+  "status": "POTENTIALLY_LETHAL",
+  "outcome": {
+    "final_hp_distribution": [
+      {
+        "hp": 0,
+        "probability": 0.255025
+      },
+      {
+        "hp": 4,
+        "probability": 0.49995
+      },
+      {
+        "hp": 10,
+        "probability": 0.245025
+      }
+    ],
+    "player_death_probability": 0.255025,
+    "minimum_possible_player_hp": 0,
+    "expected_player_hp": 4.45005,
+    "maximum_scheduled_retaliation_uses": 0,
+    "steps": [
+      {
+        "enemy_id": "enemy_0",
+        "player_death_probability": 0.0,
+        "enemy_death_probability": 0.0,
+        "minimum_possible_player_hp": 4,
+        "expected_player_hp": 6.970000000000001
+      },
+      {
+        "enemy_id": "enemy_1",
+        "player_death_probability": 0.255025,
+        "enemy_death_probability": 0.0,
+        "minimum_possible_player_hp": 0,
+        "expected_player_hp": 4.45005
+      }
+    ]
+  },
+  "conditional_on_observed_inputs": true,
+  "safe_to_claim_survival": false,
+  "safe_to_claim_map_survival": false,
+  "warning": "Only this supplied sequence of distinct observed attackers. Independent uniform RNG model; no AI order/targets/paths, unseen enemies, reinforcements, between-duel events, healing or weapon swaps. Zero modeled player death is conditional, never whole-map safety. Enemy death is reported per step."
+}
+STDERR:
+EXIT: 0
+DIRECT evaluate: missing_player_current_hp
+{
+  "outcome": null,
+  "reason": "player.current_hp: required observed value missing",
+  "safe_to_claim_map_survival": false,
+  "safe_to_claim_survival": false,
+  "status": "UNKNOWN"
+}
+COMMAND: python3 tools/tactical_enemy_phase.py sequence-controls-x64zudo7/missing_player_current_hp.json
+{
+  "status": "UNKNOWN",
+  "reason": "player.current_hp: required observed value missing",
+  "outcome": null,
+  "safe_to_claim_survival": false,
+  "safe_to_claim_map_survival": false
+}
+STDERR:
+EXIT: 0
+DIRECT evaluate: missing_player_remaining_uses
+{
+  "outcome": null,
+  "reason": "player.remaining_uses: required observed value missing",
+  "safe_to_claim_map_survival": false,
+  "safe_to_claim_survival": false,
+  "status": "UNKNOWN"
+}
+COMMAND: python3 tools/tactical_enemy_phase.py sequence-controls-x64zudo7/missing_player_remaining_uses.json
+{
+  "status": "UNKNOWN",
+  "reason": "player.remaining_uses: required observed value missing",
+  "outcome": null,
+  "safe_to_claim_survival": false,
+  "safe_to_claim_map_survival": false
+}
+STDERR:
+EXIT: 0
+DIRECT evaluate: death_absorption
+{
+  "conditional_on_observed_inputs": true,
+  "outcome": {
+    "expected_player_hp": 0.0,
+    "final_hp_distribution": [
+      {
+        "hp": 0,
+        "probability": 1.0
+      }
+    ],
+    "maximum_scheduled_retaliation_uses": 0,
+    "minimum_possible_player_hp": 0,
+    "player_death_probability": 1.0,
+    "steps": [
+      {
+        "enemy_death_probability": 0.0,
+        "enemy_id": "enemy_0",
+        "expected_player_hp": 0.0,
+        "minimum_possible_player_hp": 0,
+        "player_death_probability": 1.0
+      },
+      {
+        "enemy_death_probability": 0.0,
+        "enemy_id": "enemy_1",
+        "expected_player_hp": 0.0,
+        "minimum_possible_player_hp": 0,
+        "player_death_probability": 1.0
+      }
+    ]
+  },
+  "safe_to_claim_map_survival": false,
+  "safe_to_claim_survival": false,
+  "status": "LETHAL",
+  "warning": "Only this supplied sequence of distinct observed attackers. Independent uniform RNG model; no AI order/targets/paths, unseen enemies, reinforcements, between-duel events, healing or weapon swaps. Zero modeled player death is conditional, never whole-map safety. Enemy death is reported per step."
+}
+COMMAND: python3 tools/tactical_enemy_phase.py sequence-controls-x64zudo7/death_absorption.json
+{
+  "status": "LETHAL",
+  "outcome": {
+    "final_hp_distribution": [
+      {
+        "hp": 0,
+        "probability": 1.0
+      }
+    ],
+    "player_death_probability": 1.0,
+    "minimum_possible_player_hp": 0,
+    "expected_player_hp": 0.0,
+    "maximum_scheduled_retaliation_uses": 0,
+    "steps": [
+      {
+        "enemy_id": "enemy_0",
+        "player_death_probability": 1.0,
+        "enemy_death_probability": 0.0,
+        "minimum_possible_player_hp": 0,
+        "expected_player_hp": 0.0
+      },
+      {
+        "enemy_id": "enemy_1",
+        "player_death_probability": 1.0,
+        "enemy_death_probability": 0.0,
+        "minimum_possible_player_hp": 0,
+        "expected_player_hp": 0.0
+      }
+    ]
+  },
+  "conditional_on_observed_inputs": true,
+  "safe_to_claim_survival": false,
+  "safe_to_claim_map_survival": false,
+  "warning": "Only this supplied sequence of distinct observed attackers. Independent uniform RNG model; no AI order/targets/paths, unseen enemies, reinforcements, between-duel events, healing or weapon swaps. Zero modeled player death is conditional, never whole-map safety. Enemy death is reported per step."
+}
+STDERR:
+EXIT: 0
+DIRECT evaluate: unsupported_tail_after_certain_death
+{
+  "outcome": null,
+  "reason": "enemies[1] (attacker=unit, defender=player): Unsupported combat skills: counter",
+  "safe_to_claim_map_survival": false,
+  "safe_to_claim_survival": false,
+  "status": "UNKNOWN"
+}
+COMMAND: python3 tools/tactical_enemy_phase.py sequence-controls-x64zudo7/unsupported_tail_after_certain_death.json
+{
+  "status": "UNKNOWN",
+  "reason": "enemies[1] (attacker=unit, defender=player): Unsupported combat skills: counter",
+  "outcome": null,
+  "safe_to_claim_survival": false,
+  "safe_to_claim_map_survival": false
+}
+STDERR:
+EXIT: 0
+DIRECT evaluate: malformed_tail_after_certain_death
+{
+  "outcome": null,
+  "reason": "enemies[1].unit.skills: requires a list of nonempty strings; [] confirms none",
+  "safe_to_claim_map_survival": false,
+  "safe_to_claim_survival": false,
+  "status": "UNKNOWN"
+}
+COMMAND: python3 tools/tactical_enemy_phase.py sequence-controls-x64zudo7/malformed_tail_after_certain_death.json
+{
+  "status": "UNKNOWN",
+  "reason": "enemies[1].unit.skills: requires a list of nonempty strings; [] confirms none",
+  "outcome": null,
+  "safe_to_claim_survival": false,
+  "safe_to_claim_map_survival": false
+}
+STDERR:
+EXIT: 0
+DIRECT evaluate: newly_active_vantage_early_kill
+{
+  "conditional_on_observed_inputs": true,
+  "outcome": {
+    "expected_player_hp": 9.0,
+    "final_hp_distribution": [
+      {
+        "hp": 9,
+        "probability": 1.0
+      }
+    ],
+    "maximum_scheduled_retaliation_uses": 2,
+    "minimum_possible_player_hp": 9,
+    "player_death_probability": 0.0,
+    "steps": [
+      {
+        "enemy_death_probability": 1.0,
+        "enemy_id": "enemy_0",
+        "expected_player_hp": 9.0,
+        "minimum_possible_player_hp": 9,
+        "player_death_probability": 0.0
+      },
+      {
+        "enemy_death_probability": 1.0,
+        "enemy_id": "enemy_1",
+        "expected_player_hp": 9.0,
+        "minimum_possible_player_hp": 9,
+        "player_death_probability": 0.0
+      }
+    ]
+  },
+  "safe_to_claim_map_survival": false,
+  "safe_to_claim_survival": false,
+  "status": "NO_MODELED_PLAYER_DEATH_IN_THIS_SEQUENCE",
+  "warning": "Only this supplied sequence of distinct observed attackers. Independent uniform RNG model; no AI order/targets/paths, unseen enemies, reinforcements, between-duel events, healing or weapon swaps. Zero modeled player death is conditional, never whole-map safety. Enemy death is reported per step."
+}
+COMMAND: python3 tools/tactical_enemy_phase.py sequence-controls-x64zudo7/newly_active_vantage_early_kill.json
+{
+  "status": "NO_MODELED_PLAYER_DEATH_IN_THIS_SEQUENCE",
+  "outcome": {
+    "final_hp_distribution": [
+      {
+        "hp": 9,
+        "probability": 1.0
+      }
+    ],
+    "player_death_probability": 0.0,
+    "minimum_possible_player_hp": 9,
+    "expected_player_hp": 9.0,
+    "maximum_scheduled_retaliation_uses": 2,
+    "steps": [
+      {
+        "enemy_id": "enemy_0",
+        "player_death_probability": 0.0,
+        "enemy_death_probability": 1.0,
+        "minimum_possible_player_hp": 9,
+        "expected_player_hp": 9.0
+      },
+      {
+        "enemy_id": "enemy_1",
+        "player_death_probability": 0.0,
+        "enemy_death_probability": 1.0,
+        "minimum_possible_player_hp": 9,
+        "expected_player_hp": 9.0
+      }
+    ]
+  },
+  "conditional_on_observed_inputs": true,
+  "safe_to_claim_survival": false,
+  "safe_to_claim_map_survival": false,
+  "warning": "Only this supplied sequence of distinct observed attackers. Independent uniform RNG model; no AI order/targets/paths, unseen enemies, reinforcements, between-duel events, healing or weapon swaps. Zero modeled player death is conditional, never whole-map safety. Enemy death is reported per step."
+}
+STDERR:
+EXIT: 0
+DIRECT evaluate: cumulative_durability_refusal
+{
+  "outcome": null,
+  "reason": "player.remaining_uses: possible cumulative retaliation breakage; requires at least 2 uses for conservative scheduled maximum",
+  "safe_to_claim_map_survival": false,
+  "safe_to_claim_survival": false,
+  "status": "UNKNOWN"
+}
+COMMAND: python3 tools/tactical_enemy_phase.py sequence-controls-x64zudo7/cumulative_durability_refusal.json
+{
+  "status": "UNKNOWN",
+  "reason": "player.remaining_uses: possible cumulative retaliation breakage; requires at least 2 uses for conservative scheduled maximum",
+  "outcome": null,
+  "safe_to_claim_survival": false,
+  "safe_to_claim_map_survival": false
+}
+STDERR:
+EXIT: 0
+DIRECT evaluate: repeated_entity
+{
+  "outcome": null,
+  "reason": "enemies[1].id: repeated entity or player identity; only distinct attackers supported",
+  "safe_to_claim_map_survival": false,
+  "safe_to_claim_survival": false,
+  "status": "UNKNOWN"
+}
+COMMAND: python3 tools/tactical_enemy_phase.py sequence-controls-x64zudo7/repeated_entity.json
+{
+  "status": "UNKNOWN",
+  "reason": "enemies[1].id: repeated entity or player identity; only distinct attackers supported",
+  "outcome": null,
+  "safe_to_claim_survival": false,
+  "safe_to_claim_map_survival": false
+}
+STDERR:
+EXIT: 0
+DIRECT evaluate: conflicting_context_turn
+{
+  "outcome": null,
+  "reason": "enemies[1].context.turn: conflicts with this fixed sequence context",
+  "safe_to_claim_map_survival": false,
+  "safe_to_claim_survival": false,
+  "status": "UNKNOWN"
+}
+COMMAND: python3 tools/tactical_enemy_phase.py sequence-controls-x64zudo7/conflicting_context_turn.json
+{
+  "status": "UNKNOWN",
+  "reason": "enemies[1].context.turn: conflicts with this fixed sequence context",
+  "outcome": null,
+  "safe_to_claim_survival": false,
+  "safe_to_claim_map_survival": false
+}
+STDERR:
+EXIT: 0
+DIRECT evaluate: conflicting_context_outdoors
+{
+  "outcome": null,
+  "reason": "enemies[1].context.outdoors: conflicts with this fixed sequence context",
+  "safe_to_claim_map_survival": false,
+  "safe_to_claim_survival": false,
+  "status": "UNKNOWN"
+}
+COMMAND: python3 tools/tactical_enemy_phase.py sequence-controls-x64zudo7/conflicting_context_outdoors.json
+{
+  "status": "UNKNOWN",
+  "reason": "enemies[1].context.outdoors: conflicts with this fixed sequence context",
+  "outcome": null,
+  "safe_to_claim_survival": false,
+  "safe_to_claim_map_survival": false
+}
+STDERR:
+EXIT: 0
+DIRECT evaluate: dynamic_sol_overkill_refusal
+{
+  "outcome": null,
+  "reason": "enemies[1] (attacker=unit, defender=player): Sol overkill healing cap is unverified; supply observed result",
+  "safe_to_claim_map_survival": false,
+  "safe_to_claim_survival": false,
+  "status": "UNKNOWN"
+}
+COMMAND: python3 tools/tactical_enemy_phase.py sequence-controls-x64zudo7/dynamic_sol_overkill_refusal.json
+{
+  "status": "UNKNOWN",
+  "reason": "enemies[1] (attacker=unit, defender=player): Sol overkill healing cap is unverified; supply observed result",
+  "outcome": null,
+  "safe_to_claim_survival": false,
+  "safe_to_claim_map_survival": false
+}
+STDERR:
+EXIT: 0
+COMMAND: python3 tools/tactical_enemy_phase.py sequence-controls-x64zudo7/invalid.json
+STDOUT:
+STDERR: Cannot read sequence JSON: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+EXIT: 2
+All synthetic payloads and temporary input files preserved; controls exit 0.

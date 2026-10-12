@@ -1,0 +1,55 @@
+independent two attack distribution: PASS POTENTIALLY_LETHAL
+distribution: [{"hp": 0, "probability": 0.0643875}, {"hp": 4, "probability": 0.4406125}, {"hp": 5, "probability": 0.0631125}, {"hp": 10, "probability": 0.43188750000000004}]
+legacy supported equivalence: PASS
+certain death absorption: PASS LETHAL
+critical distribution: PASS POTENTIALLY_LETHAL
+early enemy kill cancels double: PASS NO_MODELED_PLAYER_DEATH_IN_THIS_SEQUENCE
+HP-dependent Vantage recomputation: PASS NO_MODELED_PLAYER_DEATH_IN_THIS_SEQUENCE
+cumulative conservative uses: PASS UNKNOWN
+sufficient cumulative uses: PASS NO_MODELED_PLAYER_DEATH_IN_THIS_SEQUENCE
+dynamic Sol overkill after HP loss: PASS UNKNOWN
+missing player current_hp: PASS UNKNOWN
+missing player remaining_uses: PASS UNKNOWN
+missing player stats: PASS UNKNOWN
+missing player skills: PASS UNKNOWN
+missing player weaknesses: PASS UNKNOWN
+missing player terrain: PASS UNKNOWN
+missing player combat_bonuses: PASS UNKNOWN
+missing player weapon_rank: PASS UNKNOWN
+missing player weapon: PASS UNKNOWN
+bad player current_hp True: PASS UNKNOWN
+bad player current_hp 1.2: PASS UNKNOWN
+bad player remaining_uses True: PASS UNKNOWN
+bad player skills '': PASS UNKNOWN
+bad player skills {}: PASS UNKNOWN
+bad player weaknesses '': PASS UNKNOWN
+bad player terrain []: PASS UNKNOWN
+bad player combat_bonuses []: PASS UNKNOWN
+bad player alive False: PASS UNKNOWN
+bad player forge {'might': 1}: PASS UNKNOWN
+tail duplicate: PASS UNKNOWN
+tail player_id: PASS UNKNOWN
+tail partners: PASS UNKNOWN
+tail turn: PASS UNKNOWN
+tail outdoors: PASS UNKNOWN
+tail distance: PASS UNKNOWN
+tail counter: PASS UNKNOWN
+tail drain: PASS UNKNOWN
+tail unknown_effect: PASS UNKNOWN
+tail tail_skill: PASS UNKNOWN
+tail tail_shape: PASS UNKNOWN
+tail turn_bool: PASS UNKNOWN
+tail outdoors_int: PASS UNKNOWN
+tail weapon_type: PASS UNKNOWN
+tail damage_type: PASS UNKNOWN
+tail weakness: PASS UNKNOWN
+tail brave_conflict: PASS UNKNOWN
+missing context lucky_seven: PASS UNKNOWN
+missing context even_rhythm: PASS UNKNOWN
+missing context odd_rhythm: PASS UNKNOWN
+missing context indoor_fighter: PASS UNKNOWN
+missing context outdoor_fighter: PASS UNKNOWN
+optional non-required context may be omitted later: PASS POTENTIALLY_LETHAL
+CLI supported: PASS exit 0
+CLI unknown: PASS exit 0
+Independent controls: 50 PASS; all inputs immutable
