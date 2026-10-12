@@ -1,0 +1,25 @@
+CODE COMMIT: 3501e3d592bb79295820a0d5f9ccb121239834db
+COMMAND: python3 tools/fw.py check
+0 error(s), 0 warning(s)
+EXIT: 0
+COMMAND: python3 -m unittest discover -s tests -p test_sequence_input.py -v
+test_confirmations_are_independent_and_renewed (test_sequence_input.SequenceInputTests) ... ok
+test_context_conflicts_and_missing_not_inherited (test_sequence_input.SequenceInputTests) ... ok
+test_duplicate_json_run_sources_and_same_file_aliases (test_sequence_input.SequenceInputTests) ... ok
+test_exact_existing_sequence_and_assessment_equality (test_sequence_input.SequenceInputTests) ... ok
+test_explicit_cli_order_sources_read_only_and_missing_confirmation (test_sequence_input.SequenceInputTests) ... ok
+test_guided_no_json_editing_and_cancellation (test_sequence_input.SequenceInputTests) ... ok
+test_malformed_sources_and_nonmechanical_note (test_sequence_input.SequenceInputTests) ... ok
+test_mismatched_stale_missing_and_type_changed_player (test_sequence_input.SequenceInputTests) ... ok
+test_output_create_only_traversal_symlinks_and_live_run_protection (test_sequence_input.SequenceInputTests) ... ok
+test_rulesets_support_and_identity_conflicts (test_sequence_input.SequenceInputTests) ... ok
+test_unknown_supplied_keys_refuse_without_disappearing (test_sequence_input.SequenceInputTests) ... ok
+test_unsupported_tail_forged_paired_and_unarmed (test_sequence_input.SequenceInputTests) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.900s
+
+OK
+EXIT: 0
+COMMAND: git diff 5c596d42adb3d2a5eeee460032ee20bdd4bb78ba..HEAD --check
+EXIT: 0

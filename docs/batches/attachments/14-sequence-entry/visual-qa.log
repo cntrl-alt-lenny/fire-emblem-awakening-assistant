@@ -1,0 +1,13 @@
+CODE COMMIT: 7b6cc0d74357abba53312dd217c1b9317a0271ec
+COMMAND: node /tmp/fea-2026-10-12-render.cjs docs/sequence-entry.md
+OUTPUT: sequence-entry.md: local links resolve; no overflow; full-page PNG produced
+EXIT: 0
+Four local reference links resolve. Inspected full-page PNG via view_image:
+headings, sequential instructions and code samples readable; no clipping,
+overlap or horizontal overflow. Runtime renderer/screenshots remain private.
+Presentation inspection does not verify gameplay or human usability.
+
+COMMAND: node /tmp/fea-2026-10-12-render.cjs docs/batches/14-sequence-entry.md
+OUTPUT: 14-sequence-entry.md: local links resolve; no overflow; full-page PNG produced
+EXIT: 0
+Inspected summary PNG: four sections, evidence table and links readable; no clipping.
