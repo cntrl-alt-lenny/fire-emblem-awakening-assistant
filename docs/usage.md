@@ -13,7 +13,20 @@ reference output and its spoiler/provenance views:
 python3 tools/play_briefing.py --chapter 7 --difficulty hard --turn 5 --phase player
 ```
 
-For observed combat, read the [duel input contract](combat-input-shapes.md) and
+For observed combat, [guided duel entry](guided-observation.md) collects actual
+observations without hand-written JSON. [Sequence assembly](sequence-entry.md)
+uses saved duel files and explicit entity IDs in a supplied order:
+
+```sh
+python3 tools/observed_input.py --output state/observations/new-duel.json
+python3 tools/sequence_input.py
+```
+
+Saved observations stay local and ignored. Saving creates a new file only;
+editing requires deliberate reuse and renewed confirmation. Blank observations
+remain unknown. Neither helper starts or updates a run.
+
+Read the [duel input contract](combat-input-shapes.md) and
 [skill context requirements](combat-context.md). The new
 [observed attack-sequence tool](observed-enemy-sequence.md) accepts a supplied
 order of distinct observed attackers:

@@ -102,6 +102,21 @@ def main():
     assert unknown(edited, assess)['observed_inputs_complete'] is False
     assert json.loads(edited.stdout)['attacker']['weapon']['range'] == '?'
 
+    nested = copy.deepcopy(original)
+    nested['attacker']['forge'] = {'might': None}
+    (observations / 'nested.json').write_text(json.dumps(nested))
+    edited = collect(['keep'] * 27 + ['yes'], ['--edit', 'state/observations/nested.json'])
+    assert unknown(edited, assess)['observed_inputs_complete'] is False
+    assert json.loads(edited.stdout)['attacker']['forge'] == {'might': None}
+    for field, value in (('alive', '?'), ('alive', 'false'), ('forge', []), ('forge', {})):
+        marked = copy.deepcopy(original)
+        marked['attacker'][field] = value
+        (observations / 'extra.json').write_text(json.dumps(marked))
+        edited = collect(['keep'] * 27 + ['yes'], ['--edit', 'state/observations/extra.json'])
+        result = unknown(edited, assess)
+        assert result['observed_inputs_complete'] is False
+        assert result['attacker'][field] == value
+
     incomplete = command('sequence_input', selections)
     assert unknown(incomplete, evaluate)['observed_inputs_complete'] is False
     mismatched = copy.deepcopy(original)
