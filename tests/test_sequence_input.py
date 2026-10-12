@@ -13,7 +13,7 @@ from unittest.mock import patch
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'tools'))
 from sequence_input import assemble, create_output, read_duel
-from tactical_enemy_phase import evaluate
+from tactical_enemy_phase import evaluate, WEAPON_FIELDS
 from tactical_combat import known_weapon
 
 
@@ -104,7 +104,9 @@ class SequenceInputTests(unittest.TestCase):
                 lambda d: d['attacker']['weapon'].update(effect='Drains HP'),
                 lambda d: d['attacker']['weapon'].update(forge_marker='++')):
             expected, duels = fixtures()
-            duels[1][1]['attacker']['weapon'] = known_weapon(duels[1][1]['attacker'], 'attacker')
+            duels[1][1]['attacker']['weapon'] = {
+                key: value for key, value in known_weapon(duels[1][1]['attacker'], 'attacker').items()
+                if key in WEAPON_FIELDS}
             mutate(duels[1][1])
             actual = assemble(expected['player_id'], duels, True, True, True)
             self.assertEqual(actual['enemies'][1]['unit'], duels[1][1]['attacker'])
@@ -120,11 +122,14 @@ class SequenceInputTests(unittest.TestCase):
             duel['defender'].update(weapon=None, weapon_state='unequipped', remaining_uses=0)
         actual = assemble(expected['player_id'], duels, True, True, True)
         self.assertIsNotNone(evaluate(actual)['outcome'])
-        duels[1][1]['attacker']['weapon'] = known_weapon(duels[1][1]['attacker'], 'attacker')
+        duels[1][1]['attacker']['weapon'] = {
+            key: value for key, value in known_weapon(duels[1][1]['attacker'], 'attacker').items()
+            if key in WEAPON_FIELDS}
         duels[1][1]['attacker']['weapon']['might'] += 1
         actual = assemble(expected['player_id'], duels, True, True, True)
         self.assertEqual(actual['enemies'][1]['unit']['weapon']['might'],
                          duels[1][1]['attacker']['weapon']['might'])
+        self.assertIsNotNone(evaluate(actual)['outcome'])
 
     def test_context_conflicts_and_missing_not_inherited(self):
         expected, duels = fixtures()
