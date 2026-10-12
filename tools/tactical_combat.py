@@ -4,8 +4,31 @@ Unknown input completeness or unsupported effects produce UNKNOWN, never reassur
 """
 import argparse,copy
 from common import read_json,dump,lookup
-from combat_calculator import calculate,SAFE_WEAPON_EFFECTS
+from combat_calculator import calculate,SAFE_WEAPON_EFFECTS,SAFE_SKILLS
+from combat_events import EVENT_SKILLS
 REQUIRED=('stats','current_hp','weapon','weapon_rank','skills','weaknesses','terrain','combat_bonuses','remaining_uses')
+
+def require_observation_shape(unit, side):
+ """Validate observations without coercing collections or dropping real effects."""
+ for field in ('skills','weaknesses'):
+  values=unit[field]
+  if not isinstance(values,list):
+   raise ValueError(side+':'+field+' requires an explicit list of strings; [] means confirmed none')
+  for index,value in enumerate(values):
+   if type(value) is not str:
+    raise ValueError(side+':'+field+'['+str(index)+'] must be a string ID/category')
+ if len(unit['skills'])>5:raise ValueError(side+':skills: at most five equipped skills')
+ unknown=set(unit['skills'])-SAFE_SKILLS-EVENT_SKILLS
+ if unknown:raise ValueError(side+':skills: Unsupported combat skills: '+', '.join(sorted(unknown)))
+ if set(unit['weaknesses'])-{'beast','dragon','armour','flying'}:
+  raise ValueError(side+':weaknesses: Unknown weakness category; use canonical beast/dragon/armour/flying')
+ hp=unit['current_hp']
+ if type(hp) is not int:
+  raise ValueError(side+':current_hp requires an integer (not boolean or float)')
+ stats=unit['stats']
+ maximum=stats.get('hp') if isinstance(stats,dict) else None
+ if hp<1 or (type(maximum) is int and hp>maximum):
+  raise ValueError(side+':current_hp must be within 1..observed max HP')
 
 def require_skill_context(unit, side, context):
  """Reject unknown skill conditions before the calculator can coerce/default them."""
@@ -63,6 +86,7 @@ def assess(payload):
  if missing:return {'status':'UNKNOWN','missing':missing,'safe_to_claim_survival':False,'outcome':None}
  if payload['support_state']!='none':return {'status':'UNKNOWN','reason':'Full paired/adjacent Dual Strike and Dual Guard outcome is unsupported; use pair_up/paired_forecast for supported bonuses and rates.','safe_to_claim_survival':False,'outcome':None}
  try:
+  for side in ('attacker','defender'):require_observation_shape(payload[side],side)
   for side in ('attacker','defender'):require_skill_context(payload[side],side,payload['context'])
   prepared=copy.deepcopy(payload)
   for side in ('attacker','defender'):prepared[side]['weapon']=known_weapon(prepared[side],side)

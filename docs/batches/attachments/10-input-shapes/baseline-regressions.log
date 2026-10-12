@@ -1,0 +1,2336 @@
+Evidence paths redacted for public portability; outputs/exits otherwise retained.
+Baseline gate: e78fa7bcc245071556a408f725105ac63ce7a8e9
+New synthetic regression tests applied before implementation.
+Command: python3 -m unittest discover -s tests -p test_combat_input_shapes.py -v
+
+test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) ... test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) ... test_context_and_real_effect_refusals_preserved (test_combat_input_shapes.CombatInputShapeTests) ... ok
+test_hp_types_and_bounds_both_sides (test_combat_input_shapes.CombatInputShapeTests) ... test_missing_and_null_fields_both_sides (test_combat_input_shapes.CombatInputShapeTests) ... ok
+test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) ... test_supported_collections_and_hp_controls (test_combat_input_shapes.CombatInputShapeTests) ... ok
+test_unequipped_defender_still_validates_observation (test_combat_input_shapes.CombatInputShapeTests) ... FAIL
+test_unknown_membership_both_sides (test_combat_input_shapes.CombatInputShapeTests) ... FAIL
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', elements=[None])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in 'sequence item 0: expected str instance, NoneType found'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', elements=['veteran', None])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in 'sequence item 0: expected str instance, NoneType found'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', elements=[True])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in 'sequence item 0: expected str instance, bool found'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', elements=['veteran', True])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in 'sequence item 0: expected str instance, bool found'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', elements=[False])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in 'sequence item 0: expected str instance, bool found'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', elements=['veteran', False])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in 'sequence item 0: expected str instance, bool found'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', elements=[0])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in 'sequence item 0: expected str instance, int found'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', elements=['veteran', 0])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in 'sequence item 0: expected str instance, int found'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', elements=[1])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in 'sequence item 0: expected str instance, int found'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', elements=['veteran', 1])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in 'sequence item 0: expected str instance, int found'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', elements=[1.5])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in 'sequence item 0: expected str instance, float found'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', elements=['veteran', 1.5])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in 'sequence item 0: expected str instance, float found'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', elements=[[]])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in "unhashable type: 'list'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', elements=['veteran', []])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in "unhashable type: 'list'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', elements=[{}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in "unhashable type: 'dict'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', elements=['veteran', {}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in "unhashable type: 'dict'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', elements=[['veteran']])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in "unhashable type: 'list'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', elements=['veteran', ['veteran']])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in "unhashable type: 'list'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', elements=[{'veteran': True}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in "unhashable type: 'dict'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', elements=['veteran', {'veteran': True}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in "unhashable type: 'dict'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', elements=[('veteran',)])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in 'sequence item 0: expected str instance, tuple found'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', elements=['veteran', ('veteran',)])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in 'sequence item 0: expected str instance, tuple found'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', elements=[{'veteran'}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in "unhashable type: 'set'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', elements=['veteran', {'veteran'}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in "unhashable type: 'set'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', elements=[None])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', elements=['flying', None])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', elements=[True])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', elements=['flying', True])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', elements=[False])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', elements=['flying', False])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', elements=[0])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', elements=['flying', 0])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', elements=[1])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', elements=['flying', 1])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', elements=[1.5])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', elements=['flying', 1.5])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', elements=[[]])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in "unhashable type: 'list'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', elements=['flying', []])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in "unhashable type: 'list'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', elements=[{}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in "unhashable type: 'dict'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', elements=['flying', {}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in "unhashable type: 'dict'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', elements=[['flying']])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in "unhashable type: 'list'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', elements=['flying', ['flying']])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in "unhashable type: 'list'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', elements=[{'flying': True}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in "unhashable type: 'dict'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', elements=['flying', {'flying': True}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in "unhashable type: 'dict'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', elements=[('flying',)])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', elements=['flying', ('flying',)])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', elements=[{'flying'}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in "unhashable type: 'set'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', elements=['flying', {'flying'}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in "unhashable type: 'set'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', elements=[None])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:skills' not found in 'sequence item 0: expected str instance, NoneType found'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', elements=['veteran', None])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:skills' not found in 'sequence item 0: expected str instance, NoneType found'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', elements=[True])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:skills' not found in 'sequence item 0: expected str instance, bool found'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', elements=['veteran', True])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:skills' not found in 'sequence item 0: expected str instance, bool found'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', elements=[False])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:skills' not found in 'sequence item 0: expected str instance, bool found'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', elements=['veteran', False])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:skills' not found in 'sequence item 0: expected str instance, bool found'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', elements=[0])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:skills' not found in 'sequence item 0: expected str instance, int found'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', elements=['veteran', 0])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:skills' not found in 'sequence item 0: expected str instance, int found'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', elements=[1])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:skills' not found in 'sequence item 0: expected str instance, int found'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', elements=['veteran', 1])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:skills' not found in 'sequence item 0: expected str instance, int found'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', elements=[1.5])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:skills' not found in 'sequence item 0: expected str instance, float found'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', elements=['veteran', 1.5])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:skills' not found in 'sequence item 0: expected str instance, float found'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', elements=[[]])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:skills' not found in "unhashable type: 'list'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', elements=['veteran', []])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:skills' not found in "unhashable type: 'list'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', elements=[{}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:skills' not found in "unhashable type: 'dict'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', elements=['veteran', {}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:skills' not found in "unhashable type: 'dict'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', elements=[['veteran']])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:skills' not found in "unhashable type: 'list'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', elements=['veteran', ['veteran']])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:skills' not found in "unhashable type: 'list'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', elements=[{'veteran': True}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:skills' not found in "unhashable type: 'dict'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', elements=['veteran', {'veteran': True}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:skills' not found in "unhashable type: 'dict'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', elements=[('veteran',)])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:skills' not found in 'sequence item 0: expected str instance, tuple found'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', elements=['veteran', ('veteran',)])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:skills' not found in 'sequence item 0: expected str instance, tuple found'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', elements=[{'veteran'}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:skills' not found in "unhashable type: 'set'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', elements=['veteran', {'veteran'}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:skills' not found in "unhashable type: 'set'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', elements=[None])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', elements=['flying', None])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', elements=[True])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', elements=['flying', True])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', elements=[False])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', elements=['flying', False])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', elements=[0])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', elements=['flying', 0])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', elements=[1])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', elements=['flying', 1])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', elements=[1.5])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', elements=['flying', 1.5])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', elements=[[]])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in "unhashable type: 'list'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', elements=['flying', []])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in "unhashable type: 'list'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', elements=[{}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in "unhashable type: 'dict'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', elements=['flying', {}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in "unhashable type: 'dict'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', elements=[['flying']])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in "unhashable type: 'list'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', elements=['flying', ['flying']])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in "unhashable type: 'list'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', elements=[{'flying': True}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in "unhashable type: 'dict'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', elements=['flying', {'flying': True}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in "unhashable type: 'dict'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', elements=[('flying',)])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', elements=['flying', ('flying',)])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', elements=[{'flying'}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in "unhashable type: 'set'"
+
+======================================================================
+FAIL: test_collection_element_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', elements=['flying', {'flying'}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 60, in test_collection_element_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in "unhashable type: 'set'"
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', value='')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 24, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', value='veteran')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in 'At most five equipped skills'
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', value={})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 24, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', value={'veteran': True})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 24, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', value=())
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 24, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', value=('veteran',))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 24, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', value=set())
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 24, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', value={'veteran'})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 24, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', value=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in "argument of type 'bool' is not iterable"
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', value=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in "argument of type 'bool' is not iterable"
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', value=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in "argument of type 'int' is not iterable"
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', value=1.5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in "argument of type 'float' is not iterable"
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', value='')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 24, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', value='veteran')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', value={})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 24, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', value={'veteran': True})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', value=())
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 24, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', value=('veteran',))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', value=set())
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 24, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', value={'veteran'})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', value=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in "'bool' object is not iterable"
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', value=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in "'bool' object is not iterable"
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', value=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in "'int' object is not iterable"
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', value=1.5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in "'float' object is not iterable"
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', value='')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 24, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', value='veteran')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:skills' not found in 'At most five equipped skills'
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', value={})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 24, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', value={'veteran': True})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 24, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', value=())
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 24, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', value=('veteran',))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 24, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', value=set())
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 24, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', value={'veteran'})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 24, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', value=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:skills' not found in "argument of type 'bool' is not iterable"
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', value=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:skills' not found in "argument of type 'bool' is not iterable"
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', value=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:skills' not found in "argument of type 'int' is not iterable"
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', value=1.5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:skills' not found in "argument of type 'float' is not iterable"
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', value='')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 24, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', value='veteran')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', value={})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 24, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', value={'veteran': True})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', value=())
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 24, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', value=('veteran',))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', value=set())
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 24, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', value={'veteran'})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', value=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in "'bool' object is not iterable"
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', value=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in "'bool' object is not iterable"
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', value=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in "'int' object is not iterable"
+
+======================================================================
+FAIL: test_collection_types_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', value=1.5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 49, in test_collection_types_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in "'float' object is not iterable"
+
+======================================================================
+FAIL: test_hp_types_and_bounds_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', value=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 80, in test_hp_types_and_bounds_both_sides
+    self.assert_unknown(payload, side, 'current_hp')
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 24, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'POTENTIALLY_LETHAL' != 'UNKNOWN'
+- POTENTIALLY_LETHAL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_hp_types_and_bounds_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', value=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 80, in test_hp_types_and_bounds_both_sides
+    self.assert_unknown(payload, side, 'current_hp')
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:current_hp' not found in 'Current HP must be within 1..max HP'
+
+======================================================================
+FAIL: test_hp_types_and_bounds_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', value=1.0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 80, in test_hp_types_and_bounds_both_sides
+    self.assert_unknown(payload, side, 'current_hp')
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 24, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'POTENTIALLY_LETHAL' != 'UNKNOWN'
+- POTENTIALLY_LETHAL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_hp_types_and_bounds_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', value=1.5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 80, in test_hp_types_and_bounds_both_sides
+    self.assert_unknown(payload, side, 'current_hp')
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 24, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'POTENTIALLY_LETHAL' != 'UNKNOWN'
+- POTENTIALLY_LETHAL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_hp_types_and_bounds_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', value=40.0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 80, in test_hp_types_and_bounds_both_sides
+    self.assert_unknown(payload, side, 'current_hp')
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 24, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_hp_types_and_bounds_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', value='1')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 80, in test_hp_types_and_bounds_both_sides
+    self.assert_unknown(payload, side, 'current_hp')
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:current_hp' not found in "'<' not supported between instances of 'int' and 'str'"
+
+======================================================================
+FAIL: test_hp_types_and_bounds_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', value='')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 80, in test_hp_types_and_bounds_both_sides
+    self.assert_unknown(payload, side, 'current_hp')
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:current_hp' not found in "'<' not supported between instances of 'int' and 'str'"
+
+======================================================================
+FAIL: test_hp_types_and_bounds_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', value=[])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 80, in test_hp_types_and_bounds_both_sides
+    self.assert_unknown(payload, side, 'current_hp')
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:current_hp' not found in "'<' not supported between instances of 'int' and 'list'"
+
+======================================================================
+FAIL: test_hp_types_and_bounds_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', value={})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 80, in test_hp_types_and_bounds_both_sides
+    self.assert_unknown(payload, side, 'current_hp')
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:current_hp' not found in "'<' not supported between instances of 'int' and 'dict'"
+
+======================================================================
+FAIL: test_hp_types_and_bounds_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', value=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 80, in test_hp_types_and_bounds_both_sides
+    self.assert_unknown(payload, side, 'current_hp')
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:current_hp' not found in 'Current HP must be within 1..max HP'
+
+======================================================================
+FAIL: test_hp_types_and_bounds_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', value=-1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 80, in test_hp_types_and_bounds_both_sides
+    self.assert_unknown(payload, side, 'current_hp')
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:current_hp' not found in 'Current HP must be within 1..max HP'
+
+======================================================================
+FAIL: test_hp_types_and_bounds_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', value=41)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 80, in test_hp_types_and_bounds_both_sides
+    self.assert_unknown(payload, side, 'current_hp')
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:current_hp' not found in 'Current HP must be within 1..max HP'
+
+======================================================================
+FAIL: test_hp_types_and_bounds_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', value=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 80, in test_hp_types_and_bounds_both_sides
+    self.assert_unknown(payload, side, 'current_hp')
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 24, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'POTENTIALLY_LETHAL' != 'UNKNOWN'
+- POTENTIALLY_LETHAL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_hp_types_and_bounds_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', value=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 80, in test_hp_types_and_bounds_both_sides
+    self.assert_unknown(payload, side, 'current_hp')
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:current_hp' not found in 'Current HP must be within 1..max HP'
+
+======================================================================
+FAIL: test_hp_types_and_bounds_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', value=1.0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 80, in test_hp_types_and_bounds_both_sides
+    self.assert_unknown(payload, side, 'current_hp')
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 24, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'POTENTIALLY_LETHAL' != 'UNKNOWN'
+- POTENTIALLY_LETHAL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_hp_types_and_bounds_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', value=1.5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 80, in test_hp_types_and_bounds_both_sides
+    self.assert_unknown(payload, side, 'current_hp')
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 24, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'POTENTIALLY_LETHAL' != 'UNKNOWN'
+- POTENTIALLY_LETHAL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_hp_types_and_bounds_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', value=40.0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 80, in test_hp_types_and_bounds_both_sides
+    self.assert_unknown(payload, side, 'current_hp')
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 24, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_hp_types_and_bounds_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', value='1')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 80, in test_hp_types_and_bounds_both_sides
+    self.assert_unknown(payload, side, 'current_hp')
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:current_hp' not found in "'<' not supported between instances of 'int' and 'str'"
+
+======================================================================
+FAIL: test_hp_types_and_bounds_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', value='')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 80, in test_hp_types_and_bounds_both_sides
+    self.assert_unknown(payload, side, 'current_hp')
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:current_hp' not found in "'<' not supported between instances of 'int' and 'str'"
+
+======================================================================
+FAIL: test_hp_types_and_bounds_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', value=[])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 80, in test_hp_types_and_bounds_both_sides
+    self.assert_unknown(payload, side, 'current_hp')
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:current_hp' not found in "'<' not supported between instances of 'int' and 'list'"
+
+======================================================================
+FAIL: test_hp_types_and_bounds_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', value={})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 80, in test_hp_types_and_bounds_both_sides
+    self.assert_unknown(payload, side, 'current_hp')
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:current_hp' not found in "'<' not supported between instances of 'int' and 'dict'"
+
+======================================================================
+FAIL: test_hp_types_and_bounds_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', value=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 80, in test_hp_types_and_bounds_both_sides
+    self.assert_unknown(payload, side, 'current_hp')
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:current_hp' not found in 'Current HP must be within 1..max HP'
+
+======================================================================
+FAIL: test_hp_types_and_bounds_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', value=-1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 80, in test_hp_types_and_bounds_both_sides
+    self.assert_unknown(payload, side, 'current_hp')
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:current_hp' not found in 'Current HP must be within 1..max HP'
+
+======================================================================
+FAIL: test_hp_types_and_bounds_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', value=41)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 80, in test_hp_types_and_bounds_both_sides
+    self.assert_unknown(payload, side, 'current_hp')
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:current_hp' not found in 'Current HP must be within 1..max HP'
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', value='')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 162, in test_public_json_cli_both_sides
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', value={})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 162, in test_public_json_cli_both_sides
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', value=[None])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 165, in test_public_json_cli_both_sides
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in 'sequence item 0: expected str instance, NoneType found'
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', value=[False])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 165, in test_public_json_cli_both_sides
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in 'sequence item 0: expected str instance, bool found'
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', value=[0])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 165, in test_public_json_cli_both_sides
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in 'sequence item 0: expected str instance, int found'
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', value=[[]])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 165, in test_public_json_cli_both_sides
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in "unhashable type: 'list'"
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', value=[{}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 165, in test_public_json_cli_both_sides
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in "unhashable type: 'dict'"
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', value=['UNKNOWN'])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 165, in test_public_json_cli_both_sides
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in 'Unsupported combat skills: UNKNOWN'
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', value='')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 162, in test_public_json_cli_both_sides
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', value={})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 162, in test_public_json_cli_both_sides
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', value=[None])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 165, in test_public_json_cli_both_sides
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', value=[False])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 165, in test_public_json_cli_both_sides
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', value=[0])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 165, in test_public_json_cli_both_sides
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', value=[[]])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 165, in test_public_json_cli_both_sides
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in "unhashable type: 'list'"
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', value=[{}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 165, in test_public_json_cli_both_sides
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in "unhashable type: 'dict'"
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', value=['UNKNOWN'])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 165, in test_public_json_cli_both_sides
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='current_hp', value=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 162, in test_public_json_cli_both_sides
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'POTENTIALLY_LETHAL' != 'UNKNOWN'
+- POTENTIALLY_LETHAL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='current_hp', value=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 165, in test_public_json_cli_both_sides
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:current_hp' not found in 'Current HP must be within 1..max HP'
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='current_hp', value=1.0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 162, in test_public_json_cli_both_sides
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'POTENTIALLY_LETHAL' != 'UNKNOWN'
+- POTENTIALLY_LETHAL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='current_hp', value=1.5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 162, in test_public_json_cli_both_sides
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'POTENTIALLY_LETHAL' != 'UNKNOWN'
+- POTENTIALLY_LETHAL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='current_hp', value='1')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 165, in test_public_json_cli_both_sides
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:current_hp' not found in "'<' not supported between instances of 'int' and 'str'"
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='current_hp', value=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 165, in test_public_json_cli_both_sides
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:current_hp' not found in 'Current HP must be within 1..max HP'
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='current_hp', value=-1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 165, in test_public_json_cli_both_sides
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:current_hp' not found in 'Current HP must be within 1..max HP'
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='current_hp', value=41)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 165, in test_public_json_cli_both_sides
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:current_hp' not found in 'Current HP must be within 1..max HP'
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', value='')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 162, in test_public_json_cli_both_sides
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', value={})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 162, in test_public_json_cli_both_sides
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', value=[None])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 165, in test_public_json_cli_both_sides
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:skills' not found in 'sequence item 0: expected str instance, NoneType found'
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', value=[False])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 165, in test_public_json_cli_both_sides
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:skills' not found in 'sequence item 0: expected str instance, bool found'
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', value=[0])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 165, in test_public_json_cli_both_sides
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:skills' not found in 'sequence item 0: expected str instance, int found'
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', value=[[]])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 165, in test_public_json_cli_both_sides
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:skills' not found in "unhashable type: 'list'"
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', value=[{}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 165, in test_public_json_cli_both_sides
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:skills' not found in "unhashable type: 'dict'"
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='skills', value=['UNKNOWN'])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 165, in test_public_json_cli_both_sides
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:skills' not found in 'Unsupported combat skills: UNKNOWN'
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', value='')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 162, in test_public_json_cli_both_sides
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', value={})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 162, in test_public_json_cli_both_sides
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', value=[None])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 165, in test_public_json_cli_both_sides
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', value=[False])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 165, in test_public_json_cli_both_sides
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', value=[0])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 165, in test_public_json_cli_both_sides
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', value=[[]])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 165, in test_public_json_cli_both_sides
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in "unhashable type: 'list'"
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', value=[{}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 165, in test_public_json_cli_both_sides
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in "unhashable type: 'dict'"
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='weaknesses', value=['UNKNOWN'])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 165, in test_public_json_cli_both_sides
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='current_hp', value=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 162, in test_public_json_cli_both_sides
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'POTENTIALLY_LETHAL' != 'UNKNOWN'
+- POTENTIALLY_LETHAL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='current_hp', value=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 165, in test_public_json_cli_both_sides
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:current_hp' not found in 'Current HP must be within 1..max HP'
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='current_hp', value=1.0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 162, in test_public_json_cli_both_sides
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'POTENTIALLY_LETHAL' != 'UNKNOWN'
+- POTENTIALLY_LETHAL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='current_hp', value=1.5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 162, in test_public_json_cli_both_sides
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'POTENTIALLY_LETHAL' != 'UNKNOWN'
+- POTENTIALLY_LETHAL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='current_hp', value='1')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 165, in test_public_json_cli_both_sides
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:current_hp' not found in "'<' not supported between instances of 'int' and 'str'"
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='current_hp', value=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 165, in test_public_json_cli_both_sides
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:current_hp' not found in 'Current HP must be within 1..max HP'
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='current_hp', value=-1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 165, in test_public_json_cli_both_sides
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:current_hp' not found in 'Current HP must be within 1..max HP'
+
+======================================================================
+FAIL: test_public_json_cli_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='defender', field='current_hp', value=41)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 165, in test_public_json_cli_both_sides
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'defender:current_hp' not found in 'Current HP must be within 1..max HP'
+
+======================================================================
+FAIL: test_unequipped_defender_still_validates_observation (test_combat_input_shapes.CombatInputShapeTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 102, in test_unequipped_defender_still_validates_observation
+    self.assert_unknown(payload, 'defender', field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 24, in assert_unknown
+    self.assertEqual(result['status'], 'UNKNOWN')
+AssertionError: 'NO_MODELED_DEATH_IN_THIS_DUEL' != 'UNKNOWN'
+- NO_MODELED_DEATH_IN_THIS_DUEL
++ UNKNOWN
+
+
+======================================================================
+FAIL: test_unknown_membership_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', value='')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 69, in test_unknown_membership_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in 'Unsupported combat skills: '
+
+======================================================================
+FAIL: test_unknown_membership_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', value=' ')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 69, in test_unknown_membership_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in 'Unsupported combat skills:  '
+
+======================================================================
+FAIL: test_unknown_membership_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', value='UNKNOWN')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 69, in test_unknown_membership_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in 'Unsupported combat skills: UNKNOWN'
+
+======================================================================
+FAIL: test_unknown_membership_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', value='not_an_id')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 69, in test_unknown_membership_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in 'Unsupported combat skills: not_an_id'
+
+======================================================================
+FAIL: test_unknown_membership_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='skills', value='Flying')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 69, in test_unknown_membership_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in 'Unsupported combat skills: Flying'
+
+======================================================================
+FAIL: test_unknown_membership_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', value='')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 69, in test_unknown_membership_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_unknown_membership_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', value=' ')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 69, in test_unknown_membership_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_unknown_membership_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', value='UNKNOWN')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 69, in test_unknown_membership_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_unknown_membership_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', value='not_an_id')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 69, in test_unknown_membership_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_unknown_membership_both_sides (test_combat_input_shapes.CombatInputShapeTests) (side='attacker', field='weaknesses', value='Flying')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 69, in test_unknown_membership_both_sides
+    self.assert_unknown(payload, side, field)
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:weaknesses' not found in 'Unknown weakness category; use canonical beast/dragon/armour/flying'
+
+======================================================================
+FAIL: test_unknown_membership_both_sides (test_combat_input_shapes.CombatInputShapeTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 72, in test_unknown_membership_both_sides
+    self.assert_unknown(payload, side, 'skills')
+  File "<worker-checkout>/tests/test_combat_input_shapes.py", line 27, in assert_unknown
+    self.assertIn(side + ':' + field, result.get('reason', str(result.get('missing', []))))
+AssertionError: 'attacker:skills' not found in 'At most five equipped skills'
+
+----------------------------------------------------------------------
+Ran 9 tests in 2.204s
+
+FAILED (failures=228)
+
+EXIT 1
