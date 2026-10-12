@@ -45,6 +45,7 @@ Full paired outcomes, complete enemy geometry and many proc interactions remain 
 ## Documentation
 
 - [Usage and tools](docs/usage.md)
+- [Current-map briefing](docs/play-briefing.md) · [Observed attack sequences](docs/observed-enemy-sequence.md)
 - [Coverage and limitations](STATUS.md) · [Hard map coverage](docs/map-coverage.md)
 - [Combat formulas](docs/combat-formulas.md) · [Hard reinforcements](docs/hard-reinforcements.md)
 - [Sources](SOURCES.md) · [Unresolved questions](research/UNCERTAINTIES.md)

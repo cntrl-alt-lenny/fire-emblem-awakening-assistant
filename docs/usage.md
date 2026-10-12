@@ -4,6 +4,28 @@ Local factual reference and playthrough tools, built on 2026-10-02. Python 3.9+;
 
 The catalog contains 49 story/child/SpotPass story characters, 55 class variants including enemy/NPC entries, 138 damaging weapons, 59 staves/items, 103 skills, 76 map catalog entries and 316 support-threshold edges. Most numerical facts are single-source transcriptions. Detailed maps are a major unfinished area: 1,104 representative Lunatic enemy rows across36 maps, partial Hard metadata across45 maps and74 partial wave records, with no fully verified safe reinforcement schedules. Tracking and supported observed-input calculations are available. The current Hard forensic layer supports uncertainty-aware assisted play; it cannot provide complete map safety guarantees. See [current coverage](../STATUS.md). No run was started.
 
+## Read-only play tools
+
+Use the [current-map briefing](play-briefing.md) for readable Hard/Classic
+reference output and its spoiler/provenance views:
+
+```sh
+python3 tools/play_briefing.py --chapter 7 --difficulty hard --turn 5 --phase player
+```
+
+For observed combat, read the [duel input contract](combat-input-shapes.md) and
+[skill context requirements](combat-context.md). The new
+[observed attack-sequence tool](observed-enemy-sequence.md) accepts a supplied
+order of distinct observed attackers:
+
+```sh
+python3 tools/tactical_enemy_phase.py examples/observed_enemy_sequence.json
+```
+
+The example is synthetic. These read-only tools do not start or update a run;
+missing observations remain unknown. The existing general calculators below
+retain their documented assumptions. Read each tool's scope and refusal limits.
+
 ## Start a run
 
 From the repository root:
