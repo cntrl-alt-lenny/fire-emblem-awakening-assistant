@@ -1,0 +1,12 @@
+CODE COMMIT: 8da558e (full code commit in controls.log)
+Failed attempts retained:
+1. CUA Chrome local HTML creation: Unable to load browser request-header policy.
+2. CUA Chrome retry: identical tool error; no document inspected.
+3. CUA Safari local HTML opening: WebKit refused resource outside sandbox; no document inspected.
+4. Isolated loopback server started and stopped without serving private files; superseded by artifact renderer.
+Successful artifact render:
+COMMAND: node /tmp/fea-2026-10-12-render.cjs docs/observed-enemy-sequence.md
+OUTPUT: observed-enemy-sequence.md: local links resolve; no overflow; /tmp/fea-2026-10-12-observed-enemy-sequence.md.png
+EXIT: 0
+Inspected full-page PNG via view_image: readable headings/table/code, clear risk boundary, no clipped or overlapping text.
+Five changed reference local links resolve. Runtime renderer and screenshots retained privately; no personal runtime paths committed.
