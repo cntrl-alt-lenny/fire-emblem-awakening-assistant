@@ -1,0 +1,19 @@
+COMMAND: python3 -m unittest discover -s tests -p test_sequence_input.py -v
+REVISION: uncommitted initial tests
+OUTPUT (relevant excerpt):
+test_unsupported_tail_forged_paired_and_unarmed ... ERROR
+AttributeError: 'str' object has no attribute 'update'
+Ran 11 tests
+FAILED (errors=1)
+EXIT: 1
+Cause: synthetic example uses canonical weapon IDs; test attempted object updates.
+Correction: resolve only the mutated synthetic weapon through existing known_weapon.
+Discovery attempts also used nonexistent reference names observed-sequence.md,
+tactical-enemy-phase.md, observed_combat.json; cat exited 1. Existing references
+were then located with rg --files and read. No product failure or file mutation.
+
+Strengthened forged-fixture control after initial checks: known_weapon catalog objects
+include extra metadata outside the plain full-weapon contract. Earlier forged test
+retained might but returned UNKNOWN because of those metadata keys. The corrected
+synthetic fixture explicitly constructs documented full-weapon fields and requires
+a numerical supported outcome; no production observation filtering was added.

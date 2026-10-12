@@ -1,0 +1,15 @@
+DELIVERY CANDIDATE: 1f46563a6ebdef9bc7fb1f87001f82721aaf8f76
+COMMAND: python3 tools/fw.py check
+0 error(s), 0 warning(s)
+EXIT: 0
+COMMAND: git diff 5c596d42adb3d2a5eeee460032ee20bdd4bb78ba..HEAD --check
+EXIT: 0
+COMMAND: git diff --exit-code 7b6cc0d74357abba53312dd217c1b9317a0271ec..HEAD -- tools/sequence_input.py tests/test_sequence_input.py docs/sequence-entry.md
+EXIT: 0
+COMMAND: python3 docs/batches/attachments/14-sequence-entry/preservation.py --compare /tmp/sequence14-preservation-before.json
+CODE COMMIT: 1f46563a6ebdef9bc7fb1f87001f82721aaf8f76
+COMMAND: python3 docs/batches/attachments/14-sequence-entry/preservation.py --compare PRIVATE_SNAPSHOT
+324 canonical/research/private/pointer files across primary and Worker checkout unchanged.
+No canonical/research/private/shared engine/coverage diff; branch scope allowed.
+EXIT: 0
+EXIT: 0

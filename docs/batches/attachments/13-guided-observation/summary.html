@@ -1,0 +1,101 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Guided observation reference and evidence</title><style>body{margin:0;background:#eef2f5;color:#182330;font:17px/1.5 system-ui}article{max-width:1000px;margin:24px auto;padding:30px;background:white;border-radius:12px}h1,h2{line-height:1.2;color:#163f61}h2{margin-top:32px}pre{padding:14px;background:#f3f6f8;border-radius:6px;white-space:pre-wrap;overflow-wrap:anywhere;font:14px/1.5 ui-monospace,Menlo,monospace}code{font:14px/1.5 ui-monospace,Menlo,monospace;overflow-wrap:anywhere}a{color:#17649b}table{border-collapse:collapse;width:100%;font-size:14px}td,th{border:1px solid #ccd6dc;padding:8px;text-align:left}</style><article><h1>13-guided-observation — Worker summary</h1>
+<h2>Done</h2>
+<p>Added a standard-library terminal collector/editor for plain existing duels.
+Grouped stats/bonuses and deliberate confirmations preserve unknowns, actual
+forged values and unsupported effects. Prompts/assessment use stderr; stdout is
+JSON. Optional files are create-only in ignored <code>state/observations</code>; runs,
+incompatible/extra fields, duplicate keys, traversal, symlinks and overwrite are
+refused. Editing renews each observation and the final confirmation.</p>
+<p>Nested null/unknown/empty forge observations and malformed optional alive state
+now stay present with completeness false. Known nonempty forge data remains
+complete but engine-refused; literal boolean false still refuses a dead unit.
+Supplied nested metadata and other observation fields are checked conservatively.
+No engine, mechanics, canonical coverage or primary checkout changes.</p>
+<table>
+<thead>
+<tr>
+<th>Anchor</th>
+<th>Full commit</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Fetched baseline origin/main</td>
+<td><code>5c596d42adb3d2a5eeee460032ee20bdd4bb78ba</code></td>
+</tr>
+<tr>
+<td>Literal pushed planning commit</td>
+<td><code>7f4553587263772d9539e571c04abb18207704bf</code></td>
+</tr>
+<tr>
+<td>Preserved Verifier report tip</td>
+<td><code>517315b6f652c347c3c54dbf217e246c4cee8a63</code></td>
+</tr>
+<tr>
+<td>Audited revised implementation</td>
+<td><code>1b6e77ef786e806819b57088fd1a6a12f20a2b62</code></td>
+</tr>
+</tbody></table>
+<h2>Checked</h2>
+<p><a href="../../attachments/13-guided-observation/">Evidence</a> retains original failures and
+revised <code>nested-*.log</code> commands, output and exits. The
+<a href="../../attachments/13-guided-observation/workflows.py">workflow runner</a> records 33
+synthetic public cases spanning complete/custom/catalog, partial, real effects,
+forge, paired/raw/context, mismatch, integer re-entry, unarmed, edit, renewed
+confirmation, cancel/EOF, nested forge/alive and file boundaries. Both-side
+public regressions challenge null/unknown/empty nested observations, malformed
+alive values and known-forge/boolean controls without dropping data.</p>
+<p>Complete/custom-forged/unarmed full assessments equal baseline (3/3). Forged
+outputs pass the existing two-attacker sequence schema/outcome. Custom: 41
+answers for 66 generated keys/75 formatted JSON lines; catalog: measured 27
+answers; manual JSON edits: zero. Sixteen stat values use two answers.</p>
+<table>
+<thead>
+<tr>
+<th>Command at audited revised implementation</th>
+<th>Actual result</th>
+<th align="right">Exit</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>make audit</code></td>
+<td>All three audits pass; 181 tests OK</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td><code>python3 tools/fw.py check</code></td>
+<td>0 errors, 0 warnings</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td><code>python3 -m unittest discover -s tests -p &#39;test_observed_input.py&#39; -v</code></td>
+<td>15 tests OK</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td><code>python3 docs/batches/attachments/13-guided-observation/workflows.py</code></td>
+<td>All 33 cases; equality/preservation pass</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td><code>git diff 5c596d42adb3d2a5eeee460032ee20bdd4bb78ba --check</code></td>
+<td>Empty output</td>
+<td align="right">0</td>
+</tr>
+</tbody></table>
+<p>Canonical/research/run file sets and content privately compared before/after in
+primary and Worker: unchanged; no private values/hashes published. Verifier
+report fast-forwarded before correction commits and remains untouched.
+Reference/summary/attempts rendered, inspected and local links resolved.</p>
+<h2>Not checked</h2>
+<p>Verifier recheck of this revised delivery, Brain re-derivation, combined Batch14
+acceptance and owner merge approval remain pending. No human usability, native
+Windows, new gameplay fact or whole-map safety validation. No rebuild needed.</p>
+<h2>Failed or blocked</h2>
+<p><a href="../../attachments/13-guided-observation/attempts.md">Attempts</a> retains prompt-count,
+zsh wrapper and exploratory failures; Brain&#39;s unknown-range failure; Verifier&#39;s
+nested-null forge failure; and Brain-confirmed alive-string/empty-forge numeric
+leaks at prior delivery. Revised public regressions preserve those values with
+completeness false and no numbers. The prior catalog burden claim of 29 was
+wrong; captured prompts and replay measure 27. Original evidence/history stays
+available. Correction checks pass; independent recheck remains required.</p>
+</article></html>

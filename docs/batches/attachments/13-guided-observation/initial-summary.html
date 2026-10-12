@@ -1,0 +1,92 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Guided observation reference and evidence</title><style>body{margin:0;background:#eef2f5;color:#182330;font:17px/1.5 system-ui}article{max-width:1000px;margin:24px auto;padding:30px;background:white;border-radius:12px}h1,h2{line-height:1.2;color:#163f61}h2{margin-top:32px}pre{padding:14px;background:#f3f6f8;border-radius:6px;white-space:pre-wrap;overflow-wrap:anywhere;font:14px/1.5 ui-monospace,Menlo,monospace}code{font:14px/1.5 ui-monospace,Menlo,monospace;overflow-wrap:anywhere}a{color:#17649b}table{border-collapse:collapse;width:100%;font-size:14px}td,th{border:1px solid #ccd6dc;padding:8px;text-align:left}</style><article><h1>13-guided-observation — Worker summary</h1>
+<h2>Done</h2>
+<p>Added a standard-library terminal collector/editor for plain existing duel
+payloads. Stats and bonuses are grouped; prompts/assessment use stderr and JSON
+uses stdout. Unknown stays null; absence, catalog values, reuse and overall
+completeness require deliberate confirmation. Actual forged/unsupported effects
+survive. Fresh optional context is omitted unless relevant; edited supplied
+unknown context remains present. Run files, incompatible/extra fields and
+duplicate keys are refused. Optional files are create-only inside ignored
+<code>state/observations</code>, with traversal/symlink/overwrite refusal.</p>
+<p>Only assigned product files and batch evidence changed. No new mechanics or
+coverage; shared engines remain unchanged.</p>
+<table>
+<thead>
+<tr>
+<th>Anchor</th>
+<th>Full commit</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Fetched baseline origin/main</td>
+<td><code>5c596d42adb3d2a5eeee460032ee20bdd4bb78ba</code></td>
+</tr>
+<tr>
+<td>Literal pushed planning commit</td>
+<td><code>7f4553587263772d9539e571c04abb18207704bf</code></td>
+</tr>
+<tr>
+<td>Audited implementation</td>
+<td><code>80d50e43da32b769c988de1d9f2ec116238a03fa</code></td>
+</tr>
+</tbody></table>
+<h2>Checked</h2>
+<p><a href="../../attachments/13-guided-observation/">Evidence</a> retains real commands, output,
+exits and failures. The <a href="../../attachments/13-guided-observation/workflows.py">workflow runner</a>
+records 23 synthetic public CLI cases: complete/custom/catalog, partial, Counter,
+drain, forged, paired, raw, context, mismatch, integer re-entry, unarmed, deliberate
+edit, stale confirmation, cancel/EOF, malformed draft and file creation/refusal.
+Complete/custom-forged/unarmed full assessments exactly equal baseline (3/3).
+Forged outputs pass the existing two-attacker sequence schema/outcome. Custom:
+41 answers for 66 generated keys/75 formatted JSON lines; catalog: 29 answers;
+manual JSON edits: zero. Sixteen stat values use two answers. Scripted burden
+measurement does not prove human usability.</p>
+<table>
+<thead>
+<tr>
+<th>Command at audited implementation</th>
+<th>Actual result</th>
+<th align="right">Exit</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>make audit</code></td>
+<td>All three audits pass; 178 tests OK</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td><code>python3 tools/fw.py check</code></td>
+<td>0 errors, 0 warnings</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td><code>python3 -m unittest discover -s tests -p &#39;test_observed_input.py&#39; -v</code></td>
+<td>12 tests OK</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td><code>python3 docs/batches/attachments/13-guided-observation/workflows.py</code></td>
+<td>All 23 cases; equality and preservation pass</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td><code>git diff 5c596d42adb3d2a5eeee460032ee20bdd4bb78ba --check</code></td>
+<td>Empty output</td>
+<td align="right">0</td>
+</tr>
+</tbody></table>
+<p>Privately compared canonical/research/run file sets and content before/after in
+primary and Worker checkouts: unchanged; published no private values/hashes.
+Reference, summary and failed-attempt record rendered and visually inspected;
+changed local links resolve. No run was initialized or selected as observation.</p>
+<h2>Not checked</h2>
+<p>Fresh blind Verifier, Brain re-derivation, combined Batch14 entry and owner merge
+approval remain pending. No human terminal trial, native Windows verification,
+new gameplay fact or whole-map safety validation. No rebuild was needed.</p>
+<h2>Failed or blocked</h2>
+<p><a href="../../attachments/13-guided-observation/attempts.md">Attempts</a> preserves the first
+focused failure (prompt count 39 versus expected 40), zsh wrapper failure and
+missing exploratory filenames. Explicit required weapon rank now brings custom
+entry to 41 prompts and meets sequence requirements. Edited unequipped state
+gets deliberate confirmation. Corrected checks pass; no shared-contract blocker.</p>
+</article></html>

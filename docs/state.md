@@ -18,6 +18,8 @@ in phase-filtered queries before extending external research.
   Planning, implementation and acceptance remain separate.
 - The project belongs in the GitHub folder and its repository is public.
 - Apply the owner's agentic framework and public README house style.
+- Prefer guided prompts for observed-input entry before a browser form. Reduce
+  hand-written JSON while preserving unknowns, explicit observations and refusals.
 - Use two active Workers when useful independent batches are available, with
   separate file ownership and branches. A pending review, approval or planning
   document merge blocks only work that actually depends on it. Brain owns

@@ -1,0 +1,2 @@
+{"complete_gate_match": true, "expected_hp_distribution": {"0": 0.255025, "4": 0.49995, "10": 0.245025}, "hit_probability": 0.505, "synthetic_inputs_unchanged": true, "unknown_and_effect_refusal": true}
+Exit 0

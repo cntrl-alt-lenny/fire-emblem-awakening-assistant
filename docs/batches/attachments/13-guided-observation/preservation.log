@@ -1,0 +1,15 @@
+Committed implementation: 80d50e43da32b769c988de1d9f2ec116238a03fa
+Command: private before/after source/run file-set comparison; git branch ownership/diff checks
+
+Private canonical/research/run file sets and content unchanged (Worker); no values or hashes published.
+Private canonical/research/run file sets and content unchanged (primary); no values or hashes published.
+COMMAND: git diff 5c596d42adb3d2a5eeee460032ee20bdd4bb78ba --check
+OUTPUT: (empty)
+EXIT: 0
+BRANCH FILES:
+docs/batches/attachments/13-guided-observation/attempts.md
+docs/batches/attachments/13-guided-observation/workflows.py
+docs/guided-observation.md
+tests/test_observed_input.py
+tools/observed_input.py
+Ownership check: pass; shared engines, canonical data, coverage, framework and primary branch unchanged.

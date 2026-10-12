@@ -1,0 +1,29 @@
+CODE COMMIT: 3501e3d592bb79295820a0d5f9ccb121239834db
+COMMAND: python3 docs/batches/attachments/14-sequence-entry/controls.py
+complete explicit: exit 0; NO_MODELED_PLAYER_DEATH_IN_THIS_SEQUENCE; source bytes unchanged
+complete guided: exit 0; NO_MODELED_PLAYER_DEATH_IN_THIS_SEQUENCE; source bytes unchanged
+Guided answers: player ID; file 1; enemy ID 1; file 2; enemy ID 2; blank; yes; yes; yes
+Nine answers; zero manually edited JSON; zero retyped observation values.
+Exact existing payload and evaluate result equality: PASS
+missing --confirm-order: exit 0; UNKNOWN; source bytes unchanged
+No numerical outcome; supplied units/context/effects retained verbatim.
+missing --confirm-unchanged: exit 0; UNKNOWN; source bytes unchanged
+No numerical outcome; supplied units/context/effects retained verbatim.
+missing --confirm-no-events: exit 0; UNKNOWN; source bytes unchanged
+No numerical outcome; supplied units/context/effects retained verbatim.
+source completeness false: exit 0; UNKNOWN; source bytes unchanged
+No numerical outcome; supplied units/context/effects retained verbatim.
+stale player HP: exit 2; refused; no stdout; source bytes unchanged
+unknown effect tail: exit 0; UNKNOWN; source bytes unchanged
+No numerical outcome; supplied units/context/effects retained verbatim.
+unsupported Counter tail: exit 0; UNKNOWN; source bytes unchanged
+No numerical outcome; supplied units/context/effects retained verbatim.
+fixed context conflict: exit 0; UNKNOWN; source bytes unchanged
+No numerical outcome; supplied units/context/effects retained verbatim.
+paired observations: exit 0; UNKNOWN; source bytes unchanged
+No numerical outcome; supplied units/context/effects retained verbatim.
+explicitly unarmed player: exit 0; NO_MODELED_PLAYER_DEATH_IN_THIS_SEQUENCE; source bytes unchanged
+exact forged might: exit 0; UNKNOWN; source bytes unchanged
+EOF before final confirmation: exit 2; refused; no stdout; source bytes unchanged
+forbidden run destination: exit 2; refused; no stdout; source bytes unchanged
+EXIT: 0
