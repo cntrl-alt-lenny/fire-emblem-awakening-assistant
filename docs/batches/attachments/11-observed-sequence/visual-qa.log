@@ -10,3 +10,9 @@ OUTPUT: observed-enemy-sequence.md: local links resolve; no overflow; /tmp/fea-2
 EXIT: 0
 Inspected full-page PNG via view_image: readable headings/table/code, clear risk boundary, no clipped or overlapping text.
 Five changed reference local links resolve. Runtime renderer and screenshots retained privately; no personal runtime paths committed.
+
+DELIVERY CANDIDATE: 41c72cfd1bc206b3a1d39b08eca9cfa1052e93c4
+COMMAND: node /tmp/fea-2026-10-12-render.cjs docs/batches/11-observed-sequence.md
+OUTPUT: 11-observed-sequence.md: local links resolve; no overflow; /tmp/fea-2026-10-12-11-observed-sequence.md.png
+EXIT: 0
+Inspected full-page summary PNG via view_image: four sections and evidence table readable; no clipping/overlap.

@@ -6,3 +6,4 @@ EXIT: 0
 COMMAND: git diff --exit-code e78fa7bcc245071556a408f725105ac63ce7a8e9 -- data research state STATUS.md CURRENT_RUN.md
 STDOUT:
 EXIT: 0
+Final delivery-candidate audit/control replay: canonical/private file sets and bytes compared again; unchanged. EXIT: 0
