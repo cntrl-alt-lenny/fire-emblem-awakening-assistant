@@ -1,0 +1,22 @@
+Committed implementation: 80d50e43da32b769c988de1d9f2ec116238a03fa
+Command: python3 -m unittest discover -s tests -p 'test_observed_input.py' -v
+
+test_blank_question_and_partial_group_never_complete (test_observed_input.ObservedInputTests) ... ok
+test_cancel_and_eof_no_stdout_or_output_no_draft_overwrite (test_observed_input.ObservedInputTests) ... ok
+test_catalog_requires_exact_unforged_confirmation_and_unknown_not_guessed (test_observed_input.ObservedInputTests) ... ok
+test_complete_public_transcript_and_gate_equality (test_observed_input.ObservedInputTests) ... ok
+test_conditional_context_is_explicit_unknown_not_defaulted (test_observed_input.ObservedInputTests) ... ok
+test_create_only_output_boundaries_symlinks_and_existing_unchanged (test_observed_input.ObservedInputTests) ... ok
+test_edit_deliberate_keep_renewal_unknown_and_effect_preservation (test_observed_input.ObservedInputTests) ... ok
+test_edit_rejects_run_paths_aliases_shapes_extras_duplicate_keys (test_observed_input.ObservedInputTests) ... ok
+test_forge_actual_values_raw_basis_and_bonus_values_preserved (test_observed_input.ObservedInputTests) ... ok
+test_integer_no_boolean_float_or_rounding (test_observed_input.ObservedInputTests) ... ok
+test_unarmed_defender_explicit_and_attacker_refusal (test_observed_input.ObservedInputTests) ... ok
+test_unsupported_effects_and_paired_refused_without_numeric_leaks (test_observed_input.ObservedInputTests) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.566s
+
+OK
+
+Command exit: 0

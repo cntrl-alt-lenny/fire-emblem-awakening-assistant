@@ -1,0 +1,59 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Guided observation reference and evidence</title><style>body{margin:0;background:#eef2f5;color:#182330;font:17px/1.5 system-ui}article{max-width:1000px;margin:24px auto;padding:30px;background:white;border-radius:12px}h1,h2{line-height:1.2;color:#163f61}h2{margin-top:32px}pre{padding:14px;background:#f3f6f8;border-radius:6px;white-space:pre-wrap;overflow-wrap:anywhere;font:14px/1.5 ui-monospace,Menlo,monospace}code{font:14px/1.5 ui-monospace,Menlo,monospace;overflow-wrap:anywhere}a{color:#17649b}table{border-collapse:collapse;width:100%;font-size:14px}td,th{border:1px solid #ccd6dc;padding:8px;text-align:left}</style><article><h1>Guided observed duel entry</h1>
+<p>Run from this checkout:</p>
+<pre><code class="language-sh">python3 tools/observed_input.py
+python3 tools/observed_input.py --output state/observations/new-duel.json
+python3 tools/observed_input.py --edit state/observations/new-duel.json
+</code></pre>
+<p>The collector asks for actual observations and prints a plain existing duel JSON
+payload on stdout. Prompts and a concise assessment go to stderr. The default
+writes no files. <code>--output</code> creates a new <code>.json</code> under this checkout&#39;s ignored
+<code>state/observations</code>; it refuses existing files, traversal and symlinks. Editing
+never overwrites the selected draft. Cancellation, EOF or Ctrl-C emits no payload
+and creates no file. Player runs and run-shaped input are refused.</p>
+<h2>What to enter</h2>
+<p>Blank or <code>?</code> means unknown, including current HP. Enter an actual integer:
+<code>1.5</code>, <code>true</code> and <code>1e2</code> are refused. Stats use the shown order:
+<code>hp str mag skl spd lck def res</code>. Within a group, <code>?</code> preserves an unknown value.
+Terrain uses <code>def res avoid</code>; combat bonuses use <code>hit avoid crit crit_avoid attack</code>.
+Enter <code>none</code> explicitly to confirm no skills, weaknesses, partners or bonuses.
+Numeric zero must be entered as <code>0</code>; blank never supplies it.</p>
+<p>Choose <code>effective_displayed</code> or <code>raw_permanent</code> explicitly. No bonus conversion
+occurs. The existing live gate requires effective displayed stats with active
+stat bonuses already applied once. Combat bonus fields remain separate. Enter
+all real effects, even when unsupported. Counter, drain effects and paired full
+outcomes remain UNKNOWN. UNKNOWN diagnostics contain no partial forecast numbers.</p>
+<p>Choose <code>custom</code> for an observed custom/forged weapon: enter its actual type,
+damage type, required rank, might/hit/crit, range, effect, brave status and
+effectiveness. Required weapon rank differs from the unit&#39;s weapon proficiency.
+<code>catalog iron_sword</code> displays exact battle values and requires a fresh <code>yes</code>
+confirming an exact unforged match. Unknown names are never guessed. Catalog
+values do not establish equipment eligibility. An explicitly <code>unequipped</code>
+defender still needs observed stats, current HP, rank, skills, weaknesses,
+bonuses and explicit zero remaining uses.</p>
+<p>Support <code>none</code> confirms neither side has paired or adjacent support. Otherwise,
+enter actual partner IDs. Optional <code>turn</code>/<code>outdoors</code> are omitted when unobserved
+and irrelevant to supplied skills; they are explicitly requested when needed.
+Edited supplied context fields remain present, including unknown/null values.
+An unobserved required skill condition prevents completeness.</p>
+<h2>Revising a draft</h2>
+<p>Every loaded value is shown with <code>keep=...</code>; type <code>keep</code> deliberately or re-enter
+it. Blank clears that value to unknown. <code>keep</code> never accepts a previous overall
+confirmation. Confirm current, complete observations again at the final prompt.
+Incomplete values keep <code>observed_inputs_complete</code> false even after <code>yes</code>.
+Supplied forge markers and real effects survive deliberate reuse; an incompatible
+shape, extra field or duplicate JSON key is refused before collection rather
+than silently dropping observations. Existing custom weapon objects are reused
+as a whole; choose <code>custom</code> to re-enter their actual values.</p>
+<h2>Synthetic replay</h2>
+<p>The <a href="../../../batches/attachments/13-guided-observation/workflows.py">deterministic workflow runner</a>
+records complete, partial, forged, unsupported, unarmed, paired, edit, context,
+cancellation and file-boundary cases without using a player run. Its
+<a href="../../../batches/attachments/13-guided-observation/workflows.log">output</a> contains literal
+input transcripts and results. A complete custom duel uses 41 answers and zero
+manual JSON edits; a catalog duel uses 29. Scripted replay is not human usability
+testing or gameplay validation.</p>
+<p>These drafts use the <a href="../../../../tools/tactical_combat.py">existing live gate</a> and supported
+<a href="../../../../tools/tactical_enemy_phase.py">sequence schema</a>. A duel describes supplied
+combat roles only. It cannot establish whole-map safety, AI order, unseen threats
+or complete reinforcement schedules. See the <a href="../../../agents/local/tactical-policy.md">tactical policy</a>.</p>
+</article></html>
