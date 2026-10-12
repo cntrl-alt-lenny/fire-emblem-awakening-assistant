@@ -1,0 +1,78 @@
+test_collection_and_cancellation_preserve_batched_stdin (test_play_entry.PlayEntryTests) ... FAIL
+test_edit_assessment_sequence_and_sources_unchanged (test_play_entry.PlayEntryTests) ... FAIL
+test_map_views_phase_spoilers_and_refusal (test_play_entry.PlayEntryTests) ... ok
+test_protected_run_aliases_before_open_and_wrong_kind (test_play_entry.PlayEntryTests) ... ok
+test_selection_eof_cancel_invalid_and_no_second_action (test_play_entry.PlayEntryTests) ... ok
+test_terminal_stream (test_play_entry.PlayEntryTests) ... FAIL
+
+======================================================================
+FAIL: test_collection_and_cancellation_preserve_batched_stdin (test_play_entry.PlayEntryTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_play_entry.py", line 63, in test_collection_and_cancellation_preserve_batched_stdin
+    self.compare(label, '2\n\n', 'observed_input.py', answers,
+  File "<checkout>/tests/test_play_entry.py", line 28, in compare
+    self.assertEqual(direct.returncode, expected, direct.stderr)
+AssertionError: 1 != 2 : Observed duel only. Enter actual observations; no inferred defaults or bonus conversion.
+For an edited draft, type keep deliberately for each value; final confirmation is renewed.
+Difficulty (Normal/Hard/Lunatic/Lunatic+) [blank/? unknown; cancel stops]: Cancelled; no observation payload or file created.
+
+
+======================================================================
+FAIL: test_edit_assessment_sequence_and_sources_unchanged (test_play_entry.PlayEntryTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_play_entry.py", line 81, in test_edit_assessment_sequence_and_sources_unchanged
+    self.compare('edit confirmation ' + repr(confirmation),
+  File "<checkout>/tests/test_play_entry.py", line 28, in compare
+    self.assertEqual(direct.returncode, expected, direct.stderr)
+AssertionError: 1 != 0 : Observed duel only. Enter actual observations; no inferred defaults or bonus conversion.
+For an edited draft, type keep deliberately for each value; final confirmation is renewed.
+Difficulty (Normal/Hard/Lunatic/Lunatic+); keep="Hard" [blank/? unknown; cancel stops]: Mode (Classic/Casual); keep="Classic" [blank/? unknown; cancel stops]: Stats basis (effective_displayed/raw_permanent); include bonuses once; keep="effective_displayed" [blank/? unknown; cancel stops]: Support on either side (none/adjacent/paired); none confirms both absent; keep="none" [blank/? unknown; cancel stops]: Observed partner IDs, comma-separated; none confirms empty; keep=[] [blank/? unknown; cancel stops]: attacker stats hp str mag skl spd lck def res; keep={"hp": 25, "str": 10, "mag": 0, "skl": 8, "spd": 10, "lck": 2, "def": 5, "res": 1} [blank/? unknown; cancel stops]: attacker actual current HP (never defaults to max); keep=25 [blank/? unknown; cancel stops]: Weapon: custom, catalog EXACT_NAME, unequipped (defender only); keep="iron_axe" [blank/? unknown; cancel stops]: Catalog battle values: {"brave": false, "crit": 0, "damage_type": "physical", "effect": "–", "effectiveness": [], "hit": 75, "id": "iron_axe", "might": 7, "name": "Iron Axe", "range": "1", "rank": "D", "weapon_type": "axe"}
+Confirm these exact unforged values match the observed weapon: yes/no [blank/? unknown; cancel stops]: There is no previous value to keep.
+Confirm these exact unforged values match the observed weapon: yes/no [blank/? unknown; cancel stops]: There is no previous value to keep.
+Confirm these exact unforged values match the observed weapon: yes/no [blank/? unknown; cancel stops]: There is no previous value to keep.
+Confirm these exact unforged values match the observed weapon: yes/no [blank/? unknown; cancel stops]: There is no previous value to keep.
+Confirm these exact unforged values match the observed weapon: yes/no [blank/? unknown; cancel stops]: There is no previous value to keep.
+Confirm these exact unforged values match the observed weapon: yes/no [blank/? unknown; cancel stops]: There is no previous value to keep.
+Confirm these exact unforged values match the observed weapon: yes/no [blank/? unknown; cancel stops]: There is no previous value to keep.
+Confirm these exact unforged values match the observed weapon: yes/no [blank/? unknown; cancel stops]: There is no previous value to keep.
+Confirm these exact unforged values match the observed weapon: yes/no [blank/? unknown; cancel stops]: There is no previous value to keep.
+Confirm these exact unforged values match the observed weapon: yes/no [blank/? unknown; cancel stops]: There is no previous value to keep.
+Confirm these exact unforged values match the observed weapon: yes/no [blank/? unknown; cancel stops]: There is no previous value to keep.
+Confirm these exact unforged values match the observed weapon: yes/no [blank/? unknown; cancel stops]: There is no previous value to keep.
+Confirm these exact unforged values match the observed weapon: yes/no [blank/? unknown; cancel stops]: There is no previous value to keep.
+Confirm these exact unforged values match the observed weapon: yes/no [blank/? unknown; cancel stops]: There is no previous value to keep.
+Confirm these exact unforged values match the observed weapon: yes/no [blank/? unknown; cancel stops]: There is no previous value to keep.
+Confirm these exact unforged values match the observed weapon: yes/no [blank/? unknown; cancel stops]: There is no previous value to keep.
+Confirm these exact unforged values match the observed weapon: yes/no [blank/? unknown; cancel stops]: attacker Observed weapon rank (E/D/C/B/A); keep="D" [blank/? unknown; cancel stops]: Cancelled; no observation payload or file created.
+
+
+======================================================================
+FAIL: test_terminal_stream (test_play_entry.PlayEntryTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_play_entry.py", line 152, in test_terminal_stream
+    self.assertEqual(process.returncode, 2, err)
+AssertionError: 1 != 2 : One action, then exit. No run is selected or changed.
+1 Current-map briefing
+2 New duel collection
+3 Deliberate duel draft editing
+4 Sequence assembly
+5 Assess selected duel
+6 Assess selected sequence
+7 Quit
+Action (1-7): [cancel stops]
+Optional new state/observations/NAME.json output (blank = stdout only): [cancel stops]
+Observed duel only. Enter actual observations; no inferred defaults or bonus conversion.
+For an edited draft, type keep deliberately for each value; final confirmation is renewed.
+Difficulty (Normal/Hard/Lunatic/Lunatic+) [blank/? unknown; cancel stops]: Cancelled; no observation payload or file created.
+
+
+----------------------------------------------------------------------
+Ran 6 tests in 2.177s
+
+FAILED (failures=3)
+
+Command: python3 -m unittest discover -s tests -p test_play_entry.py -v
+Exit: 1

@@ -1,0 +1,27 @@
+test_collection_and_cancellation_preserve_batched_stdin (test_play_entry.PlayEntryTests) ... FAIL
+test_edit_assessment_sequence_and_sources_unchanged (test_play_entry.PlayEntryTests) ... ok
+test_map_views_phase_spoilers_and_refusal (test_play_entry.PlayEntryTests) ... ok
+test_protected_run_aliases_before_open_and_wrong_kind (test_play_entry.PlayEntryTests) ... ok
+test_selection_eof_cancel_invalid_and_no_second_action (test_play_entry.PlayEntryTests) ... ok
+test_terminal_stream (test_play_entry.PlayEntryTests) ... ok
+
+======================================================================
+FAIL: test_collection_and_cancellation_preserve_batched_stdin (test_play_entry.PlayEntryTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<checkout>/tests/test_play_entry.py", line 64, in test_collection_and_cancellation_preserve_batched_stdin
+    self.compare('protected output', '2\nstate/current_run.json\n',
+  File "<checkout>/tests/test_play_entry.py", line 27, in compare
+    self.assertEqual(direct.returncode, expected, direct.stderr)
+AssertionError: 2 != 1 : Observed duel only. Enter actual observations; no inferred defaults or bonus conversion.
+For an edited draft, type keep deliberately for each value; final confirmation is renewed.
+Difficulty (Normal/Hard/Lunatic/Lunatic+) [blank/? unknown; cancel stops]: Mode (Classic/Casual) [blank/? unknown; cancel stops]: Stats basis (effective_displayed/raw_permanent); include bonuses once [blank/? unknown; cancel stops]: Support on either side (none/adjacent/paired); none confirms both absent [blank/? unknown; cancel stops]: Observed partner IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker stats hp str mag skl spd lck def res [blank/? unknown; cancel stops]: attacker actual current HP (never defaults to max) [blank/? unknown; cancel stops]: Weapon: custom, catalog EXACT_NAME, unequipped (defender only) [blank/? unknown; cancel stops]: Weapon type (sword/lance/axe/bow/tome/stone/claw/breath) [blank/? unknown; cancel stops]: Damage type (physical/magical) [blank/? unknown; cancel stops]: Actual weapon required rank (E/D/C/B/A), separate from unit proficiency [blank/? unknown; cancel stops]: Actual weapon might hit crit (including forge) [blank/? unknown; cancel stops]: Actual weapon range, e.g. 1 or 1-2 [blank/? unknown; cancel stops]: Exact weapon effect; none confirms no special effect [blank/? unknown; cancel stops]: Two consecutive attacks: yes/no [blank/? unknown; cancel stops]: Weapon effectiveness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker Observed weapon rank (E/D/C/B/A) [blank/? unknown; cancel stops]: attacker All equipped skill IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker All innate weakness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker Terrain def res avoid; none confirms no bonuses [blank/? unknown; cancel stops]: attacker Combat bonuses hit avoid crit crit_avoid attack; none confirms no bonuses [blank/? unknown; cancel stops]: attacker Observed remaining weapon uses (explicit 0 if unequipped) [blank/? unknown; cancel stops]: defender stats hp str mag skl spd lck def res [blank/? unknown; cancel stops]: defender actual current HP (never defaults to max) [blank/? unknown; cancel stops]: Weapon: custom, catalog EXACT_NAME, unequipped (defender only) [blank/? unknown; cancel stops]: Weapon type (sword/lance/axe/bow/tome/stone/claw/breath) [blank/? unknown; cancel stops]: Damage type (physical/magical) [blank/? unknown; cancel stops]: Actual weapon required rank (E/D/C/B/A), separate from unit proficiency [blank/? unknown; cancel stops]: Actual weapon might hit crit (including forge) [blank/? unknown; cancel stops]: Actual weapon range, e.g. 1 or 1-2 [blank/? unknown; cancel stops]: Exact weapon effect; none confirms no special effect [blank/? unknown; cancel stops]: Two consecutive attacks: yes/no [blank/? unknown; cancel stops]: Weapon effectiveness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: defender Observed weapon rank (E/D/C/B/A) [blank/? unknown; cancel stops]: defender All equipped skill IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: defender All innate weakness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: defender Terrain def res avoid; none confirms no bonuses [blank/? unknown; cancel stops]: defender Combat bonuses hit avoid crit crit_avoid attack; none confirms no bonuses [blank/? unknown; cancel stops]: defender Observed remaining weapon uses (explicit 0 if unequipped) [blank/? unknown; cancel stops]: Actual attack distance [blank/? unknown; cancel stops]: Confirm ALL observations current and complete, including effects/support: yes/no [blank/? unknown; cancel stops]: Refused: Output must be inside this checkout state/observations.
+
+
+----------------------------------------------------------------------
+Ran 6 tests in 2.628s
+
+FAILED (failures=1)
+
+Command: python3 -m unittest discover -s tests -p test_play_entry.py -v
+Exit: 1
