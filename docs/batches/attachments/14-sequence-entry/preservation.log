@@ -1,0 +1,5 @@
+CODE COMMIT: 7b6cc0d74357abba53312dd217c1b9317a0271ec
+COMMAND: python3 docs/batches/attachments/14-sequence-entry/preservation.py --compare /tmp/sequence14-preservation-before.json
+324 canonical/research/private/pointer files across primary and Worker checkout unchanged.
+No canonical/research/private/shared engine/coverage diff; branch scope allowed.
+EXIT: 0
