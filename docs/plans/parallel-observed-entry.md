@@ -33,6 +33,9 @@ Selected draft/source loaders reject duplicate JSON keys and run-shaped inputs.
 They never open current_run.json, including a symlink resolving to that file.
 The duel gate's tolerance of an extra observation/effect field is not permission
 to drop it: preserve it with refusal, or reject the incompatible input shape.
+Optional unobserved turn/outdoors may remain absent under the existing context
+contract; skills requiring them still refuse. Do not invent values, or erase an
+explicitly supplied unknown/effect field from a draft to obtain numbers.
 
 Both deliver independently with fresh blind Verifiers at exact commits. Brain's
 combined end-to-end trial genuinely waits for both accepted deliveries: collect
