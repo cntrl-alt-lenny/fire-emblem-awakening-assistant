@@ -1,0 +1,232 @@
+Commit: 6c23112
+Command: git diff --check ec3bceca1d70a4da240a490601602e97c2466de2
+docs/batches/attachments/16-play-entry/focused.log:3: trailing whitespace.
++test_collection_and_cancellation_preserve_batched_stdin (test_play_entry.PlayEntryTests) ...
+docs/batches/attachments/16-play-entry/focused.log:4: trailing whitespace.
++CASE: complete collection
+docs/batches/attachments/16-play-entry/focused.log:5: trailing whitespace.
++DIRECT: observed_input.py []
+docs/batches/attachments/16-play-entry/focused.log:6: trailing whitespace.
++STDIN: '2\n\nHard\nClassic\neffective_displayed\nnone\nnone\n40 10 10 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\nnone\nnone\nnone\nnone\n50\n40 10 10 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\nnone\nnone\nnone\nnone\n50\n1\nyes\n'
+docs/batches/attachments/16-play-entry/focused.log:7: trailing whitespace.
++EXIT: 0
+docs/batches/attachments/16-play-entry/focused.log:83: trailing whitespace.
++
+docs/batches/attachments/16-play-entry/focused.log:90: trailing whitespace.
++CASE: partial collection
+docs/batches/attachments/16-play-entry/focused.log:91: trailing whitespace.
++DIRECT: observed_input.py []
+docs/batches/attachments/16-play-entry/focused.log:92: trailing whitespace.
++STDIN: '2\n\nHard\nClassic\neffective_displayed\nnone\nnone\n40 10 ? 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\nnone\nnone\nnone\nnone\n50\n40 10 ? 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\nnone\nnone\nnone\nnone\n50\n1\nyes\n'
+docs/batches/attachments/16-play-entry/focused.log:93: trailing whitespace.
++EXIT: 0
+docs/batches/attachments/16-play-entry/focused.log:169: trailing whitespace.
++
+docs/batches/attachments/16-play-entry/focused.log:177: trailing whitespace.
++CASE: unsupported Counter
+docs/batches/attachments/16-play-entry/focused.log:178: trailing whitespace.
++DIRECT: observed_input.py []
+docs/batches/attachments/16-play-entry/focused.log:179: trailing whitespace.
++STDIN: '2\n\nHard\nClassic\neffective_displayed\nnone\nnone\n40 10 10 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\ncounter\nnone\nnone\nnone\n50\n40 10 10 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\ncounter\nnone\nnone\nnone\n50\n1\nyes\n'
+docs/batches/attachments/16-play-entry/focused.log:180: trailing whitespace.
++EXIT: 0
+docs/batches/attachments/16-play-entry/focused.log:260: trailing whitespace.
++
+docs/batches/attachments/16-play-entry/focused.log:268: trailing whitespace.
++CASE: paired collection
+docs/batches/attachments/16-play-entry/focused.log:269: trailing whitespace.
++DIRECT: observed_input.py []
+docs/batches/attachments/16-play-entry/focused.log:270: trailing whitespace.
++STDIN: '2\n\nHard\nClassic\neffective_displayed\npaired\nobserved_partner\n40 10 10 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\nnone\nnone\nnone\nnone\n50\n40 10 10 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\nnone\nnone\nnone\nnone\n50\n1\nyes\n'
+docs/batches/attachments/16-play-entry/focused.log:271: trailing whitespace.
++EXIT: 0
+docs/batches/attachments/16-play-entry/focused.log:349: trailing whitespace.
++
+docs/batches/attachments/16-play-entry/focused.log:356: trailing whitespace.
++CASE: collector cancellation
+docs/batches/attachments/16-play-entry/focused.log:357: trailing whitespace.
++DIRECT: observed_input.py []
+docs/batches/attachments/16-play-entry/focused.log:358: trailing whitespace.
++STDIN: '2\n\ncancel\n'
+docs/batches/attachments/16-play-entry/focused.log:359: trailing whitespace.
++EXIT: 1
+docs/batches/attachments/16-play-entry/focused.log:360: trailing whitespace.
++STDOUT:
+docs/batches/attachments/16-play-entry/focused.log:366: trailing whitespace.
++CASE: collector EOF
+docs/batches/attachments/16-play-entry/focused.log:367: trailing whitespace.
++DIRECT: observed_input.py []
+docs/batches/attachments/16-play-entry/focused.log:368: trailing whitespace.
++STDIN: '2\n\nHard\n'
+docs/batches/attachments/16-play-entry/focused.log:369: trailing whitespace.
++EXIT: 1
+docs/batches/attachments/16-play-entry/focused.log:370: trailing whitespace.
++STDOUT:
+docs/batches/attachments/16-play-entry/focused.log:376: trailing whitespace.
++CASE: protected output
+docs/batches/attachments/16-play-entry/focused.log:377: trailing whitespace.
++DIRECT: observed_input.py ['--output', 'state/current_run.json']
+docs/batches/attachments/16-play-entry/focused.log:378: trailing whitespace.
++STDIN: '2\nstate/current_run.json\nHard\nClassic\neffective_displayed\nnone\nnone\n40 10 10 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\nnone\nnone\nnone\nnone\n50\n40 10 10 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\nnone\nnone\nnone\nnone\n50\n1\nyes\n'
+docs/batches/attachments/16-play-entry/focused.log:379: trailing whitespace.
++EXIT: 2
+docs/batches/attachments/16-play-entry/focused.log:380: trailing whitespace.
++STDOUT:
+docs/batches/attachments/16-play-entry/focused.log:386: trailing whitespace.
++CASE: edit confirmation 'yes'
+docs/batches/attachments/16-play-entry/focused.log:387: trailing whitespace.
++DIRECT: observed_input.py ['--edit', '/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/custom.json']
+docs/batches/attachments/16-play-entry/focused.log:388: trailing whitespace.
++STDIN: '3\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/custom.json\n\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nyes\n'
+docs/batches/attachments/16-play-entry/focused.log:389: trailing whitespace.
++EXIT: 0
+docs/batches/attachments/16-play-entry/focused.log:465: trailing whitespace.
++
+docs/batches/attachments/16-play-entry/focused.log:472: trailing whitespace.
++CASE: edit confirmation ''
+docs/batches/attachments/16-play-entry/focused.log:473: trailing whitespace.
++DIRECT: observed_input.py ['--edit', '/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/custom.json']
+docs/batches/attachments/16-play-entry/focused.log:474: trailing whitespace.
++STDIN: '3\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/custom.json\n\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\n\n'
+docs/batches/attachments/16-play-entry/focused.log:475: trailing whitespace.
++EXIT: 0
+docs/batches/attachments/16-play-entry/focused.log:551: trailing whitespace.
++
+docs/batches/attachments/16-play-entry/focused.log:560: trailing whitespace.
++CASE: guided sequence
+docs/batches/attachments/16-play-entry/focused.log:561: trailing whitespace.
++DIRECT: sequence_input.py []
+docs/batches/attachments/16-play-entry/focused.log:562: trailing whitespace.
++STDIN: '4\n\nsynthetic_player\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/0.json\nsynthetic_enemy_1\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/1.json\nsynthetic_enemy_2\n\nyes\nyes\nyes\n'
+docs/batches/attachments/16-play-entry/focused.log:563: trailing whitespace.
++EXIT: 0
+docs/batches/attachments/16-play-entry/focused.log:647: trailing whitespace.
++
+docs/batches/attachments/16-play-entry/focused.log:653: trailing whitespace.
++CASE: sequence cancellation
+docs/batches/attachments/16-play-entry/focused.log:654: trailing whitespace.
++DIRECT: sequence_input.py []
+docs/batches/attachments/16-play-entry/focused.log:655: trailing whitespace.
++STDIN: '4\n\nsynthetic_player\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/0.json\nsynthetic_enemy_1\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/1.json\nsynthetic_enemy_2\n\nyes\nyes\ncancel\n'
+docs/batches/attachments/16-play-entry/focused.log:656: trailing whitespace.
++EXIT: 2
+docs/batches/attachments/16-play-entry/focused.log:657: trailing whitespace.
++STDOUT:
+docs/batches/attachments/16-play-entry/focused.log:663: trailing whitespace.
++CASE: assessment 5
+docs/batches/attachments/16-play-entry/focused.log:664: trailing whitespace.
++DIRECT: tactical_combat.py ['/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/0.json']
+docs/batches/attachments/16-play-entry/focused.log:665: trailing whitespace.
++STDIN: '5\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/0.json\n'
+docs/batches/attachments/16-play-entry/focused.log:666: trailing whitespace.
++EXIT: 0
+docs/batches/attachments/16-play-entry/focused.log:809: trailing whitespace.
++
+docs/batches/attachments/16-play-entry/focused.log:810: trailing whitespace.
++DELEGATED STDERR:
+docs/batches/attachments/16-play-entry/focused.log:812: trailing whitespace.
++CASE: assessment 6
+docs/batches/attachments/16-play-entry/focused.log:813: trailing whitespace.
++DIRECT: tactical_enemy_phase.py ['/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/sequence.json']
+docs/batches/attachments/16-play-entry/focused.log:814: trailing whitespace.
++STDIN: '6\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/sequence.json\n'
+docs/batches/attachments/16-play-entry/focused.log:815: trailing whitespace.
++EXIT: 0
+docs/batches/attachments/16-play-entry/focused.log:859: trailing whitespace.
++
+docs/batches/attachments/16-play-entry/focused.log:860: trailing whitespace.
++DELEGATED STDERR:
+docs/batches/attachments/16-play-entry/focused.log:862: trailing whitespace.
++CASE: partial assessment
+docs/batches/attachments/16-play-entry/focused.log:863: trailing whitespace.
++DIRECT: tactical_combat.py ['/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/0.json']
+docs/batches/attachments/16-play-entry/focused.log:864: trailing whitespace.
++STDIN: '5\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/0.json\n'
+docs/batches/attachments/16-play-entry/focused.log:865: trailing whitespace.
++EXIT: 0
+docs/batches/attachments/16-play-entry/focused.log:874: trailing whitespace.
++
+docs/batches/attachments/16-play-entry/focused.log:875: trailing whitespace.
++DELEGATED STDERR:
+docs/batches/attachments/16-play-entry/focused.log:877: trailing whitespace.
++CASE: unsupported assessment
+docs/batches/attachments/16-play-entry/focused.log:878: trailing whitespace.
++DIRECT: tactical_combat.py ['/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/0.json']
+docs/batches/attachments/16-play-entry/focused.log:879: trailing whitespace.
++STDIN: '5\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/0.json\n'
+docs/batches/attachments/16-play-entry/focused.log:880: trailing whitespace.
++EXIT: 0
+docs/batches/attachments/16-play-entry/focused.log:887: trailing whitespace.
++
+docs/batches/attachments/16-play-entry/focused.log:888: trailing whitespace.
++DELEGATED STDERR:
+docs/batches/attachments/16-play-entry/focused.log:890: trailing whitespace.
++CASE: map tactical
+docs/batches/attachments/16-play-entry/focused.log:891: trailing whitespace.
++DIRECT: play_briefing.py ['--chapter', '7', '--difficulty', 'hard', '--turn', '5', '--phase', 'player', '--spoilers', 'Tactical spoilers']
+docs/batches/attachments/16-play-entry/focused.log:892: trailing whitespace.
++STDIN: '1\n7\nhard\n5\nplayer\n\n\n'
+docs/batches/attachments/16-play-entry/focused.log:893: trailing whitespace.
++EXIT: 0
+docs/batches/attachments/16-play-entry/focused.log:930: trailing whitespace.
++
+docs/batches/attachments/16-play-entry/focused.log:931: trailing whitespace.
++DELEGATED STDERR:
+docs/batches/attachments/16-play-entry/focused.log:933: trailing whitespace.
++CASE: map enemy phase details
+docs/batches/attachments/16-play-entry/focused.log:934: trailing whitespace.
++DIRECT: play_briefing.py ['--chapter', '7', '--difficulty', 'hard', '--turn', '5', '--phase', 'enemy', '--spoilers', 'Tactical spoilers', '--details']
+docs/batches/attachments/16-play-entry/focused.log:935: trailing whitespace.
++STDIN: '1\n7\nhard\n5\nenemy\nTactical spoilers\ndetails\n'
+docs/batches/attachments/16-play-entry/focused.log:936: trailing whitespace.
++EXIT: 0
+docs/batches/attachments/16-play-entry/focused.log:1071: trailing whitespace.
++
+docs/batches/attachments/16-play-entry/focused.log:1072: trailing whitespace.
++DELEGATED STDERR:
+docs/batches/attachments/16-play-entry/focused.log:1074: trailing whitespace.
++CASE: map no spoilers
+docs/batches/attachments/16-play-entry/focused.log:1075: trailing whitespace.
++DIRECT: play_briefing.py ['--chapter', '7', '--difficulty', 'hard', '--turn', '5', '--phase', 'player', '--spoilers', 'No spoilers', '--details']
+docs/batches/attachments/16-play-entry/focused.log:1076: trailing whitespace.
++STDIN: '1\n7\nhard\n5\nplayer\nNo spoilers\ndetails\n'
+docs/batches/attachments/16-play-entry/focused.log:1077: trailing whitespace.
++EXIT: 0
+docs/batches/attachments/16-play-entry/focused.log:1089: trailing whitespace.
++
+docs/batches/attachments/16-play-entry/focused.log:1090: trailing whitespace.
++DELEGATED STDERR:
+docs/batches/attachments/16-play-entry/focused.log:1092: trailing whitespace.
++CASE: map full provenance
+docs/batches/attachments/16-play-entry/focused.log:1093: trailing whitespace.
++DIRECT: play_briefing.py ['--chapter', '7', '--difficulty', 'hard', '--turn', '5', '--phase', 'player', '--spoilers', 'Full information', '--provenance']
+docs/batches/attachments/16-play-entry/focused.log:1094: trailing whitespace.
++STDIN: '1\n7\nhard\n5\nplayer\nFull information\nprovenance\n'
+docs/batches/attachments/16-play-entry/focused.log:1095: trailing whitespace.
++EXIT: 0
+docs/batches/attachments/16-play-entry/focused.log:1123: trailing whitespace.
++
+docs/batches/attachments/16-play-entry/focused.log:1124: trailing whitespace.
++DELEGATED STDERR:
+docs/batches/attachments/16-play-entry/focused.log:1126: trailing whitespace.
++CASE: unsupported map difficulty
+docs/batches/attachments/16-play-entry/focused.log:1127: trailing whitespace.
++DIRECT: play_briefing.py ['--chapter', '7', '--difficulty', 'normal', '--turn', '5', '--phase', 'player', '--spoilers', 'Tactical spoilers']
+docs/batches/attachments/16-play-entry/focused.log:1128: trailing whitespace.
++STDIN: '1\n7\nnormal\n5\nplayer\n\n\n'
+docs/batches/attachments/16-play-entry/focused.log:1129: trailing whitespace.
++EXIT: 2
+docs/batches/attachments/16-play-entry/focused.log:1130: trailing whitespace.
++STDOUT:
+docs/batches/attachments/16-play-entry/focused.log:1134: trailing whitespace.
++CASE: invalid phase
+docs/batches/attachments/16-play-entry/focused.log:1135: trailing whitespace.
++DIRECT: play_briefing.py ['--chapter', '7', '--difficulty', 'hard', '--turn', '5', '--phase', 'unknown', '--spoilers', 'Tactical spoilers']
+docs/batches/attachments/16-play-entry/focused.log:1136: trailing whitespace.
++STDIN: '1\n7\nhard\n5\nunknown\n\n\n'
+docs/batches/attachments/16-play-entry/focused.log:1137: trailing whitespace.
++EXIT: 2
+docs/batches/attachments/16-play-entry/focused.log:1138: trailing whitespace.
++STDOUT:
+Exit: 2
+Cause: evidence print separators left trailing whitespace, not product stdout differences.

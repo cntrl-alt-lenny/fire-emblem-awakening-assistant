@@ -48,4 +48,6 @@ Corrected the tests, preserving helper behavior. A second test expectation
 mistakenly changed protected-output refusal to 1 (actual 2); corrected it.
 Both [initial](attachments/16-play-entry/initial-focused.log) and
 [second](attachments/16-play-entry/second-focused.log) failures are retained.
-No remaining blocker.
+Evidence logging also left trailing whitespace; branch diff check caught it.
+[Failure](attachments/16-play-entry/diff-whitespace-failure.log) retained;
+normalized log line endings after exact-output assertions. No remaining blocker.

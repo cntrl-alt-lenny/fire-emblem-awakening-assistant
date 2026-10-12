@@ -1,10 +1,10 @@
 Commit: 264957745acd52799bfde43cb3ab853af45caa16
 Command: python3 -m unittest discover -s tests -p test_play_entry.py -v
-test_collection_and_cancellation_preserve_batched_stdin (test_play_entry.PlayEntryTests) ... 
-CASE: complete collection 
-DIRECT: observed_input.py [] 
-STDIN: '2\n\nHard\nClassic\neffective_displayed\nnone\nnone\n40 10 10 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\nnone\nnone\nnone\nnone\n50\n40 10 10 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\nnone\nnone\nnone\nnone\n50\n1\nyes\n' 
-EXIT: 0 
+test_collection_and_cancellation_preserve_batched_stdin (test_play_entry.PlayEntryTests) ...
+CASE: complete collection
+DIRECT: observed_input.py []
+STDIN: '2\n\nHard\nClassic\neffective_displayed\nnone\nnone\n40 10 10 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\nnone\nnone\nnone\nnone\n50\n40 10 10 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\nnone\nnone\nnone\nnone\n50\n1\nyes\n'
+EXIT: 0
 STDOUT: {
   "difficulty": "Hard",
   "mode": "Classic",
@@ -80,17 +80,17 @@ STDOUT: {
   },
   "observed_inputs_complete": true
 }
- 
+
 DELEGATED STDERR: Observed duel only. Enter actual observations; no inferred defaults or bonus conversion.
 For an edited draft, type keep deliberately for each value; final confirmation is renewed.
 Difficulty (Normal/Hard/Lunatic/Lunatic+) [blank/? unknown; cancel stops]: Mode (Classic/Casual) [blank/? unknown; cancel stops]: Stats basis (effective_displayed/raw_permanent); include bonuses once [blank/? unknown; cancel stops]: Support on either side (none/adjacent/paired); none confirms both absent [blank/? unknown; cancel stops]: Observed partner IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker stats hp str mag skl spd lck def res [blank/? unknown; cancel stops]: attacker actual current HP (never defaults to max) [blank/? unknown; cancel stops]: Weapon: custom, catalog EXACT_NAME, unequipped (defender only) [blank/? unknown; cancel stops]: Weapon type (sword/lance/axe/bow/tome/stone/claw/breath) [blank/? unknown; cancel stops]: Damage type (physical/magical) [blank/? unknown; cancel stops]: Actual weapon required rank (E/D/C/B/A), separate from unit proficiency [blank/? unknown; cancel stops]: Actual weapon might hit crit (including forge) [blank/? unknown; cancel stops]: Actual weapon range, e.g. 1 or 1-2 [blank/? unknown; cancel stops]: Exact weapon effect; none confirms no special effect [blank/? unknown; cancel stops]: Two consecutive attacks: yes/no [blank/? unknown; cancel stops]: Weapon effectiveness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker Observed weapon rank (E/D/C/B/A) [blank/? unknown; cancel stops]: attacker All equipped skill IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker All innate weakness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker Terrain def res avoid; none confirms no bonuses [blank/? unknown; cancel stops]: attacker Combat bonuses hit avoid crit crit_avoid attack; none confirms no bonuses [blank/? unknown; cancel stops]: attacker Observed remaining weapon uses (explicit 0 if unequipped) [blank/? unknown; cancel stops]: defender stats hp str mag skl spd lck def res [blank/? unknown; cancel stops]: defender actual current HP (never defaults to max) [blank/? unknown; cancel stops]: Weapon: custom, catalog EXACT_NAME, unequipped (defender only) [blank/? unknown; cancel stops]: Weapon type (sword/lance/axe/bow/tome/stone/claw/breath) [blank/? unknown; cancel stops]: Damage type (physical/magical) [blank/? unknown; cancel stops]: Actual weapon required rank (E/D/C/B/A), separate from unit proficiency [blank/? unknown; cancel stops]: Actual weapon might hit crit (including forge) [blank/? unknown; cancel stops]: Actual weapon range, e.g. 1 or 1-2 [blank/? unknown; cancel stops]: Exact weapon effect; none confirms no special effect [blank/? unknown; cancel stops]: Two consecutive attacks: yes/no [blank/? unknown; cancel stops]: Weapon effectiveness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: defender Observed weapon rank (E/D/C/B/A) [blank/? unknown; cancel stops]: defender All equipped skill IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: defender All innate weakness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: defender Terrain def res avoid; none confirms no bonuses [blank/? unknown; cancel stops]: defender Combat bonuses hit avoid crit crit_avoid attack; none confirms no bonuses [blank/? unknown; cancel stops]: defender Observed remaining weapon uses (explicit 0 if unequipped) [blank/? unknown; cancel stops]: Actual attack distance [blank/? unknown; cancel stops]: Confirm ALL observations current and complete, including effects/support: yes/no [blank/? unknown; cancel stops]: NO_MODELED_DEATH_IN_THIS_DUEL: attacker death probability=0, defender death probability=0
 Supplied duel only; no whole-map survival guarantee.
 
 
-CASE: partial collection 
-DIRECT: observed_input.py [] 
-STDIN: '2\n\nHard\nClassic\neffective_displayed\nnone\nnone\n40 10 ? 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\nnone\nnone\nnone\nnone\n50\n40 10 ? 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\nnone\nnone\nnone\nnone\n50\n1\nyes\n' 
-EXIT: 0 
+CASE: partial collection
+DIRECT: observed_input.py []
+STDIN: '2\n\nHard\nClassic\neffective_displayed\nnone\nnone\n40 10 ? 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\nnone\nnone\nnone\nnone\n50\n40 10 ? 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\nnone\nnone\nnone\nnone\n50\n1\nyes\n'
+EXIT: 0
 STDOUT: {
   "difficulty": "Hard",
   "mode": "Classic",
@@ -166,7 +166,7 @@ STDOUT: {
   },
   "observed_inputs_complete": false
 }
- 
+
 DELEGATED STDERR: Observed duel only. Enter actual observations; no inferred defaults or bonus conversion.
 For an edited draft, type keep deliberately for each value; final confirmation is renewed.
 Difficulty (Normal/Hard/Lunatic/Lunatic+) [blank/? unknown; cancel stops]: Mode (Classic/Casual) [blank/? unknown; cancel stops]: Stats basis (effective_displayed/raw_permanent); include bonuses once [blank/? unknown; cancel stops]: Support on either side (none/adjacent/paired); none confirms both absent [blank/? unknown; cancel stops]: Observed partner IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker stats hp str mag skl spd lck def res [blank/? unknown; cancel stops]: attacker actual current HP (never defaults to max) [blank/? unknown; cancel stops]: Weapon: custom, catalog EXACT_NAME, unequipped (defender only) [blank/? unknown; cancel stops]: Weapon type (sword/lance/axe/bow/tome/stone/claw/breath) [blank/? unknown; cancel stops]: Damage type (physical/magical) [blank/? unknown; cancel stops]: Actual weapon required rank (E/D/C/B/A), separate from unit proficiency [blank/? unknown; cancel stops]: Actual weapon might hit crit (including forge) [blank/? unknown; cancel stops]: Actual weapon range, e.g. 1 or 1-2 [blank/? unknown; cancel stops]: Exact weapon effect; none confirms no special effect [blank/? unknown; cancel stops]: Two consecutive attacks: yes/no [blank/? unknown; cancel stops]: Weapon effectiveness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker Observed weapon rank (E/D/C/B/A) [blank/? unknown; cancel stops]: attacker All equipped skill IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker All innate weakness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker Terrain def res avoid; none confirms no bonuses [blank/? unknown; cancel stops]: attacker Combat bonuses hit avoid crit crit_avoid attack; none confirms no bonuses [blank/? unknown; cancel stops]: attacker Observed remaining weapon uses (explicit 0 if unequipped) [blank/? unknown; cancel stops]: defender stats hp str mag skl spd lck def res [blank/? unknown; cancel stops]: defender actual current HP (never defaults to max) [blank/? unknown; cancel stops]: Weapon: custom, catalog EXACT_NAME, unequipped (defender only) [blank/? unknown; cancel stops]: Weapon type (sword/lance/axe/bow/tome/stone/claw/breath) [blank/? unknown; cancel stops]: Damage type (physical/magical) [blank/? unknown; cancel stops]: Actual weapon required rank (E/D/C/B/A), separate from unit proficiency [blank/? unknown; cancel stops]: Actual weapon might hit crit (including forge) [blank/? unknown; cancel stops]: Actual weapon range, e.g. 1 or 1-2 [blank/? unknown; cancel stops]: Exact weapon effect; none confirms no special effect [blank/? unknown; cancel stops]: Two consecutive attacks: yes/no [blank/? unknown; cancel stops]: Weapon effectiveness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: defender Observed weapon rank (E/D/C/B/A) [blank/? unknown; cancel stops]: defender All equipped skill IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: defender All innate weakness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: defender Terrain def res avoid; none confirms no bonuses [blank/? unknown; cancel stops]: defender Combat bonuses hit avoid crit crit_avoid attack; none confirms no bonuses [blank/? unknown; cancel stops]: defender Observed remaining weapon uses (explicit 0 if unequipped) [blank/? unknown; cancel stops]: Actual attack distance [blank/? unknown; cancel stops]: Confirm ALL observations current and complete, including effects/support: yes/no [blank/? unknown; cancel stops]: Incomplete/invalid observations remain; completeness is false.
@@ -174,10 +174,10 @@ UNKNOWN: Observed stats, equipment/forge, skills, weaknesses and support complet
 Supplied duel only; no whole-map survival guarantee.
 
 
-CASE: unsupported Counter 
-DIRECT: observed_input.py [] 
-STDIN: '2\n\nHard\nClassic\neffective_displayed\nnone\nnone\n40 10 10 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\ncounter\nnone\nnone\nnone\n50\n40 10 10 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\ncounter\nnone\nnone\nnone\n50\n1\nyes\n' 
-EXIT: 0 
+CASE: unsupported Counter
+DIRECT: observed_input.py []
+STDIN: '2\n\nHard\nClassic\neffective_displayed\nnone\nnone\n40 10 10 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\ncounter\nnone\nnone\nnone\n50\n40 10 10 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\ncounter\nnone\nnone\nnone\n50\n1\nyes\n'
+EXIT: 0
 STDOUT: {
   "difficulty": "Hard",
   "mode": "Classic",
@@ -257,7 +257,7 @@ STDOUT: {
   },
   "observed_inputs_complete": true
 }
- 
+
 DELEGATED STDERR: ok
 test_edit_assessment_sequence_and_sources_unchanged (test_play_entry.PlayEntryTests) ... Observed duel only. Enter actual observations; no inferred defaults or bonus conversion.
 For an edited draft, type keep deliberately for each value; final confirmation is renewed.
@@ -265,10 +265,10 @@ Difficulty (Normal/Hard/Lunatic/Lunatic+) [blank/? unknown; cancel stops]: Mode 
 Supplied duel only; no whole-map survival guarantee.
 
 
-CASE: paired collection 
-DIRECT: observed_input.py [] 
-STDIN: '2\n\nHard\nClassic\neffective_displayed\npaired\nobserved_partner\n40 10 10 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\nnone\nnone\nnone\nnone\n50\n40 10 10 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\nnone\nnone\nnone\nnone\n50\n1\nyes\n' 
-EXIT: 0 
+CASE: paired collection
+DIRECT: observed_input.py []
+STDIN: '2\n\nHard\nClassic\neffective_displayed\npaired\nobserved_partner\n40 10 10 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\nnone\nnone\nnone\nnone\n50\n40 10 10 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\nnone\nnone\nnone\nnone\n50\n1\nyes\n'
+EXIT: 0
 STDOUT: {
   "difficulty": "Hard",
   "mode": "Classic",
@@ -346,47 +346,47 @@ STDOUT: {
   },
   "observed_inputs_complete": true
 }
- 
+
 DELEGATED STDERR: Observed duel only. Enter actual observations; no inferred defaults or bonus conversion.
 For an edited draft, type keep deliberately for each value; final confirmation is renewed.
 Difficulty (Normal/Hard/Lunatic/Lunatic+) [blank/? unknown; cancel stops]: Mode (Classic/Casual) [blank/? unknown; cancel stops]: Stats basis (effective_displayed/raw_permanent); include bonuses once [blank/? unknown; cancel stops]: Support on either side (none/adjacent/paired); none confirms both absent [blank/? unknown; cancel stops]: Observed partner IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker stats hp str mag skl spd lck def res [blank/? unknown; cancel stops]: attacker actual current HP (never defaults to max) [blank/? unknown; cancel stops]: Weapon: custom, catalog EXACT_NAME, unequipped (defender only) [blank/? unknown; cancel stops]: Weapon type (sword/lance/axe/bow/tome/stone/claw/breath) [blank/? unknown; cancel stops]: Damage type (physical/magical) [blank/? unknown; cancel stops]: Actual weapon required rank (E/D/C/B/A), separate from unit proficiency [blank/? unknown; cancel stops]: Actual weapon might hit crit (including forge) [blank/? unknown; cancel stops]: Actual weapon range, e.g. 1 or 1-2 [blank/? unknown; cancel stops]: Exact weapon effect; none confirms no special effect [blank/? unknown; cancel stops]: Two consecutive attacks: yes/no [blank/? unknown; cancel stops]: Weapon effectiveness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker Observed weapon rank (E/D/C/B/A) [blank/? unknown; cancel stops]: attacker All equipped skill IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker All innate weakness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker Terrain def res avoid; none confirms no bonuses [blank/? unknown; cancel stops]: attacker Combat bonuses hit avoid crit crit_avoid attack; none confirms no bonuses [blank/? unknown; cancel stops]: attacker Observed remaining weapon uses (explicit 0 if unequipped) [blank/? unknown; cancel stops]: defender stats hp str mag skl spd lck def res [blank/? unknown; cancel stops]: defender actual current HP (never defaults to max) [blank/? unknown; cancel stops]: Weapon: custom, catalog EXACT_NAME, unequipped (defender only) [blank/? unknown; cancel stops]: Weapon type (sword/lance/axe/bow/tome/stone/claw/breath) [blank/? unknown; cancel stops]: Damage type (physical/magical) [blank/? unknown; cancel stops]: Actual weapon required rank (E/D/C/B/A), separate from unit proficiency [blank/? unknown; cancel stops]: Actual weapon might hit crit (including forge) [blank/? unknown; cancel stops]: Actual weapon range, e.g. 1 or 1-2 [blank/? unknown; cancel stops]: Exact weapon effect; none confirms no special effect [blank/? unknown; cancel stops]: Two consecutive attacks: yes/no [blank/? unknown; cancel stops]: Weapon effectiveness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: defender Observed weapon rank (E/D/C/B/A) [blank/? unknown; cancel stops]: defender All equipped skill IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: defender All innate weakness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: defender Terrain def res avoid; none confirms no bonuses [blank/? unknown; cancel stops]: defender Combat bonuses hit avoid crit crit_avoid attack; none confirms no bonuses [blank/? unknown; cancel stops]: defender Observed remaining weapon uses (explicit 0 if unequipped) [blank/? unknown; cancel stops]: Actual attack distance [blank/? unknown; cancel stops]: Confirm ALL observations current and complete, including effects/support: yes/no [blank/? unknown; cancel stops]: UNKNOWN: Full paired/adjacent Dual Strike and Dual Guard outcome is unsupported; use pair_up/paired_forecast for supported bonuses and rates.
 Supplied duel only; no whole-map survival guarantee.
 
 
-CASE: collector cancellation 
-DIRECT: observed_input.py [] 
-STDIN: '2\n\ncancel\n' 
-EXIT: 1 
-STDOUT:  
+CASE: collector cancellation
+DIRECT: observed_input.py []
+STDIN: '2\n\ncancel\n'
+EXIT: 1
+STDOUT:
 DELEGATED STDERR: Observed duel only. Enter actual observations; no inferred defaults or bonus conversion.
 For an edited draft, type keep deliberately for each value; final confirmation is renewed.
 Difficulty (Normal/Hard/Lunatic/Lunatic+) [blank/? unknown; cancel stops]: Cancelled; no observation payload or file created.
 
 
-CASE: collector EOF 
-DIRECT: observed_input.py [] 
-STDIN: '2\n\nHard\n' 
-EXIT: 1 
-STDOUT:  
+CASE: collector EOF
+DIRECT: observed_input.py []
+STDIN: '2\n\nHard\n'
+EXIT: 1
+STDOUT:
 DELEGATED STDERR: Observed duel only. Enter actual observations; no inferred defaults or bonus conversion.
 For an edited draft, type keep deliberately for each value; final confirmation is renewed.
 Difficulty (Normal/Hard/Lunatic/Lunatic+) [blank/? unknown; cancel stops]: Mode (Classic/Casual) [blank/? unknown; cancel stops]: Cancelled; no observation payload or file created.
 
 
-CASE: protected output 
-DIRECT: observed_input.py ['--output', 'state/current_run.json'] 
-STDIN: '2\nstate/current_run.json\nHard\nClassic\neffective_displayed\nnone\nnone\n40 10 10 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\nnone\nnone\nnone\nnone\n50\n40 10 10 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\nnone\nnone\nnone\nnone\n50\n1\nyes\n' 
-EXIT: 2 
-STDOUT:  
+CASE: protected output
+DIRECT: observed_input.py ['--output', 'state/current_run.json']
+STDIN: '2\nstate/current_run.json\nHard\nClassic\neffective_displayed\nnone\nnone\n40 10 10 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\nnone\nnone\nnone\nnone\n50\n40 10 10 0 10 0 5 5\n40\ncustom\nsword\nphysical\nE\n5 100 0\n1\nnone\nno\nnone\nE\nnone\nnone\nnone\nnone\n50\n1\nyes\n'
+EXIT: 2
+STDOUT:
 DELEGATED STDERR: Observed duel only. Enter actual observations; no inferred defaults or bonus conversion.
 For an edited draft, type keep deliberately for each value; final confirmation is renewed.
 Difficulty (Normal/Hard/Lunatic/Lunatic+) [blank/? unknown; cancel stops]: Mode (Classic/Casual) [blank/? unknown; cancel stops]: Stats basis (effective_displayed/raw_permanent); include bonuses once [blank/? unknown; cancel stops]: Support on either side (none/adjacent/paired); none confirms both absent [blank/? unknown; cancel stops]: Observed partner IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker stats hp str mag skl spd lck def res [blank/? unknown; cancel stops]: attacker actual current HP (never defaults to max) [blank/? unknown; cancel stops]: Weapon: custom, catalog EXACT_NAME, unequipped (defender only) [blank/? unknown; cancel stops]: Weapon type (sword/lance/axe/bow/tome/stone/claw/breath) [blank/? unknown; cancel stops]: Damage type (physical/magical) [blank/? unknown; cancel stops]: Actual weapon required rank (E/D/C/B/A), separate from unit proficiency [blank/? unknown; cancel stops]: Actual weapon might hit crit (including forge) [blank/? unknown; cancel stops]: Actual weapon range, e.g. 1 or 1-2 [blank/? unknown; cancel stops]: Exact weapon effect; none confirms no special effect [blank/? unknown; cancel stops]: Two consecutive attacks: yes/no [blank/? unknown; cancel stops]: Weapon effectiveness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker Observed weapon rank (E/D/C/B/A) [blank/? unknown; cancel stops]: attacker All equipped skill IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker All innate weakness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: attacker Terrain def res avoid; none confirms no bonuses [blank/? unknown; cancel stops]: attacker Combat bonuses hit avoid crit crit_avoid attack; none confirms no bonuses [blank/? unknown; cancel stops]: attacker Observed remaining weapon uses (explicit 0 if unequipped) [blank/? unknown; cancel stops]: defender stats hp str mag skl spd lck def res [blank/? unknown; cancel stops]: defender actual current HP (never defaults to max) [blank/? unknown; cancel stops]: Weapon: custom, catalog EXACT_NAME, unequipped (defender only) [blank/? unknown; cancel stops]: Weapon type (sword/lance/axe/bow/tome/stone/claw/breath) [blank/? unknown; cancel stops]: Damage type (physical/magical) [blank/? unknown; cancel stops]: Actual weapon required rank (E/D/C/B/A), separate from unit proficiency [blank/? unknown; cancel stops]: Actual weapon might hit crit (including forge) [blank/? unknown; cancel stops]: Actual weapon range, e.g. 1 or 1-2 [blank/? unknown; cancel stops]: Exact weapon effect; none confirms no special effect [blank/? unknown; cancel stops]: Two consecutive attacks: yes/no [blank/? unknown; cancel stops]: Weapon effectiveness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: defender Observed weapon rank (E/D/C/B/A) [blank/? unknown; cancel stops]: defender All equipped skill IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: defender All innate weakness IDs, comma-separated; none confirms empty [blank/? unknown; cancel stops]: defender Terrain def res avoid; none confirms no bonuses [blank/? unknown; cancel stops]: defender Combat bonuses hit avoid crit crit_avoid attack; none confirms no bonuses [blank/? unknown; cancel stops]: defender Observed remaining weapon uses (explicit 0 if unequipped) [blank/? unknown; cancel stops]: Actual attack distance [blank/? unknown; cancel stops]: Confirm ALL observations current and complete, including effects/support: yes/no [blank/? unknown; cancel stops]: Refused: Output must be inside this checkout state/observations.
 
 
-CASE: edit confirmation 'yes' 
-DIRECT: observed_input.py ['--edit', '/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/custom.json'] 
-STDIN: '3\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/custom.json\n\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nyes\n' 
-EXIT: 0 
+CASE: edit confirmation 'yes'
+DIRECT: observed_input.py ['--edit', '/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/custom.json']
+STDIN: '3\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/custom.json\n\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nyes\n'
+EXIT: 0
 STDOUT: {
   "difficulty": "Hard",
   "mode": "Classic",
@@ -462,17 +462,17 @@ STDOUT: {
   },
   "observed_inputs_complete": true
 }
- 
+
 DELEGATED STDERR: Observed duel only. Enter actual observations; no inferred defaults or bonus conversion.
 For an edited draft, type keep deliberately for each value; final confirmation is renewed.
 Difficulty (Normal/Hard/Lunatic/Lunatic+); keep="Hard" [blank/? unknown; cancel stops]: Mode (Classic/Casual); keep="Classic" [blank/? unknown; cancel stops]: Stats basis (effective_displayed/raw_permanent); include bonuses once; keep="effective_displayed" [blank/? unknown; cancel stops]: Support on either side (none/adjacent/paired); none confirms both absent; keep="none" [blank/? unknown; cancel stops]: Observed partner IDs, comma-separated; none confirms empty; keep=[] [blank/? unknown; cancel stops]: attacker stats hp str mag skl spd lck def res; keep={"hp": 40, "str": 10, "mag": 10, "skl": 0, "spd": 10, "lck": 0, "def": 5, "res": 5} [blank/? unknown; cancel stops]: attacker actual current HP (never defaults to max); keep=40 [blank/? unknown; cancel stops]: Weapon: custom, catalog EXACT_NAME, unequipped (defender only); keep={"weapon_type": "sword", "damage_type": "physical", "rank": "E", "might": 5, "hit": 100, "crit": 0, "range": "1", "effect": "–", "brave": false, "effectiveness": []} [blank/? unknown; cancel stops]: attacker supplied weapon_state (equipped/unequipped); keep="equipped" [blank/? unknown; cancel stops]: attacker Observed weapon rank (E/D/C/B/A); keep="E" [blank/? unknown; cancel stops]: attacker All equipped skill IDs, comma-separated; none confirms empty; keep=[] [blank/? unknown; cancel stops]: attacker All innate weakness IDs, comma-separated; none confirms empty; keep=[] [blank/? unknown; cancel stops]: attacker Terrain def res avoid; none confirms no bonuses; keep={} [blank/? unknown; cancel stops]: attacker Combat bonuses hit avoid crit crit_avoid attack; none confirms no bonuses; keep={} [blank/? unknown; cancel stops]: attacker Observed remaining weapon uses (explicit 0 if unequipped); keep=50 [blank/? unknown; cancel stops]: defender stats hp str mag skl spd lck def res; keep={"hp": 40, "str": 10, "mag": 10, "skl": 0, "spd": 10, "lck": 0, "def": 5, "res": 5} [blank/? unknown; cancel stops]: defender actual current HP (never defaults to max); keep=40 [blank/? unknown; cancel stops]: Weapon: custom, catalog EXACT_NAME, unequipped (defender only); keep={"weapon_type": "sword", "damage_type": "physical", "rank": "E", "might": 5, "hit": 100, "crit": 0, "range": "1", "effect": "–", "brave": false, "effectiveness": []} [blank/? unknown; cancel stops]: defender supplied weapon_state (equipped/unequipped); keep="equipped" [blank/? unknown; cancel stops]: defender Observed weapon rank (E/D/C/B/A); keep="E" [blank/? unknown; cancel stops]: defender All equipped skill IDs, comma-separated; none confirms empty; keep=[] [blank/? unknown; cancel stops]: defender All innate weakness IDs, comma-separated; none confirms empty; keep=[] [blank/? unknown; cancel stops]: defender Terrain def res avoid; none confirms no bonuses; keep={} [blank/? unknown; cancel stops]: defender Combat bonuses hit avoid crit crit_avoid attack; none confirms no bonuses; keep={} [blank/? unknown; cancel stops]: defender Observed remaining weapon uses (explicit 0 if unequipped); keep=50 [blank/? unknown; cancel stops]: Actual attack distance; keep=1 [blank/? unknown; cancel stops]: Confirm ALL observations current and complete, including effects/support: yes/no [blank/? unknown; cancel stops]: NO_MODELED_DEATH_IN_THIS_DUEL: attacker death probability=0, defender death probability=0
 Supplied duel only; no whole-map survival guarantee.
 
 
-CASE: edit confirmation '' 
-DIRECT: observed_input.py ['--edit', '/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/custom.json'] 
-STDIN: '3\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/custom.json\n\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\n\n' 
-EXIT: 0 
+CASE: edit confirmation ''
+DIRECT: observed_input.py ['--edit', '/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/custom.json']
+STDIN: '3\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/custom.json\n\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\nkeep\n\n'
+EXIT: 0
 STDOUT: {
   "difficulty": "Hard",
   "mode": "Classic",
@@ -548,7 +548,7 @@ STDOUT: {
   },
   "observed_inputs_complete": false
 }
- 
+
 DELEGATED STDERR: ok
 test_isolated_public_saving_and_run_alias_boundaries (test_play_entry.PlayEntryTests) ... ok
 test_map_views_phase_spoilers_and_refusal (test_play_entry.PlayEntryTests) ... Observed duel only. Enter actual observations; no inferred defaults or bonus conversion.
@@ -557,10 +557,10 @@ Difficulty (Normal/Hard/Lunatic/Lunatic+); keep="Hard" [blank/? unknown; cancel 
 Supplied duel only; no whole-map survival guarantee.
 
 
-CASE: guided sequence 
-DIRECT: sequence_input.py [] 
-STDIN: '4\n\nsynthetic_player\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/0.json\nsynthetic_enemy_1\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/1.json\nsynthetic_enemy_2\n\nyes\nyes\nyes\n' 
-EXIT: 0 
+CASE: guided sequence
+DIRECT: sequence_input.py []
+STDIN: '4\n\nsynthetic_player\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/0.json\nsynthetic_enemy_1\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/1.json\nsynthetic_enemy_2\n\nyes\nyes\nyes\n'
+EXIT: 0
 STDOUT: {
   "difficulty": "Hard",
   "mode": "Classic",
@@ -644,26 +644,26 @@ STDOUT: {
     }
   ]
 }
- 
+
 DELEGATED STDERR: Attacker = distinct enemy; defender = same player. Type cancel to stop. Never rename a repeated entity to obtain numbers.
 Player entity ID: Next plain duel JSON path (blank finishes ordered list): Distinct observed enemy entity ID: Next plain duel JSON path (blank finishes ordered list): Distinct observed enemy entity ID: Next plain duel JSON path (blank finishes ordered list): Supplied order: synthetic_enemy_1 -> synthetic_enemy_2
 Confirm this exact supplied attack order? (yes/no) Confirm all supplied observations are complete and still unchanged? (yes/no) Confirm no healing, levels, equipment/skill swaps or other events intervene? (yes/no) NO_MODELED_PLAYER_DEATH_IN_THIS_SEQUENCE; supplied sequence only; no map survival guarantee.
 
 
-CASE: sequence cancellation 
-DIRECT: sequence_input.py [] 
-STDIN: '4\n\nsynthetic_player\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/0.json\nsynthetic_enemy_1\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/1.json\nsynthetic_enemy_2\n\nyes\nyes\ncancel\n' 
-EXIT: 2 
-STDOUT:  
+CASE: sequence cancellation
+DIRECT: sequence_input.py []
+STDIN: '4\n\nsynthetic_player\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/0.json\nsynthetic_enemy_1\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/1.json\nsynthetic_enemy_2\n\nyes\nyes\ncancel\n'
+EXIT: 2
+STDOUT:
 DELEGATED STDERR: Attacker = distinct enemy; defender = same player. Type cancel to stop. Never rename a repeated entity to obtain numbers.
 Player entity ID: Next plain duel JSON path (blank finishes ordered list): Distinct observed enemy entity ID: Next plain duel JSON path (blank finishes ordered list): Distinct observed enemy entity ID: Next plain duel JSON path (blank finishes ordered list): Supplied order: synthetic_enemy_1 -> synthetic_enemy_2
 Confirm this exact supplied attack order? (yes/no) Confirm all supplied observations are complete and still unchanged? (yes/no) Confirm no healing, levels, equipment/skill swaps or other events intervene? (yes/no) Cancelled; no sequence emitted or saved.
 
 
-CASE: assessment 5 
-DIRECT: tactical_combat.py ['/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/0.json'] 
-STDIN: '5\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/0.json\n' 
-EXIT: 0 
+CASE: assessment 5
+DIRECT: tactical_combat.py ['/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/0.json']
+STDIN: '5\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/0.json\n'
+EXIT: 0
 STDOUT: {
   "status": "POTENTIALLY_LETHAL",
   "at_risk_sides": [
@@ -806,13 +806,13 @@ STDOUT: {
   },
   "warning": "Supported duel only. Side names describe attack roles, not player/enemy allegiance. No prediction of AI order, unseen enemies, reinforcements or future movement. Expected HP is not a guarantee."
 }
- 
-DELEGATED STDERR: 
 
-CASE: assessment 6 
-DIRECT: tactical_enemy_phase.py ['/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/sequence.json'] 
-STDIN: '6\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/sequence.json\n' 
-EXIT: 0 
+DELEGATED STDERR:
+
+CASE: assessment 6
+DIRECT: tactical_enemy_phase.py ['/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/sequence.json']
+STDIN: '6\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/sequence.json\n'
+EXIT: 0
 STDOUT: {
   "status": "NO_MODELED_PLAYER_DEATH_IN_THIS_SEQUENCE",
   "outcome": {
@@ -856,13 +856,13 @@ STDOUT: {
   "safe_to_claim_map_survival": false,
   "warning": "Only this supplied sequence of distinct observed attackers. Independent uniform RNG model; no AI order/targets/paths, unseen enemies, reinforcements, between-duel events, healing or weapon swaps. Zero modeled player death is conditional, never whole-map safety. Enemy death is reported per step."
 }
- 
-DELEGATED STDERR: 
 
-CASE: partial assessment 
-DIRECT: tactical_combat.py ['/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/0.json'] 
-STDIN: '5\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/0.json\n' 
-EXIT: 0 
+DELEGATED STDERR:
+
+CASE: partial assessment
+DIRECT: tactical_combat.py ['/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/0.json']
+STDIN: '5\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/0.json\n'
+EXIT: 0
 STDOUT: {
   "status": "UNKNOWN",
   "missing": [
@@ -871,26 +871,26 @@ STDOUT: {
   "safe_to_claim_survival": false,
   "outcome": null
 }
- 
-DELEGATED STDERR: 
 
-CASE: unsupported assessment 
-DIRECT: tactical_combat.py ['/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/0.json'] 
-STDIN: '5\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/0.json\n' 
-EXIT: 0 
+DELEGATED STDERR:
+
+CASE: unsupported assessment
+DIRECT: tactical_combat.py ['/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/0.json']
+STDIN: '5\n/var/folders/5m/7xrw7wgj3vvf6pbqsbkmptc80000gn/T/tmpr9achcyz/0.json\n'
+EXIT: 0
 STDOUT: {
   "status": "UNKNOWN",
   "reason": "attacker:skills: Unsupported combat skills: counter",
   "safe_to_claim_survival": false,
   "outcome": null
 }
- 
-DELEGATED STDERR: 
 
-CASE: map tactical 
-DIRECT: play_briefing.py ['--chapter', '7', '--difficulty', 'hard', '--turn', '5', '--phase', 'player', '--spoilers', 'Tactical spoilers'] 
-STDIN: '1\n7\nhard\n5\nplayer\n\n\n' 
-EXIT: 0 
+DELEGATED STDERR:
+
+CASE: map tactical
+DIRECT: play_briefing.py ['--chapter', '7', '--difficulty', 'hard', '--turn', '5', '--phase', 'player', '--spoilers', 'Tactical spoilers']
+STDIN: '1\n7\nhard\n5\nplayer\n\n\n'
+EXIT: 0
 STDOUT: ok
 test_protected_run_aliases_before_open_and_wrong_kind (test_play_entry.PlayEntryTests) ... ok
 test_selection_eof_cancel_invalid_and_no_second_action (test_play_entry.PlayEntryTests) ... ok
@@ -927,13 +927,13 @@ Candidate hard_chapter_7_t5 [SUPPORTED]; schedule completeness: UNKNOWN
   [UNKNOWN] skills: UNKNOWN
   [UNKNOWN] suppression: UNKNOWN
 Use --provenance for claim source IDs; --details for the full spoiler-filtered query.
- 
-DELEGATED STDERR: 
 
-CASE: map enemy phase details 
-DIRECT: play_briefing.py ['--chapter', '7', '--difficulty', 'hard', '--turn', '5', '--phase', 'enemy', '--spoilers', 'Tactical spoilers', '--details'] 
-STDIN: '1\n7\nhard\n5\nenemy\nTactical spoilers\ndetails\n' 
-EXIT: 0 
+DELEGATED STDERR:
+
+CASE: map enemy phase details
+DIRECT: play_briefing.py ['--chapter', '7', '--difficulty', 'hard', '--turn', '5', '--phase', 'enemy', '--spoilers', 'Tactical spoilers', '--details']
+STDIN: '1\n7\nhard\n5\nenemy\nTactical spoilers\ndetails\n'
+EXIT: 0
 STDOUT: {
   "chapter_id": "chapter_7",
   "difficulty": "Hard",
@@ -1068,13 +1068,13 @@ STDOUT: {
   "warning": "Known facts are source-supported, not a complete threat map. Hard beginning-enemy-phase spawns can move/attack immediately. Never rely on enemy-phasing an unknown wave. Tactical view abridges other-map references; Full information retains the original reference.",
   "absence_limitations": null
 }
- 
-DELEGATED STDERR: 
 
-CASE: map no spoilers 
-DIRECT: play_briefing.py ['--chapter', '7', '--difficulty', 'hard', '--turn', '5', '--phase', 'player', '--spoilers', 'No spoilers', '--details'] 
-STDIN: '1\n7\nhard\n5\nplayer\nNo spoilers\ndetails\n' 
-EXIT: 0 
+DELEGATED STDERR:
+
+CASE: map no spoilers
+DIRECT: play_briefing.py ['--chapter', '7', '--difficulty', 'hard', '--turn', '5', '--phase', 'player', '--spoilers', 'No spoilers', '--details']
+STDIN: '1\n7\nhard\n5\nplayer\nNo spoilers\ndetails\n'
+EXIT: 0
 STDOUT: {
   "chapter_id": "chapter_7",
   "difficulty": "Hard",
@@ -1086,13 +1086,13 @@ STDOUT: {
   "safe_to_claim_move_safe": false,
   "warning": "Map and schedule evidence is incomplete. No empty result or modeled outcome establishes whole-map safety. Detailed material withheld under No spoilers."
 }
- 
-DELEGATED STDERR: 
 
-CASE: map full provenance 
-DIRECT: play_briefing.py ['--chapter', '7', '--difficulty', 'hard', '--turn', '5', '--phase', 'player', '--spoilers', 'Full information', '--provenance'] 
-STDIN: '1\n7\nhard\n5\nplayer\nFull information\nprovenance\n' 
-EXIT: 0 
+DELEGATED STDERR:
+
+CASE: map full provenance
+DIRECT: play_briefing.py ['--chapter', '7', '--difficulty', 'hard', '--turn', '5', '--phase', 'player', '--spoilers', 'Full information', '--provenance']
+STDIN: '1\n7\nhard\n5\nplayer\nFull information\nprovenance\n'
+EXIT: 0
 STDOUT: chapter_7 | Hard / Classic
 Current: player phase 5 -> target: enemy phase 5
 Known facts are source-supported, not a complete threat map. Hard beginning-enemy-phase spawns can move/attack immediately. Never rely on enemy-phasing an unknown wave.
@@ -1120,22 +1120,22 @@ Candidate hard_chapter_7_t5 [SUPPORTED]; schedule completeness: UNKNOWN
   [UNKNOWN] skills: UNKNOWN [sources: none recorded]
   [UNKNOWN] suppression: UNKNOWN [sources: none recorded]
 Use --provenance for claim source IDs; --details for the full spoiler-filtered query.
- 
-DELEGATED STDERR: 
 
-CASE: unsupported map difficulty 
-DIRECT: play_briefing.py ['--chapter', '7', '--difficulty', 'normal', '--turn', '5', '--phase', 'player', '--spoilers', 'Tactical spoilers'] 
-STDIN: '1\n7\nnormal\n5\nplayer\n\n\n' 
-EXIT: 2 
-STDOUT:  
+DELEGATED STDERR:
+
+CASE: unsupported map difficulty
+DIRECT: play_briefing.py ['--chapter', '7', '--difficulty', 'normal', '--turn', '5', '--phase', 'player', '--spoilers', 'Tactical spoilers']
+STDIN: '1\n7\nnormal\n5\nplayer\n\n\n'
+EXIT: 2
+STDOUT:
 DELEGATED STDERR: This reference supports Hard only; other difficulties require separate datasets
 
 
-CASE: invalid phase 
-DIRECT: play_briefing.py ['--chapter', '7', '--difficulty', 'hard', '--turn', '5', '--phase', 'unknown', '--spoilers', 'Tactical spoilers'] 
-STDIN: '1\n7\nhard\n5\nunknown\n\n\n' 
-EXIT: 2 
-STDOUT:  
+CASE: invalid phase
+DIRECT: play_briefing.py ['--chapter', '7', '--difficulty', 'hard', '--turn', '5', '--phase', 'unknown', '--spoilers', 'Tactical spoilers']
+STDIN: '1\n7\nhard\n5\nunknown\n\n\n'
+EXIT: 2
+STDOUT:
 DELEGATED STDERR: usage: play_briefing.py [-h] [--chapter CHAPTER] [--difficulty DIFFICULTY]
                         [--turn TURN] [--phase {player,enemy}]
                         [--spoilers {No spoilers,Tactical spoilers,Full information}]
@@ -1144,3 +1144,4 @@ play_briefing.py: error: argument --phase: invalid choice: 'unknown' (choose fro
 
 
 Exit: 0
+Evidence presentation normalized: trailing line whitespace removed after exact stdout equality assertions.
