@@ -1,0 +1,16 @@
+CODE COMMIT: 6c16c873214b198e113e03fb69da0745182798e0
+COMMAND: python3 -m unittest discover -s tests -p test_duel_boundary.py -v
+test_baseline_full_output_equality (test_duel_boundary.DuelBoundary) ... ok
+test_both_side_unknown_matrix (test_duel_boundary.DuelBoundary) ... ok
+test_cli_malformed_and_semantic (test_duel_boundary.DuelBoundary) ... ok
+test_context_root_and_existing_refusals (test_duel_boundary.DuelBoundary) ... ok
+test_independent_deterministic_control (test_duel_boundary.DuelBoundary) ... ok
+test_run_paths_refused_before_read (test_duel_boundary.DuelBoundary) ... ok
+test_weapons_and_nested_effects (test_duel_boundary.DuelBoundary) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.998s
+
+OK
+
+EXIT: 0

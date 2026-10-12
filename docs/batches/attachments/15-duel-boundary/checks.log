@@ -1,0 +1,5 @@
+CODE COMMIT: 6c16c873214b198e113e03fb69da0745182798e0
+COMMAND: python3 tools/fw.py check
+0 error(s), 0 warning(s)
+
+EXIT: 0

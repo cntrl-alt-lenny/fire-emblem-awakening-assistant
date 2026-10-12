@@ -1,0 +1,18 @@
+CODE COMMIT: 6c16c873214b198e113e03fb69da0745182798e0
+COMMAND: python3 docs/batches/attachments/15-duel-boundary/controls.py
+Full output equals baseline: catalog
+Full output equals baseline: custom
+Full output equals baseline: forged
+Full output equals baseline: unarmed
+Full output equals baseline: lucky_seven
+Full output equals baseline: indoor_fighter
+Full output equals baseline: odd_rhythm
+Full output equals baseline: vantage
+Full output equals baseline: ignis
+Full output equals baseline: optional
+Full sequence output equals baseline; input unchanged
+Collector supported output equals baseline: custom
+Collector supported output equals baseline: catalog iron_sword
+Compatibility and immutable inputs; exit 0
+
+EXIT: 0

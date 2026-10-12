@@ -1,0 +1,6 @@
+CODE COMMIT: 6c16c873214b198e113e03fb69da0745182798e0
+COMMAND: node /tmp/fea-2026-10-12-render.cjs docs/duel-boundary.md docs/batches/15-duel-boundary.md
+Renderer: marked plus headless Chromium at 1200px; resolves local links and checks horizontal overflow.
+OUTPUT: Both files rendered; all local links resolve; no horizontal overflow.
+EXIT: 0
+Inspected full-page PNGs via view_image: readable headings, paragraphs and evidence table; no clipping or overlaps. Runtime renderer and screenshots remain private. Appearance checks do not verify gameplay or human usability.
