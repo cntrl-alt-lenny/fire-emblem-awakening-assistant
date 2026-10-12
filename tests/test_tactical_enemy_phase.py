@@ -154,6 +154,29 @@ class ObservedSequenceTests(unittest.TestCase):
         p = sequence(); p['enemies'][1]['context']['weather'] = 'unknown'
         self.unknown(p, 'context')
 
+    def test_fixed_sequence_context_direct_and_cli(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / 'sequence.json'
+            for field, values in (('turn', (1, 2)), ('outdoors', (False, True))):
+                p = sequence()
+                for entry, value in zip(p['enemies'], values):
+                    entry['context'][field] = value
+                self.unknown(p, 'enemies[1].context.' + field)
+                path.write_text(json.dumps(p))
+                result = subprocess.run([sys.executable, str(ROOT / 'tools/tactical_enemy_phase.py'),
+                                         str(path)], capture_output=True, text=True)
+                self.assertEqual(result.returncode, 0, result.stderr)
+                response = json.loads(result.stdout)
+                self.assertEqual(response['status'], 'UNKNOWN')
+                self.assertIsNone(response['outcome'])
+                self.assertIn('context.' + field, response['reason'])
+                p['enemies'][1]['context'][field] = values[0]
+                self.assertIsNotNone(evaluate(p)['outcome'])
+            p = sequence()
+            p['enemies'][0]['context']['outdoors'] = False
+            p['enemies'][1]['unit']['skills'] = ['indoor_fighter']
+            self.unknown(p, 'context.outdoors')
+
     def test_sequence_identity_and_completeness(self):
         for field, values in {'difficulty': ['Normal', None], 'mode': ['Casual', None],
                               'observed_inputs_complete': [1, None, False],

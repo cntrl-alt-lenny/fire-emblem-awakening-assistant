@@ -112,6 +112,7 @@ def validate(payload):
     if type(enemies) is not list or not enemies:
         fail('enemies', 'requires a nonempty list of explicitly ordered distinct attackers')
     seen = {player_id}
+    sequence_context = {}
     for index, entry in enumerate(enemies):
         path = 'enemies[' + str(index) + ']'
         if type(entry) is not dict or set(entry) != {'id', 'unit', 'context'}:
@@ -131,6 +132,11 @@ def validate(payload):
             integer(context['turn'], path + '.context.turn', 1)
         if 'outdoors' in context and type(context['outdoors']) is not bool:
             fail(path + '.context.outdoors', 'requires a boolean')
+        for field in ('turn', 'outdoors'):
+            if field in context:
+                if field in sequence_context and context[field] != sequence_context[field]:
+                    fail(path + '.context.' + field, 'conflicts with this fixed sequence context')
+                sequence_context[field] = context[field]
 
 
 def duel(payload, entry, player, index):

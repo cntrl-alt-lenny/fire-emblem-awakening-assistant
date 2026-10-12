@@ -61,7 +61,9 @@ checked independently. Only the player may be explicitly unequipped:
 
 Each context requires positive integer `distance`. Optional positive integer
 `turn` and boolean `outdoors` become mandatory when equipped skills depend
-on them. Other context keys are refused. Confirm that no healing, EXP-triggered
+on them. Explicit turn/outdoors values must agree across the sequence; distance
+may vary. Missing skill-required context is never filled from another entry.
+Other context keys are refused. Confirm that no healing, EXP-triggered
 level/stat/skill changes, equipment swaps, events or other changes intervene
 between the supplied duels. Such changes require a new observation, rather
 than an unrepresented sequence effect.
