@@ -77,7 +77,7 @@ def main():
             cmd = ['python3', 'tools/tactical_enemy_phase.py', str(path)]
             r = subprocess.run(cmd, capture_output=True, text=True, cwd=ROOT)
             print('COMMAND:', ' '.join(cmd))
-            print(r.stdout, end=''); print('STDERR:', r.stderr.strip()); print('EXIT:', r.returncode)
+            print(r.stdout, end=''); print(('STDERR: ' + r.stderr.strip()).rstrip()); print('EXIT:', r.returncode)
             assert r.returncode == 0 and json.loads(r.stdout) == direct
             assert hashlib.sha256(path.read_bytes()).hexdigest() == digest
             if 'refusal' in label or label.startswith(('missing_', 'unsupported_', 'malformed_', 'repeated_', 'conflicting_')):
@@ -85,8 +85,8 @@ def main():
         path = Path(tmp) / 'invalid.json'; path.write_text('{')
         cmd = ['python3', 'tools/tactical_enemy_phase.py', str(path)]
         r = subprocess.run(cmd, capture_output=True, text=True, cwd=ROOT)
-        print('COMMAND:', ' '.join(cmd)); print('STDOUT:', r.stdout.strip())
-        print('STDERR:', r.stderr.strip()); print('EXIT:', r.returncode)
+        print('COMMAND:', ' '.join(cmd)); print(('STDOUT: ' + r.stdout.strip()).rstrip())
+        print(('STDERR: ' + r.stderr.strip()).rstrip()); print('EXIT:', r.returncode)
         assert r.returncode == 2 and path.read_text() == '{'
     print('All synthetic payloads and temporary input files preserved; controls exit 0.')
 

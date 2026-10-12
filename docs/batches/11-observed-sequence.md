@@ -44,4 +44,6 @@ No implementation test failures. Baseline reference missing HP/durability still
 returned zero death and minimum HP 10; the new wrapper refuses both omissions.
 Two Chrome policy-load failures and Safari local-file sandbox refusal prevented
 UI inspection; successful standalone artifact rendering resolved that check.
-Initial checks are retained separately. No merge or PR created.
+A delivery evidence diff check found trailing separator spaces in empty-stream
+labels; formatting was fixed and the failure retained. Initial checks are
+retained separately. No merge or PR created.

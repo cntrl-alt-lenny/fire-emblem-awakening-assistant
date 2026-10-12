@@ -1,0 +1,35 @@
+DELIVERY ATTEMPT COMMIT: 78cf93f06824f2b471f55976545cd8c67705dc25
+COMMAND: git diff --check e78fa7bcc245071556a408f725105ac63ce7a8e9..HEAD
+docs/batches/attachments/11-observed-sequence/controls.log:119: trailing whitespace.
++STDERR: 
+docs/batches/attachments/11-observed-sequence/controls.log:209: trailing whitespace.
++STDERR: 
+docs/batches/attachments/11-observed-sequence/controls.log:227: trailing whitespace.
++STDERR: 
+docs/batches/attachments/11-observed-sequence/controls.log:245: trailing whitespace.
++STDERR: 
+docs/batches/attachments/11-observed-sequence/controls.log:319: trailing whitespace.
++STDERR: 
+docs/batches/attachments/11-observed-sequence/controls.log:337: trailing whitespace.
++STDERR: 
+docs/batches/attachments/11-observed-sequence/controls.log:355: trailing whitespace.
++STDERR: 
+docs/batches/attachments/11-observed-sequence/controls.log:429: trailing whitespace.
++STDERR: 
+docs/batches/attachments/11-observed-sequence/controls.log:447: trailing whitespace.
++STDERR: 
+docs/batches/attachments/11-observed-sequence/controls.log:465: trailing whitespace.
++STDERR: 
+docs/batches/attachments/11-observed-sequence/controls.log:483: trailing whitespace.
++STDERR: 
+docs/batches/attachments/11-observed-sequence/controls.log:501: trailing whitespace.
++STDERR: 
+docs/batches/attachments/11-observed-sequence/controls.log:519: trailing whitespace.
++STDERR: 
+docs/batches/attachments/11-observed-sequence/controls.log:522: trailing whitespace.
++STDOUT: 
+docs/batches/attachments/11-observed-sequence/preservation.log:7: trailing whitespace.
++STDOUT: 
+
+EXIT: 2
+Cause: empty stream labels printed a trailing separator space in evidence logs. Fixed label formatting and removed trailing separator whitespace; numerical output unchanged.

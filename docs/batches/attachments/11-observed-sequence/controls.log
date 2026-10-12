@@ -116,7 +116,7 @@ COMMAND: python3 tools/tactical_enemy_phase.py sequence-controls-x64zudo7/comple
   "safe_to_claim_map_survival": false,
   "warning": "Only this supplied sequence of distinct observed attackers. Independent uniform RNG model; no AI order/targets/paths, unseen enemies, reinforcements, between-duel events, healing or weapon swaps. Zero modeled player death is conditional, never whole-map safety. Enemy death is reported per step."
 }
-STDERR: 
+STDERR:
 EXIT: 0
 DIRECT evaluate: independent_composition
 {
@@ -206,7 +206,7 @@ COMMAND: python3 tools/tactical_enemy_phase.py sequence-controls-x64zudo7/indepe
   "safe_to_claim_map_survival": false,
   "warning": "Only this supplied sequence of distinct observed attackers. Independent uniform RNG model; no AI order/targets/paths, unseen enemies, reinforcements, between-duel events, healing or weapon swaps. Zero modeled player death is conditional, never whole-map safety. Enemy death is reported per step."
 }
-STDERR: 
+STDERR:
 EXIT: 0
 DIRECT evaluate: missing_player_current_hp
 {
@@ -224,7 +224,7 @@ COMMAND: python3 tools/tactical_enemy_phase.py sequence-controls-x64zudo7/missin
   "safe_to_claim_survival": false,
   "safe_to_claim_map_survival": false
 }
-STDERR: 
+STDERR:
 EXIT: 0
 DIRECT evaluate: missing_player_remaining_uses
 {
@@ -242,7 +242,7 @@ COMMAND: python3 tools/tactical_enemy_phase.py sequence-controls-x64zudo7/missin
   "safe_to_claim_survival": false,
   "safe_to_claim_map_survival": false
 }
-STDERR: 
+STDERR:
 EXIT: 0
 DIRECT evaluate: death_absorption
 {
@@ -316,7 +316,7 @@ COMMAND: python3 tools/tactical_enemy_phase.py sequence-controls-x64zudo7/death_
   "safe_to_claim_map_survival": false,
   "warning": "Only this supplied sequence of distinct observed attackers. Independent uniform RNG model; no AI order/targets/paths, unseen enemies, reinforcements, between-duel events, healing or weapon swaps. Zero modeled player death is conditional, never whole-map safety. Enemy death is reported per step."
 }
-STDERR: 
+STDERR:
 EXIT: 0
 DIRECT evaluate: unsupported_tail_after_certain_death
 {
@@ -334,7 +334,7 @@ COMMAND: python3 tools/tactical_enemy_phase.py sequence-controls-x64zudo7/unsupp
   "safe_to_claim_survival": false,
   "safe_to_claim_map_survival": false
 }
-STDERR: 
+STDERR:
 EXIT: 0
 DIRECT evaluate: malformed_tail_after_certain_death
 {
@@ -352,7 +352,7 @@ COMMAND: python3 tools/tactical_enemy_phase.py sequence-controls-x64zudo7/malfor
   "safe_to_claim_survival": false,
   "safe_to_claim_map_survival": false
 }
-STDERR: 
+STDERR:
 EXIT: 0
 DIRECT evaluate: newly_active_vantage_early_kill
 {
@@ -426,7 +426,7 @@ COMMAND: python3 tools/tactical_enemy_phase.py sequence-controls-x64zudo7/newly_
   "safe_to_claim_map_survival": false,
   "warning": "Only this supplied sequence of distinct observed attackers. Independent uniform RNG model; no AI order/targets/paths, unseen enemies, reinforcements, between-duel events, healing or weapon swaps. Zero modeled player death is conditional, never whole-map safety. Enemy death is reported per step."
 }
-STDERR: 
+STDERR:
 EXIT: 0
 DIRECT evaluate: cumulative_durability_refusal
 {
@@ -444,7 +444,7 @@ COMMAND: python3 tools/tactical_enemy_phase.py sequence-controls-x64zudo7/cumula
   "safe_to_claim_survival": false,
   "safe_to_claim_map_survival": false
 }
-STDERR: 
+STDERR:
 EXIT: 0
 DIRECT evaluate: repeated_entity
 {
@@ -462,7 +462,7 @@ COMMAND: python3 tools/tactical_enemy_phase.py sequence-controls-x64zudo7/repeat
   "safe_to_claim_survival": false,
   "safe_to_claim_map_survival": false
 }
-STDERR: 
+STDERR:
 EXIT: 0
 DIRECT evaluate: conflicting_context_turn
 {
@@ -480,7 +480,7 @@ COMMAND: python3 tools/tactical_enemy_phase.py sequence-controls-x64zudo7/confli
   "safe_to_claim_survival": false,
   "safe_to_claim_map_survival": false
 }
-STDERR: 
+STDERR:
 EXIT: 0
 DIRECT evaluate: conflicting_context_outdoors
 {
@@ -498,7 +498,7 @@ COMMAND: python3 tools/tactical_enemy_phase.py sequence-controls-x64zudo7/confli
   "safe_to_claim_survival": false,
   "safe_to_claim_map_survival": false
 }
-STDERR: 
+STDERR:
 EXIT: 0
 DIRECT evaluate: dynamic_sol_overkill_refusal
 {
@@ -516,10 +516,10 @@ COMMAND: python3 tools/tactical_enemy_phase.py sequence-controls-x64zudo7/dynami
   "safe_to_claim_survival": false,
   "safe_to_claim_map_survival": false
 }
-STDERR: 
+STDERR:
 EXIT: 0
 COMMAND: python3 tools/tactical_enemy_phase.py sequence-controls-x64zudo7/invalid.json
-STDOUT: 
+STDOUT:
 STDERR: Cannot read sequence JSON: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
 EXIT: 2
 All synthetic payloads and temporary input files preserved; controls exit 0.
