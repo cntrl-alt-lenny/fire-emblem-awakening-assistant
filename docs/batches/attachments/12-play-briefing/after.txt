@@ -1,0 +1,27 @@
+chapter_7 | Hard / Classic
+Current: player phase 5 -> target: enemy phase 5
+Known facts are source-supported, not a complete threat map. Hard beginning-enemy-phase spawns can move/attack immediately. Never rely on enemy-phasing an unknown wave. Tactical view abridges other-map references; Full information retains the original reference.
+Map completeness: PARTIAL; complete schedule: no; move safety certified: no.
+Candidates are reports, not predictions that an event condition is satisfied.
+Arrival status: present; absence reasonably supported: no; absence certain: no
+Current-map facts, hazards and uncertainty:
+  [SUPPORTED] map / objective: Rout the enemy — Verify displayed objective before declaring completion.
+  [SUPPORTED] map / deployment: 11 — Includes Chrom; automatic arrivals additional. Without preparation: initial army size.
+  [SUPPORTED] map / bosses: name: Vasto; class_name: Wyvern Rider; level: 12; equipment_text: Steel Axe; equipment_stats: UNKNOWN — Exact stats/skills unknown; weapon names do not establish procs.
+  [SUPPORTED] hazards / 1: Flying enemies cross mountain/cliff barriers. Cordelia arrives from the west on turn 3.
+  [SUPPORTED] recruitment / cordelia: Automatically from Turn 3 — Recruit must survive for retention in Classic.
+  [UNKNOWN] map / starting_area: UNKNOWN — Starting tiles unknown; observe map.
+  [UNKNOWN] map / initial_enemies: UNKNOWN — Roster/positions/stats/forges/skills incomplete; observe enemies, never substitute Lunatic templates.
+  [UNKNOWN] map / shops: UNKNOWN — World-map shops separate; in-map shop/event inventory incomplete.
+  [UNKNOWN] schedule / Additional arrivals/events: UNKNOWN — Schedule incomplete; no fixed match is not no spawn. Conditional/unknown-time families remain possible.
+  [UNKNOWN] safety / Complete threat geometry: UNKNOWN — Positions/stats/equipment/skills/events incomplete; empty results or zero modeled risk do not certify a move.
+Candidate hard_chapter_7_t5 [SUPPORTED]; schedule completeness: UNKNOWN
+  [SUPPORTED] timing: kind: fixed; turns: 5; event: UNKNOWN; repeat: UNKNOWN — Turn/count/equipment single indexed Hard source; west corroborated. Schedule incomplete.
+  [SUPPORTED] location: Western map edge
+  [SUPPORTED] units: count: 3; class_id: wyvern_rider; equipment: steel_axe; level: 7; location: UNKNOWN — Only listed attributes supported; nulls UNKNOWN, never absent. Skills/exact forges unestablished.
+  [SUPPORTED] spawn_phase: beginning_enemy_phase — Rule applied conditionally; scripted exceptions not excluded.
+  [SUPPORTED] immediate_action: can_move: yes; can_attack: yes; can_kill_on_spawn: yes — VERIFIED rule, conditional application: ordinary EP-beginning arrivals act/kill immediately. Wave not independently observed; scripted phase/exceptions uncertain.
+  [UNKNOWN] coordinates: UNKNOWN
+  [UNKNOWN] skills: UNKNOWN
+  [UNKNOWN] suppression: UNKNOWN
+Use --provenance for claim source IDs; --details for the full spoiler-filtered query.

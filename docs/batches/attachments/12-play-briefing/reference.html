@@ -1,0 +1,81 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Play briefing reference and evidence</title><style>body{margin:0;background:#eef2f5;color:#182330;font:17px/1.5 system-ui}article{max-width:1000px;margin:24px auto;padding:30px;background:white;border-radius:12px}h1,h2{line-height:1.2;color:#163f61}h2{margin-top:32px}pre{padding:14px;background:#f3f6f8;border-radius:6px;white-space:pre-wrap;overflow-wrap:anywhere;font:14px/1.5 ui-monospace,Menlo,monospace}code{font:14px/1.5 ui-monospace,Menlo,monospace;overflow-wrap:anywhere}a{color:#17649b}table{border-collapse:collapse;width:100%;font-size:14px}td,th{border:1px solid #ccd6dc;padding:8px;text-align:left}</style><article><h1>Current-map play briefing</h1>
+<p><code>play_briefing.py</code> presents the existing <a href="../../../hard-reinforcements.md">Hard/Classic query</a>
+as readable text, without initializing a run or making a deployment decision.
+It uses only the offline reference; it adds no gameplay facts or verified coverage.</p>
+<pre><code class="language-sh">python3 tools/play_briefing.py --chapter 7 --difficulty hard --turn 5 --phase player
+</code></pre>
+<p>The selected map, current phase and target enemy phase lead the answer. Player
+phase 5 targets enemy phase 5; enemy phase 5 targets enemy phase 6. Chapter 7&#39;s
+fixed turn-5 candidate appears in the first case, not the second. A missing
+candidate never proves no arrivals. Chapter 11&#39;s fort family remains a possible
+candidate from target turn 3 onward, without predicting arrivals every turn;
+its separate northwest report is fixed at target turn 4. Unknown, event,
+warning-relative and repeating families follow <code>map_info.query</code> unchanged.</p>
+<p>Every returned claim keeps its value and confidence. Repeated standard caveats
+are shortened in the text view; unique notes and all conflicted notes remain
+unabridged. Unknown attributes inside a supported group remain UNKNOWN.
+Supported absence remains distinct from certainty. A general immediate-action
+rule is applied conditionally, with map-specific scripted uncertainty visible.
+No complete threat map, arrival schedule or move safety is certified.</p>
+<h2>Evidence views</h2>
+<pre><code class="language-sh">python3 tools/play_briefing.py --chapter 7 --difficulty hard --turn 5 --phase player --provenance
+python3 tools/play_briefing.py --chapter 7 --difficulty hard --turn 5 --phase player --details
+python3 tools/play_briefing.py --chapter 15 --difficulty hard --turn 5 --phase player --spoilers &quot;Full information&quot; --details
+</code></pre>
+<p><code>--provenance</code> adds each claim&#39;s source IDs and restores full notes.
+<code>--details</code> emits the entire spoiler-filtered query as JSON, including candidate
+families, confidence, source IDs and completeness flags. Neither view bypasses
+spoiler settings. Source IDs can be traced in the local <a href="../../../../data/sources.json">source registry</a>
+and <a href="../../../../SOURCES.md">source reference</a>.</p>
+<p>Tactical spoilers is the default. Tactical output stays on the selected map:
+references to other numbered maps in inherited caveats become “another map,”
+with the caveat retained. This abridgment is disclosed in the warning.
+Explicit Full information preserves the original query and its cross-map
+provenance notes; it still does not query additional maps.</p>
+<pre><code class="language-sh">python3 tools/play_briefing.py --chapter 7 --difficulty hard --turn 5 --phase player --spoilers &quot;No spoilers&quot;
+</code></pre>
+<p>No spoilers emits only selected context, the current/target phases, a general
+incomplete-map warning and notice that detailed material is withheld. It
+contains no tactical claims, recruit/event labels or source IDs/titles, even
+with <code>--details</code> or <code>--provenance</code>. It makes no map-specific threat assertion.</p>
+<h2>Optional existing run context</h2>
+<pre><code class="language-sh">python3 tools/play_briefing.py --state state/current_run.json --phase player
+</code></pre>
+<p>Only a deliberately selected existing JSON file is read. The default command
+never opens a live run. State may supply chapter, difficulty, turn and
+<code>spoiler_mode</code>; it must explicitly record Classic. This forensic reference
+supports Hard/Classic only and refuses other difficulties or a Casual run.
+No phase is stored by the tracker: <code>--phase</code> is required even if a selected
+JSON file happens to contain a phase field. Establish the actual phase first.</p>
+<p>Explicit chapter aliases are normalized before comparison. Chapter, difficulty
+and turn must agree with known state context; mismatches fail with exit 2 and
+no briefing. Missing context can be supplied explicitly. An intentional
+<code>--spoilers</code> option overrides the recorded preference; an omitted option uses
+that preference, then the Tactical default. Malformed or missing state and
+unknown context are refused. No file is initialized, rewritten or locked.
+Unit stats, inventory, deaths and history are never used or converted.</p>
+<h2>Before and after</h2>
+<p>The baseline Chapter 7 command prints 333 JSON lines. The new default prints
+27 physical text lines (363 words); terminal wrapping can increase display
+lines. It retains the western three-Wyvern turn-5 report, flying hazard,
+recruitment condition, conditional immediate action and all material unknowns.</p>
+<pre><code class="language-text">chapter_7 | Hard / Classic
+Current: player phase 5 -&gt; target: enemy phase 5
+...
+Candidate hard_chapter_7_t5 [SUPPORTED]; schedule completeness: UNKNOWN
+  [SUPPORTED] location: Western map edge
+...
+  [UNKNOWN] coordinates: UNKNOWN
+  [UNKNOWN] skills: UNKNOWN
+  [UNKNOWN] suppression: UNKNOWN
+</code></pre>
+<p>These ellipses are documentation excerpts; the CLI never truncates claims to
+meet a line budget. Chapter 17 and other complex records may exceed 30 lines
+or include long lines because material disagreements and dangers take priority.
+See the complete <a href="../../../batches/attachments/12-play-briefing/before.json">before JSON</a>,
+<a href="../../../batches/attachments/12-play-briefing/after.txt">after text</a>, and
+<a href="../../../batches/attachments/12-play-briefing/acceptance.log">CLI acceptance evidence</a>.</p>
+<p>Presentation and context tests protect the existing evidence boundary. They
+do not establish source truth, actual event conditions, a complete reinforcement
+schedule, or real play-session usability.</p>
+</article></html>
