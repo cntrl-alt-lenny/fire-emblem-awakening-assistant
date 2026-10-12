@@ -37,7 +37,7 @@ index 99d4bcb..c5b7d0e 100644
  from combat_calculator import calculate,SAFE_WEAPON_EFFECTS,SAFE_SKILLS
  from combat_events import EVENT_SKILLS
  REQUIRED=('stats','current_hp','weapon','weapon_rank','skills','weaknesses','terrain','combat_bonuses','remaining_uses')
- 
+
 +UNIT_FIELDS=set(REQUIRED)|{'weapon_state','alive','forge','id','name'}
 +WEAPON_FIELDS={'id','name','weapon_type','damage_type','might','hit','crit','range',
 +               'rank','effect','brave','effectiveness'}
@@ -187,3 +187,5 @@ index 99d4bcb..c5b7d0e 100644
 + dump(assess(payload))
  if __name__=='__main__':main()
 EXIT: 0
+
+Raw diff context whitespace trimmed only in this evidence log.

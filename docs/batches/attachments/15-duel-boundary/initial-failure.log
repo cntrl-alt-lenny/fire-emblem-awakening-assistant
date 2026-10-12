@@ -1419,3 +1419,5 @@ FAILED (failures=122)
 Second attempt: 199 tests; only framework hygiene failed (public log contained local paths). Sanitized paths; exit 1.
 Compatibility script initial attempt: ImportError for nonexistent observed_input.collect. Removed unused import; exit 1.
 Initial exploration: shell glob docs/tactical* and rg tests/test_input_shapes.py referenced nonexistent paths; exits 1 and 2.
+
+Delivery diff check at a2c0cbabf8159cd4d063273aef8bcb25aa537a6a: exit 2; raw diff embedded a whitespace-only context line in diff.log. Trimmed evidence-line trailing whitespace; production unchanged.
